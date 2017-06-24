@@ -1,0 +1,13 @@
+====== Operación Modificar ======
+
+Para **Modificar** los **Conceptos para Dias Adicionales** asociados a una Tipo de Nómina:   <html><br><br></html>
+
+  * Seleccionar de la **Lista** la **Nómina** a la cual desea modificar los Conceptos para Días Adicionales. 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefcondiasadimod.jpg|}}"></div><br></html> 
+
+  * Realice las modificaciones necesarias. Es importante señalar que las modificaciones que puede realizar es marcar o desmarcar aquellos Conceptos que desee sean o dejen de ser asignados para Dias Adicionales.<html><br><br></html>
+
+  * Presionar  {{:btnguardar.jpg|}}   para registrar las modificaciones realizadas. <html><br><br></html>
+
+  * El sistema muestra un mensaje de éxito.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

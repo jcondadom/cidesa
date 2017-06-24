@@ -1,0 +1,33 @@
+opciones:                  # Opciones generales
+  eliminar:                true
+  tabla:                   Npcalnomrot
+  anchogrid:               850
+  ancho:                   800
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Jornada
+  tipo:                    c
+  nombrecampo:             codjor
+  esgrabable:			         true
+  html:                    [ ]
+2:       # Columna 2
+  titulo:                  Fecha
+  tipo:                    t
+  nombrecampo:             fecjor
+  esgrabable:			         false
+  html:                    [ readonly=true ]
+  comofecha:               true
+3:       # Columna 3
+  titulo:                  Número Día
+  tipo:                    t
+  nombrecampo:             numdia
+  esgrabable:			         false
+  html:                    [ readonly=true ]
+4:       # Columna 4
+  titulo:                  Día Semana
+  tipo:                    t
+  nombrecampo:             diasem
+  esgrabable:			         false
+  html:                    [ readonly=true ]

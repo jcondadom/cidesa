@@ -1,0 +1,27 @@
+====== Datos Personales ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite actualizar y consultar todos los datos básicos del empleado, incluyendo sus datos de Habitación, Ingresos, Información Bancaria, Información Curricular, Información Familiar, Experiencia Laboral, Condiciones de su vivienda, y otras características importantes para la Institución, todo esto mostrado en una Hoja Integral de cada empleado de la institución.</html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Personal** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperper.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Datos Personales**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdatper.jpg|}}"></div><br></html>
+
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Datos Personales** solo podrá realizar las Operaciones Básicas de:
+
+  * [[Incluir Datos Personales|Incluir]]
+
+  * [[Modificar Datos Personales|Modificar]]
+
+  * [[Eliminar Datos Personales|Eliminar]]
+
+  * [[Consultar Datos Personales|Consultar]]

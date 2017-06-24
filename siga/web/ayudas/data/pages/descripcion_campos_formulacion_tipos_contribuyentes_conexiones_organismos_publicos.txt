@@ -1,0 +1,14 @@
+====== Descripción de Campos ======
+
+Los campos que conforman la pantalla **Tipos de Contribuyentes / Conexiones a Organismos Públicos** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpretipcontconexorgpubinc1.jpg}}"></div><br></html>
+
+  * **Código:** Indica el número que identifica al tipo de contribuyente ó conexión con la Insitución. <html><br><br></html>
+
+  * **Descripción:** Indica el nombre del tipo de contribuyente ó conexión. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Tipos de Contribuyentes / Conexiones a Organismos Públicos** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+
+
+

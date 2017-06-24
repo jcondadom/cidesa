@@ -1,0 +1,41 @@
+====== Operación Incluir ======
+
+Para **Registrar** un determinado Movimiento por Empleado: <html><br><br></html>
+
+  * Presione el Botón {{:btnguardar.jpg|}}
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompermovempinc1.jpg|}}"></div><br></html>
+
+  * Seleccione el **Código de la Nómina** <html><br><br></html>
+
+  * Seleccione el **Código del Empleado** <html><br><br></html>
+
+  * Seleccione el **Código del Cargo**
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompermovempinc2.jpg|}}"></div><br></html>
+
+  * En la tabla **Conceptos** se muestra la siguiente información:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** **Código** y **Nombre** del Concepto.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** **Cantidad** y **Monto** definido para ese Concepto por cada empleado.<html><br><br></html>
+
+
+  * Luego que el sistema carga automáticamente los datos de cada empleado de la Nómina, usted puede modificar el Valor de cada uno de los Conceptos, haciendo doble click sobre las columna **Valor**, respectivamente, en la fila del Concepto al cual se le modificará su valor.<html><br><br></html>
+
+  * Presione el Botón {{:btnguardar.jpg|}} para registrar la información.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

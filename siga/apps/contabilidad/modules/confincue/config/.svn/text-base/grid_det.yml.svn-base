@@ -1,0 +1,50 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   Contabb1
+  anchogrid:               600
+  ancho:                   350
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Período
+  tipo:                    t
+  nombrecampo:             pereje
+  esgrabable:              true
+  html:                    ["size=5 readOnly=true"]
+2:       # Columna 2
+  titulo:                  Débito
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             totdeb
+  esnumerico:              true
+  html:                    ["size=10"]
+3:       # Columna 3
+  titulo:                  Crédito
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             totcre
+  esnumerico:              true
+  html:                    ["size=10"]  
+4:       # Columna 4
+  titulo:                  Saldo del Período
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             salper
+  esnumerico:              true
+  html:                    ["size=10"]  
+5:       # Columna 5
+  titulo:                  Saldo Actual
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             salact
+  esnumerico:              true
+  html:                    ["size=10 readOnly=true"]  
+6:       # Columna 6
+  titulo:                  Saldo Programado
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             salprgper
+  esnumerico:              true
+  html:                    ["size=10"]         

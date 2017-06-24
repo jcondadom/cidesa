@@ -1,0 +1,16 @@
+======Fondos a Terceros======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite registrar Ordenes de Pago con respecto a otras instituciones.
+
+**Para ello:**
+
+  * Seleccione la opción **Tesorería ó Banco** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesban.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Ordenamiento de Pago** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanordpag.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Fondos a Terceros**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanordpagfondterc.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Fondos a Terceros** veamos la [[Descripcion_Campos_fondos_terceros|Descripción de los Campos]]

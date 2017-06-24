@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/om/php4
+END
+NodePeer.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/om/php4/NodePeer.tpl
+END
+ExtensionNode.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/om/php4/ExtensionNode.tpl
+END
+ExtensionObject.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/om/php4/ExtensionObject.tpl
+END
+MapBuilder.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/om/php4/MapBuilder.tpl
+END
+Node.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/om/php4/Node.tpl
+END
+Object.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/om/php4/Object.tpl
+END
+ExtensionPeer.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/om/php4/ExtensionPeer.tpl
+END
+MultiExtendObject.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/om/php4/MultiExtendObject.tpl
+END
+Peer.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/om/php4/Peer.tpl
+END
+ExtensionNodePeer.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/om/php4/ExtensionNodePeer.tpl
+END
+Interface.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/om/php4/Interface.tpl
+END

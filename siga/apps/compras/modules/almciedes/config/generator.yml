@@ -1,0 +1,17 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cadphart
+    theme:            cidesaGenerator
+    fields:
+      grid:           { name: .}            
+      fecdphdes:      { name: Fecha Desde}
+      fecdphhas:      { name: Fecha Hasta}
+    edit:
+      title:          Cierre de Despachos
+      display:
+        Filtros:  [_fecdphdes, _fecdphhas]
+        Despachos:  [_grid]
+      actions:
+        _save:        ~
+        _delete:      none

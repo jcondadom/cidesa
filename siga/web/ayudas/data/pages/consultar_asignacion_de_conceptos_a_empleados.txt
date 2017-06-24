@@ -1,0 +1,24 @@
+====== Operación Consultar ======
+
+**Para consultar la Asignación de Conceptos a Empleados:**   <html><br><br></html>
+
+  * Presione el **Botón**  {{:btnlista.jpg|}}    <html><br><br></html>
+
+  * Seleccione de la **Lista** el **Código del Concepto**.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasiconempmod.jpg|}}"></div><br></html>
+
+  * El sistema automáticamente muestra los empleados que fueron asignados al Concepto seleccionado anteriormente.<html><br><br></html>
+
+  * Si desea consultar los empleados que fueron asignados a un nuevo Concepto debe presionar nuevamente el** Botón** {{:btnlista.jpg|}}  y repetir los pasos anteriores. <html><br><br></html>
+
+
+**Para consultar datos desde el Inicio de la pantalla de Asignación de Conceptos a Empleados:**  <html><br><br></html>
+
+  * El sistema muestra la **Lista** con los Conceptos que poseen empleados asignados.<html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasiconempmod.jpg|}}"></div><br></html>
+
+  * Seleccione de la **Lista** el **Código del Concepto** para el cual desea consultar los empleados asignados a él. <html><br><br></html>
+
+  * El sistema automáticamente muestra los empleados asignados al Concepto seleccionado <html><br><br></html>

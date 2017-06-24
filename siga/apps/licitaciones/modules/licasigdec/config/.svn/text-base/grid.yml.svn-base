@@ -1,0 +1,65 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   liasigdec
+  anchogrid:               900
+  ancho:                   600
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          '  '
+1:       # Columna 1
+  titulo:                  Ver
+  tipo:                    t
+  nombrecampo:             docu
+  html:                    [ size=1  class=imagenalmacen readonly=true  onClick="VerDoc(this.id)" ]
+  esgrabable:              false
+2:       # Columna 1
+  titulo:                  Check
+  tipo:                    k
+  nombrecampo:             check
+  html:                    [ size=1  onClick="BuscarDeclar(this.id)"]
+  esgrabable:              true
+3:       # Columna 2
+  titulo:                  Número de Documentos
+  tipo:                    t
+  nombrecampo:             numdoc
+  html:                    [size="10" readonly=true]
+  esgrabable:              true
+4:       # Columna 3
+  titulo:                  De
+  tipo:                    t
+  nombrecampo:             coduniadm
+  html:                    [size="5" readonly=true]
+  esgrabable:              false
+5:       # Columna 3
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desuniadm
+  html:                    [size="30" readonly=true]
+  esgrabable:              false
+6:       # Columna 3
+  titulo:                  Para
+  tipo:                    t
+  nombrecampo:             coduniste
+  html:                    [size="5" readonly=true]
+  esgrabable:              false
+7:       # Columna 3
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desuniste
+  html:                    [size="30" readonly=true]
+  esgrabable:              false
+8:       # Columna 3
+  titulo:                  Id
+  tipo:                    t
+  nombrecampo:             campoid
+  html:                    [size="30" readonly=true]
+  esgrabable:              false
+  oculta:                  true
+9:       # Columna 3
+  titulo:                  Tipconpub
+  tipo:                    t
+  nombrecampo:             tipconpub
+  html:                    [size="30" readonly=true]
+  esgrabable:              false
+  oculta:                  true  

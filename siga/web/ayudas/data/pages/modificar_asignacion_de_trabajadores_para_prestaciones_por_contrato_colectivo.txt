@@ -1,0 +1,19 @@
+====== Operación Modificar ======
+
+Para **Modificar** una **Asignación de Trabajadores para Prestaciones por Contrato Colectivo**:<html><br><br></html>
+
+  * Seleccionar de la Lista el **Código del Contrato** para el cual desea modificar la Asignación de Trabajadores para Prestaciones por Contrato Colectivo.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasidetraparapreporconcolmod1.jpg|}}"></div><br><br></html>
+
+  * Las modificaciones que podrá realizar es Agregar o Quitar elementos de la tabla. Para **Agregar** un elemento a la tabla debe presionar el **Botón de Consulta** <html>&nbsp;&nbsp;</html>{{:btnconsultagrid.jpg|}} y seleccionar ya sea el Código de la Nómina y del Empleado que desea agregar.<html>&nbsp;&nbsp;</html> Para Quitar un elemento de la tabla debe presionar el **Botón** <html>&nbsp;&nbsp;</html>{{:btnquitar.jpg|}} que se encuentre de lado izquierdo del Código de Nómina.<html><br><br></html> 
+
+  * Presionar {{:btnguardar.jpg|}} para actualizar la información.  <html><br><br></html> 
+
+  * El sistema emite un **Mensaje de Éxito**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>
+
+
+
+
+

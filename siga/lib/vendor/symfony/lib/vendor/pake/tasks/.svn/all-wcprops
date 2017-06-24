@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/pake/tasks
+END
+pakePhingTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/pake/tasks/pakePhingTask.class.php
+END
+pakePearTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/pake/tasks/pakePearTask.class.php
+END
+pakeSimpletestTask.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/pake/tasks/pakeSimpletestTask.class.php
+END

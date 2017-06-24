@@ -1,0 +1,22 @@
+opciones:                  # Opciones generales
+  name:                    s
+  eliminar:                false
+  tabla:                   npadeint
+  anchogrid:               500
+  ancho:                   400
+  filas:                   0
+  titulo:                  'Abono 8,5% / Anticipos sobre Intereses de Prestaciones Sociales'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Fecha del Abono
+  tipo:                    f
+  nombrecampo:             fecade
+  html:                    ["size=20 readOnly=true"]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Monto del Abonado
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monade
+  esnumerico:              true
+  html:                    ["size=20 readOnly=true"]

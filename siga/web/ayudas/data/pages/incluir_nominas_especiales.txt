@@ -1,0 +1,22 @@
+====== Operación Incluir ======
+
+Para **Registrar** una Nómina Especial: <html><br><br></html>
+
+  * Presione el Botón {{:btnnuevo.jpg|}}  
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompernomespdefinc1.jpg|}}"></div><br></html> 
+
+  * Ingrese el Código que identificará a la Nómina Especial que está registrando. <html><br><br></html>
+
+  * Ingrese la Descripción. <html><br><br></html>
+
+  * Seleccione del calendario {{:btncalendario.jpg|}} el **Período Desde** y **Hasta** para la Nómina Especial que esta registrando.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompernomespdefinc2.jpg|}}"></div><br></html> 
+
+  * Por último en la tabla Nómina presione el Botón {{:btnconsultagrid.jpg|}} para que el sistema muestre las Nóminas que ya fueron registradas previamente en el sistema, debe seleccionar de dicho catálogo aquellas que formarán parte de la Nómina Especial que está registrando. <html><br><br></html>
+
+  * Presione el **Botón** {{:btnguardar.jpg|}} para registrar la información.
+
+
+

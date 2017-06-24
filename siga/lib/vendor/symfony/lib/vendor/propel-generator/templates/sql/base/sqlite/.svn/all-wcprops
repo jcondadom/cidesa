@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/sqlite
+END
+foreignkey.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/sqlite/foreignkey.tpl
+END
+drop.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/sqlite/drop.tpl
+END
+unique.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/sqlite/unique.tpl
+END
+index.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/sqlite/index.tpl
+END
+table.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/sqlite/table.tpl
+END
+tablefk.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/sqlite/tablefk.tpl
+END
+columns.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/sqlite/columns.tpl
+END

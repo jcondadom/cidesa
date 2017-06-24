@@ -1,0 +1,1589 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/47684/web/php/siga/branches/productions/trunk/lib/model/hacienda/om
+END
+BaseFcrangosdes.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrangosdes.php
+END
+BaseFcacceso.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcacceso.php
+END
+BaseFcreginmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcreginmPeer.php
+END
+BaseFcdefubimagPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefubimagPeer.php
+END
+BaseFcfuentesmulPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcfuentesmulPeer.php
+END
+BaseFcclaesp.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcclaesp.php
+END
+BaseFcusoinm.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcusoinm.php
+END
+BaseFcmodproPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcmodproPeer.php
+END
+BaseFcdefrecintPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefrecintPeer.php
+END
+BaseFccon.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFccon.php
+END
+BaseFcrecdesPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrecdesPeer.php
+END
+BaseFccatfisPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFccatfisPeer.php
+END
+BaseFcusovehPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcusovehPeer.php
+END
+BaseFcfuepre.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/47243/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcfuepre.php
+END
+BaseFcliqpagPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45270/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcliqpagPeer.php
+END
+BaseFcplatasPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/44545/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcplatasPeer.php
+END
+BaseFcmodpro.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcmodpro.php
+END
+BaseFctipespdet.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctipespdet.php
+END
+BaseFcprolicdetPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcprolicdetPeer.php
+END
+BaseFcretencionPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcretencionPeer.php
+END
+BaseFcdefentextPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefentextPeer.php
+END
+BaseFcsoldetPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcsoldetPeer.php
+END
+BaseFcdetreccobPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdetreccobPeer.php
+END
+BaseFcbanent.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcbanent.php
+END
+BaseFcpaisPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcpaisPeer.php
+END
+BaseFcplatas.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/44545/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcplatas.php
+END
+BaseFcsolneg.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcsolneg.php
+END
+BaseFcsoldet2Peer.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcsoldet2Peer.php
+END
+BaseFcapulicPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcapulicPeer.php
+END
+BaseFcpais.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcpais.php
+END
+BaseFcabonosPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcabonosPeer.php
+END
+BaseFcactcomHcPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcactcomHcPeer.php
+END
+BaseFcdefdesc.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefdesc.php
+END
+BaseFcinmmodPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcinmmodPeer.php
+END
+BaseFcpaging.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcpaging.php
+END
+BaseFcdefplaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/44545/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefplaPeer.php
+END
+BaseFcdefdetsol2Peer.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefdetsol2Peer.php
+END
+BaseFcaliusoPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcaliusoPeer.php
+END
+BaseFccarinm.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFccarinm.php
+END
+BaseFcpagos.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45067/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcpagos.php
+END
+BaseFcdefubifisPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefubifisPeer.php
+END
+BaseFcsoldet2.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcsoldet2.php
+END
+BaseFcactpicPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcactpicPeer.php
+END
+BaseFcparroqPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcparroqPeer.php
+END
+BaseFcunimonPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcunimonPeer.php
+END
+BaseFcdetliq.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45067/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdetliq.php
+END
+BaseFcconpagPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcconpagPeer.php
+END
+BaseFcdecpag.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45642/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdecpag.php
+END
+BaseFcconrepcoPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcconrepcoPeer.php
+END
+BaseFcdefdetsolPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefdetsolPeer.php
+END
+BaseFctipsolPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctipsolPeer.php
+END
+BaseFccobrad.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFccobrad.php
+END
+BaseFcesplicPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcesplicPeer.php
+END
+BaseFcaliuso.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcaliuso.php
+END
+BaseFcestinm.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcestinm.php
+END
+BaseFcdefubifis.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefubifis.php
+END
+BaseFcrangosdesPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrangosdesPeer.php
+END
+BaseFcconrepPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/44651/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcconrepPeer.php
+END
+BaseFcmodespPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcmodespPeer.php
+END
+BaseFcparroq.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcparroq.php
+END
+BaseFcajustePeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcajustePeer.php
+END
+BaseFcdefuniadmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefuniadmPeer.php
+END
+BaseFcconrepco.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcconrepco.php
+END
+BaseFcaccesoPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcaccesoPeer.php
+END
+BaseFctipapudetPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctipapudetPeer.php
+END
+BaseFcbansalPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcbansalPeer.php
+END
+BaseFcrangosrec.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrangosrec.php
+END
+BaseFcvalinm.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcvalinm.php
+END
+BaseFcdprinm.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdprinm.php
+END
+BaseFcestadoPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcestadoPeer.php
+END
+BaseFcdefuniadm.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefuniadm.php
+END
+BaseFcrecursoPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrecursoPeer.php
+END
+BaseFcbansal.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcbansal.php
+END
+BaseFctrainmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctrainmPeer.php
+END
+BaseFcrepliqPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrepliqPeer.php
+END
+BaseFcrutcobPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrutcobPeer.php
+END
+BaseFctippro.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctippro.php
+END
+BaseFctipespdetPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctipespdetPeer.php
+END
+BaseFcdefubimag.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefubimag.php
+END
+BaseFcvalinmold.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcvalinmold.php
+END
+BaseFcmodapu.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcmodapu.php
+END
+BaseFcfuentesmul.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcfuentesmul.php
+END
+BaseFctralicPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctralicPeer.php
+END
+BaseFcrepliq.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrepliq.php
+END
+BaseFcreccob.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcreccob.php
+END
+BaseFcdetabo.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdetabo.php
+END
+BaseFconrepPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFconrepPeer.php
+END
+BaseFcdefrecdesPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefrecdesPeer.php
+END
+BaseFcdeftipdoc.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdeftipdoc.php
+END
+BaseFcdefrecint.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefrecint.php
+END
+BaseFcdeftasasPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/44545/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdeftasasPeer.php
+END
+BaseFcreccon.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcreccon.php
+END
+BaseFcdefdescPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefdescPeer.php
+END
+BaseFctipprodet.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctipprodet.php
+END
+BaseFcdefpgiPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefpgiPeer.php
+END
+BaseFcdeucon.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdeucon.php
+END
+BaseFcpagingPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcpagingPeer.php
+END
+BaseFcrangosmulPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrangosmulPeer.php
+END
+BaseFcdefutPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45229/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefutPeer.php
+END
+BaseFcdefrecdes.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefrecdes.php
+END
+BaseFcpagosPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/44651/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcpagosPeer.php
+END
+BaseFccarinmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFccarinmPeer.php
+END
+BaseFcrecdesgPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrecdesgPeer.php
+END
+BaseFcrecdespag.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrecdespag.php
+END
+BaseFcinmcomPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcinmcomPeer.php
+END
+BaseFcmodinmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcmodinmPeer.php
+END
+BaseFcelideclarPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/46651/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcelideclarPeer.php
+END
+BaseFcrecdesg.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrecdesg.php
+END
+BaseFcotringPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcotringPeer.php
+END
+BaseFcactcomPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/47684/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcactcomPeer.php
+END
+BaseFcmodlicPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcmodlicPeer.php
+END
+BaseFcinmmod.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcinmmod.php
+END
+BaseFcelideclar.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/46651/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcelideclar.php
+END
+BaseFcapulicdetPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/45793/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcapulicdetPeer.php
+END
+BaseFcdeclar.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/46638/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdeclar.php
+END
+BaseFcdesvehPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdesvehPeer.php
+END
+BaseFcdefpla.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/44545/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefpla.php
+END
+BaseFcdefdetsol2.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefdetsol2.php
+END
+BaseFcrutas.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrutas.php
+END
+BaseFccominmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFccominmPeer.php
+END
+BaseFcsolvenciaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/46749/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcsolvenciaPeer.php
+END
+BaseFcnomnegPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcnomnegPeer.php
+END
+BaseFcsitjurinmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcsitjurinmPeer.php
+END
+BaseFcactpic.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcactpic.php
+END
+BaseFcdprinmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdprinmPeer.php
+END
+BaseFcconpag.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcconpag.php
+END
+BaseFcesplic.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcesplic.php
+END
+BaseFcreciboPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcreciboPeer.php
+END
+BaseFcinmcamPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcinmcamPeer.php
+END
+BaseFcmodveh.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcmodveh.php
+END
+BaseFcdeffunPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdeffunPeer.php
+END
+BaseFcsitjurinm.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcsitjurinm.php
+END
+BaseFcusoinmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcusoinmPeer.php
+END
+BaseFcmodesp.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcmodesp.php
+END
+BaseFctipproPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctipproPeer.php
+END
+BaseFcajuste.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcajuste.php
+END
+BaseFcesppub.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcesppub.php
+END
+BaseFctipapudet.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctipapudet.php
+END
+BaseFcmodapuPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcmodapuPeer.php
+END
+BaseFcvalinmoldPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcvalinmoldPeer.php
+END
+BaseFcfueprePeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/47243/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcfueprePeer.php
+END
+BaseFctipapu.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctipapu.php
+END
+BaseFcinmcam.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcinmcam.php
+END
+BaseFcrepfisPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrepfisPeer.php
+END
+BaseFcsuscanPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcsuscanPeer.php
+END
+BaseFcreccobPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcreccobPeer.php
+END
+BaseFcdeftipdocPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdeftipdocPeer.php
+END
+BaseFcestado.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcestado.php
+END
+BaseFcrecconPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrecconPeer.php
+END
+BaseFcrepfis.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrepfis.php
+END
+BaseFcdeuconPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdeuconPeer.php
+END
+BaseFcdetinmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdetinmPeer.php
+END
+BaseFcregvehPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcregvehPeer.php
+END
+BaseFcsuscan.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcsuscan.php
+END
+BaseFcmuniciPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcmuniciPeer.php
+END
+BaseFcaliinm.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcaliinm.php
+END
+BaseFcrecdespagPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrecdespagPeer.php
+END
+BaseFcfuentesrecPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcfuentesrecPeer.php
+END
+BaseFccajeroPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFccajeroPeer.php
+END
+BaseFcdetpagPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45591/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdetpagPeer.php
+END
+BaseFcdetinm.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdetinm.php
+END
+BaseFcregveh.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcregveh.php
+END
+BaseFconrep.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFconrep.php
+END
+BaseFcmunici.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcmunici.php
+END
+BaseFcsollic.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/44383/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcsollic.php
+END
+BaseFcdefentext.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefentext.php
+END
+BaseFcretencion.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcretencion.php
+END
+BaseFctraveh.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctraveh.php
+END
+BaseFcdetreccob.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdetreccob.php
+END
+BaseFcsoldet.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcsoldet.php
+END
+BaseFcdetliqPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45067/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdetliqPeer.php
+END
+BaseFcdetrepPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdetrepPeer.php
+END
+BaseFcdetretPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdetretPeer.php
+END
+BaseFcdetpag.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45591/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdetpag.php
+END
+BaseFccobradPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFccobradPeer.php
+END
+BaseFcdefut.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45229/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefut.php
+END
+BaseFcrangosmul.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrangosmul.php
+END
+BaseFctipespPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctipespPeer.php
+END
+BaseFcmodinm.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcmodinm.php
+END
+BaseFctasbanPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctasbanPeer.php
+END
+BaseFcesting.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcesting.php
+END
+BaseFcregtarconPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/44651/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcregtarconPeer.php
+END
+BaseFcvalinmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcvalinmPeer.php
+END
+BaseFcprolicPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcprolicPeer.php
+END
+BaseFctipesp.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctipesp.php
+END
+BaseFcmodlic.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcmodlic.php
+END
+BaseFctasban.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctasban.php
+END
+BaseFctipsol.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctipsol.php
+END
+BaseFcdecatpPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdecatpPeer.php
+END
+BaseFcclaespPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcclaespPeer.php
+END
+BaseFcnomneg.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcnomneg.php
+END
+BaseFcsolvencia.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/46749/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcsolvencia.php
+END
+BaseFcregtarcon.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/44651/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcregtarcon.php
+END
+BaseFcconrep.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45067/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcconrep.php
+END
+BaseFcdetconfuePeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/44651/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdetconfuePeer.php
+END
+BaseFcprolic.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcprolic.php
+END
+BaseFcconPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcconPeer.php
+END
+BaseFcdecatp.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdecatp.php
+END
+BaseFcpreingPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcpreingPeer.php
+END
+BaseFcrecibo.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrecibo.php
+END
+BaseFcmultas.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcmultas.php
+END
+BaseFcdeffun.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdeffun.php
+END
+BaseFcdetaboPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdetaboPeer.php
+END
+BaseFcdetconfue.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/44651/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdetconfue.php
+END
+BaseFcreginm.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcreginm.php
+END
+BaseFcrecurso.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrecurso.php
+END
+BaseFcbanentPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcbanentPeer.php
+END
+BaseFcpreing.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcpreing.php
+END
+BaseFcaliinmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcaliinmPeer.php
+END
+BaseFctipprodetPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctipprodetPeer.php
+END
+BaseFctrainm.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctrainm.php
+END
+BaseFcdefncaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefncaPeer.php
+END
+BaseFcrutcob.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrutcob.php
+END
+BaseFcsollicPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcsollicPeer.php
+END
+BaseFcsolnegPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcsolnegPeer.php
+END
+BaseFcrecdes.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrecdes.php
+END
+BaseFctravehPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctravehPeer.php
+END
+BaseFccatfis.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFccatfis.php
+END
+BaseFcusoveh.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcusoveh.php
+END
+BaseFcliqpag.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/46467/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcliqpag.php
+END
+BaseFctralic.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctralic.php
+END
+BaseFcdefnca.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefnca.php
+END
+BaseFcprolicdet.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcprolicdet.php
+END
+BaseFcesplicdetPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcesplicdetPeer.php
+END
+BaseFcdetconPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/44651/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdetconPeer.php
+END
+BaseFcrenlicPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrenlicPeer.php
+END
+BaseFcdeftasas.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/44545/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdeftasas.php
+END
+BaseFcdefpgi.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefpgi.php
+END
+BaseFcdecpagPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45642/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdecpagPeer.php
+END
+BaseFctiplicPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctiplicPeer.php
+END
+BaseFctippagPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45591/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctippagPeer.php
+END
+BaseFcfuentesrec.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcfuentesrec.php
+END
+BaseFccajero.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFccajero.php
+END
+BaseFcestingPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcestingPeer.php
+END
+BaseFcdeclarPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/46638/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdeclarPeer.php
+END
+BaseFcrutasPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrutasPeer.php
+END
+BaseFcestinmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcestinmPeer.php
+END
+BaseFcesplicdet.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcesplicdet.php
+END
+BaseFcdetcon.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/44651/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdetcon.php
+END
+BaseFcrenlic.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrenlic.php
+END
+BaseFcapulic.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcapulic.php
+END
+BaseFcabonos.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcabonos.php
+END
+BaseFcactcomHc.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcactcomHc.php
+END
+BaseFcinmcom.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcinmcom.php
+END
+BaseFcdetrep.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdetrep.php
+END
+BaseFcdefinsPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefinsPeer.php
+END
+BaseFctiplic.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctiplic.php
+END
+BaseFctippag.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45591/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctippag.php
+END
+BaseFcdetret.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdetret.php
+END
+BaseFcdeclar2Peer.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdeclar2Peer.php
+END
+BaseFcmodvehPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcmodvehPeer.php
+END
+BaseFcrangosrecPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcrangosrecPeer.php
+END
+BaseFcotring.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcotring.php
+END
+BaseFcunimon.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcunimon.php
+END
+BaseFcactcom.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/47684/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcactcom.php
+END
+BaseFcdefins.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefins.php
+END
+BaseFcdefdetsol.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdefdetsol.php
+END
+BaseFcapulicdet.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45793/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcapulicdet.php
+END
+BaseFcesppubPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcesppubPeer.php
+END
+BaseFcdeclar2.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdeclar2.php
+END
+BaseFctipapuPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFctipapuPeer.php
+END
+BaseFcdesveh.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcdesveh.php
+END
+BaseFcmultasPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFcmultasPeer.php
+END
+BaseFccominm.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/40711/web/php/siga/branches/productions/trunk/lib/model/hacienda/om/BaseFccominm.php
+END

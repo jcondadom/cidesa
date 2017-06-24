@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/LICENSE
+END
+phpunit.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/phpunit.xsd
+END
+ChangeLog.md
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/ChangeLog.md
+END
+.travis.yml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/.travis.yml
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/phpunit.xml.dist
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/package.xml
+END
+phpunit.bat
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/phpunit.bat
+END
+README.md
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/README.md
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/build.xml
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/composer.json
+END
+phpdox.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/phpdox.xml.dist
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/.gitignore
+END
+CONTRIBUTING.md
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/CONTRIBUTING.md
+END
+.gitattributes
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/.gitattributes
+END
+phpunit.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/phpunit.php
+END

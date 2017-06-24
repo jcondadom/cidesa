@@ -1,0 +1,18 @@
+====== Adjudicación ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite llevar un registro y control de las distintas  adjudicaciones.
+
+**Para ello:**
+
+  * Seleccione la opción **Obras y Contratos** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascont.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Oferta**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontofert.jpg|}}"></div><br></html>
+ 
+  * Por último seleccione la opción **Adjudicación**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontofertadj.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Adjudicación** ahora veamos la [[Descripcion_Campos_obras_adjudicacion|Descripción de los Campos]]
+
+

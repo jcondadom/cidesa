@@ -1,0 +1,47 @@
+opciones:                  # Opciones generales
+  name:                    p
+  eliminar:                true
+  tabla:                   npinfesc
+  anchogrid:               850
+  ancho:                   800
+  filas:                   1
+  titulo:                  'Desarrollo Laboral/Escalafón Universitario'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Escalafón/Cargo/Nivel
+  tipo:                    t
+  nombrecampo:             codcar
+  esgrabable:              true
+  html:                    ["size=20 maxlength=16"]
+  catalogo:                [npcargos, sf_admin_edit_form, {Codcar: 1, Nomcar: 2}, Viadettabcar_Npcargos ]
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nomcar
+  esgrabable:              true
+  html:                    ["size=30 readOnly=true"]
+3:       # Columna 3
+
+  titulo:                  Fecha de Movimiento
+  tipo:                    f
+  nombrecampo:             fecmov
+  esgrabable:              true
+  html:                    ["size=15 maxlength=10"]
+4:       # Columna 4
+  titulo:                  Grado
+  tipo:                    t
+  nombrecampo:             grado
+  esgrabable:              true
+  html:                    ["size=20 maxlength=50"]
+5:       # Columna 5
+  titulo:                  Paso
+  tipo:                    t
+  nombrecampo:             paso
+  esgrabable:              true
+  html:                    ["size=20 maxlength=50"]
+6:       # Columna 6
+  titulo:                  Rango
+  tipo:                    t
+  nombrecampo:             rango
+  esgrabable:              true
+  html:                    ["size=20 maxlength=50"]

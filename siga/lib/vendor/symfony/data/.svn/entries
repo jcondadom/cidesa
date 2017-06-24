@@ -1,0 +1,55 @@
+10
+
+dir
+62022
+https://repositorio.cidesa.com.ve/repositorio/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data
+https://repositorio.cidesa.com.ve/repositorio
+
+
+
+2014-01-08T21:24:42.136677Z
+54971
+dmartinez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bd7ca8a6-7b2b-0410-91d3-d9bcf4a077a3
+
+i18n
+dir
+
+skeleton
+dir
+
+config
+dir
+
+tasks
+dir
+
+generator
+dir
+
+bin
+dir
+
+modules
+dir
+
+data
+dir
+
+web
+dir
+

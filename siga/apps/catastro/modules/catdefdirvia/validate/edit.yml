@@ -1,0 +1,16 @@
+methods:
+  post:
+   - "catdirvia{desdir}"
+
+names:
+  catdirvia{desdir}:
+    required:  Yes
+    required_msg: La descripción es un campo requerido
+    validators: Validator_desdir
+
+Validator_desdir:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Catdirvia
+        column:       desdir
+        unique_error: El registro ya Existe intente con otro.

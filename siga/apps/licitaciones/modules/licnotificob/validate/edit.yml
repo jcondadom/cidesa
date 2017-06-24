@@ -1,0 +1,108 @@
+methods:
+  post:
+   - "linotific{codempadm}"
+   - "linotific{codempeje}"
+   - "linotific{numnotif}"
+   - "linotific{numptocuecon}"
+   - "linotific{fecreg}"
+   - "linotific{dias}"
+   - "linotific{fecven}"
+   - "linotific{detrecomen}"
+   - "linotific{direnvcor}"
+
+
+names:
+  linotific{codempadm}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  linotific{codempeje}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  linotific{numnotif}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numnotif
+
+  linotific{numptocuecon}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numptocuecon
+
+  linotific{fecreg}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  linotific{dias}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: MyNumberValidator
+
+  linotific{fecven}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  linotific{detrecomen}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_detrecomen
+
+  linotific{direnvcor}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_detrecomen
+
+Validator_codemp:
+    class: CidesaExistValidator
+    param:
+        class:        Lidatste
+        column:       codemp
+        unique_error: El Empleado no existe
+
+Validator_numptocuecon:
+    class: CidesaExistValidator
+    param:
+        class:        Liptocuecon
+        column:       numptocuecon
+        unique_error: El Expediente no Existe
+
+
+Validator_numnotif:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Linotific
+        column:       numnotif
+        unique_error: El numero ya existe no puede repetirse
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+MyNumberValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]
+
+Validator_detrecomen:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Recomendación no puede tener menos de 2 caracteres
+        max:       1000
+        max_error: La Recomendación no puede pasar mas de 1000 caracteres
+
+Validator_reldec:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Recomendación no puede tener menos de 2 caracteres
+        max:       8
+        max_error: La Recomendación no puede pasar mas de 8 caracteres

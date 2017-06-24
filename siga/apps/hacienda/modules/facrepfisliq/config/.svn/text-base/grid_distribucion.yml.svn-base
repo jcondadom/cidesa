@@ -1,0 +1,51 @@
+opciones:                  # Opciones generales
+  name:                    b
+  eliminar:                true
+  tabla:                   fcdetrep
+  ancho:                   650
+  anchogrid:               700
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+
+1:       # Columna 1
+  titulo:                  Nro.
+  tipo:                    t
+  nombrecampo:             num
+  esgrabable:			   true
+  html:                    [size="3", readonly=true]
+2:       # Columna 2
+  titulo:                  Vencimiento
+  tipo:                    f
+  nombrecampo:             fecha
+  esgrabable:			   true
+  html:                    [size="10", readonly=true]
+3:       # Columna 3
+  titulo:                  Descripción de la Cuota
+  tipo:                    a
+  nombrecampo:             descrip
+  esgrabable:			   true
+  html:                    [size="25x2"]
+4:       # Columna 4
+  titulo:                  Tipo
+  tipo:                    t
+  nombrecampo:             tipo
+  esgrabable:			   true
+  html:                    [size="10", readonly=true]
+#  estotal:                 [true, 'fcrepfis_monrep']
+5:       # Columna 5
+  titulo:                  Monto de la Cuota
+  tipo:                    m
+  nombrecampo:             monto
+  esgrabable:			   true
+  html:                    [size="10"]
+  ajaxgrid:                true
+  ajaxadicionales:         {0: id, 1: fcrepfis_fecrep, 2: fcrepfis_fuesan, 3: fcrepfis_annioini, 4: fcrepfis_anniofin }
+  estotal:                 [true, 'fcrepfis_monrep']
+6:       # Columna 6
+  titulo:                  fuente
+  tipo:                    t
+  nombrecampo:             fuente
+  esgrabable:			   true
+  html:                    [size="10", readonly=true]
+  oculta:          true

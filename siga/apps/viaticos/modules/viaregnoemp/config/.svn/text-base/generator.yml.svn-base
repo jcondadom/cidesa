@@ -1,0 +1,58 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Vianoemp
+    theme:            cidesaGenerator
+    fields:
+      rifnemp: { name: RIF y/o Cédula, params : size=15 maxlength=15  onFocus=readonly(this.id) }
+      nomnemp: { name: Nombre, params : size=80 maxlength=250 }
+      dirnemp: { name: Dirección, params : size=80 maxlength=500 }
+      telnemp: { name: Teléfono, params : size=30 maxlength=20 }
+      emanemp: { name: Email, params : size=80 maxlength=50 }
+      codban:
+        name: Banco
+        catalogo:
+          catalogoweb: Almregpro_Cabanco
+          clase: Cabanco
+          ajax: 1
+          parametros: getprincipal="getCodban" getsecundario="getDesban" campoprincipal="codban" camposecundario="desban" campobase = "id"
+      numcueb: { name: N° de Cuenta, params : size=80 maxlength=20 }
+      codniv:
+        name: Nivel Organizacional
+        catalogo:
+          catalogoweb: Npestorg_Vianoemp
+          clase: Npestorg
+          ajax: 2
+          parametros: getprincipal="getCodniv" getsecundario="getDesniv" campoprincipal="codniv" camposecundario="desniv" campobase = "id"
+      codnivnemp:
+        name: Nivel del Personal
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: viadefniv_codniv
+          clase: Viadefniv
+          ajax: 3
+          parametros: getprincipal="getCodnivnemp" getsecundario="getDesnivnemp" campoprincipal="codnivnemp" camposecundario="desnivnemp" campobase = "id"
+      js: { name: .}
+    list:
+      title:          Personal no Empleado
+      fields:
+        rifnemp: { name: RIF, params : size=15 maxlength=15}
+        nomnemp: { name: Nombre, params : size=20 maxlength=250 }
+        telnemp: { name: Teléfono, params : size=15 maxlength=20 }
+      filters:        [rifnemp, nomnemp]
+      display:        [=rifnemp, nomnemp, telnemp]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      rifnemp
+    edit:
+      title:          Edición  de Personal no Empleado
+      display:
+        "Datos Personales":   [rifnemp, nomnemp, dirnemp, telnemp, emanemp, codnivnemp, codniv]
+        "Información Bancaria":   [codban, numcueb, _js]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

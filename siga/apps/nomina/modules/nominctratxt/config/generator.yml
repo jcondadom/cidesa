@@ -1,0 +1,18 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npinctratxt
+    theme:            cidesaGenerator
+    fields:
+      fecinc:  { name: Fecha de Incorporación, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      status:  { name: Cerrar}
+      grid:  { name: .}
+      descarga:    { name: .}
+    edit:
+      title:          Incorporación de Trabajadores a Cuenta TXT
+      display:        [_fecinc, status, _grid, _descarga]
+      actions:
+        _list:        NONE
+        _save:        ~
+        _create:      NONE
+        _delete:      NONE

@@ -1,0 +1,19 @@
+====== Registro ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite llevar un registro y control de las actas.
+
+**Para ello:**
+
+  * Seleccione la opción **Obras y Contratos** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascont.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Actas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/obrascontactas.jpg"></div><br></html>
+ 
+  * Por último seleccione la opción **Registro**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/"></div><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Registro** ahora podrá realizar determinadas [[operaciones_basicas|Operaciones Básicas]]
+ 
+
+

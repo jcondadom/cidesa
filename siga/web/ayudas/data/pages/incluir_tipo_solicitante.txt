@@ -1,0 +1,20 @@
+====== Operación Incluir ======
+
+Para **Registrar** un determinado Tipo de Solicitante: <html><br><br></html>
+
+  * Presione el **Botón** {{:btnnuevo.jpg|}}
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrasconttiposolinc1.jpg|}}"></div><br></html>
+
+  * Ingrese el **Código** que identificará al Tipo de Solicitante. <html><br><br></html>
+
+  * Ingrese el **Nombre** del Tipo de Solicitante. <html><br><br></html>
+
+  * Seleccionar si el Tipo de Solicitante es **Natural** ó **Jurídico** <html><br><br></html>
+
+  * Presionar el **Botón** {{:btnguardar.jpg|}}
+
+
+
+
+

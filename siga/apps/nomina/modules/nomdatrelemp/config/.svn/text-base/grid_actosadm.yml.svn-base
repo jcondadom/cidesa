@@ -1,0 +1,27 @@
+opciones:                  # Opciones generales
+  name:                    n
+  eliminar:                true
+  tabla:                   npinfadm
+  anchogrid:               700
+  ancho:                   650
+  filas:                   1
+  titulo:                  'Otros Actos Administrativos'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Fecha
+  tipo:                    t
+  nombrecampo:             fecact
+  html:                    ["size=30 maxlength=200"]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desact
+  html:                    ["size=50 maxlength=2000"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Observación
+  tipo:                    a
+  nombrecampo:             obsact
+  esgrabable:              true
+  html:                    ["size=20x2 maxlength=2000 onkeyup='ismaxlength(this)'"]

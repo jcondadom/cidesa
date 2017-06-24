@@ -1,0 +1,16 @@
+====== Procedimientos de Ejecución de Compras======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </html>
+
+**Para ello:**
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **SNC** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmsnc.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Procedimientos de Ejecución de Compras**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmsncprocejeccomp.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Procedimientos de Ejecución de Compras** veamos la [[Descripcion_Campos_Procedimientos_Ejecucion_Compras|Descripción de los Campos]]

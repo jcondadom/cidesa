@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/mysql
+END
+MySQLIdGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/mysql/MySQLIdGenerator.php
+END
+MySQLStatement.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/mysql/MySQLStatement.php
+END
+MySQLTypes.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/mysql/MySQLTypes.php
+END
+MySQLPreparedStatement.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/mysql/MySQLPreparedStatement.php
+END
+MySQLResultSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/mysql/MySQLResultSet.php
+END
+MySQLConnection.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/mysql/MySQLConnection.php
+END

@@ -1,0 +1,43 @@
+siga:
+  opciones:
+    activo: true #true/false
+    descripcion: Sistema SIGA
+    #imagen: .gif
+    nombre: siga
+    urls:
+      Cambiar Contraseña:
+        modulo: autenticacion.php
+        modulo_dev: autenticacion_dev.php
+      default:
+        modulo: portal.php
+        modulo_dev: portal_dev.php
+    imagenes:
+      default: OperatorClass.png
+  menu:
+    Gestión de Talento Humano:
+      Talento Humano: 
+        nomina:                                     #nombre del yml
+    Gestión de Administración:
+      Compras de Bienes y Servicios - Almacén:
+        compras:                                    #nombre del yml
+      Bienes Nacionales:
+        bienes:                                     #nombre del yml
+      Contabilidad Financiera:
+        contabilidad:                               #nombre del yml
+    Gestión de Finanzas:
+      Presupuesto Público de Gastos: 
+        presupuesto:                                #nombre del yml
+      Ingresos:
+        ingresos:                                   #nombre del yml
+      Tesorería:
+        tesoreria:                                  #nombre del yml
+    Gestión de Crédito Público:
+      Contrataciones de Bienes y Servicios:
+        contratacionespublicas:                     #nombre del yml
+      #Módulo Contrataciones Públicas de Obras:
+    Gestión de Atención al Ciudadano:
+      Atención al Ciudadano:
+        ciudadanos:                                 #nombre del yml
+    Gestión de Control de Documentos:
+      Control de Documentos:
+        documentos:

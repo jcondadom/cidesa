@@ -1,0 +1,298 @@
+
+presupuesto:
+  Definiciones Específicas:
+    Catálogo de Partidas:                                 precatpar.php
+    Documentos Precompromiso:                             precatprc.php
+    Documentos Compromiso:                                precatcom.php
+    Documentos Causado:                                   precatcau.php
+    Documentos Pago:                                      precatpag.php
+    Documentos Ajuste:                                    precataju.php
+    #Tipos de Financiamiento:                              precattipfin.php
+    #Artículos de Ley:                                     precatartley.php
+  #Formatos:
+    #PreCompromisos:                                       cprprecompromiso.php
+    #Compromisos:                                          cprcompromiso.php
+    #Causado:                                              cprcausado.php
+    #Pagado:                                               cprpagado.php
+  Movimientos:
+    Certificacion Presupuestaria:                         preautprc.php
+    Precompromisos:                                       preprc2.php
+    Compromisos:                                          precom.php
+    Causados:                                             precau.php
+    Pagados:                                              prepag.php
+    Traslados:                                            pretrasla.php
+    Ajustes:                                              preaju.php
+    Créditos Adicionales/Disminuciones (Por Aprobación):  PRERADIDIS.php
+    #Rectificaciones del Presupuesto:                      prerectificaciones.php
+    #Créditos Adicionales (Según Oficio):                  precreadi_oficio.php
+    #Créditos Adicionales (Según Decreto):                 precreadi_decreto.php
+  Ejecución Presupuestaria:
+    Asignación Inicial Consolidado:                       prerasiini.php
+    Disponibilidad Presupuestaria:                        predispre.php
+    Disponibilidad Presupuestaria Resumida:               predispreres.php
+    Ejecución del Presupuesto:                            preejepre.php
+    #Gasto Ejecutado por Part. y Genericas (BCV):          pregasejepar.php
+    Resumen General de la Ejec. Presup. por Partidas:     preresgenejepar.php
+    Maestro de Presupuesto:                               premaepre.php
+    Ejecución Presupuestaria (PreCompromisos):            predisper.php
+    Ejecución Presupuestaria por Partidas:                predispar.php
+    Ejecucion Presupuestaria por Especifica:              predisparprc.php
+    Estado de la Ejecucion Presupuestaria y Financiera del Preupuesto de Gasto:   preejeprefin.php
+    Detalle de Compromisos:                               predetcom.php
+    Detalle de Causados:                                  predetcau.php
+    #Registro de la Ejec. Finan. del Presup. de gastos:    precoddetofi.php
+    Relación Diaria de Compromisos:                       PRERELDIACOM.php
+    Disponibilidad Financiera:                            predisfin.php
+    Disponibilidad Negativa:                              predisneg.php
+    Consolidado de Ejecución por Movimientos:             preconeje.php
+    #Ejecución Presupuestaria Coordinado (Dispon. Compr.): predispercoo_discom.php
+    #Asignación Inicial:                                  preasiinires.php
+    #Compromisos por Beneficiario:                        precomben.php
+    #Precompromisos afectados por otros Movimientos:      preprcotrosmov.php
+    #Asignación Inicial Por Partidas:                     prerasiinipar.php
+    #Relación De Compromiso No Causados:                  prerelcomnocau.php
+    #Adiciones/Disminuciones (según solicitud):           prersoladidis.php
+    #Tarjeta De Ejecución:                                consolidado.php
+    #Documento Pagado:                                    cprpagado.php
+
+
+
+
+
+compras:
+  Generales:
+    Catálogo de Artículos:                                CARCATART.php
+    Catálogo de Ramos:                                    CARRAMART.php
+    Catálogo de Ubicaciones:                              CARDEFUBI.php
+    Catálogo de Proveedores:                              CARPROVEE.php
+    Catálogo de Almacenes:                                CARDEFALM.php
+    Catálogo de Recaudos:                                 CARRECAUD.php
+    Catálogo de Recargos:                                 CARRECARG.php
+    Catálogo de Condiciones de Pago:                      CARCONPAG.php
+    Catálogo de Formas de Entrega:                        CARFORENT.php
+    Catálogo de Razones de Compra:                        CARRAZCOM.php
+    Catálogo de Rangos de Cotizaciones:                   CARDEFCOT.php
+    Ficha del Proveedor:                                  CARFICPRO.php
+    #Catálogo de Tipos de Entrada al Almacen:             cartipent.php
+  Movimientos:
+    Requisiciones:                                        CARREQART.php
+    Recepciones:                                          CARRCPART.php
+    Despachos:                                            CARDPHART.php
+    Ordenes de Compra:                                    CARDETORD.php
+    #Ordenes de Servicio:                                  CARDETORDS.php
+    Recepciones y Diferencias:                            CARRCPORD.php
+    Despachos y Diferencias:                              CARREQDPH.php
+    Resumen de Movimientos:                               CARMOVART.php
+  Formas Preimpresas:
+    Etiquetas de Articulos:                               CARETIQUE.php
+    Requisiciones (forma 021):                                        CARREQPRE.php
+    Analisis de Cotizaciones:                              CARSOLEGR.php
+    Solicitud de Egreso:                                  carsolegrpre.php
+    Recepciones:                                          CARRCPPRE.php
+    Despachos:                                            CARDPHPRE.php
+    Ordenes de Compra:                                    CARORDPRE.php
+    Ordenes de Servicio:                                  CARORDSER.php
+    Constancia de Inscripción Provisional De Proveedores: CARCONINSPRO.php
+  Almacén:
+    Valorización de Inventario:                           carvalinv.php
+    #Relación Inventario Almacén:                          CARRELINVALM.php
+    Hoja de Conteo Físico:                                CARCONFIS.php
+    Inventario Físico Valorado:                           CARINVFIS.php
+    Stock de Articulos:                                   CARSTOMAX.php
+    Stock Mínimo:                                         CARSTOMIN.php
+    Punto de Reorden:                                     CARPTOREO.php
+    Registro Auxiliar de Existencia en Almacen:           caregauxexi.php
+
+
+tesoreria:
+  Generales:
+    Catálogo de Tipos de Cuentas Bancarias:               tsrtipcue.php
+    Catálogo de Tipos de Movimientos Bancarios:           tsrtipmov.php
+    Catálogo de Tipos de Monedas:                         tsrdesmon.php
+    Catálogo de  Bancos:                                  tsrdefban.php
+    Catálogo de Tipos de Beneficiario:                    oprtipben.php
+    Catálogo de Beneficiarios:                            oprbenefi.php
+    Catálogo de Ubicación:                                oprdesubi.php
+    Catálogo de Tipos de Retenciones:                     oprtipret.php
+    #Catálogo de Tipos de Financiamiento:                  precattipfin.php
+  Movimientos:
+    Listado de Ordenes de Pago:                           oprordpag_cc.php
+    Listado de Ordenes de Pago Detallada:                 oprdetord.php
+    #Listado de Ordenes de Pago por Beneficiario:          oprordpagporbeneficiario.php
+    Ordenes de Pagos con Retenciones:                     oprordret.php
+    #Ordenes de Pago con retenciones Pendientes por Pagar: falta
+    #Desglose de Ordenes de Pago por Código Presupuestario:falta
+    Desglose de Ordenes de Retenciones por Beneficiario:  oprordretben.php
+    Disponibilidad Bancaria:                              tsrdisban.php
+    Relación de Cuentas Bancarias:                        tsrrelban.php
+    Movimientos según Libros :                            tsrmovlib.php
+    Movimientos según Bancos:                             tsrmovban.php
+    Transferencias  Bancarias:                            tsrtraban.php
+    #Oficio para Autorización a Transferencias Bancarias:  oprtransferencia.php
+    Conciliación Bancaria:                                tsrconcil.php
+    Detalle de Conciliación:                              tsrrescon.php
+    Cheques en transito:                                  tsrchetran.php
+    Comisiones Bancarias:                                 tsrchecomban.php
+    Movimientos:                                          tsrmovimiento_cc.php
+  Formas Preimpresas:
+    Orden de Pago Preimpresa:                             oprordpre.php
+    Voucher:                                              tsrvoucher.php
+  Impuestos:
+    Comprobante de retención IVA:                         oprcompret_iva_cc.php
+    Comprobante de retención ISLR:                        oprcompret_islr_cc.php
+    Comprobante de retención LTF:                         oprcompret_ltf_cc.php
+    Libro de Compras:                                     tsrlibcomp.php
+
+
+Bienes:
+  Generales:
+    Catálogo de Activos:                                  BNRDEFACT.php
+    Catálogo de Ubicaciones:                              BNRUBICA.php
+    Catálogo de Disposición:                              bnrdefdis.php
+    Catálogo de Clasificación Funcional:                  bnrdefclafun.php 
+  Listados: 
+    #Listado de Bienes Muebles:                            bnrlisbiemue.php
+    Listado de Bienes Inmuebles:                           bnrlisbieinm.php
+    Listado de Bienes Muebles(Ubicación):                 bnrubiactmue.php
+    Listado de Bienes Inmuebles(Ubicación):               bnrubiactinm.php
+    Listado de IPC:                                       bnripcact.php
+    Listado de Bienes Activos Muebles:                    bnrlismue.php
+    Listado de Bienes Activos Inmuebles:                  bnrlisinm.php
+  Formularios BM:
+    Inventario de Bienes Muebles (BM-1):                  bnrlisbm1.php
+    Listado de Relación de Movimientos de Bienes (BM-2):  bnrlisbm3.php
+    Listado de Relación de Bienes Faltantas (BM-3):       bnrlisbm4.php
+    Resumen de la Cuenta de Bienes (BM-4):                bnrrescuebie.php
+    Relacion de Inventario de Bienes:                     bnrinvbiemue.php
+    Formulario Control Interno de Elementos:              bnrbiemueconint.php
+  Disposición Activos:
+    Disposición Activos Muebles:                          BNRDISBIEMUE.php
+    Disposición Activos Inmuebles:                        BNRDISBIEINM.php
+  Seguro Activos:
+    Seguro Activos Muebles:                               BNRSEGBIEMUE.php
+    Seguro Activos Inmuebles:                             BNRSEGBIEINM.php
+  Revalorización:
+    Revalorización de Bienes Muebles:                     BNRLISBIEMUEREV.php
+    Revalorización de Bienes Inmuebles:                   BNRLISBIEINMREV.php
+  Etiquetas:
+    Bienes Muebles:                                       bnretqmue.php
+    Bienes Inmuebles:                                     bnretqinm.php
+  Comprobantes:
+    Comprobante de Incorporacion:                         bnrcomincorp.php
+    Comprobante de Desincorporacion:                      bnrcomdesinc.php
+
+
+Nomina:
+  Definiciones Específicas:
+    Tipos Nóminas:                                        NPRNOMINA.php
+    Conceptos:                                            nprdefcpt.php
+    Conceptos por Nómina:                                 NPRCONNOM.php
+    Niveles Organizacionales:                             NPRNIVORG.php
+    Cargos:                                               NPRCARGOS.php
+    Bancos:                                               NPRBANCOS.php
+    Categorias Presupuestarias:                           NPRCATPRE.php
+    Municipios:                                           nprmunicipios.php
+  Personal:
+    Datos Personales:                                     nprResumen_curricular.php
+    Asignación de Cargos:                                 NPRASICAREMP.php
+  Nómina:
+    Listado de Nómina Definitiva por Categoría:           nprnomdefcat.php
+    Listado de Nómina Def. por Categ. y Tipo de Gasto:    nprnomdefcatgas.php
+    Listado de Nómina Definitiva por Nivel:               nprnomdefniv.php
+    Listado de Nómina para la Firma por Categoría:        nprnomfircat.php
+    Listado de Nómina para la Firma por Nivel:            nprnomfirniv.php
+    Formato TXT para Banco:                               relacion_federal_disco.php
+    Recibos de Pago:                                      nprrecpag.php
+    Relación de Conceptos:                                NPRRELCONC.php # En Amazonas
+    Resumen General de Conceptos:                         nprresgencon.php
+    Resumen General de Conceptos por Nomina:              nprresconnom.php
+    Relación de Nómina/Presupuesto:                       NPRNOMPRE.php
+    Carta - Banco:                                        nprrelbancdisc.php
+    Relación de Nomina para Banco:                        relnomban.php
+    Variaciones de Nóminas por Períodos:                  NPRVARPER.php
+    Reporte de Actividad:                                 nprconniv.php
+    Desglose de Nómina:                                   nprdsgnomt.php
+    #Histórico de Conceptos:                              nprhistrelcon.php
+    Histórico de Nómina/Presupuesto:                      NPRHISTPRE.php
+    Relación General de Asignaciones/Deducciones:         nprrelgenasided.php
+    Listado Por Conceptos Historicos:                     NPRHISTLISTCONC.php
+    #Listado por Concepto 5% Ctas. de Ahorro de Docentes:  nprlistconcdoc.php
+    Fondo de Pensiones y Jubilados:                       his_np_fpj_disco.php
+    Ley de Politica Habitacional:                         his_np_lph_disco.php
+    APORTES PATRONALES :                                  hisnpaportesretenciones.php
+    DEFINICION DE CONCEPTOS:                              nomina_definicion_conceptos.php
+    Nómina para la Firma:                                 nomina_firma_categoria.php
+    Cumpleaños:                                           npfeccumple.php
+    Listado de Sueldos Básicos:                           nprsuelbas.php
+    #RELACION NOMINA PRESUPUESTO:                         nomina_presupuesto.php
+    #RELACION NOMINA PRESUPUESTO POR GASTO:               nomina_presupuestoxgasto_disp.php
+    #Fondo de Pensión y Jubilación:                       np_fpj_disco.php
+    #Ley de Politica Habitacional:                        np_lph_disco.php
+    #RELACION DE DE RETENCIONES - APORTES:                npaporet.php
+    #APORTES PATRONALES:                                  npaportes.php
+    #APORTES PATRONALES:                                  npaportesretenciones.php
+    #APORTES PATRONALES x CATEGORIA:                      npaportesxcategoria.php
+    #HISTÓRICO DE NOMINA DEFINITIVA:                      nphis_nomina_definitiva_nivel.php
+    #HISTÓRICO DE RELACION DE RETENCIONES - APORTES:      nphisaporet.php
+    #HISTÓRICO DE RELACION DEPOSITO-BANCO:                nphisrelbanc.php
+    #Relación de Ingreso Anual:                           npr_arc_general.php
+    #Relación de Ingreso Anual por Trabajador /ARC:       npr_arc.php
+    #ACCION ADMINISTRATIVA:                               npraccadm.php
+    #DECRETO DE RECTIFICACIONES:                          nprcalcon1.php
+    #CALCULO DE CONCEPTOS:                                nprcalculo_concepto.php
+    #CARGOS POR NOMINA:                                   nprcarnom.php
+    #Partidas Presupuestarias:                            nprcatpar.php
+    #CONCEPTOS POR NOMINA:                                nprconceptosxnomina.php
+    #REPORTE CONSOLIDADO:                                 nprconsolidado.php
+    #CUMPLEAÑOS POR MES:                                  nprcummes.php
+    #Datos Personales:                                    nprdatos_personales.php
+    #CONCEPTOS VARIABLES:                                 nprdefespmovper.php
+    #TIPOS DE PARIENTES:                                  nprdefesppar.php
+    #PERFIL:                                              nprdefespperfil.php
+    #PROFESIONES:                                         nprdefespprofes.php
+    #SITUACION DEL EMPLEADO:                              nprdefespsitemp.php
+    #Variables:                                           nprdefespvar.php
+    #TIPOS DE GASTOS:                                     nprdeftipgas.php
+    #REGISTRO DE ASIGNACION DE CARGOS:                    nprdirectorio_empleados.php
+    #Relación de Conceptos Detallada:                     nprelacion_concepto_detalle.php
+    #Relación Nomina por Conceptos y Niveles Organizacionales: nprelacionconceptoxnivel.php
+    #Estado:                                              nprestado.php
+    #Resumen de Nomina:                                   npresumen_nomina_aporte.php
+    #Resumen de Nomina:                                   npresumen_nomina.php
+    #Experiencia Laboral:                                 nprexperiencia_laboral.php
+    #Histórico de Consolidado de Nomina Anual:            nprhis_consolidado_anual.php
+    #Histórico de Consolidado de Nomina:                  nprhis_consolidado.php
+    #Histórico de Recibo de Pago:                         nprhis_recibo_pago.php
+    #Histórico de RELACION CATEGORIAS/CONCEPTO:           nprhisconniv.php
+    #Histórico de NOMINA DE PAGO POR CATEGORIA DESDE HISTORICO: nprhisnomdefcat.php
+    #Histórico de Nomina de Pago por Nivel Organizacional:      nprhisnomdefniv.php
+    #Histórico de PRESTAMOS:                              nprhistpres.php
+    #Información Curricular:                              nprinformacion_curr.php
+    #Información Familiar:                                nprinformacion_familiar.php
+    #INGRESOS Y EGRESOS DE EMPLEADOS:                     npringegr.php
+    #Listado de Conceptos:                                nprlistado_por_concepto.php
+    #Listado de Conceptos Históricos:                     nprlistado_por_conceptohis.php
+    #LISTADO DE CONCEPTOS:                                nprlistconc.php
+    #Listado de Prenomina por Categoria:                  nprnomdefnivorg.php
+    #Nomina para la Firma:                                nprnomfirniv.php
+    #Nomina para la Firma:                                nprnomina_firma_nivel.php
+    #Definición de Países:                                nprpaises.php
+    #Listado de Prenomina por Nivel Organizacional:       nprprenomina.php
+    #CARGOS POR CATEGORIA PRESUPUESTARIA:                 nprrelacion_cargos_unidades.php
+    #RELACION CONCEPTOS-CATEGORIAS Y PARTIDAS PRESUPUESTARIAS: nprrelacion_concepto_cat_par.php
+    #CATEGORIAS PRESUPUESTARIAS POR NOMINA:               nprrelacion_nomina_unidad.php
+    #RELACION CUENTAS BANCARIAS NOMINA:                   nprrelbanc.php
+    #RELACION NOMINA CONCEPTO:                            nprrelconhis.php
+    #Resumen de Costos por Cargos:                        nprresumen_costos_cargos.php
+  Prestaciones:
+    Antiguedad Prestaciones Sociales Nuevo Régimen:       NPCALPRESOC_RN.php
+    Antiguedad Prestaciones Sociales Antiguo Régimen:     NPCALPRESOC_RV.php
+    Anticipos sobre Prestaciones Sociales:                nprcalantpresoc.php
+    Compensación Bono Transferencia:                      nprbonotransf.php
+    Intereses sobre Prestaciones Sociales Nuevo Régimen:  NPRINTPRESOC_RN.php
+    Liquidación de Cuentas:                               nprprestliquidacion.php
+  Vacaciones:
+    Solicitud de Vacaciones:                              npvac_solicitud.php
+    Histórico de Vacaciones Disfrutadas por Empleado:     npvac_historico.php
+    Relación de Vacaciones Disfrutadas por Empleado en Lote: npvac_relacionhistoricos.php
+    Relación de Vacaciones Procesadas:                    npvac_relacionsalidas.php

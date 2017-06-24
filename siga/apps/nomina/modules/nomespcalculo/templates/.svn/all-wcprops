@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/52832/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomespcalculo/templates
+END
+mensajeSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomespcalculo/templates/mensajeSuccess.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/52832/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomespcalculo/templates/ajaxSuccess.php
+END
+_codnom.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomespcalculo/templates/_codnom.php
+END
+_opciones.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomespcalculo/templates/_opciones.php
+END
+1editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomespcalculo/templates/1editSuccess.php
+END
+_boton.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomespcalculo/templates/_boton.php
+END
+_numsem.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomespcalculo/templates/_numsem.php
+END
+_estemes.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomespcalculo/templates/_estemes.php
+END
+_codnomesp.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomespcalculo/templates/_codnomesp.php
+END
+_estatus.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomespcalculo/templates/_estatus.php
+END

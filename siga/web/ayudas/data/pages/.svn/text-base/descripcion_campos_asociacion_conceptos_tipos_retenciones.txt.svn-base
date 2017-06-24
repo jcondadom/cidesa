@@ -1,0 +1,17 @@
+Los campos que conforman la pantalla de **Asociación Conceptos + Tipos de Retenciones** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanasoccontipretinc1.jpg|}}"></div><br></html>
+
+  * Datos del Tipo de Nómina:
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Código:** Refiere al Código y Descripción del Tipo de Nómina. <html><br><br></html>
+
+  * Datos del Concepto:
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Código:** Refiere al código y descripción del concepto asociado a la nómina. <html><br><br></html>
+
+  * Datos del Tipo de Retención:
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Código:** Refiere al código y descripción del tipo de retención que se va a asociar a los conceptos de nómina. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Asociación Conceptos + Tipos de Retenciones** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

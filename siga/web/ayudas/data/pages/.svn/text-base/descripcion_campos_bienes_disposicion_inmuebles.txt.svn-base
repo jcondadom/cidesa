@@ -1,0 +1,37 @@
+===== Descripción de Campos =====
+
+  * En la **Sección Datos**:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Seleccione en **Código de Catálogo** el número que identifica el bien o activo de la institución.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Ingrese el **Código del Activo Inmueble** que cambia su disposición.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedisinminc1.jpg|}}"></div><br></html>
+
+  * En la **Sección Transacción**: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Ingrese el **Número de Orden** de la transacción que se está definiendo
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Seleccione en **Tipo** la clasificación del cambio de estado del activo
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Seleccione en **Motivo** el porque del cambio de estado del activo.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Seleccione la **Fecha** en que se realiza el cambio de disposición.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Seleccione la **Fecha de Devolución**  del activo a su lugar de origen.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Ingrese el **Monto** que cubre el cambio de estado del activo.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Ingrese de ser necesario en **Detalles** las adiciones que se le colocará al activo.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedisinminc2.jpg|}}"></div><br></html>
+
+  * En la Sección Ubicación:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Seleccionar la **Ubicación Origen** y **Destino del activo** dentro de la Institución
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Ingresar de ser necesario las posibles **Observaciones** acerca de la Disposición.<html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedisinminc3.jpg|}}"></div><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Disposición de Inmuebles** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

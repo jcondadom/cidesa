@@ -1,0 +1,16 @@
+====== Aprobación de Requisiciones por Lotes ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite aprobar aquellas Requisiciones ya definidas en el sistema ya sea en lotes o sólo aquellas que desee aprobar.</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Almacén** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalm.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Aprobación de Requisiciones por Lotes**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmaprobreqlotes.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Aprobación de Requisiciones por Lotes** veamos la [[Descripcion_Campos_Aprobacion_Requisiciones_Lotes|Descripción de los Campos]]

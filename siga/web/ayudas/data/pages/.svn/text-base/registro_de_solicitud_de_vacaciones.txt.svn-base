@@ -1,0 +1,26 @@
+====== Registro de Solicitud de Vacaciones ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite realizar el Registro de las solicitudes de vacaciones de un trabajador. </html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Vacaciones** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompervac.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Registro de Solicitud de Vacaciones**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperregsolvac.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Registro de Solicitud de Vacaciones** solo podrá realizar las Operaciones Básicas de: 
+
+  * [[Incluir Registro de Solicitud de Vacaciones  |Incluir]]
+
+  * [[Modificar Registro de Solicitud de Vacaciones|Modificar]]
+
+  * [[Eliminar Registro de Solicitud de Vacaciones|Eliminar]]
+
+  * [[Consultar Registro de Solicitud de Vacaciones|Consultar]]

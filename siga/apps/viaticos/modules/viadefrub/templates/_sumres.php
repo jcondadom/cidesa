@@ -1,0 +1,1 @@
+<?php echo select_tag('viadefrub[sumres]', options_for_select(array('S'=>'SUMA','R'=>'RESTA'),$viadefrub->getSumres())); ?>

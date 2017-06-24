@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/50513/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/view
+END
+sfMailView.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/50513/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/view/sfMailView.class.php
+END
+sfPHPView.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/view/sfPHPView.class.php
+END
+sfPartialView.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/view/sfPartialView.class.php
+END
+sfViewCacheManager.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/view/sfViewCacheManager.class.php
+END
+sfView.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/view/sfView.class.php
+END

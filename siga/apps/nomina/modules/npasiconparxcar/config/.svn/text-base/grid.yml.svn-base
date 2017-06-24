@@ -1,0 +1,37 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   npasiconparcar
+  anchogrid:               850
+  ancho:                   700
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Concepto
+  tipo:                    t
+  nombrecampo:             codcon
+  html:                    ["size=15 maxlength=3"]
+  esgrabable:              true
+  ajaxgrid:                true
+  catalogo:                [npdefcpt, sf_admin_edit_form, {Codcon: 1, Nomcon: 2}, Npdefcpt_nomdefespguarde ]
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nomcon
+  html:                    ["size=40 readonly=true"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Partida
+  tipo:                    t
+  nombrecampo:             codpar
+  html:                    ["size=15 maxlength=32"]
+  esgrabable:              true
+  ajaxgrid:                true
+  catalogo:                [nppartidas, sf_admin_edit_form, {Codpar: 3, Nompar: 4}, Nppartidas_Almregrgo ]
+4:       # Columna 4
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nompar
+  html:                    ["size=40 readonly=true"]
+  esgrabable:              true  

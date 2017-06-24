@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "fapropat{codpropat}"
+   - "fapropat{despropat}"
+
+names:
+  fapropat{codpropat}:
+    required:  Yes
+    required_msg: El Código del Producto no puedo estar en Blanco
+    validators: UniqueValidator
+
+  fapropat{despropat}:
+    required:  Yes
+    required_msg: La Descripción del Producto no puedo estar en Blanco
+    validators: DescripcionValidator
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Fapropat
+        column:   codpropat
+        unique_error:   El Código del Producto ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción del Producto no puede tener menos de 2 caracteres
+        max:       250
+        max_error: La Descripción del Producto no puede tener más de 250 caracteres

@@ -1,0 +1,23 @@
+====== Operación Incluir ======
+
+Para **Incluir** una determinada Retención:<html><br><br></html>
+
+  * Presione el **Botón** {{:btnnuevo.jpg|}} <html><br><br></html>
+
+  * En la sección **Datos del Tipo de Retención**:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontretinc1.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Ingrese el **Código** y **Descripción** que identificará a la Retención. 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Marcar **Sí** ó **No** la Retención **Maneja Sustraendo**. En caso de que la Retención maneje sustraendo automáticamente podrá observar que en la pantalla se agrega la sección **Sustraendo** (ver figura anterior) donde debe ingresar la cantidad de sustraendo por **Unidades Tributarias, por Factor y por Porcentaje de Sustraendo**.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontretinc2.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Si por el contrario la Retención no maneja Sustraendo el sistema no mostrará la sección **Sustraendo** (ver figura anterior).
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Por último ingrese el monto de la **Base Imponible**. <html><br><br></html>
+
+  * En la sección **Datos Contables** debe seleccionar el Código de la cuenta contable asociada a la retención. Para escojer la cuenta contable debe presionar el Botón {{:btncuadrocatalogo.jpg|}} y automáticamente el sistema muestra el catálogo de cuentas contables que han sido definidas previamente en el sistema.<html><br><br></html>
+
+Presione el **Botón** {{:btnguardar.jpg|}} para registrar la información.

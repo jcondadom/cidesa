@@ -1,0 +1,16 @@
+====== Operación Modificar ======
+
+Para la operación de **Modificar** debe:  <html><br><br></html>
+
+  * Seleccionar de la **Lista** el **Tipo de Contrato** para la cual desea modificar la Asignación de Trabajadores para Prestaciones. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasidetraparapreporconcolmod1.jpg|}}"></div><br></html>
+
+  * El sistema muestra la Asignación de Trabajadores para Prestaciones por Contrato Colectivo. <html><br><br></html>
+
+  * Las modificaciones que podrá realizar es quitar una determinada Asignación de un Trabajador para Prestaciones por Contrato Colectivo.<html>&nbsp;&nbsp;</html> Para **Quitar** un elemento de la tabla debe presionar el **Botón** <html>&nbsp;&nbsp;</html> {{:btnquitar.jpg|}} que se encuentre a la izquierda del trabajador que desea eliminar de la tabla. <html><br><br></html>
+
+  * Una ves realizadas las modificaciones debe Presionar {{:btnguardar.jpg|}} para actualizar la información.  <html><br><br></html> 
+
+  * El sistema emite un **Mensaje de Éxito**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

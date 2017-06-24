@@ -1,0 +1,13 @@
+====== Operación Consultar ======
+
+Para **consultar** una determinada Solicitud de Crédito Adicional/Disminución debe: <html><br><br></html>
+
+  * Presione el **Botón de Consulta**  {{:btncatalogo.jpg|}} <html><br><br></html>
+
+  * El sistema muestra un **Catálogo** con las Solicitudes Adicionales/Disminución registradas. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:catalogo1.jpg|}}"></div><br></html>
+
+  * Seleccione la **Solicitud Adicional/Disminución** a consultar. <html><br><br></html>
+
+  * El sistema mostrará la información de la **solicitud** seleccionada.

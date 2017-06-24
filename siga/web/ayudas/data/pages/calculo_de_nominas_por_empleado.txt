@@ -1,0 +1,16 @@
+======Cálculo de Nómina por Empleado======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite procesar todos los cálculos de los Conceptos que conforman una Nómina en particular, correspondientes a uno o varios empleados que usted haya seleccionado. De esta manera, usted podrá generar toda la información necesaria para realizar el pago de uno o varios empleados pertenecientes a esa nómina.</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Cálculos de Nómina** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompercalnom.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Cálculo de Nómina por Empleado**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompercalnomporemp.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Cálculo de Nómina** veamos la [[Descripcion_Campos_Calculo_Nomina_Empleado|Descripción de los Campos]]

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/sqlite
+END
+SQLitePreparedStatement.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/sqlite/SQLitePreparedStatement.php
+END
+SQLiteResultSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/sqlite/SQLiteResultSet.php
+END
+SQLiteConnection.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/sqlite/SQLiteConnection.php
+END
+SQLiteIdGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/sqlite/SQLiteIdGenerator.php
+END
+SQLiteResultSetIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/sqlite/SQLiteResultSetIterator.php
+END
+SQLiteStatement.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/sqlite/SQLiteStatement.php
+END
+SQLiteTypes.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/sqlite/SQLiteTypes.php
+END

@@ -1,0 +1,23 @@
+methods:
+  post:
+   - "fadefcaj{descaj}"
+   - "fadefcaj{codalm}"
+
+names:
+
+  fadefcaj{descaj}:
+    required:  Yes
+    required_msg: Debe ingresar la descripción de la Caja
+    validators: Vstring_1_100_0
+    
+  fadefcaj{codalm}:
+    required:  Yes
+    required_msg: Debe ingresar un código de almacen del 
+
+Vstring_1_100_0:
+    class: sfStringValidator
+    param:
+        min:       1
+        min_error: La descripción no puede tener menos de 1 caracteres
+        max:       100
+        max_error: La descripción no puede tener más de 100 caracteres

@@ -1,0 +1,45 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Faentcre
+    theme:            cidesaGenerator
+
+      
+    fields:
+      codentcre: { name: Código, params: size=5 maxlength=3 onFocus=readonly(this.id) onBlur="this.value=this.value.pad(3, '0',0);"}
+      nomentcre: { name: Nombre, params: size=80 maxlength=100 }
+      codzon:
+        name: Zonas Geográficas
+        params: maxlength=20
+        catalogo:
+          catalogoweb: fadefalm_fadefzon
+          clase: Fadefzon
+          ajax: 1
+          parametros: getprincipal="getCodzon" getsecundario="getDescon" campoprincipal="codzon" camposecundario="descon" campobase = "id"
+      
+    
+    list:
+      title:          Registro de Entidades Crediticias
+      fields:
+         codentcre: { name: Código, params: size=5 maxlength=3}
+         nomentcre: { name: Nombre, params: size=20 maxlength=100 }
+         codzon: { name: Zona }
+         deszon: { name: Zona}
+      filters:        [codentcre, nomentcre, codzon ]
+      display:        [=codentcre, nomentcre, deszon ]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:   codentcre       
+
+    edit:
+      title:          Edición de Entidades Crediticias
+      display:        
+        "NONE": [codentcre, nomentcre, codzon ]
+      
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

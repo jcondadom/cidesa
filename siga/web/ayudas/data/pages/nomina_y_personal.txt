@@ -1,0 +1,235 @@
+====== Nómina y Personal ======
+
+==== Definiciones Específicas ====
+
+  * [[Institución|Institución]] 
+
+  * [[Tipos de Nominas|Tipos de Nóminas]]
+
+  * [[Conceptos|Conceptos]]
+
+  * [[Niveles Organizacionales|Niveles Organizacionales]]
+
+  * [[Cargos|Cargo]]
+
+  * [[Definicion de Conceptos Variables|Definición de Conceptos Variables]]
+
+  * [[Variables|Variables]]
+
+  * [[Bancos|Bancos]]
+
+  * [[Profesiones|Profesiones]] 
+
+  * [[Perfiles|Perfiles]]
+ 
+  * [[Tipos de Parientes|Tipos de Parientes]]
+
+  * [[Guarderías|Guarderías]]
+
+  * [[Tipos de Gastos|Tipos de Gastos]]
+
+  * [[Motivos de Faltas y/o Permisos|Motivos de Faltas y/o Permisos]]
+
+  * [[Situación del Empleado|Situación del Empleado]]
+
+  * [[Definición de Condición Contractual|Definición de Condición Contractual]]
+
+  * [[Conceptos para el Salario Integral|Conceptos para el Salario Integral]]
+
+  * [[Conceptos para el Sueldo|Conceptos para el Sueldo]]
+
+  * [[Conceptos para las Primas|Conceptos para las Primas]]
+
+  * [[Conceptos de Compensación por Nómina|Conceptos de Compensación por Nómina]]
+
+  * [[Conceptos de Ahorro Habitacional|Conceptos de Ahorro Habitacional]]
+
+  * [[Conceptos para el Fondo de Jubilación y Pensiones|Conceptos para el Fondo de Jubilación y Pensiones]]
+
+  * [[Jornadas Laborales por Empleado|Jornadas Laborales por Empleado]]
+
+  * [[Definicion_Conceptos_cesta_tickets|Definición de Conceptos de Cesta Tickets]]
+
+  * [[Tipos de Retiros|Tipos de Retiros]]
+
+  * [[Definición de Conceptos para Dias Adicionales|Definición de Conceptos para Dias Adicionales]]
+
+  * [[Conceptos para el ISLR|Conceptos para el ISLR]]
+
+=== Definición de Retenciones y Aportes ===
+ 
+  * [[Retenciones y Aportes|Retenciones y Aportes]]
+
+  * [[Conceptos para Aportes|Conceptos para Aportes]]
+
+  * [[Conceptos para Retenciones|Conceptos para Retenciones]]
+
+=== División Territorial ===
+ 
+  * [[Estados|Estados]]
+
+  * [[Municipios|Municipios]]
+
+  * [[Parrroquias|Parrroquias]]
+
+==== Personal ====
+
+  * [[Datos Personales|Datos Personales]]
+
+  * [[Tipos de Cargos|Tipos de Cargos]]
+
+  * [[Tipo de Dedicación|Tipo de Dedicación]]
+
+  * [[Tabla de Sueldos por Grado y Paso|Tabla de Sueldos por Grado y Paso]]
+
+  * [[Asignación de Cargos y Conceptos a Empleados|Asignación de Cargos y Conceptos a Empleados]]
+
+==== Faltas y/o Permisos ====
+
+  * [[Permisos|Permisos]]
+
+  * [[Salidas|Salidas]]
+
+  * [[Llegadas|Llegadas]]
+
+  * [[Registro de Dias Extras|Registro de Dias Extras]]
+
+  * [[Registro de Faltas y/o Permisos por Nómina en Lotes|Registro de Faltas y/o Permisos por Nómina en Lotes]]
+
+  * [[Registro de Dias Extras por Nómina en Lote|Registro de Dias Extras por Nómina en Lote]]
+
+==== Vacaciones ====
+
+  * [[ Parámetros para el Registro y Control de Vacaciones|Parámetros para el Registro y Control de Vacaciones]]
+
+  * [[ Definición de Jornada Laboral |Definición de Jornada Laboral]]
+
+  * [[ Tabla para los Dias de Disfrute |Tabla para los Dias de Disfrute]]
+
+  * [[ Tabla para los Dias Feriados |Tabla para los Dias Feriados]]
+
+  * [[ Registro de Vacaciones Disfrutadas|Registro de Vacaciones Disfrutadas]]
+
+  * [[ Registro de Vacaciones Disfrutadas en Lote|Registro de Vacaciones Disfrutadas en Lote]]
+
+  * [[ Registro de Solicitud de Vacaciones|Registro de Solicitud de Vacaciones]]
+
+  * [[ Liquidación de Vacaciones|Liquidación de Vacaciones]]
+
+==== Prestaciones ====
+
+  * [[Registro Histórico de Anticipos Otorgados|Registro Histórico de Anticipos Otorgados]]
+
+  * [[Solicitud de Anticipos sobre Prestaciones|Solicitud de Anticipos sobre Prestaciones]]
+
+  * [[Cálculo de Prestaciones Sociales|Cálculo de Prestaciones Sociales]]
+
+=== Definición de Parámetros para las Prestaciones Sociales===
+
+  * [[ Tipos de Contratos Colectivos|Tipos de Contratos Colectivos]]
+
+  * [[ Registro de Tipos de Asignaciones|Registro de Tipos de Asignaciones]]
+
+  * [[Definición Presupuestaria de Liquidación|Definición Presupuestaria de Liquidacioón]]
+
+=== Registros Útiles para el Cálculo de Prestaciones Sociales ===
+
+  * [[Asignación de Trabajadores para Prestaciones por Contrato Colectivo|Asignación de Trabajadores para Prestaciones por Contrato Colectivo]]
+
+  * [[Registro de Tasas de Interés Periódica|Registro de Tasas de Interés Periódica]]
+ 
+  * [[Registro de Salario Integral por Contrato|Registro de Salario Integral por Contrato]]
+
+  * [[Registro de Salario Integral por Contrato Individual|Registro de Salario Integral por Contrato Individual]]
+
+==== Asignaciones Generales para el Cálculo de Nómina ====
+
+  * [[Asignación de Conceptos por Cat. resup. Especial|Asignación de Conceptos por Categoría Presupuestaria Especial]]
+
+  * [[Asignación de Conceptos a Nómina|Asignación de Conceptos a Nómina]]
+
+  * [[Asignación de Cargos a Nómina|Asignación de Cargos a Nómina]]
+
+  * [[Asignación de Conceptos a Empleados|Asignación de Conceptos a Empleados]]
+
+  * [[Asignación de Cuentas Bancarias por Empleado|Asignación de Cuentas Bancarias por Empleado]]
+
+  * [[Asignación Modalidad Pago Cesta Ticket a Empleado por Nómina |Asignación Modalidad Pago Cesta Ticket a Empleado por Nómina]]
+
+  * [[Asignación de Categorías por Empleado|Asignación de Categorías por Empleado]]
+
+==== Movimientos de Nómina ====
+
+  * [[Movimientos por Conceptos|Movimientos por Conceptos]]
+
+  * [[Movimientos por Conceptos y Cargos|Movimientos por Conceptos y Cargos]]
+
+  * [[Movimientos por Empleado|Movimientos por Empleado]]
+
+==== Nóminas Especiales ====
+
+  * [[Nominas_Especiales_Definición|Definición]]
+
+  * [[Nominas_Especiales_Conceptos|Conceptos]]
+
+  * [[Nominas_Especiales_Calculos|Cálculo]]
+
+  * [[Nominas_Especiales_Cierre_Nominas_Especiales|Cierre de Nóminas Especiales]]
+
+==== Cálculos de Nómina ====
+
+  * [[Cálculo de Conceptos|Cálculo de Conceptos - Formulación ]]
+
+  * [[Cálculo de Nómina|Cálculo de Nómina]]
+
+  * [[Cálculo de Nóminas por Empleado|Cálculo de Nóminas por Empleado]]
+
+  * [[Cierre de Nómina|Cierre de Nómina]]
+
+==== Prestamos ====
+
+  * [[Tipos de Prestamos|Tipos de Préstamos]]
+
+  * [[Prestamos|Préstamos]]
+
+  * [[Movimientos_de_Prestamos|Movimientos de Préstamos]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

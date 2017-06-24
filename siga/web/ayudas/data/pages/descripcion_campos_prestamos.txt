@@ -1,0 +1,27 @@
+  
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Al entrar a la pantalla de Préstamos podrá visualizar la [[listas|Lista]] con todos los Tipos de Préstamos que fueron definidos previamente en el sistema donde debe seleccionar el Código del Tipo de Préstamo
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperprestinc1.jpg|}}"></div><br></html>
+
+  * El sistema carga y muestra el **Código** y **Descripción** del **Tipo de Préstamo** que se va a generar. <html><br><br></html>
+
+  * El sistema carga y muestra el **Código** y **Descripción** del **Concepto** para el cobro de cuotas. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperprestinc2.jpg|}}"></div><br></html>
+
+  * Seguidamente en el [[Grid|Grid Empleados]] el sistema carga y muestra los **Códigos** y **Nombres** de los **Empleados** de la Institución. <html><br><br></html>
+
+  * Para Incluir ó Modificar el **Monto del Pŕestamo**, la **Cuota Periódica** y el **Saldo del Préstamo** correspondiente a un empleado determinado, usted debe hacer click sobre la casilla correspondiente a la fila del empleado seleccionado y en la columna respectiva. <html><br><br></html>
+
+  * Por último presione el **Botón** {{:btnguardar.jpg|}} para que el sistema guarde todos los valores calculados para cada empleado y pueda relacionarlos a la Nómina a la que pertenezca cada uno de ellos.
+
+
+
+
+
+
+
+
+
+
+

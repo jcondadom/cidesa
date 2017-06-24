@@ -1,0 +1,35 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Tscomban
+    theme:            cidesaGenerator
+    fields:
+      codcom: { name: Código, params : size=5 maxlength=3  onFocus=readonly(this.id) onBlur="this.value=this.value.pad(3, '0',0);"}
+      descom: { name: Descripción, params : size=80 maxlength=100 }
+      moncom: { name: Monto}
+      codcta:
+        name: Cuenta Contable
+        params: maxlength=32
+        catalogo:
+          catalogoweb: Contabb_Pagemiord
+          clase: Contabb
+          ajax: 1
+          parametros: getprincipal="getCodcta" getsecundario="getDescta" campoprincipal="codcta" camposecundario="descta" campobase = "id"    
+    list:
+      title:          Definiciones de Comisiones Bancarias
+      filters:        [codcom, descom]
+      display:        [=codcom, descom]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codcom
+    edit:
+      title:          Edición  de Comisiones Bancarias
+      display:
+        "Datos de la Comisión":   [codcom, descom, moncom, codcta]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

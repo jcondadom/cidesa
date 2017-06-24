@@ -1,0 +1,51 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   liregofedet
+  anchogrid:               900
+  ancho:                   850
+  filas:                   0
+  titulo:                  '  '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Partida de Obra
+  tipo:                    t
+  nombrecampo:             codart
+  html:                    [ readonly=true ]
+  esgrabable:              false
+2:
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desart
+  html:                    [ readonly=true ]
+  esgrabable:              false
+3:
+  titulo:                  Unidad Medida
+  tipo:                    t
+  nombrecampo:             unimed
+  html:                    [ readonly=true ]
+  esgrabable:              false
+4:
+  titulo:                  Cantidad
+  tipo:                    m
+  nombrecampo:             cantid
+  html:                    [ readonly=true ]
+  esgrabable:              false
+5:
+  titulo:                  Precio Unitario
+  tipo:                    m
+  nombrecampo:             preuni
+  html:                    [ readonly=true ]
+  esgrabable:              false
+6:
+  titulo:                  Recargo
+  tipo:                    m
+  nombrecampo:             monrec
+  html:                    [ readonly=true ]
+  esgrabable:              false
+7:
+  titulo:                  Sub-Total
+  tipo:                    m
+  nombrecampo:             subtot
+  html:                    [ readonly=true ]
+  esgrabable:              false

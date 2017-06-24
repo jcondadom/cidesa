@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "catiptrans{codtrans}"
+   - "catiptrans{destrans}"
+
+names:
+  catiptrans{codtrans}:
+    required:  Yes
+    required_msg: El código del Tipo de Transporte no puede estar en Blanco
+    validators: Validator_codtrans
+
+  catiptrans{destrans}:
+    required:  Yes
+    required_msg: La Descripción del Tipo de Transporte no puede estar en Blanco
+    validators: Validator_nomtrans
+
+Validator_codtrans:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Catiptrans
+        column:       codtrans
+        unique_error: El código del Tipo de Transporte ya Existe intente con otro.
+
+Validator_nomtrans:
+  class: sfStringValidator
+  param:
+    min:       2
+    min_error: La Descripción no puede tener menos de 2 caracteres
+    max:       250
+    max_error: La Descripción no puede pasar mas de 250 caracteres

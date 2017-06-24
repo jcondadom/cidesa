@@ -1,0 +1,60 @@
+===== Pagos Directos=====
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Como su nombre la indica los Pagos Directos son aquellos que se realizan directamente, es decir, que no Refieren a una Orden de Pago. Los pagos Directos Comprometen, Causan, pagan y restan la Disponibilidad del Presupuesto.Si selecciona en Tipo de documento Cheque Directo el sistema muestra en pantalla los datos necesarios para completar la emision de Cheque como se muestra a continuacion:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbancemipaginc5.jpg|}}"></div><br></html>
+
+  * **Concepto:** En este campo se coloca la explicación que indica el motivo por el cual se emite un Cheque.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbancemipaginc6.jpg|}}"></div><br></html>
+
+  * Seguidamente se muestra un [[Grid|Grid]] llamado **Pago Directo** donde se especifican los siguientes campos en las correspondientes columnas: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Código Presupuestario:** Representa al Título Presupuestario involucrado en el pago.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Neto a Pagar:** Es el monto total del pago. Es el resultado de la suma de los Montos contemplados en el grig.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Descripción:** Se refiere a Descripción del Código Presupuestario seleccionado.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Monto:** Se refiere al monto por el cual se esta realizando el pago.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Descuento:** Este campo indica si la Institución hace una deducción sobre el Pago que se emite.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Concepto Descuento:** Se refiere al motivo por el cual se esta realizando el Descuento.
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/60604/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/prepagar/config
+END
+generator.yml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/60604/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/prepagar/config/generator.yml
+END
+grid_cpimppag_create.yml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/60100/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/prepagar/config/grid_cpimppag_create.yml
+END
+grid_eventos.yml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/50175/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/prepagar/config/grid_eventos.yml
+END
+grid_cpimppag_edit.yml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/46723/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/prepagar/config/grid_cpimppag_edit.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/36423/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/prepagar/config/view.yml
+END

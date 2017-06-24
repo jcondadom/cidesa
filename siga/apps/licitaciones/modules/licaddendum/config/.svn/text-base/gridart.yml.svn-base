@@ -1,0 +1,90 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   liregmodcondet
+  anchogrid:               900
+  ancho:                   1400
+  filas:                   5
+  titulo:                  '  '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Partida de Obra
+  tipo:                    t
+  nombrecampo:             codart
+  html:                    [ size=12 readonly=true ]
+  catalogo:                [ocdefpar, sf_admin_edit_form, {Codpar: 1, Despar: 2, Desuni: 3 }, Ocdefpar_codpar ]
+  esgrabable:              true
+2:
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desart
+  html:                    [ size=20 readonly=true ]
+  esgrabable:              true
+3:
+  titulo:                  Unidad Medida
+  tipo:                    t
+  nombrecampo:             unimed
+  html:                    [ size=12 readonly=true ]
+  esgrabable:              true
+4:
+  titulo:                  Cantidad Presupuesto Base
+  tipo:                    m
+  nombrecampo:             cantid
+  html:                    [ size=12 readonly=true ]
+  esgrabable:              true
+5:
+  titulo:                  Precio Unitario Presupuesto Base
+  tipo:                    m
+  nombrecampo:             preuni
+  html:                    [ size=12 readonly=true ]
+  esgrabable:              true
+6:
+  titulo:                  Cantidad Aumento
+  tipo:                    m
+  nombrecampo:             cantidaum
+  html:                    [ size=12 ]
+  ajaxfila:                true
+  default:                 0
+  esgrabable:              true
+7:
+  titulo:                  Cantidad Disminución
+  tipo:                    m
+  nombrecampo:             cantiddis
+  html:                    [ size=12 ]
+  ajaxfila:                true
+  default:                 0
+  esgrabable:              true
+8:
+  titulo:                  Cantidad Total
+  tipo:                    m
+  nombrecampo:             cantidtot
+  html:                    [ size=12 readonly=true ]
+  esgrabable:              true
+9:
+  titulo:                  Precio Unitario Reconsiderado
+  tipo:                    m
+  nombrecampo:             preunirec
+  html:                    [ size=12 ]
+  esgrabable:              true
+  ajaxfila:                true
+10:
+  titulo:                  Recargo Reconsiderado
+  tipo:                    m
+  nombrecampo:             monrecrec
+  html:                    [ size=12 ]
+  esgrabable:              true
+  ajaxfila:                true
+11:
+  titulo:                  Sub-Total
+  tipo:                    m
+  nombrecampo:             subtot
+  html:                    [ size=12 readonly=true ]
+  esgrabable:              true
+  estotal:                 [true, monart]
+12:
+  titulo:                  liregcondet
+  tipo:                    t
+  nombrecampo:             liregcondet_id
+  html:                    [ size=12 readonly=true ]
+  esgrabable:              true
+  oculta:                  true

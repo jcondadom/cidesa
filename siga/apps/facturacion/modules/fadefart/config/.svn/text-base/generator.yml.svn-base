@@ -1,0 +1,74 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Facorrelat
+    theme:            cidesaGenerator
+    fields:
+      codemp: { name: Código Empresa }
+      nomemp: { name: Nombre de la  Institucón }
+      diremp: { name: Dirección }
+      tlfemp: { name: Teléfono }
+      lonart: { name: Longitud del Código }
+      rupart: { name: Rupturas de Control }
+      forart: { name: Formato , params: maxlength=30 }
+      desart: { name: Descripción , params: maxlength=30 }
+      forubi: { name: Formato , params: maxlength=30 }
+      desubi: { name: Descripción , params: maxlength=30 }
+      generaop: { name: Generar Orden de Pago al Momento de la Recepción }
+      generacom: { name: Generar Comprobantes contables al momento de la Recepcion y el Despacho }
+      asiparrec: { name: Asignar una partida Presupuestaria al Recargo cuando se genere una Orden de Compra }
+      corpre: { name: Presupuesto, validate: CorrelValidator, msj_error: Debe insertar el correlativo de presupuesto }
+      corped: { name: Pedido }
+      corfac: { name: Factura }
+      cornot: { name: Nota de Entrega }
+      cordph: { name: Despacho }
+      cordev: { name: Devolución }
+      coraju: { name: Ajuste }
+      corantcli: { name: Anticipo a Cliente }
+      corprerot: { name: Presupuesto Rotativo}
+      corprepat: { name: Presupuesto Patrocinio}
+      prcasopre: { name: Asociación Presupuestaria}
+      prcreqapr: { name: Requiere Aprobación}
+      comasopre: { name: Asociación Presupuestaria}
+      comreqapr: { name: Requiere Aprobación}
+      almcorre:  { name: Traspaso de Artículos}
+      forsnc:    { name: Formato}
+      dessnc:    { name: Descripción}
+      numlot:    { name: Número de Lote }
+      codcat:    { name: Código de Categoría }
+      ctadev:	 { name: Código }
+      desctadev: { name: Nombre}
+      ctavco:	 { name: Código}
+      desctavco: { name: Nombre}
+      apliclades:{ name: Aplicar clave para Descuento}
+      codpro:    { name: Proforma }
+      proform:   { name: Uso de Proforma}
+      blonumfac:   { name: Bloquear N° Factura}
+      corfaccont: { name: Número de Contol Factura}
+      codmon:   { name: Moneda Base}
+      codtiptra:   { name: Tipo de Transacción, params: disabled=false}
+      fatipmov_id: { name: Doc. Nota de Crédito}
+      firprep1:    { name: Firma 1 Forma Cotización}
+      carprep1:    { name: Cargo 1 Forma Cotización}
+      firprep2:    { name: Firma 2 Forma Cotización}
+      carprep2:    { name: Cargo 2 Forma Cotización}
+      firprep3:    { name: Firma 3 Forma Cotización}
+      carprep3:    { name: Cargo 3 Forma Cotización}
+      nomreppre:    { name: Nombre del Reporte Cotización}
+      cosmanobr: { name: Costo de Mano de Obra}
+      porgasadm: { name: % de Gastos Administrativos }
+      porutilid: { name: % de Utilidad}
+      porcarfab: { name: % de Carga Fábril }
+      fatipmov_deb_id: { name: Doc. Nota de Débito}
+    edit:
+      title:         Definición de Artículos
+      display:        [codemp, nomemp, diremp, tlfemp, lonart, rupart, forart, desart, forubi, desubi, generaop, generacom, asiparrec, corpre, corped, corfac, cornot, cordph, cordev, coraju, prcasopre, prcreqapr, comasopre, comreqapr, almcorre, forsnc, dessnc, numlot, codcat, ctadev, desctadev, ctavco, desctavco, apliclades, codpro, proform, corfaccont, codmon, corprerot, corprepat, codtiptra, blonumfac, corantcli, fatipmov_id, firprep1, carprep1, firprep2, carprep2, firprep3, carprep3, nomreppre, cosmanobr, porgasadm, porutilid, porcarfab, fatipmov_deb_id]
+      fields:
+        generaop:  {type: checkbox_tag}
+        generacom: {type: checkbox_tag}
+        prcasopre: {type: checkbox_tag}
+        prcreqapr: {type: checkbox_tag}
+        comasopre: {type: checkbox_tag}
+        comreqapr: {type: checkbox_tag}
+      actions:
+        _save:        ~

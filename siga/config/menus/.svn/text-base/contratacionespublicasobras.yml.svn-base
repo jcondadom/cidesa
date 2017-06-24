@@ -1,0 +1,122 @@
+contratacionespublicasobras:
+  opciones:
+    activo: true
+    descripcion: Módulo de Contrataciones Públicas de Obras
+    imagen: licitaciones.gif
+    nombre: Contrataciones Públicas de Obras
+    urls:
+      default:
+        modulo: licitaciones.php
+        modulo_dev: licitaciones_dev.php
+      Catálogo Presupuestario del Ente:
+        #LISTO
+        modulo: presupuesto.php
+        modulo_dev: presupuesto_dev.php
+      Partidas para la Contratacion de Obras particulares del Ente:
+        #LISTO
+        modulo: obras.php
+        modulo_dev: obras_dev.php
+      Unidades de Medida:
+        #LISTO
+        modulo: obras.php
+        modulo_dev: obras_dev.php
+      Fuente de Financiamiento:
+        #LISTO
+        modulo: formulacion.php
+        modulo_dev: formulacion_dev.php
+      División Territorial:
+        #LISTO
+        modulo: obras.php
+        modulo_dev: obras_dev.php
+      Solicitud de Contratación:
+        #LISTO
+        modulo: obras.php
+        modulo_dev: obras_dev.php
+      Proveedores/Beneficiarios:
+        #LISTO
+        modulo: compras.php
+        modulo_dev: compras_dev.php
+      Cambiar Contraseña:
+        modulo: autenticacion.php
+        modulo_dev: autenticacion_dev.php
+      Reportes:
+        absoluta: reportes/reportes/contratacionespublicasobras
+    imagenes:
+      default: OperatorClass.png
+  menu:
+    Definiciones Generales:
+      Ente Contratante:                                         licdefemp
+      Ley de Contrataciones Públicas:                           licleycon
+      Catálogos Requeridos:
+        Normas COVENIN:                                         licnorcov
+        Partidas para la Contratacion de Obras particulares del Ente:  oycdefpar
+        Catálogo Presupuestario del Ente:                       pretitpre
+        Tipo de Empresa:                                        lictipemp
+        Prioridad de Contratación:                              licpriocon
+      Modalidad de Contratación:                                lictiplic
+      Declaratoria Modalidad de Contratación:                   licsicact
+      Unidades de Medida:                                       oycdefuni
+      Solicitud de Contratación:                                oycclacomp
+      Mecanismos de Concurso:                                   licmeccon
+      #Unidad Administrativa:                                    licuniadm
+      Proveedores/Beneficiarios:                                almregpro
+      Unidad Ejecutora Local:
+        Tipo:                                                   lictipuniste
+        Registro:                                               licuniste
+      Integrantes Comisión de Contratación:                     liccomlic
+      Fuente de Financiamiento:                                 pretitfin
+      División Territorial:
+        Pais:                                                   oycdefdivpai
+        Estado:                                                 oycdefdivest
+        Ciudad:                                                 oycdefdivciu
+        Municipio:                                              oycdefdivmun
+        Parroquia:                                              oycdefdivpar
+        Sector:                                                 oycdefdivsec
+      Criterios de Calificación Recaudos y Garantias:
+        Legales:                                                licasplegcriterios
+        Técnico:                                                licaspteccriterios
+        Financieros:                                            licaspfincriterios
+        Fianzas/Garantias:                                      liccomres
+      Tipos de Actas:                                           lictipact
+      Tipos de Penalizaciones:                                  lictippen
+      Tipos de Modificaciones de Contratos:                     lictipmod
+#      Tipos de Addendums:                                       lictipadd
+    Proceso de Contratación:
+      Solicitud de Contratación de Obra:
+        Presupuesto Base:                                       licprebasob
+        Punto de Cuenta de Inicio:                              licmemoranob
+        Punto de Cuenta Solicitud de Aprobación Egreso:         licptocueob
+        Requisición/Solicitud de Egresos:                       licsolegrob
+      Pliego de Condiciones:
+        Especificaciones del Pliego de Condiciones:             licplieespob
+        Participantes:                                          licempparob
+        Aclaratoria/Respuestas:                                 licaclaraob
+        Modificacion/Prorrogas al Pliego de Condiciones:        licpliemodob
+        Analisis de Empresas:                                   licanaempob
+      Ofertas:
+        Oferentes:                                              licempofeob
+        Registro de Ofertas:                                    licregofeob
+        Analisis de Ofertas:                                    licanaofeob
+      Recomendación:                                            licrecomenob
+      Punto de Cuenta/Aprobación Contratación:                  licptocueconob
+      Notificación de Adjudicación:                             licnotificob
+      Contratos de Obras:                                       liccontratob
+    Declaratorias:
+      Asignar Declaratoria a Documentos:                        licasigdec
+    Control y Seguimiento:
+      Actas:                                                    licactas
+      Obras Adiccionales:
+        Presupuesto de Modificación de Obra:                    licmodcont
+        Aprobación de Modificación de Obra:                     licaprmodcont
+      Evaluación:
+        Fianzas:                                                licfianzas
+        # Cronograma de Entregas:                                 licentregas # Este formulario es de compras
+        Actuación y Desempeño de la Contratista:                licactdescont
+      Tramite de Pagos:
+        Valuaciones:                                            licvaluaciones
+        Supervisiones e inspecciones:                           licinspecciones
+        Solicitud de pagos:                                     licsolpag
+      Penalizaciones:                                           licpenalizaciones
+    Reportes:
+    Mantenimiento:
+      Cambiar Contraseña:                                       cambiopasswd

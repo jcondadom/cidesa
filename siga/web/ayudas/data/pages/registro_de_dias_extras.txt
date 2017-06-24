@@ -1,0 +1,24 @@
+====== Registro de Dias Extras ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite llevar el control de los dias extras trabajados por un determinado empleado</html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Faltas y/o Permisos** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperfalper.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Registro de Dias Extras**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperregdiasext.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Registro de Dias Extras** solo podrá realizar las Operaciones Básicas de:
+
+  * [[Incluir Registro de Dias Extras|Incluir]]
+
+  * [[Eliminar Registro de Dias Extras|Eliminar]]
+
+  * [[Consultar Registro de Dias Extras|Consultar]]

@@ -1,0 +1,57 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   fcvalinm
+  anchogrid:               800
+  ancho:                   700
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Año vigencia
+  tipo:                    t
+  nombrecampo:             anovig
+  html:                    [size="4"]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Valor M
+  tipo:                    m
+  nombrecampo:             valmtr
+  html:                    [size="10"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Porc. Valor Fiscal
+  tipo:                    m
+  nombrecampo:             porvalfis
+  html:                    [size="10"]
+  esgrabable:              true
+4:       # Columna 4
+  titulo:                  Valor Fiscal del M.
+  tipo:                    m
+  nombrecampo:             valfis
+  html:                    [size="10"]
+  esgrabable:              true
+5:       # Columna 5
+  titulo:                  Alicuota Terreno.[X/1000]
+  tipo:                    m
+  nombrecampo:             alitip
+  html:                    [size="10"]
+  esgrabable:              true
+6:       # Columna 6
+  titulo:                  Bs. M Anual Terreno
+  tipo:                    t
+  nombrecampo:             anualt
+  html:                    [size="10"]
+  esgrabable:              true
+7:       # Columna 7
+  titulo:                  Alicuota Cons.[X/1000]
+  tipo:                    m
+  nombrecampo:             alitipt
+  html:                    [size="10"]
+  esgrabable:              true
+8:       # Columna 8
+  titulo:                  Bs. M Anual Cons.
+  tipo:                    m
+  nombrecampo:             anual
+  html:                    [size="10"]
+  esgrabable:              true

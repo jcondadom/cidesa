@@ -1,0 +1,80 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcconpag
+    theme:            cidesaGenerator
+
+
+    fields:
+      refcon:  {name: Número de Control, params: size=10 maxlength=10 onBlur='if (!this.value) this.value=this.value.pad(10, "0",0);' }
+      feccon:  { name: Fecha del Registro, params: date_format='dd/mm/yyyy' size=10 maxlength=10}
+      rifcon:  { name: C.I. / RIF}
+      nomcon:  { name: Nombre, params: size=50 }
+      dircon:  { name: Dirección, params: size=60 maxlength=255 }
+      naccon:  { name: Nacimiento}
+      tipcon:  { name: Tipo}
+      obscon: { name: Descripción, params: size=60 maxlength=255}
+      moncon: { name: Monto del Impuesto a Pagar, params: size=15 readonly=true}
+      funrec: { name: Funcionario Receptor}
+      fecrec: { name: Fecha, params: date_format='dd/mm/yyyy' size=10 maxlength=10}
+      estcon: { name: Estatus}
+      grid: { name: .}
+      gridrubro: { name: .}
+      gridconvenio: { name: .}
+      datced: { name: Cédula,  params: size=15 maxlength=14 disabled=false}
+      datnac: { name: Nacionalidad,  params: size=15 maxlength=14 readonly=false}
+      datnom: { name: Nombre ,  params: size=30 maxlength=50 readonly=false}
+      datdir: { name: Dirección ,  params: size=60 maxlength=60 readonly=false}
+      dattel: { name: Teléfono ,  params: size=15 maxlength=14 readonly=false}
+      datcar: { name: Cargo ,  params: size=30 maxlength=60 readonly=false}
+      datreg: { name: Empresa Registrada,  params: size=60 maxlength=300 readonly=false}
+      datcon: { name: Concepto del Convenio,  params: size=60 maxlength=300 readonly=false}
+      porini: { name: Porcentaje(%)}
+      monini: { name: Monto(Bs.)}
+      porfin: { name: Porcentaje(%)}
+      monfin: { name: Monto(Bs.)}
+      numcuo: { name: .}
+      moncuo: { name: Monto por Cuota (Bs.)}
+      totcuo: { name: Total (Bs.)}
+      datoconvenio: { name: .}
+      total: { name: .}
+      combocriterio:  { name: .}
+      seleccion:  { name: .}
+      totalmondec:  { name: Total Monto de la Deuda(A), params: readonly=true}
+      totalautliq:  { name: Total Monto Auto-Liquidacion, params: readonly=true}
+      totalmora:  { name: Total Monto de Mora(C), params: readonly=true}
+      totalprontopg:  { name: Total Descuento Pronto Pago(D), params: readonly=true}
+      totalmontopag:  { name: Total Monto a Pagar(A+C-D), params: readonly=true}
+      totalmontopagcon:  { name: Total Monto Pagado Contribuyente (E), params: readonly=true}
+      totalmoncon:  { name: Total  Monto a Convenir, params: readonly=true}
+    list:
+      title:          Convenios de Pagos
+      filters:        [ refcon, feccon]
+      display:        [ =refcon, obscon]
+      fields:
+        feccon: { params: date_format='dd/MM/yy' }
+        fecrec: { params: date_format='dd/MM/yy' }
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   5
+    edit:
+      title:          Registro de Convenios de Pagos
+      display:
+        NONE:  [ _refcon, feccon]
+        "Datos Contribuyentes":  [ _combocriterio, _rifcon, dircon, _nacconcon, _tipconcon ]
+        "Registro Convenio":  [ obscon, moncon ]
+        "Registro Representante Legal":  [ datced, _datnac, datnom, datdir, dattel, datcar ]
+        "Otro Registro":  [ datreg, datcon ]
+        "Recepción":  [ funrec, fecrec ]
+        "Distribución Pago":  [ _grid ]
+        "Totales":  [ totalmondec, totalautliq, totalmora, totalprontopg, totalmontopag , totalmontopagcon]
+        "Datos del Convenio": [ _datoconvenio]
+        "Distribución del Convenio":  [ _total, _gridconvenio, totalmoncon ]
+        "Distribución por Rubro":  [ _gridrubro ]
+      hide: [ seleccion]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

@@ -1,0 +1,18 @@
+indexSuccess:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Cidesa - Apps
+    robots:       index, follow
+    description:  Apps de Cidesa
+    keywords:     cidesa, portal, Apps
+    language:     es_VE
+
+  stylesheets:    [main]
+
+  javascripts:    []
+  
+  has_layout:     on
+  layout:         layout_app
+

@@ -1,0 +1,26 @@
+====== Definición de Clasificación Funcional ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que se encarga de definir la clasificación de funciones de un activo.</html>
+
+Para ello:
+
+  * Seleccione la opción **Bienes Nacionales** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:bienac.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedef.jpg|}}"></div><br></html>
+ 
+  * Por último seleccione **Definición de Clasificación Funcional**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedefclafun.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Definición de Clasificación Funcional** solo podrá realizar la Operación Básica de:
+
+  * [[Incluir Definición de Clasificación Funcional|Incluir]]
+
+  * [[Modificar Definición de Clasificación Funcional|Modificar]]
+
+  * [[Eliminar Definición de Clasificación Funcional|Eliminar]]
+
+  * [[Consultar Definición de Clasificación Funcional|Consultar]]

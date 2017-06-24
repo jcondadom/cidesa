@@ -1,0 +1,13 @@
+====== Descripción de Campos ======
+
+  * Ingresar el **Tipo de Documento** <html><br><br></html>
+
+  * Asignar el **Nombre Extendido** y **Abreviado** que identificará al Pagado.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprepagosinc1.jpg|}}"></div><br></html>
+
+  * Se debe indicar si **refiere** a algún otro documento (precompromiso, compromiso, causado) o no refiere a ninguno y si **afecta** o no el monto de los documentos anteriores y de la disponibilidad.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprepagosinc2.jpg|}}"></div><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Pagos** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

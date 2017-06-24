@@ -1,0 +1,99 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fafacturpro
+    theme:            cidesaGenerator
+    display:   [reffac, fecfac, tipref, tipmon, rifpro, nompro, telpro, dirpro, tipper, codconpag, desconpag, desfac, monfac, observ, lonart, monant, valmon ]
+    fields:
+      reffac:  { name: Número, params: maxlength=8 size=10 onBlur="rellenarcorr(this.id)"}
+      fecfac:  { name: Fecha Emisión, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      tipref:  { name: Refiere a}
+      tipmon:  { name: Tipo de Moneda}
+      rifpro:  { name: C.I/R.I.F Cliente, params: maxlength=8 disabled=false}
+      nompro:  { name: Nombre, params: readonly=true}
+      telpro:  { name: Teléfono(s), params: readonly=true style=border:none size=20}
+      dirpro:  { name: Dirección, params: readonly=true style=border:none size=80}
+      tipper:  { name: Tipo de Persona, params: readonly=true style=border:none size=10}
+      codconpag:  { name: Condición de Pago, params: maxlength=4}
+      desconpag:  { name: Descripción}
+      desfac:  { name: Descripción, type: textarea_tag , params: maxlength=255 cols=66}
+      monto:   { name: Monto}
+      monrgo:   { name: Recargo}
+      mondesc:   { name: Descuento}
+      monfac:  { name: Total, params: readonly=true}
+      observ:  { name: Descripción Detallada, type: textarea_tag, params: size=80x5 maxlength=500 onkeyup=" return ismaxlength(this)"}
+      lonart:  { name: ., params: style=display:none}
+      monant:  { name: ., params: style=display:none}
+      valmon:  { name: ., params: style=display:none}
+      grid_faartfacpro:    { name: .}
+      grid_fargoartpro:    { name: .}
+      grid_fadescartpro:    { name: .}
+      totrec:  { name: Total Recargos}
+      totdesc:  { name: Total Descuentos}
+      js:     { name: .}
+      botones:     { name: .}
+      codubi:
+        name: Unidad
+        params: maxlength=30
+        catalogo:
+          catalogoweb: Bnubica_Almordcom
+          clase: Bnubica
+          ajax: 7
+          parametros: getprincipal="getCodubi" getsecundario="getDesubi" campoprincipal="codubi" camposecundario="desubi" campobase = "id"
+      btnprint:  { name: .}
+      muelle:  { name: Muelle, params: size=80 maxlength=100}
+      buque:  { name: Buque, params: size=80 maxlength=250}
+      expedi:  { name: N° de Expediente, params: size=50 maxlength=50}
+      bele:  { name: BL, params: size=80 maxlength=100}
+      factura:  { name: Factura, params: size=50 maxlength=50}
+      embarca:  { name: Embarcador, params: size=80 maxlength=250}
+      descarga:  { name: Descagadora, params: size=80 maxlength=250}
+      canbul:   { name: Cant. Bultos}
+      codprod:
+        name: Rubro
+        params: maxlength=8
+        catalogo:
+          catalogoweb: Fadefpro_Fafacturpro
+          clase: Fadefpro
+          ajax: 18
+          parametros: getprincipal="getCodprod" getsecundario="getDesprod" campoprincipal="codprod" camposecundario="sesprod" campobase = "id"
+      tmdesc:   { name: TM Descargadas}
+      fecatra:  { name: Fecha de Atraque, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      fecinidesc:  { name: Fecha Inicio Descargada, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      fecfindesc:  { name: Fecha Fin Descargada, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      valcifs:   { name: Valor CIFS}
+    list:
+      title:          Proforma
+      display:        [=reffac, fecfac, rifpro, nompro]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [reffac, fecfac, rifpro, codubi]
+      max_per_page:   10
+      sort:           reffac
+    edit:
+      title: Edición de Proforma
+      display:
+        Datos de la Proforma: [_btnprint, reffac, fecfac, _tipref, _tipmon, _rifpro, telpro, tipper, dirpro, _codconpag, _desfac, codubi, monto, monrgo, mondesc, monfac]
+        Detalle de la Proforma: [_grid_fargoartpro, _totrec, _grid_fadescartpro, _totdesc, _botones, _grid_fapedartpro, _grid_faartfacpro, lonart, monant, valmon]
+        Otros Datos:  [muelle, buque, expedi, bele, factura, embarca, descarga, canbul, codprod, tmdesc, fecatra, fecinidesc, fecfindesc, valcifs]
+        "NONE":  [_js]
+        #"Datos de la Factura": [codcaj, reffac, fecfac, _tipref, _tipmon, _rifpro, telpro, dirpro, tipper, _codconpag, desfac, monto, monrgo, mondesc, monfac, combo, refproform, proform, numcontrol]
+        #"Detalle": [listaart, _grid_fapeddes, _grid_faartfac, _grid_fadescart, totdesc, _grid_fargoart, totrec]
+        #"Forma de Pago": [_codtip, _grid_faforpag, moncan, monres, vuelto]
+        #"Descripción Detallada/Sucursal": [observ, sucursal, usuarios, password]
+      #fields:
+        #reffac:
+        #  divclass:       divlado
+        #  label_width:    none
+        #fecfac:
+        #  divclass:   divotro
+      hide: [mancatdes, esretencion, trajo, totmonrgo, tottotart, porcentajedescto, apliclades, rgofijos, filactrec, filactdes, codcli, ctasociada, fadescripfac_id, tierecar]
+      report:
+        url:         facturacion/rfarfacpreimp.php?m=m
+        params:      { codfacdes: reffac, codfachas: reffac }
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

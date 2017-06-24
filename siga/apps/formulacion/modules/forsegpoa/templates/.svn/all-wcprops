@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/35330/web/php/siga/branches/productions/trunk/apps/formulacion/modules/forsegpoa/templates
+END
+_list_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/35330/web/php/siga/branches/productions/trunk/apps/formulacion/modules/forsegpoa/templates/_list_actions.php
+END
+_list_td_tabular.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/35330/web/php/siga/branches/productions/trunk/apps/formulacion/modules/forsegpoa/templates/_list_td_tabular.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/35330/web/php/siga/branches/productions/trunk/apps/formulacion/modules/forsegpoa/templates/editSuccess.php
+END
+_list_td_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/35330/web/php/siga/branches/productions/trunk/apps/formulacion/modules/forsegpoa/templates/_list_td_actions.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/35330/web/php/siga/branches/productions/trunk/apps/formulacion/modules/forsegpoa/templates/_edit_actions.php
+END
+listSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/35330/web/php/siga/branches/productions/trunk/apps/formulacion/modules/forsegpoa/templates/listSuccess.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/35330/web/php/siga/branches/productions/trunk/apps/formulacion/modules/forsegpoa/templates/_edit_form.php
+END
+_filters.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/35330/web/php/siga/branches/productions/trunk/apps/formulacion/modules/forsegpoa/templates/_filters.php
+END

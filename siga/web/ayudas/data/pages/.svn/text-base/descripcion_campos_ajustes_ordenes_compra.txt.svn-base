@@ -1,0 +1,26 @@
+Los campos que conforman la pantalla de **Ajustes a Ordenes de Compra** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompajuordcompinc1.jpg|}}"></div><br></html>
+
+  * **Número:** Representa el identificador del documento que refiere a un ajuste. <html><br><br></html>
+
+  * **Orden de Compra** Hace referencia al número de la Orden de Compra que se desea ajustar. <html><br><br></html>
+
+ 
+  * **Fecha de Ajuste:** Seleccionar del [[calendario|Calendario]] la fecha en la cual se esta realizando el ajuste. <html><br><br></html>
+
+  * **Descripción:** Refiere a la descripción del Ajuste que se esta realizando a la Orden de Compra. <html><br><br></html>
+ 
+  * **Proveedor:** Indica el código del Proveedor que está relacionado con la Orden de Compra. <html><br><br></html>
+
+  * **Nombre Proveedor:** Indica el nombre del proveedor. <html><br><br></html>
+
+  * **Monto Total:** Se refiere al Monto total de la Orden de Compra luego de realizado el ajuste. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompajuordcompinc2.jpg|}}"></div><br></html>
+
+  * **Existencia por Almacenes:** Aquí se muestra un [[Grid|Grid]] que permite visualizar la información referente al detalle de la orden, indicando el **Código y Descripción  del Artículo**,la **Categoría** asociada, el **Código de la Unidad** que ordenó la compra, **Cantidad Ordenada**, **Unidad de Medida**, **Costo**, el **Monto del Ajuste** y **Monto del Recargo**. <html><br><br></html>
+
+  * Por último deberá ingresar la **Cantidad Ajustada** y el **Monto del Ajuste**. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Ajustes a Ordenes de Compra** podrá realizar las siguientes [[operaciones_basicas|Operaciones Basicas]]

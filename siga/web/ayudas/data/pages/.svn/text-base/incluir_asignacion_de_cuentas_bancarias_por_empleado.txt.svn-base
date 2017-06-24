@@ -1,0 +1,26 @@
+====== Operación Incluir ======
+
+Para **Registrar** la Asignación de Cuentas Bancarias por Empleado:<html><br><br></html>
+
+  * Presione el Botón {{:btnnuevo.jpg|}} <html><br><br></html>
+
+  * Seleccione el Tipo de Nómina.<html><br><br></html>
+
+  * Automáticamente el sistema muestra en la tabla la siguiente información definida en el sistema en los Datos Personales del Empleado:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** El **Código del Empleado**.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-**El **Nombre del Empleado**. 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-**El **Código** y **Nombre del Banco**.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-**El **Número de Cuenta** asociada al empleado.
+ 
+ <html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasicuebanporempinc1.jpg|}}"></div><br></html>
+
+   * Presione el Botón {{:btnguardar.jpg|}} para regitrar la información
+ 
+
+
+
+

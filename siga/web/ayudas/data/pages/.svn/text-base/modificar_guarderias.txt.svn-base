@@ -1,0 +1,16 @@
+====== Operación Modificar ======
+
+Para la operación de Modificar debe:
+
+  * Seleccionar de la **Lista** el **Concepto** para el cual desea modificar la Guardería. 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperguamod.jpg|}}"></div><br></html>
+
+  * El sistema muestra los datos del Concepto seleccionado. <html><br><br></html>
+
+  * Realice las modificaciones en base al Concepto seleccionado. El único dato que se puede modificar es la **Descripción de la Guardería**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/"></div></html>
+
+  * Presionar {{:btnguardar.jpg|}} para actualizar la información.  <html><br><br></html> 
+
+  * El sistema emite un **Mensaje de Éxito**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

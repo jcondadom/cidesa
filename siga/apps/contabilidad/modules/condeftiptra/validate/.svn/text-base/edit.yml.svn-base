@@ -1,0 +1,31 @@
+methods:
+  post:
+   - "cotiptra{codtiptra}"
+   - "cotiptra{destiptra}"
+
+names:
+  cotiptra{codtiptra}:
+    required:  Yes
+    required_msg: El Código del Tipo de Transacción no puedo estar en Blanco
+    validators: UniqueValidator
+
+  cotiptra{destiptra}:
+    required:  Yes
+    required_msg: La Descripción del Tipo de Transacción no puedo estar en Blanco
+    validators: DescripcionValidator
+
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Cotiptra
+        column:   codtiptra
+        unique_error:   El Código del Tipo de Transacción ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción del  Tipo de Transacción no puede tener menos de 5 caracteres
+        max:       1000
+        max_error: La Descripción del  Tipo de Transacción no puede tener más de 1000 caracteres

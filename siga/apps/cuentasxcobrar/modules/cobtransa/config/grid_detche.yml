@@ -1,0 +1,37 @@
+opciones:                  # Opciones generales
+  name:                    k
+  eliminar:                true
+  tabla:                   cobfordepche
+  anchogrid:               800
+  ancho:                   700
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  N° Cheque
+  tipo:                    t
+  nombrecampo:             numche
+  esgrabable:              true
+  html:                    [size="15" maxlength=20]  
+2:
+  titulo:                  Id
+  tipo:                    t
+  nombrecampo:             fabancos_id
+  esgrabable:              true
+  oculta:                  true
+  html:                    [size="20" readonly=true]    
+3:
+  titulo:                  Banco
+  tipo:                    t
+  nombrecampo:             Nomban
+  esgrabable:              true
+  html:                    [size="20" readonly=true]
+  catalogo:                [fabancos, sf_admin_edit_form, {Nomban: 3, Id: 2}, Fabancos_Cobtransa ]  
+4:
+  titulo:                  Monto
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monche
+  esnumerico:              true
+  html:                    [size="10"]  
+  estotal:                 [true, cobtransa_montotche]

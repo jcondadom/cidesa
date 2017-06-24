@@ -1,0 +1,107 @@
+methods:
+  post:
+   - "livaluaciones{numval}"
+   - "livaluaciones{numcont}"
+
+   - "livaluaciones{codempadm}"
+   - "livaluaciones{codempeje}"
+   - "livaluaciones{fecreg}"
+   - "livaluaciones{dias}"
+   - "livaluaciones{fecven}"
+
+   - "livaluaciones{fecdes}"
+   - "livaluaciones{fechas}"
+
+
+names:
+
+  livaluaciones{numval}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numval
+
+  livaluaciones{numcont}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numcont
+
+  livaluaciones{codempadm}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  livaluaciones{codempeje}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+    
+  livaluaciones{fecreg}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  livaluaciones{dias}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: MyNumberValidator
+    
+  livaluaciones{fecven}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  livaluaciones{fecdes}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  livaluaciones{fechas}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+Validator_numval:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Livaluaciones
+        column:       numval
+        unique_error: El número de acta ya existe, intente con otra
+
+Validator_numcont:
+    class: CidesaExistValidator
+    param:
+        class:        Licontrat
+        column:       numcont
+        unique_error: El contrato no existe
+
+
+Validator_codemp:
+    class: CidesaExistValidator
+    param:
+        class:        Lidatste
+        column:       codemp
+        unique_error: El Empleado no existe
+
+
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+MyNumberValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]
+
+
+Validator_detact:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: El detalle del acta no puede tener menos de 2 caracteres
+        max:       1000
+        max_error: El detalle del acta no puede pasar mas de 1000 caracteres

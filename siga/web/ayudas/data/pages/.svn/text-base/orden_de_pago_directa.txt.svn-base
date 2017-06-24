@@ -1,0 +1,37 @@
+Cuando la **Orden de Pago** es **Directa** los campos que conforman la pantalla son los siguientes: <html><br><br></html>
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanordpagordpagoinc1.jpg|}}"></div><br></html>
+
+  * **Referencia:** Código Ó correlativo del Documento al que se asocia la Orden de Pago. <html><br><br></html>
+
+  * **Fecha** en la que se está realizando la Orden. <html><br><br></html>
+ 
+  * **Tipo:** Para este caso el tipo de orden de pago a seleccionar es la **OP/D (Orden de Pago Directa)**
+
+  * **Concepto:** Refiere a el Concepto por el cual se está realizando dicha orden de pago. <html><br><br></html>
+ 
+  * **C.I / RIF:** Se coloca la C.I / R.I.F de la persona o empresa que se le va realizar el pago. <html><br><br></html>
+
+  * **Beneficiario:**
+
+  * **Código Contable:**  Representa el identificador de la cuenta contable según el formato establecido en la Definición Contable, que se asocia a la operación o documento que se esta emitiendo. <html><br><br></html>
+ 
+  * **Unidad Origen:** Se refiere a la Codificación del Departamento que emite la Orden de Pago. <html><br><br></html>
+
+  * **Financiamiento:** Refiere a la fuente de financiamiento. <html><br><br></html>
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanordpagordpagoinc5.jpg|}}"></div><br></html>
+
+  * En la pestaña **Imputaciones Presupuestarias** registramos en un [[Grid|Grid]] los siguientes campos en las columnas correspondientes: <html><br><br></html> 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Código Presupuestario:** Representa el Título Presupuestario involucrado en la imputación presupuestaria. 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Monto a Causar:** Debe ingresar el monto base de la Orden de Pago sin incluir las retenciones ni el descuento.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** En caso que se valla a aplicar retenciones a un determinado Código Presupuestario en primer lugar deberá seleccionar en la **columna Marque** aquellos códigos presupuestarios a los cuales desea aplicarle la retención. 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>luego debe presionar el Botón {{:btnretenciones.jpg|}} para que automáticamente el sistema muestre un Grid donde deberá seleccionar aquellas retenciones que desee aplicar; el sistema calcula y muestra la **Base para el Cálculo** y usted deberá ingresar el **Monto de la Retención**.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Por último presione el Botón {{:btnvolver.jpg}} para que el sistema coloque en la **columna Retenciones** del grid Imputaciones presupuestarias el monto de la retención ingresado en el grid Datos de las Retenciones y en caso de manejar amortización debe ingresar el **Monto** de la misma. <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** En cuanto a los **Totales** y el **Neto a Pagar** el sistema internamente los calcula y los muestra. <html><br><br></html>

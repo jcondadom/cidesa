@@ -1,0 +1,26 @@
+====== Registro de Vacaciones Disfrutadas en Lote ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite llevar el control en lote y por periodos de las vacaciones disfrutadas por todos los empleados de la Institución . </html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Vacaciones** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompervac.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Registro de Vacaciones Disfrutadas en Lote**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompervacdislote.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Tabla para los Dias Feriados** solo podrá realizar las Operaciones Básicas de: 
+
+  * [[Incluir Registro de Vacaciones Disfrutadas en Lote |Incluir]]
+
+  * [[Modificar Registro de Vacaciones Disfrutadas en Lote |Modificar]]
+
+  * [[Eliminar Registro de Vacaciones Disfrutadas en Lote |Eliminar]]
+
+  * [[Consultar Registro de Vacaciones Disfrutadas en Lote |Consultar]]

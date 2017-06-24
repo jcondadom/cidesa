@@ -1,0 +1,19 @@
+====== Clasificador Presupuestario (Gastos) ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite definir los datos de la Partida Presupuestaria que representan los gastos.
+
+**Para ello:**
+
+  * Seleccione la opción **Formulación Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpre.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Egresos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegr.jpg}}"></div><br></html>
+ 
+  * Por último seleccione **Definiciones Específicas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefesp.jpg}}"></div><br></html>
+
+  * Por último seleccione **Clasificador Presupuestario (Gastos)**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefespclaprepgast.jpg}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Clasificador Presupuestario (Gastos)** veamos la [[Descripcion_Campos_formulacion_clasificador_presupuestario_gastos|Descripción de los Campos]]

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer
+END
+File.php
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/File.php
+END
+Directory.php
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Directory.php
+END
+Dashboard.php
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/PHP/CodeCoverage/Report/HTML/Renderer/Dashboard.php
+END

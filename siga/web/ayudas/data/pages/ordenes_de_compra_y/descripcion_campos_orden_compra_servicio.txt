@@ -1,0 +1,71 @@
+====== Descripción de Campos ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Es importante destacar que existen dos tipos de Orden de Compra: la que refiere a una Solicitud de Egreso y la Orden de Compra Directa.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Para registrar una **Orden de Compra que refiere a una Solicitud de Egreso** es necesario que antes se defina: primero la [[Requisiciones|Requisición]], segundo la [[Requisiciones_por_departamento_solicitud_de_egreso|Solicitud de Egreso]] y tercero la [[aprobacion_de_solicitud_de_egresos|Aprobación de la Solicitud de Egreso]], luego se procederá a realizar las distintas Cotizaciones en base a la solicitud, la [[asignacion_de_prioridad_a_cotizaciones|Asignación de Prioridades a Cotizaciones]] y es allí donde se procede a realizar la Orden de Compra y/o Servicio en base a la Cotización con prioridad número 1. los campos registrados en la Solicitud de Egreso son mostrados en la Orden de Compra.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Para registrar una Orden de Compra Directa a diferencia de la anterior es que no requiere ningún tipo de registro previo y todos los datos son ingresados por el usuario. <html><br><br></html>
+
+Los campos que conforman la pantalla de **Orden de Compra y/o Servicio** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompordcomserinc1.jpg|}}"></div><br></html>
+
+  * **Orden:** Corresponde al identificador de la Orden de Compra y/o Servicio que está registrando.<html><br><br></html>
+
+  * **Fecha:** Debe seleccionar del [[calendario|Calendario]] la fecha en la que se emitió la Orden. <html><br><br></html>
+
+  * **Tipo de Compromiso:** Indica el Documento que refiere a un Tipo de Compromiso. En el caso de una **Orden de Compra Directa** deberá presionar el Botón {{:btncuadrocatalogo.jpg|}} para que el sistema muestre la [[Listas|Lista]] con los Compromisos registrados previamente en el sistema; en dicha Lista deberá seleccionar el Documento de Compromiso correspondiente. <html><br><br></html>
+
+  * **Refiere S/C:**  <html><br><br></html>
+
+  * **Monto Total**  de la Orden de Compra y /o Servicio. <html><br><br></html>
+
+  * **Rif. de Proveedor:** Refiere al Registro de Información Fiscal constituida legalmente para vender Bienes y/o Servicios. <html><br><br></html>
+
+  * **Descripción** de la Orden de Compra y/o Servicio. <html><br><br></html>
+
+  * **Tipo:** Se debe seleccionar si lo que se va a emitir es una **Orden de Compra** o una **Orden de Servicio**. <html><br><br></html>
+
+  * **Tipo Orden:** Se debe indicar si la orden refiere a una Adjudicación Directa, Licitación, Compra Directa ó Compra Eventual.<html><br><br></html>
+
+  * **Descuento:** Refiere al tipo de descuento que ofrece el proveedor el cual puede ser: **Tipo Porcentaje**, **Tipo Monto** ó **Tipo Total**. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompordcomserinc2.jpg|}}"></div><br></html>
+
+  * La **Pestaña Detalle**, presenta un [[Grid|Grid]], con toda la información correspondiente a los artículos que se van a comprar, señalando el Código y Descripción del Artículo y por cada uno de los artículos el código de la **Unidad** que lo requiere, la **Cantidad Ordenada**, la **Cantidad Ajustada** (se utiliza en caso que se haya modificado la cantidad de artículos a comprar), **Cantidad Recibida** (al momento de la Recepción), **Cantidad Total**, **Costo**, **Monto Recargo**, **Total por Artículo**, **Unidad de Medida**, **Código Presupuestario** asociado al artículo y Recargos. <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> En una Orden de Compra/Servicio Directa para definir el Recargo de aquellos Artículos que lo manejan, es necesario que en primer lugar proceda a marcarlos y luego en la columna Recargos presione el Botón {{:btnlupa.jpg|}} y el sistema muestra la [[Listas|Lista]] con los [[registro_de_recargos|Recargos]] resitrados previamente en el sistema donde debe seleccionar los correspondientes al Artículo. En el caso de que todos los artículos manejen los mismos tipos de recargos solo debe presionar el Botón {{:btnmarcar.jpg|}}
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompordcomserinc3.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Condiciones de Pago/Proyecto** indica la forma en que se va a realizar el pago de los artículos así como el **Proyecto** asociado a la orden de compra y/o servicio. En una Orden de Compra y/o Servicio directa.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompordcomserinc4.jpg|}}"></div><br></html>
+
+  * En la **Forma de Entrega** se indica la forma de entrega de los artículos, su Justificación y el Tipo de Financiamiento. En una Orden de Compra y/o Servicio directa al presionar el Botón {{:btncuadrocatalogo.jpg|}} que se encuentra ubicado en cada uno de los campos anteriores el sistema muestra una [[Listas|Lista]] con los registros existentes los cuales fueron definidos previamente en el sistema y de donde debe seleccionar el correspondiente para cada uno.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompordcomserinc5.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Resúmen** sse muestra una síntesis de la información referente a la orden de compra, presentando los datos en un [[Grid|Grid]]  donde se señalan el **Código** y **Descripción del Artículo**, la **Cantidad Ordenada**, **Cantidad Ajustada**, **Cantidad Recibida**, **Cantidad Total**, el **Costo**, **Monto del Recargo** y **Monto Total por Artículo**.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompordcomserinc6.jpg}}"></div><br></html>
+
+  * En la **Pestaña Entrega** se especifican todos los datos relacionados con la Entrega del artículo el **Código y Descripción de los Articulos**, **Cantidad** y **Fecha de Entrega**.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompordcomserinc7.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Responsables** la Unidad y Empleado responsable de realizar la Orden de Compra y/o Servicio.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompordcomserinc8.jpg}}"></div><br></html>
+
+  * En la **Pestaña Nota** se indica alguna información extra en caso de existir.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompordcomserinc9.jpg|}}"></div><br></html>
+
+  * En la **Pestaña SNC** se indican todos los datos correspondientes al Servicio Nacional de Contratistas.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompordcomserinc10.jpg|}}"></div><br></html>
+
+  * En la **Pestaña SIGECOF**  se especifica la integración con el Sistema de Gestión y Control de las Finanzas Públicas. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Orden de Compra y/o Servicios** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

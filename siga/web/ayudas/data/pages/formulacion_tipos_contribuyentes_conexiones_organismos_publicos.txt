@@ -1,0 +1,16 @@
+====== Tipos de Contribuyentes / Conexiones a Organismos Públicos ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite definir los tipos de contribuyentes y/o conexiones que pueda tener la Institución con otros Organismos Públicos, como por ejemplo: donaciones, financiamientos, entre otros.
+
+**Para ello:**
+
+  * Seleccione la opción **Formulación Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpre.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones Generales**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpredefesp.jpg|}}"></div><br></html>
+ 
+  * Por último seleccione **Tipos de Contribuyentes / Conexiones a Organismos Públicos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpretipcontconexorgpub.jpg}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Tipos de Contribuyentes / Conexiones a Organismos Públicos** veamos la [[Descripcion_Campos_formulacion_tipos_contribuyentes_conexiones_organismos_publicos|Descripción de los Campos]]

@@ -1,0 +1,37 @@
+methods:
+  post:
+   - "hcregmedlab{codmedlab}"
+   - "hcregmedlab{nommedlab}"
+   - "hcregmedlab{espmedlab}"
+   - "hcregmedlab{dirmedlab}"
+   - "hcregmedlab{telmedlab}"
+
+names:
+  hcregmedlab{codmedlab}:
+    required:  Yes
+    required_msg: Introduzca el Código del Médico o del Laboratorio
+
+  hcregmedlab{nommedlab}:
+    required:  Yes
+    required_msg: Introduzca el Nombre del Médico o del Laboratorio
+
+  hcregmedlab{espmedlab}:
+    required:  Yes
+    required_msg: Introduzca la Especialidad del Médico o del Laboratorio
+
+  hcregmedlab{dirmedlab}:
+    required:  Yes
+    required_msg: Introduzca la Dirección del Médico o del Laboratorio
+    validators: DireccionValidator
+
+  hcregmedlab{telmedlab}:
+    required:  Yes
+    required_msg: Introduzca el Teléfono del Médico o del Laboratorio
+
+DireccionValidator:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La dirección no puede tener menos de 2 caracteres
+        max:       255
+        max_error: La dirección no puede tener más de 500 caracteres

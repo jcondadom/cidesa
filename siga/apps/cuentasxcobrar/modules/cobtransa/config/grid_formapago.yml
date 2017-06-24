@@ -1,0 +1,111 @@
+opciones:                  # Opciones generales
+  name:                    b
+  eliminar:                false
+  tabla:                   cobdetfor
+  anchogrid:               800
+  ancho:                   1000
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Tipo de Pago
+  tipo:                    t
+  nombrecampo:             destippag
+  esgrabable:              true
+  html:                    [size="40" readonly=true]
+2:
+  titulo:                  Monto
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monpag
+  esnumerico:              true
+  html:                    [size="10"]
+3:
+  titulo:                  Número
+  tipo:                    t
+  nombrecampo:             numide2
+  esgrabable:              true
+  html:                    [size="15" maxlength=20]
+4:
+  titulo:                  Cuenta Bancaria
+  tipo:                    t
+  nombrecampo:             codban
+  esgrabable:              true
+  html:                    [size="20"]
+  catalogo:                [faallbancos, sf_admin_edit_form, {Ctaban: 4, Banco: 5}, Fabancos_Fafactur ]  
+5:
+  titulo:                  Banco
+  tipo:                    t
+  nombrecampo:             desban
+  esgrabable:              true
+  html:                    [size="20" readonly=true]
+6:
+  titulo:                  Id
+  tipo:                    t
+  esgrabable:              true
+  nombrecampo:             idtippag
+  oculta:                  true
+  html:                    [size="5"]
+7:
+  titulo:                  Otro
+  tipo:                    t
+  nombrecampo:             genmov
+  esgrabable:              true
+  oculta:                  true
+  html:                    [size="20"]
+8:
+  titulo:                  Otro2
+  tipo:                    t
+  nombrecampo:             gening
+  esgrabable:              true
+  oculta:                  true
+  html:                    [size="20"]
+9:
+  titulo:                  Tipo Movimiento
+  tipo:                    t
+  nombrecampo:             codtip
+  esgrabable:              true
+  oculta:                  true
+  html:                    [size="20"]
+10:
+  titulo:                  Genera Nota de Crédito
+  tipo:                    t
+  nombrecampo:             gennotcre
+  esgrabable:              true
+  oculta:                  true
+  html:                    [size="20"] 
+11:
+  titulo:                  Notas de Crédito
+  tipo:                    t
+  nombrecampo:             notcres
+  esgrabable:              true
+  oculta:                  true
+  html:                    [size="20"]     
+12:
+  titulo:                  Monto Nota de Crédito
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monnotcre
+  esnumerico:              true
+  oculta:                  true
+  html:                    [size="10"]
+13:
+  titulo:                  Genera Detalle Cheque
+  tipo:                    t
+  nombrecampo:             gendetche
+  esgrabable:              true
+  oculta:                  true
+  html:                    [size="20"]   
+14:
+  titulo:                  Detalle Cheque
+  tipo:                    t
+  nombrecampo:             anadetche
+  esgrabable:              true  
+  html:                    [size="1"]
+15:
+  titulo:                  Pago de Comprobante de Retención
+  tipo:                    t
+  nombrecampo:             pagret
+  esgrabable:              true
+  oculta:                  true
+  html:                    [size="20"]   

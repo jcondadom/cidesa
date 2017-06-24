@@ -1,0 +1,23 @@
+====== Definición de Conceptos Variables ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En este módulo se especifican, por cada Nómina registrada, todos los conceptos asociados a cada una, indicando si el concepto es de Tipo Monto o Calidad. </html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de Definiciones Específicas 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Definición de Conceptos Variables**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefconvar.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Conceptos Variables** veamos la [[Descripcion_Campos_Conceptos_Variables|Descripción de los Campos]]
+ 
+
+
+
+
+
+

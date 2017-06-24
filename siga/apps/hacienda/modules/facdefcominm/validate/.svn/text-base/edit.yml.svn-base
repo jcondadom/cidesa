@@ -1,0 +1,24 @@
+methods:
+  post:
+   - "fccominm{anovig}"
+   - "fccominm{codcom}"
+   - "fccominm{descom}"
+   - "fccominm{valcom}"
+
+names:
+  fccominm{anovig}:
+    required:  Yes
+    required_msg: El Año es un campo requerido
+
+  fccominm{codcom}:
+    required:  Yes
+    required_msg: El Código es un campo requerido
+
+  fccominm{descom}:
+    required:  Yes
+    required_msg: La Descripción es un campo requerido
+
+  fccominm{valcom}:
+    required:  Yes
+    required_msg: El Valor es un campo requerido
+

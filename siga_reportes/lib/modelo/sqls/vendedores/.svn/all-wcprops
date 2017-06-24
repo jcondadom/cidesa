@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/64282/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion
+END
+Farpreart.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farpreart.class.php
+END
+Facciecaj.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Facciecaj.class.php
+END
+Farrecpart.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farrecpart.class.php
+END
+Farproalt.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farproalt.class.php
+END
+Farrecaud.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farrecaud.class.php
+END
+Farpedido.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farpedido.class.php
+END
+Fardefpre.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Fardefpre.class.php
+END
+Farfacpreimp.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/53579/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farfacpreimp.class.php
+END
+Farreccarg.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farreccarg.class.php
+END
+Artser.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Artser.class.php
+END
+Farconpag.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farconpag.class.php
+END
+Farnotentpre.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farnotentpre.class.php
+END
+Fartipmov.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Fartipmov.class.php
+END
+Farpedart.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farpedart.class.php
+END
+Farciudades.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farciudades.class.php
+END
+Fardphart.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Fardphart.class.php
+END
+Farmercon.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farmercon.class.php
+END
+Farpaises.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farpaises.class.php
+END
+Farfactur.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farfactur.class.php
+END
+Fardespacho.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Fardespacho.class.php
+END
+Fartipcte.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Fartipcte.class.php
+END
+Farfamarca.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farfamarca.class.php
+END
+Farlisentmer.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farlisentmer.class.php
+END
+Farintipban.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farintipban.class.php
+END
+Farnotent.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farnotent.class.php
+END
+Farnotaentrega.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farnotaentrega.class.php
+END
+Resfac.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Resfac.class.php
+END
+Carcatart.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Carcatart.class.php
+END
+Fardeflot.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Fardeflot.class.php
+END
+Farpresup.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farpresup.class.php
+END
+Farestado.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farestado.class.php
+END
+Fardescto.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Fardescto.class.php
+END
+Faforsol.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Faforsol.class.php
+END
+Facrlisdep.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Facrlisdep.class.php
+END
+Farcliente.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farcliente.class.php
+END
+Fartippag.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Fartippag.class.php
+END
+Fartipdes.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Fartipdes.class.php
+END
+Facrlibventas.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/64282/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Facrlibventas.class.php
+END
+Farffactura.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/41586/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Farffactura.class.php
+END
+Fartipdev.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/41552/web/php/reportes/branches/pcchacao/trunk/lib/modelo/sqls/facturacion/Fartipdev.class.php
+END

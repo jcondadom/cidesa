@@ -1,0 +1,56 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Atdenuncias
+    theme:            cidesaGenerator
+
+    fields:
+      atsolici:
+        name:       Nombre
+        params:     readonly=true
+      atunidades_id:
+        name:       Unidad
+        params:     text_method=getDesuni include_custom=Seleccione... disabled=true
+      desden:       { name: Descipción, type: textarea_tag, params: cols=60 rows=2 rich=false readonly=true }
+      persona:      { name: Dirigido a, params: readonly=true }
+      _status:      { name: Estado, validate: Vstring_1_100, msj_error: Debe seleccionar un estado de la denuncia }
+      respuesta:    { name: Respuesta/Intruccón, type: textarea_tag, params: cols=60 rows=2 rich=false, validate: Vstring_1_100, msj_error: Debe insertar la respuesta a la denuncia }
+      fechar:       { name: Fecha Registro, type: plain, params: readonly=true }
+      fechaa:       { name: Fecha Atención }
+      attipsol_id:
+        name: Tipo de Solicitud
+        params:     disabled=true
+      tipo:  { name: Tipo de Solicitud }
+      atinsrefier_id:
+        name: Referir a
+      atciudadano_id: { name: Ciudadano }
+      nomsol: { name: Ciudadano, params: readonly=true size=60 }
+      atestayu_id: { name: Estado }
+      js: { name: . }
+      nroexp: { name: Expediente }
+
+    list:
+      fields:
+        atunidades_id:
+          name:       Unidad
+          params:     text_method=getDesuni include_custom=Seleccione...
+        atsolici:
+          name:       Nombre
+      title:          Atención de Solicitudes
+      display:        [=nroexp, =nomsol, unidad, tipo, status]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [nroexp, _ciudadano, atunidades_id, atestayu_id]
+      max_per_page:   5
+      sort:           atsolici
+    edit:
+      title:          Atendiendo Solicitudes
+      display:
+        Expediente:   [ _expediente ]
+        Realizado por:     [nomsol]
+        Detalle Denuncia:   [attipsol_id, atunidades_id, persona, desden, atinsrefier_id ]
+        Datos de Atención: [atestayu_id, _atdetest, respuesta, fechar, fechaa, _js ]
+      actions:
+        _list:        ~
+        _save:        ~

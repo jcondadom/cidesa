@@ -1,0 +1,9 @@
+====== Descripción de Campos ======
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpredefestinc1.jpg|}}"></div><br></html>
+
+  * **Código:** Indica el número que identifica al estatus.<html><br><br></html>
+
+  * **Descripción:** indica el nombre que identifica al estatus. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Definiciones de Estatus** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

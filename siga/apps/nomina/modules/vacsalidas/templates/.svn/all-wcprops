@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/61574/web/php/siga/branches/productions/trunk/apps/nomina/modules/vacsalidas/templates
+END
+_fecsalreg.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/33317/web/php/siga/branches/productions/trunk/apps/nomina/modules/vacsalidas/templates/_fecsalreg.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/61574/web/php/siga/branches/productions/trunk/apps/nomina/modules/vacsalidas/templates/ajaxSuccess.php
+END
+_dias.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/45675/web/php/siga/branches/productions/trunk/apps/nomina/modules/vacsalidas/templates/_dias.php
+END
+_gridvacaciones.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/33317/web/php/siga/branches/productions/trunk/apps/nomina/modules/vacsalidas/templates/_gridvacaciones.php
+END
+_fecnom.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/39276/web/php/siga/branches/productions/trunk/apps/nomina/modules/vacsalidas/templates/_fecnom.php
+END

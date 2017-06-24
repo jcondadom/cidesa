@@ -1,0 +1,31 @@
+opciones:                  # Opciones generales
+  name:                    b
+  eliminar:                true
+  tabla:                   manaplmon
+  anchogrid:               850
+  ancho:                   840
+  filas:                   1
+  titulo:                  ' APL Montaje'
+  htmltotalfilas:          ' '
+1:
+  titulo:                  N° Equipo
+  tipo:                    t
+  nombrecampo:             numequ
+  esgrabable:              true
+  html:                    ["size=10 maxlength=4"]
+  ajaxgrid:                true
+  catalogo:                [manregequ, sf_admin_edit_form, {Numequ: 1, Nomequ: 2}, Mantenimiento_Manregequ ]
+2:
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nomequ
+  esgrabable:              true
+  html:                    ["size=30 readonly=true"]  
+3:
+  titulo:                  Cantidad Instalada
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canins
+  esnumerico:              true
+  default:                 '0,00'  
+  html:                    ["size=10"]

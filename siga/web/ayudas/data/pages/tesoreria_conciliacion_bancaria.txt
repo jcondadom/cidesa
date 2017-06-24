@@ -1,0 +1,16 @@
+======Conciliación Bancaria======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite realizar la comparación de los movimientos según libros contra los movimientos según Banco, con la finalidad de determinar la existencia de posibles diferencias entre los saldos, bien sea por la existencia de Movimientos en Tránsito, Cargos Indebidos y/o Abonos Indebidos. 
+
+**Para ello:**
+
+  * Seleccione la opción **Tesorería ó Banco** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesban.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Banco** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbanc.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Conciliación Bancaria**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbancconcbanc.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Conciliación Bancaria** veamos la [[Descripcion_Campos_conciliacion_bancaria|Descripción de los Campos]]

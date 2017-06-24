@@ -1,0 +1,20 @@
+====== Grid ======
+ 
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Son tablas que permiten agrupar registros ya sea para la consulta ó inclusión de elementos en la misma.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Un grid está conformado por una serie de elementos que podemos observar en la siguiente figura como ejemplo:
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:grid.jpg|}}"></div><br></html>
+
+  * En primer lugar un grid al igual que una tabla posee columnas y filas. <html><br><br></html>
+
+  * Cada una de las columnas llevan el nombre de los campos. <html><br><br></html>
+
+  * En cada una de las filas encontramos el **Botón** {{:btnconsultagrid.jpg|}} el cual permitirá incluir registros en la tabla ya que al presionarlo mostrará una [[listas|Lista]] con los registros existentes. <html><br><br></html>
+
+  * Por otro lado si desea quitar registros que ya se encuentren en el grid solo debe presionar el **Botón**  {{:btnquitar.jpg|}} que se encuentre a un lado del registro que desee quitar.
+
+
+
+
+

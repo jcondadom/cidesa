@@ -1,0 +1,21 @@
+====== Traslados ======
+
+**Tabla:** 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite incluir las operaciones que registran un Traslado durante la ejecución del presupuesto y llevar un control de los Traslados de recursos realizados entre un Código Presupuestario y otro.<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un traslado es cuando se realizan traslados de dinero de una partida a otra. </html>
+
+**Para ello:**
+
+  * Seleccione la opción **Contabilidad Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpre.jpg|}}"></div><br></html>
+
+   * Seguidamente despliegue la opción **Ejecución Presupuestaria**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreejepre.jpg|}}"></div><br></html>
+
+  * Por último seleccione **Traslados**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpretras.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Traslados** veamos la [[Descripcion_Campos_presupuesto_traslados|Descripción de los Campos]]
+

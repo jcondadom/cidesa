@@ -1,0 +1,65 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   cpimpcom
+  anchogrid:               850
+  ancho:                   1090
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Presupuestario
+  tipo:                    t
+  nombrecampo:             codpre
+  html:                    [size="30" ]
+  oculta:                  false
+  esgrabable:              true
+  ajaxgrid:                true
+  #catalogo:                [ cpasiini, sf_admin_edit_form, { codpre: 1 }, PrePagar_Cpasiini ]
+  ajaxadicionales:         {0: cpcompro_feccom}
+2:       # Columna 2
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monimp
+  html:                    [size="10" ]
+  oculta:                  false
+  esgrabable:              true
+  ajaxgrid:                true
+  estotal:                 [ true, cpcompro_moncom ]
+  ajaxadicionales:         {0: cpcompro_feccom, 1: cpcompro_refprc}
+3:       # Columna 3
+  titulo:                  Causado
+  tipo:                    m
+  nombrecampo:             moncau
+  html:                    [size="10" readonly="true" ]
+  esgrabable:              true
+4:       # Columna 4
+  titulo:                  Pagado
+  tipo:                    m
+  nombrecampo:             monpag
+  html:                    [size="10" readonly="true" ]
+  esgrabable:              true
+5:       # Columna 5
+  titulo:                  Disponibilidad
+  tipo:                    m
+  nombrecampo:             mondis
+  html:                    [size="10" readonly="true" ]
+  esgrabable:              true
+6:       # Columna 6
+  titulo:                  Ajuste
+  tipo:                    m
+  nombrecampo:             monaju
+  html:                    [size="10" readonly="true" ]
+  esgrabable:              true
+7:       # Columna 7
+  titulo:                  Referencia
+  tipo:                    t
+  nombrecampo:             refere
+  html:                    [size="8" readonly="true" ]
+  esgrabable:              true
+8:       # Columna 8
+  titulo:                  Monto a Comprometer
+  tipo:                    m
+  nombrecampo:             monporcom
+  html:                    [size="10" readonly="true" ]
+  esgrabable:              true   

@@ -1,0 +1,109 @@
+methods:
+  post:
+   - "limodcont{nummod}"
+   - "limodcont{numcont}"
+   - "limodcont{tipmod}"
+   - "limodcont{detmod}"
+
+   - "limodcont{codempadm}"
+   - "limodcont{codempeje}"
+   - "limodcont{fecreg}"
+   - "limodcont{dias}"
+   - "limodcont{fecven}"
+
+
+names:
+
+  limodcont{nummod}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_nummod
+
+  limodcont{numcont}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numcont
+
+  limodcont{tipmod}:
+    required:  Yes
+    required_msg: Debe seleccionar un tipo de Modificacion
+
+  limodcont{detmod}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_detact
+
+
+
+
+  limodcont{codempadm}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  limodcont{codempeje}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+    
+  limodcont{fecreg}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  limodcont{dias}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: MyNumberValidator
+    
+  limodcont{fecven}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+    
+Validator_nummod:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Limodcont
+        column:       nummod
+        unique_error: El número de acta ya existe, intente con otra
+
+Validator_numcont:
+    class: CidesaExistValidator
+    param:
+        class:        Licontrat
+        column:       numcont
+        unique_error: El contrato no existe
+
+
+Validator_codemp:
+    class: CidesaExistValidator
+    param:
+        class:        Lidatste
+        column:       codemp
+        unique_error: El Empleado no existe
+
+
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+MyNumberValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]
+
+
+Validator_detact:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: El detalle del acta no puede tener menos de 2 caracteres
+        max:       1000
+        max_error: El detalle del acta no puede pasar mas de 1000 caracteres

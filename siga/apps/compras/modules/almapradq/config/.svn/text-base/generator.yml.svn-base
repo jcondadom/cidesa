@@ -1,0 +1,18 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Casolart
+    theme:            cidesaGenerator
+    fields:
+      fecdes:           { name: Fecha Desde}
+      fechas:           { name: Fecha Hasta}
+      grid:   { name: . }
+
+    edit:
+      title:          Aprobación de Dirección de Adquisiciones
+      display:
+        "Filtros":   [_fecdes, _fechas]
+        "Solicitudes de Egreso":   [_grid]
+
+      actions:
+        _save:        ~

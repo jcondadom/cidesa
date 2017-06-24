@@ -1,0 +1,18 @@
+====== Descripción de Campos ======
+
+  * Al ingresar a la pantalla de Tarifas automáticamente observará una **Lista** con todos los Tipo de Profesionales que fueron registrados anteriormente. <html><br><br></html>
+
+  * Seleccione el **Código del Tipo de Profesional** para el cual desea registrar la Tarifa correspondiente.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrasconttarinc1.jpg|}}"></div><br></html>
+
+  * Seguidamente encontramos la tabla **Tarifas Horarias** donde debe ingresar la siguiente información:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Los **Años de Experiencia** del Tipo de Profesional seleccionado.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** El **Nivel Profesional**.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** El **Valor de la Hora** de trabajo del Tipo de Profesional seleccionado.
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Tarifas** ahora podrá realizar determinadas [[operaciones_basicas|Operaciones Básicas]]
+ 

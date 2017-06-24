@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/58724/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preajuste/templates
+END
+_btnrep.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/58724/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preajuste/templates/_btnrep.php
+END
+_afeaju.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/48206/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preajuste/templates/_afeaju.php
+END
+anularSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/48206/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preajuste/templates/anularSuccess.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/48206/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preajuste/templates/ajaxSuccess.php
+END
+_edit_footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/58724/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preajuste/templates/_edit_footer.php
+END
+_grid.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/48206/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preajuste/templates/_grid.php
+END
+salvaranuSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/48206/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preajuste/templates/salvaranuSuccess.php
+END
+ajaxcomprobanteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/48206/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preajuste/templates/ajaxcomprobanteSuccess.php
+END
+_estatus.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48206/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preajuste/templates/_estatus.php
+END
+_refere.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/54702/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preajuste/templates/_refere.php
+END
+_comprobante.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/57592/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preajuste/templates/_comprobante.php
+END

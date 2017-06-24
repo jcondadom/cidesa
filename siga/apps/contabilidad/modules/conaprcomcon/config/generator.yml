@@ -1,0 +1,19 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Contabc
+    theme:            cidesaGenerator
+    fields:
+      grid:           { name: .}
+      fecdes:           { name: Fecha Desde}
+      fechas:           { name: Fecha Hasta}
+
+    edit:
+      title:          Aprobación de Comprobante Contable
+      display:
+        Filtros:  [_fecdes, _fechas]
+        Comprobantes por Aprobar:  [_grid]
+      actions:
+        _list:        none
+        _save:        ~
+        _delete:      none

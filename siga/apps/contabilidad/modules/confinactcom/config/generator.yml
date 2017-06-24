@@ -1,0 +1,18 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Contabc
+    theme:            cidesaGenerator
+    fields:
+      fecdes:   { name: Fecha Desde }
+      fechas:   { name: Fecha Hasta }
+      codtiptra:   { name: Tipo de Transacción }
+      grid:   { name: . }
+      botones:   { name: . }
+    edit:
+      title:          Actualización de Comprobantes Contables
+      display:
+        "Filtros":   [_fecdes, _fechas, _codtiptra]
+        "Comprobantes":   [_botones, _grid]
+      actions:
+        _save:        ~

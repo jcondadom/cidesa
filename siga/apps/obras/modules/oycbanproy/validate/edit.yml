@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "ocbanpro{codbanpro}"
+   - "ocbanpro{desbanpro}"
+
+names:
+  ocbanpro{codbanpro}:
+    required:  Yes
+    required_msg: El Codigo del Proyecto no puedo estar en Blanco
+    validators: Validator_codbanpro
+
+  ocbanpro{desbanpro}:
+    required:  Yes
+    required_msg: La Descripción del Proyecto no puedo estar en Blanco
+    validators: Validator_desbanpro
+
+Validator_codbanpro:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Ocbanpro
+        column:   codbanpro
+        unique_error:   El Código del Proyecto ya existe. Por Favor, Intente con otro.
+
+Validator_desbanpro:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción del Proyecto no puede tener menos de 5 caracteres
+        max:       500
+        max_error: La sDescripción del Proyecto no puede tener mas de 500 caracteres

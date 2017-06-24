@@ -1,0 +1,1 @@
+<?php echo select_tag('npnomina[tipcon]', options_for_select(array('A' => 'Asignaciones', 'D' => 'Deducciones', 'P' => 'Aportes'),$npnomina->getTipcon(),'include_blank=true'),array()) ?>

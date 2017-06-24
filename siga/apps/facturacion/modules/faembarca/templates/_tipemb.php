@@ -1,0 +1,1 @@
+ <?php echo select_tag('faembarca[tipemb]', options_for_select(array('U' => 'Pública', 'V' => 'Privada'),$faembarca->getTipemb(),'include_custom=Seleccione'),array()) ?>

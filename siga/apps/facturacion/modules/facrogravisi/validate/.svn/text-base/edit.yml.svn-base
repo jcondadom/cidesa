@@ -1,0 +1,42 @@
+methods:
+  post:
+   - "facrovis{fecvis}"
+   - "facrovis{rifven}"
+   - "facrovis{rifpro}"
+
+names:
+  facrovis{fecvis}:
+    required:  Yes
+    required_msg: La Fecha de la Visita no puedo estar en Blanco
+    validators: FechaValidator
+
+  facrovis{rifven}:
+    required:  Yes
+    required_msg: El Código del Vendedor no puede estar en Blanco
+    validators: VendedorValidator
+
+  facrovis{rifpro}:
+    required:  Yes
+    required_msg: El Código del Cliente no puede estar en Blanco
+    validators: ClienteValidator
+
+VendedorValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Faregvend
+        column:   rifven
+        unique_error:   El Código del Vendedor no existe.
+
+ClienteValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Facliente
+        column:   rifpro
+        unique_error:   El Código del Cliente no existe.        
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es inválida         

@@ -1,0 +1,17 @@
+methods:
+  post:
+   - "cattipviv{destipviv}"
+
+names:
+  cattipviv{destipviv}:
+    required:  Yes
+    required_msg: La Descripción no puede estar en Blanco
+    validators: Validator_destipviv
+
+Validator_destipviv:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Cattipviv
+        column:       destipviv
+        unique_error: El registro ya Existe intente con otro.
+

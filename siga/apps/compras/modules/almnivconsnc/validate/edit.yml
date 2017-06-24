@@ -1,0 +1,31 @@
+methods:
+  post:
+   - "canivconsnc{codniv}"
+   - "canivconsnc{desniv}"
+
+names:
+  canivconsnc{codniv}:
+    required:  Yes
+    required_msg: El Código no puedo estar en Blanco
+    validators: UniqueValidator
+
+  canivconsnc{desniv}:
+    required:  Yes
+    required_msg: La Descripción no puedo estar en Blanco
+    validators: DescripcionValidator
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Canivconsnc
+        column:   codniv
+        unique_error:   El Código ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción no puede tener menos de 5 caracteres
+        max:       250
+        max_error: La Descripción no puede tener más de 250 caracteres
+      

@@ -1,0 +1,42 @@
+methods:
+  post:
+   - "mansinfal{codsfa}"
+   - "mansinfal{dessfa}"
+   - "mansinfal{codsis}"
+
+names:
+  mansinfal{codsfa}:
+    required:  Yes
+    required_msg: Introduzca el Código del Síntoma
+    validators: Validator_codsfa
+    
+  mansinfal{dessfa}:
+    required:  Yes
+    required_msg: Introduzca la Descripción del Síntoma
+    validators: Validator_dessfa
+
+  mansinfal{codsis}:
+    required:  No
+    validators: Validator_codsis    
+
+Validator_codsfa:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Mansinfal
+        column:       codsfa
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_dessfa:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La Descripción no puede tener mas de 250 caracteres 
+
+Validator_codsis:
+    class: CidesaExistValidator
+    param:
+        class:        Mansisope
+        column:       codsis
+        unique_error: El Sistema de Operación debe Existir.        

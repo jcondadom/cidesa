@@ -1,0 +1,13 @@
+====== Operación Incluir ======
+
+Para la operación de Registrar debe:  <html><br><br></html>
+
+  * Presione el Botón {{:btnnuevo.jpg|}}  <html><br><br></html>
+
+  * Seleccionar del **Catálogo** la **Nómina** a la cual se le asociará el **Concepto para las Primas**.   <html><br><br></html>
+
+  * Seleccionar del **Catálogo** el **Concepto para las Primas** a asociar al Tipo de Nómina seleccionado.
+ 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconpriinc.jpg|}}"></div><br></html>
+
+  * Presionar {{:btnguardar.jpg|}} para almacenar el registro.

@@ -1,0 +1,27 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cidefpar
+    theme:            cidesaGenerator
+    fields:
+      codpar:      { name: Código, params: size=10 maxlength=5 onFocus=readonly(this.id)}
+      despar:      { name: Descripción , params: size=80 maxlength=250  }
+    list:
+      title:          Definición de Parques
+      fields:
+        despar:      { name: Descripción , params: size=15  }
+      display:        [ =codpar, despar ]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [ codpar, despar ]
+      max_per_page:   10
+      sort: codpar
+    edit:
+      title:          Edición de Parques
+      display:        [ codpar, despar ]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

@@ -1,0 +1,26 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcclaesp
+    theme:            cidesaGenerator
+    fields:
+      codcla: { name: Clasificador, params : size=5 maxlength=3  onFocus=readonly(this.id) onBlur="this.value=this.value.pad(3, '0',0);"  }
+      descla: { name: Descripción, params : size=60 maxlength=50}
+    list:
+      title:          Definiciones de Clasificador de Espectáculos
+      filters:        [codcla]
+      display:        [=codcla, descla]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codcla
+    edit:
+      title:          Edición  de Clasificador de Espectáculos
+      display:
+        "Datos Clasificación":   [codcla, descla]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

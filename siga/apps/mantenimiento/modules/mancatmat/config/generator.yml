@@ -1,0 +1,47 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Mancatmat
+    theme:            cidesaGenerator
+    fields:
+      numsol: { name:  Número, params : size=10 maxlength=8 onFocus=readonly(this.id)}
+      fecsol: { name: Fecha, params: date_format='dd/MM/yyyy' maxlength=10}
+      unisol:
+        name: Unidad Solicitante
+        catalogo:
+          catalogoweb: Npcatpre_Almsolegr
+          clase: Npcatpre
+          ajax: 1
+          parametros: getprincipal="getUnisol" getsecundario="getNomcat" campoprincipal="unisol" camposecundario="nomcat" campobase = "id"
+          ajaxparams: +'."'".'&longitud='."'+$('mancatmat_loncat').value".'
+          catalogoparams: /param1/'."'+$('mancatmat_loncat').value+'".'
+      jussol: { name:  Justificación, type: textarea_tag, params: size=80x3 maxlength=2000 onkeyup="ismaxlength(this)"}
+      nomite: { name:  Nombre del Item, type: textarea_tag, params: size=80x3 maxlength=1000 onkeyup="ismaxlength(this)"}
+      desite: { name:  Descripción, type: textarea_tag, params: size=80x3 maxlength=1000 onkeyup="ismaxlength(this)"}      
+      unimed: { name: Unidad, params : size=20 maxlength=15}
+      peso: { name: Peso (Kg)}
+      volume: { name: Volumen (M3)}
+      grid: { name: .}
+      grid2: { name: .}
+      grid3: { name: .}
+      grid4: { name: .}
+      obssol: { name:  Observaciones, type: textarea_tag, params: size=80x3 maxlength=1000 onkeyup="ismaxlength(this)"}
+    list:
+      title:          Catalogación de Materiales
+      display:        [=numsol, fecsol, unisol]
+      filters:        [numsol, fecsol, unisol]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           numsol
+    edit:
+      title:          Edición de Catalogación de Material
+      display:
+        "NONE": [numsol, fecsol, unisol, jussol, nomite, desite, unimed, peso, volume, _grid, _grid2, _grid3, _grid4, obssol]
+      hide:  [loncat]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

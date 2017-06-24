@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/47495/web/php/siga/branches/productions/trunk/apps/gestionindicadores/config
+END
+factories.yml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/32521/web/php/siga/branches/productions/trunk/apps/gestionindicadores/config/factories.yml
+END
+i18n.yml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/32521/web/php/siga/branches/productions/trunk/apps/gestionindicadores/config/i18n.yml
+END
+app.yml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/32521/web/php/siga/branches/productions/trunk/apps/gestionindicadores/config/app.yml
+END
+settings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/47495/web/php/siga/branches/productions/trunk/apps/gestionindicadores/config/settings.yml
+END
+cache.yml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/32521/web/php/siga/branches/productions/trunk/apps/gestionindicadores/config/cache.yml
+END
+config_handlers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/32521/web/php/siga/branches/productions/trunk/apps/gestionindicadores/config/config_handlers.yml
+END
+logging.yml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/32521/web/php/siga/branches/productions/trunk/apps/gestionindicadores/config/logging.yml
+END
+routing.yml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/32521/web/php/siga/branches/productions/trunk/apps/gestionindicadores/config/routing.yml
+END
+security.yml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/32521/web/php/siga/branches/productions/trunk/apps/gestionindicadores/config/security.yml
+END
+filters.yml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/32521/web/php/siga/branches/productions/trunk/apps/gestionindicadores/config/filters.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/32521/web/php/siga/branches/productions/trunk/apps/gestionindicadores/config/view.yml
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/32521/web/php/siga/branches/productions/trunk/apps/gestionindicadores/config/config.php
+END

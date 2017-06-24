@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/55799/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesrepfonant/config
+END
+grid_tsfonant.yml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/40733/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesrepfonant/config/grid_tsfonant.yml
+END
+grid_opdetord.yml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/40733/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesrepfonant/config/grid_opdetord.yml
+END
+generator.yml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/55799/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesrepfonant/config/generator.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/40733/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesrepfonant/config/view.yml
+END

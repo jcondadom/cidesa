@@ -1,0 +1,228 @@
+<?php
+
+/**
+ * Facmultas actions.
+ *
+ * @package    Roraima
+ * @subpackage Facmultas
+ * @author     $Author: dmartinez $ <desarrollo@cidesa.com.ve>
+ * @version SVN: $Id: actions.class.php 52085 2013-06-03 16:44:29Z dmartinez $
+ * 
+ * @copyright  Copyright 2007, Cide S.A.
+ * @license    http://opensource.org/licenses/gpl-2.0.php GPLv2
+ */
+class FacmultasActions extends autoFacmultasActions
+{
+
+  /**
+   * Función para colocar el codigo necesario en  
+   * el proceso de edición.
+   * Aquí se pueden buscar datos adicionales que necesite la vista
+   * Esta función es parte de la acción executeEdit, que maneja tanto
+   * el create como el edit del formulario.
+   * Generalmente aqui se debe y puede colocar los llamados a los configGrid
+   * Para generar la información de configuración de los grids.
+   *
+   */
+  public function editing()
+  {
+	  $this->configGrid();
+	  $this->configGridb();
+
+  }
+
+
+  /**
+   * Función para colocar el codigo necesario para 
+   * el proceso de eliminar.
+   * Esta función debe retornar un valor igual a -1 si no hubo 
+   * Inconvenientes al guardar, y != de -1 si existe algún error.
+   * Si es diferente de -1 el valor devuelto debe ser un código de error
+   * Válido que exista en el archivo config/errores.yml
+   *
+   */
+  public function deleting($fcmultas)
+  {
+	$c = new Criteria();
+	$c->add(FcrangosmulPeer::CODMUL,$fcmultas->getCodmul());
+	FcrangosmulPeer::doDelete($c);
+
+	$c = new Criteria();
+	$c->add(FcfuentesmulPeer::CODMUL,$fcmultas->getCodmul());
+	FcfuentesmulPeer::doDelete($c);
+
+    $fcmultas->delete();
+    return -1;
+   }
+
+  /**
+   * Esta función permite definir la configuración del grid de datos
+   * que contiene el formulario. Esta función debe ser llamada
+   * en las acciones, create, edit y handleError para recargar en todo momento
+   * los datos del grid.
+   *
+   */
+  public function configGrid($reg = array(),$regelim = array())
+  {
+    $c = new Criteria();
+    $c->add(FcrangosmulPeer::CODMUL,$this->fcmultas->getCodmul());
+    $per = FcrangosmulPeer::doSelect($c);
+    $this->columnas = Herramientas::getConfigGrid(sfConfig::get('sf_app_module_dir').'/facmultas/'.sfConfig::get('sf_app_module_config_dir_name').'/grid');
+    $this->grid = $this->columnas[0]->getConfig($per);
+    $this->fcmultas->setGrid($this->grid);
+  }
+
+  /**
+   * Esta función permite definir la configuración del grid de datos
+   * que contiene el formulario. Esta función debe ser llamada
+   * en las acciones, create, edit y handleError para recargar en todo momento
+   * los datos del grid.
+   *
+   */
+  public function configGridb($reg = array(),$regelim = array())
+  {
+    $c = new Criteria();
+    $c->add(FcfuentesmulPeer::CODMUL,$this->fcmultas->getCodmul());
+    $per = FcfuentesmulPeer::doSelect($c);
+    $this->columnas = Herramientas::getConfigGrid(sfConfig::get('sf_app_module_dir').'/facmultas/'.sfConfig::get('sf_app_module_config_dir_name').'/gridb');
+    $this->gridb = $this->columnas[0]->getConfig($per);
+    $this->fcmultas->setGridb($this->gridb);
+  }
+
+  /**
+   * Función para procesar _todas_ las funciones Ajax del formulario
+   * Cada función esta identificada con el valor de la vista "ajax"
+   * el cual traerá el indice de lo que se quiere procesar.
+   *
+   */
+  public function executeAjax()
+  {
+    $codigo = $this->getRequestParameter('codigo','');
+    $ajax = $this->getRequestParameter('ajax','');
+    $cajtexmos = $this->getRequestParameter('cajtexmos','');
+    $cajtextcom = $this->getRequestParameter('cajtexcom','');
+    $dato=""; $js="";
+
+    switch ($ajax){
+      case '1':
+        $col = $this->getRequestParameter('columna');
+
+        $t= new Criteria();
+        if ($col=='3') {
+        $t->add(FcfueprePeer::CODFUE,$codigo);
+        }else {
+         $sql = "Select * from fcdefins";
+         if (Herramientas :: BuscarDatos($sql, $result)) {
+           $this->sqlnew = "CODFUE='".$codigo."' and (CODFUE='" . $result[0]["codpic"] . "' OR CODFUE='" . $result[0]["codveh"] . "' OR CODFUE='" . $result[0]["codinm"] . "' OR CODFUE='" . $result[0]["codpro"] . "' OR CODFUE='" . $result[0]["codesp"] . "' OR CODFUE='" . $result[0]["codapu"] . "'  OR CODFUE='" . $result[0]["codajupic"] . "')";
+           $t->add(FcfueprePeer :: CODFUE, $this->sqlnew, Criteria :: CUSTOM);
+         }else {
+            $t->add(FcfueprePeer::CODFUE,$codigo);
+         }
+        }
+        $reg= FcfueprePeer::doSelectOne($t);
+        if ($reg)
+        {
+            $dato=$reg->getNomfue();
+        }else {
+            $js="alert_('El C&oacute;digo de Fuente no existe'); $('$cajtextcom').value=''; $('$cajtextcom').focus();";
+        }
+        $output = '[["'.$cajtexmos.'","'.$dato.'",""],["javascript","'.$js.'",""],["","",""]]';
+        break;
+      default:
+        $output = '[["","",""],["","",""],["","",""]]';
+    }
+
+    $this->getResponse()->setHttpHeader("X-JSON", '('.$output.')');
+
+    return sfView::HEADER_ONLY;
+
+  }
+
+
+  
+  
+  
+  /**
+   *
+   * Función que se ejecuta luego los validadores del negocio (validators)
+   * Para realizar validaciones específicas del negocio del formulario
+   * Para mayor información vease http://www.symfony-project.org/book/1_0/06-Inside-the-Controller-Layer#chapter_06_validation_and_error_handling_methods
+   *
+   */
+  public function validateEdit()
+  {
+    $this->coderr =-1;
+
+    // Se deben llamar a las funciones necesarias para cargar los
+    // datos de la vista que serán usados en las funciones de validación.
+    // Por ejemplo:
+
+    if($this->getRequest()->getMethod() == sfRequest::POST){
+
+      // $this->configGrid();
+      // $grid = Herramientas::CargarDatosGrid($this,$this->obj);
+
+      // Aqui van los llamados a los métodos de las clases del
+      // negocio para validar los datos.
+      // Los resultados de cada llamado deben ser analizados por ejemplo:
+
+      // $resp = Compras::validarAlmajuoc($this->caajuoc,$grid);
+
+       //$resp=Herramientas::ValidarCodigo($valor,$this->tstipmov,$campo);
+
+      // al final $resp es analizada en base al código que retorna
+      // Todas las funciones de validación y procesos del negocio
+      // deben retornar códigos >= -1. Estos código serám buscados en
+      // el archivo errors.yml en la función handleErrorEdit()
+
+      if($this->coderr!=-1){
+        return false;
+      } else return true;
+
+    }else return true;
+
+
+
+  }
+
+
+
+
+  /**
+   * Función para actualziar el grid en el post si ocurre un error
+   * Se pueden colocar aqui los grids adicionales
+   *
+   */
+  public function updateError()
+  {
+    $this->configGrid();
+    $grid = Herramientas::CargarDatosGridv2($this,$this->obj);
+    $this->configGrid($grid[0],$grid[1]);
+    $this->configGridb();
+    $gridb = Herramientas::CargarDatosGridv2($this,$this->obj);
+    $this->configGridb($gridb[0],$gridb[1]);
+
+  }
+
+  /**
+   * Función para colocar el codigo necesario para 
+   * el proceso de guardar.
+   * Esta función debe retornar un valor igual a -1 si no hubo 
+   * Inconvenientes al guardar, y != de -1 si existe algún error.
+   * Si es diferente de -1 el valor devuelto debe ser un código de error
+   * Válido que exista en el archivo config/errores.yml
+   *
+   */
+  public function saving($fcmultas)
+  {
+    $fcmultas->save();
+    $grid = Herramientas::CargarDatosGridv2($this,$this->grid);
+    $gridb = Herramientas::CargarDatosGridv2($this,$this->gridb);
+    Hacienda::salvar_grid_Fcmultas($fcmultas, $grid);
+	Hacienda::salvar_gridb_Fcmultas($fcmultas, $gridb);
+    return -1;
+  }
+
+
+
+}

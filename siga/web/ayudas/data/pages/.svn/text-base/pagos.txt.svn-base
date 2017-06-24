@@ -1,0 +1,34 @@
+====== Pagos ======
+
+**Tabla:** CPDOCPAG
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso en el cual se definen los documentos que se utilizarán para registrar un pago durante la Ejecución Presupuestaria.</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Contabilidad Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpre.jpg|}}"></div><br></html>
+
+   * Seguidamente despliegue la opción **Definiciones Específicas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpredefesp.jpg|}}"></div><br></html>
+
+  * Seleccione la opción **Documentos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpredoc.jpg|}}"></div><br></html>
+
+  * Por último seleccione **Pagos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprepagos.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Pagos** veamos la [[Descripcion_Campos_presupuesto_pagos|Descripción de los Campos]]
+
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Pagos** solo podrá realizar la Operación Básica de:
+
+  * [[Incluir Pagos|Incluir]]
+
+  * [[Modificar Pagos|Modificar]]
+
+  * [[Eliminar Pagos|Eliminar]]
+
+  * [[Consultar Pagos|Consultar]]

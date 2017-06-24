@@ -1,0 +1,87 @@
+methods:
+  post:
+   - "npptocta{numpta}"
+   - "npptocta{fecpta}"
+   - "npptocta{codempa}"
+   - "npptocta{codempp}"
+   - "npptocta{codemp}"
+   - "npptocta{codnom}"
+   - "npptocta{codcar}"
+names:
+  npptocta{numpta}:
+    required:  Yes
+    required_msg: El Número de Punto de Cuenta no puede estar en blanco
+    validators: Validator_numpta
+
+  npptocta{fecpta}:
+    required:  Yes
+    required_msg: La Fecha no puede estar en blanco
+    validators: FechaValidator1, FechaValidator2
+
+  npptocta{codempa}:
+    required:  Yes
+    required_msg: El Empleado(Presentado a) no puede estar en blanco
+    validators: Validator_existe 
+
+  npptocta{codempp}:
+    required:  Yes
+    required_msg: El Empleado(Presentado por) no puede estar en blanco
+    validators: Validator_existe 
+
+  npptocta{codemp}:
+    required:  Yes
+    required_msg: El Empleado no puede estar en blanco
+    validators: Validator_existe     
+
+  npptocta{codnom}:
+    required:  Yes
+    required_msg: La Nómina no puede estar en blanco
+    validators: Validator_existe2  
+
+  npptocta{codcar}:
+    required:  Yes
+    required_msg: El cargo no puede estar en blanco
+    validators: Validator_existe3        
+
+Validator_existe:
+    class: CidesaExistValidator
+    param:
+        class:        Nphojint
+        column:       codemp
+        unique_error: El Empleado no existe.
+
+Validator_existe2:
+    class: CidesaExistValidator
+    param:
+        class:        Npnomina
+        column:       codnom
+        unique_error: La Nómina no existe.
+
+Validator_existe3:
+    class: CidesaExistValidator
+    param:
+        class:        Npcargos
+        column:       codcar
+        unique_error: El cargo no existe.        
+
+Validator_numpta:
+  class: sfPropelUniqueValidator
+  param:
+    class:        Npptocta
+    column:       numpta
+    unique_error: El Número de Punto de Cuenta ya Existe intente con otro.
+
+FechaValidator1:
+    class:         CidesaDateNow
+    param:
+        compare: 'now'
+        compare_error: La Fecha no puede ser mayor a la Fecha Actual
+        operator: '<='
+        date_error:  Fecha Inválida
+
+FechaValidator2:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida    

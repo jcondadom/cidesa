@@ -1,0 +1,29 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   fcrangosdes
+  ancho:                   400
+  anchogrid:               600
+  filas:                   2
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Días Desde
+  tipo:                    t
+  nombrecampo:             diasdesde
+  esgrabable:			   true
+  html:                    [size=15 onBlur=" ValidarMontoGridv2(this); if (!validarnumero(this.id)) { alert('Monto Invalido');$(this.id).value='0,00'; }"]
+
+2:       # Columna 2
+  titulo:                  Días Hasta
+  tipo:                    t
+  nombrecampo:             diashasta
+  esgrabable:			   true
+  html:                    [size=15 onBlur=" ValidarMontoGridv2(this); if (!validarnumero(this.id)) { alert('Monto Invalido');$(this.id).value='0,00'; }"]
+
+3:       # Columna 3
+  titulo:                  Valor
+  tipo:                    m
+  nombrecampo:             valor
+  esgrabable:			   true
+  html:                    [size=15 onBlur=" ValidarMontoGridv2(this); ChequearRango(this.id);"]

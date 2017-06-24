@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/user
+END
+sfUser.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/user/sfUser.class.php
+END
+sfSecurityUser.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/user/sfSecurityUser.class.php
+END
+sfBasicSecurityUser.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/user/sfBasicSecurityUser.class.php
+END

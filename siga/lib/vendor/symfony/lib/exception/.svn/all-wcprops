@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/55137/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception
+END
+sfActionException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception/sfActionException.class.php
+END
+sfException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/55137/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception/sfException.class.php
+END
+sfFileException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception/sfFileException.class.php
+END
+sfRenderException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception/sfRenderException.class.php
+END
+sfError404Exception.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception/sfError404Exception.class.php
+END
+sfControllerException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception/sfControllerException.class.php
+END
+sfContextException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception/sfContextException.class.php
+END
+sfValidatorException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception/sfValidatorException.class.php
+END
+sfStopException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception/sfStopException.class.php
+END
+sfFilterException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception/sfFilterException.class.php
+END
+sfInitializationException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception/sfInitializationException.class.php
+END
+sfCacheException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception/sfCacheException.class.php
+END
+sfStorageException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception/sfStorageException.class.php
+END
+sfDatabaseException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception/sfDatabaseException.class.php
+END
+sfForwardException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception/sfForwardException.class.php
+END
+sfFactoryException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception/sfFactoryException.class.php
+END
+sfConfigurationException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception/sfConfigurationException.class.php
+END
+sfSecurityException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception/sfSecurityException.class.php
+END
+sfAutoloadException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception/sfAutoloadException.class.php
+END
+sfParseException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception/sfParseException.class.php
+END
+sfViewException.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/exception/sfViewException.class.php
+END

@@ -1,0 +1,26 @@
+====== Definición de Cobertura para Seguros ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite definir la Cobertura que puede abarcar un determinado seguro.</html>
+
+Para ello:
+
+  * Seleccione la opción **Bienes Nacionales** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:bienac.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedef.jpg|}}"></div><br></html>
+ 
+  * Por último seleccione **Definición de Cobertura para Seguros**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Definición de Cobertura para Seguros** solo podrá realizar la Operación Básica de:
+
+  * [[Incluir Definición de Cobertura para Seguros|Incluir]]
+
+  * [[Modificar Definición de Cobertura para Seguros|Modificar]]
+
+  * [[Eliminar Definición de Cobertura para Seguros|Eliminar]]
+
+  * [[Consultar Definición de Cobertura para Seguros|Consultar]]

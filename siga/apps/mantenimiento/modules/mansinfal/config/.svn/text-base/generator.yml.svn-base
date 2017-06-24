@@ -1,0 +1,36 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Mansinfal
+    theme:            cidesaGenerator
+    fields:
+      codsfa: { name:  Código, params : size=5 maxlength=4 onFocus=readonly(this.id)}
+      dessfa: { name:  Descripción, params : size=80 maxlength=250}
+      codsis:
+        name: Sistema de Operación
+        catalogo:
+          catalogoweb: Mantenimiento_Mansisope
+          clase: Mansisope
+          ajax: 0
+          parametros: getprincipal="getCodsis" getsecundario="getDessis" campoprincipal="codsis" camposecundario="dessis" campobase = "id"     
+    list:
+      title:          Síntomas de las Fallas
+      display:        [=codsfa, dessfa]
+      fields:
+        codsfa: { name:  Código, params : size=5 maxlength=4}
+        dessfa: { name:  Descripción, params : size=15 maxlength=250}
+      filters:        [codsfa, dessfa]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           codsfa
+    edit:
+      title:          Edición de Síntoma de la Falla
+      display:
+        "NONE": [codsfa, dessfa, codsis]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

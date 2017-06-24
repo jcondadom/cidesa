@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomfalperlot/templates
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomfalperlot/templates/ajaxSuccess.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomfalperlot/templates/editSuccess.php
+END
+gridSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomfalperlot/templates/gridSuccess.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomfalperlot/templates/_edit_form.php
+END

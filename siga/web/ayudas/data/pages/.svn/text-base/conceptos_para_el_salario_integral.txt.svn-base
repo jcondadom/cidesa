@@ -1,0 +1,24 @@
+====== Conceptos para el Salario Integral ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite asociar los conceptos que van a conformar el salario integral para una nómina específica. Dicho Salario Integral está compuesto por el sueldo y otros conceptos que entran dentro del grupo de asignaciones que puede tener un trabajador.</html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el **Menú Principal** de **SIGA**.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Conceptos para el Salario Integral**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconsalint.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Conceptos para el Salario Integral** podrá realizar las Operaciones Básicas de:
+
+  * [[Incluir Conceptos para el Salario Integral|Incluir]]
+
+  * [[Modificar Conceptos para el Salario Integral|Modificar]]
+
+  * [[Consultar Conceptos para el Salario Integral|Consultar]]

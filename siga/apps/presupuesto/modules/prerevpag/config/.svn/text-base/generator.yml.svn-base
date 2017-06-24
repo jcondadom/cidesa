@@ -1,0 +1,25 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cpdocpag
+    theme:            cidesaGenerator
+    fields:
+      refpag:
+        name: Pagado
+        params: size=20  maxlength=8
+        catalogo:
+          catalogoweb: Cppagos_Prerevpag
+          clase: Cppagos
+          ajax: 1
+          parametros: getprincipal="getRefpag" getsecundario="getDespag" campoprincipal="refpag" camposecundario="despag" campobase = "id"
+          divupdate: divgrid          
+      grid:   { name: .}
+    edit:
+      title:          Cambio Presupuestario de Pagado
+      display:
+        "Datos del Pagado":   [refpag, _grid ]
+      actions:
+        _save:        ~
+        _list:        NONE
+        _delete:      NONE
+        _create:      NONE

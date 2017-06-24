@@ -1,0 +1,24 @@
+======Movimientos por Concepto======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite registrar y actualizar por cada empleado el monto o cantidad del concepto fijo o movimiento periódico determinado</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Movimientos de Nómina** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompermovnom.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Movimientos por Concepto**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompermovcon.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Movimientos por Conceptos** podrá realizar las Operaciones Básicas de: 
+
+  * [[Incluir Movimientos por Conceptos|Incluir]]
+
+  * [[Eliminar Movimientos por Conceptos|Eliminar]]
+
+  * [[Consultar Movimientos por Conceptos|Consultar]]

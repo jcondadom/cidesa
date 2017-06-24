@@ -1,0 +1,20 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Caordcom
+    theme:            cidesaGenerator
+    fields:
+      ordcomdes:   { name: Orden Desde }
+      ordcomhas:   { name: Orden Hasta }
+      fecdes:           { name: Fecha Desde}
+      fechas:           { name: Fecha Hasta}
+      grid:   { name: . }
+
+    edit:
+      title:          Aprobación de Ordenes de Compra
+      display:
+        "Filtros":   [_ordcomdes, _ordcomhas, _fecdes, _fechas]
+        "Ordenes de Compra":   [_grid]
+
+      actions:
+        _save:        ~

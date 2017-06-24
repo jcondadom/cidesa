@@ -1,0 +1,1 @@
+<?php echo select_tag('npasicaremp[codtie]', options_for_select(NptiempoPeer::getCondiciones(),$npasicaremp->getCodtie(), 'include_custom=Seleccione uno ...'),array()) ?>

@@ -1,0 +1,82 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   hcliqree
+  anchogrid:               780
+  ancho:                   800
+  filas:                   0
+  titulo:                  ' Reembolsos Registrados '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Aprobado
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:              true
+  html:                    ["size=3 onClick=verificar(this.id)"]
+2:       # Columna 2
+  titulo:                  Rechazado
+  tipo:                    k
+  nombrecampo:             check2
+  esgrabable:              true
+  html:                    ["size=3 onClick=verificar(this.id)"]
+3:       # Columna 3
+  titulo:                  Correlativo
+  tipo:                    t
+  nombrecampo:             codliq
+  esgrabable:			         true
+  html:                    ["size=8 readOnly=true"]
+4:       # Columna 4
+  titulo:                  Código Titular
+  tipo:                    t
+  nombrecampo:             codemp
+  esgrabable:			         false
+  html:                    ["size=10 readOnly=true"]
+5:       # Columna 5
+  titulo:                  Nombre Titular
+  tipo:                    t
+  nombrecampo:             nomemp
+  esgrabable:			         false
+  html:                    ["size=25 readOnly=true"]
+6:       # Columna 6
+  titulo:                  Código Beneficiario
+  tipo:                    t
+  nombrecampo:             cedfam
+  esgrabable:			         false
+  html:                    ["size=10 readOnly=true"]
+7:       # Columna 7
+  titulo:                  Nombre Beneficiario
+  tipo:                    t
+  nombrecampo:             nomfam
+  esgrabable:			         false
+  html:                    ["size=25 readOnly=true"]
+8:       # Columna 8
+  titulo:                  Tipo
+  tipo:                    t
+  nombrecampo:             tipliq
+  esgrabable:			         false
+  html:                    ["size=4 readOnly=true"]
+9:      # Columna 9
+  titulo:                  Fecha
+  tipo:                    t
+  nombrecampo:             fecliq
+  esgrabable:			         false
+  html:                    ["size=13 readOnly=true"]
+10:      # Columna 10
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monliq
+  esgrabable:			         false
+  html:                    ["size=12 readOnly=true"]
+11:      # Columna 11
+  titulo:                  Observaciones
+  tipo:                    a
+  nombrecampo:             obsliq
+  esgrabable:			         true
+  html:                    ["size=50x2 "]
+12:      # Columna 12
+  titulo:                  Id
+  tipo:                    t
+  nombrecampo:             id
+  esgrabable:			         true
+  oculta:                  true
+  html:                    ["size=10 readOnly=true"]

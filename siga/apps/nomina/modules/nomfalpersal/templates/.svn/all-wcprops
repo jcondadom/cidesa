@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/57584/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomfalpersal/templates
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/52245/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomfalpersal/templates/editSuccess.php
+END
+listSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/52245/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomfalpersal/templates/listSuccess.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/57584/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomfalpersal/templates/_edit_form.php
+END

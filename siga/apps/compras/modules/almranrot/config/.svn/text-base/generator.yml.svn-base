@@ -1,0 +1,13 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Caranrot
+    theme:            cidesaGenerator
+    fields:
+      grid:      { name: . }
+    edit:
+      title:          Definición de Rangos de Rotación
+      display:
+        "NONE":   [ _grid ]
+      actions:
+        _save:        ~

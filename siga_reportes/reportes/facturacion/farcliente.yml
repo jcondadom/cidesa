@@ -1,0 +1,47 @@
+Parametros:
+  modulo: facturacion
+  nomrep: farcliente
+  titulo: CATALOGO CLIENTES
+  orientacion: Vertical
+  tipopagina: Carta
+  width:210
+
+Filas:
+  CATALOGO CLIENTES:
+    tipotag:  inputcat_tag
+    label: Código Cliente:
+    sql: select min(codpro) as coddes,max(CODPRO) as codhas from FACLIENTE
+    nomdes: coddes
+    campodes: coddes
+    catdes: 0
+    nomhas: codhas
+    campohas: codhas
+    cathas: 1
+    nomcat: clientes
+    size: 15
+
+  CATALOGO RIFCLIENTES:
+    tipotag:  inputcat_tag
+    label: Rif Cliente:
+    sql: select min(rifpro) as rifdes,max(rifpro) as rifhas from FACLIENTE
+    nomdes: rifdes
+    campodes: rifdes
+    catdes: 2
+    nomhas: rifhas
+    campohas: rifhas
+    cathas: 3
+    nomcat: rifclientes
+    size: 15
+
+  CATALOGO NOMCLIENTES:
+    tipotag:  inputcat_tag
+    label: Nombre Cliente:
+    sql: select min(nompro) as nomdes,max(nompro) as nomhas from FACLIENTE
+    nomdes: nomdes
+    campodes: nomdes
+    catdes: 4
+    nomhas: nomhas
+    campohas: nomhas
+    cathas: 5
+    nomcat: nomclientes
+    size: 15

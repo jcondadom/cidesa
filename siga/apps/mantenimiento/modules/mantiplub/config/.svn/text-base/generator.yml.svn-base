@@ -1,0 +1,37 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Mantiplub
+    theme:            cidesaGenerator
+    fields:
+      codtlu: { name:  Código, params : size=5 maxlength=4 onFocus=readonly(this.id)}
+      destlu: { name:  Descripción, params : size=80 maxlength=250}
+      lubric: { name: Tipo}
+      codume:
+        name: Unidad de Medida
+        catalogo:
+          catalogoweb: Mantenimiento_Manunimed
+          clase: Manunimed
+          ajax: 0
+          parametros: getprincipal="getCodume" getsecundario="getDesume" campoprincipal="codume" camposecundario="desume" campobase = "id"          
+    list:
+      title:          Tipos de Lubricante o Combustible
+      display:        [=codtlu, destlu]
+      fields:
+        codtlu: { name:  Código, params : size=5 maxlength=4}
+        destlu: { name:  Descripción, params : size=15 maxlength=250}
+      filters:        [codtlu, destlu]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           codtlu
+    edit:
+      title:          Edición de Tipo de Lubricante
+      display:
+        "NONE": [codtlu, destlu, _lubric, codume]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

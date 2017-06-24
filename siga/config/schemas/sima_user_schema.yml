@@ -1,0 +1,683 @@
+sima_user:
+  _attributes: { noXsd: false, defaultIdMethod: native, package: lib.model.sima_user }
+  apli_user:
+    _attributes:
+      description:
+    codapl:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    loguse:
+      type: VARCHAR
+      size: 50
+      description:
+      required: true
+    codemp:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    nomopc:
+      type: VARCHAR
+      size: 50
+      description:
+    priuse:
+      type: VARCHAR
+      size: 2
+      description:
+    desopc:
+      type: VARCHAR
+      size: 2500
+      description:        
+    id:
+  empresa:
+    _attributes: { phpName: EmpresaUser }
+    codemp:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    nomemp:
+      type: VARCHAR
+      size: 50
+      description:
+      required: true
+    diremp:
+      type: VARCHAR
+      size: 50
+      description:
+    tlfemp:
+      type: VARCHAR
+      size: 15
+      description:
+    passemp:
+      type: VARCHAR
+      size: 10
+      description:
+    id:
+  usuarios:
+    _attributes:
+      description: Usuarios del Sistema
+    loguse:
+      type: VARCHAR
+      size: 250
+      description:
+      required: true
+    nomuse:
+      type: VARCHAR
+      size: 250
+      description:
+      required: true
+    apluse:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    numemp:
+      type: VARCHAR
+      size: 12
+      description:
+    pasuse:
+      type: VARCHAR
+      size: 250
+      description:
+      required: true
+    diremp:
+      type: VARCHAR
+      size: 250
+      description:
+    telemp:
+      type: VARCHAR
+      size: 50
+      description:
+    cedemp:
+      type: VARCHAR
+      size: 10
+      description:
+    numuni:
+      type: VARCHAR
+      size: 4
+      description:
+    codcat:
+      type: VARCHAR
+      size: 16
+      description:
+    codniv:
+      type: VARCHAR
+      size: 3
+      description:
+    codgru:
+      type: VARCHAR
+      size: 3
+      description:
+    feccad:
+      type: DATE
+      description:  Fecha de Caducidad de la Contraseña  
+    stablo:
+      type: VARCHAR
+      size: 1
+      description:  Estatus de Bloqueo del Usuario S si esta bloqueado
+    fecint:
+      type: DATE
+      description:  Fecha último Intento
+    conint:
+      type: INTEGER
+      description:  Contador de Intentos
+    esgeren:
+      type: VARCHAR
+      size: 1
+      default: 'N'
+      description:  Gerente  S-N
+    id:
+  aplifor:
+    _attributes:
+      description:
+    codapl:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    coddiv:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    nomopc:
+      type: VARCHAR
+      size: 50
+      description:
+      required: true
+    desocp:
+      type: VARCHAR
+      size: 1000
+      description:
+      required: true
+    id:
+  aplicacion:
+    _attributes:
+      description:
+    codapl:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    nomapl:
+      type: VARCHAR
+      size: 50
+      description:
+      required: true
+    nomuse:
+      type: VARCHAR
+      size: 30
+      description:
+      required: true
+    aplact:
+      type: VARCHAR
+      size: 1
+      description:
+      required: true
+    aplpri:
+      type: VARCHAR
+      size: 1
+      description:
+      required: true
+    nomyml:
+      type: VARCHAR
+      size: 50
+      description:
+      required: true
+    id:
+  division:
+    _attributes:
+      description:
+    coddiv:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    desdiv:
+      type: VARCHAR
+      size: 250
+      description:
+      required: true
+    id:
+  segbitaco:
+    _attributes:
+      description:
+    refmov:
+      type: VARCHAR
+      size: 10
+      description:
+      required: true
+    codofi:
+      type: VARCHAR
+      size: 3
+      description:
+    codapl:
+      type: VARCHAR
+      size: 3
+      description:
+    codintusu:
+      type: VARCHAR
+      size: 8
+      description:
+    fecope:
+      type: DATE
+      description:
+    horope:
+      type: TIMESTAMP
+      description:
+    valcla:
+      type: VARCHAR
+      size: 50
+      description:
+    codmod:
+      type: VARCHAR
+      size: 50
+      description:
+    tipope:
+      type: VARCHAR
+      size: 1
+      description:
+    id:
+  segnivapr:
+    _attributes:
+      description:
+    codniv:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    desniv:
+      type: VARCHAR
+      size: 50
+      description:
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  segranapr:
+    _attributes:
+      description:
+    randes:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+      required: true
+    ranhas:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+      required: true
+    codniv:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    id:
+      type: integer
+      required: true
+      primaryKey: true
+      autoincrement: true
+  apernueper:
+    _attributes:
+      description:
+    nomtab:
+      type: VARCHAR
+      size: 255
+      description:
+      required: true
+    orden:
+      type: INTEGER
+      description:
+      required: true
+    codmod:
+      type: VARCHAR
+      size: 10
+      description:
+    id:
+      type: integer
+      required: true
+      primaryKey: true
+      autoincrement: true
+  seggrupo:
+    _attributes:
+      description: Definción de Grupos
+    codgru:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+      index: unique
+    desgru:
+      type: VARCHAR
+      size: 100
+      description:
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  seggruapl:
+    _attributes:
+      description: Configuración de credenciales por grupos
+    codgru:
+      type: VARCHAR
+      size: 3
+      description: Código del Grupo
+      required: true
+      foreignTable: seggrupo
+      foreignReference: codgru
+    codapl:
+      type: VARCHAR
+      size: 3
+      description: Código de la aplicación
+      required: true
+    codemp:
+      type: VARCHAR
+      size: 3
+      description: Código de la empresa
+      required: true
+    nomopc:
+      type: VARCHAR
+      size: 50
+      description:
+      required: true
+    priuse:
+      type: VARCHAR
+      size: 2
+      description: Credencial del usuario
+      required: true
+    desopc:
+      type: VARCHAR
+      size: 2500
+      description:         
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  segperesp:
+    _attributes:
+      description: Configuración de permisos especiales por usuario
+    cedemp:
+      type: VARCHAR
+      size: 10
+      description: Cédula del empleado
+      required: true
+      foreignTable: usuarios
+      foreignReference: cedemp
+    pasuse:
+      type: VARCHAR
+      size: 10
+      description: clave para ejecutar el proceso
+      required: true
+    proceso:
+      type: VARCHAR
+      size: 100
+      description: Nombre del proceso especial
+      required: true
+    codapl:
+      type: VARCHAR
+      size: 3
+      description: Código de la aplicación
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  segcatusu:
+    _attributes:
+      description: Asociación de Categorias a Usuario
+    loguse:
+      type: VARCHAR
+      size: 50
+      description:  login del usuario
+      required: true
+    codcat:
+      type: VARCHAR
+      size: 32
+      description:  categoria presupuestaria
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  publicidad:
+    _attributes:
+      descripcion: Publicidades del Portal
+    titpub:
+      type: VARCHAR
+      size: 50
+      description: Titulo de la Publicidad
+    despub:
+      type: VARCHAR
+      size: 1000
+      description: Descripcion de la Publicidad
+    imgpub:
+      type: VARCHAR
+      size: 50
+      description: Ruta de la Imagen
+    catpub:
+      type: VARCHAR
+      size: 1
+      description: Categoria de la Publicidad
+    linkpub:
+      type: VARCHAR
+      size: 200
+      description: link de la Publicidad
+    created_at:     ~
+    id:
+      type: VARCHAR
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  detpublic:
+    _attributes:
+      descripcion: Detalle Publicidades del Portal
+    titpub:
+      type: VARCHAR
+      size: 50
+      description: Titulo de la Publicidad
+    despub:
+      type: VARCHAR
+      size: 1000
+      description: Descripcion de la Publicidad
+    linkpub:
+      type: VARCHAR
+      size: 200
+      description: link de la Publicidad
+    id_pub:
+      type: VARCHAR
+      description: Identificador Único del registro publicidad
+    created_at:     ~
+    id:
+      type: VARCHAR
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+
+# sfGuardPlugins
+
+  sf_guard_group:
+    _attributes:    { phpName: sfGuardGroup, package: plugins.sfGuardPlugin.lib.model }
+    id:             ~
+    name:           { type: varchar, size: 255, required: true, index: unique }
+    description:    { type: varchar }
+
+  sf_guard_permission:
+    _attributes:    { phpName: sfGuardPermission, package: plugins.sfGuardPlugin.lib.model }
+    id:             ~
+    name:           { type: varchar, size: 255, required: true, index: unique }
+    description:    { type: varchar }
+
+  sf_guard_group_permission:
+    _attributes:    { phpName: sfGuardGroupPermission, package: plugins.sfGuardPlugin.lib.model }
+    group_id:       { type: integer, primaryKey: true, required: true, foreignTable: sf_guard_group, foreignReference: id, onDelete: cascade }
+    permission_id:  { type: integer, primaryKey: true, required: true, foreignTable: sf_guard_permission, foreignReference: id, onDelete: cascade }
+
+  sf_guard_user:
+    _attributes:    { phpName: sfGuardUser, package: plugins.sfGuardPlugin.lib.model }
+    id:             ~
+    username:       { type: varchar, size: 128, required: true, index: unique }
+    algorithm:      { type: varchar, size: 128, required: true, default: sha1 }
+    salt:           { type: varchar, size: 128 }
+    password:       { type: varchar, size: 128, required: true }
+    created_at:     ~
+    last_login:     { type: timestamp }
+    is_active:      { type: boolean, required: true, default: 1 }
+    is_super_admin: { type: boolean, required: true, default: 0 }
+
+  sf_guard_user_permission:
+    _attributes:    { phpName: sfGuardUserPermission, package: plugins.sfGuardPlugin.lib.model }
+    user_id:        { type: integer, primaryKey: true, required: true, foreignTable: sf_guard_user, foreignReference: id, onDelete: cascade }
+    permission_id:  { type: integer, primaryKey: true, required: true, foreignTable: sf_guard_permission, foreignReference: id, onDelete: cascade }
+
+  sf_guard_user_group:
+    _attributes:    { phpName: sfGuardUserGroup, package: plugins.sfGuardPlugin.lib.model }
+    user_id:        { type: integer, primaryKey: true, required: true, foreignTable: sf_guard_user, foreignReference: id, onDelete: cascade }
+    group_id:       { type: integer, primaryKey: true, required: true, foreignTable: sf_guard_group, foreignReference: id, onDelete: cascade }
+
+  sf_guard_remember_key:
+    _attributes:    { phpName: sfGuardRememberKey, package: plugins.sfGuardPlugin.lib.model }
+    user_id:        { type: integer, primaryKey: true, required: true, foreignTable: sf_guard_user, foreignReference: id, onDelete: cascade }
+    remember_key:   { type: varchar, size: 32 }
+    ip_address:     { type: varchar, size: 50, primaryKey: true }
+    created_at:     ~
+
+  sf_guard_user_profile:
+    _attributes:
+      phpName: sfGuardUserProfile
+      package: plugins.sfGuardPlugin.lib.model
+    user_id:
+      type: integer
+      foreignTable: sf_guard_user
+      foreignReference: id
+      required: true
+      onDelete: cascade
+    email:
+      type: varchar(80)
+      index: yes
+    information:
+      type: boolean
+    fullname:
+      type: varchar(80)
+    institution:
+      type: varchar(500)
+    pais:
+      type: varchar(20)
+    comentario:
+      type: varchar(500)
+    tipo:
+      type: varchar(10)
+    validate:
+      type: varchar(33)
+      index: yes      
+
+  segubausu:
+    _attributes:
+      description: Asociación de Ubicación administrativa a Usuario
+    loguse:
+      type: VARCHAR
+      size: 50
+      description:  login del usuario
+      required: true
+    codubi:
+      type: VARCHAR
+      size: 30
+      description:  Ubicación Administrativa
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro  
+  segcajusu:
+    _attributes:
+      description: Asociación de Ubicación administrativa a Usuario
+    loguse:
+      type: VARCHAR
+      size: 50
+      description:  login del usuario
+      required: true
+    codcaj:
+      type: INTEGER
+      description: Referencia al ID de la Caja fadefcaj
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro        
+  segcenusu:
+    _attributes:
+      description: Asociación de Centro de Costo a Usuario
+    loguse:
+      type: VARCHAR
+      size: 50      
+      required: true
+      description:  login del usuario
+    codcen:
+      type: VARCHAR
+      size: 4
+      required: true
+      description:  Centro de Costo
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro     
+  segusunom:
+    _attributes:
+      description: Asociación de Categorias a Usuario
+    loguse:
+      type: VARCHAR
+      size: 50
+      description:  login del usuario
+      required: true
+    codnom:
+      type: VARCHAR
+      size: 3
+      description:  Nómina
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  segconusu:
+    _attributes:
+      description: Asociación de Categorias a Usuario
+    loguse:
+      type: VARCHAR
+      size: 50
+      required: true
+      description:  login del usuario
+    codcon:
+      type: VARCHAR
+      size: 3
+      required: true
+      description:  Concepto
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  segdirusu:
+    _attributes:
+      description: Asociación de Direcciones a Usuario
+    loguse:
+      type: VARCHAR
+      size: 50
+      description:  login del usuario
+      required: true
+    coddirec:
+      type: VARCHAR
+      size: 32      
+      description:   Código de la Dirección
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro                     
+  # Tabla con el resultado de la impresión fiscal
+  logs_impresoras:
+    factura_id:
+      type: INTEGER
+    numero_factura:
+      type: VARCHAR
+    numero_devolucion:
+      type: VARCHAR
+    error: 
+      type: VARCHAR
+    serial_impresora: 
+      type: VARCHAR
+    fecha: 
+      type: VARCHAR
+    hora: 
+      type: VARCHAR
+    created_at:
+    updated_at:
+    id:

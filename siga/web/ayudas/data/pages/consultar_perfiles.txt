@@ -1,0 +1,24 @@
+====== Operación Consultar ======
+
+**Para consultar un Perfil registrado utilizando el Botón Lista:**   <html><br><br></html>
+
+  * Presione el **Botón**  {{:btnlista.jpg|}}    <html><br><br></html>
+
+  * Seleccione de la **Lista** el **Perfil** a consultar.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefpermod.jpg|}}"></div><br></html>
+
+  * El sistema automáticamente muestra los datos del **Perfil** seleccionado.
+
+  * Si desea consultar una nuevo Perfil debe presionar nuevamente el** Botón** {{:btnlista.jpg|}}  y repetir los pasos anteriores.
+ 
+<html><br><br></html>
+
+
+**Para consultar datos desde el Inicio de la pantalla de Perfiles:**  <html><br><br></html>
+
+  * El sistema muestra la **Lista** de los **Perfiles** registrados.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefpermod.jpg|}}"></div><br></html>
+
+  * Seleccione de la Lista los **Perfiles** a consultar.  <html><br><br></html>
+
+  * El sistema automáticamente muestra los datos del Perfil seleccionado.

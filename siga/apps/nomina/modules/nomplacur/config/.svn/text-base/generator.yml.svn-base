@@ -1,0 +1,47 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Rhplacur
+    theme:            cidesaGenerator
+    fields:
+      codplacur:  { name: Código, params: maxlength=4 size=15 onFocus="if($('id').value!='')$(this.id).readOnly=true" }
+      desplacur:  { name: Descripción, params: maxlength=250 size=80 }
+      codcur:
+        name: Curso
+        msj_error: El Código es necesario
+        catalogo:  
+          catalogoweb: rhdefcur_codcur
+          clase: Rhdefcur
+          ajax: 1
+          parametros: getprincipal="getCodcur" getsecundario="getDescur" campoprincipal="codcur" camposecundario="descur" campobase = "id"           
+      fecini:         { name: Fecha Inicio, params: style="border:none" }
+      fecfin:         { name: Fecha Culminación, params: style="border:none"}
+      durcur:         { name: Duración Curso (Horas), params: style="border:none"}
+      notapr:         { name: Nota Aprobatoria, params: style="border:none"}
+      turcur:         { name: Turno, params: style="border:none"}
+      gridperpla:     { name: .}
+      codemp:         { name: Código Empleado}
+      nomemp:         { name: Nombre}
+      descur:         { name: Descripción}
+      gridgru:     { name: .}
+      btn:     { name: .}
+      pergru:     { name: Personal por Grupo de Adiestramiento}
+    list:
+      title:              Planificación de Adiestramiento      
+      filters:            [codplacur, codcur]
+      display:            [=codplacur, desplacur, codcur, descur]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      sort:               codplacur    
+      max_per_page:        10
+    edit:
+      title:              Edición de Planificación de Adiestramiento
+      display:
+        Datos del Curso:   [codplacur, desplacur, codcur, fecini, fecfin, durcur, turcur]  
+        Datos del Personal: [_pergru, _gridgru, _btn, _gridperpla]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

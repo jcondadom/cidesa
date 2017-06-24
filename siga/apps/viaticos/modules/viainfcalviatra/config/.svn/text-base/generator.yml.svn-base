@@ -1,0 +1,19 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Viacalviatra
+    theme:            cidesaGenerator
+    fields:
+      grid:           { name: .}
+      fecdes:           { name: Fecha Desde}
+      fechas:           { name: Fecha Hasta}
+
+    edit:
+      title:          Acuse de Informe de Cálculo de Viáticos
+      display:
+        Filtros:  [_fecdes, _fechas]
+        Listado de Cálculo de Viáticos:  [_grid]
+      actions:
+        _list:        none
+        _save:        ~
+        _delete:      none

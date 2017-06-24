@@ -1,0 +1,46 @@
+opciones:                  # Opciones generales
+  name:                    g
+  eliminar:                true
+  tabla:                   npinfemb
+  anchogrid:               700
+  ancho:                   650
+  filas:                   1
+  titulo:                  'Embargos'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Fecha
+  tipo:                    f
+  nombrecampo:             fecemb
+  esgrabable:              true
+  html:                    [size="15" maxlength=10]
+2:       # Columna 2
+  titulo:                  Tribunal
+  tipo:                    t
+  nombrecampo:             tribem
+  esgrabable:              true
+  html:                    ["size=40 maxlength=250"]
+3:       # Columna 3
+  titulo:                  Motivo del Embargo
+  tipo:                    a
+  nombrecampo:             motemb
+  html:                    ["size=40x1 maxlength=2000 onkeyup='return ismaxlength(this)'"]
+  esgrabable:              true
+4:       # Columna 4
+  titulo:                  Beneficiarios
+  tipo:                    a
+  nombrecampo:             benemb
+  html:                    ["size=40x1 maxlength=500 onkeyup='return ismaxlength(this)'"]
+  esgrabable:              true
+5:       # Columna 5
+  titulo:                  Monto a Embargar
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monemb
+  esnumerico:              true
+  html:                    ["size=10"]
+6:       # Columna 6
+  titulo:                  Observaciones
+  tipo:                    a
+  nombrecampo:             observ
+  html:                    ["size=40x1 maxlength=2000 onkeyup='return ismaxlength(this)'"]
+  esgrabable:              true

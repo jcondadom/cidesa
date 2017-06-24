@@ -1,0 +1,45 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   fadetbilcie
+  anchogrid:               750
+  ancho:                   700
+  filas:                   0
+  titulo:                  ' Efectivo '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             codbil
+  esgrabable:			         true
+  oculta:                  true
+  html:                    ["size=3 maxlength=3 readOnly=true"]
+2:       # Columna 2
+  titulo:                  Denominación
+  tipo:                    t
+  nombrecampo:             desbil
+  esgrabable:			         false
+  html:                    ["size=30 maxlength=100 readOnly=true"]
+3:       # Columna 3
+  titulo:                  Valor
+  tipo:                    m
+  nombrecampo:             denbil
+  html:                    ["size=20 maxlength=20"]
+  esgrabable:              true
+  oculta:                  true
+4:       # Columna 4
+  titulo:                  Cantidad
+  tipo:                    e
+  nombrecampo:             canbil
+  html:                    ["size=20 maxlength=20"]
+  esgrabable:              true
+  ajaxfila:                true
+5:       # Columna 5
+  titulo:                  Total
+  tipo:                    m
+  nombrecampo:             totbil
+  html:                    ["size=32 maxlength=32 readonly=true"]
+  esgrabable:              false
+  estotal:                 [true, faciecaj_totalc]
+  
+  

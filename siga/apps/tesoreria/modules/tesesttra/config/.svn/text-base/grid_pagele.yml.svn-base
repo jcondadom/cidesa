@@ -1,0 +1,39 @@
+opciones:                  # Opciones generales
+  name:                    f
+  eliminar:                false
+  tabla:                   tsdetpagele
+  anchogrid:               1000
+  ancho:                   820
+  filas:                   0
+  titulo:                  ' Pagos Electrónicos '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Referencia
+  tipo:                    t
+  nombrecampo:             refpag
+  html:                    ["size=10 readonly=true" ]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Fecha
+  tipo:                    f
+  nombrecampo:             fecpag
+  html:                    ["size=10 readonly=true"]
+  esgrabable:              true  
+3:       # Columna 3
+  titulo:                  Cuenta Bancaria
+  tipo:                    t
+  nombrecampo:             numcue
+  html:                    ["size=20 readonly=true"]
+  esgrabable:              true  
+4:       # Columna 4
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             despag
+  html:                    ["size=40x2 readonly=true" ]
+  esgrabable:              true
+5:       # Columna 5
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monpag
+  html:                    ["size=10 readonly=true" ]
+  esgrabable:              true

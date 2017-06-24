@@ -1,0 +1,27 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   farancorcaj
+  ancho:				           300
+  anchogrid:               350
+  filas:                   1
+  titulo:                  ' Rangos '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Desde
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             cordes
+  html:                    ["size=15"]
+2:      # Columna 2
+  titulo:                  Hasta
+  tipo:                    m
+  nombrecampo:             corhas
+  esgrabable:              true
+  html:                    ["size=15"]
+3:       # Columna 3
+  titulo:                  Activar
+  tipo:                    k
+  nombrecampo:             activo
+  html:                    ["size=3 onClick=verificar(this.id)"]
+  esgrabable:              true

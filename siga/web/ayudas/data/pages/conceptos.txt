@@ -1,0 +1,18 @@
+====== Conceptos ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite definir los diferentes Conceptos (Asignaciones, Deducciones y Retenciones) que manejan las Nóminas, es decir, todos los pagos y descuentos que se le realicen a un empleado, asi como las características específicas de los mismos. </html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones Específicas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefesp.jpg|}}"></div><br></html>
+
+  * Por último seleccione la opción **Conceptos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefcon.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Conceptos** veamos la [[Descripcion_Campos_Conceptos|Descripción de los Campos]]
+ 
+

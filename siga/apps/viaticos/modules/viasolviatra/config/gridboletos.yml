@@ -1,0 +1,27 @@
+opciones:                  # Opciones generales
+  name:                    c
+  eliminar:                true
+  tabla:                   viasolviabol
+  anchogrid:               750
+  ancho:                   700
+  filas:                   1
+  titulo:                  ' Boletos Áereos'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Cédula
+  tipo:                    t
+  nombrecampo:             cedpercon
+  html:                    ["size=20 maxlength=15" ]
+  esgrabable:              true  
+2:       # Columna 2
+  titulo:                  Apellidos
+  tipo:                    t
+  nombrecampo:             apepercon
+  html:                    ["size=40 maxlength=55" ]
+  esgrabable:              true
+3:       # Columna 3 
+  titulo:                  Nombres
+  tipo:                    t
+  nombrecampo:             nompercon
+  html:                    ["size=40 maxlength=55"]
+  esgrabable:              true

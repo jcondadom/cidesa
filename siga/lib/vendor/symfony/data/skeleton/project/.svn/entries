@@ -1,0 +1,95 @@
+10
+
+dir
+62022
+https://repositorio.cidesa.com.ve/repositorio/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/skeleton/project
+https://repositorio.cidesa.com.ve/repositorio
+
+
+
+2012-03-09T16:36:57.450128Z
+47565
+lhernandez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bd7ca8a6-7b2b-0410-91d3-d9bcf4a077a3
+
+test
+dir
+
+batch
+dir
+
+log
+dir
+
+plugins
+dir
+
+apps
+dir
+
+cache
+dir
+
+symfony
+file
+
+
+
+
+2012-05-16T16:08:48.000000Z
+c0ea60f4d0345c918d63cc6b0c0aaf7e
+2012-03-09T16:36:57.450128Z
+47565
+lhernandez
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+389
+
+config
+dir
+
+doc
+dir
+
+lib
+dir
+
+data
+dir
+
+web
+dir
+

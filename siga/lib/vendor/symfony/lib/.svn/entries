@@ -1,0 +1,162 @@
+10
+
+dir
+62022
+https://repositorio.cidesa.com.ve/repositorio/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib
+https://repositorio.cidesa.com.ve/repositorio
+
+
+
+2014-11-17T13:24:28.185743Z
+59459
+dmartinez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bd7ca8a6-7b2b-0410-91d3-d9bcf4a077a3
+
+i18n
+dir
+
+helper
+dir
+
+test
+dir
+
+log
+dir
+
+controller
+dir
+
+filter
+dir
+
+addon
+dir
+
+validator
+dir
+
+VERSION
+file
+
+
+
+
+2012-05-16T16:08:46.000000Z
+8d9cfc659c3a3779e386b63fc546ddc0
+2012-03-09T16:36:57.450128Z
+47565
+lhernandez
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7
+
+generator
+dir
+
+debug
+dir
+
+request
+dir
+
+symfony.php
+file
+
+
+
+
+2014-10-13T16:31:06.000000Z
+6aeca5ad349189385a8ad1fe1480603d
+2014-01-18T01:47:14.227481Z
+55137
+dmartinez
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4668
+
+vendor
+dir
+
+response
+dir
+
+exception
+dir
+
+cache
+dir
+
+database
+dir
+
+storage
+dir
+
+config
+dir
+
+view
+dir
+
+action
+dir
+
+util
+dir
+
+user
+dir
+

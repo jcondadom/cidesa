@@ -1,0 +1,16 @@
+======Registro de Recargos======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Proceso en el que se registran todos los posibles recargos que se puedan incluir en una orden de compra/servicio. Un ejemplo de recargo de una Compra es el IVA.</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Artículos** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmart.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Registro de Recargos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmartregrec.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Registro de Recargos** veamos la [[Descripcion_Campos_Registro_Recargos|Descripción de los Campos]]

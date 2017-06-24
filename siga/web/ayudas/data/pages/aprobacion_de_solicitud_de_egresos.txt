@@ -1,0 +1,16 @@
+====== Aprobación de Solicitud de Egresos ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Proceso que permite que se genere la Orden de Compra de una determinada Solicitud de Egreso un vez que ésta ha sido aprobada.</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Almacén** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalm.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Aprobación de Solicitud de Egresos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmaprobsolegre.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Aprobación de Solicitud de Egresos** veamos la [[Descripcion_Campos_Aprobacion_Solicitud_Egreso|Descripción de los Campos]]

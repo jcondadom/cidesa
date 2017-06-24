@@ -1,0 +1,17 @@
+====== Definición de la Empresa ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite definir las características de la Institución y el Formato de Códigos de Activos, Ubicación y Desincorporación, que utilizará el Sub-Sistema.</html>
+
+Para ello:
+
+  * Seleccione la opción **Bienes Nacionales** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:bienac.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/biedef.jpg"></div><br></html>
+ 
+  * Por último seleccione **Definición de Empresa**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/biedefemp.jpg"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Definición de Empresa** veamos la [[Descripcion_Campos_bienes_definicion_empresa|Descripción de los Campos]]
+

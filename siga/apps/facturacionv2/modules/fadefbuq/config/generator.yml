@@ -1,0 +1,26 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fatipbuq
+    theme:            cidesaGenerator
+    fields:
+      codbuq: { name: Código, params : size=5 maxlength=4  onFocus=readonly(this.id) onBlur="this.value=this.value.pad(4, '0',0);"}
+      nombuq: { name: Nombre, params : size=80 maxlength=100 }
+    list:
+      title:          Definiciones de Buques
+      filters:        [codbuq, nombuq]
+      display:        [=codbuq, nombuq]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codbuq
+    edit:
+      title:          Edición  de Buques
+      display:
+        "Datos del Buque":   [codbuq, nombuq]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

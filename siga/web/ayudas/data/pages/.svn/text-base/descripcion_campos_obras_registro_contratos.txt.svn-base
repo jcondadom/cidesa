@@ -1,0 +1,40 @@
+====== Descripción de Campos ======
+
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontcontratoreginc1.jpg|}}"></div><br></html>
+
+  * En la **sección Datos del Contrato**: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Ingrese el **Numero** de Contrato.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** En **Tipo en Contrato** presione el **Botón** {{:btncuadrocatalogo.jpg|}} para que  el sistema muestre un catálogo con los tipos de contratos registrados donde debe seleccionar el Tipo de Contrato que está registrando.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** En **Obra** presione el **Botón** {{:btncuadrocatalogo.jpg|}} para que  el sistema muestre un catálogo con las obras registradas donde debe seleccionar el la obra para la cual está registrando el contrato.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** En **Contratista** presione el **Botón** {{:btncuadrocatalogo.jpg|}} para que  el sistema muestre un catálogo con las obras registradas donde debe seleccionar la obra para la cual está registrando el contrato.
+ 
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Ingresar el **Objeto** del Contrato. <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontcontratoreginc2.jpg|}}"></div><br></html>
+
+
+  * En la **Pestaña Datos Generales** se encuentra la tabla de **Ingenieros Residentes** donde debe ubicarse en la columna **Cédula** y presionar el **Botón** {{:btnconsultagrid.jpg|}} para que el sistema muestre un catálogo que le permitirá visualizar todos los Ingenieros Residentes registrados previamente en el sistema para que posteriormente seleccione aquellos que están involucrados en en el contrato. Una ves seleccionados el sistema muestra en dicha tabla el Número C.I.V de cada uno de los Ingenieros. <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontcontratoreginc3.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Partidas** el sistema muestra en una tabla el **Iva** y las **Partidas** que fueron registradas previamente en la Pantalla de Registro de Obras y por cada una de esas partidas muestra además la **Unidad de Medida**, **Cantidad Contratada**, **Cantidad Valuada**, **Costo**, **Total** y al final muestra el **Subtotal** general y el **Total Contratado** luego de habersele aplicado el IVA.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontcontratoreginc4.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Fechas** seleccione del calendario la **Fecha de Licitación**, **Contratación**, **Inicio según Prórroga**, **Reinicio**, **Terminación Original**, **Recepción Definitiva**, **Tiempo Ejecución**, **Otorgamiento Buena Prórroga**, **Inicio**, **Paralización**, **Prórroga Terminación**, **Recepción Provisional**, **Terminación Modificada**
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontcontratoreginc5.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Montos** ingrese el **Monto del Contrato**, **Monto Extra**, **Monto Multas**, **Monto Modificado**, **Monto Total del Contrato**. <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontcontratoreginc6.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Retenciones** ubiquese en la columna **Código** y presione el **Botón** {{:btnconsultagrid.jpg|}} para que el sistema muestre un catálogo de retenciones donde debe seleccionar las **Retenciones** y para cada una de ellas el sistema muestra el **Porcentaje** y **Monto** de la misma el cual fué definido con anterioridad. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Registro** ahora podrá realizar determinadas [[operaciones_basicas|Operaciones Básicas]]
+ 

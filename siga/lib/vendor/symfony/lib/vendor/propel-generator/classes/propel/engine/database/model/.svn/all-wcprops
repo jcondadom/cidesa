@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/database/model
+END
+Inheritance.php
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/database/model/Inheritance.php
+END
+ConstraintNameGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/database/model/ConstraintNameGenerator.php
+END
+IDMethod.php
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/database/model/IDMethod.php
+END
+Column.php
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/database/model/Column.php
+END
+IdMethodParameter.php
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/database/model/IdMethodParameter.php
+END
+PhpNameGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/database/model/PhpNameGenerator.php
+END
+ForeignKey.php
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/database/model/ForeignKey.php
+END
+Database.php
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/database/model/Database.php
+END
+Unique.php
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/database/model/Unique.php
+END
+Rule.php
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/database/model/Rule.php
+END
+Index.php
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/database/model/Index.php
+END
+Domain.php
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/database/model/Domain.php
+END
+NameFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/database/model/NameFactory.php
+END
+AppData.php
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/database/model/AppData.php
+END
+XMLElement.php
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/database/model/XMLElement.php
+END
+Validator.php
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/database/model/Validator.php
+END
+PropelTypes.php
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/database/model/PropelTypes.php
+END
+Table.php
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/database/model/Table.php
+END
+NameGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/database/model/NameGenerator.php
+END

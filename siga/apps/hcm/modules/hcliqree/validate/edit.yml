@@ -1,0 +1,39 @@
+methods:
+  post:
+   - "hcliqree{codliq}"
+   - "hcliqree{codemp}"
+   - "hcliqree{cedfam}"
+   - "hcliqree{fecliq}"
+   - "hcliqree{monliq}"
+
+names:
+  hcliqree{codliq}:
+    required:  Yes
+    required_msg: Introduzca el Código de la Liquidación
+
+  hcliqree{codemp}:
+    required:  Yes
+    required_msg: Introduzca el Código del Titular
+
+  hcliqree{cedfam}:
+    required:  Yes
+    required_msg: Introduzca la Cedula del Beneficiario
+
+  hcliqree{fecliq}:
+    required:  Yes
+    required_msg: Introduzca La Fecha de la Liquidación
+
+  hcliqree{monliq}:
+    required:  Yes
+    required_msg: Introduzca el Monto de la Liquidación
+    validators: MyNumberValidator
+
+MyNumberValidator:
+    class: sfNumberValidator
+    param:
+        type:         decimal
+        type_error:   Por favor, Introduzca Números Decimales
+        nan_error:    Por Favor, introduzca un Número Decimal
+        min:          000000000001,00
+        min_error:    El valor tiene que ser mayor que cero
+        max:          999999999999,99

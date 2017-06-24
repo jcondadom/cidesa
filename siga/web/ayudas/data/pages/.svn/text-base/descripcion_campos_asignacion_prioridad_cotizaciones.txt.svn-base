@@ -1,0 +1,21 @@
+Los campos que conforman la pantalla de **Asignación de Prioridad a Cotizaciones** son los siguientes:<html><br><br></html>
+
+  * Al ingresar a la pantalla Asignación de Prioridad a Cotizaciones observará en un primer lugar una [[Listas|Lista]] con las [[requisiciones_por_departamento_solicitud_de_egreso|Solicitudes de Egreso]] previamente registradas en el sistema.<html><br><br></html>
+
+  * Seleccione la **Solicitud de Egreso** a la cual desea asignar prioridad a las Cotizaciones.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompasigpricotinc1.jpg|}}"></div><br></html>
+
+  * Automáticamente el sistema muestra el Número de Solicitud, Fecha y Descripción.<html><br><br></html>
+
+  * Seguidamente en el campo **Artículos de la Solicitud** debe seleccionar el Artículo para el cual desea que se muestren las distintas cotizaciones.
+
+  * El campo **Actualizar Solicitud** debe ser tildado cuando se desea actualizar el Monto del artículo que se encuentra en la Solicitud de Egreso por el Monto que se tiene al momento de Asignar Prioridad a las Cotizaciones ya que ese es el monto actual del artículo y por el cual se realizaría la compra.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompasigpricotinc2.jpg|}}"></div><br></html>
+
+  * Al seleccionar el artículo correspondiente se despliega un [[Grid|Grid]] donde se muestran los **Proveedores** que están cotizando el artículo y el **Costo** en las columnas correspondientes.<html><br><br></html>
+
+  * Por último se debe asignar la **Prioridad** y **Justificación** a cada una de las cotizaciones en las columnas correspondientes.<html><br><br></html>
+ 
+  * Una vez que conoce cada uno de los campos de la pantalla de **Asignación de Prioridad a Cotizaciones** podrá realizar las siguientes [[operaciones_basicas|Operaciones_Basicas]]

@@ -1,0 +1,18 @@
+Parametros:
+  modulo: vendedores
+  nomrep: pedidospendientes
+  titulo: PEDIDOS PENDIENTES
+  orientacion: Horizontal
+  tipopagina: Carta
+  width:210
+
+Filas:
+  CAJA FECHA:
+    tipotag:   inputfec_tag
+    label: Fecha Pedido
+    sql: select to_char(min(fecped),'dd/mm/yyyy') as fecdes,to_char(max(fecped),'dd/mm/yyyy') as fechas from fapedido
+    nomdes: fecdes
+    campodes: fecdes
+    nomhas: fechas
+    campohas: fechas
+    size: 15

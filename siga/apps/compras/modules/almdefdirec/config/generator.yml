@@ -1,0 +1,41 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cadefdirec
+    theme:            cidesaGenerator
+    fields:
+      coddirec: { name: Código, params: size=10 maxlength=4 onFocus=readonly(this.id) onBlur="this.value=this.value.pad(4, '0',0);"}
+      desdirec: { name: Descripción, params: size=80 maxlength=500  }
+      codcat:
+        name: Categoria Presupuestaria
+        params: size=3 maxlength=32
+        catalogo:
+          catalogoweb: Npcatpre_Cadefdivi
+          clase: npcatpre
+          ajax: 1
+          parametros: getprincipal="getCodcat" getsecundario="getNomcat" campoprincipal="codcat" camposecundario="nomcat" campobase = "id"
+      escentral: { name: ¿Es Central?}
+      corpta: { name: Correlativo}
+      prepta: { name: Prefijo, params: size=10 maxlength=8 }
+    list:
+      title:          Direcciones
+      fields:
+        coddirec: { name: Código, params: size=10 maxlength=3 }
+        desdirec: { name: Descripción, params: size=20 maxlength=500  }
+      filters:        [coddirec, desdirec, codcat]
+      display:        [=coddirec, desdirec]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:  8
+      sort: coddirec
+    edit:
+      title:          Edición de Dirección
+      display:        
+        "NONE":   [coddirec, desdirec, codcat, escentral]
+        "Datos del Punto de Cuenta":  [corpta, prepta]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

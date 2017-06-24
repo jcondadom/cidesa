@@ -1,0 +1,160 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Manregequ
+    theme:            cidesaGenerator
+    fields:
+      numequ: { name:  Número, params : size=10 maxlength=10 onFocus=readonly(this.id)}
+      nomequ: { name:  Nombre, params : size=80 maxlength=500}
+      serequ: { name:  Serial, params : size=50 maxlength=50}
+      codteq:
+        name: Tipo de Equipo
+        catalogo:
+          catalogoweb: Mantenimiento_Mantipequ
+          clase: Mantipequ
+          ajax: 0
+          parametros: getprincipal="getCodteq" getsecundario="getDesteq" campoprincipal="codteq" camposecundario="desteq" campobase = "id"
+      codide:
+        name: Modelo de Equipo
+        catalogo:
+          catalogoweb: Mantenimiento_Manidegru
+          clase: Manidegru
+          ajax: 0
+          parametros: getprincipal="getCodide" getsecundario="getDeside" campoprincipal="codide" camposecundario="deside" campobase = "id"
+      codcla:
+        name: Clasificación
+        catalogo:
+          catalogoweb: Mantenimiento_Manclaequ
+          clase: Manclaequ
+          ajax: 0
+          parametros: getprincipal="getCodcla" getsecundario="getDescla" campoprincipal="codcla" camposecundario="descla" campobase = "id"          
+      codtal:
+        name: Tipo de Alimentación
+        catalogo:
+          catalogoweb: Mantenimiento_Mantipali
+          clase: Mantipali
+          ajax: 0
+          parametros: getprincipal="getCodtal" getsecundario="getDestal" campoprincipal="codtal" camposecundario="destal" campobase = "id"
+      codtta:
+        name: Tipo de Trasmisión
+        catalogo:
+          catalogoweb: Mantenimiento_Mantiptra
+          clase: Mantiptra
+          ajax: 0
+          parametros: getprincipal="getCodtta" getsecundario="getDestta" campoprincipal="codtta" camposecundario="destta" campobase = "id"
+      codfab:
+        name: Fabricante
+        catalogo:
+          catalogoweb: Mantenimiento_Mandeffab
+          clase: Mandeffab
+          ajax: 0
+          parametros: getprincipal="getCodfab" getsecundario="getDesfab" campoprincipal="codfab" camposecundario="desfab" campobase = "id"
+      fecfab: { name: Fecha de Fabricación, params: date_format='dd/MM/yyyy' maxlength=10}
+      coddis:
+        name: Tipo de Incorporación
+        catalogo:
+          catalogoweb: Bndisbie_Bieregactinmd
+          clase: Bndisbie
+          ajax: 0
+          parametros: getprincipal="getCoddis" getsecundario="getDesdis" campoprincipal="coddis" camposecundario="desdis" campobase = "id"
+      codmon: { name: Moneda de Compra}
+      cosequ: { name: Costo}
+      codtga:
+        name: Tipo de Garantía
+        catalogo:
+          catalogoweb: Mantenimiento_Mantipgar
+          clase: Mantipgar
+          ajax: 0
+          parametros: getprincipal="getCodtga" getsecundario="getDestga" campoprincipal="codtga" camposecundario="destga" campobase = "id"
+      valgar: { name: Valor de la Garantía}
+      fecgar: { name: Fecha de Garantía, params: date_format='dd/MM/yyyy' maxlength=10}          
+      codume:
+        name: Unidad de Medida
+        catalogo:
+          catalogoweb: Mantenimiento_Manunimed
+          clase: Manunimed
+          ajax: 0
+          parametros: getprincipal="getCodume" getsecundario="getDesume" campoprincipal="codume" camposecundario="desume" campobase = "id"
+      lubric: { name: Lubricante}
+      combus: { name: Combustible}
+      codest:
+        name: Estatus
+        catalogo:
+          catalogoweb: Mantenimiento_Manestequ
+          clase: Manestequ
+          ajax: 0
+          parametros: getprincipal="getCodest" getsecundario="getDesest" campoprincipal="codest" camposecundario="desest" campobase = "id"
+      codubi:
+        name: Ubicación Física
+        catalogo:
+          catalogoweb: Bnubibie_Bieregactinmd
+          clase: Bnubibie
+          ajax: 0
+          parametros: getprincipal="getCodubi" getsecundario="getDesubi" campoprincipal="codubi" camposecundario="desubi" campobase = "id"
+      codniv:
+        name: Ubic. Administrativa
+        catalogo:
+          catalogoweb: Npestorg_Nomhojint
+          clase: Npestorg
+          ajax: 0
+          parametros: getprincipal="getCodniv" getsecundario="getDesniv" campoprincipal="codniv" camposecundario="desniv" campobase = "id"
+          catalogoparams: /param1/'."'+$('manregequ_longitud').value+'".'
+      coduni:
+        name: Unidad Productiva
+        catalogo:
+          catalogoweb: Mantenimiento_Manunipro
+          clase: Manunipro
+          ajax: 0
+          parametros: getprincipal="getCoduni" getsecundario="getDesuni" campoprincipal="coduni" camposecundario="desuni" campobase = "id"
+      codcencos:
+        name: Centro de Costo
+        catalogo:
+          catalogoweb: Codefcencos_Conasigcencos
+          clase: Codefcencos
+          ajax: 0
+          parametros: getprincipal="getCodcencos" getsecundario="getDescencos" campoprincipal="codcencos" camposecundario="descencos" campobase = "id"          
+      carcos: { name: Carga Costo}
+      codcar:
+        name: Custodio
+        catalogo:
+          catalogoweb: Viadettabcar_Npcargos
+          clase: Npcargos
+          ajax: 0
+          parametros: getprincipal="getCodcar" getsecundario="getNomcar" campoprincipal="codcar" camposecundario="nomcar" campobase = "id"
+      peso: { name: Peso}
+      longit: { name: Longitud}
+      altura: { name: Altura}
+      ancho: { name: Ancho}
+      balde: { name: Balde}
+      tolba: { name: Tolba}
+      llenad: { name: Llenado}
+      grid: { name: .}
+      grid2: { name: .}
+    list:
+      title:          Registros de Equipos
+      display:        [=numequ, nomequ]
+      fields:
+        numequ: { name:  Número, params : size=10 maxlength=10 }
+        nomequ: { name:  Nombre, params : size=10 maxlength=500}
+      filters:        [numequ, nomequ]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           numequ
+    edit:
+      title:          Edición del Equipo
+      display:
+        "NONE": [numequ, nomequ]
+        "Ficha Técnica": [serequ, codteq, codide, codcla, codtal, codtta, codfab, fecfab, coddis, _codmon, cosequ, codtga, valgar, fecgar, codume, _lubric, _combus, codest]
+        "Ubicación/Responsable": [codubi, codniv, coduni, codcencos, _carcos, codcar]
+        "Dimensiones": [peso, longit, altura, ancho]
+        "Capacidad": [balde, tolba, llenad]
+        "Nombres Alternos": [_grid]
+        "Componentes": [_grid2]
+      hide:  [valmon, loguse, longitud]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

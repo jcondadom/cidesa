@@ -1,0 +1,15 @@
+====== Operación Eliminar ======
+
+Para eliminar un determinado Concepto Variable debe:  <html><br><br></html>
+
+  * Seleccionar de la **Lista** el **Concepto Variable** a eliminar.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefconvarmod.jpg|}}"></div><br></html>
+
+  * Presionar  {{:btnborrar.jpg|}}  <html><br><br></html>
+
+  * El sistema emite un **Mensaje de Confirmación** antes de eliminar.  
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br></html>
+ 
+  * Presionar **Aceptar**.   <html><br><br></html>
+ 
+  * El sistema nos lleva automáticamente a la **lista** con los **Conceptos Variables** donde podemos observar que el registro se eliminó con éxito.

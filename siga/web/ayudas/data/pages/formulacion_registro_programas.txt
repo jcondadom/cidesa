@@ -1,0 +1,19 @@
+====== Registro de Programas ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite definir los distintos programas manejados por la institución en beneficio de la comunidad ó de la misma Institución.
+
+**Para ello:**
+
+  * Seleccione la opción **Formulación Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpre.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Egresos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegr.jpg}}"></div><br></html>
+ 
+  * Por último seleccione **Definiciones Específicas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefesp.jpg}}"></div><br></html>
+
+  * Por último seleccione **Registro de Programas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefespregprog.jpg}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Registro de Programas** veamos la [[Descripcion_Campos_formulacion_registro_programas|Descripción de los Campos]]

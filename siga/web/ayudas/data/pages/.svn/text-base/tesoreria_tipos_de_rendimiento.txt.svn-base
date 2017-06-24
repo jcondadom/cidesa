@@ -1,0 +1,16 @@
+======Tipos de Rendimientos======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite registrar la información referente a los Tipos de Rendimientos que se van a generar en una cuenta bancaria.  </html>
+
+**Para ello:**
+
+  * Seleccione la opción **Tesorería ó Banco** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesban.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbandefesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Tipos de Rendimiento**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbantiprend.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Tipos de Rendimiento** veamos la [[Descripcion_Campos_tipos_rendimientos|Descripción de los Campos]]

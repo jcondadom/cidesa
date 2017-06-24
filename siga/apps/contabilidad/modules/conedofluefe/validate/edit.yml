@@ -1,0 +1,54 @@
+methods:
+  post:
+   - "contatit{codtit}"
+   - "contatit{destit}"
+   - "contatit{ordtit}"
+
+names:
+  contatit{codtit}:
+    required:  Yes
+    required_msg: El Código del Título no puede estar en Blanco
+    validators: UniqueValidator
+
+  contatit{destit}:
+    required:  Yes
+    required_msg: La Descripción del Título no puede estar en Blanco
+    validators: DescripcionValidator
+
+  contatit{ordtit}:
+    required:  Yes
+    required_msg: La Orden del Título no puede estar en Blanco
+    validators: MyNumberValidator, OrdenValidator
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Contatit
+        column:   codtit
+        unique_error:   El Código del Título ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción del Título no puede tener menos de 3 caracteres
+        max:       500
+        max_error: La Descripción del Título no puede tener más de 500 caracteres 
+
+MyNumberValidator:
+    class: sfNumberValidator
+    param:
+        type:         integer
+        type_error:   Por favor, Introduzca Números Enteros
+        nan_error:    Por Favor, introduzca un Número Entero
+        min:          0
+        min_error:    El valor tiene que ser mayor que cero
+        max:          99
+        max_error:    El valor debe contener maximo 99
+
+OrdenValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Contatit
+        column:   ordtit
+        unique_error:   El Número de Orden del Título ya existe. Por Favor, Cambiélo por otro.

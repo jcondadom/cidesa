@@ -1,0 +1,27 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Bncatcomseg
+    theme:            cidesaGenerator
+    fields:
+      codcom: { name: Código, params: size=15 maxlength=2 onFocus=readonly(this.id)}
+      nomcom: { name: Nombre, params: maxlength=150 size=80}
+      nompro: { name: Nombre del Promotor, params: maxlength=150 size=80}
+    list:
+      title:          Compañias de Seguro
+      filters:        [codcom]
+      display:        [=codcom, nomcom, nompro]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           codcom
+    edit:
+      title:          Edición de Compañias de Seguro
+      display:
+        "Datos de la Compañia": [codcom, nomcom, nompro]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

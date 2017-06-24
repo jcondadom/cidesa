@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "cidefpar{codpar}"
+   - "cidefpar{despar}"
+
+names:
+  cidefpar{codpar}:
+    required:  Yes
+    required_msg: El código no puede estar en Blanco
+    validators: Validator_codpar
+
+  cidefpar{despar}:
+    required:  Yes
+    required_msg: La descripción no puede estar en Blanco
+    validators: Validator_despar
+
+Validator_codpar:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Cidefpar
+        column:       codpar
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_despar:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La descripción no puede tener mas de 250 caracteres

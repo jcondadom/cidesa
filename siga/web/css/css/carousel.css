@@ -1,0 +1,87 @@
+/* 
+    Document   : carousel
+    Created on : 27/11/2012, 03:57:44 PM
+    Author     : pasantejb
+    Description:
+        Purpose of the stylesheet follows.
+*/
+    
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    padding-top: 20px;
+    background-color: #EEEEEE;
+}
+
+/* Carrusel base class */
+.carousel {
+    /*margin-bottom: 10px;*/
+    
+}
+
+.carousel .container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.carousel-control {
+    background-color: transparent;
+    border: 0;
+    font-size: 120px;
+    margin-top: 0;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+
+.carousel .item {
+    height: 300px;
+}
+.carousel img {
+    min-width: 100%;
+    height: 300px;
+    -moz-border-radius: 10px;  
+    -webkit-border-radius: 10px;
+          border-radius: 10px;
+}
+
+.carousel-caption {
+    background-color: transparent;
+    position: static;
+    max-width: 550px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+.carousel-caption h1,
+.carousel-caption .lead {
+    margin: 0;
+    line-height: 1.25;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+.carousel-caption .btn {
+    margin-top: 10px;
+}
+
+
+    /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing .span3 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span3 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }

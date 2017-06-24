@@ -1,0 +1,50 @@
+opciones:                  # Opciones generales
+  name:                    e
+  eliminar:                false
+  tabla:                   opordpag
+  anchogrid:               1000
+  ancho:                   820
+  filas:                   0
+  titulo:                  ' Ordenes de Pago '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Referencia
+  tipo:                    t
+  nombrecampo:             numord
+  html:                    ["size=10 readonly=true" ]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Fecha
+  tipo:                    f
+  nombrecampo:             fecemi
+  html:                    ["size=10 readonly=true"]
+  esgrabable:              true  
+3:       # Columna 3
+  titulo:                  Tipo
+  tipo:                    t
+  nombrecampo:             tipcau
+  html:                    ["size=10 readonly=true"]
+  esgrabable:              true  
+4:       # Columna 4
+  titulo:                  Beneficiario
+  tipo:                    t
+  nombrecampo:             cedrif
+  html:                    ["size=15 readonly=true"]  
+5:       # Columna 5
+  titulo:                  Beneficiario
+  tipo:                    t
+  nombrecampo:             nomben
+  html:                    ["size=25 readonly=true"]
+  esgrabable:              true    
+6:       # Columna 6
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             desord
+  html:                    ["size=40x2 readonly=true" ]
+  esgrabable:              true
+7:       # Columna 7
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monord
+  html:                    ["size=10 readonly=true" ]
+  esgrabable:              true

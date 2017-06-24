@@ -1,0 +1,23 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   npdetsolayueco
+  anchogrid:               550
+  ancho:                   500
+  filas:                   1
+  titulo:                  'Ayuda otorgada a: '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código y/o Cédula
+  tipo:                    t
+  nombrecampo:             codempayu
+  html:                    ["size=10" ]
+  esgrabable:              true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: npsolayueco_esnoemp_S}
+2:       # Columna 2
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nomemp
+  html:                    ["size=40 readonly=true"]
+  esgrabable:              true

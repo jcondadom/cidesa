@@ -1,0 +1,45 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   fapresup
+  anchogrid:               1000
+  ancho:                   1000
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Aprobar
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:              true  
+  html:                    [ size=4 ]
+2:       # Columna 2
+  titulo:                  Nro. Cotización
+  tipo:                    t
+  nombrecampo:             refpre
+  esgrabable:              true
+  html:                    [ readonly=true size=15]
+3:       # Columna 3
+  titulo:                  Fecha Cotización
+  tipo:                    t
+  nombrecampo:             fecpre
+  esgrabable:              true
+  html:                    [ readonly=true size=10]
+4:       # Columna 4
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             despre
+  esgrabable:              true
+  html:                    [ readonly=true size=40x2]
+5:       # Columna 5
+  titulo:                  Cliente
+  tipo:                    t
+  nombrecampo:             nompro
+  esgrabable:              true
+  html:                    [ readonly=true size=40]
+6:       # Columna 6
+  titulo:                  Monto
+  tipo:                    t
+  nombrecampo:             monpre
+  esgrabable:              true
+  html:                    [ readonly=true size=20]

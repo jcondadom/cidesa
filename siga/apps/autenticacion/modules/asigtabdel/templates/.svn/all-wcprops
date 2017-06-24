@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/35762/web/php/siga/branches/productions/trunk/apps/autenticacion/modules/asigtabdel/templates
+END
+_info.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/35522/web/php/siga/branches/productions/trunk/apps/autenticacion/modules/asigtabdel/templates/_info.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/35762/web/php/siga/branches/productions/trunk/apps/autenticacion/modules/asigtabdel/templates/ajaxSuccess.php
+END
+_modulo.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/35522/web/php/siga/branches/productions/trunk/apps/autenticacion/modules/asigtabdel/templates/_modulo.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/35762/web/php/siga/branches/productions/trunk/apps/autenticacion/modules/asigtabdel/templates/editSuccess.php
+END
+_nomtab.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/35762/web/php/siga/branches/productions/trunk/apps/autenticacion/modules/asigtabdel/templates/_nomtab.php
+END

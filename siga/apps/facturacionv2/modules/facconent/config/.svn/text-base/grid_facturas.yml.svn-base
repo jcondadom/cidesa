@@ -1,0 +1,35 @@
+opciones:                  # Opciones generales
+  eliminar:                false
+  tabla:                   Fafactur
+  anchogrid:               1050
+  ancho:                   1050
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Entregar
+  tipo:                    k
+  nombrecampo:             checkent
+  esgrabable:			   true
+  html:                    []
+2:       # Columna 2
+  titulo:                  N° de Factura
+  tipo:                    t
+  nombrecampo:             reffac
+  html:                    [size="10" readonly=true]
+3:       # Columna 3
+  titulo:                  Fecha de Emisión
+  tipo:                    f
+  nombrecampo:             fecfac
+  html:                    [ ]
+4:       # Columna 4
+  titulo:                  Cliente
+  tipo:                    t
+  nombrecampo:             nompro
+  html:                    [size="80" readonly=true]  
+5:       # Columna 5
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monfac
+  esnumerico:              true
+  html:                    [size="10" readonly="true"]

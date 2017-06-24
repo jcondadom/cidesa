@@ -1,0 +1,27 @@
+Parametros:
+  modulo: tesoreria
+  nomrep: tsrvoucher
+  titulo: VOUCHER
+  orientacion: Vertical
+  tipopagina: Carta
+  width:210
+
+Filas:
+  CATALOGO NUMCHEQ:
+    tipotag:   inputcat_tag
+    label: Número Cheque:
+    sql:   SELECT min(numche) as codmin FROM tscheemi
+    nomdes: codmin
+    campodes: codmin
+    catdes: 0
+    nomcat: numche_tscheemi
+    size: 15
+  CATALOGO CUENTA:
+    tipotag:   inputcat_tag
+    label: Nro. Cuenta:
+    sql:  SELECT min(a.numcue) as numcuemin FROM TSDEFBAN a,TSCHEEMI b where a.numcue=b.numcue
+    nomdes: numcuemin
+    campodes: numcuemin
+    catdes: 2
+    nomcat: tscheemi_numcue
+    size: 22

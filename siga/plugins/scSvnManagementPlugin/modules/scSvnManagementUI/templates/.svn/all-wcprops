@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/38421/web/php/siga/branches/productions/trunk/plugins/scSvnManagementPlugin/modules/scSvnManagementUI/templates
+END
+_filesTableShowTableHeader.php
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repositorio/!svn/ver/38421/web/php/siga/branches/productions/trunk/plugins/scSvnManagementPlugin/modules/scSvnManagementUI/templates/_filesTableShowTableHeader.php
+END
+_RevisionTableRow.php
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repositorio/!svn/ver/38421/web/php/siga/branches/productions/trunk/plugins/scSvnManagementPlugin/modules/scSvnManagementUI/templates/_RevisionTableRow.php
+END
+revertSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repositorio/!svn/ver/38421/web/php/siga/branches/productions/trunk/plugins/scSvnManagementPlugin/modules/scSvnManagementUI/templates/revertSuccess.php
+END
+logInput.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repositorio/!svn/ver/38421/web/php/siga/branches/productions/trunk/plugins/scSvnManagementPlugin/modules/scSvnManagementUI/templates/logInput.php
+END
+svnUpdateSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repositorio/!svn/ver/38421/web/php/siga/branches/productions/trunk/plugins/scSvnManagementPlugin/modules/scSvnManagementUI/templates/svnUpdateSuccess.php
+END
+_menu.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositorio/!svn/ver/38421/web/php/siga/branches/productions/trunk/plugins/scSvnManagementPlugin/modules/scSvnManagementUI/templates/_menu.php
+END
+infoError.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repositorio/!svn/ver/38421/web/php/siga/branches/productions/trunk/plugins/scSvnManagementPlugin/modules/scSvnManagementUI/templates/infoError.php
+END
+updateListSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repositorio/!svn/ver/38421/web/php/siga/branches/productions/trunk/plugins/scSvnManagementPlugin/modules/scSvnManagementUI/templates/updateListSuccess.php
+END
+_filesTable.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repositorio/!svn/ver/38421/web/php/siga/branches/productions/trunk/plugins/scSvnManagementPlugin/modules/scSvnManagementUI/templates/_filesTable.php
+END
+logSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repositorio/!svn/ver/38421/web/php/siga/branches/productions/trunk/plugins/scSvnManagementPlugin/modules/scSvnManagementUI/templates/logSuccess.php
+END
+updateSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repositorio/!svn/ver/38421/web/php/siga/branches/productions/trunk/plugins/scSvnManagementPlugin/modules/scSvnManagementUI/templates/updateSuccess.php
+END
+statusSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repositorio/!svn/ver/38421/web/php/siga/branches/productions/trunk/plugins/scSvnManagementPlugin/modules/scSvnManagementUI/templates/statusSuccess.php
+END
+updatePreviewSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/repositorio/!svn/ver/38421/web/php/siga/branches/productions/trunk/plugins/scSvnManagementPlugin/modules/scSvnManagementUI/templates/updatePreviewSuccess.php
+END
+infoSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repositorio/!svn/ver/38421/web/php/siga/branches/productions/trunk/plugins/scSvnManagementPlugin/modules/scSvnManagementUI/templates/infoSuccess.php
+END
+_filesTableShowFilesRow.php
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repositorio/!svn/ver/38421/web/php/siga/branches/productions/trunk/plugins/scSvnManagementPlugin/modules/scSvnManagementUI/templates/_filesTableShowFilesRow.php
+END
+revertInput.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repositorio/!svn/ver/38421/web/php/siga/branches/productions/trunk/plugins/scSvnManagementPlugin/modules/scSvnManagementUI/templates/revertInput.php
+END
+_filesTableShowDirectoryRow.php
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/repositorio/!svn/ver/38421/web/php/siga/branches/productions/trunk/plugins/scSvnManagementPlugin/modules/scSvnManagementUI/templates/_filesTableShowDirectoryRow.php
+END

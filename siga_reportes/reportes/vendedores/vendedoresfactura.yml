@@ -1,0 +1,18 @@
+Parametros:
+  modulo: vendedores
+  nomrep: vendedoresfactura
+  titulo: VENDEDORES CON MAYOR Y MENOR FACTURACIÓN
+  orientacion: Horizontal
+  tipopagina: Carta
+  width:210
+
+Filas:
+  FECHA:
+    tipotag:   inputfec_tag
+    label: Fecha Factura
+    sql: select to_char(min(fecfac),'dd/mm/yyyy') as fecdes,to_char(max(fecfac),'dd/mm/yyyy') as fechas from fafactur
+    nomdes: fecdes
+    campodes: fecdes
+    nomhas: fechas
+    campohas: fechas
+    size: 15

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/46517/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facinmreg/config
+END
+grid.yml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/44651/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facinmreg/config/grid.yml
+END
+generator.yml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/46517/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facinmreg/config/generator.yml
+END
+grid_complemento.yml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facinmreg/config/grid_complemento.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facinmreg/config/view.yml
+END

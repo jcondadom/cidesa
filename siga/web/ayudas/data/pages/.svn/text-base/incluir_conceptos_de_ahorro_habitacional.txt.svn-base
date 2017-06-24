@@ -1,0 +1,36 @@
+====== Operación Incluir ======
+
+Para la operación de Registrar debe:   <html><br><br></html>
+
+  * Presione el Botón {{:btnnuevo.jpg|}}  <html><br><br></html>
+
+  * Seleccionamos del catálogo el **Tipo de Nómina** a la cual se le asociará el Concepto de Ahorro Habitacional. <html><br><br></html>
+
+  * Seleccionar si el Tipo de Nómina refiere a un: **Empleado, Contratado u Obrero**.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconahohabinc.jpg|}}"></div><br></html>
+
+  * En la sección “Conceptos Deducción y Aporte” seleccionamos del catálogo el Concepto que se le asociará a Tipo de Nómina por Deducción y Aporte.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconahohabinc1.jpg|}}"></div><br></html>
+
+  * En la sección **“Conceptos Ajustes Deducción y Aporte”** seleccionamos del catálogo los ajustes a asociar por **concepto de Deducción y Aporte.** 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconahohabinc2.jpg|}}"></div><br></html>
+
+  * En el grid **Conceptos para el Cálculo** se cargarán todos los Conceptos asociados a el **Tipo de Nómina** seleccionado. <html><br><br></html>
+
+  * Marque los conceptos que desea sean asignados para el Ahorro Habitacional, cabe destacar que aquellos conceptos que ya fueron asignados para Deduccción y Aporte ó para Ajuste Deducción y Aporte no podrán ser seleccionados en el grid, incluso el sistema emitirá el mensaje correspondiente a cada caso. Por ejemplo:
+
+ <html><br><br></html>
+
+Si el **Concepto** ya fué seleccionado para** Deducción ó Aporte** el sistema emite el siguiente **Mensaje de Atención** según sea el caso:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:mnsjconahohab1.jpg|}}"></div><br></html>
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:mnsjconahohab2.jpg|}}"></div><br></html>
+
+ <html><br><br></html>
+
+Si el **Concepto** ya fué selecccionado para **Ajustes Deducción y Aporte** el sistema emite el siguiente **Mensaje de Atención** según sea el caso:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:mnsjconahohab3.jpg|}}"></div><br></html>
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:mnsjconahohab4.jpg|}}"></div><br><br></html>
+
+  * Presione el Botón  {{:btnguardar.jpg|}} para almacenar el registro

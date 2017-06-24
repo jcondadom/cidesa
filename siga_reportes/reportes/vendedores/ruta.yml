@@ -1,0 +1,35 @@
+Parametros:
+  modulo: vendedores
+  nomrep: ruta
+  titulo: DEFINICION DE RUTAS
+  orientacion: Vertical
+  tipopagina: Carta
+  width:210
+
+Filas:
+  CATALOGO RUTA:
+    tipotag:  inputcat_tag
+    label: Codigo de la Ruta:
+    sql: select min(id) as coddes,max(id) as codhas from ruta
+    nomdes: coddes
+    campodes: coddes
+    catdes: 0
+    nomhas: codhas
+    campohas: codhas
+    cathas: 1
+    nomcat: ruta
+    size: 15
+
+  combo primero diadespacho:
+    tipotag:   combof_tag
+    label:Día de Despacho
+    nomdes: diadespacho
+    campodes: [0=>TODOS, 1=>LUNES, 2=>MARTES, 2=>MIÉRCOLES, 4=>JUEVES, 5=>VIERNES]    
+    #parametros: width=100
+
+  combo primero status:
+    tipotag:   combof_tag
+    label:Estatus Ruta
+    nomdes: status
+    campodes: [0=>AMBAS, 1=>ACTIVAS, 2=>INACTIVAS]    
+    #parametros: width=100

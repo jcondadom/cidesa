@@ -1,0 +1,84 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   hccieree
+  anchogrid:               780
+  ancho:                   800
+  filas:                   0
+  titulo:                  ' Reembolsos Registrados '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Cerrar
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:              true
+  html:                    ["size=3"]
+2:       # Columna 2
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             codemp
+  esgrabable:			         true
+  html:                    ["size=10 readOnly=true"]
+3:       # Columna 3
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nomemp
+  esgrabable:			         true
+  html:                    ["size=20 readOnly=true"]
+4:       # Columna 4
+  titulo:                  Cedula
+  tipo:                    t
+  nombrecampo:             cedemp
+  esgrabable:			         true
+  html:                    ["size=10 readOnly=true"]
+5:       # Columna 5
+  titulo:                  Nomina
+  tipo:                    t
+  nombrecampo:             nomnom
+  esgrabable:			         true
+  html:                    ["size=13 readOnly=true"]
+6:       # Columna 6
+  titulo:                  Cargo
+  tipo:                    t
+  nombrecampo:             nomcar
+  esgrabable:			         true
+  html:                    ["size=13 readOnly=true"]
+7:       # Columna 7
+  titulo:                  Tipo del Trabajador
+  tipo:                    t
+  nombrecampo:             codttrab
+  esgrabable:			         true
+  html:                    ["size=13 readOnly=true"]
+8:      # Columna 8
+  titulo:                  Total
+  tipo:                    m
+  nombrecampo:             moncie
+  esgrabable:			         true
+  html:                    ["size=10 readOnly=true"]
+9:       # Columna 9
+  titulo:                  Cargo
+  tipo:                    t
+  nombrecampo:             codcar
+  esgrabable:              true
+  html:                    ["size=10 readOnly=true"]
+  oculta:                  true
+10:       # Columna 10
+  titulo:                  Tipo de Reembolsos
+  tipo:                    t
+  nombrecampo:             destipliq
+  esgrabable:              true
+  html:                    ["size=10 readOnly=true"]
+11:       # Columna 11
+  titulo:                  Tipo de Reembolsos
+  tipo:                    t
+  nombrecampo:             tipliq
+  esgrabable:              true
+  html:                    ["size=10 readOnly=true"]
+  oculta:                  true  
+12:      # Columna 12
+  titulo:                  Fecha Liquidacion
+  tipo:                    t
+  nombrecampo:             fecliq
+  esgrabable:              true
+  oculta:                  true  
+  html:                    ["size=13 readOnly=true"]  

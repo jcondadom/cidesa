@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "fadefcla{codcla}"
+   - "fadefcla{descla}"
+
+names:
+  fadefcla{codcla}:
+    required:  Yes
+    required_msg: El Código de la Condición no puedo estar en Blanco
+    validators: UniqueValidator
+
+  fadefcla{descla}:
+    required:  Yes
+    required_msg: La Descripción de la Condición no puedo estar en Blanco
+    validators: DescripcionValidator
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Fadefcla
+        column:   codcla
+        unique_error:   El Código de la Condición ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción de la Condición no puede tener menos de 5 caracteres
+        max:       2000
+        max_error: La Descripción de la Condición no puede tener más de 2000 caracteres

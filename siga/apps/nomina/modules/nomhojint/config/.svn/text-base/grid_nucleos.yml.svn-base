@@ -1,0 +1,21 @@
+opciones:                  # Opciones generales
+  name:                    m
+  eliminar:                true
+  tabla:                   Npasonucemp
+  ancho:				           800
+  anchogrid:               900
+  filas:                   1
+  titulo:                  ' Núcleos'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Ubicación
+  tipo:                    t
+  nombrecampo:             codniv
+  html:                    ["size=30"]
+  esgrabable:              true
+  ajaxgrid:                true
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desniv
+  html:                    ["size=50 readonly=true"]

@@ -1,0 +1,16 @@
+methods:
+  post:
+   - "contabbhis{codcta}"
+
+names:
+  contabbhis{codcta}:
+    required:  Yes
+    required_msg: El Código de la Cuenta no puede estar en Blanco
+    validators: Validator_codcta
+
+Validator_codcta:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Contabbhis
+        column:       codcta
+        unique_error: La Cuenta ya ha sido Registrada, intente con otra.

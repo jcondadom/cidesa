@@ -1,0 +1,39 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcdefrecint
+    theme:            cidesaGenerator
+
+    fields:
+      codrec:  { name: Código, params: size=10 maxlength=4 onFocus=readonly(this.id) onBlur="this.value=this.value.pad(4, '0',0);"}
+      nomrec:  { name: Descripcion, params: size=80 maxlength=250 }
+      tipo:  { name: Tipo, params: size=1 maxlength=1 }
+      modo:  { name: Modo, params: size=1 maxlength=1 }
+      periodo:  { name: Periodo Actual, params: size=1 maxlength=1 }
+      promedio:	{ name: Promedio, params: size=1 maxlength=1 }
+      grid:  { name: . }
+      gridb:  { name: . }
+    list:
+      title:     Definición Tipo de Recargos
+      display:   [=codrec, nomrec]
+      filters:   [codrec, nomrec]
+      fields:
+        nomrec:
+          params: size=18
+      max_per_page: 10
+      sort:  codrec
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+    edit:
+      title: Edición Tipo de Recargos
+      display:
+        "Datos Generales": [ codrec, nomrec]
+        "Tipos": [_tipo]
+        "Modos de Calculo": [ _modo, _periodo, _promedio, _grid]
+        "Asociación Fuentes": [ _gridb ]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

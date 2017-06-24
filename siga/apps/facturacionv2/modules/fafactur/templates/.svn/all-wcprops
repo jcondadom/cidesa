@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/49552/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates
+END
+_grid_faforpag.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/_grid_faforpag.php
+END
+_grid_fafaclib.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/_grid_fafaclib.php
+END
+_codconpag.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/_codconpag.php
+END
+_rifpro.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48995/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/_rifpro.php
+END
+_grid_fadescart.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/_grid_fadescart.php
+END
+_codcon.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/_codcon.php
+END
+_codubi.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/_codubi.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/48788/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/_edit_actions.php
+END
+_tipmon.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48715/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/_tipmon.php
+END
+ajaxcomprobanteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/ajaxcomprobanteSuccess.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/49552/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/_edit_form.php
+END
+_filters.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/_filters.php
+END
+_grid_fargoart.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/_grid_fargoart.php
+END
+anularSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/anularSuccess.php
+END
+_grid_faartfac.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/_grid_faartfac.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/48885/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/ajaxSuccess.php
+END
+_codprg.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48601/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/_codprg.php
+END
+_grid_fapeddes.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/_grid_fapeddes.php
+END
+_buque.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/_buque.php
+END
+_codtip.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/_codtip.php
+END
+_tipoven.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/_tipoven.php
+END
+_puedes.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/_puedes.php
+END
+_puedph.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/_puedph.php
+END
+salvaranuSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/salvaranuSuccess.php
+END
+_tipref.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fafactur/templates/_tipref.php
+END

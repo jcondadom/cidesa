@@ -1,0 +1,13 @@
+====== Operación Modificar ======
+
+Para la operación de **Modificar** debe:  <html><br><br></html>
+
+  * Seleccionar de la **Lista** el **Código de la Nómina** para la cual desea modificar su Jornada Laboral.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefjorlabmod1.jpg|}}"></div><br></html>
+
+  * Podrá realizar modificaciones en los dias que conformarán la Jornada Laboral de la Nómina seleccionada.<html><br><br></html> 
+
+  * Presionar {{:btnguardar.jpg|}} para actualizar la información.  <html><br><br></html> 
+
+  * El sistema emite un **Mensaje de Éxito**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

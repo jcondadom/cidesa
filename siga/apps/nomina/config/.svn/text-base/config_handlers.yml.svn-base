@@ -1,0 +1,6 @@
+modules/*/config/security.yml:
+  class:    cidesaSecurityConfigHandler
+modules/generales/config/security.yml:
+  class:    sfSecurityConfigHandler
+modules/nomnomcalnomind/config/security.yml:
+  class:    sfSecurityConfigHandler

@@ -1,0 +1,24 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   rhgruadiemp
+  anchogrid:               750
+  ancho:                   750
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Empleado
+  tipo:                    t
+  nombrecampo:             codemp
+  html:                    ["size=15 maxlength=16"]
+  esgrabable:              true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: rhgruadi_codgru}
+  catalogo:                [nphojint, sf_admin_edit_form, {Codemp: 1, Nomemp: 2}, Oycregsol_nphojint ]
+2:       # Columna 2
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nomemp
+  html:                    ["size=40 readonly=true"]
+  esgrabable:              true

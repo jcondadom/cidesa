@@ -1,0 +1,31 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcestado
+    theme:            cidesaGenerator
+    fields:
+      codpai: { name: País, params : size=5 maxlength=4 }
+      nompai: { name: País}
+      codedo: { name: Código, params : size=5 maxlength=4  onFocus=readonly(this.id) onBlur="this.value=this.value.pad(4, '0',0);"  }
+      nomedo: { name: Nombre, params : size=60 maxlength=30 onBlur="cadena=this.value;cadena=cadena.toUpperCase(); $(this.id).value=cadena"}
+    list:
+      title:          Definiciones de Estados
+      filters:        [codpai, codedo]
+      display:        [=codedo, nomedo, nompai]
+      fields:
+        codedo:
+          name: Estado
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codedo
+    edit:
+      title:          Edición  de Estado
+      display:
+        "Datos del Estado":   [_codpai, codedo, nomedo]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

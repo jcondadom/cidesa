@@ -1,0 +1,29 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   npregdetconvar
+  anchogrid:               700
+  ancho:                   500
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Fecha
+  tipo:                    f
+  nombrecampo:             fecreg
+  esgrabable:              true
+  html:                    ["size=15 maxlength=10"]
+2:     # Columna 2
+  titulo:                  Monto
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             moncon
+  esnumerico:              true
+  html:                    ["size=10"]
+3:     # Columna 3
+  titulo:                  Cantidad
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             cantidad
+  esnumerico:              true
+  html:                    ["size=10"]

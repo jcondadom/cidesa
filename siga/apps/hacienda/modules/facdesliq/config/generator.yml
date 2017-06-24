@@ -1,0 +1,48 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcdefdesc
+    theme:            cidesaGenerator
+    fields:
+      coddes:    { name: Código, params: size=10 maxlength=4 onFocus=readonly(this.id) onBlur="this.value=this.value.pad(4, '0',0);"}
+      nomdes:    { name: Descripción, params: size=80 maxlength=250 }
+      codfue:
+        name: Fuente Asociada
+        params: size=10 maxlength=2
+        catalogo:
+          catalogoweb: Facdefespins_fcdefins
+          clase: Fcfuepre
+          ajax: 1
+          parametros: getprincipal="getCodfue" getsecundario="getNomfue" campoprincipal="codfue" camposecundario="nomfue" campobase = "id"
+      tipo:      { name: . , params: size=4 maxlength=1 }
+      modo:      { name: Modo , params: size=4 maxlength=1}
+      limita:    { name: Limitar pagar Año Completo, params: size=4 maxlength=1 }
+      auto:      { name: Automatico, params: size=4 maxlength=1}
+      anoact:    { name: Solo aplicables a deudas del Año actual, params: size=4 maxlength=1 }
+      grid:      { name: . }
+      gridb:    { name: . }
+    list:
+      title:     Definición de Descuentos
+      display:   [=coddes, nomdes]
+      filters:   [coddes, nomdes]
+      fields:
+        nomdes:
+          params: size=10
+      max_per_page: 10
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      sort:  coddes
+    edit:
+      title:          Edición de Descuentos
+      display:
+        "Datos Generales":   [ coddes, nomdes, codfue ]
+        "Tipo":   [ _tipo ]
+        "Aplicable":   [ _anoact ]
+        "Modo de Cálculo":   [ _modo, _limita, _auto, _grid ]
+        "Asociación de Recaudos":   [ _gridb ]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

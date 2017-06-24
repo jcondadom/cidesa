@@ -1,0 +1,21 @@
+====== Operación Eliminar ======
+
+Para Eliminar una variable:
+
+  * Presione el Botón  {{:btnlista.jpg|}}   <html><br><br></html>
+
+  * Seleccionar de la Lista la variable a eliminar. 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefvarmod.jpg|}}"></div><br></html>
+
+  * El sistema muestra los datos de la variable seleccionada.
+
+  * Presione el Botón   {{:btnborrar.jpg|}}    <html><br><br></html>
+
+  * El sistema emite un mensaje de confirmación antes de eliminar
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br></html>
+
+  * Presione **Aceptar**     <html><br><br></html>
+
+  * El sistema automáticamente muestra la Lista con las Variables registradas, donde podrá consultar que el registro fué eliminado con éxito.
+
+

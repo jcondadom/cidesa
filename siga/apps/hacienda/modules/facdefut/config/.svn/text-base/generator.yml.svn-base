@@ -1,0 +1,28 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcdefut
+    theme:            cidesaGenerator
+    fields:
+      fecini:     { name: Fecha Inicio, params: size=10 maxlength=10 date_format='dd/mm/yyyy'}
+      fecfin:     {name: Fecha Fin, params: size=10 maxlength=10 date_format='dd/mm/yyyy'}
+      valorut:    { name: Unidad Tributaria}
+    list:
+      title:          Definición de Unidad Tributaria
+      filters:        [fecini]
+      display:        [=fecini, fecfin, valorut]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:  fecini
+    edit:
+      title:         Definición de Unidad Tributaria
+      display:
+        "Datos Generales" :  [ _fecini, _fecfin, valorut]
+      hide: [ id]
+      actions:
+       _list:        ~
+       _save:        ~
+       _delete:      ~
+       _create:      ~

@@ -1,0 +1,1 @@
+<?php echo select_tag('tspagele[tiptxt]', options_for_select(array('P' => 'Proveedores', 'N' => 'Nómina'),$tspagele->getTiptxt()),array()); ?>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/oracle
+END
+OCI8PreparedStatement.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/oracle/OCI8PreparedStatement.php
+END
+OCI8ResultSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/oracle/OCI8ResultSet.php
+END
+OCI8Connection.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/oracle/OCI8Connection.php
+END
+OCI8IdGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/oracle/OCI8IdGenerator.php
+END
+OCI8Statement.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/oracle/OCI8Statement.php
+END
+OCI8Types.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/oracle/OCI8Types.php
+END

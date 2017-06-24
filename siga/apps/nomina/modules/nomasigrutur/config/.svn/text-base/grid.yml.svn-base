@@ -1,0 +1,58 @@
+opciones:                  # Opciones generales
+  eliminar:                true
+  tabla:                   Npgrutur
+  anchogrid:               1050
+  ancho:                   1050
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Grupo
+  tipo:                    c
+  nombrecampo:             codgru
+  esgrabable:			         true
+  html:                    [ ]
+  #ajaxfila:                true
+  #ajaxadicionales:         [ npgrutur_codtur, npgrutur_codnom, npgrutur_fecini, npgrutur_fecfin ]
+2:       # Columna 2
+  titulo:                  Lunes
+  tipo:                    c
+  nombrecampo:             jorlun
+  esgrabable:			         true
+  html:                    [ ]
+3:       # Columna 3
+  titulo:                  Martes
+  tipo:                    c
+  nombrecampo:             jormar
+  esgrabable:			         true
+  html:                    [ ]
+4:       # Columna 4
+  titulo:                  Miércoles
+  tipo:                    c
+  nombrecampo:             jormie
+  esgrabable:			         true
+  html:                    [ ]
+5:       # Columna 5
+  titulo:                  Jueves
+  tipo:                    c
+  nombrecampo:             jorjue
+  esgrabable:			         true
+  html:                    [ ]
+6:       # Columna 6
+  titulo:                  Viernes
+  tipo:                    c
+  nombrecampo:             jorvie
+  esgrabable:			         true
+  html:                    [ ]  
+7:       # Columna 7
+  titulo:                  Sabado
+  tipo:                    c
+  nombrecampo:             jorsab
+  esgrabable:			         true
+  html:                    [ ]  
+8:       # Columna 8
+  titulo:                  Domingo
+  tipo:                    c
+  nombrecampo:             jordom
+  esgrabable:			         true
+  html:                    [ ]

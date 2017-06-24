@@ -1,0 +1,15 @@
+====== Operación Incluir ======
+
+Para **Registrar** la Asignación de Conceptos por Categoría Presupuestaria Especial:<html><br><br></html>
+
+  * Presione el **Botón** {{:btnnuevo.jpg|}} <html><br><br></html>
+
+  * Seleccione la Categoría Presupuestaria a la cual se le asignarán los Conceptos.<html><br><br></html>
+
+  * Podemos observar un Cuadro con todos los Conceptos que fueron definidos en la sección de Definiciones Específicas.<html><br><br></html>
+
+  * Seguidamente en el recuadro **Check** marque aquellos Conceptos que serán asignados a la Categoría Presupuestaria Especial.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasiconporcatpreespinc1.jpg|}}"></div><br></html>
+
+  * Presione el** Botón** {{:btnguardar.jpg|}}

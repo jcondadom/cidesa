@@ -1,0 +1,1 @@
+<?php echo select_tag('manregequ[carcos]', options_for_select(array('A' => 'Activo', 'D' => 'Desincorporado'),$manregequ->getCarcos()),array()); ?>

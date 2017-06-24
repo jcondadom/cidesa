@@ -1,0 +1,169 @@
+opciones:                  # Opciones generales
+  eliminar:                true
+  tabla:                   fadetpre
+  anchogrid:               900
+  ancho:                   1400
+  filas:                   30
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Cod. Artículo
+  tipo:                    t
+  nombrecampo:             codart
+  html:                    [size="10", readonly=true ]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desart
+  html:                    [size="40", readonly=true ]
+  esgrabable:              true
+3:
+  titulo:                  Cant. Solicitada
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             cansol
+  esnumerico:              true
+  html:                    [size="5", readonly=false  ]
+4:
+  titulo:                  Precio
+  tipo:                    c
+  esgrabable:              true
+  nombrecampo:             precio
+  html:                    [ ]
+5:
+  titulo:                  Recargo
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monrgo
+  esnumerico:              true
+  html:                    [size="20", readonly=true  ]
+6:
+  titulo:                  Descuento
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             mondesc
+  esnumerico:              true
+  html:                    [size="20"]
+7:
+  titulo:                  Total
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             totart
+  esnumerico:              true
+  html:                    [size="20", readonly=true  ]
+8:       # Columna 8
+  titulo:                  Marque
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:        true
+  html:                    [ ]
+9:       # Columna 9
+  titulo:                  Recargos
+  tipo:                    t
+  nombrecampo:             anadirrec
+  esgrabable:              true  
+  html:                    [size="1"]
+10:
+  titulo:                  Fecha Entrega
+  tipo:                    f
+  esgrabable:              true
+  nombrecampo:             fecent
+  vacia:                   true
+  html:                    [size="10"]
+11:
+  titulo:                  Porc. Recargo
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             porcrgo
+  esnumerico:              true
+  html:                    [size="10", readonly=true  ]
+  oculta:                  true
+12:       # Columna 12
+  titulo:                  Datos Recargos
+  tipo:                    t
+  nombrecampo:             recargos
+  esgrabable:              true
+  oculta:                  true
+  html:                    [ ]
+13:       # Columna 13
+  titulo:                  Distrib. Contrato
+  tipo:                    t
+  nombrecampo:             anadiscon
+  esgrabable:              true  
+  oculta:                  true
+  html:                    [size="1"]
+14:       # Columna 14
+  titulo:                  Datos Contrato
+  tipo:                    t
+  nombrecampo:             contratos
+  esgrabable:              true
+  oculta:                  true
+  html:                    [ ]
+15:       # Columna 15
+  titulo:                  Tipo de Contrato
+  tipo:                    t
+  nombrecampo:             tipocon
+  esgrabable:              true
+  oculta:                  true
+  html:                    [ ]
+16:       # Columna 16
+  titulo:                  Unidad de Medida
+  tipo:                    t
+  nombrecampo:             unimed
+  esgrabable:              true  
+  html:                    [size="20" maxlength="20"]
+17:       # Columna 17
+  titulo:                  Análisis de Precios Unitario (APU) 
+  tipo:                    t
+  nombrecampo:             anaapu
+  esgrabable:              true  
+  oculta:                  true
+  html:                    [size="1"]
+18:       # Columna 18
+  titulo:                  Datos APU Materiales
+  tipo:                    t
+  nombrecampo:             anapreunimat
+  esgrabable:              true
+  oculta:                  true
+  html:                    [ ]
+19:       # Columna 19
+  titulo:                  Datos APU Maquinarias o equipos
+  tipo:                    t
+  nombrecampo:             anapreuniequ
+  esgrabable:              true
+  oculta:                  true
+  html:                    [ ] 
+20:       # Columna 20
+  titulo:                  Datos APU Mano de Obra
+  tipo:                    t
+  nombrecampo:             anapreuniman
+  esgrabable:              true
+  oculta:                  true
+  html:                    [ ] 
+21:       # Columna 21
+  titulo:                  Datos APU Servicios Externos
+  tipo:                    t
+  nombrecampo:             anapreuniser
+  esgrabable:              true
+  oculta:                  true
+  html:                    [ ]
+22:
+  titulo:                  Moneda
+  tipo:                    c
+  esgrabable:              true
+  nombrecampo:             codmon
+  html:                    [ ]
+23:
+  titulo:                  Valor
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             valmon
+  esnumerico:              true
+  html:                    ["size=10 readonly=true"]  
+24:       # Columna 24
+  titulo:                  N° Partida
+  tipo:                    t
+  nombrecampo:             nuitem
+  esgrabable:              true  
+  html:                    ["size=1 maxlength=5"]

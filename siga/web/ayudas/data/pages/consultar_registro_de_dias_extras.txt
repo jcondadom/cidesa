@@ -1,0 +1,22 @@
+====== Operación Consultar ======
+
+**Para consultar un determinado Registro de Dias Extras:**   <html><br><br></html>
+
+  * Presione el **Botón**  {{:btnlista.jpg|}}    <html><br><br></html>
+
+  * Seleccione de la **Lista** el **Código de la Nómina** para la cual desea consultar el registro de dias extras. <html><br><br></html>
+
+  * El sistema automáticamente muestra el registro de dias extras de la nómina seleccionada.<html><br><br></html>
+
+  * Si desea consultar el registro de dias extras de una nueva nomina debe presionar nuevamente el** Botón** {{:btnlista.jpg|}}  y repetir los pasos anteriores.
+ 
+<html><br><br></html>
+
+
+**Para consultar datos desde el Inicio de la pantalla de Registro de Dias Extras:**  <html><br><br></html>
+
+  * El sistema muestra la **Lista** de las **Nóminas** que poseen registro de dias extras.<html><br><br></html>
+
+  * Seleccione de la **Lista** el **Código de la Nómina** para la cual desea consultar el registro de dias extras. <html><br><br></html>
+
+  * El sistema automáticamente muestra él ó los empleados.

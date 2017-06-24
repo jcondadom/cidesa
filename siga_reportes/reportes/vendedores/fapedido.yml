@@ -1,0 +1,29 @@
+Parametros:
+  modulo: vendedores
+  nomrep: fapedido
+  titulo: ÚLTIMOS PEDIDOS POR CLIENTE
+  orientacion: Horizontal
+  tipopagina: Carta
+  width:210
+
+Filas:
+  combo seg pedidos:
+    tipotag:  inputcat_tag
+    label: Codigo de los Pedidos:
+    sql: select min(nroped) as coddes,max(nroped) as codhas from fapedido
+    nomdes: coddes
+    campodes: coddes
+    catdes: 0
+    nomhas: codhas
+    campohas: codhas
+    cathas: 1
+    nomcat: fapedido
+    size: 15
+
+  combo primero diadespacho:
+    tipotag:  combo_tag
+    label: Clientes:
+    sql: select id,nompro from facliente order by nompro
+    nomdes: codpro
+    campodes: id-nompro
+    size: 15

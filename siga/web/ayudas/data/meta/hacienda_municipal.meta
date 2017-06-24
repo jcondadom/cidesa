@@ -1,0 +1,11 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1316550903;s:8:"modified";i:1316553441;}s:7:"creator";s:6:"cidesa";s:4:"user";s:6:"cidesa";s:11:"last_change";a:7:{s:4:"date";i:1316553441;s:2:"ip";s:9:"127.0.1.1";s:4:"type";s:1:"E";s:2:"id";s:18:"hacienda_municipal";s:4:"user";s:6:"cidesa";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:6:"cidesa";s:6:"cidesa";}s:5:"title";s:18:"HACIENDA MUNICIPAL";s:11:"description";a:2:{s:15:"tableofcontents";a:4:{i:0;a:4:{s:3:"hid";s:18:"hacienda_municipal";s:5:"title";s:18:"HACIENDA MUNICIPAL";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:22:"definiciones_generales";s:5:"title";s:22:"Definiciones Generales";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:2;a:4:{s:3:"hid";s:22:"actividades_economicas";s:5:"title";s:23:"Actividades Económicas";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:3;a:4:{s:3:"hid";s:9:"inmuebles";s:5:"title";s:9:"Inmuebles";s:4:"type";s:2:"ul";s:5:"level";i:3;}}s:8:"abstract";s:255:"Las opciones que conforman el Menú de Hacienda Municipal son las siguientes: 
+
+Definiciones Generales
+
+	*   Definición de la Alcaldia
+
+	*   Catalogo de Fuente de Ingresos
+
+	*   Catalogo de Presupuesto de Ingresos
+
+	*   Definición de Tipos de Solvencias";}s:8:"relation";a:2:{s:10:"references";a:13:{s:25:"definicion_de_la_alcaldia";b:1;s:30:"catalogo_de_fuente_de_ingresos";b:0;s:35:"catalogo_de_presupuesto_de_ingresos";b:0;s:33:"definicion_de_tipos_de_solvencias";b:0;s:19:"definicion_de_rutas";b:0;s:28:"definicion_de_tipos_de_pagos";b:0;s:42:"definicion_de_tasas_de_intereses_bancarios";b:0;s:24:"definicion_de_descuentos";b:0;s:22:"definicion_de_recargos";b:0;s:35:"definicion_de_multas_en_declaracion";b:0;s:32:"definicion_de_tipos_de_licencias";b:0;s:36:"definicion_de_actividades_comeciales";b:0;s:37:"rango_en_bs._para_el_pago_de_impuesto";b:0;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1316550903;s:8:"modified";i:1316553441;}s:7:"creator";s:6:"cidesa";s:4:"user";s:6:"cidesa";s:11:"last_change";a:7:{s:4:"date";i:1316553441;s:2:"ip";s:9:"127.0.1.1";s:4:"type";s:1:"E";s:2:"id";s:18:"hacienda_municipal";s:4:"user";s:6:"cidesa";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:6:"cidesa";s:6:"cidesa";}}}

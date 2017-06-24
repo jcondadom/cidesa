@@ -1,0 +1,317 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repositorio/!svn/ver/61933/web/php/siga/branches/productions/trunk/lib/model/ingresos
+END
+CidefparPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/56761/web/php/siga/branches/productions/trunk/lib/model/ingresos/CidefparPeer.php
+END
+CinivelesPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/CinivelesPeer.php
+END
+Cibanco.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/57103/web/php/siga/branches/productions/trunk/lib/model/ingresos/Cibanco.php
+END
+Ciconrep.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/Ciconrep.php
+END
+CiregingPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/CiregingPeer.php
+END
+CidefnivPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/CidefnivPeer.php
+END
+Citiping.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/Citiping.php
+END
+CicatprePeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/59819/web/php/siga/branches/productions/trunk/lib/model/ingresos/CicatprePeer.php
+END
+CimovadiPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/CimovadiPeer.php
+END
+Ciajuste.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/58838/web/php/siga/branches/productions/trunk/lib/model/ingresos/Ciajuste.php
+END
+CideftitPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/CideftitPeer.php
+END
+Cidisniv.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/Cidisniv.php
+END
+Ciregingr.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/Ciregingr.php
+END
+Ciadidis.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/Ciadidis.php
+END
+Cierre.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/Cierre.php
+END
+CidetliqPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45333/web/php/siga/branches/productions/trunk/lib/model/ingresos/CidetliqPeer.php
+END
+CiliqingPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45333/web/php/siga/branches/productions/trunk/lib/model/ingresos/CiliqingPeer.php
+END
+CiimpingPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/CiimpingPeer.php
+END
+Cidefpar.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/56761/web/php/siga/branches/productions/trunk/lib/model/ingresos/Cidefpar.php
+END
+CitraslaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/CitraslaPeer.php
+END
+Ciniveles.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/Ciniveles.php
+END
+Cidefniv.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/57103/web/php/siga/branches/productions/trunk/lib/model/ingresos/Cidefniv.php
+END
+Cireging.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/61772/web/php/siga/branches/productions/trunk/lib/model/ingresos/Cireging.php
+END
+CimovajuPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/CimovajuPeer.php
+END
+Cicatpre.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/59819/web/php/siga/branches/productions/trunk/lib/model/ingresos/Cicatpre.php
+END
+Cideftit.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/59819/web/php/siga/branches/productions/trunk/lib/model/ingresos/Cideftit.php
+END
+Cimovadi.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/Cimovadi.php
+END
+CitipperPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/42253/web/php/siga/branches/productions/trunk/lib/model/ingresos/CitipperPeer.php
+END
+CitiprubPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/CitiprubPeer.php
+END
+Cidetliq.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45333/web/php/siga/branches/productions/trunk/lib/model/ingresos/Cidetliq.php
+END
+CidepingPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/51338/web/php/siga/branches/productions/trunk/lib/model/ingresos/CidepingPeer.php
+END
+Ciimping.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/58125/web/php/siga/branches/productions/trunk/lib/model/ingresos/Ciimping.php
+END
+Ciliqing.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/61933/web/php/siga/branches/productions/trunk/lib/model/ingresos/Ciliqing.php
+END
+CimovtraPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/CimovtraPeer.php
+END
+CiperejePeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/54134/web/php/siga/branches/productions/trunk/lib/model/ingresos/CiperejePeer.php
+END
+Citrasla.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/Citrasla.php
+END
+CiasiiniPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/CiasiiniPeer.php
+END
+CibancoPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/56847/web/php/siga/branches/productions/trunk/lib/model/ingresos/CibancoPeer.php
+END
+Cimovaju.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/Cimovaju.php
+END
+CiconrepPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/CiconrepPeer.php
+END
+Citipper.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/42253/web/php/siga/branches/productions/trunk/lib/model/ingresos/Citipper.php
+END
+Citiprub.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/52137/web/php/siga/branches/productions/trunk/lib/model/ingresos/Citiprub.php
+END
+CitipingPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/CitipingPeer.php
+END
+Cideping.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/51445/web/php/siga/branches/productions/trunk/lib/model/ingresos/Cideping.php
+END
+CiajustePeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/CiajustePeer.php
+END
+Cimovtra.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/Cimovtra.php
+END
+CidisnivPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/CidisnivPeer.php
+END
+CiregingrPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/CiregingrPeer.php
+END
+CiadidisPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/CiadidisPeer.php
+END
+CierrePeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/CierrePeer.php
+END
+Cipereje.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/lib/model/ingresos/Cipereje.php
+END
+Ciasiini.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/60322/web/php/siga/branches/productions/trunk/lib/model/ingresos/Ciasiini.php
+END

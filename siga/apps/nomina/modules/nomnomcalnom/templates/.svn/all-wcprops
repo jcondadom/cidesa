@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45347/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomnomcalnom/templates
+END
+autocompleteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/34653/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomnomcalnom/templates/autocompleteSuccess.php
+END
+mensajeSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomnomcalnom/templates/mensajeSuccess.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/34653/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomnomcalnom/templates/ajaxSuccess.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/34653/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomnomcalnom/templates/editSuccess.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/34653/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomnomcalnom/templates/_edit_actions.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/45347/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomnomcalnom/templates/_edit_form.php
+END

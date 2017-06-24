@@ -1,0 +1,26 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Bnmodtra
+    theme:            cidesaGenerator
+    fields:
+      codmod: { name: Código, params : size=5 maxlength=3  onFocus=readonly(this.id)}
+      desmod: { name: Descripción, params : size=80 maxlength=100}
+    list:
+      title:          Modos de Transporte
+      filters:        [codmod]
+      display:        [=codmod, desmod]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codmod
+    edit:
+      title:          Edición  de Modo de Transporte
+      display:
+        "Datos":   [codmod, desmod]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

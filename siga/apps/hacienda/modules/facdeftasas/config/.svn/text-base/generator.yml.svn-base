@@ -1,0 +1,36 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcdeftasas
+    theme:            cidesaGenerator
+    fields:
+      codtas: { name: Código, params : size=5 maxlength=4  onFocus=readonly(this.id) onBlur="this.value=this.value.pad(4, '0',0);"}
+      destas: { name: Descripción, type: textarea_tag, params : size=80x5 maxlength=500 onkeyup="ismaxlength(this)" }
+      bsout: { name: .}
+      valtas: { name: Valor}
+      codfue:
+        name: Rubro
+        params: maxlength=2
+        catalogo:
+          catalogoweb: Facdefsol_fcfuepre
+          clase: Fcfuepre
+          ajax: 1
+          parametros: getprincipal="getCodfue" getsecundario="getNomfue" campoprincipal="codfue" camposecundario="nomfue" campobase = "id"
+    list:
+      title:          Definición de Tasas
+      filters:        [codtas]
+      display:        [=codtas, destas]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codtas
+    edit:
+      title:          Edición  de Tasas
+      display:
+        "Definición de Tasas":   [codtas, destas, _bsout, valtas, codfue]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

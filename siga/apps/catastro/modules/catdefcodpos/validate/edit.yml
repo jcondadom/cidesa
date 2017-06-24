@@ -1,0 +1,16 @@
+methods:
+  post:
+   - "catcodpos{despos}"
+
+names:
+  catcodpos{despos}:
+    required:  Yes
+    required_msg: La Descripción no puede estar en Blanco
+    validators: Validator_despos
+
+Validator_despos:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Catcodpos
+        column:       despos
+        unique_error: El registro ya Existe intente con otro.

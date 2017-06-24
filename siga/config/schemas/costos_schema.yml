@@ -1,0 +1,141 @@
+propel:
+  _attributes: { noXsd: false, defaultIdMethod: native, package: lib.model.costos }
+  cosdeftur:
+    _attributes:
+      description: Contiene las Definiciones de los Turnos
+    codtur:
+      type: VARCHAR
+      size: 10
+      required: true
+      index: unique
+      description: Código del Turno
+    destur:
+      type: VARCHAR
+      size: 500
+      description: Descripción del Turno
+    initur:
+      type: VARCHAR
+      size: 10
+      description: Hora de Inicio del Turno
+    fintur:
+      type: VARCHAR
+      size: 10
+      description: Hora de Fin del Turno
+    cappro:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Capacidad de Producción en Kgr del Turno
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  costipcos:
+    _attributes:
+      description: Contiene los Tipos de Costos
+    codcos:
+      type: VARCHAR
+      size: 10
+      required: true
+      index: unique
+      description: Código del Costo
+    descos:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Descripción del Costo
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  costipcal:
+    _attributes:
+      description: Contiene los Tipos de Calculos
+    codcal:
+      type: VARCHAR
+      size: 10
+      required: true
+      index: unique
+      description: Código del Calculo
+    descal:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Descripción del Calculo
+    forcal:
+      type: VARCHAR
+      size: 1
+      required: true
+      description: Forma de Calculo (D=Directo/P=Porcentual)
+    ordpag:
+      type: VARCHAR
+      size: 1
+      required: true
+      description: Aplica Orden de Pago (S/N)
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  costippro:
+    _attributes:
+      description: Contiene los Tipos de Productos
+    codpro:
+      type: VARCHAR
+      size: 10
+      required: true
+      index: unique
+      description: Código del Producto
+    despro:
+      type: VARCHAR
+      size: 500
+      description: Descripción del Producto
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  costipinsmed:
+    _attributes:
+      description: Contiene los Tipos de Instrumentos de Medición
+    codinsmed:
+      type: VARCHAR
+      size: 10
+      required: true
+      index: unique
+      description: Código del Instrumento de Medición
+    desinsmed:
+      type: VARCHAR
+      size: 500
+      description: Descripción del Instrumento de Medición
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  cosforpro:
+    _attributes:
+      description: Contiene los Tipos de Instrumentos de Medición
+    codforpro:
+      type: VARCHAR
+      size: 10
+      required: true
+      index: unique
+      description: Código de la Forma de Producción
+    desforpro:
+      type: VARCHAR
+      size: 500
+      description: Descripción de la Forma de Producción
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro

@@ -1,0 +1,29 @@
+Los campos que conforman la pantalla Cargos: <html><br><br></html>
+
+  * **Código del Cargo** que se está definiendo.<html><br><br></html>
+
+  * **Descripción** que haga referencia al Cargo. 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefcarinc.jpg|}}"></div><br></html>
+
+  * Seleccionar del catálogo el **Tipo de Cargo**  <html><br><br></html>
+
+  * **Grado** que se le asigna dentro del RAC al cargo que se está definiendo.
+ <html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefcarinc1.jpg|}}"></div><br></html>
+
+  * **Sueldo** que se le va a asignar al Cargo que se está definiendo. <html><br><br></html>
+
+  * **Puntuación Mínima** que debe acumular un trabajador para optar por un determinado cargo.<html><br><br></html>
+
+  * **Categoría del cargo:** Definir si la categoría del cargo es de **Empleado** u **Obrero** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefcarinc2.jpg|}}"></div><br></html>
+
+  * **Pestaña Profesiones que optan por el cargo** nos encontramos con una lista de profesiones en donde debemos seleccionar aquellas que optan por el cargo que se está definiendo las cuales se irán agregando al recuadro **Profesiones por Cargo**.
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefcarinc3.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Perfiles que requieren el cargo** se seleccionan aquellos perfiles que optan al cargo y se define para cada uno el **Nivel de Puntuación** que tendrá.
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefcarinc4.jpg|}}"></div><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Definición de Grupos de Recaudos** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+ 

@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "bnpais{codpai}"
+   - "bnpais{nompai}"
+
+names:
+  bnpais{codpai}:
+    required:  Yes
+    required_msg: El Código del País no puede estar en Blanco
+    validators: UniqueValidator
+
+  bnpais{nompai}:
+    required:  Yes
+    required_msg: La Descripción del País no puede estar en Blanco
+    validators: DescripcionValidator
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Bnpais
+        column:   codpai
+        unique_error:   El Código del País ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       3
+        min_error: La Descripción del País no puede tener menos de 3 caracteres
+        max:       500
+        max_error: La Descripción del País no puede tener más de 500 caracteres 

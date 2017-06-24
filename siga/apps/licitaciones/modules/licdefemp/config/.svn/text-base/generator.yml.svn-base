@@ -1,0 +1,77 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Lidefemp
+    theme:            cidesaGenerator
+    fields:
+      codemp:    { name: Código, params: size=5 maxlength=3}
+      nomemp:    { name: Nombre, params: size=80 maxlength=100}
+      diremp:    { name: Dirección, params: size=80 maxlength=100}
+      telemp:    { name: Telefono, params: size=20 maxlength=30}
+      faxemp:    { name: Fax, params: size=20 maxlength=30}
+      emaemp:    { name: Email, params: size=80 maxlength=100}
+      unitri:    { name: Monto en Bolívares (Bs.)}
+      ptocta:    { name: Punto de Cuenta Egreso}
+      prebas:    { name: Presupuesto Base}
+      expdie:    { name: Expediente}
+      numemo:    { name: Memorando}
+      solegr:    { name: Requisición/Solicitud}
+      comint:    { name: Compra Integral/Pedido}
+      pliego:    { name: Pliego de Condiciones}
+      aclara:    { name: Aclaratoria}
+      oferta:    { name: Oferta}
+      anaofe:    { name: Analisis Oferta}
+      recome:    { name: Recomendación}
+      ptocuecon: { name: Punto de Cuenta Contratacion}
+      notifi:    { name: Notificación}
+      numdec:    { name: Número de Declaratoria}
+      contrat:   { name: Contrato}
+      ordcom:    { name: Orden de Compra}
+      obptocta:    { name: Punto de Cuenta Egreso}
+      obprebas:    { name: Presupuesto Base}
+      obexpdie:    { name: Expediente}
+      obnumemo:    { name: Memorando}
+      obsolegr:    { name: Requisición/Solicitud}
+      obpliego:    { name: Pliego de Condiciones}
+      obaclara:    { name: Aclaratoria}
+      oboferta:    { name: Oferta}
+      obanaofe:    { name: Analisis Oferta}
+      obrecome:    { name: Recomendación}
+      obptocuecon: { name: Punto de Cuenta Contratacion}
+      obnotifi:    { name: Notificación}
+      obnumdec:    { name: Número de Declaratoria}
+      obcontrat:   { name: Contrato}
+      obactas:     { name: Actas}
+      obvaluaciones:     { name: Valuaciones}
+      obinspecciones:    { name: Inspecciones}
+      obsolpag:    { name: Solicitudes de Pago}
+      obentregas: { name: Entregas}
+      entregas: { name: Entregas}
+      obpenalizaciones: { name: Penalizaciones}
+      penalizaciones: { name: Penalizaciones}
+      obactdescont: { name: Actuación y Desempeño}
+      actdescont: { name: Actuación y Desempeño}
+      obmodcont: { name: Modificaciones a Contratos (Aumentos/Disminuciones/Obras Extras)}
+      obaddendum: { name: Addendums}
+      codifili:    { name: Codificacion Correlativo Bienes/Servicios}
+      codifiob:    { name: Codificacion Correlativo Obras}
+
+    list:
+      title:          Registro Información del Sistema
+      display:        [=codemp, nomemp, diremp]
+      filters:        [codemp]
+      sort:            codemp
+      object_actions:
+        _edit:        ~
+      max_per_page:   10
+      sort:    codemp
+    edit:
+      title:          Ente Contratante
+      display:
+        Datos Principales:   [nomemp, diremp, telemp, faxemp, emaemp]
+        Valor Actual Unidad Tributaria: [unitri]
+        Correlativos para Bienes/Servicio: [ptocta, prebas, expdie, numemo, solegr, comint, pliego, aclara, recome, ptocuecon, notifi, numdec, contrat, ordcom, entregas, penalizaciones, actdescont]
+        Correlativos para Obras: [obptocta, obprebas, obexpdie, obnumemo, obsolegr, obpliego, obaclara, obrecome, obptocuecon, obnotifi, obnumdec, obcontrat, obactas, obvaluaciones, obinspecciones, obsolpag, obentregas, obpenalizaciones, obactdescont, obaddendum, obmodcont]
+        Codificacion:            [codifili, codifiob]
+      actions:
+        _save:        ~

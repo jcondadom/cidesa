@@ -1,0 +1,19 @@
+====== Parroquias ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite definir todos aquellos Municipios pertenecientes a cada Estado de Venezuela.
+
+**Para ello:**
+
+  * Seleccione la opción **Formulación Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpre.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones Generales**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpredefesp.jpg}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Ubicación Geográfica**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreubicgeog.jpg}}"></div><br></html>
+ 
+  * Por último seleccione **Parroquias**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreubicgeogparr.jpg}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Parroquias** veamos la [[Descripcion_Campos_formulacion_parroquias|Descripción de los Campos]]

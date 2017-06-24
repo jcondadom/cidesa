@@ -1,0 +1,31 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Usuarios
+    theme:            cidesaGenerator
+    fields:      
+      loguse:  { name: Usuario, params: size=20 readOnly=true }
+      nomuse: { name: Nombre, params: size=60 readOnly=true }
+      grid:   { name: .}
+    list:
+      title:          Usuarios
+      fields:      
+        loguse:  { name: Usuario, params: size=20 maxlength=50}
+        nomuse: { name: Nombre, params: size=60 maxlength=250}
+      filters:        [loguse, nomuse]
+      display:        [=loguse, nomuse]
+      object_actions:
+        _edit:        ~
+      actions:
+        _create:      NONE
+      max_per_page:   10
+      sort:      loguse            
+    edit:
+      title:          Asociación de Direcciones a Usuario
+      display:
+        "Datos del Usuario":    [loguse, nomuse]
+        "Direcciones":    [_grid]
+      actions:
+        _list:          ~
+        _save:          ~
+        _create:        NONE

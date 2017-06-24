@@ -1,0 +1,14 @@
+Los campos que conforman la pantalla de **Aprobación de Requisiciones por Lotes** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmaprobreqlotesinc1.jpg|}}"></div><br></html>
+
+  * Al ingresar en la pantalla Aprobación de Requisiciones por Lotes podrá visualizar en una tabla todas las [[Requisiciones|Requisiciones]] que fueron registradas anteriormente en el sistema y que a su vez no hallan sido aprobadas. <html><br><br></html>
+
+  * En la **Columna Actualizar** debe marcar aquellas Requisiciones que desea sean aprobadas, como lo muestra la figura anterior. <html><br><br></html>
+
+  * Luego de seleccionar las Requisiciones que desea aprobar presione el Botón {{:btnguardar.jpg|}} 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>
+
+  * Automáticamente el sistema emite un mensaje de Éxito y mostrará en una [[Listas|Lista]]sólo las Requisiciones que falten por aprobar.
+

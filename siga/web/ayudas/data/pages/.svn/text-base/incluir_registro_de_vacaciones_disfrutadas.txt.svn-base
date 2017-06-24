@@ -1,0 +1,23 @@
+====== Operación Incluir ======
+
+Para **Incluir** el **Registro de Vacaciones Disfrutadas**:  <html><br><br></html>
+
+  * Presione el Botón {{:btnnuevo.jpg|}}  <html><br><br></html>
+
+  * Seleccione el **Empleado** para el cual se registrará las vacaciones ya disfrutadas. Es importante destacar que el presente módulo se puede llevar a cabo solo cuando el empleado ga retornado de sus vacaciones. <html><br><br></html>
+
+  * El sistema carga la **Fecha de Ingreso** del empleado a la Institución
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompervacdisinc1.jpg|}}"></div><br><br></html>
+
+  * Indique en **Periodo Desde y Hasta** la fecha de vacaciones que le corresponde al empleado disfutar.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompervacdisinc2.jpg|}}"></div><br><br></html>
+
+  * El sistema genera en **Dias a Disfrutar** los dias de vacaciones que le corresponde al empleado en el período de vacaciones. <html><br><br></html>
+
+  * Indicar en **Dias Disfrutados** los dias de vacaciones que en realidad disfrutó el empleado luego de retornar de las vacaciones. <html><br><br></html>
+
+  * Automáticamente  el sistema genera en **Dias por Disfrutar** los dias restantes correspondientes a las vacaciones del empleado que le quedan por disfrutar.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompervacdisinc3.jpg|}}"></div><br><br></html>
+
+  * Presionar {{:btnguardar.jpg|}} para almacenar el registro.  <html><br><br></html>

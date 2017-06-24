@@ -1,0 +1,24 @@
+====== Operación Consultar ======
+
+**Para consultar un Motivo de Falta y/o Permiso utilizando el Botón Lista:**   <html><br><br></html>
+
+  * Presione el **Botón**  {{:btnlista.jpg|}}    <html><br><br></html>
+
+  * Seleccione de la **Lista** el **Motivo** que desea consultar.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompermotfalpermod.jpg|}}"></div><br></html>
+
+  * El sistema automáticamente muestra los datos del **Motivo** seleccionado.
+
+  * Si desea consultar un nuevo Motivo debe presionar nuevamente el** Botón** {{:btnlista.jpg|}}  y repetir los pasos anteriores.
+ 
+<html><br><br></html>
+
+
+**Para consultar datos desde el Inicio de la pantalla de Motivos de Faltas y/o Permisos:**  <html><br><br></html>
+
+  * El sistema muestra la **Lista** de los **Motivos de Faltas y/o Permisos** registrados
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompermotfalpermod.jpg|}}"></div><br></html>
+
+  * Seleccione de la Lista el **Motivo** que desea consultar.  <html><br><br></html>
+
+  * El sistema automáticamente muestra los datos del Motivo seleccionado.

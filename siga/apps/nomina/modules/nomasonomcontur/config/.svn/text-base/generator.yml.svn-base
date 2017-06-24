@@ -1,0 +1,31 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npturcpt
+    theme:            cidesaGenerator
+    fields:
+      codtur:
+        name: Turno
+        params: maxlength=3
+        catalogo:
+          catalogoweb: Npturnos_Nomasoturemp
+          clase: Npturnos
+          ajax: 1
+          parametros: getprincipal="getCodtur" getsecundario="getDestur" campoprincipal="codtur" camposecundario="destur" campobase = "id"
+      codnom:
+        name: Nómina
+        params: maxlength=3
+        catalogo:
+          catalogoweb: Npnomina_nomdefespvar
+          clase: Npnomina
+          ajax: 2
+          parametros: getprincipal="getCodnom" getsecundario="getNomnom" campoprincipal="codnom" camposecundario="nomnom" campobase = "id"
+          divupdate: divgrid
+          ajaxparams: +'."'".'&turno='."'+$('npturcpt_codtur').value".'
+      grid: { name: .}
+    edit:
+      title:          Asociación de Turnos a Nómina por Concepto
+      display:
+        "NONE":  [codtur, codnom, _grid]
+      actions:
+        _save:        ~

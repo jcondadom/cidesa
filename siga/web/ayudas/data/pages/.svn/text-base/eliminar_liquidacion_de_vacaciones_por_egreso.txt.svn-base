@@ -1,0 +1,14 @@
+====== Operación Eliminar ======
+
+Para **Eliminar** la Liquidación de Vacaciones por Egreso de un determinado trabajador: <html><br><br></html>
+
+  * Seleccionar de la **Lista** el **Código del Trabajador** para el cual desea eliminar la Solicitud de Liquidación de Vacaciones. <html><br><br></html>
+
+  * Presionar  {{:btnborrar.jpg|}}  <html><br><br></html>
+
+  * El sistema emite un **Mensaje de Confirmación** antes de eliminar.  
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br></html>
+ 
+  * Presionar **Aceptar**.   <html><br><br></html>
+ 
+  * El sistema nos lleva automáticamente a la **lista** con los empleados que poseen registrado **Liquidación de Vacaciones por Egreso** donde podemos observar que el registro se eliminó con éxito.

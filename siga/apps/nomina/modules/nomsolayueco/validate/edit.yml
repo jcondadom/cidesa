@@ -1,0 +1,127 @@
+methods:
+  post:
+   - "npsolayueco{numsolayu}"
+   - "npsolayueco{fecsolayu}"
+   - "npsolayueco{dessolayu}"
+   - "npsolayueco{tipcom}"
+   - "npsolayueco{cedrif}"
+   - "npsolayueco{codtipayu}"
+   - "npsolayueco{codcat}"
+   - "npsolayueco{codeve}"
+   - "npsolayueco{codniv}"
+
+names:
+  npsolayueco{numsolayu}:
+    required:  Yes
+    required_msg: El Número de Solicitud no puedo estar en Blanco
+    validators: UniqueValidator
+
+  npsolayueco{fecsolayu}:
+    required:  Yes
+    required_msg: La Fecha no puedo estar en Blanco
+    validators: FechaValidator, FechaValidator1
+
+  npsolayueco{dessolayu}:
+    required:  Yes
+    required_msg: El Descrición no puedo estar en Blanco
+    validators: DescripcionValidator
+
+  npsolayueco{tipcom}:
+    required:  Yes
+    required_msg: El Tipo de Documento no puedo estar en Blanco
+    validators: TipcomValidator
+
+  npsolayueco{cedrif}:
+    required:  Yes
+    required_msg: El Beneficiario no puedo estar en Blanco
+    validators: BenefiValidator    
+
+  npsolayueco{codtipayu}:
+    required:  Yes
+    required_msg: El Tipo de Ayuda no puedo estar en Blanco
+    validators: AyudaValidator    
+
+  npsolayueco{codcat}:
+    required:  Yes
+    required_msg: La Categoria Presupuestaria no puedo estar en Blanco
+    validators: CategoriaValidator   
+
+  npsolayueco{codeve}:
+    required:  No
+    validators: EventoValidator
+
+  npsolayueco{codniv}:
+    required:  No
+    validators: UnidadValidator    
+
+FechaValidator1:
+    class:         CidesaDateNow
+    param:
+        compare: 'now'
+        compare_error: La Fecha no puede ser mayor a la Fecha Actual
+        operator: '<='
+        date_error:  Fecha Inválida
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción no puede tener menos de 5 caracteres
+        max:       1000
+        max_error: La Descripción no puede tener más de 1000 caracteres
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Npsolayueco
+        column:   numsolayu
+        unique_error:   El Número de Solicitud ya existe. Por Favor, Cambiélo por otro.
+
+TipcomValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Cpdoccom
+        column:   tipcom
+        unique_error:  El Tipo de Documento no existe.
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+BenefiValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Opbenefi
+        column:   cedrif
+        unique_error:  El Beneficiario no existe.        
+
+AyudaValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Nptipayu
+        column:   codtipayu
+        unique_error:  El Tipo de Ayuda no existe. 
+
+CategoriaValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Npcatpre
+        column:   codcat
+        unique_error:  La Categoria Presupuestaria no existe.  
+
+EventoValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Cpevepre
+        column:   codeve
+        unique_error: El Evento no existe.  
+
+UnidadValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Npestorg
+        column:   codniv
+        unique_error:  La Unidad solicitante no existe.                                  

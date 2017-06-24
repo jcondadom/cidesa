@@ -1,0 +1,26 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Seggruapl
+    theme:            cidesaGenerator
+    fields:
+      codgru:
+        name: Grupo
+        params: maxlength=3
+        catalogo:
+          catalogoweb: Seggrupo_Segasigpergru
+          clase: Seggrupo
+          ajax: 1
+          parametros: getprincipal="getCodgru" getsecundario="getDesgru" campoprincipal="codgru" camposecundario="desgru" campobase = "id"
+      codapl: { name: Aplicación}
+      admin: { name: Es Administrador}
+      marca: { name: .}
+      grid: { name: .}
+    edit:
+      title:          Definición de Perfil por Grupo
+      display:
+        "Perfil":   [codgru, _codapl, _admin, _marca]
+        "Permisologías":   [ _grid]
+      actions:
+        _save:        ~
+        _create:      ~

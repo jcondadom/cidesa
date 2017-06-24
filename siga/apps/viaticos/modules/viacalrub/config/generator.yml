@@ -1,0 +1,44 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Viacalrub
+    theme:            cidesaGenerator
+    fields:
+      codrub:
+        name: Rubro
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Viadefrub_codrub_cal
+          clase: Viadefrub
+          ajax: 1
+          parametros: getprincipal="getCodrub" getsecundario="getDesrub" campoprincipal="codrub" camposecundario="desrub" campobase = "id"
+          divupdate: div1
+      grid:           { name: .}
+      desrub:         { name: Descripción}
+      codnivtra:         { name: Codigo Nivel o Traslado}
+      desnivtra:         { name: Descripción}
+      nompai:         { name: País}
+      codpai:
+        name: Pais
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: viaestado_codpai
+          clase: Viapais
+          ajax: 2
+          parametros: getprincipal="getCodpai" getsecundario="getNompai" campoprincipal="codpai" camposecundario="nompai" campobase = "id"
+
+    list:
+      title:           Listado de Tabla de Calculo para Rubro
+      display:         [=codrub, desrub, codnivtra, desnivtra, nompai]
+      filters:         [codrub, codnivtra, codpai]
+      sort:            codrub
+
+    edit:
+      title:                   Edicion de Tabla para le Calculo de Rubro
+      display:
+        Datos Rubros:          [codrub, codpai]
+        Datos para el Calculo: [_grid]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~

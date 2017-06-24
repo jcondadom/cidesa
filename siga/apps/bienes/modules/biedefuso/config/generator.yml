@@ -1,0 +1,28 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Bndefuso
+    theme:            cidesaGenerator
+
+    fields:
+      coduso: {name: Código, params : size=5 maxlength=1  onFocus=readonly(this.id) }
+      desuso: {name: Descripción, params: maxlength=250}
+      
+    list:
+      title:          Definición de Usos( Terrenos y Edificaciones)
+      filters:        [coduso, desuso]
+      display:        [=coduso, desuso]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort: coduso
+
+    edit:
+      title:          Edición de Usos(Terrenos y Edificaciones)
+      display:        [coduso, desuso]
+      actions:
+         _list:     ~
+         _save:     ~
+         _delete:   ~
+         _create:   ~

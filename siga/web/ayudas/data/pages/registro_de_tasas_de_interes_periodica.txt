@@ -1,0 +1,28 @@
+====== Registro de Tasas de Interés Periódicas ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que le permitirá registrar las Tasas de Interés que se tomarán en cuenta para el Cálculo de Prestaciones Sociales.</html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Prestaciones** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperprest.jpg|}}"></div><br></html> 
+
+  * Seleccione la opción **Registros Útiles para el Cálculo de Prestaciones Sociales**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperregutiparacalpresoc.jpg|}}"></div><br></html>
+
+  * Por último seleccione la opción **Registro de Tasas de Interés Periódicas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperregdetasasdeintper.jpg|}}"></div><br></html>
+
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Registro de Tasas de Interés Periódicas** solo podrá realizar las Operaciones Básicas de: 
+
+  * [[Incluir Registro de Tasas de Interés Periódicas |Incluir]]
+
+  * [[Modificar Registro de Tasas de Interés Periódicas|Modificar]]
+
+  * [[Consultar Registro de Tasas de Interés Periódicas|Consultar]]

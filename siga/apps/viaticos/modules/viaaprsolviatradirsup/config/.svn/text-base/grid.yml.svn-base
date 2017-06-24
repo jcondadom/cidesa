@@ -1,0 +1,79 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   viasolviatra
+  anchogrid:               900
+  ancho:                   870
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 2
+  titulo:                  Aprobar
+  tipo:                    k
+  nombrecampo:             check3
+  esgrabable:              true  
+  html:                    [ size=4 onClick=verificar(this.id) ]
+2:       # Columna 2
+  titulo:                  DesAprobar
+  tipo:                    k
+  nombrecampo:             check2
+  esgrabable:              true  
+  html:                    [ size=4 onClick=verificar(this.id)]  
+3:       # Columna 3
+  titulo:                  Nro. Solicitud
+  tipo:                    t
+  nombrecampo:             numsol
+  esgrabable:              true
+  html:                    [ readonly=true size=15]
+4:       # Columna 4
+  titulo:                  Fecha Solicitud
+  tipo:                    t
+  nombrecampo:             fecsol
+  esgrabable:              true
+  html:                    [ readonly=true size=10]
+5:       # Columna 5
+  titulo:                  Empleado Solicitante
+  tipo:                    t
+  nombrecampo:             empleado
+  esgrabable:              true
+  html:                    [ readonly=true size=35]
+6:       # Columna 6
+  titulo:                  Codigo Nivel Actual
+  tipo:                    t
+  nombrecampo:             codnivapract
+  esgrabable:              true
+  oculta:                  true
+  html:                    [ readonly=true size=15]
+7:       # Columna 7
+  titulo:                  Nivel Aprobacion Actual
+  tipo:                    t
+  nombrecampo:             nivact
+  esgrabable:              true
+  html:                    [ readonly=true size=20]
+8:       # Columna 8
+  titulo:                  Codigo Nivel Siguiente
+  tipo:                    t
+  nombrecampo:             codnivaprsig
+  esgrabable:              true
+  oculta:                  true
+  html:                    [ readonly=true size=15]
+9:       # Columna 9
+  titulo:                  Nivel Aprobacion Siguiente
+  tipo:                    t
+  nombrecampo:             nivsig
+  esgrabable:              true
+  html:                    [ readonly=true size=20]
+10:       # Columna 10
+  titulo:                  Procedencia
+  tipo:                    t
+  nombrecampo:             codproced
+  esgrabable:              true
+  oculta:                  true
+  html:                    [ readonly=true size=15]
+11:       # Columna 11
+  titulo:                  Tipo
+  tipo:                    t
+  nombrecampo:             tipvia2
+  esgrabable:              false
+  oculta:                  false
+  html:                    [ readonly=true size=15]

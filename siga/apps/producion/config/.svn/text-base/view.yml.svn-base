@@ -1,0 +1,17 @@
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Módulo de Producción
+    robots:       index, follow
+    description:  Módulo de Producción
+    keywords:     Módulo de Producción
+    language:     en
+
+  stylesheets:    [main]
+
+  javascripts:    [ %SF_PROTOTYPE_WEB_DIR%/js/prototype, %SF_PROTOTYPE_WEB_DIR%/js/scriptaculous, tools, ajax, observer ]
+
+  has_layout:     on
+  layout:         layout

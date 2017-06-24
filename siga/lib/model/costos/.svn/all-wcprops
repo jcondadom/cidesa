@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repositorio/!svn/ver/49466/web/php/siga/branches/productions/trunk/lib/model/costos
+END
+CosdefturPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/49457/web/php/siga/branches/productions/trunk/lib/model/costos/CosdefturPeer.php
+END
+Cosforpro.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/49466/web/php/siga/branches/productions/trunk/lib/model/costos/Cosforpro.php
+END
+CostipcalPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/49459/web/php/siga/branches/productions/trunk/lib/model/costos/CostipcalPeer.php
+END
+CostipinsmedPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49466/web/php/siga/branches/productions/trunk/lib/model/costos/CostipinsmedPeer.php
+END
+Cosdeftur.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/49457/web/php/siga/branches/productions/trunk/lib/model/costos/Cosdeftur.php
+END
+CostipproPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/49466/web/php/siga/branches/productions/trunk/lib/model/costos/CostipproPeer.php
+END
+Costipcal.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/49459/web/php/siga/branches/productions/trunk/lib/model/costos/Costipcal.php
+END
+Costipinsmed.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/49466/web/php/siga/branches/productions/trunk/lib/model/costos/Costipinsmed.php
+END
+CostipcosPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/49457/web/php/siga/branches/productions/trunk/lib/model/costos/CostipcosPeer.php
+END
+Costippro.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/49466/web/php/siga/branches/productions/trunk/lib/model/costos/Costippro.php
+END
+Costipcos.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/49457/web/php/siga/branches/productions/trunk/lib/model/costos/Costipcos.php
+END
+CosforproPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/49466/web/php/siga/branches/productions/trunk/lib/model/costos/CosforproPeer.php
+END

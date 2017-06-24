@@ -1,0 +1,17 @@
+
+
+# Cargando los servicios del calculo asincrono del siga
+
+# Cargar servidor Redis - Como Root
+
+$ cd /var/www/cidesa/redis
+$ nohup ./src/redis-server
+
+
+# Cargar SideKiq - Como usuario soporte
+
+$ cd /home/soporte
+$ source /home/soporte/.rvm/scripts/rvm
+$ cd /var/www/cidesa/nomina_worker
+$ nohup sidekiq -r ./worker.rb
+

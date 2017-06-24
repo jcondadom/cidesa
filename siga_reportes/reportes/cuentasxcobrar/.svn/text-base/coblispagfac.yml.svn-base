@@ -1,0 +1,31 @@
+Parametros:
+  modulo: cuentasxcobrar
+  nomrep: coblispagfac
+  titulo: LISTADO DE PAGOS REALIZADOS POR FACTURA
+  orientacion: Horizontal
+  tipopagina: Carta
+  width: 210
+  jasper: S
+
+Filas:
+  1:
+    tipotag:   inputcat_tag
+    label: "Factura:"
+    sql:   "SELECT min(reffac) as facmin,max(reffac) as facmax FROM fafactur"
+    nomdes: facmin
+    campodes: facmin
+    catdes: 0
+    nomhas: facmax
+    campohas: facmax
+    cathas: 1
+    nomcat: factur
+    size: 10
+  2:
+    tipotag:   inputfec_tag
+    label: "Fecha Emision: "
+    sql: "select to_char(min(fecfac),'dd/mm/yyyy') as fechamin, to_char(max(fecfac),'dd/mm/yyyy') as fechamax from fafactur"
+    nomdes: fechamin
+    campodes: fechamin
+    nomhas: fechamax
+    campohas: fechamax
+    size: 15

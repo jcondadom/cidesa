@@ -1,0 +1,22 @@
+====== Operación Modificar ======
+
+  * Presione el Botón de Consulta {{:btncatalogo.jpg|}} <html><br><br></html>
+
+  * El sistema muestra un **catálogo** con los Documentos de Tipo Pagos registrados.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:catalogodocpre.jpg|}}"></div><br></html>
+
+  * Seleccione el **Documento de tipo Pagos** a modificar.   <html><br><br></html>
+
+  * El único dato que podrá modificar es la **Descripción** y el **Nombre Abreviado** del Documento.  <html>
+<br><br></html>
+
+  * Presionar el **Botón Guardar** para actualizar la información.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:btnguardar1.jpg|}}"></div><br></html>
+
+  * El sistema verifica si se desea guardar los cambios realizados
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:mnsconfirmacionguardar.jpg|}}"></div><br></html>
+
+  * Presione **OK**

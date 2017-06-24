@@ -1,0 +1,26 @@
+====== Conceptos de Ahorro Habitacional ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite definir todos los conceptos asociados al ahorro habitacional por cada Tipo de Nómina existente dentro de la Institución. </html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el **Menú Principal** de **SIGA**.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefesp.jpg|}}"></div><br></html>
+
+  * Por último seleccione la opción **Conceptos de Ahorro Habitacional**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconahohab.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Conceptos de Ahorro Habitacional** podrá realizar las Operaciones Básicas de:
+
+  * [[Incluir Conceptos de Ahorro Habitacional|Incluir]]
+
+  * [[Modificar Conceptos de Ahorro Habitacional |Modificar]]
+
+  * [[Eliminar Conceptos de Ahorro Habitacional|Eliminar]]
+
+  * [[Consultar Conceptos de Ahorro Habitacional|Consultar]]

@@ -1,0 +1,27 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npcosnivf
+    theme:            cidesaGenerator
+    fields:
+      codnivc: { name: Código de Nivel, params : size=5 maxlength=1  onFocus=readonly(this.id)}
+      fecvig: { name: Fecha de Vigencia, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      costo: { name: Costo, params : size=15 }
+    list:
+      title:          Niveles con Costo y Fecha de Vigencia
+      filters:        [codnivc, fecvig]
+     display:        [=codnivc, fecvig, costo]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codnivc      
+    edit:
+      title:          Edición  de Niveles con Costo y Fecha de Vigencia
+      display:
+        "NONE":   [codnivc, fecvig, costo]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

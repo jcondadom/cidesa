@@ -1,0 +1,51 @@
+methods:
+  post:
+   - "fainstedu{codinst}"
+   - "fainstedu{nominst}"
+   - "fainstedu{codedo}"
+   - "fainstedu{codciu}"
+   - "fainstedu{codmun}"
+   - "fainstedu{codpar}"
+   - "fainstedu{coddep}"
+   - "fainstedu{codsub}"
+
+names:
+  fainstedu{codinst}:
+    required:  Yes
+    required_msg: Introduzca el código de la Institución
+    validators: Validator_codinst
+
+  fainstedu{nominst}:
+    required:  Yes
+    required_msg: Introduzca el nombre de la Institución
+
+  fainstedu{codedo}:
+    required:  Yes
+    required_msg: Introduzca el código del Estado
+
+  fainstedu{codciu}:
+    required:  Yes
+    required_msg: Introduzca el código de la Ciudad
+
+  fainstedu{codmun}:
+    required:  Yes
+    required_msg: Introduzca el código de la Municipio
+
+  fainstedu{codpar}:
+    required:  Yes
+    required_msg: Introduzca el código de la Parroquia
+
+  fainstedu{coddep}:
+    required:  Yes
+    required_msg: Introduzca el código de la Dependencia
+
+  fainstedu{codsub}:
+    required:  Yes
+    required_msg: Introduzca el código del Subsistema
+
+Validator_codinst:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Fainstedu
+        column:       codinst
+        unique_error: El Código ya Existe intente con otro.

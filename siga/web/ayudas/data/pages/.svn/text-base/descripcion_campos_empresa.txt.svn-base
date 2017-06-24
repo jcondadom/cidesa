@@ -1,0 +1,57 @@
+Los campos que conforman la pantalla de **Empresa** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbandefespempinc1.jpg|}}"></div><br></html>
+
+  * **Cód. Empresa:** Refiera al Código que identifica a la empresa. <html><br><br></html>
+
+  * **Nombre:**  Indica el Nombre con el cual se encuentra registrada la Institución. <html><br><br></html>
+
+  * **Dirección:** Se refiere a la dirección completa donde se encuentra ubicada la institución. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbandefespempinc2.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Datos Orden** <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **Sección Datos de la Orden:** 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Cuenta por Pagar:** Se refiere a la Cuenta Contable asociada a una deuda contraída por la Institución.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Cuenta de Descuento:** Indica la Cuenta Contable asociada a una deducción sobre una Orden de Pago otorgada por la Institución.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Número Inicial para la Orden de Pago:** Este campo se refiere al número de inicio del correlativo de la Orden de Pago.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Formato Unidad Origen:** Se define la estructura del Código de unidad de origen, es decir, de donde procedio la necesidad de generar el pago. <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **Sección Tipos de Orden:** 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Nómina:** Permite indicar que el tipo de documento que causa va ha estar asociado a la nómina para cancelar el sueldo de todo el personal que labora en la instituciones, es decir, permite hacer la relación entre Nómina y Tesorería.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Aportes:** Permite indicar que el tipo de documento que causa, va ha estar asociado a Aportes.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Ejecutivo:** Permite indicar que el tipo de documento que causa,va a estar asociado a la transferencia de dinero de otro ente hacia la institución.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Liquidación:** Permita indicar el tipo de orden de pago que se va a utilizar para la liquidación de un empleado. 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Fideicomiso:** Permita indicar el tipo de documento que se va a utilizar para las obras. <html><br><br></html>
+
+**Nota:** Para los campos anteriores debe presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra automáticamente una [[Lista|Lista]] con los registros existentes de donde debe seleccionar el que desee. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbandefespempinc3.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Asociación:** <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Valor de la Unidad Tributaria en Bs:** Este campo se refiere al valor actual de la unidad tributaria, que luego va a ser utilizado en las retenciones.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Marcar en el recuadro si desea **Generar Orden de Pago de Retenciones después de guardar la Orden de Pago**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Marcar en el recuadro si desea **Mostrar sólo Órdenes de Pago con cheque entregado (Fondos a Terceros)**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> ** - Generar Comprobantes de Orden:** En este campo se selecciona si se va a genera o no el Comprobante de la Orden.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> ** - Ver Comprobantes y Retenciones:**Permite ver los Comprobantes y el porcentaje de dinero que será deducido sobre el monto total de la Orden de Pago.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Generar Comprobante Adicional:** Permite generar duplicados de los comprobantes contables a otra sesion remota del modulo de tesoreria. 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Generar Causado Bono Vacacional:** Permite generar comprobante contable de la fracción del bono vacacional. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Empresa** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

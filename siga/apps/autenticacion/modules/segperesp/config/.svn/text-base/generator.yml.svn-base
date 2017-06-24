@@ -1,0 +1,31 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Segperesp
+    theme:            cidesaGenerator
+    fields:
+      cedemp: {name: Cédula}
+      nomemp: {name: Nombre}
+      pasuse: {name: Clave}
+      grid: {name: .}
+    list:
+      title:          Asignación de permisos especiales por usuario
+      fields:
+        cedemp: { name: Cédula, params : size=5 maxlength=4  onFocus=readonly(this.id)}
+        codapl: { name: Código de Aplicación, params: size=30 maxlength=30 }
+      filters:        [cedemp, codapl]
+      display:        [=cedemp, codapl]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      cedemp
+    edit:
+      title:          Asignación de permisos especiales por Usuario
+      display:           
+           "Datos del empleado": [_cedemp, nomemp, pasuse, _grid]
+      actions:
+        _list:        NONE
+        _save:        ~
+        _delete:      ~
+        _create:      ~

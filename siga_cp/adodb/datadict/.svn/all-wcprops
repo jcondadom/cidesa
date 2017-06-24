@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repositorio/!svn/ver/696/web/php/presupuesto/trunk/adodb/datadict
+END
+datadict-firebird.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repositorio/!svn/ver/696/web/php/presupuesto/trunk/adodb/datadict/datadict-firebird.inc.php
+END
+datadict-postgres.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repositorio/!svn/ver/696/web/php/presupuesto/trunk/adodb/datadict/datadict-postgres.inc.php
+END
+datadict-sybase.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repositorio/!svn/ver/696/web/php/presupuesto/trunk/adodb/datadict/datadict-sybase.inc.php
+END
+datadict-db2.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repositorio/!svn/ver/696/web/php/presupuesto/trunk/adodb/datadict/datadict-db2.inc.php
+END
+datadict-sapdb.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/696/web/php/presupuesto/trunk/adodb/datadict/datadict-sapdb.inc.php
+END
+datadict-informix.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repositorio/!svn/ver/696/web/php/presupuesto/trunk/adodb/datadict/datadict-informix.inc.php
+END
+datadict-generic.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repositorio/!svn/ver/696/web/php/presupuesto/trunk/adodb/datadict/datadict-generic.inc.php
+END
+datadict-mssql.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/696/web/php/presupuesto/trunk/adodb/datadict/datadict-mssql.inc.php
+END
+datadict-access.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repositorio/!svn/ver/696/web/php/presupuesto/trunk/adodb/datadict/datadict-access.inc.php
+END
+datadict-oci8.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repositorio/!svn/ver/696/web/php/presupuesto/trunk/adodb/datadict/datadict-oci8.inc.php
+END
+datadict-ibase.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/696/web/php/presupuesto/trunk/adodb/datadict/datadict-ibase.inc.php
+END
+datadict-mysql.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/696/web/php/presupuesto/trunk/adodb/datadict/datadict-mysql.inc.php
+END

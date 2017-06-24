@@ -1,0 +1,26 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npdefofi
+    theme:            cidesaGenerator
+    fields:
+      codofi: { name: Código, params : size=5 maxlength=4  onFocus=readonly(this.id) onBlur="this.value=this.value.pad(4, '0',0);"}
+      desofi: { name: Descripción, params : size=80 maxlength=250 }
+    list:
+      title:          Definición de Oficinas
+      filters:        [codofi, desofi]
+      display:        [=codofi, desofi]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codofi
+    edit:
+      title:          Edición  de Oficina
+      display:
+        "Datos de la Oficina":   [codofi, desofi]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

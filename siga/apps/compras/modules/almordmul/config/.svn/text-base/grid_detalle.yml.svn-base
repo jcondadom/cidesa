@@ -1,0 +1,162 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   caartord
+  anchogrid:               1000
+  ancho:                   2000
+  filas:                   1
+  titulo:                  ' Artículos de la Orden'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Marque
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:			         true
+  html:                    [ ]
+2:       # Columna 2
+  titulo:                  Código Artículo
+  tipo:                    t
+  nombrecampo:             codart
+  esgrabable:              true
+  html:                    ["size=25"]
+3:       # Columna 3
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             desart
+  esgrabable:              true
+  html:                    ["size=30x1 readOnly=true"]
+4:       # Columna 4
+  titulo:                  Unidad de Medida
+  tipo:                    t
+  nombrecampo:             unimed
+  esgrabable:              true
+  html:                    ["size=25 readOnly=true"]
+5:       # Columna 5
+  titulo:                  Partida
+  tipo:                    t
+  nombrecampo:             codpar
+  esgrabable:              true
+  html:                    ["size=35 readOnly=true"]
+6:       # Columna 6
+  titulo:                  Código Categoría
+  tipo:                    t
+  nombrecampo:             codcat
+  esgrabable:              true
+  html:                    ["size=20"]
+7:       # Columna 7
+  titulo:                  Código Presupuestario
+  tipo:                    t
+  nombrecampo:             codpre
+  esgrabable:              true
+  html:                    ["size=40 readOnly=true"]
+8:      # Columna 8
+  titulo:                  Cant. Ordenada
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canord
+  esnumerico:              true
+  default:                 '0,00'
+  ajaxgrid:                true
+  ajaxadicionales:         {0: caordcom_fecord, 1: caordcom_valmon}
+  html:                    ["size=10"]
+9:      # Columna 9
+  titulo:                  Cant. Ajustada
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canaju
+  esnumerico:              true
+  default:                 '0,00'
+  html:                    ["size=10 readOnly=true"]
+10:      # Columna 10
+  titulo:                  Cant. Recibida
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canrec
+  esnumerico:              true
+  default:                 '0,00'
+  html:                    ["size=10 readOnly=true"]
+11:      # Columna 11
+  titulo:                  Cant. Total
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             cantot
+  esnumerico:              true
+  default:                 '0,00'
+  html:                    ["size=10 readOnly=true"]
+12:      # Columna 12
+  titulo:                  Costo
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             preart
+  esnumerico:              true
+  decimal:                 6
+  #default:                 '0,000000'
+  ajaxgrid:                true
+  ajaxadicionales:         {0: caordcom_fecord, 1: caordcom_valmon}
+  html:                    ["size=10'"]
+13:      # Columna 13
+  titulo:                  Precio Neto
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             prenet
+  esnumerico:              true
+  decimal:                 6
+  html:                    ["size=10 readOnly=true"]
+  estotal:                 [true, caordcom_totorden]
+14:      # Columna 14
+  titulo:                  Descuento
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             dtoart
+  esnumerico:              true
+  default:                 '0,00'
+  html:                    ["size=10 onBlur='ValidarMontoGridv2(this);' readOnly=true"]
+  estotal:                 [true, caordcom_descuentos]
+15:      # Columna 15
+  titulo:                  Recargo
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             rgoart
+  esnumerico:              true
+  decimal:                 4
+  #default:                 '0,0000'
+  html:                    ["size=10 readOnly=true"]
+  #estotal:                 [true, caordcom_totrecargo]
+16:      # Columna 16
+  titulo:                  Total
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             totart
+  esnumerico:              true
+  #default:                 '0,000000'
+  decimal:                 4
+  html:                    ["size=10 readOnly=true"]
+  #estotal:                 [true, caordcom_monord]
+17:       # Columna 17
+  titulo:                  Apl. Recargos
+  tipo:                    t
+  nombrecampo:             anadir
+  esgrabable:              false
+  html:                    ["type='text' size='1' style='border:none' class='imagenalmacen' onClick='mostrargridrecargos(this.id)'"]
+18:       # Columna 18
+  titulo:                  Datos Recargos
+  tipo:                    t
+  nombrecampo:             datosrecargo
+  esgrabable:              true
+  oculta:                  true
+  html:                    ["size=25"]
+19:       # Columna 19
+  titulo:                  N° Solicitud
+  tipo:                    t
+  nombrecampo:             reqart
+  esgrabable:              true
+  oculta:                  true
+  html:                    ["size=25"]
+20:      # Columna 20
+  titulo:                  Cant. Requerida
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canreq
+  esnumerico:              true
+  default:                 '0,00'
+  html:                    ["size=10 readOnly=true"]  

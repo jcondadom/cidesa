@@ -1,0 +1,46 @@
+methods:
+  post:
+   - "optipdes{codtde}"
+   - "optipdes{destde}"
+   - "optipdes{codcta}"   
+
+names:
+  optipdes{codtde}:
+    required:  Yes
+    required_msg: El Código del Tipo de Descuento no puedo estar en Blanco
+    validators: Validator_codtde
+
+  optipdes{destde}:
+    required:  Yes
+    required_msg: La Descripción del Tipo de Descuento no puedo estar en Blanco
+    validators: Validator_destde
+
+  optipdes{codcta}:
+    required:  Yes
+    required_msg: La Cuenta Contable del Tipo de Descuento no puedo estar en Blanco
+    validators: ExistValidator_codcta
+
+Validator_codtde:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Optipdes
+        column:       codtde
+        unique_error: El registro ya Existe intente con otro.
+
+
+ExistValidator_codcta:
+    class: CidesaExistValidator
+    param:
+        class:        Contabb
+        column:       codcta
+        unique_error: La Cuenta Contable del Tipo de Descuentoo no Existe.
+
+Validator_destde:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caracteres
+        max:       250
+        max_error: La descripción no puede pasar mas de 250 caracteres
+
+

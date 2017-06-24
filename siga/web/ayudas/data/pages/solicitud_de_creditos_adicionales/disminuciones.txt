@@ -1,0 +1,22 @@
+====== Solicitud de Créditos Adicionales / Disminuciones ======
+
+**Tabla:** CPADIDIS , CPMOVADI
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite aumentar o disminuir la disponibilidad presupuestaria de una o varias partidas. <br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Las adiciones se utilizan para reflejar los ingresos extraordinarios, como lo es en el caso de aquellas partidas que son aprobadas y creadas en fecha posterior a la del Cierre de la Etapa de Definiciones. </html>
+
+**Para ello:**
+
+  * Seleccione la opción **Contabilidad Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpre.jpg|}}"></div><br></html>
+
+   * Seguidamente despliegue la opción **Ejecución Presupuestaria**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreejepre.jpg|}}"></div><br></html>
+
+  * Por último seleccione **Solicitud de Créditos Adicionales / Disminuciones**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpresolcreadidis.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Solicitud de Créditos Adicionales / Disminuciones** veamos la [[Descripcion_Campos_presupuesto_solicitud_creditos_adicionales_disminuciones|Descripción de los Campos]]
+
+

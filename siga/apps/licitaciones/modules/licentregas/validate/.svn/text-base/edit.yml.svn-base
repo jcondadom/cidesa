@@ -1,0 +1,93 @@
+methods:
+  post:
+   - "lientregas{nument}"
+   - "lientregas{numcont}"
+
+   - "lientregas{codempadm}"
+   - "lientregas{codempeje}"
+   - "lientregas{fecreg}"
+   - "lientregas{dias}"
+   - "lientregas{fecven}"
+
+names:
+
+  lientregas{nument}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_nument
+
+  lientregas{numcont}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numcont
+
+  lientregas{codempadm}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  lientregas{codempeje}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+    
+  lientregas{fecreg}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  lientregas{dias}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: MyNumberValidator
+    
+  lientregas{fecven}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+Validator_nument:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Lientregas
+        column:       nument
+        unique_error: El número de acta ya existe, intente con otra
+
+Validator_numcont:
+    class: CidesaExistValidator
+    param:
+        class:        Licontrat
+        column:       numcont
+        unique_error: El contrato no existe
+
+
+Validator_codemp:
+    class: CidesaExistValidator
+    param:
+        class:        Lidatste
+        column:       codemp
+        unique_error: El Empleado no existe
+
+
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+MyNumberValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]
+
+
+Validator_detact:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: El detalle del acta no puede tener menos de 2 caracteres
+        max:       1000
+        max_error: El detalle del acta no puede pasar mas de 1000 caracteres

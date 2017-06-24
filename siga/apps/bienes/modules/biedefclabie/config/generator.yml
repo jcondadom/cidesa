@@ -1,0 +1,28 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Bnclabie
+    theme:            cidesaGenerator
+    fields:
+      codcla: { name: Código, params: size=10 maxlength=1 onFocus=readonly(this.id)}
+      descla: { name: Descripción, params: size=80 maxlength=500 }
+    list:
+      title:          Definición de Clases de Bien (Vehículos)
+      fields:
+        codcla: { name: Código, params: size=10 maxlength=3 }
+        descla: { name: Descripción, params: size=20 maxlength=500  }
+      filters:        [codcla, descla]
+      display:        [=codcla, descla]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:  8
+      sort: codcla
+    edit:
+      title:          Edición de Clase de Bien (Vehículos)
+      display:        [codcla, descla]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

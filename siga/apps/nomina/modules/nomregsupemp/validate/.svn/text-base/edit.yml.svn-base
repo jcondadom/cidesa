@@ -1,0 +1,57 @@
+methods:
+  post:
+   - "npsupemp{codemp}"
+   - "npsupemp{codempsup}"
+   - "npsupemp{fecdes}"
+   - "npsupemp{fechas}"
+   - "npsupemp{dessup}"
+
+names:
+  npsupemp{codemp}:
+    required:  Yes
+    required_msg: El Código del Empleado Suplente no puede estar en Blanco
+    validators: CodempValidator
+
+  npsupemp{codempsup}:
+    required:  Yes
+    required_msg: El Código del Empleado a Suplir no puede estar en Blanco
+    validators: CodempValidator    
+
+  npsupemp{fecdes}:
+    required:  Yes
+    required_msg: La Fecha Desde no puede estar en Blanco
+    validators: FechaValidator
+
+  npsupemp{fechas}:
+    required:  Yes
+    required_msg: La Fecha Hasta no puede estar en Blanco
+    validators: FechaValidator    
+
+  npsupemp{dessup}:
+    required:  Yes
+    required_msg: La Descrición no puedo estar en Blanco
+    validators: DescripcionValidator    
+
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción no puede tener menos de 5 caracteres
+        max:       1000
+        max_error: La Descripción no puede tener más de 1000 caracteres
+
+CodempValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Nphojint
+        column:   codemp
+        unique_error:  El Código del Empleado no existe.
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es inválida
+

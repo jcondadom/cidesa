@@ -1,0 +1,9 @@
+====== Text Config Manager: Acronym  ======
+
+Use this page to Manage the Acronym List of your Dokuwiki installation.\\
+What are Acronyms? refer to [[doku>wiki:abbreviations]].
+
+For more details about this plugin see [[doku>plugin:txtconf]].
+
+Remember to press the **SAVE** button before leaving this page otherwise your changes will be lost.
+

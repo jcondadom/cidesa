@@ -1,0 +1,51 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npnucemphor
+    theme:            cidesaGenerator
+    fields:       
+      codniv:
+        name: Núcleo
+        params: size=20  maxlength=16
+        catalogo:
+          catalogoweb: Npestorg_Nomhojint
+          clase: Npestorg
+          ajax: 1
+          parametros: getprincipal="getCodniv" getsecundario="getDesniv" campoprincipal="codniv" camposecundario="desniv" campobase = "id"
+          catalogoparams: /param1/'."'+$('npnucemphor_longitud').value+'".'
+          ajaxparams: +'."'".'&longitud='."'+$('npnucemphor_longitud').value".'          
+      codcon:
+        name: Concepto
+        params: size=10  maxlength=3
+        catalogo:
+          catalogoweb: Npcalcon_nomcalcon
+          clase: Npdefcpt
+          ajax: 2
+          parametros: getprincipal="getCodcon" getsecundario="getNomcon" campoprincipal="codcon" camposecundario="nomcon" campobase = "id"          
+          divupdate: divgrid
+          ajaxparams: +'."'".'&nucleo='."'+$('npnucemphor_codniv').value+'".'&fecha='."'+$('npnucemphor_fecreg').value".'
+      fecreg: { name: Fecha, params: date_format=dd/MM/yyyy}
+      grid:   { name: .}
+      desniv:   { name: Nombre Núcleo}
+      nomcon:   { name: Nombre Concepto}
+      tothor:   { name: Total de Horas}
+    list:
+      title:          Horas por Núcleo y Concepto
+      filters:        [codniv, desniv, codcon, fecreg]
+      display:        [=codniv, desniv, codcon, nomcon, fecreg]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codniv            
+    edit:
+      title:         Registro de Horas por Núcleo y Concepto
+      display:
+        "Datos":    [fecreg, codniv, codcon]
+        "Detalle":    [_grid, tothor]
+      hide: [longitud]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

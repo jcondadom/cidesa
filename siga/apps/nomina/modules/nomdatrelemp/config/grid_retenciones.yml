@@ -1,0 +1,34 @@
+opciones:                  # Opciones generales
+  name:                    o
+  eliminar:                true
+  tabla:                   npinfret
+  anchogrid:               700
+  ancho:                   650
+  filas:                   1
+  titulo:                  'Retenciones'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Tipo
+  tipo:                    t
+  nombrecampo:             tipret
+  html:                    ["size=20 maxlength=200"]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Fecha
+  tipo:                    t
+  nombrecampo:             fecret
+  html:                    ["size=50 maxlength=200"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Monto
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monret
+  esnumerico:              true
+  html:                    ["size=10"]
+4:       # Columna 4
+  titulo:                  Observaciones
+  tipo:                    a
+  nombrecampo:             obsret
+  esgrabable:              true
+  html:                    ["size=20x2 maxlength=2000 onkeyup='ismaxlength(this)'"]  

@@ -1,0 +1,15 @@
+Lo campos que conforman la pantalla Variables son los siguientes: <html><br><br></html>
+
+  * **Código de la Variable:** Número que identifica a la variable. <html><br><br></html>
+
+  * **Nombre** que haga referencia a la variable a definir. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefvarinc.jpg|}}"></div><br></html>
+
+  * **Tipo de Nómina** a la cual se le asociará la variable que se está definiendo. <html><br><br></html>
+
+  * En el recuadro **Valores para la Variable** se define 5 tipos de valores que puede tomar dicha variable.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefvarinc1.jpg|}}"></div><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Definición de Grupos de Recaudos** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

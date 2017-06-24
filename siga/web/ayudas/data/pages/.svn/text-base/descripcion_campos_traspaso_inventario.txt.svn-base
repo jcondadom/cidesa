@@ -1,0 +1,12 @@
+La pantalla Traspaso de **Inventario Físico a Lógico** funciona de la siguiente manera:<html><br><br></html>
+
+  * En un primer lugar obervará una  [[Listas|Lista]] con las Fechas de los Inventarios físicos registrados previamente en el sistema en la pantalla [[inventario_fisico|Inventario Físico]].<html><br><br></html>
+
+  * Seleccione de la Lista la Fecha del Inventario Físico que desea traspasar al Inventario Lógico. <html><br><br></html>
+
+  * Al seleccionar la Fecha del Inventario Lógico el sistema automáticamente lo dirige a la siguiente pantalla:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmmanttrasinvfisloginc1.jpg|}}"></div><br></html>
+
+  * Por último presione el Botón {{:btntraspasoinventario.jpg|}} y automáticamente el sistema actualizará la cantidad existente de cada uno de los artículos que se encuentra en el Inventario Lógico con las cantidades existentes que se registraron en el Inventario Físico.
+

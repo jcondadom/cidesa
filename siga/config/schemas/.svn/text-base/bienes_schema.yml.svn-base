@@ -1,0 +1,2322 @@
+propel:
+  _attributes: { noXsd: false, defaultIdMethod: native, package: lib.model }
+  bnclafun:
+    codcla:
+      type: VARCHAR
+      size: 3
+      required: true
+    descla:
+      type: VARCHAR
+      size: 250
+    stacla:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bncobseg:
+    codcob:
+      type: VARCHAR
+      size: 4
+      required: true
+    descob:
+      type: VARCHAR
+      size: 500
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bndefact:
+    codact:
+      type: VARCHAR
+      size: 30
+      required: true
+    desact:
+      type: VARCHAR
+      size: 250
+    canact:
+      type: NUMERIC
+      size: 14
+      scale: 0
+    staact:
+      type: VARCHAR
+      size: 1
+    viduti:
+      type: NUMERIC
+      size: 4
+      scale: 0
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bndefcon:
+    codact:
+      type: VARCHAR
+      size: 30
+      required: true
+    codmue:
+      type: VARCHAR
+      size: 20
+      required: true
+    ctadepcar:
+      type: VARCHAR
+      size: 32
+    ctadepabo:
+      type: VARCHAR
+      size: 32
+    ctaajucar:
+      type: VARCHAR
+      size: 32
+    ctaajuabo:
+      type: VARCHAR
+      size: 32
+    ctarevcar:
+      type: VARCHAR
+      size: 32
+    ctarevabo:
+      type: VARCHAR
+      size: 32
+    stacta:
+      type: VARCHAR
+      size: 1
+    ctapercar:
+      type: VARCHAR
+      size: 32
+    ctaperabo:
+      type: VARCHAR
+      size: 32
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bndefconi:
+    codact:
+      type: VARCHAR
+      size: 30
+      required: true
+    codinm:
+      type: VARCHAR
+      size: 20
+      required: true
+    ctadepcar:
+      type: VARCHAR
+      size: 32
+    ctadepabo:
+      type: VARCHAR
+      size: 32
+    ctaajucar:
+      type: VARCHAR
+      size: 32
+    ctaajuabo:
+      type: VARCHAR
+      size: 32
+    ctarevcar:
+      type: VARCHAR
+      size: 32
+    ctarevabo:
+      type: VARCHAR
+      size: 32
+    stacta:
+      type: VARCHAR
+      size: 1
+    ctapercar:
+      type: VARCHAR
+      size: 32
+    ctaperabo:
+      type: VARCHAR
+      size: 32
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bndefcons:
+    codact:
+      type: VARCHAR
+      size: 30
+      required: true
+    codsem:
+      type: VARCHAR
+      size: 20
+      required: true
+    ctadepcar:
+      type: VARCHAR
+      size: 32
+    ctadepabo:
+      type: VARCHAR
+      size: 32
+    ctaajucar:
+      type: VARCHAR
+      size: 32
+    ctaajuabo:
+      type: VARCHAR
+      size: 32
+    ctarevcar:
+      type: VARCHAR
+      size: 32
+    ctarevabo:
+      type: VARCHAR
+      size: 32
+    stacta:
+      type: VARCHAR
+      size: 1
+    ctaperabo:
+      type: VARCHAR
+      size: 32
+    ctapercar:
+      type: VARCHAR
+      size: 32
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bndefins:
+    codins:
+      type: VARCHAR
+      size: 4
+      required: true
+    nomins:
+      type: VARCHAR
+      size: 35
+    dirins:
+      type: VARCHAR
+      size: 100
+    telins:
+      type: VARCHAR
+      size: 25
+    faxins:
+      type: VARCHAR
+      size: 25
+    email:
+      type: VARCHAR
+      size: 30
+    edoins:
+      type: VARCHAR
+      size: 30
+    munins:
+      type: VARCHAR
+      size: 30
+    paqins:
+      type: VARCHAR
+      size: 30
+    foract:
+      type: VARCHAR
+      size: 25
+    desact:
+      type: VARCHAR
+      size: 30
+    lonact:
+      type: INTEGER
+      size: 3
+      scale: 0
+    forubi:
+      type: VARCHAR
+      size: 25
+    desubi:
+      type: VARCHAR
+      size: 30
+    lonubi:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    fecper:
+      type: DATE
+    feceje:
+      type: DATE
+    coddes:
+      type: VARCHAR
+      size: 10
+    codinc:
+      type: VARCHAR
+      size: 10
+    porrev:
+      type: VARCHAR
+      size: 5
+    corrmue:
+      type: NUMERIC
+      size: 8
+      scale: 0
+    coractmue:
+      type: NUMERIC
+      size: 8
+      scale: 0
+    coractinm:
+      type: NUMERIC
+      size: 8
+      scale: 0
+    porpri:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    codtiptra:
+      type: VARCHAR
+      size: 3
+      description: Tipo de Transacción.  
+    cormuenacd:
+      type: NUMERIC
+      size: 8
+      scale: 0
+    cormueregd:
+      type: NUMERIC
+      size: 8
+      scale: 0 
+    cormuenach:
+      type: NUMERIC
+      size: 8
+      scale: 0
+    cormueregh:
+      type: NUMERIC
+      size: 8
+      scale: 0       
+    modcormue:
+      type: BOOLEAN                   
+      description: Si se puede modificar el correlativo del mueble                     
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bndefins_resp:
+    codins:
+      type: VARCHAR
+      size: 4
+      required: true
+    nomins:
+      type: VARCHAR
+      size: 35
+    dirins:
+      type: VARCHAR
+      size: 100
+    telins:
+      type: VARCHAR
+      size: 25
+    faxins:
+      type: VARCHAR
+      size: 25
+    email:
+      type: VARCHAR
+      size: 30
+    edoins:
+      type: VARCHAR
+      size: 30
+    munins:
+      type: VARCHAR
+      size: 30
+    paqins:
+      type: VARCHAR
+      size: 30
+    foract:
+      type: VARCHAR
+      size: 25
+    desact:
+      type: VARCHAR
+      size: 30
+    lonact:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    forubi:
+      type: VARCHAR
+      size: 25
+    desubi:
+      type: VARCHAR
+      size: 30
+    lonubi:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    fecper:
+      type: DATE
+    feceje:
+      type: DATE
+    coddes:
+      type: VARCHAR
+      size: 2
+    porrev:
+      type: VARCHAR
+      size: 5
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bndepact:
+    fecdep:
+      type: DATE
+      required: true
+    monmue:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    moninm:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    monsem:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    numcom:
+      type: VARCHAR
+      size: 8
+      description: Número de Comprobante
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bndepactdet:
+    codact:
+      type: VARCHAR
+      size: 30
+      required: true
+    codmue:
+      type: VARCHAR
+      size: 30
+      required: true
+    fecdep:
+      type: DATE
+      required: true
+    depmue:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      required: true
+    depacu:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      required: true
+    vallib:
+      type: NUMERIC
+      size: 18
+      scale: 2
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bndisbie:
+    coddis:
+      type: VARCHAR
+      size: 10
+      required: true
+    desdis:
+      type: VARCHAR
+      size: 250
+    afecon:
+      type: VARCHAR
+      size: 1
+    stadis:
+      type: VARCHAR
+      size: 1
+    desinc:
+      type: VARCHAR
+      size: 1
+    adimej:
+      type: VARCHAR
+      size: 1
+    viduti:
+      type: VARCHAR
+      size: 1
+    faltan:
+      type: VARCHAR
+      size: 1
+      description: Faltante S-N      
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bndisinm:
+    codact:
+      type: VARCHAR
+      size: 30
+      required: true
+    codmue:
+      type: VARCHAR
+      size: 20
+      required: true
+    nrodisinm:
+      type: VARCHAR
+      size: 10
+      required: true
+    motdisinm:
+      type: VARCHAR
+      size: 50
+    tipdisinm:
+      type: VARCHAR
+      size: 50
+    fecdisinm:
+      type: DATE
+    fecdevdis:
+      type: DATE
+    mondisinm:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    detdisinm:
+      type: VARCHAR
+      size: 250
+    codubiori:
+      type: VARCHAR
+      size: 30
+    codubides:
+      type: VARCHAR
+      size: 30
+    obsdisinm:
+      type: VARCHAR
+      size: 250
+    stadisinm:
+      type: VARCHAR
+      size: 1
+    vidutil:
+      type: NUMERIC
+      size: 4
+      scale: 0
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bndismue:
+    codact:
+      type: VARCHAR
+      size: 30
+      required: true
+    codmue:
+      type: VARCHAR
+      size: 20
+      required: true
+    nrodismue:
+      type: VARCHAR
+      size: 10
+      required: true
+    motdismue:
+      type: VARCHAR
+      size: 50
+    tipdismue:
+      type: VARCHAR
+      size: 50
+    fecdismue:
+      type: DATE
+    fecdevdis:
+      type: DATE
+    mondismue:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    detdismue:
+      type: VARCHAR
+      size: 250
+    codubiori:
+      type: VARCHAR
+      size: 30
+    codubides:
+      type: VARCHAR
+      size: 30
+    obsdismue:
+      type: VARCHAR
+      size: 250
+    stadismue:
+      type: VARCHAR
+      size: 1
+    codmot:
+      type: VARCHAR
+      size: 4
+    vidutil:
+      type: NUMERIC
+      size: 4
+      scale: 0
+    logusu:
+      type: VARCHAR
+      size: 50
+    codresuso:
+      type: VARCHAR
+      size: 30
+      description: Código del Responsable de Uso
+    codrespat:
+      type: VARCHAR
+      size: 30
+      description: Código del Responsable Patrimonial
+    cedest:
+      type: VARCHAR
+      size: 10
+      description: Cédula del Estudiante      
+    numcom:
+      type: VARCHAR
+      size: 8
+      description:  Número de Comprobante 
+    codestori:
+      type: VARCHAR
+      size: 3
+      description:  Estado de Conservación Origen
+    codestdes:
+      type: VARCHAR
+      size: 3
+      description:  Estado de Conservación Destino
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bndissem:
+    codact:
+      type: VARCHAR
+      size: 30
+      required: true
+    codsem:
+      type: VARCHAR
+      size: 20
+      required: true
+    nrodissem:
+      type: VARCHAR
+      size: 10
+      required: true
+    motdissem:
+      type: VARCHAR
+      size: 50
+    tipdissem:
+      type: VARCHAR
+      size: 50
+    fecdissem:
+      type: DATE
+    fecdevdis:
+      type: DATE
+    mondissem:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    detdissem:
+      type: VARCHAR
+      size: 250
+    codubiori:
+      type: VARCHAR
+      size: 30
+    codubides:
+      type: VARCHAR
+      size: 30
+    obsdissem:
+      type: VARCHAR
+      size: 250
+    stadissem:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bnipcact:
+    anoipc:
+      type: VARCHAR
+      size: 4
+      required: true
+    ipcene:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    ipcfeb:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    ipcmar:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    ipcabr:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    ipcmay:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    ipcjun:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    ipcjul:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    ipcago:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    ipcsep:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    ipcoct:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    ipcnov:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    ipcdic:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    staipc:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bnmotdis:
+    codmot:
+      type: VARCHAR
+      size: 4
+      required: true
+    desmot:
+      type: VARCHAR
+      size: 250
+    afecon:
+      type: VARCHAR
+      size: 1
+    stadis:
+      type: VARCHAR
+      size: 1
+    desinc:
+      type: VARCHAR
+      size: 1
+    adimej:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bnparbie:
+    pardes:
+      type: VARCHAR
+      size: 16
+      required: true
+    parhas:
+      type: VARCHAR
+      size: 16
+      required: true
+    valrcp:
+      type: VARCHAR
+      size: 1
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bnreginm:
+    codact:
+      type: VARCHAR
+      size: 30
+      required: true
+    codinm:
+      type: VARCHAR
+      size: 20
+      required: true
+    desinm:
+      type: VARCHAR
+      size: 1000
+    codpro:
+      type: VARCHAR
+      size: 20
+    ordcom:
+      type: VARCHAR
+      size: 20
+    fecreg:
+      type: DATE
+    feccom:
+      type: DATE
+    fecdep:
+      type: DATE
+    fecaju:
+      type: DATE
+    fecact:
+      type: DATE
+    fecexp:
+      type: DATE
+    ordrcp:
+      type: VARCHAR
+      size: 20
+    fotinm:
+      type: VARCHAR
+      size: 250
+    deninm:
+      type: VARCHAR
+      size: 50
+    nroexp:
+      type: VARCHAR
+      size: 20
+    detinm:
+      type: VARCHAR
+      size: 10
+    codubi:
+      type: VARCHAR
+      size: 30
+    avaact:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    clafun:
+      type: VARCHAR
+      size: 20
+    avacom:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    edoleg:
+      type: VARCHAR
+      size: 20
+    viduti:
+      type: VARCHAR
+      size: 20
+    obsinm:
+      type: VARCHAR
+      size: 250
+    linnor:
+      type: VARCHAR
+      size: 50
+    linsur:
+      type: VARCHAR
+      size: 50
+    linest:
+      type: VARCHAR
+      size: 50
+    linoes:
+      type: VARCHAR
+      size: 50
+    areter:
+      type: VARCHAR
+      size: 50
+    arecub:
+      type: VARCHAR
+      size: 50
+    arecon:
+      type: VARCHAR
+      size: 50
+    areotr:
+      type: VARCHAR
+      size: 50
+    aretot:
+      type: VARCHAR
+      size: 50
+    edoinm:
+      type: VARCHAR
+      size: 50
+    muninm:
+      type: VARCHAR
+      size: 50
+    depinm:
+      type: VARCHAR
+      size: 50
+    dirinm:
+      type: VARCHAR
+      size: 50
+    mesdep:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    valini:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    valres:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    vallib:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    valrex:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    cosrep:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    depmen:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    depacu:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    stainm:
+      type: VARCHAR
+      size: 1
+    codalt:
+      type: VARCHAR
+      size: 30
+    coddis:
+      type: VARCHAR
+      size: 25
+    valadis:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    numreg:
+      type: VARCHAR
+      size: 20
+    numfol:
+      type: VARCHAR
+      size: 20
+    fecreginm:
+      type: DATE
+    ofireg:
+      type: VARCHAR
+      size: 50
+    protocolo:
+      type: VARCHAR
+      size: 20
+    tomo:
+      type: VARCHAR
+      size: 20
+    trimestre:
+      type: VARCHAR
+      size: 20
+    numord:
+      type: VARCHAR
+      size: 8
+    codest:
+      type: VARCHAR
+      size: 3      
+    deprec:
+      type: VARCHAR
+      size: 1
+      description: Depreciable Si o No
+    codcl2:
+      type: VARCHAR
+      size: 3
+      description: Código de la Clase de Bien      
+    coduso:
+      type: VARCHAR
+      size: 3
+      description: Código del Uso
+    codunimed:
+      type: VARCHAR
+      size: 6
+      description: Unidad de Medida
+    codpai:
+      type: VARCHAR
+      size: 4
+      description: Código del País
+    codes2:
+      type: VARCHAR
+      size: 4
+      description: Código del Estado
+    codmun:
+      type: VARCHAR
+      size: 6
+      description: Código del Municipio
+    codpar:
+      type: VARCHAR
+      size: 6
+      description: Código de la Parroquia
+    codciu:
+      type: VARCHAR
+      size: 12
+      description: Código de la Ciudad
+    codtlu:
+      type: VARCHAR
+      size: 3
+      description: Código del Tipo de Lugar
+    sudebip:
+      type: VARCHAR
+      size: 20
+      description: Codigo SUDEBIP                  
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bnregmue:
+    codact:
+      type: VARCHAR
+      size: 30
+      required: true
+    codmue:
+      type: VARCHAR
+      size: 20
+      required: true
+    desmue:
+      type: VARCHAR
+      size: 250
+    codpro:
+      type: VARCHAR
+      size: 20
+    ordcom:
+      type: VARCHAR
+      size: 20
+    fecreg:
+      type: DATE
+    feccom:
+      type: DATE
+    fecdep:
+      type: DATE
+    fecaju:
+      type: DATE
+    fecact:
+      type: DATE
+    fecexp:
+      type: DATE
+    ordrcp:
+      type: VARCHAR
+      size: 20
+    fotmue:
+      type: VARCHAR
+      size: 250
+    marmue:
+      type: VARCHAR
+      size: 50
+    modmue:
+      type: VARCHAR
+      size: 100
+    anomue:
+      type: VARCHAR
+      size: 10
+    colmue:
+      type: VARCHAR
+      size: 25
+    codubi:
+      type: VARCHAR
+      size: 30
+    pesmue:
+      type: VARCHAR
+      size: 20
+    capmue:
+      type: VARCHAR
+      size: 20
+    tipmue:
+      type: VARCHAR
+      size: 20
+    viduti:
+      type: VARCHAR
+      size: 20
+    lngmue:
+      type: VARCHAR
+      size: 50
+    nropie:
+      type: VARCHAR
+      size: 10
+    sermue:
+      type: VARCHAR
+      size: 150
+    usomue:
+      type: VARCHAR
+      size: 25
+    altmue:
+      type: VARCHAR
+      size: 45
+    larmue:
+      type: VARCHAR
+      size: 45
+    ancmue:
+      type: VARCHAR
+      size: 45
+    coddis:
+      type: VARCHAR
+      size: 25
+    detmue:
+      type: VARCHAR
+      size: 250
+    edomue:
+      type: VARCHAR
+      size: 50
+    munmue:
+      type: VARCHAR
+      size: 50
+    depmue:
+      type: VARCHAR
+      size: 50
+    dirmue:
+      type: VARCHAR
+      size: 50
+    ubimue:
+      type: VARCHAR
+      size: 100
+    mesdep:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    valini:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    valres:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    vallib:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    valrex:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    cosrep:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    depmen:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    depacu:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    stamue:
+      type: VARCHAR
+      size: 1
+    codalt:
+      type: VARCHAR
+      size: 30
+    fecrcp:
+      type: DATE
+    valadi:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    aumviduti:
+      type: NUMERIC
+      size: 4
+      scale: 0
+    dimviduti:
+      type: NUMERIC
+      size: 4
+      scale: 0
+    stasem:
+      type: VARCHAR
+      size: 1
+    stainm:
+      type: VARCHAR
+      size: 1
+    codresuso:
+      type: VARCHAR
+      size: 30
+    codrespat:
+      type: VARCHAR
+      size: 30
+    tippro:
+      type: VARCHAR
+      size: 4
+    logusu:
+      type: VARCHAR
+      size: 50
+    numord:
+      type: VARCHAR
+      size: 8
+    codubiadm:
+      type: VARCHAR
+      size: 30
+    nrocon:
+      type: VARCHAR
+      size: 20
+    feccon:
+      type: DATE     
+    fecfac:
+      type: DATE         
+    codest:
+      type: VARCHAR
+      size: 3      
+    codmod:
+      type: VARCHAR
+      size: 3   
+    numcue:
+      type: VARCHAR
+      size: 20
+      description: Número de la Cuenta Bancaria del Seguro      
+    numdep:
+      type: VARCHAR
+      size: 20
+      description: Número del Deposito del Seguro   
+    fecdepseg:
+      type: DATE      
+      description: Fecha del Deposito del Seguro   
+    codtip:
+      type: VARCHAR
+      size: 4
+      description: Código de Tipo de Movimiento.      
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2      
+      description: Monto pagado del seguro
+    porpri:
+      type: NUMERIC
+      size: 14
+      scale: 2      
+      description: Porcentaje Prima del seguro
+    monpri:
+      type: NUMERIC
+      size: 14
+      scale: 2      
+      description: Monto Prima del seguro   
+    numcom:
+      type: VARCHAR
+      size: 8
+      description: Número de Comprobante
+    deprec:
+      type: VARCHAR
+      size: 1
+      description: Depreciable Si o No
+    segnom:
+      type: VARCHAR
+      size: 1
+      description: Descuenta de Nómina Si o No
+    monnom:
+      type: NUMERIC
+      size: 14
+      scale: 2      
+      description: Monto Descontar de la Nómina
+    frenom:
+      type: VARCHAR
+      size: 1
+      description: Frecuencia de la Nómina     
+    fecregcom:
+      type: DATE      
+      description: Fecha del Deposito del Seguro   
+    codproc:
+      type: VARCHAR
+      size: 3
+      description: Código de la Procedencia
+    cedest:
+      type: VARCHAR
+      size: 10
+      description: Cédula del Estudiante   
+    perest:
+      type: BOOLEAN                   
+      description: Si el bien mueble pertenece al estudiante
+    codcol:
+      type: VARCHAR
+      size: 3
+      description: Código del Color
+    codpai:
+      type: VARCHAR
+      size: 4
+      description: Código del País
+    codes2:
+      type: VARCHAR
+      size: 4
+      description: Código del Estado
+    codmun:
+      type: VARCHAR
+      size: 6
+      description: Código del Municipio
+    codpar:
+      type: VARCHAR
+      size: 6
+      description: Código de la Parroquia
+    codciu:
+      type: VARCHAR
+      size: 12
+      description: Código de la Ciudad 
+    proced:
+      type: VARCHAR
+      size: 1
+      description: Procedencia Nacional o Regional
+    sudebip:
+      type: VARCHAR
+      size: 20
+      description: Codigo SUDEBIP
+    actrec:
+      type: VARCHAR
+      size: 20
+      description: Numero del  Acta de Recepción
+    fecasiact:
+      type: DATE      
+      description: Fecha de Asignación de Activos
+    fecdesact:
+      type: DATE      
+      description: Fecha de Desasignación de Activos
+    fectra:
+      type: DATE      
+      description: Fecha Transcripción del registro
+    codusobie:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: Código del Uso del Bien    
+    anoinv:
+      type: VARCHAR
+      size: 4
+      description: Año de Inventario
+    codactdep:
+      type: VARCHAR
+      size: 30
+      description: Código Activo del cual depende
+    codmuedep:
+      type: VARCHAR
+      size: 20
+      description: Código del Mueble del cual depende
+    fecont:
+      type: DATE      
+      description: Fecha Contable
+    stafal:
+      type: VARCHAR
+      size: 1
+      default: 'N'
+      description: Estatus Faltante S-N
+    fecins:
+      type: DATE
+      description: Fecha de registro
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bnregsem:
+    codact:
+      type: VARCHAR
+      size: 30
+      required: true
+    codsem:
+      type: VARCHAR
+      size: 20
+      required: true
+    dessem:
+      type: VARCHAR
+      size: 250
+    codpro:
+      type: VARCHAR
+      size: 20
+    codubi:
+      type: VARCHAR
+      size: 30
+    ordcom:
+      type: VARCHAR
+      size: 20
+    fecreg:
+      type: DATE
+    feccom:
+      type: DATE
+    fecexp:
+      type: DATE
+    ordrcp:
+      type: VARCHAR
+      size: 20
+    fotsem:
+      type: VARCHAR
+      size: 250
+    sexsem:
+      type: VARCHAR
+      size: 1
+    razsem:
+      type: VARCHAR
+      size: 30
+    edasem:
+      type: VARCHAR
+      size: 25
+    hersem:
+      type: VARCHAR
+      size: 45
+    obssem:
+      type: VARCHAR
+      size: 50
+    viduti:
+      type: VARCHAR
+      size: 20
+    mesdep:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    valini:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    valres:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    vallib:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    valrex:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    cosrep:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    depmen:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    depacu:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    stasem:
+      type: VARCHAR
+      size: 1 
+    codani:
+      type: VARCHAR
+      size: 3
+      description: Código del Tipo de Animal
+    codpro:
+      type: VARCHAR
+      size: 3
+      description: Código del Propósito
+    codpai:
+      type: VARCHAR
+      size: 4
+      description: Código del País
+    codest:
+      type: VARCHAR
+      size: 4
+      description: Código del Estado
+    codmun:
+      type: VARCHAR
+      size: 6
+      description: Código del Municipio
+    codpar:
+      type: VARCHAR
+      size: 6
+      description: Código de la Parroquia
+    codciu:
+      type: VARCHAR
+      size: 12
+      description: Código de la Ciudad                        
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bnrevact:
+    fecrev:
+      type: DATE
+    monmuerev:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    moninmrev:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    monsemrev:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    monimnrev:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bnseginm:
+    codact:
+      type: VARCHAR
+      size: 30
+      required: true
+    codmue:
+      type: VARCHAR
+      size: 20
+      required: true
+    nroseginm:
+      type: VARCHAR
+      size: 6
+      required: true
+    fecseginm:
+      type: DATE
+    nomseginm:
+      type: VARCHAR
+      size: 100
+    cobseginm:
+      type: VARCHAR
+      size: 20
+    monseginm:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    fecsegven:
+      type: DATE
+    proseginm:
+      type: VARCHAR
+      size: 100
+    obsseginm:
+      type: VARCHAR
+      size: 250
+    staseginm:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bnsegmue:
+    codact:
+      type: VARCHAR
+      size: 30
+      required: true
+    codmue:
+      type: VARCHAR
+      size: 20
+      required: true
+    nrosegmue:
+      type: VARCHAR
+      size: 6
+      required: true
+    fecsegmue:
+      type: DATE
+    nomsegmue:
+      type: VARCHAR
+      size: 100
+    cobsegmue:
+      type: VARCHAR
+      size: 20
+    monsegmue:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    fecsegven:
+      type: DATE
+    prosegmue:
+      type: VARCHAR
+      size: 100
+    obssegmue:
+      type: VARCHAR
+      size: 250
+    stasegmue:
+      type: VARCHAR
+      size: 1
+    numdeppol:
+      type: VARCHAR
+      size: 25      
+    fecvigdes:
+      type: DATE      
+    fecvighas:
+      type: DATE            
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bnsegsem:
+    codact:
+      type: VARCHAR
+      size: 30
+      required: true
+    codsem:
+      type: VARCHAR
+      size: 20
+      required: true
+    nrosegsem:
+      type: VARCHAR
+      size: 6
+      required: true
+    fecsegsem:
+      type: DATE
+    nomsegsem:
+      type: VARCHAR
+      size: 100
+    cobsegsem:
+      type: VARCHAR
+      size: 20
+    monsegsem:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    fecsegven:
+      type: DATE
+    prosegsem:
+      type: VARCHAR
+      size: 100
+    obssegsem:
+      type: VARCHAR
+      size: 250
+    stasegsem:
+      type: VARCHAR
+      size: 1      
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bnubibie:
+    codubi:
+      type: VARCHAR
+      size: 30
+      required: true
+    desubi:
+      type: VARCHAR
+      size: 250
+    stacod:
+      type: VARCHAR
+      size: 1
+    dirubi:
+      type: VARCHAR
+      size: 500
+    codubiadm:
+      type: VARCHAR
+      size: 30
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bnubica:
+    codubi:
+      type: VARCHAR
+      size: 30
+      required: true
+    desubi:
+      type: VARCHAR
+      size: 250
+    stacod:
+      type: VARCHAR
+      size: 1
+    cedemp:
+      type: VARCHAR
+      size: 10
+    nomemp:
+      type: VARCHAR
+      size: 250
+    nomcar:
+      type: VARCHAR
+      size: 250
+    nomjef:
+      type: VARCHAR
+      size: 250
+    corpta:
+      type: INTEGER
+      description: Correlativo de Punto de Cuenta
+    prepta:
+      type: VARCHAR
+      size: 8   
+      description: Prefijo de Punto de Cuenta 
+    carjefuni:
+      type: VARCHAR
+      size: 250  
+      description: Cargo del Jefe de Unidad
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bncobsegmue:
+    codact:
+      type: VARCHAR
+      size: 30
+      required: true
+    codmue:
+      type: VARCHAR
+      size: 20
+      required: true
+    nrosegmue:
+      type: VARCHAR
+      size: 6
+      required: true
+    codcob:
+      type: VARCHAR
+      size: 4
+      required: true
+    monto:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bncobseginm:
+    codact:
+      type: VARCHAR
+      size: 30
+      required: true
+    codinm:
+      type: VARCHAR
+      size: 20
+      required: true
+    nrosegmue:
+      type: VARCHAR
+      size: 6
+      required: true
+    codcob:
+      type: VARCHAR
+      size: 4
+      required: true
+    monto:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    id:
+      type: INTEGER
+      required: true
+      autoIncrement: true
+  bnestcon:
+    codest:
+      type: VARCHAR
+      size: 3
+      required: true
+    desest:
+      type: VARCHAR
+      size: 100
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bnmodtra:
+    codmod:
+      type: VARCHAR
+      size: 3
+      required: true
+    desmod:
+      type: VARCHAR
+      size: 100
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro    
+  bnpolmue:
+    codact:
+      type: VARCHAR
+      size: 30
+      required: true
+    codmue:
+      type: VARCHAR
+      size: 20
+      required: true   
+    numcue:
+      type: VARCHAR
+      size: 20
+      description: Número de la Cuenta Bancaria del Seguro      
+    numdep:
+      type: VARCHAR
+      size: 20
+      description: Número del Deposito del Seguro   
+    fecdepseg:
+      type: DATE      
+      description: Fecha del Deposito del Seguro   
+    codtip:
+      type: VARCHAR
+      size: 4
+      description: Código de Tipo de Movimiento.      
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2      
+      description: Monto pagado del seguro
+    porpri:
+      type: NUMERIC
+      size: 14
+      scale: 2      
+      description: Porcentaje Prima del seguro
+    monpri:
+      type: NUMERIC
+      size: 14
+      scale: 2      
+      description: Monto Prima del seguro   
+    numcom:
+      type: VARCHAR
+      size: 8
+      description: Número de Comprobante
+    deprec:
+      type: VARCHAR
+      size: 1
+      description: Depreciable Si o No
+    segnom:
+      type: VARCHAR
+      size: 1
+      description: Descuenta de Nómina Si o No
+    monnom:
+      type: NUMERIC
+      size: 14
+      scale: 2      
+      description: Monto Descontar de la Nómina
+    frenom:
+      type: VARCHAR
+      size: 1
+      description: Frecuencia de la Nómina           
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bndefpro:
+    codproc:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: Código de la Procedencia
+    desproc:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción de la Procedencia
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bncatest:
+    _attributes:
+      description:  Tabla que almacena el catálogo de Estudiantes  
+    cedest:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Cédula del Estudiante
+    nomapeest:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Nombres y Apellidos del Estudiante
+    direst:
+      type: VARCHAR
+      size: 500
+      description: Dirección del Estudiante 
+    telest:
+      type: VARCHAR
+      size: 30
+      description: Dirección del Estudiante
+    cedrep:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Cédula del Representante del Estudiante
+    nomaperep:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Nombres y Apellidos del Representante del Estudiante                 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bncatcomseg:
+    _attributes:
+      description:  Tabla que almacena el catálogo de Compañias de Seguro  
+    codcom:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Código de la Compañia
+    nomcom:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Nombre de la Compañia
+    nompro:
+      type: VARCHAR
+      size: 150
+      required: true
+      description: Nombre del Promotor                 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bnsolpolcer:
+    _attributes:
+      description:  Tabla que almacena las Solicitudes de Póliza/Certificados    
+    numsol:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: Número de Solicitud
+    tipsol:
+      type: VARCHAR
+      size: 1
+      required: true  
+      description: Tipo de Solicitud (Certificado ó Póliza)
+    fecsol:
+      type: DATE      
+      required: true  
+      description: Fecha de la Solicitud
+    dessol:
+      type: VARCHAR
+      size: 20      
+      description: Descripción de Solicitud      
+    fecini:
+      type: DATE      
+      description: Fecha de Inicio 
+    fecven:
+      type: DATE      
+      description: Fecha de Vencimiento            
+    numref:
+      type: VARCHAR
+      size: 20
+      description: Número de Referencia del Certificado
+    codcom:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Código de la Compañia
+    codubi:
+      type: VARCHAR
+      size: 30
+      required: true
+      description: Código de Ubicación Física
+    codcob:
+      type: VARCHAR
+      size: 3
+      description: Código del Tipo de Cobertura                 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bndetsolpolcer:
+    _attributes:
+      description:  Tabla que almacena el detalle de las Solicitudes de Póliza/Certificados   
+    numsol:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: Número de Solicitud    
+    codact:
+      type: VARCHAR
+      size: 30
+      required: true
+      description: Código del Activo
+    codmue:
+      type: VARCHAR
+      size: 20
+      required: true 
+      description: Código del Mueble
+    monpri:
+      type: NUMERIC
+      size: 14
+      scale: 2      
+      description: Monto de la Prima  
+    numdep:
+      type: VARCHAR
+      size: 20
+      description: Número de Depósito
+    mondep:
+      type: NUMERIC
+      size: 14
+      scale: 2      
+      description: Monto del Depósito
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bnregpolcer:
+    _attributes:
+      description:  Tabla que almacena el registro de Póliza/Certificado   
+    numpol:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: Número de póliza
+    fecpol:
+      type: DATE      
+      required: true  
+      description: Fecha de la póliza
+    numrec:
+      type: VARCHAR
+      size: 20      
+      description: Número de Recibo   
+    fecini:
+      type: DATE      
+      description: Fecha de Inicio 
+    fecven:
+      type: DATE      
+      description: Fecha de Vencimiento            
+    numsolpag:
+      type: VARCHAR
+      size: 20
+      description: Número de solicitud de Pago
+    numsol:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: Número de Solicitud          
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bndetregpolcer:
+    _attributes:
+      description:  Tabla que almacena el detalle de registro de Póliza/Certificado 
+    numpol:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: Número de póliza    
+    codact:
+      type: VARCHAR
+      size: 30
+      required: true
+      description: Código del Activo
+    codmue:
+      type: VARCHAR
+      size: 20
+      required: true 
+      description: Código del Mueble
+    monpri:
+      type: NUMERIC
+      size: 14
+      scale: 2      
+      description: Monto de la Prima
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bncatcol:
+    _attributes:
+      description:  Tabla que almacena Catálogo de Colores
+    codcol:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: Código del Color
+    descol:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Descripción del Color
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bnclabie:
+    _attributes:
+      description:  Tabla que almacena Catálogo de Clase de Bien (Vehículos)
+    codcla:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: Código de la Clase de Bien
+    descla:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Descripción de la Clase de Bien
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro 
+  bntipani:
+    _attributes:
+      description:  Tabla que almacena Catálogo de Tipos de Animales
+    codani:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: Código del Tipo de Animal
+    desani:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Descripción del Tipo de Animal
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bnprosem:
+    _attributes:
+      description:  Tabla que almacena Catálogo de Propósitos (Semovientes)
+    codpro:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: Código del Propósito
+    despro:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Descripción del Propósito
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bntiplug:
+    _attributes:
+      description:  Tabla que almacena Catálogo de Tipo de Lugares
+    codtlu:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: Código del Tipo de Lugar
+    destlu:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Descripción del Tipo de Lugar
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bntipcob:
+    _attributes:
+      description:  Tabla que almacena Catálogo de Tipo de Coberturas
+    codcob:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: Código del Tipo de Cobertura
+    descob:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Descripción del Tipo de Cobertura
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bndefuso:
+    _attributes:
+      description:  Tabla que almacena Catálogo de Usos (Terrenos y Edificaciones)
+    coduso:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: Código del Uso
+    desuso:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Descripción del Uso
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro      
+  bnpais:
+    _attributes:
+      description:  Tabla que almacena los Países
+    codpai:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: Código del País
+    nompai:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Nombre del País
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bnestado:
+    _attributes:
+      description:  Tabla que almacena los Estados
+    codest:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: Código del Estado
+    nomest:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Nombre del Estado
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+    _uniques:
+      un_bnestado:
+        - codest      
+  bnmunicip:
+    _attributes:
+      description:  Tabla que almacena los Municipios
+    codmun:
+      type: VARCHAR
+      size: 6
+      required: true
+      description: Código del Municipio
+    nommun:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Nombre del Municipio
+    bnestado_codest:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: Código del Estado
+      foreignTable: bnestado
+      foreignReference: codest
+      onDelete: RESTRICT
+      onUpdate: RESTRICT      
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro 
+    _uniques:
+      un_municip:
+        - codmun           
+  bnparroq:
+    _attributes:
+      description:  Tabla que almacena las Parroquias
+    codpar:
+      type: VARCHAR
+      size: 6
+      required: true
+      description: Código de la Parroquia
+    nompar:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Nombre de la Parroquia
+    bnmunicip_codmun:
+      type: VARCHAR
+      size: 6
+      required: true
+      description: Código del Municipio
+      foreignTable: bnmunicip
+      foreignReference: codmun
+      onDelete: RESTRICT
+      onUpdate: RESTRICT      
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bnciudad:
+    _attributes:
+      description:  Tabla que almacena las Ciudades
+    codciu:
+      type: VARCHAR
+      size: 12
+      required: true
+      description: Código de la Ciudad
+    nomciu:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Nombre de la Ciudad
+    bnmunicip_codmun:
+      type: VARCHAR
+      size: 6
+      required: true
+      description: Código del Municipio
+      foreignTable: bnmunicip
+      foreignReference: codmun
+      onDelete: RESTRICT
+      onUpdate: RESTRICT      
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  bnusobie:
+    _attributes:
+      description:  Tabla que almacena Catálogo de Estatus del Uso del Bien
+    codusobie:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: Código del Uso del Bien
+    desusobie:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Descripción del Uso del Bien
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro  
+  bncatsudebip:
+    _attributes:
+      description:  Tabla que almacena Catálogo SUDEBIP
+    sudebip:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: Codigo SUDEBIP
+    desudebip:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Descripción del Uso del Bien
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro                                             

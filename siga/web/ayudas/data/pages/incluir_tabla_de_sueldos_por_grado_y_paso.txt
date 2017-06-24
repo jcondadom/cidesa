@@ -1,0 +1,22 @@
+====== Operación Incluir ======
+
+Si desea **Registrar** la Tabla de Sueldos por Grado y Paso debe: <html><br><br></html>
+
+  * Presionar el **Botón**   {{:btnnuevo.jpg|}}  <html><br><br></html>
+
+  * Seleccionar el **Código del Tipo de Cargo** al cual se definirá la **Tabla de Sueldos por Grado y Paso**. <html><br><br></html>
+
+  * Ingresar el **Número de Pasos** a asignar para el Tipo de Cargo seleccionado. <html><br><br></html>
+
+  * Seleccionar del Calendario la **Fecha de Vigencia** de la Tabla de Sueldos por Grado y Paso.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompertabsueporgrapasoinc.jpg|}}"></div><br></html>
+
+  * Indicar si la **modalidad** para el **cálculo** del **Sueldo de acuerdo al Grado y Paso** será **Por Porcentaje, Por Monto, Iniciar Montos ó Ninguno**.  <html><br><br></html>
+
+  * En el caso de que el cálculo sea** Por Porcentaje** debe indicar en **Incrementos por Pasos** el Porcentaje a utilizar para el Cálculo.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompertabsueporgrapasoinc1.jpg|}}"></div><br></html>
+
+  * Una ves definidos los datos anteriores el sistema automáticamente carga el **grid de Cargos** con los Grados y Pasos ya definidos, en donde solo deberá indicar el **primer sueldo** y el sistema se encargará de calcular los sueldos para el resto de los Grados por Pasos.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompertabsueporgrapasoinc2.jpg|}}"></div><br></html>
+
+  * Presionar {{:btnguardar.jpg|}} para almacenar el registro. <html><br><br></html>

@@ -1,0 +1,36 @@
+methods:
+  post:
+   - "tsdefmon{codmon}"
+   - "tsdefmon{nommon}"
+
+names:
+  tsdefmon{codmon}:
+    required:  Yes
+    required_msg: El código de la Moneda no puede estar en Blanco
+    validators: Validator_codmon, CorrelValidator
+
+  tsdefmon{nommon}:
+    required:  Yes
+    required_msg: La descripción de la Moneda no puede estar en Blanco
+    validators: Validator_nommon
+
+Validator_codmon:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Tsdefmon
+        column:       codmon
+        unique_error: El código de la Moneda ya Existe intente con otro.
+
+Validator_nommon:
+  class: sfStringValidator
+  param:
+    min:       2
+    min_error: La descripción no puede tener menos de 2 caracteres
+    max:       40
+    max_error: La descripción no puede pasar mas de 40 caracteres
+
+CorrelValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]
+        values_error: El código de la Moneda solo puede contener valores númericos

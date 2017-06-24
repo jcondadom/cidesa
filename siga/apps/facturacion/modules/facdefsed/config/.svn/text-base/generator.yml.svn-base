@@ -1,0 +1,32 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fadefsed
+    theme:            cidesaGenerator
+
+    fields:
+      codsed: { name: Código, params : size=20 maxlength=3 onFocus=readonly(this.id) onBlur="cadena=this.value;cadena=cadena.toUpperCase(); $(this.id).value=cadena"}
+      dessed: { name: Descripción, params : size=80 maxlength=200}
+      corsed: { name: Correlativo}
+      corsed1: { name: Correlativo sede asociada}
+    list:
+      fields:
+        codsed: { name: Código, params : size=20 maxlength=3}
+        dessed: { name: Nombre, params : size=20 maxlength=200}
+      title:          Sedes
+      display:        [=codsed, dessed]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [codsed, dessed]
+      max_per_page:   10
+      sort:           codsed
+
+    edit:
+      title:          Edición de Sede
+      display:
+        "NONE": [codsed, dessed, corsed, corsed1]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~

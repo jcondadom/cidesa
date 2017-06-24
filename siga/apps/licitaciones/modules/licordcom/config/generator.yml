@@ -1,0 +1,173 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Liordcom
+    theme:            cidesaGenerator
+    fields:
+      ente:           { name: Ente Contratante, params: readonly=true size=60 style=border:none}
+      codempadm:
+        name: Para
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Lidatstedet_codemp
+          clase: Lidatstedet
+          ajax: 2
+          parametros: getprincipal="getCodempadm" getsecundario="getNomempadm" campoprincipal="codempadm" camposecundario="nomempadm" campobase = "id"
+      nomcaradm:      { name: Cargo, params: style=border:none size=80}
+      coduniadm:
+        name: Unidad
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Lidatste_licregsol
+          clase: Lidatste
+          ajax: 3
+          parametros: getprincipal="getCoduniadm" getsecundario="getDesuniadm" campoprincipal="coduniadm" camposecundario="desuniadm" campobase = "id"
+      codempeje:
+        name: De
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Lidatstedet_codemp
+          clase: Lidatstedet
+          ajax: 4
+          parametros: getprincipal="getCodempeje" getsecundario="getNomempeje" campoprincipal="codempeje" camposecundario="nomempeje" campobase = "id"
+      nomcareje:      { name: Cargo, params: style=border:none size=80}
+      coduniste:
+        name: Unidad
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Lidatste_licregsol
+          clase: Lidatste
+          ajax: 5
+          parametros: getprincipal="getCoduniste" getsecundario="getDesuniste" campoprincipal="coduniste" camposecundario="desuniste" campobase = "id"
+      numord:         { name: Número Orden de Compra o Servicio, params: size=10 maxlength=8 onBlur=Correl(this.id) }
+      resolu:         { name: Resolución, params: size=10 maxlength=8  }
+      fecrel:         { name: Fecha Resolución }            
+      numptocuecon:
+        name: Número Punto de Cuenta Contratación
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Liptocuecon_numptocuecon_ordcom
+          clase: Liptocuecon
+          ajax: 1
+          parametros: getprincipal="getNumptocuecon" getsecundario="getDesnumptocuecon" campoprincipal="numptocuecon" camposecundario="desnumptocuecon" campobase = "id"
+          divupdate:  divgridart
+      numexp:         { name: Número de Expediente, params: readonly=true style=border:none }
+      ejepre:         { name: Ejercicio Prespuestario Año, params: style="border:none" size=80}
+      desclacomp:     { name: Solicitud de Compra, params: style="border:none" size=80}
+      destiplic:      { name: Modalidad de Contratación, params: style="border:none" size=80}
+      tipcom:         { name: Compra, params: style="border:none" size=80}
+      tipcon:         { name: Bienes/servicios, params: style="border:none" size=80}
+      codpro:         { name: Codigo Empresa, params: style="border:none" size=80}
+      nompro:         { name: Empresa, params: style="border:none" size=80}
+      rifpro:         { name: R.I.F, params: readonly=true style=border:none}
+      dirpro:         { name: Dirección , params: readonly=true style=border:none}
+      nomrepleg:      { name: Representante Legal, params: readonly=true style=border:none size=80}
+      destipemp:      { name: Tipo de Empresa, params: readonly=true style=border:none size=80}
+      numofe:         { name: Número Oferta, params: size=10 readonly=true style=border:none }    
+      fecofe:         { name: Fecha Oferta, params: readonly=true style=border:none}
+      monofe:         { name: Monto Oferta, params: readonly=true style=border:none }
+      monofelet:      { name: Son, params: readonly=true style=border:none size=80 }
+      fecreg:         { name: Fecha Registro, params: onChange=CalculaFecha(this.value)}
+      dias:           { name: Dias para el Vencimiento, params: onChange=CalculaFecha(this.value)}
+      fecven:         { name: Fecha Vencimiento, params: readonly=true style=border:none}      
+      numcomint:      { name: Número Compra Integral, params: readonly=true style=border:none}      
+      gridpro:        { name: .}
+      monpro:         { name: Monto Proyectos, params: readonly=true style=border:none size=40 }
+      objcont:        { name: Objeto de la Orden de Compra o Servicio, type: textarea_tag, params: size="80x10"}      
+      codmedcom:
+        name: Medio de Comunicación
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Camedcom_codmedcom
+          clase: Camedcom
+          ajax: 0
+          parametros: getprincipal="getCodmedcom" getsecundario="getDesmedcom" campoprincipal="codmedcom" camposecundario="desmedcom" campobase = "id"
+      codprocom:      
+        name: Tipo de Procedimiento
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Caprocom_codprocom
+          clase: Caprocom
+          ajax: 0
+          parametros: getprincipal="getCodprocom" getsecundario="getDesprocom" campoprincipal="codprocom" camposecundario="desprocom" campobase = "id"
+      numpro:         { name: Número de Procedimiento, params: maxlength=8}
+      codpai:         { name: Pais}
+      codest:         { name: Estado}
+      codmun:         { name: Municipio}
+      de4000:         { name: Decreto 4000, type: checkbox_tag }
+      de3798:         { name: Decreto 3798, type: checkbox_tag }
+      numsig:         { name: Número, params: maxlength=8}
+      fecsig:         { name: Fecha}
+      expdie:         { name: Expediente, params: maxlength=8}
+      gridart:        { name: .}
+      monart:         { name: Monto Articulos, params: readonly=true style=border:none }
+      gridrgo:        { name: .}
+      monrec:         { name: Monto Recargos, params: readonly=true style=border:none }      
+      gridforpag:     { name: .}
+      tipdesc:        { name: Descuentos Tipo}
+      ptipdesc:       { name: .}
+      conpag:         { name: Condiciones del Pago}
+      pconpag:        { name: .}
+      gridcroent:     { name: .}            
+      gridfia:        { name: .}
+      sancio:         { name: Sanciones, type: textarea_tag, params: size="80x10"}
+      garant:         { name: Garantias referentes al Bien o Servicio, type: textarea_tag, params: size="80x10"}
+      docane1:
+        name:  Documento Anexo 1
+        type:  admin_input_file_tag
+        params:  include_link=assets include_text="*********Anexo 1***********" include_remove=true
+        upload_dir:  assets
+        help:       Favor cargar solo archivos con extension (pdf,doc,ppt)
+      docane2:
+        name:  Documento Anexo 2
+        type:  admin_input_file_tag
+        params:  include_link=assets include_text="*********Anexo 2***********" include_remove=true
+        upload_dir:  assets
+        help:       Favor cargar solo archivos con extension (pdf,doc,ppt)
+      docane3:
+        name:  Documento Anexo 3
+        type:  admin_input_file_tag
+        params:  include_link=assets include_text="*********Anexo 3***********" include_remove=true
+        upload_dir:  assets
+        help:       Favor cargar solo archivos con extension (pdf,doc,ppt)
+      prepor:         { name: Preparado Por, params: size=80 }
+      preporcar:      { name: Cargo, params: size=80 }
+      lisicact_id:    { name: Declaratoria Modalidad, params: include_blank="Seleccione..." disabled=true}
+      fecdecla:       { name: Fecha Declaratoria, params: readonly=true style=border:none}
+      detdecmod:      { name: Detalle, type: textarea_tag, params: size="80x10" readonly=true style=border:none}
+      anapor:         { name: Analizado Por, params: size=80 readonly=true style=border:none}
+      anaporcar:      { name: Cargo, params: size=80 readonly=true style=border:none}
+      js:             { name: .}
+      moneda:         { name: Moneda, params: size=80 readonly=true style=border:none}
+      
+    list:
+      title:           Orden de Compra o Servicio
+      display:         [=numord, numexp, desuniadm, desuniste, fecreg, rifpro, nompro, numptocuecon, numcomint ]
+      filters:         [numord, numexp, coduniadm, coduniste, fecreg]
+      fields:
+        desuniadm:     { name: Para}
+        desuniste:     { name: De}
+        numexp:        { name: Número de Expediente, params: readonly=false style=border:display }
+      object_actions:
+        _edit:          ~
+        _delete:        ~
+      max_per_page:    10
+      sort:            numord
+
+    edit:
+      title:           Orden de Compra o Servicio
+      display:         
+        Datos Generales:    [ente, codempadm, nomcaradm, coduniadm, codempeje, nomcareje, coduniste, numord, resolu, fecrel, numptocuecon, numexp, ejepre, destiplic, desclacomp, tipcom, tipcon, codpro, nompro, rifpro, nomrepleg, destipemp, dirpro, numofe, fecofe, monofe, monofelet, numcomint, fecreg, dias, fecven, moneda, _gridpro, monpro, objcont]
+        SNC:                [codmedcom, codprocom, numpro, codpai, codest, codmun, de4000, de3798]
+        SIGECOF:            [numsig, fecsig, expdie]
+        Bienes o Servicio a Adquirir: [_gridart, monart]
+        Otros Recargos por Facturas: [_gridrgo, monrec]        
+        Formas de Pago: [_gridforpag, _ptipdesc, _pconpag]
+        Cronograma de Entregas:  [_gridcroent]
+        Fianzas y Garantias:   [_gridfia]
+        Otros Datos:        [sancio, garant, docane1, docane2, docane2, prepor, preporcar]
+        Declaratoria:       [lisicact_id, fecdecla, detdecmod, anapor, anaporcar, _js]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~

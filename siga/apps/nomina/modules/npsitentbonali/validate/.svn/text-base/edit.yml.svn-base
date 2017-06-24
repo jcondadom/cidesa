@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "npdefsitent{codsitent}"
+   - "npdefsitent{dessitent}"
+
+names:
+  npdefsitent{codsitent}:
+    required:  Yes
+    required_msg: El Código del Sitio de Entrega no puedo estar en Blanco
+    validators: Validator_codsitent
+
+  npdefsitent{dessitent}:
+    required:  Yes
+    required_msg: La Descripción del Sitio de Entrega no puedo estar en Blanco
+    validators: Validator_dessitent
+
+Validator_codsitent:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Npdefsitent
+        column:       codsitent
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_dessitent:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción del Sitio de Entrega no debe contener  menos de 2 caracteres
+        max:       250
+        max_error: La Descripción del Sitio de Entrega no debe contener mas de 250 caracteres

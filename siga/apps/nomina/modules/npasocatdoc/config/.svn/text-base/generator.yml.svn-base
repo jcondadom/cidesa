@@ -1,0 +1,25 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npdoccate
+    theme:            cidesaGenerator
+    fields:      
+      codemp:
+        name: Docente
+        params: size=20  maxlength=15
+        catalogo:
+          catalogoweb: Nphojint_Almordcom
+          clase: Nphojint
+          ajax: 1
+          parametros: getprincipal="getCodemp" getsecundario="getNomemp" campoprincipal="codemp" camposecundario="nomemp" campobase = "id"
+          divupdate: divgrid
+      grid:  { name: .}
+    edit:
+      title:          Asignación de Cátedras a Docente
+      display:
+        "Datos":    [codemp, _grid]
+      actions:
+        _list:          NONE
+        _save:          ~
+        _delete:        ~
+        _create:        NONE

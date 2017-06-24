@@ -1,0 +1,18 @@
+div.dokuwiki .search_snippet b {
+    color: #999;
+}
+
+div.dokuwiki div.googlesearch_nav {
+    width: 50em;
+}
+
+div.dokuwiki div.googlesearch_nav a.gs_prev{
+    float: left;
+    font-size: 110%;
+}
+
+div.dokuwiki div.googlesearch_nav a.gs_next{
+    float: right;
+    font-size: 110%;
+}
+

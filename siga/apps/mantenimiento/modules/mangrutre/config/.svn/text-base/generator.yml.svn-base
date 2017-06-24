@@ -1,0 +1,30 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Mangrutre
+    theme:            cidesaGenerator
+    fields:
+      codgrr: { name:  Código, params : size=5 maxlength=4 onFocus=readonly(this.id)}
+      desgrr: { name:  Descripción, params : size=80 maxlength=250}
+      tipo: { name:  Tipo}
+    list:
+      title:          Grupos Responsable de Ejecución del Trabajo
+      display:        [=codgrr, desgrr]
+      fields:
+        codgrr: { name:  Código, params : size=5 maxlength=4}
+        desgrr: { name:  Descripción, params : size=15 maxlength=250}
+      filters:        [codgrr, desgrr]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           codgrr
+    edit:
+      title:          Edición del Grupo Responsable de Ejecución del Trabajo
+      display:
+        "NONE": [codgrr, desgrr, _tipo]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

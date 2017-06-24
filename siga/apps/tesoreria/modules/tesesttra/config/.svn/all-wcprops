@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/58715/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesesttra/config
+END
+grid_ordpag.yml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/58715/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesesttra/config/grid_ordpag.yml
+END
+grid_pagele.yml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/58715/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesesttra/config/grid_pagele.yml
+END
+grid_com.yml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/58715/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesesttra/config/grid_com.yml
+END
+grid_calvia.yml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/58715/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesesttra/config/grid_calvia.yml
+END
+grid_che.yml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/58715/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesesttra/config/grid_che.yml
+END
+generator.yml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/58715/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesesttra/config/generator.yml
+END
+grid_ordcom.yml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/58715/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesesttra/config/grid_ordcom.yml
+END
+grid_req.yml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/58715/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesesttra/config/grid_req.yml
+END

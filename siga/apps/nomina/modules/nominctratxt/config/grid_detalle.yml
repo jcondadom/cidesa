@@ -1,0 +1,223 @@
+opciones:                  # Opciones generales
+  eliminar:                true
+  name:                    a
+  tabla:                   npinctratxt
+  anchogrid:               1200
+  ancho:                   1400
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Tipo de Registro
+  tipo:                    t
+  nombrecampo:             tipreg
+  esgrabable:              true
+  html:                    ["size=5 maxlength=2"]
+2:       # Columna 2
+  titulo:                  Cédula de Identidad
+  tipo:                    t
+  nombrecampo:             cedemp
+  esgrabable:              true
+  ajaxgrid:                true
+  html:                    ["size=15 maxlength=9"]
+  catalogo:                [nphojint, sf_admin_edit_form, {Cedemp: 2}, Nominctratxt_Nphojint ]
+3:       # Columna 3
+  titulo:                  Primer Apellido
+  tipo:                    t
+  nombrecampo:             priape
+  esgrabable:              true
+  html:                    ["size=20 maxlength=15"]
+4:       # Columna 4
+  titulo:                  Segundo Apellido
+  tipo:                    t
+  nombrecampo:             segape
+  esgrabable:              true
+  html:                    ["size=20 maxlength=15"]
+5:       # Columna 5
+  titulo:                  Primer Nombre
+  tipo:                    t
+  nombrecampo:             prinom
+  esgrabable:              true
+  html:                    ["size=20 maxlength=15"]
+6:      # Columna 6
+  titulo:                  Segundo Nombre
+  tipo:                    t
+  nombrecampo:             segnom
+  esgrabable:              true
+  html:                    ["size=20 maxlength=15"]
+7:      # Columna 7
+  titulo:                  Nacionalidad
+  tipo:                    t
+  nombrecampo:             nacemp
+  esgrabable:              true
+  html:                    ["size=5 maxlength=1"]
+8:      # Columna 8
+  titulo:                  Fecha de Nacimiento
+  tipo:                    t
+  esgrabable:              true
+  nombrecampo:             fecnac
+  html:                    ["size=10  maxlength=8"]
+9:     # Columna 9
+  titulo:                  Monto Ingreso Mensual
+  tipo:                    t
+  esgrabable:              true
+  nombrecampo:             moning
+  esnumerico:              true
+  html:                    ["size=10  maxlength=12"]
+10:     # Columna 10
+  titulo:                  Fecha de Ingreso
+  tipo:                    t
+  esgrabable:              true
+  nombrecampo:             fecing
+  html:                    ["size=10  maxlength=8"]
+11:      # Columna 11
+  titulo:                  Actividad Económica
+  tipo:                    t
+  esgrabable:              true
+  nombrecampo:             acteco
+  html:                    ["size=10  maxlength=8"]
+12:     # Columna 12
+  titulo:                  Cargo
+  tipo:                    t
+  esgrabable:              true
+  nombrecampo:             cargo
+  html:                    ["size=40  maxlength=30"]
+13:     # Columna 13
+  titulo:                  Sexo
+  tipo:                    t
+  nombrecampo:             sexo
+  esgrabable:              true
+  html:                    ["size=5 maxlength=1"]
+14:     # Columna 14
+  titulo:                  Estado Civil
+  tipo:                    t
+  nombrecampo:             estciv
+  esgrabable:              true
+  html:                    ["size=5 maxlength=1"]
+15:     # Columna 15
+  titulo:                  Urbanización
+  tipo:                    t
+  esgrabable:              true
+  nombrecampo:             urbani
+  html:                    ["size=40  maxlength=30"]
+16:     # Columna 16
+  titulo:                  Avenida
+  tipo:                    t
+  esgrabable:              true
+  nombrecampo:             avenid
+  html:                    ["size=40  maxlength=30"]
+17:     # Columna 17
+  titulo:                  Conjunto Residencial
+  tipo:                    t
+  esgrabable:              true
+  nombrecampo:             conjun
+  html:                    ["size=40  maxlength=30"]
+18:     # Columna 18
+  titulo:                  Número
+  tipo:                    t
+  esgrabable:              true
+  nombrecampo:             numero
+  html:                    ["size=40  maxlength=30"]
+19:     # Columna 19
+  titulo:                  Ciudad
+  tipo:                    t
+  esgrabable:              true
+  nombrecampo:             ciudad
+  html:                    ["size=40  maxlength=30"]
+20:     # Columna 20
+  titulo:                  Estado
+  tipo:                    t
+  esgrabable:              true
+  nombrecampo:             estado
+  html:                    ["size=40  maxlength=30"]
+21:     # Columna 21
+  titulo:                  País
+  tipo:                    t
+  esgrabable:              true
+  nombrecampo:             pais
+  html:                    ["size=40  maxlength=30"]
+22:     # Columna 22
+  titulo:                  Teléfono
+  tipo:                    t
+  esgrabable:              true
+  nombrecampo:             telefono
+  html:                    ["size=15  maxlength=11"]
+23:       # Columna 23
+  titulo:                  Fax
+  tipo:                    t
+  esgrabable:              true
+  nombrecampo:             fax
+  html:                    ["size=15  maxlength=11"]
+24:       # Columna 24
+  titulo:                  Celular
+  tipo:                    t
+  esgrabable:              true
+  nombrecampo:             celular
+  html:                    ["size=15  maxlength=11"]
+25:       # Columna 25
+  titulo:                  Internet
+  tipo:                    t
+  esgrabable:              true
+  nombrecampo:             internet
+  html:                    ["size=40  maxlength=30"]
+26:       # Columna 26
+  titulo:                  Zona Postal
+  tipo:                    t
+  nombrecampo:             zonpos
+  esgrabable:              true
+  html:                    ["size=5 maxlength=5"]
+27:       # Columna 27
+  titulo:                  Acción
+  tipo:                    t
+  nombrecampo:             accion
+  esgrabable:              true
+  html:                    ["size=5 maxlength=1"]
+28:       # Columna 28
+  titulo:                  Tipo de Empleado
+  tipo:                    t
+  nombrecampo:             tipemp
+  esgrabable:              true
+  html:                    ["size=5 maxlength=2"]
+29:       # Columna 29
+  titulo:                  Código de Área
+  tipo:                    t
+  nombrecampo:             codare
+  esgrabable:              true
+  html:                    ["size=5 maxlength=3"]
+30:       # Columna 30
+  titulo:                  Teléfono del Trabajo
+  tipo:                    t
+  nombrecampo:             teltrab
+  esgrabable:              true
+  html:                    ["size=10 maxlength=8"]
+31:       # Columna 31
+  titulo:                  Tipo de Cuenta
+  tipo:                    t
+  nombrecampo:             tipcuen
+  esgrabable:              true
+  html:                    ["size=5 maxlength=2"]
+32:       # Columna 32
+  titulo:                  Código de Oficina
+  tipo:                    t
+  nombrecampo:             codofi
+  esgrabable:              true
+  html:                    ["size=5 maxlength=3"]
+33:       # Columna 33
+  titulo:                  Número de Cuenta
+  tipo:                    t
+  esgrabable:              true
+  nombrecampo:             numcue
+  html:                    ["size=30  maxlength=20"]
+34:       # Columna 34
+  titulo:                  Filler
+  tipo:                    t
+  esgrabable:              true
+  nombrecampo:             filler
+  html:                    ["size=50  maxlength=43"]
+35:       # Columna 35
+  titulo:                  Estatus
+  tipo:                    k
+  esgrabable:              true
+  oculta:                  true
+  nombrecampo:             status
+  html:                    ["size=50  maxlength=43"]  

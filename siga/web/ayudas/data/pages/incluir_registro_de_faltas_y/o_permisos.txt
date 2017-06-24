@@ -1,0 +1,17 @@
+====== Operación Incluir ======
+
+Para **Incluir** un Registro de **Faltas y/o Permisos en Lotes**:  <html><br><br></html>
+
+  * Presione el Botón {{:btnnuevo.jpg|}}  <html><br><br></html>
+
+  * Seleccione del calendario la **Fecha** de la Falta y/o Permiso. <html><br><br></html>
+
+  * Seleccione el **Tipo de Nómina** para la cual se registrarán aquellos empleados que poseen Faltas y/o Permisos.   <html><br><br></html>
+
+  * Automáticamente el sistema carga en un grid todos los empleados que pertenecen al Tipo de Nómina seleccionada.   <html><br><br></html>
+
+  * Marque todos aquellos empleados que poseen Faltas y/o Permisos.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperregfalperinc1.jpg|}}"></div><br></html>
+
+  * Presionar {{:btnguardar.jpg|}} para almacenar el registro.  <html><br><br></html

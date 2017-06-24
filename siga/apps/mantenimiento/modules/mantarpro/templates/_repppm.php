@@ -1,0 +1,1 @@
+<?php echo select_tag('mantarpro[repppm]', options_for_select(array('S' => 'Si', 'N' => 'No'),$mantarpro->getRepppm(),'include_custom=Seleccione'),array()); ?>

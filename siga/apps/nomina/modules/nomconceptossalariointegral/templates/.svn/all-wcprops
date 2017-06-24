@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/40794/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomconceptossalariointegral/templates
+END
+_list_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomconceptossalariointegral/templates/_list_actions.php
+END
+autocompleteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomconceptossalariointegral/templates/autocompleteSuccess.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomconceptossalariointegral/templates/ajaxSuccess.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repositorio/!svn/ver/40794/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomconceptossalariointegral/templates/editSuccess.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomconceptossalariointegral/templates/_edit_actions.php
+END
+listSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repositorio/!svn/ver/40794/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomconceptossalariointegral/templates/listSuccess.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomconceptossalariointegral/templates/_edit_form.php
+END

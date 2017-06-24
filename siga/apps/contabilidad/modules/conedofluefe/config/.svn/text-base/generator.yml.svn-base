@@ -1,0 +1,32 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Contatit
+    theme:            cidesaGenerator
+    fields:
+      codtit: { name: Código, params: size=10 maxlength=3 onFocus=readonly(this.id) onBlur="this.value=this.value.pad(3, '0',0);"}
+      destit: { name: Descripción, params: size=80 maxlength=500 }
+      ordtit: { name: Orden, params: size= 5 maxlength=2 }
+
+    list:
+      title:          Definición de Titulos de Estado de Flujo de Efectivo
+      fields:
+        codtit: { name: Código, params: size=10 maxlength=3 }
+        destit: { name: Descripción, params: size=20 maxlength=500  }
+        ordtit: { name: Orden, params: size= 5 maxlength=2 }
+      filters:        [codtit, destit, ordtit]
+      display:        [=codtit, destit, ordtit]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:  10
+      sort: codtit
+      
+    edit:
+      title:          Edición de Título de Estado de Flujo de Efectivo
+      display:        [codtit, destit, ordtit]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~ 

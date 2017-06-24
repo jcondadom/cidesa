@@ -1,0 +1,13 @@
+Los campos que conforman la pantalla de **Asignación de Categorías por Empleado** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasigcatempinc1.jpg|}}"></div><br></html>
+
+  * **Código del Concepto:** Refiere al Código y Descripción del Concepto para el cual desea realizar la asignación de categorías a los empleados pertenecientes a él. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra la [[Lista|Lista]] de conceptos que fueron registrados previamente en el sistema.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasigcatempinc2.jpg|}}"></div><br></html>
+
+  * El sistema muestra automáticamente en un [[Grid|Grid]] la Cédula y Nombre de los empleados asignados al Concepto seleccionado lo cual fué definido previamente en la pantalla [[asignacion_de_conceptos_a_empleados|Asignación de Conceptos a Empleados]] y por cada uno de ellos: el **Cargo**, **Código y Descripción de la Categoría** que ya poseían asociada y **Código y Descripción de la Nómina** . <html><br><br></html>
+
+  * Por último debe seleccionar para cada uno de los empleados la nueva Categoría a asignar en la columna correspondiente. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Asignación de Categorías por Empleado** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

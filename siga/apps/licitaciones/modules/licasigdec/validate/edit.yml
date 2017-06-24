@@ -1,0 +1,57 @@
+methods:
+  post:
+   - "liasigdec{tabla}"
+   - "liasigdec{lisicact_id}"
+   - "liasigdec{fecdecla}"
+   - "liasigdec{detdecmod}"
+   - "liasigdec{anapor}"
+   - "liasigdec{anaporcar}"
+
+
+names:
+  liasigdec{tabla}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+
+  liasigdec{lisicact_id}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+
+  liasigdec{fecdecla}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  liasigdec{detdecmod}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_det
+
+  liasigdec{anapor}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    
+  liasigdec{anaporcar}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+MyNumberValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]
+
+Validator_det:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: Este Campo no puede tener menos de 2 caracteres
+        max:       1000
+        max_error: Este Campo no puede pasar mas de 1000 caracteres

@@ -1,0 +1,29 @@
+methods:
+  post:
+   - "mangenpla{codgru}"
+   - "mangenpla{fecgen}"
+
+names:
+  mangenpla{codgru}:
+    required:  Yes
+    required_msg: No puede salvar sin introducir el Código del Grupo de Trabajo
+    validators: Validator_codgru
+      
+  mangenpla{fecgen}:
+    required:  Yes
+    required_msg: No puede salvar sin introducir la Fecha
+    validators: FechaValidator
+
+Validator_codgru:
+    class: CidesaExistValidator
+    param:
+        class:        Mangrutra
+        column:       codgru
+        unique_error: El Grupo de Trabajo debe Existir.
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es inválida            

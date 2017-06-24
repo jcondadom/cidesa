@@ -1,0 +1,23 @@
+====== Operación Incluir ======
+
+Para **Registrar** una determinada Asignación de Conceptos a Nómina:<html><br><br></html>
+
+  * Al ingresar a la pantalla de Asignación de Conceptos a Nómina automáticamente observará una Lista donde el sistema muestra todos los Tipos de Nóminas que fueron registradas con anterioridad.
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasiconanominc1.jpg|}}"></div><br></html>
+
+  * Seleccione el **Código de la Nómina** para la cual desea asignar los Conceptos.<html><br><br></html>
+
+  * El sistema muestra en el cuadro **Conceptos por Asignar** todos los Conceptos que fueron definidos con anterioridad.<html><br><br></html>
+
+   * En la tabla **Conceptos por Asignar** debe marcar todos aquellos conceptos que desea sean asignados al Tipo de Nómina seleccionada, debe seleccionar la **Frecuencia de pago** de dicho concepto e indicar "Sí" ó "No" se encuentra Activo para esa determinada Nómina.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasiconanominc2.jpg|}}"></div><br></html>
+
+  * Presione el Botón {{:btnguardar.jpg|}} <html><br><br></html>
+
+  * Una ves guardada la información podemos observar que cada uno de los Conceptos marcados en la tabla **Conceptos por Asignar** se trasladarán automáticamente a la tabla **Conceptos Asignados por Nómina**.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasiconanominc3.jpg|}}"></div><br></html>
+
+  * Si desea **quitar** Conceptos que ya fueron asignados a una determinada Tipo de Nómina, debe ubicarse en en la tabla **Conceptos Asignados por Nómina** y marcar aquellos conceptos que ya no desee asignar y automáticamente se trasladarán a la tabla **Conceptos por Asignar**.

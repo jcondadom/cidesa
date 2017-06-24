@@ -1,0 +1,65 @@
+
+methods:
+  post:
+   - "fcregveh{plaveh}"
+   - "fcregveh{fecreg}"
+   - "fcregveh{valori}"
+   - "fcregveh{coduso}"
+   - "fcregveh{rifcon}"
+   - "fcregveh{modveh}"
+   - "fcregveh{fecrec}"
+
+
+names:
+  fcregveh{plaveh}:
+    required:  Yes
+    required_msg: La Placa es un campo requerido
+    validators: Validator_plaveh
+
+  fcregveh{coduso}:
+    required:  Yes
+    required_msg: El Codigo del Uso es un campo requerido
+    validators: Validator_coduso
+
+  fcregveh{rifcon}:
+    required:  Yes
+    required_msg: La C.I. / RIF no puede estar en Blanco
+    validators: Validator_rifcon
+
+  fcregveh{valori}:
+    required:  Yes
+    required_msg: El Valor es un campo requerido
+
+  fcregveh{fecreg}:
+    required:  Yes
+    required_msg: La Fecha del Registro es un campo requerido
+
+  fcregveh{modveh}:
+    required:  Yes
+    required_msg: El Modelo es un campo requerido
+
+  fcregveh{fecrec}:
+    required:  Yes
+    required_msg: La Fecha de Recepción es un campo requerido
+
+
+Validator_plaveh:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Fcregveh
+        column:       plaveh
+        unique_error: El registro ya Existe intente con otro.
+        
+Validator_coduso:
+    class: CidesaExistValidator
+    param:
+        class:    Fcusoveh
+        column:   coduso
+        unique_error:  El Codigo del Uso no existe.        
+        
+Validator_rifcon:
+    class: CidesaExistValidator
+    param:
+        class:    Fcconrep
+        column:   rifcon
+        unique_error:  La C.I. / RIF del Contribuyente no existe.         

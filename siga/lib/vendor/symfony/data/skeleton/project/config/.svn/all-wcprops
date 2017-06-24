@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/skeleton/project/config
+END
+propel.ini
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/skeleton/project/config/propel.ini
+END
+schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/skeleton/project/config/schema.yml
+END
+rsync_exclude.txt
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/skeleton/project/config/rsync_exclude.txt
+END
+databases.yml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/skeleton/project/config/databases.yml
+END
+properties.ini
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/skeleton/project/config/properties.ini
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/skeleton/project/config/config.php
+END

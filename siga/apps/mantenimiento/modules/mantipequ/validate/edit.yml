@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "mantipequ{codteq}"
+   - "mantipequ{desteq}"
+
+names:
+  mantipequ{codteq}:
+    required:  Yes
+    required_msg: Introduzca el Código del Tipo de Equipo
+    validators: Validator_codteq
+    
+  mantipequ{desteq}:
+    required:  Yes
+    required_msg: Introduzca la Descripción del Tipo de Equipo
+    validators: Validator_desteq
+
+Validator_codteq:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Mantipequ
+        column:       codteq
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_desteq:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La Descripción no puede tener mas de 250 caracteres 

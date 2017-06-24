@@ -1,0 +1,47 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Atdenuncias
+    theme:            cidesaGenerator
+    fields:
+      atsolici:
+        name:       Nombre
+      atunidades_id:
+        name:       Unidad
+        params:     text_method=getDesuni include_custom=Seleccione...
+      desden:       { name: Descipción, type: textarea_tag, params: cols=60 rows=2 rich=false }
+      respuesta:    { name: "Respuesta/Instrucción", type: textarea_tag, params: cols=60 rows=2 rich=false readonly=true }
+      persona:      { name: Dirigido a }
+      telefono:     { name: Telefono/Celular }
+      status:       { name: Estado }
+      fechar:       { name: Fecha Registro, type: plain, params: readonly=true }
+      fechaa:       { name: Fecha Atención, type: plain, params: readonly=true }
+      attipsol_id:  { name: Tipo de Solicitud }
+      tipo:  { name: Tipo de Solicitud }
+      atinsrefier_id: { name: Referir a }
+      atciudadano_id: { name: Ciudadano }
+      nomsol: { name: Ciudadano }
+      atestayu_id: { name: Estado }
+      nroexp:       { name: Expediente }
+
+    list:
+      title:          Solicitudes
+      display:        [=nroexp, =nomsol, unidad, tipo, status]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [nroexp, _ciudadano, atunidades_id, atestayu_id]
+      max_per_page:   5
+      #sort:           atsolici
+    edit:
+      title:          Edición de Solicitudes
+      display:
+        Expediente:   [ _expediente ]
+        Realizado por:  [_atciudadano_id, telefono]
+        Detalle Solicitud: [attipsol_id, atunidades_id, persona, desden, atinsrefier_id ]
+        Estado:          [atestayu_id, respuesta, fechar, fechaa ]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

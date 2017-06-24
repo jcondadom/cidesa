@@ -1,0 +1,49 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Faciecaj
+    theme:            cidesaGenerator
+    
+    fields:
+      codalm:     { name: Código de Almacen }
+      codcaj:     { name: Código de Caja }
+      codape:     { name: Codigo de Apertura, type: input_tag, params: size=10}
+      codusu:     { name: Usuario, params : size=25 maxlength=50 readonly=true}
+      numfacini:  { name: Nro Factura Inicial, params: size=15 maxlength=8 readonly=true}
+      numfaccie:  { name: Nro Factura Final, params: size=15 maxlength=8 readonly=true}
+      numctrini:  { name: Nro Control Factura Inicial, params: size=15 maxlength=10 readonly=true}
+      numctrcie:  { name: Nro Control Factura Final, params: size=15 maxlength=10 readonly=true}
+      fechorcie:  { name: Fecha de Cierre }
+      moncie:     { name: Monto de Cierre, params : size=35 maxlength=32 readonly=true}
+      observ:     { name: Observaciones, type: textarea_tag, params: size=100x5 maxlength=500 onkeyup=" return ismaxlength(this)" }
+      gride:      { name: .}
+      gridm:      { name: .}
+      totalc:     { name: Total General Caja, params : size=35 maxlength=3}
+      totalm:     { name: Total General Movientos, params : size=35 maxlength=3}
+
+    list:
+      codalm:     { name: Código de Almacen}
+      codcaj:     { name: Código de Caja }
+      codusu:     { name: Usuario}
+      fechorcie:  { name: Fecha de Apertura}
+      title:          Cierre de Caja
+      display:        [codalm, codcaj, codusu, fechorcie]
+      object_actions:
+        _edit:        NONE
+        _delete:      NONE
+      filters:        [codalm, codcaj, codusu, fechorcie]
+      max_per_page:   10
+      sort:           [fechorcie, desc]
+
+
+    edit:
+      title:          Cierre de Caja Diario
+      display:
+        "Información":   [_codalm, _codcaj, codusu]
+        "Arqueo de Caja":   [numfacini, numfaccie, numctrini, numctrcie, _gride, totalc, _gridm, totalm]
+        "NONE":   [moncie, observ]
+      hide: [codape]
+      actions:
+        _list:        ~
+        _save_and_list:        ~
+        _delete:      NONE

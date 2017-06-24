@@ -1,0 +1,2 @@
+  <?php if ($casolart->getTipreq()=='') $vartipreq='C'; else $vartipreq=$casolart->getTipreq();?>
+   <?php echo select_tag('casolart[tipreq]', options_for_select(Constantes::ListaTipoCompra(),$vartipreq, 'include_custom=Seleccione Uno')); ?>

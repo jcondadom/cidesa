@@ -1,0 +1,32 @@
+====== Operación Incluir ======
+
+Para **Registrar** un determinado Movimiento por Concepto y Cargo: <html><br><br></html>
+
+  * Presione el Botón {{:btnnuevo.jpg|}} <html><br><br></html>
+
+  * Seleccione el **Código del Tipo de Nómina** donde se va a aplicar el Concepto.<html><br><br></html>
+
+  * Seleccione el **Código del Concepto** para el cual se va a modificar el Monto ó Cantidad por empleado.<html><br><br></html>
+
+  * El sistema muestra el **Cargo** al cual está asociado el Concepto seleccionado.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompermovconycarinc1.jpg|}}"></div><br><br></html>
+
+  * Seguidamente marque en la **sección Conceptos** si la modificación a realizar sobre el Concepto es en base a la **Cantidad** ó el **Monto**, dependiendo de la opción que escoja en la tabla Empleados se habilitará la columna correspondiente.<html><br><br></html>
+
+  * En la **tabla Empleados** el sistema muestra autmáticamente la siguiente información:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** **Código** y **Nombre** de los Empleados pertenecientes a la nómina seleccionada.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Dependiendo de la opción marcada en la **sección Conceptos** se muestra la **Cantidad** ó **Monto** definido para el Concepto seleccionado por Empleado.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompermovconycarinc2.jpg|}}"></div><br><br></html>
+
+  * Luego que el sistema carga automáticamente los datos de cada empleado de la Nómina, y que desempeñe ese cargo, usted puede modificar el Monto ó Cantidad del Concepto, haciendo doble click sobre la fila correspondiente al empleado que desee en dicha columna.<html><br><br></html>
+
+  * Presione el Botón{{:btnguardar.jpg|}} para registrar la información.
+
+
+
+
+

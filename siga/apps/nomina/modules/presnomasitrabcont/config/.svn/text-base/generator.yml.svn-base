@@ -1,0 +1,32 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npasiempcont
+    theme:            cidesaGenerator
+    fields:
+      codtipcon:
+        name: Código Contrato
+        params: maxlength=3
+        catalogo:
+          catalogoweb: Nptipcon_Presnomasitrabcont
+          clase: Nptipcon
+          ajax: 1
+          parametros: getprincipal="getCodtipcon" getsecundario="getDestipcon" campoprincipal="codtipcon" camposecundario="destipcon" campobase = "id"
+          divupdate:   mensaje
+      marcar:  { name: .}
+      gridcon: { name: .}
+
+    list:
+      title:          Asignacion de Trabajadores para Prestaciones por Contrato
+      filters:        [codtipcon]
+      display:        [=codtipcon, destipcon]
+      object_actions:
+        _edit:        ~
+      max_per_page:   5
+    edit:
+      title:          Asignacion de Trabajadores para Prestaciones por Contrato
+      display:        [=codtipcon, _marcar, _gridcon]
+      actions:
+        _list:        ~
+        _save:         ~
+        _create:       ~

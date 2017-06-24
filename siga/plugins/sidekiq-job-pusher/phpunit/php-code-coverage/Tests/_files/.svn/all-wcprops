@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files
+END
+CoverageMethodTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/CoverageMethodTest.php
+END
+CoveredFunction.php
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/CoveredFunction.php
+END
+NamespaceCoverageClassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageClassTest.php
+END
+CoverageTwoDefaultClassAnnotations.php
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/CoverageTwoDefaultClassAnnotations.php
+END
+source_with_ignore.php
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/source_with_ignore.php
+END
+source_without_namespace.php
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/source_without_namespace.php
+END
+CoverageFunctionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/CoverageFunctionTest.php
+END
+NamespaceCoveragePrivateTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/NamespaceCoveragePrivateTest.php
+END
+CoverageProtectedTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/CoverageProtectedTest.php
+END
+NamespaceCoveragePublicTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/NamespaceCoveragePublicTest.php
+END
+source_with_namespace.php
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/source_with_namespace.php
+END
+NamespaceCoverageCoversClassPublicTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageCoversClassPublicTest.php
+END
+NamespaceCoverageCoversClassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageCoversClassTest.php
+END
+NamespaceCoverageProtectedTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageProtectedTest.php
+END
+CoverageNothingTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/CoverageNothingTest.php
+END
+NamespaceCoverageNotPrivateTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageNotPrivateTest.php
+END
+BankAccount-clover.xml
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/BankAccount-clover.xml
+END
+NamespaceCoveredClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/NamespaceCoveredClass.php
+END
+CoveragePublicTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/CoveragePublicTest.php
+END
+NotExistingCoveredElementTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/NotExistingCoveredElementTest.php
+END
+ignored-lines-clover.xml
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/ignored-lines-clover.xml
+END
+CoverageMethodOneLineAnnotationTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/CoverageMethodOneLineAnnotationTest.php
+END
+CoverageClassExtendedTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/CoverageClassExtendedTest.php
+END
+NamespaceCoverageNotProtectedTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageNotProtectedTest.php
+END
+CoverageNotPrivateTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/CoverageNotPrivateTest.php
+END
+NamespaceCoverageMethodTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageMethodTest.php
+END
+CoverageNoneTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/CoverageNoneTest.php
+END
+CoverageNotPublicTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/CoverageNotPublicTest.php
+END
+CoveredClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/CoveredClass.php
+END
+NamespaceCoverageClassExtendedTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageClassExtendedTest.php
+END
+CoverageClassTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/CoverageClassTest.php
+END
+source_with_oneline_annotations.php
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/source_with_oneline_annotations.php
+END
+CoverageNotProtectedTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/CoverageNotProtectedTest.php
+END
+CoveragePrivateTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/CoveragePrivateTest.php
+END
+source_without_ignore.php
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/source_without_ignore.php
+END
+NamespaceCoverageNotPublicTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/NamespaceCoverageNotPublicTest.php
+END
+BankAccount.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/BankAccount.php
+END
+BankAccountTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/_files/BankAccountTest.php
+END

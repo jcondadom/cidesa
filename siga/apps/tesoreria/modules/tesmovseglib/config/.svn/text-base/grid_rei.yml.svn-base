@@ -1,0 +1,35 @@
+opciones:                  # Opciones generales
+  name:                    b
+  eliminar:                true
+  tabla:                   tsdetrei
+  ancho:                   750
+  anchogrid:               800
+  filas:                   1
+  titulo:                  ' Códigos Presupuestarios de Gasto '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Presupuestario
+  tipo:                    t
+  nombrecampo:             codpre
+  html:                    ["size=30"]
+  esgrabable:              true
+  ajaxgrid:                true
+2:       # Columna 2
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nompre
+  esgrabable:              true
+  html:                    ["size=60 readOnly=true"]
+3:       # Columna 3
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monto
+  esnumerico:              true
+  esgrabable:			   true
+  html:                    ["size=10 "]
+4:       # Columna 4
+  titulo:                  Refere
+  tipo:                    t
+  nombrecampo:             refere
+  esgrabable:			          true
+  html:                    ["size=10 maxlength=8"]

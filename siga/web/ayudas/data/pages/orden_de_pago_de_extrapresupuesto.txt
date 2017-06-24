@@ -1,0 +1,26 @@
+Cuando la **Orden de Pago** es de **Extrapresupuesto** los campos que conforman la pantalla son los siguientes: <html><br><br></html>
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanordpagordpagoinc1.jpg|}}"></div><br></html>
+
+  * **Referencia:** Código ó correlativo del Documento al que se asocia la Orden de Pago. <html><br><br></html>
+
+  * **Fecha** en la que se está realizando la Orden. <html><br><br></html>
+ 
+  * **Tipo:** Para este caso el tipo de orden de pago a seleccionar es la **Orden de Pago de Extrapresupuesto**. <html><br><br></html>
+
+  * **Concepto:** Refiere a el Concepto por el cual se está realizando dicha orden de pago. <html><br><br></html>
+ 
+  * **C.I / RIF:** Se coloca la C.I / R.I.F de la persona o empresa que se le va realizar el pago. <html><br><br></html>
+
+  * **Beneficiario:** Persona a quién se le hará entrega de la Orden de Pago. <html><br><br></html>
+
+  * **Código Contable:**  Representa el identificador de la cuenta contable según el formato establecido en la Definición Contable, que se asocia a la operación o documento que se esta emitiendo. <html><br><br></html>
+ 
+  * **Unidad Origen:** Se refiere a la Codificación del Departamento que emite la Orden de Pago. <html><br><br></html>
+
+  * **Financiamiento:** Refiere a la fuente de financiamiento. <html><br><br></html>
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanordpagordpagoinc5.jpg|}}"></div><br></html>
+
+  * En la pestaña **Imputaciones Presupuestarias** el sistema solo permitirá que ingrese el **Neto a Pagar**
+

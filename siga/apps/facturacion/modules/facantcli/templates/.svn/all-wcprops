@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/59651/web/php/siga/branches/productions/trunk/apps/facturacion/modules/facantcli/templates
+END
+_js.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/53932/web/php/siga/branches/productions/trunk/apps/facturacion/modules/facantcli/templates/_js.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/45745/web/php/siga/branches/productions/trunk/apps/facturacion/modules/facantcli/templates/ajaxSuccess.php
+END
+_tipant.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/59651/web/php/siga/branches/productions/trunk/apps/facturacion/modules/facantcli/templates/_tipant.php
+END
+_grid.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45745/web/php/siga/branches/productions/trunk/apps/facturacion/modules/facantcli/templates/_grid.php
+END
+ajaxcomprobanteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/45745/web/php/siga/branches/productions/trunk/apps/facturacion/modules/facantcli/templates/ajaxcomprobanteSuccess.php
+END
+_comprobante.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/45926/web/php/siga/branches/productions/trunk/apps/facturacion/modules/facantcli/templates/_comprobante.php
+END

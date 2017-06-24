@@ -1,0 +1,33 @@
+opciones:                  # Opciones generales
+  name:                    c
+  eliminar:                true
+  tabla:                   cpsolmovadiper
+  anchogrid:               500
+  ancho:                   400
+  filas:                   5
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Período
+  tipo:                    t
+  nombrecampo:             perpre
+  html:                    ["size=10 maxlength=2"]
+  esgrabable:              true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: cpsoladidis_fecadi}
+2:       # Columna 2
+  titulo:                  Monto
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monmov
+  esnumerico:              true
+  html:                    ["size=10"]
+  ajaxgrid:                true
+3:       # Columna 3
+  titulo:                  Monto Original
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monmov2
+  esnumerico:              true
+  oculta:                  true
+  html:                    ["size=10 readonly=true"]  

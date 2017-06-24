@@ -1,0 +1,61 @@
+Los campos que conforman la pantalla de **Registro de Proveedores** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmprovregprovinc1.jpg}}"></div><br></html>
+
+  * El **Código del Proveedor**, el cual dede ser un código alfanumérico único para cada proveedor, se recomienda usar el mismo número del RIF ya que este es único por cada proveedor. <html><br><br></html>
+
+  * El **Nombre** del proveedor. <html><br><br></html>
+
+  * En la **Pestaña Datos Personales** se encuentran los siguientes campos: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** La  **Cédula  ó  RIF**. del Proveedor: 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** El **NIT**. del proveedor.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** **Nacionalidad**: Campo en el que se debe seleccionar  una opción Nacional ó Internacional dependiendo de la nacionalidad del proveedor.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** **Actividad Profesional**: En la cual se debe seleccionar si la actividad es de tipo Proveedor ó Contratista.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** **Direccion de ubicación** del proveedor
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** El **Teléfono** de contacto 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** El **Número de Fax** 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** El **Número de RNC** (Registro Nacional de Contratistas)
+ 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** El **E-mail** 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-**  El **Ramo** que provee 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-**  **Limite de Crédito** que posee el proveedor
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** ** En el campo Cuenta contable Asociada** al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra la [[Listas|Lista]] de Cuentas Contables registradas previamente, en dicha lista debe seleccionar la cuenta por pagar al proveedor, este dato es importante y siempre debe ser ingresado cada vez que se registre un proveedor. Esto es necesario ya que un proveedor al que se le haga una orden de compra pasa luego a ser un beneficiario al que se le generara una deuda. Al emitir la orden de pago de ese proveedor el Sistema genera un comprobante contable en el que ve reflejada la cuenta por pagar previamente asociada al proveedor contra las cuentas de gasto. Es indispensable crear la cuenta contable en el módulo de contabilidad previamente de forma tal que al momento de registrar un proveedor, poder seleccionar del catalogo la cuenta asociada a este.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** En el campo **Cuenta de Orden y Per Contra** al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra la [[Listas|Lista]] de Cuentas de Orden y Per Contra registradas previamente en el sistema donde debe seleccionar la que desea asociar a un proveedor en el caso de que se desee llevar información contable de las ordenes de compra/servicio, se usan las cuentas “4” y la inclusión de estas cuentas no es algo obligatorio.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** La **Fecha de Inscripción** del proveedor en el sistema.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmprovregprovinc2.jpg}}"></div><br><br></html>
+
+  * En la **Pestaña Datos del Registro** se deben ingresar: el número de **Circunscripción Judicial**, la **Fecha del Registro**, el **Número de Registro Mercantil**, el número de **Folio** del registro, el **Tomo**, el **Capital Pagado**, el **Capital Suscrito** y los **Datos de la Persona Contacto** con la cual se establecerá comunicación para suministrar información de los artículos o servicios solicitados.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmprovregprovinc3.jpg|}}"></div><br><br></html>
+
+  * En la **Pestaña Recaudos**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** En el campo **Grupo** al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[Listas|Lista]] con los [[Definicion_de_Grupos_de_Recaudos|Grupos de Recaudos]] que fueron registrados previamente en el sistema.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** En el recuadro **Recaudos** el sistema carga y muestra todos los [[Definicion_de_Recaudos|Recaudos]] pertenecientes al Grupo seleccionado
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Todos aquellos Recaudos que desea sean agregados al recuadro de **Recaudos Solicitados** simplemente seleccionamos el recaudo y hacemos clik en el botón {{:btnagregar1.jpg|}}. Si seleccionó el recaudo equivocado, solo debe seleccionarlo nuevamentey hacer hace clik en el botón {{:btnagregar2.jpg|}}. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmprovregprovinc4.jpg|}}"></div><br><br></html>
+
+  * En la Pestaña **Otras Cuentas Contables**: Se registran aquellas cuentas contables relacionadas con actividades secundarias, para cada una de ellas al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[Listas|Lista]] con las cuentas registradas previemente, solo debe seleccionar la que desee. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Registro de Proveedores** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+ 
+
+

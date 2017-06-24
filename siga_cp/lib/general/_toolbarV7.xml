@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<toolbar disableType="image" absolutePosition="auto" toolbarAlign="right">
+	<ImageButton  src="../../lib/general/toolbar/imgs/iconSave.gif" height="25" width="25" id="0_save" tooltip='toolTip("Guardar",this)'/>
+	<divider id="div_1"/>
+	<ImageButton src="../../lib/general/toolbar/imgs/iconCancelar.gif" height="25" width="25" id="0_cancelar" tooltip='toolTip("Cancelar",this)'/>
+	<divider id="div_2"/>
+	<ImageButton src="../../lib/general/toolbar/imgs/borrar.gif" height="25" width="25" id="0_delete" tooltip='toolTip("Borrar",this)'/>
+	<divider id="div_3"/>
+	<ImageButton src="../../lib/general/toolbar/imgs/rbut_05.gif" height="24" width="24" id="0_search" tooltip='toolTip("Busqueda",this)'/>
+	<divider id="div_4"/>
+	<ImageButton src="../../lib/general/toolbar/imgs/iconPrint.gif" height="24" width="24" id="0_print1" tooltip='toolTip("Imprimir Solicitud",this)'/>
+	<divider id="div_5"/>
+	<ImageButton src="../../lib/general/toolbar/imgs/iconPrint.gif" height="24" width="24" id="0_print2" tooltip='toolTip("Imprimir Credito",this)'/>
+</toolbar>

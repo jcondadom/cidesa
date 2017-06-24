@@ -1,0 +1,35 @@
+opciones:                  # Opciones generales
+  name:                    b
+  eliminar:                true
+  tabla:                   fcfuentesmul
+  ancho:                   650
+  anchogrid:               750
+  filas:                   1
+  titulo:                  '------------- Fuente  Asociada -------------------------------------------------------------------- Fuente Multa -------------------------------------------------------- '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             codfue
+  esgrabable:			   true
+  html:                    ["size=10 maxlength=2 onBlur='validarfueprerepetida(this.id)'"]
+  catalogo:                [Fcfuepre, sf_admin_edit_form, {Codfue: 1, Nomfue: 2}, Facmultas_fcfuepre_fcdefins ]
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nomfue
+  esgrabable:			   true
+  html:                    ["size=40 readOnly=true"]
+3:       # Columna 3
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             codfuegen
+  esgrabable:			   true
+  html:                    ["size=10 maxlength=2 onBlur='validarfueprerepetida(this.id)'"]
+  catalogo:                [Fcfuepre, sf_admin_edit_form, {Codfue: 3, Nomfue: 4}, Facdefespins_fcdefins ]
+4:       # Columna 4
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nomfuegen
+  esgrabable:			   true
+  html:                    ["size=40 readOnly=true"]

@@ -1,0 +1,24 @@
+====== Conceptos para el Sueldo ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite definir todos los conceptos asociados a los sueldos o salarios, por cada nómina existente en la Institución.</html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el **Menú Principal** de **SIGA**.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Conceptos para el Sueldo**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconsue.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Conceptos para el Sueldo** solo podrá realizar las Operaciones Básicas de:
+
+  * [[Incluir Conceptos para el Sueldo|Incluir]]
+
+  * [[Eliminar Conceptos para el Sueldo|Eliminar]]
+
+  * [[Consultar Conceptos para el Sueldo|Consultar]]

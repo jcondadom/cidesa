@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/61720/web/php/siga/branches/productions/trunk/apps/mantenimiento/modules/manordtra/config
+END
+grid_componentes.yml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/61298/web/php/siga/branches/productions/trunk/apps/mantenimiento/modules/manordtra/config/grid_componentes.yml
+END
+grid_rrhh_cierre.yml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/61257/web/php/siga/branches/productions/trunk/apps/mantenimiento/modules/manordtra/config/grid_rrhh_cierre.yml
+END
+grid_avance.yml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/61257/web/php/siga/branches/productions/trunk/apps/mantenimiento/modules/manordtra/config/grid_avance.yml
+END
+grid_tareas.yml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/61257/web/php/siga/branches/productions/trunk/apps/mantenimiento/modules/manordtra/config/grid_tareas.yml
+END
+generator.yml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/61720/web/php/siga/branches/productions/trunk/apps/mantenimiento/modules/manordtra/config/generator.yml
+END
+grid_rrhh.yml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/61257/web/php/siga/branches/productions/trunk/apps/mantenimiento/modules/manordtra/config/grid_rrhh.yml
+END
+grid_req.yml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/61257/web/php/siga/branches/productions/trunk/apps/mantenimiento/modules/manordtra/config/grid_req.yml
+END

@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "mannumart{codart}"
+   - "mannumart{desart}"
+
+names:
+  mannumart{codart}:
+    required:  Yes
+    required_msg: Introduzca el Código del Número ART
+    validators: Validator_codart
+    
+  mannumart{desart}:
+    required:  Yes
+    required_msg: Introduzca la Descripción del Número ART
+    validators: Validator_desart
+
+Validator_codart:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Mannumart
+        column:       codart
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_desart:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       500
+        min_error: La Descripción no puede tener mas de 500 caracteres

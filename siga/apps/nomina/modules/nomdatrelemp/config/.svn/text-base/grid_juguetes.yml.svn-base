@@ -1,0 +1,28 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   npinfjug
+  anchogrid:               700
+  ancho:                   650
+  filas:                   1
+  titulo:                  'Juguetes'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Año
+  tipo:                    t
+  nombrecampo:             anno
+  html:                    ["size=10 maxlength=4"]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Nro. Beneficiados(Hijos)
+  tipo:                    t
+  nombrecampo:             nrohij
+  html:                    ["size=10 maxlength=2"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Monto Pagado Según Nómina
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monpag
+  esnumerico:              true
+  html:                    ["size=10"]

@@ -1,0 +1,26 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcpais
+    theme:            cidesaGenerator
+    fields:
+      codpai: { name: Código, params : size=5 maxlength=4  onFocus=readonly(this.id) onBlur="this.value=this.value.pad(4, '0',0);"  }
+      nompai: { name: Nombre, params : size=60 maxlength=30 onBlur="cadena=this.value;cadena=cadena.toUpperCase(); $(this.id).value=cadena"}
+    list:
+      title:          Definiciones de País
+      filters:        [codpai]
+      display:        [=codpai, nompai]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codpai
+    edit:
+      title:          Edición  de País
+      display:
+        "Datos del País":   [codpai, nompai]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

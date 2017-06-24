@@ -1,0 +1,15 @@
+===== Descripción de Campos =====
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedefactinc1.jpg|}}"></div><br></html>
+
+  * Ingresar el **Código del Activo** siguiendo el formato predefinido. <html><br><br></html>
+
+  * Ingresar la **Descripción** qe haga referencia al Activo.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedefactinc2.jpg|}}"></div><br></html>
+
+  * Ingresar la **Vida Util** del activo. <html><br><br></html>
+
+  * Ingresar la **Cantidad de Activos** existentes. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Definición de Empresa** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "maninsseg{codins}"
+   - "maninsseg{desins}"
+
+names:
+  maninsseg{codins}:
+    required:  Yes
+    required_msg: Introduzca el Código de la Instrucciones de Seguridad
+    validators: Validator_codins
+    
+  maninsseg{desins}:
+    required:  Yes
+    required_msg: Introduzca la Descripción de la Instrucciones de Seguridad
+    validators: Validator_desins
+
+Validator_codins:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Maninsseg
+        column:       codins
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_desins:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       500
+        min_error: La Descripción no puede tener mas de 500 caracteres

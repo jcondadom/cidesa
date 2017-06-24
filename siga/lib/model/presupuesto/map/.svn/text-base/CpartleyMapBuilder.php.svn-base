@@ -1,0 +1,60 @@
+<?php
+
+
+
+class CpartleyMapBuilder {
+
+	
+	const CLASS_NAME = 'lib.model.presupuesto.map.CpartleyMapBuilder';
+
+	
+	private $dbMap;
+
+	
+	public function isBuilt()
+	{
+		return ($this->dbMap !== null);
+	}
+
+	
+	public function getDatabaseMap()
+	{
+		return $this->dbMap;
+	}
+
+	
+	public function doBuild()
+	{
+		$this->dbMap = Propel::getDatabaseMap('propel');
+
+		$tMap = $this->dbMap->addTable('cpartley');
+		$tMap->setPhpName('Cpartley');
+
+		$tMap->setUseIdGenerator(true);
+
+		$tMap->setPrimaryKeyMethodInfo('cpartley_SEQ');
+
+		$tMap->addColumn('CODART', 'Codart', 'string', CreoleTypes::VARCHAR, true, 3);
+
+		$tMap->addColumn('DESART', 'Desart', 'string', CreoleTypes::VARCHAR, false, 250);
+
+		$tMap->addColumn('NOMABR', 'Nomabr', 'string', CreoleTypes::VARCHAR, false, 4);
+
+		$tMap->addColumn('STACON', 'Stacon', 'string', CreoleTypes::VARCHAR, false, 1);
+
+		$tMap->addColumn('STAGOB', 'Stagob', 'string', CreoleTypes::VARCHAR, false, 1);
+
+		$tMap->addColumn('STAPRE', 'Stapre', 'string', CreoleTypes::VARCHAR, false, 1);
+
+		$tMap->addColumn('STANIV4', 'Staniv4', 'string', CreoleTypes::VARCHAR, false, 1);
+
+		$tMap->addColumn('STANIV5', 'Staniv5', 'string', CreoleTypes::VARCHAR, false, 1);
+
+		$tMap->addColumn('STANIV6', 'Staniv6', 'string', CreoleTypes::VARCHAR, false, 1);
+
+		$tMap->addColumn('PORTRA', 'Portra', 'double', CreoleTypes::NUMERIC, false, 14);
+
+		$tMap->addPrimaryKey('ID', 'Id', 'int', CreoleTypes::INTEGER, true, null);
+
+	} 
+} 

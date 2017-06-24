@@ -1,0 +1,26 @@
+======Definición======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Proceso que se encaraga de llevar el registro y control de aquellos pagos no ordinarios a los empleados de una institución; como por ejemplo: Bonos, Utilidades, etc. Es importante destacar que la Institución puede registrar una nómina especial no necesariamente al cumplirse la quincena; es decir, se puede realizar en cualquier momento del mes en el caso que sea necesario registrar un pago especial a los empleados de la Institución.</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Nóminas Especiales** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompernomesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Definición**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompernomespdef.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Definición** podrá realizar las Operaciones Básicas de: 
+
+  * [[Incluir Nóminas Especiales|Incluir]]
+
+  * [[Modificar Nóminas Especiales|Modificar]]
+
+  * [[Eliminar Nóminas Especiales|Eliminar]]
+
+  * [[Consultar Nóminas Especiales|Consultar]]

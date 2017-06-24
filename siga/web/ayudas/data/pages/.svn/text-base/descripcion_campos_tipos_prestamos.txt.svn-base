@@ -1,0 +1,16 @@
+Los campos que conforman la pantalla de **Tipos de Préstamos** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompertipprestinc1.jpg|}}"></div><br></html>
+
+  * El **Código** que identifica al Tipo de Préstamo. <html><br><br></html>
+
+  * La  **Descripción** del Tipo de Pŕestamo. <html><br><br></html>
+
+  * En el campo **Cod. Concepto para Cobro de Cuotas** presione el Botón {{:btncuadrocatalogo.jpg|}}. <html><br><br></html>
+
+  * Seguidamente el sistema muestra la [[listas|Lista]] de Conceptos que fueron definidos previamente en el sistema. <html><br><br></html>
+
+  * Por último seleccione de la [[listas|Lista]] el **Código del Concepto** a asociar al Movimiento de Saldos que se indica, y a través del cual se va a realizar el descuento de las cuotas de pago del Préstamo que se adquiera. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de Documentación Legal ahora podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+ 

@@ -1,0 +1,34 @@
+====== Operación Incluir ======
+
+Para **Incluir** los **Tipos de Contratos Colectivos**:  <html><br><br></html>
+
+   * Seleccione el **Tipo de Contrato Colectivo** a registrar.<html><br><br></html>
+
+  * Ingrese la **Descripciòn** para el Contrato Colectivo a definir.<html><br><br></html>
+
+  * Seleccione la **Frecuencia de pago** del Tipo de Contrato, es decir si es Mensual, Quincenal, Semanal, Mensual, Mensual Anticipo. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpretipconcolinc1.jpg|}}"></div><br></html>
+
+  * Marcar en **Aplicar Alícuota** en caso de que sea aplicable en la Institución.<html>&nbsp;&nbsp;</html>En caso de que la Institución aplique Alícuota automàticamente debe presionar el **Botón** <html>&nbsp;&nbsp;</html>{{:btnalicuota.jpg|}}
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpretipconcolinc2.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Al presionar el <b>Botón Ver Alícuota</b> el sistema automáticamente muestra un grid donde debe definir el Rango de Fechas de Vigencia, el Rango mínimo y máximo de Años de Antiguedad, los Días de Utilidades y Bono Vacacional correspondientes.</html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpretipconcolinc3.jpg|}}"></div><br><br></html>
+
+  * Presione el **Botón** <html>&nbsp;&nbsp;</html> {{:btnvernomina.jpg|}} donde automáticamente el sistema muestra una tabla donde debe seleccionar del catálogo las **Tipos de Nóminas** a asociar al contrato colectivo que se está definiendo.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpretipconcolinc4.jpg|}}"></div><br><br></html>
+
+  * Seleccione del calendario la **Fecha de Inicio** para el Cálculo del Contrato Colectivo.<html><br><br></html>
+
+  * Indicar en **Aplicar Artículo 146** si se utilizará para el cálculo de prestaciones.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpretipconcolinc5.jpg|}}"></div><br><br></html>
+
+  * Presionar el **Botón** <html>&nbsp;&nbsp;</html> {{:btnguardar.jpg|}}
+
+
+

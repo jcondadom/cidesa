@@ -1,0 +1,70 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cpsoltrasla
+    theme:            cidesaGenerator
+
+    fields:
+      reftra: { name: Referencia, params: size=8 maxlength=8  onBlur=rellenar(this.id) onFocus=readonly(this.id)}
+      destra: { name: Descripción, type: textarea_tag, params: size=80x5 }
+      justificacion: { name: Justificación, type: textarea_tag, params: size=80x5  maxlength=4000 onkeyup=" return ismaxlength(this)"}
+      fectra: { name: Fecha, params: date_format='dd/MM/yyyy'}
+
+      codart:
+        name: Código Art/Ley
+        catalogo:
+          catalogoweb: Cpartley_Preartley
+          clase: Cpartley
+          ajax: 0
+          parametros: getprincipal="getCodart" getsecundario="getDesart" campoprincipal="codart" camposecundario="desart" campobase = "id"
+          #catalogoparams:
+          #ajaxparams:
+          #divupdate: divgridvaca
+          #id:
+
+      criterio: { name: . }
+      detalle: { name: . }
+      tipgas: { name: Tipo Gasto}
+      tipo: { name: Motivo del Traspaso}
+      tottra: { name: Total Traslado, params: size=10 readonly=true }
+      diftra: { name: Diferencia en Montos, params: size = 10 readonly=true }
+      etiqueta: { name: . }
+      botones: { name: . }
+      totori: { name: . }
+      totdes: { name: . }
+      grid2: {name: . }
+      grid_perdes: {name: . }
+      grid_perhas: {name: . }
+      toteve: {name: Total Eventos, params: size=10 disabled=false readonly=true}
+      coddirec:
+        name: Dirección
+        params: size=3 maxlength=15
+        catalogo:
+          catalogoweb: Cadefdirec_Almdefdiv
+          clase: cadefdirec
+          ajax: 5
+          parametros: getprincipal="getCoddirec" getsecundario="getDesdirec" campoprincipal="coddirec" camposecundario="desdirec" campobase = "id"
+      btn: {name: . }
+      bascal: { name: Base de Cálculo, type: textarea_tag, params: size=80x5 maxlength=4000 onkeyup=" return ismaxlength(this)"}
+      iniana: { name: Iniciales Analista, params: size=5 maxlength=4 onKeyPress="javascript:cadena=this.value;cadena=cadena.toUpperCase();document.getElementById('cpsoltrasla_iniana').value=cadena" onBlur="javascript: valor=this.value;"}
+    list:
+      title: Solicitudes de Traslado
+      display: [=reftra, fectra, destra ]
+      max_per_page:    10
+      filters: [reftra, fectra ]
+      sort:  reftra
+    edit:
+      title: Edición de Solicitud de Traslado
+      display:
+        Datos de la Solicitud de Traslado: [ _etiqueta, _btn, reftra, fectra, destra, justificacion, bascal, codart, _tipo, _tipgas, coddirec, iniana]
+        Distribución de Traslado: [ _criterio, _grid_perdes, _grid_perhas, _detalle, _grid2, diftra, tottra, toteve ]
+      hide:  [longitud, mascara, artStacon, artStapre, artStagob, artStaniv4, artStaniv5, artStaniv6, id, statra, pertra, actualfila]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~
+        _anular:
+          name: Anular
+          only_for: edit
+          params: class="sf_admin_action_delete" onClick="anular()"

@@ -1,0 +1,27 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   cpimpcomext
+  anchogrid:               600
+  ancho:                   500
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Presupuestario
+  tipo:                    t
+  nombrecampo:             codpre
+  html:                    ["size=30"]
+  esgrabable:              true
+  ajaxgrid:                true
+  catalogo:                [ Cpasiini, sf_admin_edit_form, { codpre: 1 }, PrePagar_Cpasiini ]
+  ajaxadicionales:         {0: cpcomext_valmon, 1:  cpcomext_codmon}
+2:       # Columna 2
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monimp
+  html:                    ["size=10"]  
+  esgrabable:              true
+  ajaxgrid:                true
+  estotal:                 [ true, cpcomext_moncom ]
+  ajaxadicionales:         {0: cpcomext_valmon, 1:  cpcomext_codmon, 2:  cpcomext_feccom}

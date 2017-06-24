@@ -1,0 +1,40 @@
+opciones:                  # Opciones generales
+  eliminar:                false
+  name:                    e
+  tabla:                   Cobdocume
+  anchogrid:               750
+  ancho:                   600
+  filas:                   0
+  titulo:                  ' Notas de Crédito '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Marque
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:			   true
+  html:                    []
+2:       # Columna 2
+  titulo:                  Referencia
+  tipo:                    t
+  nombrecampo:             refdoc
+  esgrabable:              true
+  html:                    [size="15", readonly=true ]
+3:       # Columna 3
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desdoc
+  html:                    [size="20", readonly=true ]
+4:
+  titulo:                  Saldo Actual
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             saldoc
+  esnumerico:              true
+  html:                    [size="10"]
+5:
+  titulo:                  Saldo a Abonar
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             salabo
+  esnumerico:              true
+  html:                    [size="10"]  

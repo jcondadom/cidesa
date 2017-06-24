@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/46832/web/php/siga/branches/productions/trunk/apps/contabilidad/modules/generartxtcom/templates
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/46832/web/php/siga/branches/productions/trunk/apps/contabilidad/modules/generartxtcom/templates/ajaxSuccess.php
+END
+_grid.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/46832/web/php/siga/branches/productions/trunk/apps/contabilidad/modules/generartxtcom/templates/_grid.php
+END
+_stacom.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/46832/web/php/siga/branches/productions/trunk/apps/contabilidad/modules/generartxtcom/templates/_stacom.php
+END
+_descarga.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/46832/web/php/siga/branches/productions/trunk/apps/contabilidad/modules/generartxtcom/templates/_descarga.php
+END
+_fecdes.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/46832/web/php/siga/branches/productions/trunk/apps/contabilidad/modules/generartxtcom/templates/_fecdes.php
+END
+_fechas.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/46832/web/php/siga/branches/productions/trunk/apps/contabilidad/modules/generartxtcom/templates/_fechas.php
+END

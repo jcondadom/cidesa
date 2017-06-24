@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/49022/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/faordrec/templates
+END
+autocompleteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/48591/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/faordrec/templates/autocompleteSuccess.php
+END
+_cancaj.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48591/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/faordrec/templates/_cancaj.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/48591/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/faordrec/templates/editSuccess.php
+END
+gridSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/48988/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/faordrec/templates/gridSuccess.php
+END
+_canjau.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48591/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/faordrec/templates/_canjau.php
+END
+_nomcli.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48591/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/faordrec/templates/_nomcli.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/48591/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/faordrec/templates/_edit_actions.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/49022/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/faordrec/templates/_edit_form.php
+END

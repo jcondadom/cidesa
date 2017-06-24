@@ -1,0 +1,23 @@
+====== Operación Consultar ======
+
+**Para consultar un determinado Movimiento por Concepto:**   <html><br><br></html>
+
+  * Presione el **Botón**  {{:btnlista.jpg|}}    <html><br><br></html>
+
+  * Seleccione de la **Lista** el **Código del Concepto**.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompermovconmod.jpg|}}"></div><br></html>
+
+  * El sistema automáticamente muestra el Movimiento del Concepto seleccionado.<html><br><br></html>
+
+  * Si desea consultar el Movimiento de un nuevo Concepto debe presionar nuevamente el** Botón** {{:btnlista.jpg|}}  y repetir los pasos anteriores. <html><br><br></html>
+
+**Para consultar datos desde el Inicio de la pantalla Movimiento por Concepto:**  <html><br><br></html>
+
+  * El sistema muestra la **Lista** con los Movimientos por Concepto registrados.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompermovconmod.jpg|}}"></div><br><br></html>
+
+  * Seleccione de la **Lista** el **Código del Concepto** . <html><br><br></html>
+
+  * El sistema automáticamente muestra los Movimientos del Concepto seleccionado.<html><br><br></html>

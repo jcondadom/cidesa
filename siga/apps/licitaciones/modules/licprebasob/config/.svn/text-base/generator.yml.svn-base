@@ -1,0 +1,172 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Liprebas
+    theme:            cidesaGenerator
+    fields:
+      numpre:         { name: Número Presupuesto Base, params: size=10 maxlength=8 onBlur=Correl(this.id) }
+      ejepre:         { name: Ejercicio Prespuestario Año, params: style="border:none"}
+      codempadm:
+        name: Para
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Lidatste_codemp
+          clase: Lidatste
+          ajax: 1
+          parametros: getprincipal="getCodempadm" getsecundario="getNomempadm" campoprincipal="codempadm" camposecundario="nomempadm" campobase = "id"
+      nomcaradm:      { name: Cargo, params: style=border:none}
+      coduniadm:
+        name: Unidad Para
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Lidatste_licregsol
+          clase: Lidatste
+          ajax: 11
+          parametros: getprincipal="getCoduniadm" getsecundario="getDesuniadm" campoprincipal="coduniadm" camposecundario="desuniadm" campobase = "id"
+      codempeje:
+        name: De
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Lidatste_codemp
+          clase: Lidatste
+          ajax: 2
+          parametros: getprincipal="getCodempeje" getsecundario="getNomempeje" campoprincipal="codempeje" camposecundario="nomempeje" campobase = "id"
+      nomcareje:      { name: Cargo, params: style=border:none}
+      coduniste:
+        name: Unidad De
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Lidatste_licregsol
+          clase: Lidatste
+          ajax: 3
+          parametros: getprincipal="getCoduniste" getsecundario="getDesuniste" campoprincipal="coduniste" camposecundario="desuniste" campobase = "id"      
+      pcodpai:        { name: Pais}    
+      pcodedo:        { name: Estado}    
+      pcodmun:        { name: Municipio}    
+      pcodpar:        { name: Parroquia}    
+      pcodsec:        { name: Sector}
+      dirobr:         { name: Dirección de la Obra, type: textarea_tag, params: size=65x6 }      
+      codclacomp:
+        name: Solicitud de Contratacion
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Clacomp_Ocreglic
+          clase: Occlacomp
+          ajax: 0
+          parametros: getprincipal="getCodclacomp" getsecundario="getDesclacomp" campoprincipal="codclacomp" camposecundario="desclacomp" campobase = "id"
+      fecreg:         { name: Fecha Registro, params: onChange=CalculaFecha(this.value)}
+      dias:           { name: Dias para el Vencimiento, params: onChange=CalculaFecha(this.value)}
+      fecven:         { name: Fecha Vencimiento, params: readonly=true style=border:none}
+      ente:           { name: Ente Contratante, params: readonly=true size=60 style=border:none}
+      ptipcom:        { name: .}
+      ptipcon:        { name: .}
+      pacto:          { name: .}
+      tipcom:         { name: Compra}
+      tipcon:         { name: Tipo Solicitud Bienes/Servicio}
+      acto:           { name: Acto Motivado}      
+      codpre:
+        name: Proyecto
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Preasiini_Cpdeftit
+          clase: Cpdeftit
+          ajax: 0
+          parametros: getprincipal="getCodpre" getsecundario="getNompre" campoprincipal="codpre" camposecundario="nompre" campobase = "id"
+      codfin:
+        name: Financiamiento
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Fortipfin_Pagemiord
+          clase: Fortipfin
+          ajax: 0
+          parametros: getprincipal="getCodfin" getsecundario="getNomext" campoprincipal="codfin" camposecundario="nomext" campobase = "id"    
+      codprio:
+        name: Prioridad
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Lipriocon
+          clase: Lipriocon
+          ajax: 0
+          parametros: getprincipal="getCodprio" getsecundario="getDesprio" campoprincipal="codprio" camposecundario="desprio" campobase = "id"
+      despro:          { name: Breve Descripción, type: textarea_tag, params: size="65x5"}
+      codmon:          { name: Moneda}
+      valcam:
+        name: Valor Cambio
+        msj_error: El Cambio es necesario
+        catalogo:
+          catalogoweb: Tscammon_codmon
+          clase: Tscammon
+          ajax: 6
+          parametros: getprincipal="getValcam" getsecundario="getFeccam" campoprincipal="valcam" camposecundario="feccam" campobase = "id"
+          catalogoparams: /param1/'."'+$('liprebas_codmon').value+'".'
+          ajaxparams: +'."'".'&codmon='."'+$('liprebas_codmon').value".'
+      pcodmon:         { name: .}
+      grid:            { name: .}
+      monsub:          { name: Monto Total Partidas, params: readonly=true style=border:none size=30}
+      monsube:         { name: Monto Total Partidas (Moneda Extranjera), params: readonly=true style=border:none size=30}
+      monrgo:          { name: Monto Otros Recargos, params: readonly=true style=border:none size=30}
+      monrgoe:         { name: Monto Otros Recargos (Moneda Extranjera), params: readonly=true style=border:none size=30}
+      monpre:          { name: Monto Solicitud Moneda Original, params: readonly=true style=border:none size=30}
+      monpreletras:    { name: Son,  params: readonly=true style=border:none size=80 }
+      monpreext:       { name: Monto Solicitud Moneda Extranjera, params: readonly=true style=border:none size=30}
+      monpreextletras: { name: Son,  params: readonly=true style=border:none size=80}
+      docane1:
+        name:  Documento Anexo 1
+        type:  admin_input_file_tag
+        params:  include_link=assets include_text="*********Anexo 1***********" include_remove=true
+        upload_dir:  assets
+        help:       Favor cargar solo archivos con extension (pdf,doc,ppt)
+      docane2:
+        name:  Documento Anexo 2
+        type:  admin_input_file_tag
+        params:  include_link=assets include_text="*********Anexo 2***********" include_remove=true
+        upload_dir:  assets
+        help:       Favor cargar solo archivos con extension (pdf,doc,ppt)
+      docane3:
+        name:  Documento Anexo 3
+        type:  admin_input_file_tag
+        params:  include_link=assets include_text="*********Anexo 3***********" include_remove=true
+        upload_dir:  assets
+        help:       Favor cargar solo archivos con extension (pdf,doc,ppt)
+      prepor:          { name: Preparado Por, params: size=80}
+      cargopre:        { name: Cargo, params: size=80}
+      lisicact_id:     { name: Declaratoria Modalidad, params: include_blank="Seleccione..." disabled=true}
+      fecdecla:        { name: Fecha Declaratoria , params: readonly=true style=border:none}
+      detdecmod:       { name: Detalle, type: textarea_tag, params: size="80x5" readonly=true style=border:none}
+      aprpor:          { name: Analisado Por, params: size=80 readonly=true style=border:none}
+      cargoapr:        { name: Cargo, params: size=80 readonly=true style=border:none}
+      js:              { name: .}
+      grid_rec:        { name: .}
+      gridrgo:         { name: .}
+
+    list:
+      title: Presupuesto Base
+      display: [=numpre, nompre, ejepre, Nomempadm, desuniadm, Nomempeje, desuniste]
+      filters: [numpre, nompro]
+      fields:
+        nomempadm:     { name: Para}
+        nomempeje:     { name: De}
+        desuniadm:     { name: Unidad Para}
+        desuniste:     { name: Unidad De}
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page: 15
+      sort: numpre
+
+
+    edit:
+      title: Presupuesto Base
+      display:
+        Datos Generales:     [ente, codempadm, nomcaradm, coduniadm, codempeje, nomcareje, coduniste, numpre, ejepre, codclacomp, fecreg, dias, fecven, _ptipcom, _pacto, codpre, codfin, codprio, despro, _pcodmon, valcam ]
+        Ubicacion de la Obra: [_pcodpai, _pcodedo, _pcodmun, _pcodpar, _pcodsec, dirobr]
+        Materiales Obras: [grid_rec, _grid, monsub, monsube,  _gridrgo, monrgo, monrgoe]
+        Total Presupuesto Base:  [monpre, monpreletras, monpreext, monpreextletras]
+        Otros Datos:   [docane1, docane2, docane3, prepor, cargopre]
+        Declaratoria:   [lisicact_id, fecdecla, detdecmod, aprpor, cargoapr, _js]
+      fields:
+        coduniadm:         { params: readonly=true}
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~

@@ -1,0 +1,27 @@
+opciones:                  # Opciones generales
+  eliminar:                true
+  name:                    d
+  tabla:                   famedsegtar
+  anchogrid:               900
+  ancho:                   900
+  filas:                   1
+  titulo:                  ' Medidas de Seguridad'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  N° Item
+  tipo:                    t
+  nombrecampo:             nuitem
+  esgrabable:              true  
+  html:                    ["size=1 maxlength=5"]  
+2:       # Columna 2
+  titulo:                  Medidas de Seguridad
+  tipo:                    a
+  nombrecampo:             desmed
+  html:                    ["size=30x2 maxlength=1000 onkeyup='return ismaxlength(this)'"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Observaciones
+  tipo:                    t
+  nombrecampo:             obsmed
+  html:                    ["size=40x2 maxlength=2000 onkeyup='return ismaxlength(this)'"]
+  esgrabable:              true

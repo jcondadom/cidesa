@@ -1,0 +1,64 @@
+generator:
+  class:              sfPropelAdminGenerator
+  param:
+    model_class:      Tscheemi
+    theme:            default
+    fields:
+      numche: { name: Nro. Cheque, params : maxlength=20 }
+      monche: { name: Monto }
+      fecemi: { name: Fecha de Emisión, params: date_format='dd/MM/yyyy'}
+      cedrif: { name: C.I. o Rif Beneficiario, params : maxlength=15 }
+      benefi: { name: Nombre, params : maxlength=80 }
+      numcue: { name: Número de Cuenta, params : maxlength=20 }
+      nomcue: { name: nomcue, params : maxlength=60 }
+      orden:  { name: Orden de Pago, params : maxlength=8 }
+      numcom: { name: Número de Comprobante, params : maxlength=8 }
+      numcomegr: { name: Número de Comprobante de Egreso, params : maxlength=8 }
+      fecent: { name: Fecha Entrega, params: date_format='dd/MM/yyyy'}
+      obsent: { name: Observación, params : maxlength=80 }
+      nomrec: { name: Recibido por, params : maxlength=50 }
+      codent: { name: Entregado por, params : maxlength=50 }
+      status: { name: Estado del Cheque, params : maxlength=1 }
+      estatus: { name: Estatus}
+      fecha:   { name: Fecha}
+      fecdev:   { name: Fecha de Devolución}
+      motdev: { name: Motivo de Devolución, params : maxlength=100 }
+      tipdoccom: { name: Tipo Documento Compromiso }
+      cedrifsus: { name: C.I. o Rif Cesionario Autorizado}
+      nombensus: { name: Nombre Cesionario Autorizado}
+      fotper:
+        help: Tamaño de la foto 90x100 (jpg, gif o png)
+        type: admin_input_file_tag
+        name: Foto Persona que Retira
+        upload_dir: chequesentregados
+        params: include_link = chequesentregados include_remove=true
+      fotced:
+        help: Tamaño de la foto 90x100 (jpg, gif o png)
+        type: admin_input_file_tag
+        name: Foto Cédula de la Persona que Retira
+        upload_dir: chequesentregados
+        params: include_link = chequesentregados include_remove=true        
+      fotche:
+        help: Tamaño de la foto 90x100 (jpg, gif o png)
+        type: admin_input_file_tag
+        name: Foto Cheque que Retira
+        upload_dir: chequesentregados
+        params: include_link = chequesentregados include_remove=true
+      comentcon: { name: Comprobante entregado a Contabilidad}
+      cheimp: { name: Impreso}
+      fecimp: { name: Fecha de Impresión, params: date_format='dd/MM/yyyy'}
+      fecentcon: { name: Fecha Entregado a Contabilidad, params: date_format='dd/MM/yyyy'}
+    list:
+      title:          Cheques en Custodia
+      filters:        [numche, numcue, numord, cedrif, cedrifsus, nombensus, comentcon]
+      display:        [=numche, numcue, fecemi, benefi, estatus, monche, fecha, orden, tipdoccom, comentcon]
+      sort:           numche
+      object_actions:
+        _edit:        ~
+      max_per_page:   10
+    edit:
+      title:          Edición Cheques en Custodia
+      display:        [numche, monche, fecemi, cedrif, benefi, nombensus, numcue, nomcue, orden, numcom, fecent, obsent, nomrec, codent, status, numcomegr, fecdev, motdev, fotper, fotced, fotche, comentcon, cheimp, fecimp, fecentcon, cedrifsus]
+      actions:
+        _list:        ~
+        _save:        ~

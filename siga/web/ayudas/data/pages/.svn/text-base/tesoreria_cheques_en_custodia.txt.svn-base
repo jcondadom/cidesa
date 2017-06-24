@@ -1,0 +1,17 @@
+======Cheques en Custodia======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pantalla que permite consultar los diferentes Cheques emitidos por la Institución, bien sea que esten anulados, entregados o que aún se encuentren en Caja.
+</html> 
+
+**Para ello:**
+
+  * Seleccione la opción **Tesorería ó Banco** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesban.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Caja** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbancaja.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Cheques en Custodia**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbancajacheqcust.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Cheques en Custodia** veamos la [[Descripcion_Campos_cheques_en_custodia|Descripción de los Campos]]

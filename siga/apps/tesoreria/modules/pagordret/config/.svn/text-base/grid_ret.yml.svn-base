@@ -1,0 +1,149 @@
+opciones:                  # Opciones generales
+  name:                    b
+  eliminar:                true
+  tabla:                   opretord
+  anchogrid:               800
+  ancho:                   700
+  filas:                   10
+  titulo:                  ' Datos de las Retenciones '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Tipo
+  tipo:                    t
+  nombrecampo:             codtip
+  html:                    ["size=10 maxlength=3"]
+  esgrabable:              true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: opordpag_totmarcadas, 1: opordpag_cedrif, 2: opordpag_valmon, 3: opordpag_monord, 4: opordpag_neto, 5: opordpag_monparsin, 6: opordpag_monpariva, 7: opordpag_afectapresup}
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             destip
+  html:                    ["size=20 readOnly=true"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Contable
+  tipo:                    t
+  nombrecampo:             codcon
+  html:                    ["size=30 readOnly=true"]
+  esgrabable:              true
+  oculta:                  true  
+4:       # Columna 4
+  titulo:                  Base
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             basimp
+  esnumerico:              true
+  html:                    ["size=10 readonly=true"]
+  oculta:                  true
+5:       # Columna 5
+  titulo:                  Porcentaje
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             porret
+  esnumerico:              true
+  html:                    ["size=10 readonly=true"]
+  oculta:                  true
+6:       # Columna 6
+  titulo:                  Factor
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             factor
+  esnumerico:              true
+  html:                    ["size=10 readonly=true"]
+  oculta:                  true  
+7:       # Columna 7
+  titulo:                  % sustraendo
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             porsus
+  esnumerico:              true
+  html:                    ["size=10 readonly=true"]
+  oculta:                  true  
+8:       # Columna 8
+  titulo:                  Unidad Tributaria
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             unitri
+  esnumerico:              true
+  html:                    ["size=10 readonly=true"]
+  oculta:                  true
+9:       # Columna 9
+  titulo:                  Esta IVA
+  tipo:                    t
+  nombrecampo:             esta
+  html:                    ["size=30 readOnly=true"]
+  esgrabable:              true
+  oculta:                  true       
+10:       # Columna 10
+  titulo:                  Base para el calculo
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monbas
+  esnumerico:              true
+  default:                 '0,00'
+  ajaxgrid:                true
+  ajaxadicionales:         {0: opordpag_totmarcadas, 1: opordpag_cedrif, 2: opordpag_valmon, 3: opordpag_monord, 4: opordpag_neto, 5: opordpag_monparsin, 6: opordpag_monpariva, 7: opordpag_afectapresup}
+  html:                    ["size=10"]
+11:       # Columna 11
+  titulo:                  Monto Retención
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monret
+  esnumerico:              true
+  default:                 '0,00'  
+  ajaxgrid:                true
+  estotal:                 [true, totalmontorete]
+  html:                    ["size=10"]
+12:       # Columna 12
+  titulo:                  Esta ISLR
+  tipo:                    t
+  nombrecampo:             estaislr
+  html:                    ["size=30 readOnly=true"]
+  esgrabable:              true
+  oculta:                  true
+13:       # Columna 13
+  titulo:                  Esta 1xmil
+  tipo:                    t
+  nombrecampo:             esta1xmil
+  html:                    ["size=30 readOnly=true"]
+  esgrabable:              true
+  oculta:                  true
+14:       # Columna 14
+  titulo:                  Monto Iva
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             montoiva
+  esnumerico:              true
+  html:                    ["size=10 readonly=true"]
+  oculta:                  true
+15:       # Columna 15
+  titulo:                  Esta IRS
+  tipo:                    t
+  nombrecampo:             estairs
+  html:                    ["size=30 readOnly=true"]
+  esgrabable:              true
+  oculta:                  true
+16:       # Columna 16
+  titulo:                  Monto Base Mínimo
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monbasmin
+  esnumerico:              true
+  html:                    ["size=10 readonly=true"]
+  oculta:                  true
+17:       # Columna 17
+  titulo:                  Esta IMN
+  tipo:                    t
+  nombrecampo:             estaimn
+  html:                    ["size=30 readOnly=true"]
+  esgrabable:              true
+  oculta:                  true 
+18:       # Columna 18
+  titulo:                  Monto Base Máximo
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monbasmax
+  esnumerico:              true
+  html:                    ["size=10 readonly=true"]
+  oculta:                  true

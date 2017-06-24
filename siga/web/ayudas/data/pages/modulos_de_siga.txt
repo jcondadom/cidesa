@@ -1,0 +1,27 @@
+====== Módulos que conforman a SIGA ======
+
+====== Aplicación Maestra ======
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Permite la definición de los usuarios que tendrán acceso al sistema y el tipo de permisología específica para cada uno de ellos</html>
+
+====== Bienes Nacionales ======
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Permite la Definición y Registro de todos aquellos Bienes Muebles e Inmuebles que adquiere la Institución en un momento dado y que pasan a formar parte de la Nación </html> 
+
+====== Compra y Almacén ======
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La actividad de Compras se puede definir como la función de suministrar a todas las unidades orgánicas de la Institución, los bienes y servicios que le sean necesarios para garantizar un buen funcionamiento. Esto debe hacerse bajo un buen criterio de planificación y con la ayuda de herramientas modernas de administración.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El Sub-Sistema de Compras y Almacén permite la generación de todos aquellos movimientos en los cuales se realiza la solicitud y adquisición ya sea de artículos o servicios así como de la ejecución y control de los movimientos involucrados en el inventario de los artículos.</html>
+
+====== Contabilidad Financiera ======
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tiene como función procesar tanto las transacciones del Tesoro como las referentes a los bienes, derechos y obligaciones de  una Institución en particular, tal como lo establece su Publicación o Gaceta respectiva.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En sí el Módulo de Contabilidad Financiera busca recoger en un idioma uniforme las transacciones administrativas y financieras que realiza dia a dia una Organización o Institución apoyándose en las cuentas contables, para generar información necesaria para la toma de decisiones y medición de resultados de gestión</html>
+
+====== Contabilidad Presupuestaria ======
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mantiene una base de datos actualizada de la distribución institucional del presupuesto de gastos, clasificando los créditos presupuestarios, de acuerdo con la responsabilidad de las unidades en el cumplimiento de los objetivos y metas de cada programa o proyecto.&nbsp;&nbsp;Permite mantener un estricto control en la ejecución y ordenación de los compromisos.&nbsp;Produce información consolidada de la Ejecución Global, Precompromisos, Compromisos, Pagados, Causados, Traslados, Adiciones/Disminuciones y Ajustes de Ejecución, que facilita la toma de decisiones durante todas las etapas del proceso administrativo  </html>
+
+====== Formulación Presupuestaria ======
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tiene la finalidad de generar información útil para la planificación, modificación, reconducción, rectificación y autorización de las partidas presupuestarias de Egresos e Ingresos para un ejercicio económico en particular.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Los Egresos se formulan por Unidad Orgánica, de manera que se garantice el cumplimiento de los objetivos y metas establecidos para un periodo fiscal dado.&nbsp;&nbsp;Los Ingresos se formulan de acuerdo con la necesidad del gasto de la Institución, combinando políticas de captación de recursos, por la vía de la recaudación de los impuestos y tasas , autofinanciamiento, reconversión y autogestión.   </html> 
+
+
+====== Nómina y Personal ======
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mantiene una base de datos actualizada de los recursos humanos de una Institución, clasificándolos de acuerdo con su tipo y condición, ya sean empleados, obreros, fijos o contratados, con el fin de controlar la administración de dicho recurso.&nbsp;&nbsp;A su vez permite mantener estadísticas sobre rendimientos  y costos del personal.&nbsp;&nbsp;Adicional a esto permite la emisión automática de la nómina.</html>
+
+====== Tesorería o Banco ======
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tiene como objetivo fundamental generar información para controlar y custodiar los ingresos provenientes del presupuesto, los que se originen por créditos adicionales y demás operaciones bancarias e hipotecarias que realice la Institución.&nbsp;&nbsp;Adicional a esto, el Sub-Sistema facilita la preparación  de informes de las cuentas bancarias, relación de ingresos y egresos, caja, cheques en custodia, flujos de caja y mantiene el control de las obligaciones que la institución tiene con terceros. </html> 
+

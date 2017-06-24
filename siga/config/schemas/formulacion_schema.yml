@@ -1,0 +1,3578 @@
+propel:
+  _attributes: { noXsd: false, defaultIdMethod: native, package: lib.model }
+  fordeftipcnx:
+    _attributes:
+      description: Tabla que contiene información referente a la definición de tipos de contribuyentes / conexiones a organismos públicos
+    codtipcnx:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: Código del Tipo de Contribución Conexión
+    destipcnx:
+      type: VARCHAR
+      size: 100
+      required: true
+      description: Descripción del Tipo de Contribución Conexión
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro 
+  fordefaccesp:    
+    _attributes:
+      description: Tabla que contiene información referente a la definición de acciones específicas
+    codpro:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: Código del Proyecto
+    codaccesp:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: Código de la Acción Específica
+    desaccesp:
+      type: VARCHAR
+      size: 1000
+      description: Descripción de la Acción Específica
+    nomabraccesp:
+      type: VARCHAR
+      size: 50
+      description: NombreAbreviado de la Acción Específica
+    codempres:
+      type: VARCHAR
+      size: 16
+      description: Código del Empleado Responsable
+    fecini:
+      type: DATE
+      description: Fecha de Inicio 
+    feccul:
+      type: DATE
+      description: Fecha de Culminación
+    desbieser:
+      type: VARCHAR
+      size: 250
+      description: 
+    orgeje:
+      type: VARCHAR
+      size: 4
+      description: Organismo Ejecutor
+    codunimed:
+      type: VARCHAR
+      size: 3
+      description: Código de la Unidad de Medida
+    codest:
+      type: VARCHAR
+      size: 4
+      description: Código del Estado
+    codmun:
+      type: VARCHAR
+      size: 4
+      description: Código del Municipo
+    codpar:
+      type: VARCHAR
+      size: 4
+      description: Código de la Parroquia
+    espadiubigeo:
+      type: VARCHAR
+      size: 250
+      description: Especificación Adicional de la Ubicación Geográfica
+    codcat:
+      type: VARCHAR
+      size: 20     
+      description: 
+    facpes:
+      type: NUMERIC
+      size: 14
+      scale: 2     
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fordefcatpre:    
+    _attributes:
+      description: Tabla que contiene información referente a la Categoría 
+    codcat:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: Código de la Categoría
+    nomcat:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Nombre de la Categoría
+    descat:
+      type: VARCHAR
+      size: 1000
+      description: Descripción de la Categoría
+    coduni:
+      type: VARCHAR
+      size: 3
+      description: Descripción de la Categoría
+    objsec:
+      type: VARCHAR
+      size: 1000
+      description: Código de la Unidad
+    codemp:
+      type: VARCHAR
+      size: 16
+      description: Objetivo SEC
+    mision:
+      type: VARCHAR
+      size: 1000
+      description: 
+    vision:
+      type: VARCHAR
+      size: 1000
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro  
+  fordefegrgen:    
+    _attributes:
+      description: Tabla que contiene información sobre las Definicones Generales de Egreso
+    codemp:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: Código de la Empresa
+    nivproacc:
+      type: NUMERIC
+      size: 2
+      description: Nievel de la Estrategia Presupuestaria del Proyecto ó Accioón Centralizada
+    desproacc:
+      type: NUMERIC
+      size: 2
+      description: Desde que posición comienza el Nivel de la Est. Presup. de la Acción Específica
+    hasproacc:
+      type: NUMERIC
+      size: 2
+      description: Hasta que posición llega el Nivel de la Est. Presup. de la Acción Específica
+    lonproacc:
+      type: NUMERIC
+      size: 2
+      description: Longitud del Nivel del Proyecto ó Acción Centralizada
+    forproacc:
+      type: VARCHAR
+      size: 20
+      description: Formato del Nivel de la Est. Presup. de la Acción Centralizada
+    nivaccesp:
+      type: NUMERIC
+      size: 2
+      description: Nivel de la Est. Presup. de la Accion Específica
+    desaccesp:
+      type: NUMERIC
+      size: 2
+      description: 
+    hasaccesp:
+      type: NUMERIC
+      size: 2
+      description: 
+    lonaccesp:
+      type: NUMERIC
+      size: 2
+      description: Longitud del Nivel de la Acción Específica
+    foraccesp:
+      type: VARCHAR
+      size: 20
+      description: 
+    nivsubaccesp:
+      type: NUMERIC
+      size: 2
+      description: Nivel de la Est. Presu. de la Sub Acción Específica
+    dessubaccesp:
+      type: NUMERIC
+      size: 2
+      description: 
+    hassubaccesp:
+      type: NUMERIC
+      size: 2
+      description: Hasta que Posición llega el Nivel de la Est. Presup. de la Sub Acción Específica
+    lonsubaccesp:
+      type: NUMERIC
+      size: 2
+      description: Longitud del Nivel de la Sub Acción Específica
+    forsubaccesp:
+      type: VARCHAR
+      size: 20
+      description: Formato del Nivel de la Est. Presup de la Sub Acción Específica
+    nivuae:
+      type: NUMERIC
+      size: 2
+      description: Nivel de la Est. Presup. de la Unidad Ejecutora Administrativa
+    desuae:
+      type: NUMERIC
+      size: 2
+      description: Desde que Posición comienza el Nivel de la Est. Presup. de la Unidad Ejecutora Administrativa
+    hasuae:
+      type: NUMERIC
+      size: 2
+      description: Hasta que Posición llega el Nivel de la Est. Presup. de la Unidad Ejecutora Administrativa
+    lonuae:
+      type: NUMERIC
+      size: 2
+      description: Longitud del Nivel de la Unidad Ejecutora Administrativa
+    foruae:
+      type: VARCHAR
+      size: 20
+      description: Formato del Nivel de la Est. Presup. de la Unidad Ejecutora Administrativa
+    corest:
+      type: NUMERIC
+      size: 3
+      description: Correlativo de Estados
+    corsec:
+      type: NUMERIC
+      size: 3
+      description: Correlativo de Sectores
+    corequ:
+      type: NUMERIC
+      size: 3
+      description: Correlativo de Equilibrios
+    despar:
+      type: INTEGER
+      description: Desde que Posición comienza el Nivel de la Partida Presupuestaria 
+    haspar:
+      type: INTEGER
+      description: Hasta que Posición llega el Nivel de la Partida Presupuestaria
+    lonpar:
+      type: INTEGER
+      description: Longitud del Nivel de la Partida Presupuestaria
+    forpar:
+      type: VARCHAR
+      size: 20
+      description: Formato del Nivel de la Partida Presupuestaria
+    codpariva:
+      type: VARCHAR
+      size: 32
+      description: 
+    manivafor:
+      type: VARCHAR
+      size: 1
+      description: Maneja Iva por Formulación. “Sí ” ó “No”
+    porivafor:
+      type: NUMERIC
+      size: 5
+      description: Porcentaje de IVA por Formulación
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fordefequ:    
+    _attributes:
+      description: Tabla que contiene información referente al Equilibrio 
+    codequ:
+      type: VARCHAR
+      size: 2
+      required: true
+      description: Código del Equilibrio
+    desequ:
+      type: VARCHAR
+      size: 50
+      required: true
+      description: Descripción del Equilibrio
+    desobj:
+      type: VARCHAR
+      size: 1000
+      description: Descripción del Objetivo del Equilibrio
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro  
+  fordefest:    
+    _attributes:
+      description: Tabla que contiene información referente a la definición de los Estados involucrados en la formulación presupuestaria de la Institución
+    codest:
+      type: VARCHAR
+      size: 5
+      required: true
+      description: Nombre del Estado
+    desest:
+      type: VARCHAR
+      size: 100
+      required: true
+      description: Nombre del Estado
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro 
+  fordefmun:    
+    _attributes:
+      description: Tabla que contiene información referente a la definición de los Municipios involucrados en la Formulación del Presupuesto
+    codest:
+      type: VARCHAR
+      size: 5
+      required: true
+      description: Código del Estado
+    codmun:
+      type: VARCHAR
+      size: 5
+      required: true
+      description: Código del Municipio
+    desmun:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Nombre del Municipio
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro    
+  fordefniv:    
+    _attributes:
+      description: Tabla que contiene información referente a las definiciones generales del sistema y estructuras de códigos de las Partidas de Egresos.
+    codemp:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: Código de la Empresa definida para utilizar el sistema
+    loncod:
+      type: NUMERIC
+      size: 2
+      required: true
+      description: Longitud del Código presupuestario a usar en el sistema
+    rupcat:
+      type: NUMERIC
+      size: 2
+      required: true
+      description: Número de Rupturas del Código Presupuestario, correspondiente a la Categoría
+    ruppar:
+      type: NUMERIC
+      size: 2
+      required: true
+      description: Se refiere al Número de Rupturas del Código Presupuestario, correspondiente a la Partida
+    nivdis:
+      type: NUMERIC
+      size: 2
+      required: true
+      description: Número de la Ruptura donde se establecerá la Disponibilidad presupuestaria
+    forpre:
+      type: VARCHAR
+      size: 32
+      required: true
+      description: Formato completo del código presupuestario
+    asiper:
+      type: VARCHAR
+      size: 1
+      required: true
+      description: Indica si se realizará una asignación periódica del Presupuesto o no
+    numper:
+      type: NUMERIC
+      size: 2
+      required: true
+      description: Número de Períodos que se establecen para el Año Presupuestario 
+    peract:
+      type: VARCHAR
+      size: 2
+      required: true
+      description: Período que se encuentra activo
+    fecper:
+      type: DATE
+      description: Fecha del Ultimo Período.
+    fecini:
+      type: DATE
+      description: Fecha de Inicio del Ejercicio
+    feccie:
+      type: DATE
+      description: Fecha de Cierre del Ejercicio
+    etadef:
+      type: VARCHAR
+      size: 1
+      description: Indica si la Etapa de Definición se encuentra abierta o cerrada
+    staprc:
+      type: VARCHAR
+      size: 1
+      description: Indica si se efectuarán Precompromisos o no
+    coraep:
+      type: VARCHAR
+      size: 8
+      description: Correlativo para la Certificación Presupuestaria
+    nivobr:
+      type: NUMERIC
+      size: 2
+      description: Nivel de Formulación para las Obras
+    caraep:
+      type: VARCHAR
+      size: 8
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fordefobj:
+    _attributes:
+      description:
+    codobj:
+      type: VARCHAR
+      size: 5
+      required: true
+      description: Código del Objetivo
+    desobj:
+      type: VARCHAR
+      size: 1000
+      description: Descripción del Objetivo
+    areest:
+      type: VARCHAR
+      size: 1500
+      description: 
+    direst:
+      type: VARCHAR
+      size: 1500
+      description: 
+    objein:
+      type: VARCHAR
+      size: 1000
+      description: 
+    objepr:
+      type: VARCHAR
+      size: 1000
+      description: 
+    enupro:
+      type: VARCHAR
+      size: 1000
+      description: 
+    indact:
+      type: VARCHAR
+      size: 1000
+      description: 
+    indobj:
+      type: VARCHAR
+      size: 1000
+      description: 
+    metpro:
+      type: VARCHAR
+      size: 1000
+      description: 
+    objnet:
+      type: VARCHAR
+      size: 1000
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro   
+  fordeforg:
+    _attributes:
+      description:
+    codorg:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: 
+    nomorg:
+      type: VARCHAR
+      size: 250
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro     
+  fordeforgpub:
+    _attributes:
+      description:
+    codorg:
+      type: VARCHAR
+      size: 5
+      required: true
+      description: 
+    nomorg:
+      type: VARCHAR
+      size: 100
+      description: 
+    numgac:
+      type: VARCHAR
+      size: 100
+      description: 
+    ubiorg:
+      type: VARCHAR
+      size: 100
+      description: 
+    actorg:
+      type: VARCHAR
+      size: 100
+      description: 
+    tiporg:
+      type: VARCHAR
+      size: 100
+      description: 
+    monest:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    preanu:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    capsoc:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro 
+  fordefpar:
+    _attributes:
+      description:
+    codest:
+      type: VARCHAR
+      size: 5
+      required: true
+      description: 
+    codmun:
+      type: VARCHAR
+      size: 5
+      required: true
+      description: 
+    codpar:
+      type: VARCHAR
+      size: 5
+      required: true
+      description: 
+    despar:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro  
+  fordefparegr:
+    _attributes:
+      description:
+    codparegr:
+      type: VARCHAR
+      size: 32
+      required: true
+      description: 
+    nomparegr:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro    
+  fordefparing:
+    _attributes:
+      description:
+    codparing:
+      type: VARCHAR
+      size: 32
+      required: true
+      description: 
+    nomparing:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: 
+    estant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    estantaju:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    bascal:
+      type: VARCHAR
+      size: 100
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fordefprg:
+    _attributes:
+      description:
+    codprg:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: 
+    desprg:
+      type: VARCHAR
+      size: 1000
+      required: true
+      description: 
+    prbasoprg:
+      type: VARCHAR
+      size: 1000
+      required: true
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro   
+  fordefpro:
+    _attributes:
+      description:
+    codpro:
+      type: VARCHAR
+      size: 5
+      required: true
+      description: 
+    despro:
+      type: VARCHAR
+      size: 500
+      description: 
+    desabr:
+      type: VARCHAR
+      size: 30
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro 
+  fordefpry:
+    _attributes:
+      description:
+    codpro:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: 
+    nompro:
+      type: VARCHAR
+      size: 1000
+      description: 
+    proacc:
+      type: VARCHAR
+      size: 1
+      description: 
+    codsta:
+      type: VARCHAR
+      size: 2
+      description: 
+    codsitpre:
+      type: VARCHAR
+      size: 2
+      description: 
+    conpoa:
+      type: VARCHAR
+      size: 1
+      description: 
+    fecini:
+      type: DATE
+      description: 
+    feccul:
+      type: DATE
+      description: 
+    ubinac:
+      type: VARCHAR
+      size: 1
+      description: 
+    codequ:
+      type: VARCHAR
+      size: 2
+      description: 
+    codsubobj:
+      type: VARCHAR
+      size: 3
+      description: 
+    codsubsubobj:
+      type: VARCHAR
+      size: 3
+      description: 
+    objestnueeta:
+      type: VARCHAR
+      size: 1000
+      description: 
+    objestins:
+      type: VARCHAR
+      size: 1000
+      description: 
+    objeesppro:
+      type: VARCHAR
+      size: 1000
+      description: 
+    indpro:
+      type: VARCHAR
+      size: 1000
+      description: 
+    enupro:
+      type: VARCHAR
+      size: 1000
+      description: 
+    indsitact:
+      type: VARCHAR
+      size: 1000
+      description: 
+    fecultdat:
+      type: DATE
+      description: 
+    forind:
+      type: VARCHAR
+      size: 1000
+      description: 
+    fueind:
+      type: VARCHAR
+      size: 100
+      description: 
+    indsitobj:
+      type: VARCHAR
+      size: 1000
+      description: 
+    tieimp:
+      type: VARCHAR
+      size: 100
+      description: 
+    respro:
+      type: VARCHAR
+      size: 1000
+      description: 
+    desmet:
+      type: VARCHAR
+      size: 1000
+      description: 
+    codunimedmet:
+      type: VARCHAR
+      size: 4
+      description: 
+    cantmet:
+      type: NUMERIC
+      size: 12
+      scale: 2
+      description: 
+    benpro:
+      type: VARCHAR
+      size: 250
+      description: 
+    codejedes:
+      type: VARCHAR
+      size: 2
+      description: 
+    codnucdes:
+      type: VARCHAR
+      size: 2
+      description: 
+    codzoneco:
+      type: VARCHAR
+      size: 2
+      description: 
+    comindust:
+      type: VARCHAR
+      size: 250
+      description: 
+    codsec:
+      type: VARCHAR
+      size: 4
+      description: 
+    codsubsec:
+      type: VARCHAR
+      size: 4
+      description: 
+    montotpry:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description: 
+    codemp:
+      type: VARCHAR
+      size: 16
+      description: 
+    nomemp:
+      type: VARCHAR
+      size: 100
+      description: 
+    caremp:
+      type: VARCHAR
+      size: 100
+      description: 
+    uniadsemp:
+      type: VARCHAR
+      size: 100
+      description: 
+    telemp:
+      type: VARCHAR
+      size: 30
+      description: 
+    faxemp:
+      type: VARCHAR
+      size: 30
+      description: 
+    emaemp:
+      type: VARCHAR
+      size: 50
+      description: 
+    accotrins:
+      type: VARCHAR
+      size: 1
+      description: 
+    obsaccotrins:
+      type: VARCHAR
+      size: 250
+      description: 
+    conpryotr:
+      type: VARCHAR
+      size: 1
+      description: 
+    obsconpryotr:
+      type: VARCHAR
+      size: 250
+      description: 
+    conotrpry:
+      type: VARCHAR
+      size: 1
+      description: 
+    obsconotrpry:
+      type: VARCHAR
+      size: 250
+      description: 
+    tipaccage:
+      type: VARCHAR
+      size: 1
+      description: 
+    placontin:
+      type: VARCHAR
+      size: 250
+      description: 
+    obsplacontin:
+      type: VARCHAR
+      size: 250
+      description: 
+    nroempdir:
+      type: NUMERIC
+      size: 10
+      scale: 2
+      description: 
+    nroempind:
+      type: NUMERIC
+      size: 10
+      scale: 2
+      description: 
+    desbrepry:
+      type: VARCHAR
+      size: 1000
+      description: 
+    poravafis:
+      type: NUMERIC
+      size: 10
+      scale: 2
+      description: 
+    poravafin:
+      type: NUMERIC
+      size: 10
+      scale: 2
+      description: 
+    uniejepri:
+      type: VARCHAR
+      size: 32
+      description: 
+    ubigeo:
+      type: VARCHAR
+      size: 250
+      description: 
+    plactg:
+      type: VARCHAR
+      size: 1000
+      description: 
+    coddir:
+      type: VARCHAR
+      size: 3
+      description: 
+    facrzg:
+      type: VARCHAR
+      size: 1000
+      description: 
+    objpndes:
+      type: VARCHAR
+      size: 250
+      description: 
+    unimedres:
+      type: VARCHAR
+      size: 3
+      description: 
+    codprg:
+      type: VARCHAR
+      size: 3
+      description: 
+    codpryonapre:
+      type: VARCHAR
+      size: 10
+      description: 
+    tieejeanopry:
+      type: NUMERIC
+      size: 5
+      scale: 2
+      description: 
+    tieejemespry:
+      type: NUMERIC
+      size: 5
+      scale: 2
+      description: 
+    codobjnvaeta:
+      type: VARCHAR
+      size: 3
+      description: 
+    sitobjdes:
+      type: VARCHAR
+      size: 250
+      description: 
+    tieimpmes:
+      type: NUMERIC
+      size: 5
+      scale: 2
+      description: 
+    tieimpano:
+      type: NUMERIC
+      size: 5
+      scale: 2
+      description: 
+    nucdesend:
+      type: VARCHAR
+      size: 250
+      description: 
+    zonecodes:
+      type: VARCHAR
+      size: 250
+      description: 
+    accinm:
+      type: VARCHAR
+      size: 250
+      description: 
+    accdif:
+      type: VARCHAR
+      size: 250
+      description: 
+    numempfem:
+      type: NUMERIC
+      size: 4
+      scale: 0
+      description: 
+    numempmas:
+      type: NUMERIC
+      size: 4
+      scale: 0
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro   
+  fordefpryaccact:
+    _attributes:
+      description:
+    codpro:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: 
+    codaccesp:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: 
+    codact:
+      type: VARCHAR
+      size: 5
+      required: true
+      description: 
+    desact:
+      type: VARCHAR
+      size: 250
+      description: 
+    codunimed:
+      type: VARCHAR
+      size: 3
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fordefpryaccmet:
+    _attributes:
+      description:
+    codpro:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: 
+    codaccesp:
+      type: VARCHAR
+      size: 20
+      description: 
+      required: true
+    codmet:
+      type: VARCHAR
+      size: 5
+      required: true
+      description: 
+    desmet:
+      type: VARCHAR
+      size: 250
+      description: 
+    codunimed:
+      type: VARCHAR
+      size: 3
+      description: 
+    canmet:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro  
+  fordefsec:
+    _attributes:
+      description:
+    codsec:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: 
+    nomsec:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro 
+  fordefsitpre:
+    _attributes:
+      description:
+    codsitpre:
+      type: VARCHAR
+      size: 2
+      required: true
+      description: 
+    dessitpre:
+      type: VARCHAR
+      size: 100
+      required: true
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro    
+  fordefsta:
+    _attributes:
+      description:
+    codsta:
+      type: VARCHAR
+      size: 2
+      required: true
+      description: 
+    dessta:
+      type: VARCHAR
+      size: 100
+      required: true
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro    
+  fordefsubobj:
+    _attributes:
+      description:
+    codequ:
+      type: VARCHAR
+      size: 2
+      required: true
+      description: 
+    codsubobj:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: 
+    dessubobj:
+      type: VARCHAR
+      size: 1000
+      required: true
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro  
+  fordefsubsec:
+    _attributes:
+      description:
+    codsec:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: 
+    codsubsec:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: 
+    nomsubsec:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro 
+  fordefsubsubobj:
+    _attributes:
+      description:
+    codequ:
+      type: VARCHAR
+      size: 2
+      required: true
+      description: 
+    codsubobj:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: 
+    codsubsubobj:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: 
+    dessubsubobj:
+      type: VARCHAR
+      size: 1000
+      required: true
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro   
+  fordefunimed:
+    _attributes:
+      description:
+    codunimed:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: 
+    desunimed:
+      type: VARCHAR
+      size: 30
+      description: 
+    nomabrunimed:
+      type: VARCHAR
+      size: 10
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fordetpryaccespmet:
+    _attributes:
+      description:
+    codpro:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: 
+    codaccesp:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: 
+    codmet:
+      type: VARCHAR
+      size: 5
+      required: true
+      description: 
+    codunieje:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: 
+    codpar:
+      type: VARCHAR
+      size: 32
+      required: true
+      description: 
+    codpre:
+      type: VARCHAR
+      size: 50
+      required: true
+      description: 
+    disper:
+      type: VARCHAR
+      size: 1
+      description: 
+    monpre:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    codfin:
+      type: VARCHAR
+      size: 32
+      description: 
+    fecini:
+      type: DATE
+      description: 
+    feccul:
+      type: DATE
+      description: 
+    ubigeo:
+      type: VARCHAR
+      size: 250
+      description: 
+    pobapx:
+      type: VARCHAR
+      size: 100
+      description: 
+    observ:
+      type: VARCHAR
+      size: 250
+      description: 
+    codact:
+      type: VARCHAR
+      size: 5
+      description: 
+    jusins:
+      type: VARCHAR
+      size: 250
+      description: 
+    canins:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    caninsrep:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monprerep:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description: 
+    codtip:
+      type: VARCHAR
+      size: 4
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro 
+  fordisfuefinpryaccmet:
+    _attributes:
+      description:
+    codpro:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: 
+    codaccesp:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: 
+    codmet:
+      type: VARCHAR
+      size: 5
+      required: true
+      description: 
+    codpre:
+      type: VARCHAR
+      size: 50
+      required: true
+      description: 
+    codparing:
+      type: VARCHAR
+      size: 32
+      required: true
+      description: 
+    actfue:
+      type: VARCHAR
+      size: 1
+      description: 
+    monfin:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description: 
+    codact:
+      type: VARCHAR
+      size: 5
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro 
+  fordismetperpryaccmet:
+    _attributes:
+      description:
+    codpro:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: 
+    codaccesp:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: 
+    codmet:
+      type: VARCHAR
+      size: 5
+      required: true
+      description: 
+    perpre:
+      type: VARCHAR
+      size: 2
+      required: true
+      description: 
+    canmet:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    canmeteje:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forencpryaccespmet:
+    _attributes:
+      description:
+    codpro:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: 
+    codaccesp:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: 
+    codmet:
+      type: VARCHAR
+      size: 5
+      required: true
+      description: 
+    canmet:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    canact:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    totpre:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    codact:
+      type: VARCHAR
+      size: 5
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  foringdisper:
+    _attributes:
+      description:
+    codpar:
+      type: VARCHAR
+      size: 32
+      required: true
+      description: 
+    perpar:
+      type: VARCHAR
+      size: 2
+      required: true
+      description: 
+    monpar:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      required: true
+      description: 
+    porper:
+      type: NUMERIC
+      size: 4
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro    
+  forniveles:
+    _attributes:
+      description:
+    catpar:
+      type: VARCHAR
+      size: 1
+      required: true
+      description: 
+    consec:
+      type: NUMERIC
+      size: 2
+      required: true
+      description: 
+    nomabr:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: 
+    nomext:
+      type: VARCHAR
+      size: 50
+      required: true
+      description: 
+    lonniv:
+      type: NUMERIC
+      size: 2
+      description: 
+    staniv:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro   
+  forparing:
+    _attributes:
+      description:
+    codparing:
+      type: VARCHAR
+      size: 32
+      required: true
+      description: 
+    montoing:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      required: true
+      description: 
+    codtipfin:
+      type: VARCHAR
+      size: 4
+      description: 
+    observ:
+      type: VARCHAR
+      size: 100
+      description: 
+    montodis:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro   
+  forpryorgpub:
+    _attributes:
+      description:
+    codpro:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: 
+    codorg:
+      type: VARCHAR
+      size: 5
+      required: true
+      description: 
+    monapo:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description: 
+    reseje:
+      type: VARCHAR
+      size: 1
+      description: 
+    tipcnx:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: 
+    detobs:
+      type: VARCHAR
+      size: 250
+      description: 
+    reqacc:
+      type: VARCHAR
+      size: 1
+      description: 
+    concomotrpry:
+      type: VARCHAR
+      size: 1
+      description: 
+    entcflpry:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro 
+  forpryubigeo:
+    _attributes:
+      description:
+    codpro:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: 
+    codest:
+      type: VARCHAR
+      size: 5
+      required: true
+      description: 
+    codmun:
+      type: VARCHAR
+      size: 5
+      required: true
+      description: 
+    codpar:
+      type: VARCHAR
+      size: 5
+      required: true
+      description: 
+    espadiubigeo:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro  
+  fortipfin:
+    _attributes:
+      description:
+    codfin:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: 
+    nomext:
+      type: VARCHAR
+      size: 100
+      required: true
+      description: 
+    nomabr:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: 
+    apofis:
+      type: VARCHAR
+      size: 1
+      description: 
+    tipfin:
+      type: VARCHAR
+      size: 1
+      description: 
+    montoing:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description: 
+    montodis:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description: 
+    montodisaux:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro    
+  fortiptit:
+    _attributes:
+      description:
+    codtip:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: 
+    destip:
+      type: VARCHAR
+      size: 100
+      required: true
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro     
+  fordefobjestnvaeta:
+    _attributes:
+      description:
+    codobjnvaeta:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    desobjnvaeta:
+      type: VARCHAR
+      size: 250
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro  
+  fordefaccpoa:
+    _attributes:
+      description:
+    codsubacc:
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    dessubacc:
+      type: VARCHAR
+      size: 250
+      description: 
+    metsubacc:
+      type: VARCHAR
+      size: 250
+      description: 
+    locsubacc:
+      type: VARCHAR
+      size: 250
+      description: 
+    indgessubacc:
+      type: VARCHAR
+      size: 250
+      description: 
+    codunimed:
+      type: VARCHAR
+      size: 3
+      description: 
+    medversubacc:
+      type: VARCHAR
+      size: 250
+      description: 
+    supsubacc:
+      type: VARCHAR
+      size: 250
+      description: 
+    metpritri:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    metsegtri:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    mettertri:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    metcuatri:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    mettot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro   
+  fordefdirec:
+    _attributes:
+      description:
+    coddir:
+      type: VARCHAR
+      size: 3
+      description: 
+    desdir:
+      type: VARCHAR
+      size: 1000
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro  
+  fordefinst:
+    _attributes:
+      description:
+    nrofor:
+      type: VARCHAR
+      size: 50
+      description: 
+      required: true
+    desfor:
+      type: VARCHAR
+      size: 250
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro 
+  forcfgrepins:
+    _attributes:
+      description:
+    nrofor:
+      type: VARCHAR
+      size: 50
+      description: 
+      required: true
+    descripcion:
+      type: VARCHAR
+      size: 1000
+      description: 
+      required: true
+    tipo:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    cuenta:
+      type: VARCHAR
+      size: 100
+      description: 
+      required: true
+    orden:
+      type: INTEGER
+      required: true
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro  
+  forcargos:
+    _attributes:
+      description:
+    codcar:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    nomcar:
+      type: VARCHAR
+      size: 50
+      description: 
+      required: true
+    suecar:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    stacar:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    codocp:
+      type: VARCHAR
+      size: 10
+      description: 
+    punmin:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    graocp:
+      type: VARCHAR
+      size: 3
+      description: 
+    comcar:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    pasocp:
+      type: VARCHAR
+      size: 3
+      description: 
+    codtip:
+      type: VARCHAR
+      size: 3
+      description: 
+    pricar:
+      type: NUMERIC
+      size: 20
+      scale: 3
+      description: 
+    canhom:
+      type: NUMERIC
+      size: 6
+      scale: 0
+      description: 
+    canmuj:
+      type: NUMERIC
+      size: 6
+      scale: 0
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forprocar:
+    _attributes:
+      description:
+    codprofes:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    codcar:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+      foreignTable: forcargos
+      foreignReference: codcar
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  foringdisfuefin:
+    _attributes:
+      description:
+    codparing:
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true
+    codfin:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    montoing:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description: 
+    codcat:
+      type: VARCHAR
+      size: 20
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      autoIncrement: true
+  forotrcrepre:
+    _attributes:
+      description:
+    codcat:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    codparegr:
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true      
+    monpre:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true 
+    codtip:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true 
+    observ:
+      type: VARCHAR
+      size: 250    
+      description: 
+    codfin:
+      type: VARCHAR
+      size: 4
+      description: 
+    codpre:
+      type: VARCHAR
+      size: 4
+      description: 
+    nomparegr:
+      type: VARCHAR
+      size: 250
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forperotrcre:
+    _attributes:
+      description:
+    codcat:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    codparegr:
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true    
+    perpre:
+      type: VARCHAR
+      size: 2
+      description: 
+      required: true
+    monper:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      autoIncrement: true
+  forotrdistra:
+    _attributes:
+      description:
+    codcat:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    codparegr:
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true    
+    codorg:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    monto:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forfinotrcre:
+    _attributes:
+      description:
+    codcat:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    codparegr:
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true    
+    codparing:
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true
+    monfin:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forpreobr:
+    _attributes:
+      description:
+    codcat:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    codobr:
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true       
+    codparegr:
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true      
+    monpre:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true 
+    codtip:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true 
+    observ:
+      type: VARCHAR
+      size: 250    
+      description: 
+    codfin:
+      type: VARCHAR
+      size: 4
+      description: 
+    funcionario:
+      type: VARCHAR
+      size: 50
+      description: 
+    fecini:
+      type: DATE
+      description: 
+    fecfin:
+      type: DATE
+      description: 
+    situacion:
+      type: VARCHAR
+      size: 1
+      description: 
+    comproanoant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    comprovig:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    ejecanoant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    ejecanovig:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    estanopost:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    nomparegr:
+      type: VARCHAR
+      size: 250
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forperobr:
+    _attributes:
+      description:
+    codcat:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    codobr:
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true      
+    codparegr:
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true    
+    perpre:
+      type: VARCHAR
+      size: 2
+      description: 
+      required: true
+    monper:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forobrdistra:
+    _attributes:
+      description:
+    codcat:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    codobr:
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true      
+    codparegr:
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true    
+    codorg:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    monto:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forfinobr:
+    _attributes:
+      description:
+    codcat:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    codobr:
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true      
+    codparegr:
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true    
+    codparing:
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true
+    monfin:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fordefact:
+    _attributes:
+      description:
+    codact: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true      
+    desact: 
+      type: VARCHAR
+      size: 1000
+      description: 
+      required: true
+    nomabr: 
+      type: VARCHAR
+      size: 50
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fordefunieje:
+    _attributes:
+      description:
+    coduni:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    nomuni:
+      type: VARCHAR
+      size: 250
+      description: 
+      required: true
+    codemp:
+      type: VARCHAR
+      size: 16
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fordefmet:
+    _attributes:
+      description:
+    codmet:
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    desmet:
+      type: VARCHAR
+      size: 1000
+      description: 
+    nomabr:
+      type: VARCHAR
+      size: 50
+      description: 
+    codemp:
+      type: VARCHAR
+      size: 16
+      description: 
+    cantidad:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    indpro:
+      type: VARCHAR
+      size: 250
+      description: 
+    invfun:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forasopromet:
+    _attributes:
+      description:
+    codmet: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codpro: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    ubigeo: 
+      type: VARCHAR
+      size: 100
+      description: 
+    indges: 
+      type: VARCHAR
+      size: 100
+      description: 
+    calind: 
+      type: VARCHAR
+      size: 100
+      description: 
+    frelec: 
+      type: VARCHAR
+      size: 100
+      description: 
+    canpro: 
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    codemp: 
+      type: VARCHAR
+      size: 16
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro 
+  formetdisper:
+    _attributes:
+      description:
+    codmet: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    permet: 
+      type: VARCHAR
+      size: 2
+      description: 
+      required: true
+    canmet: 
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fordisperpro:
+    _attributes:
+      description:
+    codmet: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codpro: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    perpre: 
+      type: VARCHAR
+      size: 2
+      description: 
+      required: true
+    canper: 
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forasounicat:
+    _attributes:
+      description:
+    codcat: 
+      type: VARCHAR
+      size: 20
+      description: 
+      required: true
+    coduni: 
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forasoproobj:
+    _attributes:
+      description:
+    codpro: 
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    codcat: 
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    codobj: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro 
+  fordefproble:
+    _attributes:
+      description:
+    codpro: 
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    nompro: 
+      type: VARCHAR
+      size: 4000
+      description: 
+    progra: 
+      type: VARCHAR
+      size: 4000
+      description: 
+    plaeco: 
+      type: VARCHAR
+      size: 4000
+      description: 
+    objest: 
+      type: VARCHAR
+      size: 4000
+      description: 
+    plagob: 
+      type: VARCHAR
+      size: 4000
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forasometobj:
+    _attributes:
+      description:
+    codobj:
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codmet:
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forasometcre:
+    _attributes:
+      description:
+    codcat:
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true
+    codmet:
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro 
+  forasoactpro:
+    _attributes:
+      description:
+    codmet: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codpro: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codact: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forestcos:
+    _attributes:
+      description:
+    codmet: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codpro: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codact: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codart: 
+      type: VARCHAR
+      size: 20
+      description: 
+      required: true
+    codpar: 
+      type: VARCHAR
+      size: 32
+      description: 
+    canuni: 
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    canart: 
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monart: 
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    totpre: 
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    codfin: 
+      type: VARCHAR
+      size: 32
+      description: 
+    codtip: 
+      type: VARCHAR
+      size: 4
+      description: 
+    observ: 
+      type: VARCHAR
+      size: 250
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forestdisper:
+    _attributes:
+      description:
+    codmet: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codpro: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codact: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codart: 
+      type: VARCHAR
+      size: 20
+      description: 
+      required: true
+    perpre: 
+      type: VARCHAR
+      size: 2
+      description: 
+      required: true
+    canper: 
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forestfuefin:
+    _attributes:
+      description:
+    codmet: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codpro: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codact: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codart: 
+      type: VARCHAR
+      size: 20
+      description: 
+      required: true
+    codparing: 
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true
+    monfin: 
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  foringdefniv:
+    _attributes:
+      description:
+    codemp: 
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    loncod: 
+      type: NUMERIC
+      size: 2
+      description: 
+      required: true
+    rupcat: 
+      type: NUMERIC
+      size: 2
+      description: 
+      required: true
+    ruppar: 
+      type: NUMERIC
+      size: 2
+      description: 
+      required: true
+    nivdis: 
+      type: NUMERIC
+      size: 2
+      description: 
+      required: true
+    forpre: 
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true
+    asiper: 
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    numper: 
+      type: NUMERIC
+      size: 2
+      description: 
+      required: true
+    peract: 
+      type: VARCHAR
+      size: 2
+      description: 
+      required: true
+    fecper: 
+      type: DATE
+      description: 
+    fecini: 
+      type: DATE
+      description: 
+    feccie: 
+      type: DATE
+      description: 
+    etadef: 
+      type: VARCHAR
+      size: 1
+      description: 
+    staprc: 
+      type: VARCHAR
+      size: 1
+      description: 
+    caraep: 
+      type: VARCHAR
+      size: 8
+      description: 
+    coraep: 
+      type: VARCHAR
+      size: 8
+      description: 
+    nivobr: 
+      type: NUMERIC
+      size: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  foringniveles:
+    _attributes:
+      description:
+    catpar: 
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    consec: 
+      type: NUMERIC
+      size: 2
+      description: 
+      required: true
+    nomabr: 
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    nomext: 
+      type: VARCHAR
+      size: 50
+      description: 
+      required: true
+    lonniv: 
+      type: NUMERIC
+      size: 2
+      description: 
+    staniv: 
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  foringpereje:
+    _attributes:
+      description:
+    fecini: 
+      type: DATE
+      description: 
+      required: true
+    feccie: 
+      type: DATE
+      description: 
+      required: true
+    pereje: 
+      type: VARCHAR
+      size: 2
+      description: 
+      required: true
+    fecdes: 
+      type: DATE
+      description: 
+      required: true
+    fechas: 
+      type: DATE
+      description: 
+      required: true
+    cerrado: 
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro 
+  forpereje:
+    _attributes:
+      description:
+    fecini:
+      type: DATE
+      description: 
+      required: true
+    feccie:
+      type: DATE
+      description: 
+      required: true
+    pereje:
+      type: VARCHAR
+      size: 2
+      description: 
+      required: true
+    fecdes:
+      type: DATE
+      description: 
+      required: true
+    fechas:
+      type: DATE
+      description: 
+      required: true
+    cerrado:
+      type: VARCHAR
+      size: 1
+      description: 
+    estper:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forregart:
+    _attributes:
+      description:
+    codart:
+      type: VARCHAR
+      size: 20
+      description: 
+      required: true
+    desart:
+      type: VARCHAR
+      size: 1500
+      description: 
+      required: true
+    codcta:
+      type: VARCHAR
+      size: 32
+      description: 
+    codpar:
+      type: VARCHAR
+      size: 16
+      description: 
+    ramart:
+      type: VARCHAR
+      size: 6
+      description: 
+    cosult:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    cospro:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    exitot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    unimed:
+      type: VARCHAR
+      size: 15
+      description: 
+    unialt:
+      type: VARCHAR
+      size: 15
+      description: 
+    relart:
+      type: VARCHAR
+      size: 25
+      description: 
+    fecult:
+      type: DATE
+      description: 
+    invini:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    codmar:
+      type: VARCHAR
+      size: 6
+      description: 
+    codref:
+      type: VARCHAR
+      size: 15
+      description: 
+    costot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    sigecof:
+      type: VARCHAR
+      size: 20
+      description: 
+    codclaart:
+      type: NUMERIC
+      size: 4
+      description: 
+    lotuni:
+      type: VARCHAR
+      size: 1
+      description: 
+    ctavta:
+      type: VARCHAR
+      size: 32
+      description: 
+    ctacos:
+      type: VARCHAR
+      size: 32
+      description: 
+    ctapro:
+      type: VARCHAR
+      size: 32
+      description: 
+    preart:
+      type: VARCHAR
+      size: 50
+      description: 
+    distot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    tipo:
+      type: VARCHAR
+      size: 1
+      description: 
+    tip0:
+      type: VARCHAR
+      size: 1
+      description: 
+    coding:
+      type: VARCHAR
+      size: 32
+      description: 
+    mercon:
+      type: VARCHAR
+      size: 1
+      description: 
+    codartsnc:
+      type: VARCHAR
+      size: 20
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fordefobr:
+    _attributes:
+      description:
+    codobr: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    nomobr: 
+      type: VARCHAR
+      size: 1000
+      description: 
+      required: true
+    codparegr: 
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true
+    obsobr: 
+      type: VARCHAR
+      size: 4000
+      description: 
+    id: 
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  formetotrcre:
+    _attributes:
+      description:
+    codmet: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codpro: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codact: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    canact: 
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    codparegr: 
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true
+    monpre: 
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    codorg: 
+      type: VARCHAR
+      size: 4
+      description: 
+    codtip: 
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    observ: 
+      type: VARCHAR
+      size: 250
+      description: 
+    codfin: 
+      type: VARCHAR
+      size: 4
+      description: 
+    id: 
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  formetperotr:
+    _attributes:
+      description:
+    codmet: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codpro: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codact: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codparegr: 
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true
+    perpre: 
+      type: VARCHAR
+      size: 2
+      description: 
+      required: true
+    monper: 
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    id: 
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  formetdistra:
+    _attributes:
+      description:
+    codmet: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codpro: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codact: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codparegr: 
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true
+    codorg: 
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    monto: 
+      type: NUMERIC
+      size: 32
+      scale: 2
+      description: 
+    id: 
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  formetfinotr:
+    _attributes:
+      description:
+    codmet: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codpro: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codact: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codparegr: 
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true
+    codparing: 
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true
+    monfin: 
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    id: 
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forconcar:
+    _attributes:
+      description:
+    codcar: 
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    codcon: 
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    id: 
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forcormun:
+    _attributes:
+      description:
+    codest: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    cormun: 
+      type: NUMERIC
+      size: 3
+      description: 
+    id: 
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forcorpar:
+    _attributes:
+      description:
+    codest: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codmun: 
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    corpar: 
+      type: NUMERIC
+      size: 3
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forcorsubobj: 
+    codequ: 
+      type: VARCHAR
+      size: 2
+      description: 
+      required: true
+    corsubobj: 
+      type: NUMERIC
+      size: 3
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forcorsubsec:
+    _attributes:
+      description:
+    codsec: 
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    corsubsec: 
+      type: NUMERIC
+      size: 3
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forcorsubsubobj:
+    _attributes:
+      description:
+    codequ: 
+      type: VARCHAR
+      size: 2
+      description: 
+      required: true
+    codsubobj: 
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    corsubsubobj: 
+      type: NUMERIC
+      size: 3
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fordismonprepryaccmetuea:
+    _attributes:
+      description:
+    codpro:
+      type: VARCHAR
+      size: 20
+      description: 
+      required: true
+    codaccesp:
+      type: VARCHAR
+      size: 20
+      description: 
+      required: true
+    codmet:
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codact:
+      type: VARCHAR
+      size: 5
+      description: 
+    codpre:
+      type: VARCHAR
+      size: 50
+      description: 
+      required: true
+    perpre:
+      type: VARCHAR
+      size: 2
+      description: 
+      required: true
+    monper:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description: 
+    codpar:
+      type: VARCHAR
+      size: 32
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  forasouniobj:
+    _attributes:
+      description:
+    coduni:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true    
+    codobj:
+      type: VARCHAR
+      size: 5
+      required: true
+      description: Código del Objetivo
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro  
+  forestcoscat:
+    _attributes:
+      description:
+    codcat:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    codart: 
+      type: VARCHAR
+      size: 20
+      description: 
+      required: true
+    codpar: 
+      type: VARCHAR
+      size: 32
+      description: 
+    canuni: 
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    canart: 
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monart: 
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    totpre: 
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    codfin: 
+      type: VARCHAR
+      size: 32
+      description: 
+    codtip: 
+      type: VARCHAR
+      size: 4
+      description: 
+    observ: 
+      type: VARCHAR
+      size: 250
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro      
+  forestfuecat:
+    _attributes:
+      description:
+    codcat:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    codart: 
+      type: VARCHAR
+      size: 20
+      description: 
+      required: true
+    codparing: 
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true
+    monfin: 
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro      
+  forestpercat:
+    _attributes:
+      description:
+    codcat:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    codart: 
+      type: VARCHAR
+      size: 20
+      description: 
+      required: true
+    perpre: 
+      type: VARCHAR
+      size: 2
+      description: 
+      required: true
+    canper: 
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro      

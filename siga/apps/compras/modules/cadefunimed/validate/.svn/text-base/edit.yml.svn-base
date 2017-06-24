@@ -1,0 +1,44 @@
+methods:
+  post:
+   - "cadefunimed{codunimed}"
+   - "cadefunimed{desunimed}"
+   - "cadefunimed{abrunimed}"
+
+names:
+  cadefunimed{codunimed}:
+    required:  Yes
+    required_msg: El Código de la Unidad de Medida no puede estar en Blanco
+    validators: Validator_codunimed
+
+  cadefunimed{desunimed}:
+    required:  Yes
+    required_msg: La Descripción de la Unidad de Medida no puede estar en Blanco
+    validators: Validator_desunimed
+
+  cadefunimed{abrunimed}:
+    required:  Yes
+    required_msg: La Abreviación de la Unidad de Medida no puede estar en Blanco
+    validators: Validator_abrunimed
+
+Validator_codunimed:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Cadefunimed
+        column:       codunimed
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_desunimed:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción de la Unidad de Medida debe contener al menos de 2 caracteres
+        max:       100
+        max_error: La Descripción de la Unidad de Medida no debe contener mas de 100 caracteres
+
+Validator_abrunimed:
+    class: sfStringValidator
+    param:
+        min:       1
+        min_error: La Abreviatura de la Unidad de Medida debe contener al menos de 3 caracteres
+        max:       50
+        max_error: La Abreviatura de la Unidad de Medida no debe contener mas de 3 caracteres

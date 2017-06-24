@@ -1,0 +1,29 @@
+====== Asignación Inicial ======
+**Tablas:** CPASIINI
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En dicho proceso se asigna el Monto inicial a cada Código Presupuestario.&nbsp;&nbsp;Cuando la etapa de definición está cerrada el Sistema no permitirá guardar información.<br><br> </html> 
+
+Para ello:
+
+  * Seleccione la opción **Contabilidad Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpre.jpg|}}"></div><br></html>
+
+   * Seguidamente despliegue la opción **Definiciones Específicas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpredefesp.jpg|}}"></div><br></html>
+
+  * Por último seleccione la opción **Asignación Inicial**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreasiini.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Asignación Inicial** veamos la [[Descripcion_Campos_presupuesto_asignacion_inicial|Descripción de los Campos]]
+
+
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Asignación Inicial** solo podrá realizar la Operación Básica de:
+
+  * [[Incluir Asignación Inicial|Incluir]]
+
+  * [[Modificar Asignación Inicial|Modificar]]
+
+ 

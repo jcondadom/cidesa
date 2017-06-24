@@ -1,0 +1,35 @@
+methods:
+  post:
+   - "bncatcomseg{codcom}"
+   - "bncatcomseg{nomcom}"
+   - "bncatcomseg{nompro}"
+
+names:
+  bncatcomseg{codcom}:
+    required:  Yes
+    required_msg: El Código de la Compañia no puede estar en Blanco.
+    validators: UniqueValidator
+
+  bncatcomseg{nomcom}:
+    required:  Yes
+    required_msg: El Nombre de la Compañia no puede estar en Blanco.
+    validators: NombreValidator
+
+  bncatcomseg{nompro}:
+    required:  Yes
+    required_msg: El Nombre del Proveedor no puede estar en Blanco.
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Bncatcomseg
+        column:   codcom
+        unique_error:   El Código de la Compañia ya existe. Por Favor, Cambiélo por otro.
+
+NombreValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: El Nombre de la Compañia no puede tener menos de 2 carácteres
+        max:       250
+        max_error: El Nombre de la Compañia no puede tener más de 250 carácteres

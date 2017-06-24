@@ -1,0 +1,30 @@
+====== Conceptos para Aportes ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite definir todos los conceptos que van a estar asociados a cada Tipo de Aporte y por cada Nómina existente en la Empresa ó Institución, los cuales serán utilizados para el cálculo de la nómina.
+</html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el **Menú Principal** de **SIGA**.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones Específicas** 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefesp.jpg|}}"></div><br></html> 
+
+  * Seguidamente despliegue la opción de **Definición de Retenciones y Aportes** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefretapo.jpg|}}"></div><br></html>
+
+  * Por último seleccione la opción **Conceptos para Aportes**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconapo.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Conceptos para Aportes** podrá realizar la Operaciones Básicas de:
+
+  * [[Incluir Conceptos para Aportes|Incluir]]
+
+  * [[Modificar Conceptos para Aportes|Modificar]]
+
+  * [[Eliminar Conceptos para Aportes|Eliminar]]
+
+  * [[Consultar Conceptos para Aportes|Consultar]]

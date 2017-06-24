@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/52163/web/php/siga/branches/productions/trunk/plugins/sfGuardPlugin/lib/model
+END
+sfGuardUser.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfGuardPlugin/lib/model/sfGuardUser.php
+END
+sfGuardGroupPermissionPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfGuardPlugin/lib/model/sfGuardGroupPermissionPeer.php
+END
+sfGuardRememberKeyPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfGuardPlugin/lib/model/sfGuardRememberKeyPeer.php
+END
+sfGuardUserPermission.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfGuardPlugin/lib/model/sfGuardUserPermission.php
+END
+sfGuardPermission.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfGuardPlugin/lib/model/sfGuardPermission.php
+END
+sfGuardUserPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfGuardPlugin/lib/model/sfGuardUserPeer.php
+END
+sfGuardUserGroup.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfGuardPlugin/lib/model/sfGuardUserGroup.php
+END
+sfGuardGroup.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfGuardPlugin/lib/model/sfGuardGroup.php
+END
+sfGuardUserProfile.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfGuardPlugin/lib/model/sfGuardUserProfile.php
+END
+sfGuardUserPermissionPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfGuardPlugin/lib/model/sfGuardUserPermissionPeer.php
+END
+sfGuardPermissionPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfGuardPlugin/lib/model/sfGuardPermissionPeer.php
+END
+sfGuardGroupPermission.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfGuardPlugin/lib/model/sfGuardGroupPermission.php
+END
+sfGuardRememberKey.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfGuardPlugin/lib/model/sfGuardRememberKey.php
+END
+sfGuardUserGroupPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfGuardPlugin/lib/model/sfGuardUserGroupPeer.php
+END
+sfGuardGroupPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfGuardPlugin/lib/model/sfGuardGroupPeer.php
+END
+sfGuardUserProfilePeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfGuardPlugin/lib/model/sfGuardUserProfilePeer.php
+END

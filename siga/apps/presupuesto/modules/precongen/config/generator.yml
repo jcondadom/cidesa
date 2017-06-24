@@ -1,0 +1,42 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cpdefniv
+    theme:            cidesaGenerator
+    fields:
+      coraep:    {name: AEP}
+      corprc:    {name: Precompromiso}
+      corcom:    {name: Compromiso}
+      corcau:    {name: Causado}
+      corpag:    {name: Pagado}
+      corsoltra: {name: Solicitud de Traslado}
+      cortrasla:    {name: Traslado}
+      corsoladidis: {name: Solicitud de Adicion/Disminucion}
+      coradidis:    {name: Adicion/Disminucion}
+      coraju:    {name: Ajuste}
+      btnanu:    {name: Anular}
+      btneli:    {name: Eliminar}
+      conpar:    {name: Nivel de Partidas}
+      tipcom:
+        name: Tipo Compromiso
+        catalogo:
+          catalogoweb: Precompro_Cpdoccom
+          clase: Cpdoccom
+          ajax: 1
+          parametros: getprincipal="getTipcom" getsecundario="getNomdoc" campoprincipal="tipcom" camposecundario="nomdoc" campobase = "id"
+      cedrif:
+        name: Beneficiario
+        catalogo:
+          catalogoweb: Preprecom_Opbenefi
+          clase: Opbenefi
+          ajax: 2
+          parametros: getprincipal="getCedrif" getsecundario="getNomben" campoprincipal="cedrif" camposecundario="nomben" campobase = "id"
+    edit:
+      title: Configuracion Generales
+      display:
+        Correlativos:  [coraep, corprc, corcom, corcau, corpag, corsoltra, cortrasla, corsoladidis, coradidis, coraju]
+        Generales:  [btnanu, btneli, _conpar]
+        Datos Compromiso de Nómina:  [tipcom, cedrif]
+
+      actions:
+        _save:        ~

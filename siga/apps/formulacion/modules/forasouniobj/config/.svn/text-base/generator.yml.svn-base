@@ -1,0 +1,30 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fordefunieje
+    theme:            cidesaGenerator
+    fields:
+      coduni: { name: Código, params: size=20 readOnly=true  }
+      nomuni: { name: Descripción, params: size=80 readOnly=true  }
+      grid:  { name: .}
+    list:
+      title:          Asociación de Objetivos a Unidad Ejecutora
+      filters:        [coduni]
+      display:        [=coduni, nomuni]
+      object_actions:
+        _edit:        ~
+        _delete:      NONE
+      actions:
+        _create:      NONE
+      max_per_page:   10
+      sort:      coduni
+    edit:
+      title:          Asociación de Objetivos a Unidad Ejecutora
+      display:
+        "Unidad Ejecutora":   [coduni, nomuni]
+        "Objetivos":   [_grid]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      NONE
+        _create:      NONE

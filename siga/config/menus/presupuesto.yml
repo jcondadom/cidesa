@@ -1,0 +1,118 @@
+presupuesto:
+  opciones:
+    activo: true #true/false
+    descripcion: Modulo de Prespuesto
+    imagen: presupuesto.gif
+    nombre: Contabilidad Presupuestaria
+    urls:
+      Cambiar Contraseña:
+        modulo: autenticacion.php
+        modulo_dev: autenticacion_dev.php
+      default:
+        modulo: contabilidadpresupuesto/aplicaciones/presupuesto
+        modulo_dev: contabilidadpresupuesto/aplicaciones/presupuesto
+      Aprobacion:
+        modulo: presupuesto.php
+        modulo_dev: presupuesto_dev.php
+      Aprobacion del Compromiso:
+        modulo: presupuesto.php
+        modulo_dev: presupuesto_dev.php
+      Crear Tiulos:
+        modulo: presupuesto.php
+        modulo_dev: presupuesto_dev.php
+      Configuraciones Generales:
+        modulo: presupuesto.php
+        modulo_dev: presupuesto_dev.php
+      Reportes:
+        absoluta: reportes/reportes/presupuesto
+    imagenes:
+      default: OperatorClass.png
+  menu:
+    Definiciones Especificas:
+      Configuraciones Generales:                              precongen
+      Niveles Presupuestarios:                                PreNivPre.php
+      Titulos Presupuestarios:                                PreTitPre.php
+      Asignacion Inicial:                                     PreAsiIni.php
+      Asignar Partidas:                                       PreAsiPar.php
+      Articulos de Ley:                                       PreArtLey.php
+      Aprobacion:                                             PreDefApr
+      Crear Ticulos:                                          precretit
+      Documentos:
+        Precompromisos:                                       PreDocPre.php
+        Compromisos:                                          PreDocCom.php
+        Causados:                                             PreDocCau.php
+        Pagos:                                                PreDocPag.php
+        Ajustes:                                              PreDocAju.php
+    Ejecucion Presupuestaria:
+      Ejecucion Global por especifica:                        PreEjeGlo.php
+      Precomprometer:                                         PrePrecom.php
+      Comprometer:                                            PreCompro.php
+      Causar:                                                 PreCausar.php
+      Pagar:                                                  PrePagar.php
+      Solicitud de Traspaso:                                  PreSolTrasla.php
+      Traspasos:                                              PreTrasla.php
+      Solicitud de Recursos Adicionales/Disminuciones:        PreSolAdiDis.php
+      Recursos Adicionales/Disminuciones:                     PreAdiDis.php
+      Ajustes Ejecucion:                                      PreAjuste.php
+      Aprobacion del Compromiso:                PreAprCom
+      #Rendicion de Gastos:
+        #Apartado:                                            PreApaFon.php
+        #Relacion:                                            PreRelApa.php
+    Reportes:
+      Definiciones Especificas:
+        Catalogo de Partidas:                                 precatpar.php
+        Documentos Precompromiso:                             precatprc.php
+        Documentos Compromiso:                                precatcom.php
+        Documentos Causado:                                   precatcau.php
+        Documentos Pago:                                      precatpag.php
+        Documentos Ajuste:                                    precataju.php
+        Tipos de Financiamiento:                              precattipfin.php
+        Articulos de Ley:                                     precatartley.php
+      Movimientos:
+        Certificacion Presupuestaria:                         precerpre.php
+        Precompromisos:                                       preprc.php
+        Compromisos:                                          precom.php
+        Causados:                                             precau.php
+        Pagados:                                              prepag.php
+        Traslados:                                            pretra.php
+        Ajustes:                                              preaju.php
+        Creditos Adicionales/Disminuciones (Por Aprobacion):  PRERADIDIS.php
+        Rectificaciones del Presupuesto:                      prerectificaciones.php
+        Creditos Adicionales (Segun Oficio):                  precreadi_oficio.php
+        Creditos Adicionales (Segun Decreto):                 precreadi_decreto.php
+      Ejecucion Presupuestaria:
+        Asignacion Inicial Consolidado:                       prerasiini.php
+        Disponibilidad Presupuestaria:                        predispre.php
+        Disponibilidad Presupuestaria Resumida:               predispreres.php
+        Ejecucion del Presupuesto:                            preejepre.php
+        Gasto Ejecutado por Part. y Genericas (BCV):          pregasejepar.php
+        Resumen General de la Ejec. Presup. por Partidas:     preresgenejepar.php
+        Maestro de Presupuesto:                               premaepre.php
+        Ejecucion Presupuestaria (PreCompromisos):            predisper.php
+        Ejecucion Presupuestaria por Partidas:                predispar.php
+        Detalle de Compromisos:                               predetcom.php
+        Detalle de Causados:                                  predetcau.php
+        Registro de la Ejec. Finan. del Presup. de gastos:    precoddetofi.php
+        Relacion Diaria de Compromisos:                       PRERELDIACOM.php
+        Disponibilidad Financiera:                            predisfin.php
+        Disponibilidad Negativa:                              predisneg.php
+        Consolidado de Ejecucion por Movimientos:             preconeje.php
+        Ejecucion Presupuestaria Coordinado (Dispon. Compr.): predispercoo_discom.php
+        #Asignacion Inicial:                                  preasiinires.php
+        #Compromisos por Beneficiario:                        precomben.php
+        #Precompromisos afectados por otros Movimientos:      preprcotrosmov.php
+        #Asignacion Inicial Por Partidas:                     prerasiinipar.php
+        #Relacion De Compromiso No Causados:                  prerelcomnocau.php
+        #Adiciones/Disminuciones (segun solicitud):           prersoladidis.php
+        #Tarjeta De Ejecucion:                                consolidado.php
+        #Documento Pagado:                                    cprpagado.php
+    Mantenimiento:
+      #Clasificacion de Titulos Presupuestarios:              PreClaTitPre.php
+      #Clasificador de Partidas Presupuestarias:              NomManClaPre.php
+      Cerrar Etapa de Definicion:                             PreEtaDef.php
+      Cierre del Periodo:                                     PreCiePer.php
+      #Cambiar Password de Usuario:                           PreCamPas.php
+      #Reactualizar Maestro:                                  PreReactualizar.php
+      #Abrir Archivos PDF:                                    CatalogoPDF.php
+      Cambiar Contrasena:                                     cambiopasswd
+

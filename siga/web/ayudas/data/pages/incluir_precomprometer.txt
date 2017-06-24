@@ -1,0 +1,36 @@
+====== Operación Incluir ======
+
+Para **registrar** un Precompromiso: <html><br><br></html>
+
+  * Ingresar la** Referencia** del Precompromiso. <html><br><br></html>
+
+  * Seleccionar del calendario la **Fecha** en la que se realiza el precompromiso. <html><br><br></html>
+
+  * Ingresar la **Descripción** que haga referencia al Precompromiso.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreprecomprometerinc1.jpg|}}"></div><br></html>
+
+  * En la sección **Tipo de Precompromiso** debe seleccionar el **Código** del **Tipo de Precompromiso** al cual se refiere el movimiento.<html><br><br></html>
+
+  * En la sección **Saldos** encontrará el **Saldo Ajustado** el cual indica el monto ajustado al Compromiso, Causado o Pagado, en caso de que exista. Una vez que se realiza un ajuste, el Sistema determina el saldo automáticamente y el **Saldo Precompromiso** que indica el monto pendiente por comprometer, cuando el compromiso refiere a ese precompromiso.  <html><br><br></html>
+
+  * Seleccionar el **Código del Beneficiario**.  
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreprecomprometerinc2.jpg|}}"></div><br></html>
+
+  * Seguidamente en el cuadro de **Imputaciones Presupuestarias** se seleccionan los códigos Preupuestarios involucrados en el Precompromiso. <html><br><br></html>
+
+  * En el cuadro de Imputaciones asignamos en **Monto** el monto por el cual se esta realizando el Compromiso; en **Comprometido** el monto comprometido del precompromiso por código presupuestario; en **Causado** el monto causado del precompromiso por código presupuestario; en **Pagado** el monto pagado del precompromiso por código presupuestario y por último en el campo **Total** se refiere al total tanto del Monto como de lo comprometido, lo causado y lo pagado.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreprecomprometerinc3.jpg|}}"></div><br></html>
+
+ * Presione el **Botón Guardar**
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:btnguardar1.jpg|}}"></div><br></html>
+
+  * El sistema verifica si se desea guardar los cambios realizados
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:mnsconfirmacionguardar.jpg|}}"></div><br></html>
+
+  * Presione **OK**
+

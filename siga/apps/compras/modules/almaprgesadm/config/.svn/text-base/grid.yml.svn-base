@@ -1,0 +1,52 @@
+opciones:                  # Opciones generales
+  name:                    compromiso
+  eliminar:                false
+  tabla:                   casolart
+  anchogrid:               820
+  ancho:                   820
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Aprobar
+  tipo:                    k
+  nombrecampo:             aprobar1
+  html:                    ["size=3 onClick=verificar(this.id)"]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Rechazar
+  tipo:                    k
+  nombrecampo:             rechazar1
+  html:                    ["size=3 onClick=verificar(this.id)"]
+  esgrabable:              true  
+3:       # Columna 3
+  titulo:                  Referencia
+  tipo:                    t
+  nombrecampo:             reqart
+  html:                    [size="10" ]
+  esgrabable:              true
+4:       # Columna 4
+  titulo:                  Descripcion
+  tipo:                    a
+  nombrecampo:             desreq
+  html:                    [size="40x2" ]
+  esgrabable:              false
+5:       # Columna 5
+  titulo:                  Fecha
+  tipo:                    f
+  nombrecampo:             fecreq
+  html:                    [size="10"]
+  esgrabable:              false
+6:       # Columna 6
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monreq
+  html:                    [size="10" ]
+  esgrabable:              false
+7:       # Columna 7
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monreq2
+  html:                    [size="10" ]
+  esgrabable:              false  
+  oculta:              true

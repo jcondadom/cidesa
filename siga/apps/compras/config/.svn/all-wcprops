@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repositorio/!svn/ver/49002/web/php/siga/branches/productions/trunk/apps/compras/config
+END
+factories.yml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/compras/config/factories.yml
+END
+i18n.yml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/compras/config/i18n.yml
+END
+app.yml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/compras/config/app.yml
+END
+settings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/47495/web/php/siga/branches/productions/trunk/apps/compras/config/settings.yml
+END
+cache.yml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/compras/config/cache.yml
+END
+config_handlers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/compras/config/config_handlers.yml
+END
+logging.yml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/compras/config/logging.yml
+END
+ayuda_compras.yml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/compras/config/ayuda_compras.yml
+END
+routing.yml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/compras/config/routing.yml
+END
+security.yml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/compras/config/security.yml
+END
+filters.yml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/compras/config/filters.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/49002/web/php/siga/branches/productions/trunk/apps/compras/config/view.yml
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/compras/config/config.php
+END

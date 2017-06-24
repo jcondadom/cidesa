@@ -1,0 +1,13 @@
+====== Operación Incluir ======
+
+Para **Registrar** la Asignación de Trabajadores para Prestaciones por Contrato Colectivo:<html><br><br></html>
+
+  * Seleccione el Código del Tipo de Contrato Colectivo.<html><br><br></html>
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasidetraparapreporconcolinc1.jpg|}}"></div><br></html>
+
+  * El sistema automáticamente muestra el Código y Nombre del Empleado, la Fecha de Inicio, el Código y el Nombre de la Nómina.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasidetraparapreporconcolinc2.jpg|}}"></div><br><br></html>
+
+  * Presione el Botón <html>&nbsp;&nbsp;</html>{{:btnguardar.jpg|}} para almacenar la información.

@@ -1,0 +1,17 @@
+methods:
+  post:
+   - "nptabsfn{codcon}"
+
+names:
+  nptabsfn{codcon}:
+    required:  Yes
+    required_msg: El Código del Concepto no puedo estar en Blanco.
+    validators: ConceptoValidator 
+
+
+ConceptoValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Npdefcpt
+        column:   codcon
+        unique_error:   El Código del Concepto no existe.

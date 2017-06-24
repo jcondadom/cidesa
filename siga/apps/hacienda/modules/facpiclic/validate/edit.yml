@@ -1,0 +1,43 @@
+methods:
+  post:
+   - "fcsollic{numsol}"
+   - "fcsollic{numlic}"
+   - "fcsollic{funres}"
+   - "fcsollic{fecsol}"
+   - "fcsollic{fecapr}"
+   - "fcsollic{fecven}"
+
+names:
+  fcsollic{numsol}:
+    required:  Yes
+    required_msg: El Número de Solicitud no puede estar en Blanco
+
+  fcsollic{numlic}:
+    required:  Yes
+    required_msg: El Número de Licencia no puede estar en Blanco
+
+  fcsollic{funres}:
+    required:  Yes
+    required_msg: El Funcionario no puede estar en Blanco
+
+  fcsollic{fecsol}:
+    required:  Yes
+    required_msg: La Fecha de la Solicitud no puede estar en Blanco
+    validators: Fecha2Validator
+
+  fcsollic{fecapr}:
+    required:  Yes
+    required_msg: La Fecha de la Aprobacion no puede estar en Blanco
+    validators: Fecha2Validator
+
+  fcsollic{fecven}:
+    required:  Yes
+    required_msg: La Fecha del Vencimiento no puede estar en Blanco
+    validators: Fecha2Validator
+
+Fecha2Validator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha introducida es invalida

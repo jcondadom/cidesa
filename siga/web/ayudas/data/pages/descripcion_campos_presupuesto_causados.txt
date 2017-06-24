@@ -1,0 +1,13 @@
+====== Descripción de Campos ======
+
+  * Ingresar el **Tipo de Documento** <html><br><br></html>
+
+  * Asignar el **Nombre Extendido** y **Abreviado** que identificará al Causado.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprecauinc1.jpg|}}"></div><br></html>
+
+  * Se debe indicar si el documento **refiere** a un precompromiso, a un compromiso o si no refiere a ninguno y si **afecta** o no el monto del precompromiso, del compromiso, del causado o de la disponibilidad.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprecauinc2.jpg|}}"></div><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Causados** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

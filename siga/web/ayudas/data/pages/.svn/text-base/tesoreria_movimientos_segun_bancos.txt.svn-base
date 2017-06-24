@@ -1,0 +1,16 @@
+======Movimientos Según Bancos======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite registrar los movimientos de los Estados de Cuenta enviados por los Bancos, para efectos de la ejecución automática de la Conciliación Bancaria, los cuales deben registrarse al final de cada mes. El módulo generará un estado de Cuenta del Banco.
+
+**Para ello:**
+
+  * Seleccione la opción **Tesorería ó Banco** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesban.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Banco** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbanc.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Movimienos según Bancos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbancmovsegban.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Movimientos según Bancos** veamos la [[Descripcion_Campos_movimientos_segun_bancos|Descripción de los Campos]]

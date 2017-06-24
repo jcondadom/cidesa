@@ -1,0 +1,69 @@
+methods:
+  post:
+   - "fcparroq{codpai}"
+   - "fcparroq{codedo}"
+   - "fcparroq{codmun}"
+   - "fcparroq{codpar}"
+   - "fcparroq{nompar}"
+
+names:
+  fcparroq{codpai}:
+    required:  Yes
+    required_msg: El CÃ³digo del PaÃ­s no puede estar en Blanco
+    validators: CorrelValidator, Validator_codpai
+
+  fcparroq{codedo}:
+    required:  Yes
+    required_msg: El CÃ³digo del Estado no puede estar en Blanco
+    validators: CorrelValidator, Validator_codedo
+
+  fcparroq{codmun}:
+    required:  Yes
+    required_msg: El CÃ³digo del Municipio no puede estar en Blanco
+    validators: CorrelValidator, Validator_codmun
+
+  fcparroq{codpar}:
+    required:  Yes
+    required_msg: El CÃ³digo no puede estar en Blanco
+    validators: CorrelValidator
+
+  fcparroq{nompar}:
+    required:  Yes
+    required_msg: El Nombre no puede estar en Blanco
+    validators: Validator_nompar
+
+
+Validator_codpai:
+    class: CidesaExistValidator
+    param:
+        class:    Fcpais
+        column:   codpai
+        unique_error:  El PaÃ­s no Existe.
+
+Validator_codedo:
+    class: CidesaExistValidator
+    param:
+        class:    Fcestado
+        column:   codedo
+        unique_error:  El Estado no Existe.
+
+Validator_codmun:
+    class: CidesaExistValidator
+    param:
+        class:    Fcmunici
+        column:   codmun
+        unique_error:  El Municipio no Existe.
+
+Validator_nompar:
+    class: sfStringValidator
+    param:
+        min:       4
+        min_error: El Nombre no puede tener menos de 4 caracteres
+        max:       30
+        max_error: El Nombre no puede pasar mÃ¡s de 30 caracteres
+
+CorrelValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]
+        values_error: El CÃ³digo Respectivo solo puede contener valores nÃºmericos

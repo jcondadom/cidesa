@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45343/web/php/siga/branches/productions/trunk/apps/nomina/modules/presnomregsalint/templates
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/nomina/modules/presnomregsalint/templates/ajaxSuccess.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/45343/web/php/siga/branches/productions/trunk/apps/nomina/modules/presnomregsalint/templates/editSuccess.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/nomina/modules/presnomregsalint/templates/_edit_actions.php
+END
+listSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/nomina/modules/presnomregsalint/templates/listSuccess.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/nomina/modules/presnomregsalint/templates/_edit_form.php
+END

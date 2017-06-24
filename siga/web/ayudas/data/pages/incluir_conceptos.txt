@@ -1,0 +1,22 @@
+====== Incluir Registro ======
+
+Para Registrar un Concepto:
+
+  * Presionar el Botón Nuevo  {{:btnnuevo.jpg|}}  <html><br><br></html>
+
+   * Ingresar el **Código** que identifique al Concepto. <html><br><br></html>
+
+  * Ingresar la **Descripción** que haga referencia al Concepto.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefconinc.jpg|}}"></div><br></html>
+
+  * Seleccionar del catálogo el **Código de la Partida** a la cual se le asociará el concepto. <html><br><br></html>
+
+  * En **Operación Contable** definir si el concepto pertenece a una Asignación, Deducción ó Aporte Patronal.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefconinc1.jpg|}}"></div><br></html>
+
+  * Indicar “Sí o No” el Concepto va a estar **Activo**, va a **Inicializarce**, **Genera Orden de Pago**, **Es Imprimible**, **Acumula Histórico**, **Afecta Presupuesto**. <html><br><br></html>
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefconinc2.jpg|}}"></div><br></html>
+
+  * Una ves ingresados los datos por completo, presione el Botón {{:btnguardar.jpg|}}
+ 

@@ -1,0 +1,30 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcestinm
+    theme:            cidesaGenerator
+
+    fields:
+      codestinm:	{ name: Código, params: size=10 maxlength=6 onFocus=readonly(this.id) onBlur="this.value=this.value.pad(6, '0',0);"}
+      desestinm:	{ name: Descripcion, type: textarea_tag, params : size=60x5 maxlength=1000 onkeyup="ismaxlength(this)" }
+    list:
+      title:     Definición de Estado de Inmuebles
+      display:   [=codestinm, desestinm]
+      filters:   [codestinm, desestinm]
+      fields:
+        desestinm:
+          params: size=18
+      max_per_page: 10
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      sort:  codestinm
+    edit:
+      title:          Edición de Estado de Inmuebles
+      display:
+        "Datos Generales":   [codestinm, desestinm ]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

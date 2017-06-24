@@ -1,0 +1,36 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   faestven
+  anchogrid:               450
+  ancho:                   400
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Mes
+  tipo:                    t
+  nombrecampo:             mesest
+  esgrabable:              true
+  html:                    ["size=5 readonly=true"]
+2:       # Columna 2
+  titulo:                  Monto Estimado
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monest
+  esnumerico:              true
+  html:                    ["size=10"]
+3:       #columna 3
+  titulo:                  Monto Facturado
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monfac
+  esnumerico:              true
+  html:                    ["size=10"]
+4:       #columna 4
+  titulo:                  Diferencia
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             difer
+  esnumerico:              true
+  html:                    ["size=10 readonly=true"]

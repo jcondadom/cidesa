@@ -1,0 +1,41 @@
+methods:
+  post:
+   - "faembarca{codemb}"
+   - "faembarca{nomemb}"
+   - "faembarca{tipemb}"
+   - "faembarca{proemb}"
+   
+names:
+  faembarca{codemb}:
+    required:  Yes
+    required_msg: El Código de la Embarcación no puedo estar en Blanco
+    validators: Validator_codemb
+
+  faembarca{nomemb}:
+    required:  Yes
+    required_msg: El Nombre de la Embarcación no puedo estar en Blanco
+    validators: Validator_Nomemb
+
+  faembarca{tipemb}:
+    required:  Yes
+    required_msg: El Tipo de Embarcación no puedo estar en Blanco
+
+  faembarca{proemb}:
+    required:  Yes
+    required_msg: El Propietario de la Embarcación no puedo estar en Blanco
+
+
+Validator_codemb:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Faembarca
+        column:       codemb
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_Nomemb:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: El Nombre de la Embarcación no puede tener menos de 5 caracteres
+        max:       500
+        max_error: El Nombre de la Embarcación no puede pasar mas de 500 caracteres

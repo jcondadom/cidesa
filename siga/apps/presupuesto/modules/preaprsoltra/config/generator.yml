@@ -1,0 +1,52 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cpsoltrasla
+    theme:            cidesaGenerator
+    fields:
+      reftra: { name: Referencia, params: size=8 maxlength=8  onFocus=readonly(this.id)}
+      destra: { name: Descripción, type: textarea_tag, params: size=80x5 readonly=true  }
+      justificacion: { name: Justificación, type: textarea_tag, params: size=80x5 readonly=true }
+      fectra: { name: Fecha, params: date_format='dd/MM/yyyy' readonly=true }
+      codart:
+        name: Código Art/Ley
+        catalogo:
+          catalogoweb: Cpartley_Preartley
+          clase: Cpartley
+          ajax: 0
+          parametros: getprincipal="getCodart" getsecundario="getDesart" campoprincipal="codart" camposecundario="desart" campobase = "id"
+      criterio: { name: . }
+      detalle: { name: . }
+      tipgas: { name: Tipo Gasto}
+      tipo: { name: Motivo del Traspaso}
+      tottra: { name: Total Traslado, params: size=10 readonly=true }
+      diftra: { name: Diferencia en Montos, params: size = 10 readonly=true }
+      etiqueta: { name: . }
+      botones: { name: . }
+      totori: { name: . }
+      totdes: { name: . }
+      grid2: {name: . }
+      toteve: {name: Total Eventos, params: size=10 disabled=false readonly=true}
+      coddirec:
+        name: Dirección
+        params: size=3 maxlength=15
+        catalogo:
+          catalogoweb: Cadefdirec_Almdefdiv
+          clase: cadefdirec
+          ajax: 5
+          parametros: getprincipal="getCoddirec" getsecundario="getDesdirec" campoprincipal="coddirec" camposecundario="desdirec" campobase = "id"
+      btn: {name: . }
+    list:
+      title: Solicitudes de Traslado
+      display: [=reftra, fectra, destra ]
+      max_per_page:    10
+      filters: [reftra, fectra ]
+      sort:  reftra
+    edit:
+      title: Edición de Solicitud de Traslado
+      display:
+        Datos de la Solicitud de Traslado: [ _botones, _etiqueta, _btn, reftra, fectra, destra, justificacion, codart, _tipo, _tipgas, coddirec]
+        Distribución de Traslado: [_detalle, _grid2, diftra, tottra, toteve ]
+      hide:  [longitud, mascara, artStacon, artStapre, artStagob, artStaniv4, artStaniv5, artStaniv6, id, statra, pertra, actualfila]
+      actions:
+        _list:        NONE

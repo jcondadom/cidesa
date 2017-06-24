@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/50520/web/php/siga/branches/productions/trunk/plugins/sfApplyPlugin/modules/sfApply/templates
+END
+settingsSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfApplyPlugin/modules/sfApply/templates/settingsSuccess.php
+END
+resetSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfApplyPlugin/modules/sfApply/templates/resetSuccess.php
+END
+resetRequestAfter.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfApplyPlugin/modules/sfApply/templates/resetRequestAfter.php
+END
+sendValidateNew.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfApplyPlugin/modules/sfApply/templates/sendValidateNew.php
+END
+applySuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfApplyPlugin/modules/sfApply/templates/applySuccess.php
+END
+confirmInvalid.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfApplyPlugin/modules/sfApply/templates/confirmInvalid.php
+END
+resetAfter.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfApplyPlugin/modules/sfApply/templates/resetAfter.php
+END
+resetRequestSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfApplyPlugin/modules/sfApply/templates/resetRequestSuccess.php
+END
+confirmSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/50520/web/php/siga/branches/productions/trunk/plugins/sfApplyPlugin/modules/sfApply/templates/confirmSuccess.php
+END
+sendValidateReset.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfApplyPlugin/modules/sfApply/templates/sendValidateReset.php
+END
+applyAfter.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/50520/web/php/siga/branches/productions/trunk/plugins/sfApplyPlugin/modules/sfApply/templates/applyAfter.php
+END

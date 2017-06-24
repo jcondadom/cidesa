@@ -1,0 +1,10 @@
+====== Genstionaire des Config Texte: MimeTypes ======
+
+Utiliser cette page pour gerer la liste des MimeType de votre intallation de Dokuwiki.\\
+Cette liste est egalement utilise pour verifie si un type de fichier peut-etre telechanger dans le wiki ou non.
+Que sont les MimeType? Voir [[doku>wiki:mime]].
+
+Pour plus de details a propos de ce plugin, voir [[doku>plugin:txtconf]].
+
+Assurez-vous d'appuyer le bouton **Sauver** avant de quitter cette page, sinon vos modifications seront perdues.
+

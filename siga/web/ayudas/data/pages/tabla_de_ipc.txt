@@ -1,0 +1,19 @@
+====== Tabla de IPC ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Proceso en el que se especifican por cada mes del año en curso los porcentajes para el IPC (Indice de Precio al Consumidor) definidos por el Banco Central de Venezuela </html>
+
+**Para ello:**
+
+  * Seleccione la opción **Bienes Nacionales** ubicada en el Menú Principal de **SIGA**
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:bienac.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Contabilidad de Activos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biecontact.jpg|}}"></div><br></html>
+ 
+  * Por último seleccione **Tabla de IPC**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:bietabipc.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Tabla IPC** veamos la [[Descripcion_Campos_bienes_tabla_ipc|Descripción de los Campos]]
+
+

@@ -1,0 +1,32 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npgruemp
+    theme:            cidesaGenerator
+    fields:
+      codgru:
+        name: Grupo
+        params: maxlength=2
+        catalogo:
+          catalogoweb: Npgrupos_Nomasogruemp
+          clase: Npgrupos
+          ajax: 1
+          parametros: getprincipal="getCodgru" getsecundario="getDesgru" campoprincipal="codgru" camposecundario="desgru" campobase = "id"
+      codnom:
+        name: Nómina
+        params: maxlength=3
+        catalogo:
+          catalogoweb: Npnomina_nomdefespvar
+          clase: Npnomina
+          ajax: 2
+          parametros: getprincipal="getCodnom" getsecundario="getNomnom" campoprincipal="codnom" camposecundario="nomnom" campobase = "id"
+          divupdate: divgrid
+          ajaxparams: +'."'".'&grupo='."'+$('npgruemp_codgru').value".'
+      grid: { name: .}
+    edit:
+      title:          Asociación de Empleados a Grupos
+      display:
+        "Datos":  [codgru, codnom]
+        "Empleados": [_grid]
+      actions:
+        _save:        ~

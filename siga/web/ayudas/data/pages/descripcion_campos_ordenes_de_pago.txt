@@ -1,0 +1,103 @@
+===== Descripción de Campos =====
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Los campos que conforman la Orden de Pago están clasificados de la siguiente manera: En una sección llamada **Datos de la Orden** y en cuatro pestañas distintas: **Imputaciones Presupuestarias**, **Observaciones**, **Factura** y **SIGECOF**.  <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>La carga de cada uno de los datos correspondientes a la sección **Datos de la Orden** y la pestaña **Imputaciones Presupuestarias** se realiza de distintas formas dependiendo del Tipo de Orden de Pago que se esté registrando. Una Orden de Pago puede realizarse de la siguiente manera: <html><br><br></html>
+
+  * [[Orden de Pago Directa]]
+
+  * [[Orden de Pago que refiere a Compromiso]]
+
+  * [[Orden de Pago de Nómina]]
+
+  * [[Orden de Pago de Aportes]]
+
+  * [[Orden de Pago de Liquidación]]
+
+  * [[Orden de Pago de Fideicomiso]]
+
+  * [[Orden de Pago de Valuaciones]]
+
+  * [[ Orden de Pago de Extrapresupuesto]]  <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>En cuanto al resto de los campos que se encuentran en las pestañas: **Observaciones**, **Factura** y **SIGECOF** la carga de datos es igual para todas las distintas Ordenes de Pago. Los campos correspondientes a dichas pestañas son:
+ 
+<html><br><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanordpagordpagoinc2.jpg|}}"></div><br></html>
+
+   * En la pestaña **Observaciones** podrá colocar información adicional sobre la Orden de Pago en caso de que exista.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanordpagordpagoinc3.jpg|}}"></div><br></html>
+
+  * La pestaña **Factura** es aplicable únicamente para aquellos casos de **Retenciones de IVA**, **Impuesto sobre la Renta** y de **Timbre Fiscal** además de que **no ser utilizado** para aquellas **Ordenes de Pago de Extrapresupuesto**.En primer lugar debe presionar el Botón factura para que el sistema muestre en un [[Grid|Grid]] los campos correspondientes a la factura, los cuales son los siguientes:
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Fecha de la Factura:** Muestra la fecha de registro de la Orden de Pago seleccionada anteriormente.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Indique el **Nro. de Control** de la factura.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seguidamente al ingresar un **Número de Factura** automáticamente el sistema mostrará en **Tipo de Transacción** el número 1. En caso de que ingrese una **Nota de Débito** el Tipo de Transacción es el número 2 y si es una **Nota de Crédito** el Tipo de transacción sería el 3.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Anteriormente habíamos indicado que la Factura es aplicada a **Retenciones de IVA**, **Impuesto sobre la Renta** y **Timbre Fiscal** y para cada uno de ellos se cargan distintos campos del grid que dependen de ellos. La carga de datos según cada uno de ellos es la siguiente:
+
+**Si es una Retención de IVA:** 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seleccione el **Porcentaje de Alícuota**.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Ingrese el **Total Factura**.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** El sistema seguidamente calcula y muestra la **Base Imponible**, el **Impuesto** y el **IVA Retenido** en las columnas correspondientes. <html><br><br></html>
+
+**Si es un Timbre Fiscal:**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Selecciono el **1 x 100**, cuyo cálulo sería en base al Total de la Factura.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Luego el sistema calcula y muestra la **Base Imponible x 1000**, el **% 1xMil** y el **Monto 1xMil**.
+ 
+**Si es Impuesto sobre la Renta**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seleccione el **% de I.S.L.R**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Si desea aplicar I.S.L.R debe Seleccionar el recuadro que se encuentra en la columna I.S.L.R. 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** El sistema calcula la **Base Imponible** y el **Monto I.S.L.R**
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanordpagordpagoinc4.jpg|}}"></div><br></html>
+
+  * En la pestaña **SIGECOF** se especifica la integración con el Sistema de Gestión y Control de las Finanzas Públicas. Se especifica el **Número** según SIGECOF, la **Fecha** y el **Expediente**. <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Una vez definido todos los campos es necesario que se genere el Comprobante Contable, para ello: <html><br><br></html>
+
+  * Presione el Botón {{:btngenerarcompcont.jpg|}}
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanordpagordpagoinc9.jpg|}}"></div><br></html>
+
+  * Automáticamente el sistema genera y muestra el **Comprobante Contable** correspondiente a la Orden de Pago. Dicho Comprobante contempla los siguientes campos: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Número:** Refiere al código que identifica al comprobante contable.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Referencia:** Refiere al Número de Comprobante Contable (campo autogenerable).
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-Fecha** en la que se generó la Orden de Pago.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-Descripción** de la Orden de Pago.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seguidamente se muestra en el [[Grid|Grid]] llamado **Asientos Contables** el **Código** y **Descripción** de las **Cuentas Contables**, la **Referencia** (Número de la Cuenta Contable), la **Fecha** en la que se realizó la Orden de Pago y los Montos correspondientes a **Débito** y **Crédito** en las columnas correspondientes.<html><br><br></html>
+ 
+  * Una vez que conoce cada uno de los campos de la pantalla de **Ordenes de Pago** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]] <html><br><br></html>
+
+
+
+
+
+
+ 
+  
+
+
+
+
+ 
+ 
+
+
+
+

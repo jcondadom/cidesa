@@ -1,0 +1,37 @@
+methods:
+  post:
+   - "fcclaesp{codcla}"
+   - "fcclaesp{descla}"
+
+names:
+  fcclaesp{codcla}:
+    required:  Yes
+    required_msg: El Clasificador no puede estar en Blanco
+    validators: CorrelValidator, Validator_codcla
+
+  fcclaesp{descla}:
+    required:  Yes
+    required_msg: La Descripción del Clasificador no puede estar en Blanco
+    validators: Validator_descla
+
+
+Validator_codcla:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Fcclaesp
+        column:       codcla
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_descla:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La descripción no puede tener menos de 5 caracteres
+        max:       50
+        max_error: La descripción no puede pasar más de 50 caracteres
+
+CorrelValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]
+        values_error: El Clasificador solo puede contener valores nÃºmericos

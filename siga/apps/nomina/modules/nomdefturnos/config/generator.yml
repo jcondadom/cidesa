@@ -1,0 +1,30 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npturnos
+    theme:            cidesaGenerator
+    fields:
+      codtur: { name: Código, params : size=5 maxlength=2  onFocus=readonly(this.id) onBlur="this.value=this.value.pad(2, '0',0);"  }
+      destur: { name: Descripción, params : size=80 maxlength=500}
+      grid: { name: .}
+    list:
+      title:          Definiciones de Turnos
+      filters:        [codtur, destur]
+      display:        [=codtur, destur]
+      fields:
+        codtur: { name: Código, params : size=5 maxlength=3 }
+        destur: { name: Descripción, params : size=20 maxlength=500}
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codtur
+    edit:
+      title:          Edición  de Turnos
+      display:
+        "Datos del Turno":   [codtur, destur, _grid]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

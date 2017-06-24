@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repositorio/!svn/ver/35158/web/php/siga/branches/productions/trunk/data/updates
+END
+aso-triggers.sql
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/35158/web/php/siga/branches/productions/trunk/data/updates/aso-triggers.sql
+END
+funciones.sql
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/35158/web/php/siga/branches/productions/trunk/data/updates/funciones.sql
+END
+vistas.sql
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repositorio/!svn/ver/35158/web/php/siga/branches/productions/trunk/data/updates/vistas.sql
+END
+crea-triggers.sql
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/35158/web/php/siga/branches/productions/trunk/data/updates/crea-triggers.sql
+END

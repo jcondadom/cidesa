@@ -1,0 +1,28 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cadefgar
+    theme:            cidesaGenerator
+    fields:
+      codgar: { name: Código, params: size=10 maxlength=3 onFocus=readonly(this.id) onBlur="this.value=this.value.pad(3, '0',0);"}
+      desgar: { name: Descripción, params: size=80 maxlength=100  }      
+    list:
+      title:          Garantías
+      fields:
+        codgar: { name: Código, params: size=10 maxlength=3 }
+        desgar: { name: Descripción, params: size=20 maxlength=100  }
+      filters:        [codgar, desgar]
+      display:        [=codgar, desgar]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:  8
+      sort: codgar
+    edit:
+      title:          Edición de Garantía
+      display:        [codgar, desgar]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

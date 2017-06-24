@@ -1,0 +1,14 @@
+methods:
+  post:
+
+   - "catman{nomman}"
+   - "catman{coddivgeo}"
+names:
+
+  catman{nomman}:
+    required:  Yes
+    required_msg: La Manzana no puede estar en Blanco
+
+  catman{coddivgeo}:
+    required:  Yes
+    required_msg: El CÃ³digo no puede estar en Blanco

@@ -1,0 +1,53 @@
+methods:
+  post:
+   - "litipadd{codtipadd}"
+   - "litipadd{nomtipadd}"
+   - "litipadd{dettipadd}"
+
+names:
+  litipadd{codtipadd}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codtipadd, Validator_codtipadd_string
+
+  litipadd{nomtipadd}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_nomtipadd
+
+  litipadd{dettipadd}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_dettipadd
+
+
+Validator_codtipadd:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Litipadd
+        column:       codtipadd
+        unique_error: El código de tipo de adda ya existe, intente con otro
+
+Validator_codtipadd_string:
+    class: sfStringValidator
+    param:
+        min:       1
+        min_error: La descripción no puede tener menos de 1 caradderes
+        max:       8
+        max_error: La descripción no puede pasar mas de 8 caradderes
+
+Validator_nomtipadd:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caradderes
+        max:       100
+        max_error: La descripción no puede pasar mas de 100 caradderes
+
+Validator_dettipadd:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caradderes
+        max:       10000
+        max_error: La descripción no puede pasar mas de 10000 caradderes

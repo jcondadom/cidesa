@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/tasks
+END
+sfPakeTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/tasks/sfPakeTest.php
+END
+sfPakePlugins.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/tasks/sfPakePlugins.php
+END
+sfPakePropel.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/tasks/sfPakePropel.php
+END
+sfPakePropelAdminGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/tasks/sfPakePropelAdminGenerator.php
+END
+sfPakeEnvironment.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/tasks/sfPakeEnvironment.php
+END
+sfPakeSymfony.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/tasks/sfPakeSymfony.php
+END
+sfPakeGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/tasks/sfPakeGenerator.php
+END
+sfPakePropelCrudGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/tasks/sfPakePropelCrudGenerator.php
+END
+sfPakeUpgrade.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/tasks/sfPakeUpgrade.php
+END
+sfPakeBase.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/tasks/sfPakeBase.php
+END
+sfPakeMisc.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/tasks/sfPakeMisc.php
+END

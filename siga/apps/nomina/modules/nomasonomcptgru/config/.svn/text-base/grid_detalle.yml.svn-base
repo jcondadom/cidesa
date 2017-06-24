@@ -1,0 +1,34 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   Npasonomcptgru
+  anchogrid:               800
+  ancho:                   700
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Nómina
+  tipo:                    t
+  nombrecampo:             codnom
+  html:                    ["size=10 maxlength=3"]
+  esgrabable:              true
+  catalogo:                [npnomina, sf_admin_edit_form, {Codnom: 1, Nomnom: 2}, Npnomina_nomdefespvar ]
+  ajaxgrid:                true
+2:       # Columna 2
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nomnom
+  html:                    ["size=30 readOnly=true"]  
+3:       # Columna 3
+  titulo:                  Concepto
+  tipo:                    t
+  nombrecampo:             codcon
+  html:                    ["size=10 maxlength=3"]
+  esgrabable:              true
+  ajaxgrid:                true
+4:       # Columna 4
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nomcon
+  html:                    ["size=30 readOnly=true"]

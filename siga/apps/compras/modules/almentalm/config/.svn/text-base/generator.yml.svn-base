@@ -1,0 +1,40 @@
+generator:
+  class:              sfPropelAdminGenerator
+  param:
+    model_class:      Caentalm
+    theme:            default
+    fields:
+      rcpart:  {  name: Número }
+      codalm:  {  name: Código Almacen }
+      codpro:  {  name: Cód. Contratistas de Bienes o Servicio y Cooperativas }
+      rifpro:  {  name: RIF Contratistas de Bienes o Servicio y Cooperativas }
+      desrcp:  {  name: Descripción }
+      tipmov:  {  name: Tipo Movimiento }
+      fecrcp:  {  name: Fecha, params: date_format='dd/MM/yyyy' }
+      monrcp:  {  name: Monto Total}
+      codubi:      { name: Código de la Ubicación}
+      codcen: { name : Centro de Costo}
+      codsada: { name : Código SADA}
+      nroentdes: { name : N° de Nota de Entrega/Despacho}
+      nrocarveh: { name : N° de Orden de Carga Vehicular}
+      nrocontro: { name : N° de Control}
+      coddirec: { name: Dirección}
+      observ:      { name: Observaciones, type: textarea_tag, params: size=60x5 maxlength=1000 onkeyup="ismaxlength(this)}
+      nrocon: { name : N° de Contenedor}
+    list:
+      title:   Entradas en el Almacen
+      display:        [=rcpart, desrcp, monrcp, fecrcp]
+      filters: [rcpart, rifpro, fecrcp, desrcp, codcen, descen, codpro, nompro, codalm, nomalm, codedo, nomedo, codsada]
+      object_actions:
+        _edit:        ~
+        _delete:      NONE
+      max_per_page:   10
+      sort:    rcpart
+    edit:
+      title:   Entradas en el Almacen
+      display:        [=rcpart, codalm, codpro, rifpro, desrcp, monrcp, tipmov, fecrcp, codubi, codcen, codsada, nroentdes, nrocarveh, nrocontro, coddirec, observ, nrocon]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

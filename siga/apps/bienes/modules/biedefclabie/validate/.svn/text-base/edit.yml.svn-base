@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "bnclabie{codcla}"
+   - "bnclabie{descla}"
+
+names:
+  bnclabie{codcla}:
+    required:  Yes
+    required_msg: El Código de la Clase del Bien no puede estar en Blanco
+    validators: UniqueValidator
+
+  bnclabie{descla}:
+    required:  Yes
+    required_msg: El Código de la Clase del Bien no puede estar en Blanco
+    validators: DescripcionValidator
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Bnclabie
+        column:   codcla
+        unique_error:   El Código de la Clase del Bien ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción de la Clase del Bien no puede tener menos de 5 caracteres
+        max:       500
+        max_error: La Descripción de la Clase del Bien no puede tener más de 500 caracteres 

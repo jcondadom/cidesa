@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/58436/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesaprord/templates
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/58436/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesaprord/templates/ajaxSuccess.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/34271/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesaprord/templates/editSuccess.php
+END
+_btnbuscar.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/58436/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesaprord/templates/_btnbuscar.php
+END
+_numord.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/58436/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesaprord/templates/_numord.php
+END
+_grid.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/52244/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesaprord/templates/_grid.php
+END

@@ -1,0 +1,16 @@
+====== Operación Eliminar ======
+
+Para **Eliminar** un determinado Tipo de Asignación:  <html><br><br></html>
+
+  * Seleccionar de la **Lista** el **Tipo de Contrato** para el cual desea eliminar las Asignaciones.
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperregtipasimod1.jpg|}}"></div><br></html>
+
+  * Presionar  {{:btnborrar.jpg|}}  <html><br><br></html>
+
+  * El sistema emite un **Mensaje de Confirmación** antes de eliminar.  
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br></html>
+ 
+  * Presionar **Aceptar**.   <html><br><br></html>
+ 
+  * El sistema nos lleva automáticamente a la **lista** con todos los Tipos de Contratos Colectivos que posee Registro de Asignaciones.

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/platform
+END
+DefaultPlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/platform/DefaultPlatform.php
+END
+MysqlPlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/platform/MysqlPlatform.php
+END
+OraclePlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/platform/OraclePlatform.php
+END
+PgsqlPlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/platform/PgsqlPlatform.php
+END
+MysqliPlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/platform/MysqliPlatform.php
+END
+MssqlPlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/platform/MssqlPlatform.php
+END
+Platform.php
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/platform/Platform.php
+END
+SqlitePlatform.php
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/platform/SqlitePlatform.php
+END

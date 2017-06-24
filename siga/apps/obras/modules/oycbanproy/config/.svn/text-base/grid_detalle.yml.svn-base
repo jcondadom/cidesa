@@ -1,0 +1,48 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   ocdetpro
+  anchogrid:               900
+  ancho:                   850
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Partida
+  tipo:                    t
+  nombrecampo:             codpar
+  html:                    ["size=32 maxlength=32 onBlur='toAjax(1,getUrlModuloAjax(),this.value,0,'&cajtexmos='+$(this.id).up().next(0).descendants()[0].id+'&unidad='+$(this.id).up().next(1).descendants()[0].id+'&costo='+$(this.id).up().next(3).descendants()[0].id+'&cajtexcom='+this.id)'"]
+  esgrabable:              true
+  catalogo:                [ocdefpar, sf_admin_edit_form, {Codpar: 1, Despar: 2, Coduni: 3, Cosuni: 5}, Ocdefpar_Oycdefemp ]
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             despar
+  html:                    ["size=30 readOnly=true"]
+3:       # Columna 3
+  titulo:                  Unidad de Medida
+  tipo:                    t
+  nombrecampo:             coduni
+  html:                    ["size=10 readOnly=true"]
+  esgrabable:              true
+4:       # Columna 4
+  titulo:                  Cantidad
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canobr
+  esnumerico:              true
+  html:                    ["size=10 onBlur='ValidarMontoGridv2(this); CalcularCantidad(this.id)'"]
+5:       # Columna 5
+  titulo:                  Costo
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             cosuni
+  esnumerico:              true
+  html:                    ["size=10 onBlur='ValidarMontoGridv2(this); CalcularTotal(this.id)'"]
+6:       # Columna 6
+  titulo:                  Monto Presupuestado
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             montot1
+  esnumerico:              true
+  html:                    ["size=10 readOnly=true"]

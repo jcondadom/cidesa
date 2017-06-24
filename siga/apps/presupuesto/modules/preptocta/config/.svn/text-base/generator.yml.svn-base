@@ -1,0 +1,56 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cpptocta
+    theme:            cidesaGenerator
+    fields:
+      numpta: { name: N° Punto de Cuenta, params: size=20 maxlength=20 onFocus=readonly(this.id)}
+      fecpta: { name: Fecha, params: size=10 date_format='dd/MM/yyyy' maxlength=10}
+      codubiori:
+        name: Unidad Origen
+        params: maxlength=30
+        catalogo:
+          catalogoweb: Bnubica_Pagemiord
+          clase: Bnubica
+          ajax: 1
+          parametros: getprincipal="getCodubiori" getsecundario="getDesubiori" campoprincipal="codubiori" camposecundario="desubiori" campobase = "id"
+      codubides:
+        name: Unidad Destino
+        params: maxlength=30
+        catalogo:
+          catalogoweb: Bnubica_Pagemiord
+          clase: Bnubica
+          ajax: 2
+          parametros: getprincipal="getCodubides" getsecundario="getDesubides" campoprincipal="codubides" camposecundario="desubides" campobase = "id"
+      asunto: { name: Asunto, type: textarea_tag, params: size=80x5 maxlength=2000 onkeyup="javascript:return ismaxlength(this)"}
+      motivo: { name: Exposición de Motivos, type: textarea_tag, params: size=80x5 maxlength=10000 onkeyup="javascript:return ismaxlength(this)"}
+      reccon: { name: Recomendaciones/Conclusiones, type: textarea_tag, params: size=80x5 maxlength=2000 onkeyup="javascript:return ismaxlength(this)"}
+      js: { name: .}
+      grid: {name: . }
+      coddirec:
+        name: Dirección
+        params: size=3 maxlength=15
+        catalogo:
+          catalogoweb: Cadefdirec_Almdefdiv
+          clase: cadefdirec
+          ajax: 3
+          parametros: getprincipal="getCoddirec" getsecundario="getDesdirec" campoprincipal="coddirec" camposecundario="desdirec" campobase = "id"
+    list:
+      title:          Punto de Cuenta
+      display:        [=numpta, fecpta]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [numpta, fecpta, codubiori, codubides]
+      max_per_page:   10
+      sort:           numpta
+    edit:
+      title:          Edición de Punto de Cuenta
+      display:
+        "Datos": [_js, numpta, fecpta, codubiori, codubides, asunto, motivo, reccon, coddirec]
+        "Imputaciones Presupuestarias": [_grid]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

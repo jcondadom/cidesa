@@ -1,0 +1,77 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcdeclar
+    theme:            cidesaGenerator
+
+    fields:
+      numdec:
+        name: Número de Declaración
+        params: size=20 maxlength=10 onblur=completarCodigo(this,10)
+      numref:
+        name: Número de Inscripción
+        #catalogo:
+         # catalogoweb: Facinmdec_Fcreginm
+          #clase: Fcreginm
+          #ajax: 1
+          #parametros: getprincipal="getNroinm" getsecundario="getDircon" campoprincipal="numref" camposecundario="dircon" campobase = "id"
+          #divupdate: divgrid
+
+      fecdec:     { name: Fecha Dec., params: size=10 maxlength=10 date_format='dd/mm/yyyy'}
+      fundec:     { name: Funcionario Receptor, params: size=40 maxlength=60 }
+      rifcon:     { name: C.I. / RIF., params: size=22 maxlength=20 }
+      nomcon:     { name: Nombre, params: size=60 maxlength=255 }
+      dircon:     { name: Dirección, params: size=80 maxlength=255 readOnly=false}
+      naccon:  { name: Nacionalidad,  params: size=80 maxlength=255 readonly=false }
+      tipcon:  { name: Tipo de Persona, params: size=80 maxlength=255 readonly=false }
+      rifrepcon:   { name: C.I. / RIF. Representante, params: size=22 maxlength=20 }
+      nomconrep:  { name: Nombre, params: size=80 maxlength=255 readonly=false }
+      dirconrep:  { name: Dirección, params: size=80 maxlength=255 readonly=false readOnly=true }
+      nacconrep:  { name: Nacionalidad,  params: size=80 maxlength=255 readonly=false }
+      tipconrep:  { name: Tipo de Persona,  params: size=80 maxlength=255 readonly=false }
+      codcatinm:  { name: Catastro con Fines Fiscales, params: size=32 maxlength=30 }
+      coduso:    	{ name: Código Uso de Inmueble,  params: size=50 maxlength=250 }
+      codsitinm:  { name: Código Situación Jurídica}
+      codcarinm:  { name: Característica}
+      mtrter:     { name: Terreno M2}
+      bster:      { name: Bs.}
+      mtrcon:     { name: Construcción M2}
+      bscon:      { name: Bs.}
+      feccal:     { name: Fecha Último Pago, params: size=10 maxlength=10 date_format='dd/mm/yyyy'}
+      fecreg:     { name: Fecha Último Calculo, params: size=10 maxlength=10 date_format='dd/mm/yyyy'}
+      griddeuda:  { name: . }
+      grid:       { name: . }
+      fecini:     { name: Inicio del Periodo, params: size=10 maxlength=10 date_format='dd/mm/yyyy'}
+      fecfin:     { name: Fin del Periodo, params: size=10 maxlength=10 date_format='dd/mm/yyyy'}    
+      exipaguni:  { name: Exigir Pago Único }
+      fueing:     { name: Fuente de ingreso}
+      edodec:     { name: Estado}
+      numero:     { name: Número}
+      fecven:     { name: Fecha de vencimiento,  params: size=10 maxlength=10 date_format='dd/mm/yyyy'}
+      totdeu:      { name: Total de la Deuda}
+    list:
+      title:     Declaración de Inmuebles Urbanos
+      display:        [=numdec, fecdec, numref]
+      filters:        [numdec, fecdec, numref, rifcon]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+
+
+    edit:
+      title:         Declaración de Inmuebles Urbanos
+      display:
+        "Datos de Licencia":  [ numdec,  _numref, fecdec, fundec]
+        "Datos Contribuyentes":  [ _rifcon, dircon, _nacconcon, _tipconcon ]
+        "Datos del Representante Legal":  [ _rifrepcon, dirconrep, _nacconrep, _tipconrep ]
+        "Catastro/Uso Inmueble":  [ codcatinm, coduso, _grid ]
+        "Datos del Inmueble":  [ codsitinm, codcarinm, mtrter, bster, mtrcon, bscon, _feccal, _fecreg ]
+        "Inf. de Declaracion":  [ _exipaguni, fecini, _fecfin ]
+        "Distribución de la deuda":  [totdeu, _griddeuda]
+      hide: [ fuentef ]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

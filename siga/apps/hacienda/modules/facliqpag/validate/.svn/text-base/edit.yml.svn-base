@@ -1,0 +1,35 @@
+methods:
+  post:
+   - "fcliqpag{numliq}"
+   - "fcliqpag{fecliq}"
+   - "fcliqpag{ctaban}"
+   - "fcliqpag{nrodep}"
+
+names:
+  fcliqpag{numliq}:
+    required:  Yes
+    required_msg: El Número de Liquidación es un campo requerido
+
+    
+  fcliqpag{fecliq}:
+    required:  Yes
+    required_msg: La Fechga de Liquidación es un campo requerido
+    validators: Fecha2Validator
+
+  fcliqpag{ctaban}:
+    required:  Yes
+    required_msg: La Cuenta Bancaria es un campo requerido
+
+  fcliqpag{nrodep}:
+    required:  Yes
+    required_msg: El Número de Deposito es un campo requerido
+
+
+
+Fecha2Validator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+

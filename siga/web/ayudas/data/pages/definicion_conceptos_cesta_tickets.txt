@@ -1,0 +1,16 @@
+====== Definición de Concepto de Cesta Tickets======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite definir el Concepto de Cesta Ticket asociado a una determinada tipo de nómina y para ese concepto se define el valor del ticket y datos necesarios para su cálculo. </html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el **Menú Principal** de **SIGA**.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Definición de Concepto de Cesta Tickets**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefconcesttick.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Definición de Concepto de Cesta Tickets** veamos la [[Descripcion_Campos_Definición_Concepto_Cesta_Tickets|Descripción de los Campos]]

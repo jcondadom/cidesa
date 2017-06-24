@@ -1,0 +1,38 @@
+====== Títulos Presupuestarios ======
+
+  * Los Códigos Presupuestarios deben ser incluidos de acuerdo a su jerarquía y deben llegar al último nivel; de no existir un determinado nivel debe ser rellenado con un cero.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpretitpreinc1.jpg|}}"></div><br></html>
+
+  * Los Títulos Presupuestarios, se pueden crear en cualquier momento del Ejercicio; aquellos que sean de último nivel se les asigna una cuenta contable.<html><br><br></html>
+
+<html><b>Ejemplo:</b>  <br><br></html>
+ 
+<html>PR-AC-PAR-GE-ES-SE <br><br>
+
+Donde: <br><br>
+
+	PR: &nbsp;&nbsp;Proyecto <br>
+	AC: &nbsp;&nbsp;Actividad  <br>
+	PAR:&nbsp;&nbsp;Partida   <br>
+	GE: &nbsp;&nbsp;Genérica   <br>
+	ES: &nbsp;&nbsp;Especifica   <br>
+	SE: &nbsp;&nbsp;Sub especifica   <br><br>
+
+
+01                   &nbsp;&nbsp;&nbsp;Programa central de apoyo  <br>
+01-01	             &nbsp;&nbsp;&nbsp;Dirección y coordinación superior  <br>
+01-01-401            &nbsp;&nbsp;&nbsp;Gasto de Personal  <br>
+01-01-401-01         &nbsp;&nbsp;&nbsp;Sueldos, Salarios y Otras Retribuciones  <br>
+01-01-401-01-01      &nbsp;&nbsp;&nbsp;Sueldos básicos personal fijo a tiempo completo<br>                                  
+01-01-401-01-01-00   &nbsp;&nbsp;&nbsp;Sueldos básicos personal fijo a tiempo completo<br><br>
+
+En esta parte es donde sucede la <b>Integración con Contabilidad</b>.<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> ¿Cómo se integra con el Sub-Sistema de Contabilidad Financiera?</b> <br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En Datos Contables se le asocia a cada código presupuestario de último nivel una cuenta contable. La mayoría de las veces la asociación se da entre gastos y gastos, sin embargo existen excepciones como por ejemplo, a una cuenta 4-04 se le puede asociar una cuenta de activo o a una cuenta 4-11 se le asocian cuentas de pasivo.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpretitpreinc2.jpg|}}"></div><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Títulos Presupuestarios** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

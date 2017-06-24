@@ -1,0 +1,87 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   viasoltraterre
+  anchogrid:               900
+  ancho:                   870
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 2
+  titulo:                  Aprobar
+  tipo:                    k
+  nombrecampo:             check2
+  esgrabable:              true  
+  html:                    [ size=4 onClick=verificar(this.id) ]
+2:       # Columna 2
+  titulo:                  DesAprobar
+  tipo:                    k
+  nombrecampo:             check3
+  esgrabable:              true  
+  html:                    [ size=4 onClick=verificar(this.id)]  
+3:       # Columna 3
+  titulo:                  Nro. Solicitud
+  tipo:                    t
+  nombrecampo:             numsol
+  esgrabable:              true
+  html:                    [ readonly=true size=15]
+4:       # Columna 4
+  titulo:                  Fecha Solicitud
+  tipo:                    t
+  nombrecampo:             fecsol
+  esgrabable:              true
+  html:                    [ readonly=true size=10]
+5:       # Columna 5
+  titulo:                  Dirección
+  tipo:                    t
+  nombrecampo:             desdirec
+  esgrabable:              true
+  html:                    [ readonly=true size=15]
+6:       # Columna 6
+  titulo:                  Evento
+  tipo:                    t
+  nombrecampo:             deseve
+  esgrabable:              true
+  html:                    [ readonly=true size=15]
+7:       # Columna 7
+  titulo:                  Unidad Solicitante
+  tipo:                    t
+  nombrecampo:             desniv
+  esgrabable:              true
+  html:                    [ readonly=true size=20]
+8:       # Columna 8
+  titulo:                  Usuario
+  tipo:                    t
+  nombrecampo:             usuario
+  esgrabable:              true
+  html:                    [ readonly=true size=30]
+9:       # Columna 9
+  titulo:                  Tipo de Servicio
+  tipo:                    t
+  nombrecampo:             tipserv
+  esgrabable:              true
+  html:                    [ readonly=true size=15]
+10:       # Columna 10
+  titulo:                  Cant. Vehiculo
+  tipo:                    t
+  nombrecampo:             canvehi
+  esgrabable:              true
+  html:                    [ readonly=true size=10]
+11:       # Columna 11
+  titulo:                  Tipo de Vehiculo
+  tipo:                    t
+  nombrecampo:             tipvehi
+  esgrabable:              true
+  html:                    [ readonly=true size=15]  
+12:       # Columna 12
+  titulo:                  Cant. Días
+  tipo:                    t
+  nombrecampo:             candias
+  esgrabable:              true
+  html:                    [ readonly=true size=10]  
+13:       # Columna 13
+  titulo:                  Cant. Pasajeros
+  tipo:                    t
+  nombrecampo:             canpasaj
+  esgrabable:              true
+  html:                    [ readonly=true size=10]   

@@ -1,0 +1,33 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npjortur
+    theme:            cidesaGenerator
+    fields:
+      codjor: { name: Código, params : size=5 maxlength=2  onFocus=readonly(this.id) onBlur="this.value=this.value.pad(2, '0',0);"  }
+      desjor: { name: Descripción, params : size=80 maxlength=500}
+      horini: { name: Hora Inicio (HH:MM), params : size=15 maxlength=8}
+      horfin: { name: Hora Fin (HH:MM), params : size=15 maxlength=8 }
+      numhor: { name: Total Horas, params : size=10 }
+      jorlab: { name: Laborable}
+    list:
+      title:          Definiciones de Jornadas de Turnos
+      filters:        [codjor, desjor]
+      display:        [=codjor, desjor]
+      fields:
+        codjor: { name: Código, params : size=5 maxlength=2}
+        desjor: { name: Descripción, params : size=20 maxlength=500}
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codjor
+    edit:
+      title:          Edición  de Jornadas de Turnos
+      display:
+        "Datos de la Jornada":   [codjor, desjor, _horini, _horfin, numhor, _jorlab]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

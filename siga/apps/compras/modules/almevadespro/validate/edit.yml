@@ -1,0 +1,34 @@
+methods:
+  post:
+   - "caevadespro{codeva}"
+   - "caevadespro{rifpro}"
+   - "caevadespro{clapro}"
+
+names:
+  caevadespro{codeva}:
+    required:  Yes
+    required_msg: El código de la Evaluación y Desempeño no puede estar en Blanco
+    validators: Validator_codeva
+
+  caevadespro{rifpro}:
+    required:  Yes
+    required_msg: El Rif del Proveedor no puede estar en Blanco
+    validators: ExistValidator
+
+  caevadespro{clapro}:
+    required:  Yes
+    required_msg: La Clasificación del Proveedor no puede estar en Blanco
+
+Validator_codeva:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Caevadespro
+        column:       codeva
+        unique_error: El código de la Evaluación y Desempeño ya Existe intente con otro.
+
+ExistValidator:
+    class: CidesaExistValidator
+    param:
+        class:        Caprovee
+        column:       rifpro
+        unique_error: El Rif del Proveedor debe Existir.

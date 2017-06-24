@@ -1,0 +1,34 @@
+====== Contabilidad Financiera ======
+
+Las opciones que conforman el Menú de Contabilidad Financiera son las siguientes:
+
+===== Definiciones =====
+
+  *  [[Definiciones Específicas de Institución|Definiciones Específicas de Institución]] 
+
+  *  [[Catálogo de Cuentas|Catálogo de Cuentas]]
+
+  *  [[Tipos de Cuentas|Tipos de Cuentas]]
+
+  *  [[Comprobantes Contables|Comprobantes]]
+
+  *  [[Actualizar Comprobantes|Actualizar Comprobantes]]
+
+  *  [[Cierre de Período|Cierre de Período]]
+
+  *  [[Cierre de Ejercicio|Cierre de Ejercicio]]
+
+===== Mantenimiento Específico =====
+
+   *  [[Eliminar Comprobantes Anulados|Eliminar Comprobantes Anulados]]
+
+   *  [[Cerrar Etapa de Definición|Cerrar Etapa de Definición]] <html><br><br></html>
+
+
+
+
+
+
+
+
+

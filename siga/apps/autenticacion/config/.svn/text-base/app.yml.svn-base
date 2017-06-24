@@ -1,0 +1,51 @@
+all:
+   .apps:
+     autenticacion:    autenticacion
+     max_per_page:     15
+     contabilidadpresupuesto: /home/desarrollo01/www/siga_cp/
+     reportes:         /home/desarrollo01/www/siga_reportes/
+     reportes_web:                     reportes/reportes
+     this: autenticacion
+     configemp:
+      aplicacion:
+       herramientas:
+        modulos:
+         papiro:
+          url: "http://localhost:3000"
+       compras:
+        modulos:
+         almsolegr:
+          moscodpro:  S
+          refprebas:  S
+          papiro: S
+          papiro_get_nombre: reqart
+          papiro_get_titulo: desreq
+          papiro_get_fecha_revision: fecreq
+          papiro_numero_revision: 1
+          papiro_carpeta_id: 12
+          papiro_palabras_clave: "solicitud, egreso, precompromiso"
+          papiro_tipo_documento_id: 10
+          papiro_formato_id: 1
+          papiro_extension_id: 1
+         almordcomv2:
+          papiro: S
+          papiro_get_nombre: ordcom
+          papiro_get_titulo: desord
+          papiro_get_fecha_revision: fecord
+          papiro_numero_revision: 1
+          papiro_carpeta_id: 12
+          papiro_palabras_clave: "orden, compra"
+          papiro_tipo_documento_id: 10
+          papiro_formato_id: 1
+          papiro_extension_id: 1
+          # papiro_get_numero_expediente: xxxx
+       facturacion:
+        modulos:
+         fafactur:
+          impfis: S # Habilitar la impresión en impresora fiscal
+       nomina:
+        modulos:
+          nomnomcalnom:
+            asincrono: S
+
+

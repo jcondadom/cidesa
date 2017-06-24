@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/57016/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/prepagar/templates
+END
+anularSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/55044/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/prepagar/templates/anularSuccess.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/46723/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/prepagar/templates/ajaxSuccess.php
+END
+_mensaje.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/36423/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/prepagar/templates/_mensaje.php
+END
+_btn.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/55642/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/prepagar/templates/_btn.php
+END
+_edit_footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/57016/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/prepagar/templates/_edit_footer.php
+END
+_refpag.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/36423/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/prepagar/templates/_refpag.php
+END
+_grid.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/36423/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/prepagar/templates/_grid.php
+END
+salvaranuSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/36423/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/prepagar/templates/salvaranuSuccess.php
+END
+_salpag.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/57016/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/prepagar/templates/_salpag.php
+END
+_grid2.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/50175/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/prepagar/templates/_grid2.php
+END

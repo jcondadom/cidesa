@@ -1,0 +1,30 @@
+====== Conceptos para Retenciones ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite definir todos los conceptos que van a estar asociados a cada Tipo de Retención y por cada Nómina existente en la Empresa ó Institución, los cuales serán utilizados para el cálculo de la nómina.
+</html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el **Menú Principal** de **SIGA**.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones Específicas** 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefesp.jpg|}}"></div><br></html> 
+
+  * Seguidamente despliegue la opción de **Definición de Retenciones y Aportes** 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefretapo.jpg|}}"></div><br></html>
+
+  * Por último seleccione la opción **Conceptos para Aportes**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconret.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Conceptos para Retenciones** podrá realizar la Operaciones Básicas de:
+
+  * [[Incluir Conceptos para Retenciones|Incluir]]
+
+  * [[Modificar Conceptos para Retenciones|Modificar]]
+
+  * [[Eliminar Conceptos para Retenciones|Eliminar]]
+
+  * [[Consultar Conceptos para Retenciones|Consultar]]

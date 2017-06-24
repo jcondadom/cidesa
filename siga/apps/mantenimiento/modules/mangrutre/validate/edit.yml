@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "mangrutre{codgrr}"
+   - "mangrutre{desgrr}"
+
+names:
+  mangrutre{codgrr}:
+    required:  Yes
+    required_msg: Introduzca el Código del Grupo Responsable de Ejecución del Trabajo
+    validators: Validator_codgrr
+    
+  mangrutre{desgrr}:
+    required:  Yes
+    required_msg: Introduzca la Descripción del Grupo Responsable de Ejecución del Trabajo
+    validators: Validator_desgrr
+
+Validator_codgrr:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Mangrutre
+        column:       codgrr
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_desgrr:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La Descripción no puede tener mas de 250 caracteres

@@ -1,0 +1,56 @@
+methods:
+  post:
+   - "cpajuste{refaju}"
+   - "cpajuste{fecaju}"
+   - "cpajuste{tipaju}"
+   - "cpajuste{desaju}"
+
+names:
+  cpajuste{refaju}:
+    required:  Yes
+    required_msg: La referencia del Ajuste no puede estar en Blanco
+    validators: Validator_existencia
+
+  cpajuste{fecaju}:
+    required:  Yes
+    required_msg: La fecha del Ajuste no puede estar en Blanco
+    validators: Fecha2Validator
+
+  cpajuste{desaju}:
+    required:  Yes
+    required_msg: La descripción del Ajuste no puede estar en Blanco
+    validators: Validator_MyString_desaju
+
+  cpajuste{tipaju}:
+    required:  Yes
+    required_msg: El tipo de Ajuste no puede estar en Blanco
+    validators: Validator_existe_tipaju
+
+Validator_existencia:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Cpajuste
+        column:       refaju
+        unique_error: La referencia ya Existe intente con otra.
+
+Validator_existe_tipaju:
+    class: CidesaExistValidator
+    param:
+        class:        Cpdocaju
+        column:       tipaju
+        unique_error: El tipo de Documento no existe.
+
+Validator_MyString_desaju:
+    class: sfStringValidator
+    param:
+        min:       1
+        min_error: La descripción no puede tener menos de 1 caracteres
+        max:       1000
+        max_error: La descripción no puede tener mas de 1000 caracteres
+
+Fecha2Validator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha del Ajuste es inválida      

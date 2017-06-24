@@ -1,0 +1,35 @@
+opciones:                  # Opciones generales
+  name:                    d
+  eliminar:                true
+  tabla:                   farecserart
+  anchogrid:               700
+  ancho:                   700
+  filas:                   1
+  titulo:                  ' Servicios Externos '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             codser
+  html:                    ["size=10 maxlength=20"]
+  esgrabable:              true
+  ajaxgrid:                true  
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             desser
+  html:                    ["size=40x1 readOnly=true"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Unidad Medida
+  tipo:                    t
+  nombrecampo:             uniser
+  esgrabable:              true
+  html:                    ["size=15 readOnly=true" ]  
+4:      # Columna 4
+  titulo:                  Cantidad
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canser
+  esnumerico:              true  
+  html:                    ["size=10"] 

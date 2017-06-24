@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "bncatcol{codcol}"
+   - "bncatcol{descol}"
+
+names:
+  bncatcol{codcol}:
+    required:  Yes
+    required_msg: El Código del Color no puede estar en Blanco
+    validators: UniqueValidator
+
+  bncatcol{descol}:
+    required:  Yes
+    required_msg: La Descripción del Color no puede estar en Blanco
+    validators: DescripcionValidator
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Bncatcol
+        column:   codcol
+        unique_error:   El Código del Color ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       3
+        min_error: La Descripción del Color no puede tener menos de 3 caracteres
+        max:       500
+        max_error: La Descripción del Color no puede tener más de 500 caracteres 

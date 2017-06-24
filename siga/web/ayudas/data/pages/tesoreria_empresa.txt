@@ -1,0 +1,16 @@
+======Empresa======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite visualizar los datos de la Empresa que seleccionó al entrar al Sistema así como podrá registrar los datos básicos de la misma. Los datos serán registrados una sola vez. </html>
+
+**Para ello:**
+
+  * Seleccione la opción **Tesorería ó Banco** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesban.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbandefesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Empresa**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbandefespemp.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Empresa** veamos la [[Descripcion_Campos_Empresa|Descripción de los Campos]]

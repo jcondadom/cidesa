@@ -1,0 +1,20 @@
+====== Operación Consultar ======
+
+**Para consultar el Registro de Salario Integral por Contrato:**   <html><br><br></html>
+
+  * Presione el **Botón**  {{:btnlista.jpg|}}    <html><br><br></html>
+
+  * Seleccione de la **Lista** el **Tipo de Contrato Colectivo** para el cual desea consultar el registro de Salario Integral. <html><br><br></html> 
+
+  * El sistema automáticamente muestra el Registro de Salario Integral del Contrato Colectivo seleccionado.<html><br><br></html>
+
+  * Si desea consultar el Registro de Salario Integral de un nuevo Contrato Colectivo debe presionar nuevamente el** Botón** {{:btnlista.jpg|}}  y repetir los pasos anteriores. <html><br><br></html>
+
+
+**Para consultar datos desde el Inicio de la pantalla de Registro de Salario Integral Por Contrato:**  <html><br><br></html>
+
+  * El sistema muestra la **Lista** con los Registros de Salario Integral por Contrato.<html><br><br></html>
+
+  * Seleccione de la **Lista** el **Tipo de Contrato Colectivo** para el cual desea consultar el Registro de Salario Integral por Contrato. <html><br><br></html>
+
+  * El sistema automáticamente muestra el Registro de Salario Integral por Contrato<html><br><br></html>

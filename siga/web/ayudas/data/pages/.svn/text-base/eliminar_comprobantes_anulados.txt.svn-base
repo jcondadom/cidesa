@@ -1,0 +1,20 @@
+====== Cerrar Etapa de Definición ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso en el que se eliminan todos aquellos comprobantes que se encuentran solo en estatus de “Anulados”, para ello solo se deben seleccionar dichos comprobantes anulados que se desean eliminar. </html>
+
+Para ello:
+
+  * Seleccione la opción **Contabilidad Financiera** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/cfindefespins.jpg"></div><br></html>
+
+  * Despliegue la Opción de **Mantenimiento**  <html><br><br></html>
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:cfinelicomanu1.jpg|}}"></div><br></html>
+
+  * Por último seleccione la opción **Eliminar Comprobantes Anulados**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:cfinelicomanu2.jpg|}}"></div><br></html>
+
+  * Automáticamente el sistema mostrará la pantalla correspondiente, donde debe seleccionar los comprobantes que desea eliminar.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:cfinelicomanu.jpg|}}"></div><br></html>
+
+  * En caso de no haber Comprobantes que actualizar el sistema emite un Mensaje de Atención.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjatnelicomanu.jpg|}}"></div><br></html>

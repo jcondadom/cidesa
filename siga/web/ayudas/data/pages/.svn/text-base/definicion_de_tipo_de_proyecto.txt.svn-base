@@ -1,0 +1,16 @@
+======Definición de Tipos de Proyecto======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso en el cual se registran los proyectos con los cuales puede trabajar una determinada Unidad y para los cuales la unidad puede solicitar que se le sea asignado un determinado presupuesto. Es importante destacar que una unidad puede manejar varios proyectos. </html>
+
+**Para ello:**
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Proveedores** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmprov.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Definición de Tipos de Proyecto**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmprovtippro.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Definición de Tipos de Proyecto** veamos la [[Descripcion_Campos_Definicion_Tipos_Proyectos|Descripción de los Campos]]

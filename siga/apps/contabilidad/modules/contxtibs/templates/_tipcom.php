@@ -1,0 +1,1 @@
+<?php echo select_tag('contabc[tipcom]', options_for_select(array('ALM' => 'Almacén', 'BIE' => 'Bienes', 'TES' => 'Tesoreria', 'CON' => 'Contabilidad'),$contabc->getTipcom(),'include_custom=Seleccione'),array()) ?>

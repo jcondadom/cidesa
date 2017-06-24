@@ -1,0 +1,13 @@
+====== Descripción de Campos ======
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontofertpresupinc1.jpg|}}"></div><br></html>
+
+  * En el campo **Código del Contratista** presione el **Botón** {{:btncuadrocatalogo.jpg|}}, seguidamente el sistema muestra un catálogo con todos los contratistas registrados previamente en el sistema debe seleccionar el contratista para el cual desea registrar el presupuesto. <html><br><br></html>
+
+  * En el campo **Código de la Obra** presione el **Botón** {{:btncuadrocatalogo.jpg|}}, seguidamente el sistema muestra un catálogo con las obras registradas previamente en el sistema donde debe seleccionar la obra para la cual desea registrar el presupuesto ofertado por la contratista. <html><br><br></html>
+
+  * Seguidamente el sistema mostrará en la tabla aquellas **Partidas** asociadas a la obra y que fueron definidas previamente en el sistema, asi como la **Cantidad** de dichas partidas.<html><br><br></html>
+
+  * Por último ingrese el **Precio** de cada partida ofertado por la Contratista y posteriormente el sistema muestra el **Total** por cada una el cual es calculado internamente por él mismo.<html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Presupuesto** ahora podrá realizar determinadas [[operaciones_basicas|Operaciones Básicas]]

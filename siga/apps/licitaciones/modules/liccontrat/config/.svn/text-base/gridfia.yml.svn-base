@@ -1,0 +1,33 @@
+opciones:                  # Opciones generales
+  name:                    h
+  eliminar:                false
+  tabla:                   Liregofefia
+  anchogrid:               900
+  ancho:                   850
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Criterio
+  tipo:                    t
+  nombrecampo:             codcomres
+  html:                    [ size=10 readonly=true ]
+  esgrabable:              false
+2:
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             descomres
+  html:                    [ size=20 readonly=true ]
+  esgrabable:              false
+2:
+  titulo:                  Porcentaje Fianza/Garantia
+  tipo:                    t
+  nombrecampo:             porcentaje
+  html:                    [ size=20 readonly=true ]
+  esgrabable:              false  
+3:
+  titulo:                  Observaciones
+  tipo:                    t
+  nombrecampo:             observ
+  html:                    [ size=40 readonly=true]
+  esgrabable:              false

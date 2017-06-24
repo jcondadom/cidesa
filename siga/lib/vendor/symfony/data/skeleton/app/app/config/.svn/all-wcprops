@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/skeleton/app/app/config
+END
+factories.yml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/skeleton/app/app/config/factories.yml
+END
+i18n.yml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/skeleton/app/app/config/i18n.yml
+END
+app.yml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/skeleton/app/app/config/app.yml
+END
+settings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/skeleton/app/app/config/settings.yml
+END
+cache.yml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/skeleton/app/app/config/cache.yml
+END
+logging.yml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/skeleton/app/app/config/logging.yml
+END
+routing.yml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/skeleton/app/app/config/routing.yml
+END
+security.yml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/skeleton/app/app/config/security.yml
+END
+filters.yml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/skeleton/app/app/config/filters.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/skeleton/app/app/config/view.yml
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/skeleton/app/app/config/config.php
+END

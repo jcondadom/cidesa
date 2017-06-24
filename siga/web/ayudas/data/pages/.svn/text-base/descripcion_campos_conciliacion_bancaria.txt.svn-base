@@ -1,0 +1,20 @@
+Los campos que conforman la pantalla **Concliación Bancaria** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbancconcbancinc1.jpg|}}"></div><br></html>
+
+  * **Número de Cuenta:** Corresponde al número de cuenta bancaria a conciliar. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[Listas|Lista]] con las cuentas bancarias que fueronr egistradas previamente en el sistema en la pantalla [[tesoreria-bancos|Bancos]]. <html><br><br></html>
+ 
+  * **Mes a Cerrar:** Debe seleccionar el mes en el que se desea realizar la conciliación. <html><br><br></html>
+
+  * **Del Año:** Indica el año en el se desea realizar la conciliación. <html><br><br></html>
+
+  * Una vez introducidos los datos anteriormente descritos podemos observar los Botones "HACER" y "ANULAR": <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Al presionar el Botón {{:btnhacer.jpg|}} el sistema automáticamente realizará la Conciliación Bancaria. La Conciliación Bancaria marca los movimientos que estén en Libro y en Bancos y los que no están los coloca en tránsito. Una vez que ha realizado la Conciliación el sistema emite el siguiente mensaje de éxito:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:mnsjhacerconcbanc.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Al presionar el Botón {{:btnanular.jpg|}} el sistema eliminará la Conciliación Bancaria que efectuó previamente siempre y cuando haya tenido movimientos. En un primer lugar debe buscar la Conciliación a anular para luego presionar dicho botón y una vez eliminada el sistema emite el siguiente mensaje:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:mnsjanularconcbanc1.jpg|}}"></div><br></html>
+

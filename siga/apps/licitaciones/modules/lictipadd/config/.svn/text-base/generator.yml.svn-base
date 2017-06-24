@@ -1,0 +1,26 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Litipadd
+    theme:            cidesaGenerator
+
+    fields:
+      codtipadd: { name: Código, params: size=20}
+      nomtipadd: { name: Nombre, params: size=40}
+      dettipadd: { name: Detalle, params: size=60}
+
+    list:
+      title:           Tipos de Addendums a Contratos
+      display:         [=codtipadd, nomtipadd ]
+      object_actions:
+        _edit:          ~
+        _delete:        ~
+      max_per_page:    10
+
+    edit:
+      title:           Tipos de Addendums a Contratos
+      display:         [codtipadd, nomtipadd, dettipadd ]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~

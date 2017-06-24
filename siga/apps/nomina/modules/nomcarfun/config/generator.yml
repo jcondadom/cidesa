@@ -1,0 +1,44 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npasocarfun
+    theme:            cidesaGenerator
+    fields:
+      codcar:
+        name: Cargo
+        catalogo:
+          catalogoweb: Viadettabcar_Npcargos
+          clase: Npcargos
+          ajax: 1
+          parametros: getprincipal="getCodcar" getsecundario="getNomcar" campoprincipal="codcar" camposecundario="nomcar" campobase = "id"          
+      codniv:
+        name: Ubicación Administrativa
+        catalogo:
+          catalogoweb: Npestorg_Nomhojint
+          clase: Npestorg
+          ajax: 2
+          parametros: getprincipal="getCodniv" getsecundario="getDesniv" campoprincipal="codniv" camposecundario="desniv" campobase = "id"          
+          catalogoparams: /param1/'."'+$('npasocarfun_longmas').value+'".'
+          ajaxparams: +'."'".'&cargo='."'+$('npcargos_codcar').value".'
+          #divupdate: divgrid     
+      js: { name: .}
+      grid: {name: . }
+      nomcar: { name: Nombre}
+      desniv: { name: Descripción}
+    list:
+      title:          Listado de Cargos
+      display:        [=codcar, nomcar, codniv, desniv]
+      object_actions:
+        _edit:        ~      
+      filters:        [codcar, codniv]
+      max_per_page:   10
+      sort:           codcar
+    edit:
+      title:          Asociación de Funciones a Cargos
+      display:        
+        "Datos":  [codcar, codniv, _grid]
+      hide:    [longmas]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~

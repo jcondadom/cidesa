@@ -1,0 +1,158 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Liinspecciones
+    theme:            cidesaGenerator
+
+    fields:
+      ente:           { name: Ente Contratante, params: readonly=true size=60 style=border:none}
+      codempadm:
+        name: Para
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Lidatste_codemp
+          clase: Lidatste
+          ajax: 2
+          parametros: getprincipal="getCodempadm" getsecundario="getNomempadm" campoprincipal="codempadm" camposecundario="nomempadm" campobase = "id"
+      nomcaradm:      { name: Cargo, params: style=border:none size=80}
+      coduniadm:
+        name: Unidad
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Lidatste_licregsol
+          clase: Lidatste
+          ajax: 3
+          parametros: getprincipal="getCoduniadm" getsecundario="getDesuniadm" campoprincipal="coduniadm" camposecundario="desuniadm" campobase = "id"
+      codempeje:
+        name: De
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Lidatste_codemp
+          clase: Lidatste
+          ajax: 4
+          parametros: getprincipal="getCodempeje" getsecundario="getNomempeje" campoprincipal="codempeje" camposecundario="nomempeje" campobase = "id"
+      nomcareje:      { name: Cargo, params: style=border:none size=80}
+      coduniste:
+        name: Unidad
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Lidatste_licregsol
+          clase: Lidatste
+          ajax: 5
+          parametros: getprincipal="getCoduniste" getsecundario="getDesuniste" campoprincipal="coduniste" camposecundario="desuniste" campobase = "id"
+      numval:
+        name: Número Valuación
+        params: size=10 maxlength=8
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Liinspecciones_livaluaciones_numval
+          clase: Livaluaciones
+          ajax: 1
+          parametros: getprincipal="getNumval" getsecundario="getObjcontcat" campoprincipal="numval" camposecundario="objcontcat" campobase = "id"
+          catalogoparams: /param1/'."O".'
+          divupdate:  divgridart
+      resolu:         { name: Resolución, params: size=10 maxlength=8 style=border:none disabled=false }
+      fecrel:         { name: Fecha Resolución, params: size=10 maxlength=8 style=border:none disabled=false }
+      numptocuecon:
+        name: Número Punto de Cuenta Contratación
+        params: size=10 maxlength=8 style=border:none disabled=false
+      numrecofe:      { name: Número Recomendación, params: size=10 readonly=true style=border:none }
+      numexp:         { name: Número de Expediente, params: readonly=true style=border:none }
+      numcont:        { name: Número de Contrato, params: readonly=true style=border:none }
+      ejepre:         { name: Ejercicio Prespuestario Año, params: style="border:none" size=80}
+      desclacomp:     { name: Solicitud de Compra, params: style="border:none" size=80}
+      destiplic:      { name: Modalidad de Contratación, params: style="border:none" size=80}
+      tipcom:         { name: Compra, params: style="border:none" size=80}
+      tipcon:         { name: Bienes/servicios, params: style="border:none" size=80}
+      codpro:         { name: Codigo Empresa, params: style="border:none" size=80}
+      nompro:         { name: Empresa, params: style="border:none" size=80}
+      rifpro:         { name: R.I.F, params: readonly=true style=border:none}
+      dirpro:         { name: Dirección , params: readonly=true style=border:none}
+      nomrepleg:      { name: Representante Legal, params: readonly=true style=border:none size=80}
+      numofe:         { name: Número Oferta, params: size=10 readonly=true style=border:none }
+      fecofe:         { name: Fecha Oferta, params: readonly=true style=border:none}
+      monofe:         { name: Monto Oferta, params: readonly=true style=border:none }
+      monofelet:      { name: Son, params: readonly=true style=border:none size=80 }
+      fecreg:         { name: Fecha Registro, params: onChange=CalculaFecha(this.value)}
+      dias:           { name: Dias para el Vencimiento, params: onChange=CalculaFecha(this.value)}
+      fecven:         { name: Fecha Vencimiento, params: readonly=true style=border:none}
+      objcont:        { name: Objeto del Contrato, type: textarea_tag, params: size="80x10" style=border:none}
+      monart:         { name: Monto Partida de Obra, params: readonly=true style=border:none }
+      monrec:         { name: Monto Recargos, params: readonly=true style=border:none }
+      gridart:        { name: .}
+      gridrgo:        { name: .}
+      gridforpag:     { name: .}
+      gridcroent:     { name: .}
+      gridfia:        { name: .}
+      sancio:         { name: Sanciones, type: textarea_tag, params: size="80x10"}
+      garant:         { name: Garantias referentes al Bien o Servicio, type: textarea_tag, params: size="80x10"}
+      docane1:
+        name:  Documento Anexo 1
+        type:  admin_input_file_tag
+        params:  include_link=assets include_text="*********Anexo 1***********" include_remove=true
+        upload_dir:  assets
+        help:       Favor cargar solo archivos con extension (pdf,doc,ppt)
+      docane2:
+        name:  Documento Anexo 2
+        type:  admin_input_file_tag
+        params:  include_link=assets include_text="*********Anexo 2***********" include_remove=true
+        upload_dir:  assets
+        help:       Favor cargar solo archivos con extension (pdf,doc,ppt)
+      docane3:
+        name:  Documento Anexo 3
+        type:  admin_input_file_tag
+        params:  include_link=assets include_text="*********Anexo 3***********" include_remove=true
+        upload_dir:  assets
+        help:       Favor cargar solo archivos con extension (pdf,doc,ppt)
+      prepor:         { name: Preparado Por, params: size=80 }
+      preporcar:      { name: Cargo, params: size=80 }
+      lisicact_id:    { name: Declaratoria Modalidad, params: include_blank="Seleccione..." disabled=true}
+      fecdecla:       { name: Fecha Declaratoria, params: readonly=true style=border:none}
+      detdecmod:      { name: Detalle, type: textarea_tag, params: size="80x10" readonly=true style=border:none}
+      anapor:         { name: Analisado Por, params: size=80 readonly=true style=border:none}
+      anaporcar:      { name: Cargo, params: size=80 readonly=true style=border:none}
+      js:             {name: .}
+
+      numins:         {name: Nro. Inspección, params: size=10 maxlength=8 onBlur=Correl(this.id) }
+      codtipact:
+        name: Tipo de Acta
+        params: onChange=toAjaxUpdater('ajaxdiv',11,getUrlModulo()+'ajax',this.value,'',getParamsTipact());
+      detins:         {name: Detalle del Acta, type: textarea_tag, params: size="80x15" rich=true}
+      fecdes:         {name: Fecha Desde}
+      fechas:         {name: Fecha Hasta}
+      totins:         {name: Total Inspección}
+      diftotins:         {name: Diferencial Respecto a Valuación}
+
+    list:
+      title:           Supervisiones e Inspecciones
+      display:         [=numins, =numval, desuniadm, desuniste, fecreg, rifpro, nompro, numptocuecon ]
+      filters:         [_numval, numins, coduniadm, coduniste, fecreg]
+      fields:
+        desuniadm:     { name: Para}
+        desuniste:     { name: De}
+        numexp:        { name: Número de Expediente, params: readonly=false style=border:display, type: input_tag }
+
+      object_actions:
+        _edit:          ~
+        _delete:        ~
+      max_per_page:    10
+      sort:            numins
+
+    edit:
+      title:           Supervisiones e Inspecciones
+      display:
+        Resumen Contrato:    [ente, codempadm, nomcaradm, coduniadm, codempeje, nomcareje, coduniste, numval, numcont, resolu, fecrel, numptocuecon]
+        Datos Generales:     [numrecofe, numexp, ejepre, destiplic, desclacomp, tipcom, codpro, nompro, rifpro, nomrepleg, dirpro, numofe, fecofe, monofe, monofelet, objcont]
+        Datos Inspección:     [numins, fecdes, fechas, fecreg, dias, fecven, detins]
+        Detalle Inspeción:   [_gridart, totins, diftotins]
+#        Partida de Obras a Adquirir: [_gridart, monart]
+#        Otros Recargos por Facturas: [_gridrgo, monrec]
+#        Formas de Pago: [_gridforpag]
+#        Cronograma de Entregas:  [_gridcroent]
+#        Fianzas y Garantias:   [_gridfia]
+        Otros Datos:        [docane1, docane2, docane2, prepor, preporcar]
+        Declaratoria:       [lisicact_id, fecdecla, detdecmod, anapor, anaporcar, _js]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~

@@ -1,0 +1,58 @@
+methods:
+  post:
+   - "catraalm{codtra}"
+   - "catraalm{fectra}"
+   - "catraalm{destra}"   
+
+
+names:
+  catraalm{codtra}:
+    required:  Yes
+    required_msg: El Código no puedo estar en Blanco
+    validators: Validator_codtra
+
+  catraalm{fectra}:
+    required:  Yes
+    required_msg: La Fecha no puedo estar en Blanco
+    validators: FechaValidator, FechaValidator2
+
+  catraalm{destra}:
+    required:  Yes
+    required_msg: La descripción no puedo estar en Blanco
+    validators: Validator_destra
+
+Validator_codtra:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Catraalm
+        column:       codtra
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_destra:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caracteres
+        max:       255
+        max_error: La descripción no puede pasar mas de 255 caracteres
+
+CorrelValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]
+        values_error: Los Correlativos solo puede contener valores númericos
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha introducida es inválida
+
+FechaValidator2:
+    class:         CidesaDateNow
+    param:
+        compare: 'now'
+        compare_error: La Fecha no puede ser mayor a la Fecha Actual
+        operator: '<='
+        date_error:  Fecha Inválida      

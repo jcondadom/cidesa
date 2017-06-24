@@ -1,0 +1,22 @@
+====== Causados ======
+
+**Tabla:** CPDOCCAU
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso en el que se definen los documentos que se utilizarán para registrar un causado durante la Ejecución Presupuestaria.</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Contabilidad Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpre.jpg|}}"></div><br></html>
+
+   * Seguidamente despliegue la opción **Definiciones Específicas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpredefesp.jpg|}}"></div><br></html>
+
+  * Seleccione la opción **Documentos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpredoc.jpg|}}"></div><br></html>
+
+  * Por último seleccione **Causados**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprecau.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Causados** veamos la [[Descripcion_Campos_presupuesto_causados|Descripción de los Campos]]
+

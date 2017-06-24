@@ -1,0 +1,72 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   fcrepliq
+  ancho:                   800
+  anchogrid:               800
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+
+1:       # Columna 1
+  titulo:                  Año
+  tipo:                    t
+  nombrecampo:             ano
+  esgrabable:              true
+  html:                    [size="4", readonly=true]
+2:       # Columna 2
+  titulo:                  Código Actividad
+  tipo:                    t
+  nombrecampo:             codact
+  esgrabable:              true
+  html:                    [size="10"  onBlur=DistribuirDeclaracion(this.id); ]
+3:       # Columna 3
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             desact
+  esgrabable:              true
+  html:                    [size="25x2"]
+4:       # Columna 4
+  titulo:                  Ingresos Brutos
+  tipo:                    m
+  nombrecampo:             moning
+  esgrabable:              true
+  html:                    [size="10"  onBlur=DistribuirDeclaracion(this.id);]
+
+5:       # Columna 5
+  titulo:                  Impuesto Brutos
+  tipo:                    m
+  nombrecampo:             monimp
+  esgrabable:              true
+  html:                    [size="10", readonly=true]
+
+6:       # Columna 6
+  titulo:                  Ingresos Fiscalizados
+  tipo:                    m
+  nombrecampo:             monfis
+  esgrabable:              true
+  html:                    [size="10" onBlur=DistribuirDeclaracion(this.id);]
+
+7:       # Columna 7
+  titulo:                  Alicuotas
+  tipo:                    m
+  nombrecampo:             porali
+  esgrabable:              true
+  html:                    [size="10", readonly=true]
+8:       # Columna 8
+  titulo:                  Impuesto No Liquidado
+  tipo:                    m
+  nombrecampo:             monliq
+  esgrabable:              true
+9:       # Columna 9
+  titulo:                  Unidad Tributaria
+  tipo:                    m
+  nombrecampo:             unidad
+  esgrabable:              true
+  oculta:                  true
+10:       # Columna 10
+  titulo:                  Mínimo Tributable
+  tipo:                    m
+  nombrecampo:             minimo
+  esgrabable:              true
+  oculta:                  true

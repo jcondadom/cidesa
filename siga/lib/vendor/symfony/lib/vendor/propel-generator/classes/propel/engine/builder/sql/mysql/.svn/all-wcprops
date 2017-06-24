@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/builder/sql/mysql
+END
+MysqlDDLBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/builder/sql/mysql/MysqlDDLBuilder.php
+END
+MysqlDataSQLBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/builder/sql/mysql/MysqlDataSQLBuilder.php
+END

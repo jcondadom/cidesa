@@ -1,0 +1,30 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   facomban
+  anchogrid:               750
+  ancho:                   600
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Id
+  tipo:                    t
+  nombrecampo:             tippag_id
+  esgrabable:			         true
+  html:                    []  
+  oculta:                  true
+2:       # Columna 2
+  titulo:                  Tipo de Pago
+  tipo:                    t
+  nombrecampo:             destippag
+  catalogo:                [fatippag, sf_admin_edit_form, {Id: 1, Destippag: 2}, Fatippag_Fafactur]
+  html:                    ["size=60 maxlength=60 readOnly=true"]
+  esgrabable:              false
+  ajaxgrid:                true
+3:       # Columna 3
+  titulo:                  Porcentaje de Comisión
+  tipo:                    m
+  nombrecampo:             comision
+  html:                    ["size=30 readonly=false"] 
+  esgrabable:              true

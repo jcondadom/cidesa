@@ -1,0 +1,33 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npgrutur
+    theme:            cidesaGenerator
+    fields:
+      codtur:
+        name: Turno
+        params: maxlength=2
+        catalogo:
+          catalogoweb: Npturnos_Nomasigrutur
+          clase: Npturnos
+          ajax: 1
+          parametros: getprincipal="getCodtur" getsecundario="getDestur" campoprincipal="codtur" camposecundario="destur" campobase = "id"
+      codnom:
+        name: Nómina
+        params: maxlength=3
+        catalogo:
+          catalogoweb: Npnomina_nomdefespvar
+          clase: Npnomina
+          ajax: 2
+          parametros: getprincipal="getCodnom" getsecundario="getNomnom" campoprincipal="codnom" camposecundario="nomnom" campobase = "id"
+      fecini: { name: Inicio}
+      fecfin: { name: Fin}
+      grid: { name: .}
+      consulta: { name: .}
+    edit:
+      title:          Asignación de Grupos a Turno
+      display:
+        "Datos":  [_consulta, codtur, codnom, _fecini, _fecfin]
+        "NONE":  [_grid]
+      actions:
+        _save:        ~

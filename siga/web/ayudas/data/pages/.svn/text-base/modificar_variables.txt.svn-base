@@ -1,0 +1,15 @@
+====== Operación Modificar ======
+
+Para Modificar una Variable:
+
+  * Seleccionar de la **Lista** la variable a modificar. 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefvarmod.jpg|}}"></div><br></html> 
+
+  * Es importante señalar que los campos modificables son el **Nombre** y los **Valores** que puede tomar dicha variable.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefvarmod1.jpg|}}"></div><br></html>
+
+  * Presionar  {{:btnguardar.jpg|}}   para registrar las modificaciones realizadas. <html><br><br></html>
+
+  * El sistema muestra un mensaje de éxito.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>
+

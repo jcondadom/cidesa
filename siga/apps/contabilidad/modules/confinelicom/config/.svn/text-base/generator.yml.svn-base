@@ -1,0 +1,18 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Contabc
+    theme:            cidesaGenerator
+    fields:
+      numcomdes:   { name: N° Comprobante Desde }
+      numcomhas:   { name: N° Comprobante Hasta }
+      grid:   { name: . }
+      botones:   { name: . }
+    edit:
+      title:          Eliminación de Comprobantes Contables Anulados
+      display:
+        "Filtros":   [_numcomdes, _numcomhas]
+        "Comprobantes Anulados":   [_botones, _grid]
+
+      actions:
+        _save:        ~

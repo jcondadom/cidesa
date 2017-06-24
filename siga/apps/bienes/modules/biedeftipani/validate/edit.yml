@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "bntipani{codani}"
+   - "bntipani{desani}"
+
+names:
+  bntipani{codani}:
+    required:  Yes
+    required_msg: El Código del Tipo de Animal no puede estar en Blanco
+    validators: UniqueValidator
+
+  bntipani{desani}:
+    required:  Yes
+    required_msg: La Descripción Tipo de Animal no puede estar en Blanco
+    validators: DescripcionValidator
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Bntipani
+        column:   codani
+        unique_error:   El Código del Tipo de Animal ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción del Tipo de Animal no puede tener menos de 3 caracteres
+        max:       500
+        max_error: La Descripción del Tipo de Animal no puede tener más de 500 caracteres 

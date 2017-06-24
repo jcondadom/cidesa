@@ -1,0 +1,48 @@
+opciones:                  # Opciones generales
+  name:                    b
+  eliminar:                true
+  tabla:                   fcdetpag
+  ancho:                   650
+  anchogrid:               750
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Tipo de Pago
+  tipo:                    c
+  nombrecampo:             tippag
+  esgrabable:			         true
+  html:                    []
+2:       # Columna 2
+  titulo:                  Numero
+  tipo:                    t
+  nombrecampo:             nrodet
+  esgrabable:              true
+  html:                    [size="15" ]
+3:       # Columna 3
+  titulo:                  Fecha
+  tipo:                    f
+  nombrecampo:             fecdet
+  esgrabable:              true
+  html:                    [size="10" ]
+4:       # Columna 4
+  titulo:                  Cuenta
+  tipo:                    t
+  nombrecampo:             ctaban
+  esgrabable:              true
+  html:                    [size="20", readonly=true ]
+5:       # Columna 5
+  titulo:                  Banco
+  tipo:                    t
+  nombrecampo:             nomcue
+  esgrabable:              true
+  html:                    [size="20", readonly=false ]
+6:       # Columna 6
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monpag
+  esgrabable:			         true
+  html:                    ["size=10 onBlur='ValidarMontoGridv2(this); calcularTotales();'"]
+  ajaxgrid:                true
+  ajaxadicionales:         {0: id, 1: fcpagos_fecpag, 2: fcpagos_pagcon, 3: fcpagos_montodeuda, 4: fcpagos_porcentaje ,  5: fcpagos_descuento,  6: fcpagos_recargo,  7: fcpagos_saldo}
+  estotal:                 [true, 'fcpagos_totalmon']

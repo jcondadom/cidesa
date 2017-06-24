@@ -1,0 +1,23 @@
+Los campos que conforman la pantalla de **Recepción de Ordenes de Compra** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmrecepordcompinc1.jpg|}}"></div><br></html>
+
+  * **Número:** Se refiere al número que identifica la recepción de los Articulos que han sido comprados. <html><br><br></html>
+
+  * **Fecha:** Seleccione del [[calendario|Calendario]] la fecha en la cual se está realizando la Recepción de los Articulos.<html><br><br></html>
+
+  * **Nro de la Orden de Compra:**  Se refiere al número de la Orden de Compra que se encuentra relacionada con dichos artículos. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[Listas|Lista]] con las ordenes de compras que fueron registradas previamente en el sistema en la pantalla [[ordenes_de_compra_y/o_servicios|Ordenes de Compra y/o Servicios]] y que están pendientes por ser recibidas.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmrecepordcompinc2.jpg|}}"></div><br></html>
+
+  * Al seleccionar el Número de la Orden de Compra el sistema muestra automáticamente los datos correspondientes a ella como lo son: **Fecha**, **Descripción**, **Código y Descripción del Proveedor**, **Condición de Pago**, **Forma de Entrega** y **Monto Total**. <html><br><br></html>
+
+  * **Nro. de la Factura:** Se refiere al número que identifica la factura asociada a la Recepción de los Artículos. <html><br><br></html>
+
+  * **Nro. Nota Entrega:** Indica el número de la nota de entrega que otorga el proveedor al momento de hacer la entrega de los árticulos.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmrecepordcompinc3.jpg|}}"></div><br></html>
+
+  * **Detalle de la Recepción:** Se muestra en un [[Grid|Grid]] **Código y Descripción de los artículos** contemplados en la Orden de Compra y por cada uno de ellos se indica: **Cantidad Recibida**, **Cantidad Faltante**, **Cantidad Devuelta**, **Costo**, **Descuento**, **Recargo**, **Total** (calculado por el sistema), **Código de la Unidad** asociada al artículo, **Código y Descripción del Motivo Faltante**, **Fecha estimada de Entrega** de los artículos, **Código y Descripción del Almacén** que recibe los artículos y **Código y Descripción de la Ubicación** dentro del Almacén. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Recepción de Ordenes de Compra** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

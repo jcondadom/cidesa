@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/54971/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/config
+END
+factories.yml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/config/factories.yml
+END
+i18n.yml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/config/i18n.yml
+END
+bootstrap_compile.yml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/config/bootstrap_compile.yml
+END
+config_handlers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/config/config_handlers.yml
+END
+module.yml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/config/module.yml
+END
+logging.yml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/config/logging.yml
+END
+php.yml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/54971/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/config/php.yml
+END
+core_compile.yml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/config/core_compile.yml
+END
+settings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/config/settings.yml
+END
+constants.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/config/constants.php
+END
+security.yml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/config/security.yml
+END
+autoload.yml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/config/autoload.yml
+END
+filters.yml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/config/filters.yml
+END
+mailer.yml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/config/mailer.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/config/view.yml
+END

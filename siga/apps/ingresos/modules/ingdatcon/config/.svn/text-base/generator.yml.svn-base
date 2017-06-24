@@ -1,0 +1,39 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Ciconrep
+    theme:            cidesaGenerator
+    fields:
+      rifcon:      { name : C.I./R.I.F/Código, params: size=15 maxlength=14 }
+      nomcon:      { name : Nombre / Razón Social, params: size=80 maxlength=500 }
+      nitcon:      { name : N.I.T, params: size=15 maxlength=14}
+      naccon:      { name : Nacionalidad }
+      dircon:      { name : Dirección, params: size=80 maxlength=250 }
+      #repcon:      { name : Tipo }
+      ciucon:      { name : Ciudad, params: size=40 maxlength=30 }
+      cpocon:      { name : Código Postal, params: size=10 maxlength=6 }
+      apocon:      { name : Cod. Apartado Postal, params: size=25 maxlength=20 }
+      telcon:      { name : Teléfono, params: size=20 maxlength=30 }
+      faxcon:      { name : Fax, params: size=20 maxlength=15 }
+      emacon:      { name : E-Mail, params: size=60 maxlength=50 }
+      urlcon:      { name : URL, params: size=60 maxlength=50 }
+      tipcon:      { name : Tipo }
+
+
+    list:
+      title:          Contribuyentes
+      display:        [=rifcon, nomcon]
+      filters:        [rifcon, nomcon]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   5
+      sort: rifcon
+    edit:
+      title:          Contribuyentes
+      display:       [rifcon, nomcon, nitcon, _naccon, _tipcon, dircon, ciucon, cpocon, apocon, telcon, faxcon, emacon, urlcon ]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

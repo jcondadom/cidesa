@@ -1,0 +1,14 @@
+====== Operación Incluir ======
+
+Para **Registrar** la Asignación de Cargos a una determinada Nómina:<html><br><br></html>
+
+  * Presione el **Botón** {{:btnnuevo.jpg|}} <html><br><br></html>
+
+  * Seleccione el **Código del Tipo de Nómina** para la cual asignará los Cargos.
+
+  * Seguidamente en la tabla **Cargos** presione el Botón {{:btnconsultagrid.jpg|}}; el sistema muestra el catálogo con los Cargos definidos previamente por la Institución y en el sistema donde debe seleccionar cada uno de los Conceptos que desea sean asignados al Tipo de Nómina seleccionada.<html>&nbsp;&nbsp;</html> En caso de que desee **Quitar** Cargos que ya se encuentren incluidos en la tabla Cargos, debe presionar el Botón {{:btnquitar.jpg|}} que se encuentre ubicado de lado izquierdo del Concepto que dese quitar.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasicarnominc1.jpg|}}"></div><br></html>
+
+
+

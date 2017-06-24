@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/61794/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/pagemiret/templates
+END
+autocompleteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/pagemiret/templates/autocompleteSuccess.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/61794/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/pagemiret/templates/editSuccess.php
+END
+gridSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/pagemiret/templates/gridSuccess.php
+END
+cerraropretSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/pagemiret/templates/cerraropretSuccess.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/61794/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/pagemiret/templates/_edit_form.php
+END

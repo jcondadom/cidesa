@@ -1,0 +1,43 @@
+methods:
+  post:
+   - "cadefdivi{coddivi}"
+   - "cadefdivi{desdivi}"
+   - "cadefdivi{coddirec}"
+
+names:
+  cadefdivi{coddivi}:
+    required:  Yes
+    required_msg: El Código de la División no puedo estar en Blanco
+    validators: UniqueValidator
+
+  cadefdivi{desdivi}:
+    required:  Yes
+    required_msg: La Descripción de la División no puedo estar en Blanco
+    validators: DescripcionValidator
+
+  cadefdivi{coddirec}:
+    required:  Yes
+    required_msg: El Código de la Dirección no puedo estar en Blanco
+    validators: ExistValidator_coddirec
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Cadefdivi
+        column:   coddivi
+        unique_error:   El Código de la División ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción de la División no puede tener menos de 5 caracteres
+        max:       500
+        max_error: La Descripción de la División no puede tener más de 500 caracteres
+
+ExistValidator_coddirec:
+    class: CidesaExistValidator
+    param:
+        class:        Cadefdirec
+        column:       coddirec
+        unique_error: El Código de la Dirección debe estar Registrado.        

@@ -1,0 +1,29 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Canivconsnc
+    theme:            cidesaGenerator
+    fields:
+      codniv: { name: Código, params: size=10 maxlength=4 onFocus=readonly(this.id) onBlur="this.value=this.value.pad(4, '0',0);"}
+      desniv: { name: Descripción, params: size=80 maxlength=250  }
+      mondes: { name: Rango Desde, params: size=15}
+      monhas: { name: Rango Hasta, params: size=15}
+    list:
+      title:          Niveles de Contratación del SNC
+      fields:
+        desniv: { name: Dirección}
+      filters:        [codniv, desniv]
+      display:        [=codniv, desniv]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:  8
+      sort: codniv
+    edit:
+      title:          Edición de Nivel de Contratación del SNC
+      display:        [codniv, desniv, mondes, monhas]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

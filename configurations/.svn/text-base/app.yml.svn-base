@@ -1,0 +1,20 @@
+all:
+   .apps:
+     autenticacion:    autenticacion
+     max_per_page:     15
+     contabilidadpresupuesto: /var/www/cidesa/siga_cp/
+     reportes:         /var/www/cidesa/siga_reportes/
+     reportes_web:     reportes/reportes
+     this: autenticacion
+     configemp:
+       generales:
+         mostodart: S   #muestra todos los articulos
+       aplicacion:
+         nomina:
+           modulos:
+             nomnomcienom:           #Cierre de Nomina
+               intpre: N             #Integracion con Presupuesto
+         contabilidad:
+           modulos:
+             confincom:
+               camnomcatcta: S         #Cambia el comprobante cuando el comprobante sea de otro modulo

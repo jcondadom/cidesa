@@ -1,0 +1,19 @@
+====== Tipos de Financiamiento ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite definir los diferentes tipos de financiamiento que puede obtener la Institución responsable del proyecto por parte de otros organismos públicos 
+
+**Para ello:**
+
+  * Seleccione la opción **Formulación Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpre.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Ingresos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreing.jpg}}"></div><br></html>
+ 
+  * Por último seleccione **Definiciones Específicas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreingdefesp.jpg}}"></div><br></html>
+
+  * Por último seleccione **Tipos de Financiamiento**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreingdefesptipfin.jpg}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Tipos de Financiamiento** veamos la [[Descripcion_Campos_formulacion_tipos_financiamiento|Descripción de los Campos]]

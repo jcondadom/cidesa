@@ -1,0 +1,21 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   mandispro
+  anchogrid:               250
+  ancho:                   200
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:
+  titulo:                  Ejecutada
+  tipo:                    k
+  nombrecampo:             status2
+  esgrabable:              true
+  html:                    ["size=5 disabled=true"]  
+2:
+  titulo:                  Fecha 
+  tipo:                    f
+  nombrecampo:             fecini
+  esgrabable:              true
+  html:                    ["size=2 readOnly=true"]

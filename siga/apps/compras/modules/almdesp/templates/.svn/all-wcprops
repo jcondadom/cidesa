@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/60878/web/php/siga/branches/productions/trunk/apps/compras/modules/almdesp/templates
+END
+autocompleteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/compras/modules/almdesp/templates/autocompleteSuccess.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/41254/web/php/siga/branches/productions/trunk/apps/compras/modules/almdesp/templates/ajaxSuccess.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/41696/web/php/siga/branches/productions/trunk/apps/compras/modules/almdesp/templates/editSuccess.php
+END
+gridSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/52346/web/php/siga/branches/productions/trunk/apps/compras/modules/almdesp/templates/gridSuccess.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/compras/modules/almdesp/templates/_edit_actions.php
+END
+listSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/41696/web/php/siga/branches/productions/trunk/apps/compras/modules/almdesp/templates/listSuccess.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/60878/web/php/siga/branches/productions/trunk/apps/compras/modules/almdesp/templates/_edit_form.php
+END
+_filters.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/48946/web/php/siga/branches/productions/trunk/apps/compras/modules/almdesp/templates/_filters.php
+END

@@ -1,0 +1,17 @@
+====== Aprobación ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que se encarga de registrar los tres de niveles de aprobación que se pueden presentar a la hora de registrar un Artículo de Ley.</html>
+
+Para ello:
+
+  * Seleccione la opción **Contabilidad Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpre.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción **Definiciones Específicas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpredefesp.jpg|}}"></div><br></html>
+
+  * Por último seleccione la opción **Aprobación**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreapro.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Aprobación** veamos la [[Descripcion_Campos_presupuesto_aprobacion|Descripción de los Campos]]
+

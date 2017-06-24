@@ -1,0 +1,15 @@
+====== Operación Modificar ======
+
+Para la operación de Modificar debe:
+
+  * Seleccionar de la **Lista** el **Tipo de Nómina** a modificar. 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompertipnommod.jpg|}}"></div><br></html>
+
+  * El sistema muestra los datos del **Tipo de Nómina** seleccionado.  <html><br><br></html>
+
+  * Realice las modificaciones en base al Tipo de Nómina seleccionado **(los datos modificables son: Frecuencia de Pago, Nombre del Tipo de Nómina y las Fechas de Procesamientos)**   <html><br><br></html>
+
+  *  Presionamos  {{:btnguardar.jpg|}} para actualizar los datos. <html><br><br></html>
+ 
+  * El sistema emite un **Mensaje de Éxito**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

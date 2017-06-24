@@ -1,0 +1,42 @@
+methods:
+  post:
+   - "mancatmat{numsol}"
+   - "mancatmat{fecsol}"
+   - "mancatmat{unisol}"
+
+names:
+  mancatmat{numsol}:
+    required:  Yes
+    required_msg: El Número de Solicitud no debe estar en Blanco
+    validators: Validator_numsol
+    
+  mancatmat{fecsol}:
+    required:  Yes
+    required_msg: La Fceha no debe estar en Blanco
+    validators: Validator_fecsol
+
+  mancatmat{unisol}:
+    required:  Yes
+    required_msg: La Unidad Solicitante no debe estar en Blanco
+    validators: Validator_unisol
+
+Validator_numsol:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Mancatmat
+        column:       numsol
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_unisol:
+    class: CidesaExistValidator
+    param:
+        class:        Npcatpre
+        column:       codcat
+        unique_error: La Unidad Solicitante debe Existir.
+
+Validator_fecsol:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es inválida          

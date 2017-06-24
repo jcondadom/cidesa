@@ -1,0 +1,23 @@
+Los campos que conforman la pantalla de **Traspaso de Artículos** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmtrasartinc1.jpg|}}"></div><br></html>
+
+  * **Número:** Se refiere al número que identifica la Transferencia de artículo que se esta realizando.<html><br><br></html>
+
+  * **Fecha:** Seleccione del [[calendario|Calendario]] la fecha en que se realiza el traspado de Artículos de un almacén a otro. <html><br><br></html>
+
+  * **Descripción** del traspaso de artículos. <html><br><br></html>
+
+  * **Almacén Origen:** Se refiere al Código y Descripción del Almacén origen del cual se está realizando el traspaso. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[Listas|Lista]] con los almacénes que fueron registrados previamente en la pantalla [[definicion_de_ubicaciones|Definición de Ubicaciones]]. <html><br><br></html>
+
+  * **Ubicación Orígen:** Se refiere al código de la ubicación del artículo dentro del almacén origen. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[Listas|Lista]] con las ubicaciones que fueron registradas previamente en la pantalla [[definiciones_generales|Definiciones Generales]]. <html><br><br></html>
+
+  * **Almacén Destino:** Se refiere al código del almacén donde llegarán los artículos que fueron traspasados. <html><br><br></html>
+
+  * **Ubicación Destino:** Se refiere al código de la ubicación del artículo a traspasar dentro del almacén destino. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmtrasartinc2.jpg|}}"></div><br></html>
+ 
+  * **Artículos:** Permite visualizar y seleccionar la información referente a todos los artículos que se van a traspasar a través de un [[Grid|Grid]], dicha información contemplada el grid es la siguiente: **Código y Descripción del Artículo**, la **Unidad de Medida**, la **Cantidad Disponible** en el almacén origen y la **Cantidad a Traspasar** al almacén destino. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Traspaso de Artículos** podrá realizar las siguientes [[operaciones_Basicas|Operaciones Básicas]]

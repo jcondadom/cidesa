@@ -1,0 +1,24 @@
+/* 
+    Document   : Utweet
+    Created on : 28/11/2012, 03:22:55 PM
+    Author     : pasantejb
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+#ultimotweet { position:relative; width:700px; height:20px; margin:0 auto;}
+
+.twtr-widget .twtr-tweet-wrap { position:absolute; top:3px; left:0px; overflow: hidden; padding:0px; margin:0; zoom:1; width:600px !important;}
+
+.twtr-doc { font-size:12px;}
+
+.twtr-hd, .twtr-user, .twtr-ft { display:none;}

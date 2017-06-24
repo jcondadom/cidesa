@@ -1,0 +1,50 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fatartra
+    theme:            cidesaGenerator
+    fields:
+      reftar: { name:  N° Orden de Producción, params : size=10 maxlength=8 onFocus=readonly(this.id) onBlur="rellenarcorr(this.id)"}      
+      fectar: { name: Fecha, params: size=10 date_format='dd/MM/yyyy' maxlength=10}
+      reford:
+        name: Orden de Trabajo
+        catalogo:
+          catalogoweb: Protartra_Faordtra
+          clase: Faordtra
+          ajax: 1
+          parametros: getprincipal="getReford" getsecundario="getDesord" campoprincipal="reford" camposecundario="desord" campobase = "id"
+          divupdate: divgrid_det
+      embarca:  { name: Embaracación, params: style="border:none" size=80}
+      codemp:
+        name: Jefe de Proyecto y/o Responsable
+        params: maxlength=16
+        catalogo:
+          catalogoweb: Nominctratxt_Nphojint
+          clase: Nphojint
+          ajax: 2
+          parametros: getprincipal="getCodemp" getsecundario="getNomemp" campoprincipal="codemp" camposecundario="nomemp" campobase = "id"        
+      destar:  { name: Descripción, type: textarea_tag, params: size=80x3 maxlength=550 onkeyup=" return ismaxlength(this)"}
+      areres:  { name: Área de Responsabilidad, type: textarea_tag, params: size=80x5 maxlength=1000 onkeyup=" return ismaxlength(this)"}
+      grid_det:  { name: .}
+      grid_mat:  { name: .}
+      grid_man:  { name: .}
+      grid_med:  { name: .}
+    list:
+      title:          Tarjetas de Especificaciones de Trabajo
+      display:        [=reftar, fectar, reford, destar, codemp]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [reftar, fectar, reford, destar, codemp]
+      max_per_page:   10
+      sort:           reftar
+    edit:
+      title:  Edición de Tarjeta de Especificación de Trabajo
+      display:
+        "NONE": [reftar, fectar, reford, embarca, codemp, destar, areres, _grid_det, _grid_mat, _grid_man, _grid_med]
+      hide:   [refpre, filactapu]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

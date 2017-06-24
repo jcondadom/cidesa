@@ -1,0 +1,32 @@
+methods:
+  post:
+   - "fcconpag{refcon}"
+   - "fcconpag{rifcon}"
+   - "fcconpag{feccon}"
+   - "fcconpag{fecrec}"
+
+names:
+  fcconpag{refcon}:
+    required:  Yes
+    required_msg: El Número de Control es un campo requerido
+
+  fcconpag{rifcon}:
+    required:  Yes
+    required_msg: La C.I. / RIF no puede estar en Blanco
+
+  fcconpag{feccon}:
+    required:  Yes
+    required_msg: La Fecha del Registro es un campo requerido
+    validators: Fecha2Validator
+
+  fcconpag{fecrec}:
+    required:  Yes
+    required_msg: La Fecha de Recepción es un campo requerido
+    validators: Fecha2Validator
+
+Fecha2Validator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida

@@ -1,0 +1,26 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Metasvendedor
+    theme:            cidesaGenerator
+
+    fields:
+      _vendedor:      {title: Vendedor}
+      _producto:      {title: Producto}
+      catproductos_id:  { name: Producto }
+      vendedores_id:  { name: Nombre y Apellidos del Vendedor }
+    list:      
+      title:          Registro de Metas del Vendedor
+      display:        [_vendedor, _producto, cantidad]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [vendedores_id, catproductos_id]
+      max_per_page:   5
+    edit:
+      title:          Edición de Metas del Vendedor    
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

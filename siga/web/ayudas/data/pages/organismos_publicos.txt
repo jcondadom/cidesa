@@ -1,0 +1,55 @@
+====== Descripción de Campos ======
+
+La pantalla **Proyectos y Acciones Centralizadas** está conformada por una serie de secciones y cada una de ellas contempla un grupo de campos que deben ser ingresados, dichas secciones son: 
+
+  * **Gerente del Proyecto:** 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefespproyacccentinc11.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Responsable:** Debe seleccionar el responsable ó personal directo del proyecto, al presionar el Botón {{:btncuadrocatalogo.jpg}} el sistema muestra una [[Listas|lista]] con los diferentes responsables que fueron definidos previamente en el sistema.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Unidad de Adscripción:** Indica el nombre de la Unidad Administrativa donde se encuentra adscrito la persona que confirma los datos obtenidos en la ficha del proyecto.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Cargo:** Indica el cargo que ocupa dentro de la estructura organizativa del órgano ó ente que confirma los datos obtenidos en la ficha del proyecto.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Teléfono:** Indica el número telefónico donde puede ser ubicada la persona que confirma los datos obtenidos en la ficha del proyecto.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Fax:** Indica el número del fax donde puede ser ubicada la persona que confirma los datos obtenidos en la ficha del proyecto.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- E-mail:** Indica la dirección de correo electrónico de la persona que confirma los datos obtenidos en la ficha del proyecto. <html><br><br></html>
+
+  * **Agencia del Decisor:**
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefespproyacccentinc12.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Acciones Inmediatas:** Indica aquellos proyectos  que se iniciarán durante el primer semestre del año fiscal correspondiente.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Acciones Diferidas:** Indica aquellos proyectos que se iniciarán durante el segundo semestre del año fiscal correspondiente.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Plan de Contingencia:** Indica el plan de contigencia (en caso de aplicar)con el que cuenta el proyecto. <html><br><br></html>
+
+  * **Empleos Generados:**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Número Estimado de Empleos Directos:** Indica la cantidad de empleos directos generados por el proyecto asociado, durante la fase de inversión y operación.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Número Estimado de Empleos Directos:** Indica la cantidad de empleos directos generados por el proyecto asociado durante la fase de inversión y operación. <html><br><br></html>
+
+  * **Descripción Breve del Proyecto** Indica una explicación breve, clara y sencilla del proyecto. <html><br><br></html>
+
+  * **Avance del Proyecto:** 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefespproyacccentinc13.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Porcentaje de Avance Físico del Proyecto:** Indica en términos de porcentaje el avance físico del proyecto.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Porcentaje de Avance Financiero:** Indica en términos de porcentaje el avance financiero del proyecto.
+
+
+
+
+ 
+
+
+
+
+

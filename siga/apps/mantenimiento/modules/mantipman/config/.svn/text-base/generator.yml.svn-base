@@ -1,0 +1,29 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Mantipman
+    theme:            cidesaGenerator
+    fields:
+      codtma: { name:  Código, params : size=5 maxlength=4 onFocus=readonly(this.id)}
+      destma: { name:  Descripción, params : size=80 maxlength=250}
+    list:
+      title:          Tipos de Mantenimiento
+      display:        [=codtma, destma]
+      fields:
+        codtma: { name:  Código, params : size=5 maxlength=4}
+        destma: { name:  Descripción, params : size=15 maxlength=250}
+      filters:        [codtma, destma]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           codtma
+    edit:
+      title:          Edición del Tipo de Mantenimiento
+      display:
+        "NONE": [codtma, destma]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

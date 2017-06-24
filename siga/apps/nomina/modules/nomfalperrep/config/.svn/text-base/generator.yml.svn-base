@@ -1,0 +1,22 @@
+generator:
+  class:              sfPropelAdminGenerator
+  param:
+    model_class:      Nphojint
+    theme:            default
+    fields:
+      codemp: { name: Cód. Empleado }
+      nomemp: { name: Nombre }
+      nomcar: { name: Cargo }
+      desniv: { name: Unidad Administratica }
+      codmotfal: { name: Motivo }
+    list:
+      title:          Reposos
+      filters:        [codemp, nomemp ]
+      display:        [=codemp, nomemp ]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+    edit:
+      title:          Edición Reposos
+      display:        [codemp, nomemp, nomcar, desniv, codmotfal]

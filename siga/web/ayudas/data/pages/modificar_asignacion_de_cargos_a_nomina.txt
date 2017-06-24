@@ -1,0 +1,18 @@
+====== Operación Modificar ======
+
+Para **Modificar** la Asignación de Cargos a una determinada Nómina:<html><br><br></html>
+
+  * Seleccionar de la Lista el **Código del Tipo de Nómina** para el cual desea modificar la Asignación de Cargos.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasicarnommod.jpg|}}"></div><br><br></html>
+
+  * Las modificaciones que podrá realizar es Agregar o Quitar elementos de la tabla. 
+
+  * Para **Agregar** un elemento a la tabla debe presionar el **Botón** <html>&nbsp;&nbsp;</html>{{:btnconsultagrid.jpg|}} y seguidamente el sistema mostrará el catálogo de Cargos registrados en el sistema, luego seleccione el Cargo que desea agregar a la tabla.
+
+  * Para **Quitar** un elemento de la tabla debe presionar el **Botón** <html>&nbsp;&nbsp;</html>{{:btnquitar.jpg|}} que se encuentre de lado izquierdo del Código del Concepto que desee quitar de la tabla.<html><br><br></html> 
+
+  * Presionar {{:btnguardar.jpg|}} para actualizar la información.  <html><br><br></html> 
+
+  * El sistema emite un **Mensaje de Éxito**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

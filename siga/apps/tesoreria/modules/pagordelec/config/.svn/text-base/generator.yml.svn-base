@@ -1,0 +1,29 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Opordpag
+    theme:            cidesaGenerator
+    fields:
+      grid: { name: . }
+      numord: { name: . }
+      fecemi: { name: . }
+      tipcau: { name: . }
+      cedrif: { name: . }
+      codconcepto: { name: . }
+      btnbuscar: { name: . }
+      coddirec:
+        name: Dirección
+        params: size=3 maxlength=15
+        catalogo:
+          catalogoweb: Cadefdirec_Almdefdiv
+          clase: cadefdirec
+          ajax: 1
+          parametros: getprincipal="getCoddirec" getsecundario="getDesdirec" campoprincipal="coddirec" camposecundario="desdirec" campobase = "id"
+    edit:
+      title:          Órdenes para Pagos Electrónicos
+      display:
+        "Filtros":  [_numord, _fecemi, _tipcau, _cedrif, _codconcepto, coddirec, _btnbuscar]
+        "Órdenes de Pago": [_grid]
+      hide:  [filasord, valdatben]
+      actions:
+        _save:        ~

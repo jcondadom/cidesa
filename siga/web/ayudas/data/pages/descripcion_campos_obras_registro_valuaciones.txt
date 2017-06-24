@@ -1,0 +1,50 @@
+====== Descripción de Campos ======
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontvaluacreginc1.jpg|}}"></div><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:catalogorecaudos.jpg|}}"></div><br></html>
+
+  * En el campo **Contrato Número** presione el **Botón** {{:btncuadrocatalogo.jpg|}} para que el sistema muestre el catálogo con los Contratos definidos previamente en el sistema donde debe seleccionar el Contrato al cual se le asignará la Valuación. <html><br><br></html>
+
+  * Seleccione el **Tipo** al que pertenece la Valuación que está registrando. Es importante destacar que los Tipos de Valuaciones fueron definidas previamente en el sistema y las cuales pueden ser: **Anticipo**, **Parcial**, **Final** y **Reconsideración de Precios** y deben ser registradas en el mismo orden a menos que sea una Reconsideración de Precios la cual puede registrarce en cualquier momento siempre y cuando ya se encuentre registrado el Anticipo.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontvaluacreginc3.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** En el caso que el **Tipo de valuación** sea **Anticipo**  el sistema automáticamente genera y muestra el **Número de Valuación**, la **sección Porcentajes** en la cual debe ingresar el **Porcentaje** de **IVA** y **Anticipo** y por último muestra la **Fecha** en la que está registrando la Valuación.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontvaluacreginc2.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** En el caso que la **Tipo de Valuación** sea **Parcial**  el sistema automáticamente muestra el **Número de Anticipo** y la **sección Período** en la cual debe seleccionar del calendario {{:btncalendario.jpg|}} el **período Del y Al** de la Valuación y  y por último muestra la **Fecha** en la que está registrando la Valuación.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontvaluacreginc4.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** En el caso que la **Tipo de Valuación** sea **Final**  el sistema automáticamente muestra el **Número de Anticipo** y la **sección Porcentajes** en la cual debe ingresar el porcentaje de **IVA** y **Amortización de Anticipo**  y por último muestra la **Fecha** en la que está registrando la Valuación.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontvaluacreginc5.jpg|}}"></div><br></html>
+
+  * Para cualquiera que sea el Tipo de Valuación que escoja y una ves que halla definido los datos anteriores, el sistema muestra la **Obra** asociada al Contrato y el **Contratista**. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontvaluacreginc6.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Resúmen** el sistema muestra el **Monto Original del Contrato**, **Aumento de Obras**, **Disminución de Obras**, **Obras Extras** y **Monto Total del Contrato**.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Es importante destacar que dicha pestaña no es visible cuando el Tipo de Valuación seleccionado es Anticipo
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontvaluacreginc7.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Partidas** se muestran las partidas asociadas al contrato y a la obra y por cada una de ellas la **Unidad de Medida**, **Cantidad Contratada**, **Cantidad Valuada**, **Cantidad Final**, **Costo Unitario** y **Total**.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontvaluacreginc8.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Retenciones** el sistema muestra el **Total sin IVA**, **Amortización del Anticipo**, **Fianza**, **Sub Total**, las **Retenciones** y por cada una de las retenciones el **Porcentaje a Retener** y el **Monto** y por último el **Total Retenciones** (sin fianza), **Valuaciones Pagadas**, **Saldo Neto a Pagar**.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontvaluacreginc9.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Estados de Cuenta** el sistema muestra el Estado de Cuenta del Contrato hasta la Fecha (**Monto Total del Contrato**, **Monto Total Valuaciones Presentadas**, **Saldo por Liquidar**) y Saldo de Anticipo (**Monto del Anticipo**, **Amortización del Anticipo**, **Saldo del Anticipo**).
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontvaluacreginc10.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Inspectores** y presione el Botón {{:btnconsultagrid.jpg|}} para que el sistema muestre aquellos inspectores que fueron registrados previamente en el sistema y luego debe seleccionar aquellos que asigandos para inspeccionar la Obra. Automáticamente el ssitema muestra el Nombre y el Número de C.I.V de cada uno de los Inspectores seleccionados. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Registro** ahora podrá realizar determinadas [[operaciones_basicas|Operaciones Básicas]]
+ 

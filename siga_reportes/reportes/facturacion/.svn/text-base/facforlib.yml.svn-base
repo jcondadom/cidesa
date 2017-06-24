@@ -1,0 +1,22 @@
+Parametros:
+  modulo: facturacion
+  nomrep: facforlib
+  titulo: FORMA PREIMPRESA DE LA FACTURA
+  orientacion: Vertical 
+  tipopagina: Carta
+  width: 250
+  jasper: S
+ 
+Filas:
+  1:
+    tipotag:   inputcat_tag
+    label: "Número De Factura:"
+    sql: "SELECT min(reffac) as codmin,max(reffac) as codmax FROM fafactur"
+    nomdes: codmin
+    campodes: codmin
+    catdes: 0
+    nomhas: codmax
+    campohas: codmax
+    cathas: 1
+    nomcat: factura
+    size: 15

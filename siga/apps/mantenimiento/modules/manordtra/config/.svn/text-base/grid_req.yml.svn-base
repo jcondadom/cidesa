@@ -1,0 +1,22 @@
+opciones:                  # Opciones generales
+  name:                    c
+  eliminar:                true
+  tabla:                   mandetreq
+  anchogrid:               800
+  ancho:                   550
+  filas:                   1
+  titulo:                  ' Detalle de las Requisiciones'
+  htmltotalfilas:          ' '
+1:
+  titulo:                  N° Requisición
+  tipo:                    t
+  nombrecampo:             reqart
+  esgrabable:              true
+  ajaxgrid:                true
+  html:                    ["size=15 maxlength=8 readonly=true"]  
+2:
+  titulo:                  Buscar
+  tipo:                    t
+  nombrecampo:             anareq
+  esgrabable:              true  
+  html:                    [size="1"]

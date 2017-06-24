@@ -1,0 +1,11 @@
+Los campos que conforman la pantalla de **Tipos de Financiamiento** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbantipfininc1.jpg|}}"></div><br></html>
+
+  * **Código:** Es el código Asociado al tipo de financiamiento. <html><br><br></html>
+ 
+  * **Nombre Extendido:** Indica el nombre especifico del financiamiento.  <html><br><br></html>
+ 
+  * **Nombre Abreviado:** Indica el nombre asignado en forma abreviada. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Tipos de Financiamiento** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

@@ -1,0 +1,33 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcdeclar
+    theme:            cidesaGenerator
+
+    fields:
+      anohasta:     { name: Hasta, params: size=4  maxlength=4 disabled=false }
+      anodesde:     { name: Desde, params: size=4  maxlength=4 disabled=false }
+      zonadesde:     { name: Desde, params: size=10  }
+      nomdesde:     { name: . }
+      zonahasta:     { name: Hasta, params: size=10  }
+      nomhasta: { name: . }
+      grid: {name: .}
+      totalcon: {name: Total M2 Construcción}
+      totalter: {name: Total M2 Terreno}
+      botones: { name: . }
+      fundec: { name: . }
+
+    edit:
+      title: Generación de Deudas en Lote
+
+      display:
+        "Año a Declarar": [ anodesde, anohasta]
+        "Zona del Inmueble": [ _zonadesde, _zonahasta ]
+        NONE:  [ _botones, _grid, totalcon, totalter]
+      hide: [ fundec]
+      actions:
+        _list:        NONE
+        _save:
+         name: Generar Deuda
+        _delete:      NONE
+        _create:      ~

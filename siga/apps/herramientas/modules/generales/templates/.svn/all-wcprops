@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/48713/web/php/siga/branches/productions/trunk/apps/herramientas/modules/generales/templates
+END
+autocompleteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/herramientas/modules/generales/templates/autocompleteSuccess.php
+END
+nologinSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/26730/web/php/siga/branches/productions/trunk/apps/herramientas/modules/generales/templates/nologinSuccess.php
+END
+disabledSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/26730/web/php/siga/branches/productions/trunk/apps/herramientas/modules/generales/templates/disabledSuccess.php
+END
+loginSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/26730/web/php/siga/branches/productions/trunk/apps/herramientas/modules/generales/templates/loginSuccess.php
+END
+_filters.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/herramientas/modules/generales/templates/_filters.php
+END
+_json.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/48595/web/php/siga/branches/productions/trunk/apps/herramientas/modules/generales/templates/_json.php
+END
+_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/herramientas/modules/generales/templates/_list.php
+END
+error404Success.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/26730/web/php/siga/branches/productions/trunk/apps/herramientas/modules/generales/templates/error404Success.php
+END
+_list_td_tabular.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/herramientas/modules/generales/templates/_list_td_tabular.php
+END
+uploadSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/27010/web/php/siga/branches/productions/trunk/apps/herramientas/modules/generales/templates/uploadSuccess.php
+END
+guardarestadoSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repositorio/!svn/ver/27010/web/php/siga/branches/productions/trunk/apps/herramientas/modules/generales/templates/guardarestadoSuccess.php
+END
+_list_th_tabular.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/herramientas/modules/generales/templates/_list_th_tabular.php
+END
+routingSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/26730/web/php/siga/branches/productions/trunk/apps/herramientas/modules/generales/templates/routingSuccess.php
+END
+catalogobuscarcheckSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/herramientas/modules/generales/templates/catalogobuscarcheckSuccess.php
+END
+errores.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/26730/web/php/siga/branches/productions/trunk/apps/herramientas/modules/generales/templates/errores.php
+END
+catalogobuscarSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/26730/web/php/siga/branches/productions/trunk/apps/herramientas/modules/generales/templates/catalogobuscarSuccess.php
+END
+catalogoSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/48713/web/php/siga/branches/productions/trunk/apps/herramientas/modules/generales/templates/catalogoSuccess.php
+END
+nocredentialsSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repositorio/!svn/ver/26730/web/php/siga/branches/productions/trunk/apps/herramientas/modules/generales/templates/nocredentialsSuccess.php
+END
+cargarestadoSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/27010/web/php/siga/branches/productions/trunk/apps/herramientas/modules/generales/templates/cargarestadoSuccess.php
+END

@@ -1,0 +1,19 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Viacalviatra
+    theme:            cidesaGenerator
+
+    fields:
+      fecdes: { name: Desde}
+      fechas: { name: Hasta}
+      grid : { name: .}
+
+    edit:
+      title:          Reversar Verificación de Calculos de Viaticos
+      display:
+        "Fechas": [_fecdes, _fechas, _grid]
+      actions:
+        _list:        NONE
+        _save:        ~
+        _delete:      NONE

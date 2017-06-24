@@ -1,0 +1,16 @@
+======Definición de Formas de Entrega======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso en el que se define las distintas Formas de Entrega que puede establecer un proveedor, éstas pueden ser Inmediata, a 30 días. etc.</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Proveedores** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmprov.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Definición de Formas de Entrega**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/compalmprovforment.jpg"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Definición de Formas de Entrega** veamos la [[Descripcion_Campos_Definicion_Formas_Entrega|Descripción de los Campos]]

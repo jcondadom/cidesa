@@ -1,0 +1,17 @@
+====== Asignar Partidas ======
+**Tablas:** 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que se encarga de asignarle a cada una de las partidas de una determinada Categoría Orígen una Categoría Destino.<br><br> </html> 
+
+Para ello:
+
+  * Seleccione la opción **Contabilidad Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpre.jpg|}}"></div><br></html>
+
+   * Seguidamente despliegue la opción **Definiciones Específicas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpredefesp.jpg|}}"></div><br></html>
+
+  * Por último seleccione la opción **Asignar Partidas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreasipar.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Asignar Partidas** veamos la [[Descripcion_Campos_presupuesto_asignacion_partidas|Descripción de los Campos]]

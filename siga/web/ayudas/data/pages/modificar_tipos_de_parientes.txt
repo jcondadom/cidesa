@@ -1,0 +1,15 @@
+====== Operación Modificar ======
+
+Para Modificar una Variable:   <html><br><br></html>
+
+  * Seleccionar de la **Lista** el Tipo de Pariente a modificar. 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompertipparmod.jpg|}}"></div><br></html> 
+
+  * Realice las modificaciones necesarias. Es importante señalar que los campos modificables son el **Nombre** y los **Valores** que puede tomar dicha variable.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/"></div><br></html>
+
+  * Presionar  {{:btnguardar.jpg|}}   para registrar las modificaciones realizadas. <html><br><br></html>
+
+  * El sistema muestra un mensaje de éxito.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>
+

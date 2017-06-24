@@ -1,0 +1,42 @@
+====== ¿ Quienes pueden ingresar a SIGA ? ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Los usuarios que pueden ingresar a <b>SIGA</b> son todos aquellos que sean usuarios válidos dentro de la base de datos del mismo, es decir, que hallan sido definidos previamente dentro del sistema.<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La persona encargada de definir dichos usuarios, entre otras cosas, es el Administrador del Sistema el cual debe ser asignado por la empresa o Institución una vez que se halla instalado el mismo. </html>
+
+Para crear un usuario el Administrador del Sistema debe:<html><br><br></html>
+
+  * Ubicarse en el Menú Principal de SIGA. <html><br><br></html>
+
+  * Presione la opción **Aplicación Maestra**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:menuprincipal.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en **Seguridad** haga click en el signo positivo que está ubicado al lado de ** Definiciones** para desplegar sus opciones correspondientes
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/segdef.jpg"></div> </html>
+
+  * Seleccione la opción **Usuarios**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/segdefusuario.jpg"></div><br></html>
+
+  * Presione  el Botón {{:btnnuevo.jpg|}} <html><br><br></html>
+
+  * Automáticamente observará la pantalla de **Edición de Usuario** donde debera ingresar en  la sección **Datos del Usuario** :
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:aplimaeediusuinc1.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Ingresar la **Cédula** y **Nombre** del Usuario.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Ingresar la **Dirección** y **Teléfono** de ubicación.<html><br><br></html>
+
+  * En la sección **Otros Datos**:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:aplimaeediusuinc2.jpg|}}"></div><br> </html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Ingrese el **Usuario** con el cual ingresará al sistema.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Ingrese la **Contraseña** que le permitirá el ingreso al sistema la cual debe ser 6 dígitos como mínimo.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Por último debe **Confirmar la Contraseña** ingresada anteriormente. <html><br><br></html>
+
+  * Una vez ingresados los datos presione el Botón {{:btnguardar.jpg|}} <html><br><br></html>
+
+  * Una vez guardados los datos los podrá consultar presionando el Botón  {{:btnlista.jpg|}} y el sistema automáticamente mostrará una lista de usuarios registrados 

@@ -1,0 +1,14 @@
+====== Operación Modificar ======
+
+Para **modificar** un determinado Contrato Colectivo:
+
+  * Seleccionar de la **Lista** el **Código del Trabajador** para la cual desea realizar una modificación en cuanto al Registro de Solicitud de Vacaciones. <html><br><br></html>
+
+  * El sistema muestra la Solicitud de Vacaciones del trabajador seleccionado. <html><br><br></html>
+
+  * La modificación que podrá realizar en la Solicitud de Vacaciones es en las **Observaciones** de ser necesario.
+
+  * Una ves realizadas las modificaciones debe Presionar {{:btnguardar.jpg|}} para actualizar la información.  <html><br><br></html> 
+
+  * El sistema emite un **Mensaje de Éxito**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

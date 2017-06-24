@@ -1,0 +1,43 @@
+====== Descripción de Campos ======
+
+Los campos que conforman la pantalla **Definiciones Generales** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/formprenivdefgeninc1.jpg"></div><br></html>
+
+  * **Estructura del Código Presupuestario:** El sistema muestra en este campo la estructura que posee el  código presupuestario luego de haber sido definido previamente en la pantalla [[formulacion_niveles_presupuestarios|Niveles Presupuestarios]] <html><br><br></html>
+
+  * Para cada uno de los Niveles correspondientes a los **Proyectos y Acciones Centralizadas**, **Acciones Específicas**, **Actividades o Sub Acciones Específicas**, **Unidades Ejecutoras o Administrativas** y **Nivel de Partidas** se debe definir lo siguiente: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Desde:** Indica el número de ruptura desde el cual comenzará el nivel correspondiente
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Hasta:** Indica el número de ruptura hasta el cual será el nivel al que corresponda.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Longuitud:** Indica la longuitud que formará el nivel.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Formato:** Indica el formato perteneciente al nivel. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formprenivdefgeninc2.jpg|}}"></div><br></html>
+
+  *** Partida Presupuestaria del IVA:** Indica la partida presupuestaria asociada al IVA. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[Listas|Lista]] con las partidas presupuestarias que fueron definidas anteriormente en el sistema. <html><br><br></html>
+
+  * **Maneja IVA por Formulación:** Debe seleccionar "Sí" ó "No" se maneja IVA por formulación. <html><br><br></html>
+
+  * **Valor del IVA:** Indica el valor del IVA en caso de que en el campo anterior la opción marcada sea "Sí" <html><br><br></html>
+
+  * **Correlativos:** Indica el número de correlativo correspondiente a **Estados**, **Sectores** y **Directrices**. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Definiciones Generales** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+
+
+
+
+
+
+
+
+
+  
+
+
+
+

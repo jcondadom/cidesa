@@ -1,0 +1,13 @@
+.input-medium, input.medium, textarea.medium, select.medium {
+	width: 150px;
+	padding: 4px !important;
+}
+
+
+#grid-search label {
+	text-align: left !important;
+}
+
+#grid-search br {
+	line-height: 23px !important;
+}

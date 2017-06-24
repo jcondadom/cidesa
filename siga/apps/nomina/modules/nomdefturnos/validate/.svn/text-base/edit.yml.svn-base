@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "npturnos{codtur}"
+   - "npturnos{destur}"
+
+names:
+  npturnos{codtur}:
+    required:  Yes
+    required_msg: El Código del Turno no puedo estar en Blanco
+    validators: UniqueValidator
+
+  npturnos{destur}:
+    required:  Yes
+    required_msg: La Descripción del Turno no puedo estar en Blanco
+    validators: DescripcionValidator
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Npturnos
+        column:   codtur
+        unique_error:   El Código del Turno ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción del Turno no puede tener menos de 5 caracteres
+        max:       500
+        max_error: La Descripción del Turno no puede tener más de 500 caracteres

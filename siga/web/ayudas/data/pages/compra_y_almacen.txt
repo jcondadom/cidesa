@@ -1,0 +1,104 @@
+====== Compras y Almaceń ======
+ 
+Las opciones que conforman el **Menú de Compras y Almacén** son las siguientes:
+
+==== Proveedores ====
+
+  * [[Definición de Grupos de Recaudos|Definición de Grupos de Recaudos]]
+
+  * [[Definición de Recaudos|Definición de Recaudos]]
+
+  * [[Registro de Proveedores|Registro de Proveedores]]
+ 
+  * [[Definición de Condiciones de Pago|Definición de Condiciones de Pago]]
+
+  * [[Definición de Formas de Entrega|Definición de Formas de Entrega]]
+
+  * [[Definición de Razones de Compra|Definición de Razones de Compra]]
+
+  * [[Definición de Rangos de Cotizaciones|Definición de Rangos de Cotizaciones]]
+
+  * [[Definición de Motivos de Faltantes|Definición de Motivos de Faltantes]]
+
+  * [[Definición de Tipos de Entrada|Definición de Tipos de Entrada]]
+
+  * [[Definición de Tipos de Salida|Definición de Tipos de Salida]]
+
+  * [[Definición de Tipo de Proyecto|Definición de Tipo de Proyecto]]
+
+==== Artículos ====
+
+  * [[Definición de Articulos|Definición de Artículos]]
+
+  * [[Definición de Ubicaciones |Definición de Ubicaciones]]
+
+  * [[Ramos de Articulos |Ramos de Artículos]]
+
+  * [[Registro de Articulos y/o Servicios |Registro de Artículos y/o Servicios]]
+
+  * [[Registro de Recargos|Registro de Recargos]]
+
+==== Compras ====
+
+  * [[Ordenes de Compra y/o Servicios|Ordenes de Compra y/o Servicios]]
+
+  * [[Ajuste a Ordenes de Compra|Ajuste a Ordenes de Compra]]
+
+  * [[Cotizaciones|Cotizaciones]]
+
+  * [[Asignación de Prioridad a Cotizaciones|Asignación de Prioridad a Cotizaciones]]
+
+==== Almacén ====
+
+  * [[Definiciones_Generales|Definiciones Generales]]
+
+  * [[Requisiciones|Requisiciones]]
+
+  * [[Aprobacion de Requisiciones por Lotes|Aprobación de Requisiciones por Lotes]]
+
+  * [[Requisiciones de Servicios|Requisiciones de Servicios]]
+
+  * [[Requisiciones por Departamento (Solicitud de Egreso)|Requisiciones por Departamento (Solicitud de Egreso)]]
+
+  * [[Aprobacion de Solicitud de Egresos|Aprobación de Solicitud de Egresos]]
+
+  * [[Despachos|Despachos]]
+
+  * [[Prestación de Servicios|Prestación de Servicios]]
+
+  * [[Inventario Fisico|Inventario Físico]]
+
+  * [[Traspaso de Artículos|Traspaso de Artículos]]
+
+  * [[Recepcion de Ordenes de Compra |Recepcion de Ordenes de Compra ]]
+
+  * [[Entradas de Almacen|Entradas de Almacen]]
+
+  * [[Salidas de Almacen|Salidas de Almacen]]
+
+==== SNC ====
+ 
+
+  * [[Catálogo SNC|Catálogo SNC]]
+
+  * [[Tipos de Proveedores|Tipos de Proveedores]]
+
+  * [[Medios de Comunicación|Medios de Comunicación]]
+
+  * [[Procedimientos de Ejecución de Compras|Procedimientos de Ejecución de Compras]]
+
+  * [[Programar Compras de Artículos|Programar Compras de Artículos]]
+
+==== Mantenimiento ====
+
+  * [[Clasificador de Partidas Presupuestarias|Clasificador de Partidas Presupuestarias]]
+
+  * [[Traspaso de Inventario Físico a Lógico|Traspaso de Inventario Físico a Lógico]]
+
+
+
+
+
+
+
+

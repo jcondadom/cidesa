@@ -1,0 +1,42 @@
+methods:
+  post:
+   - "mancaufal{codcfa}"
+   - "mancaufal{descfa}"
+   - "mancaufal{coddfa}"
+
+names:
+  mancaufal{codcfa}:
+    required:  Yes
+    required_msg: Introduzca el Código de la Causa
+    validators: Validator_codcfa
+    
+  mancaufal{descfa}:
+    required:  Yes
+    required_msg: Introduzca la Descripción de la Causa
+    validators: Validator_descfa
+
+  mancaufal{coddfa}:
+    required:  No
+    validators: Validator_coddfa    
+
+Validator_codcfa:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Mancaufal
+        column:       codcfa
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_descfa:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La Descripción no puede tener mas de 250 caracteres 
+
+Validator_coddfa:
+    class: CidesaExistValidator
+    param:
+        class:        Mandeffal
+        column:       coddfa
+        unique_error: El Defecto de la Falla debe Existir.

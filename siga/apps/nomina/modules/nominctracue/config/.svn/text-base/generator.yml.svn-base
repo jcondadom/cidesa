@@ -1,0 +1,39 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npinctra
+    theme:            cidesaGenerator
+    fields:
+      tipreg: { name: Tipo de Registro, params: size=5 maxlength=2}
+      codpro: { name: Código del Promotor, params: size=15 maxlength=13}
+      rifemp: { name: Rif de la Empresa, params: size=15 maxlength=10}
+      nomemp:  { name: Nombre de la Empresa, params: size=40 maxlength=32}
+      urbani:  { name: Urbanización, params: size=35 maxlength=30}
+      avenid:  { name: Avenida, params: size=35 maxlength=30}
+      conjun:  { name: Conjunto, params: size=35 maxlength=30}
+      numero:  { name: Número, params: size=35 maxlength=30}
+      ciudad:  { name: Ciudad, params: size=35 maxlength=30}
+      estado:  { name: Estado, params: size=35 maxlength=30}
+      pais:  { name: País, params: size=35 maxlength=30}
+      telefono:  { name: Teléfono, params: size=15 maxlength=11}
+      fax:  { name: FAX, params: size=15 maxlength=11}
+      internet:  { name: Internet, params: size=35 maxlength=30}
+      frenomobr: { name: Frec. Nom Obreros, params: size=5 maxlength=1}
+      facingobr: { name: Factor. Ing Obreros, params: size=7 maxlength=5}
+      frenomemp: { name: Frec. Nom Empleados, params: size=5 maxlength=1}
+      facingemp: { name: Factor. Ing Empleados, params: size=7 maxlength=5}
+      frenomeje: { name: Frec. Nom Ejecutivos, params: size=5 maxlength=1}
+      facingeje: { name: Factor. Ing Ejecutivos, params: size=7 maxlength=5}
+      frenomcon: { name: Frec. Nom Contratados, params: size=5 maxlength=1}
+      facingcon: { name: Factor. Ing Contratados, params: size=7 maxlength=5}
+      tipcuen: { name: Tipo de Cuenta, params: size=5 maxlength=2}
+      numcue: { name: Número de Cuenta, params: size=25 maxlength=20}
+      zonpos: { name: Zona Postal Empresa, params: size=7 maxlength=5}
+      filler: { name: Filler, params: size=80 maxlength=130}
+    edit:
+      title:          Definición de Incorporación de Trabajadores a Cuenta
+      display:       [=tipreg, codpro, rifemp, nomemp, urbani, avenid, conjun, numero, ciudad, estado, pais, telefono, fax, internet, frenomobr, facingobr, frenomemp, facingemp, frenomeje, facingeje, frenomcon, facingcon, tipcuen, numcue, zonpos, filler]
+      actions:
+        _list:        NONE
+        _save:        ~
+        _delete:      NONE

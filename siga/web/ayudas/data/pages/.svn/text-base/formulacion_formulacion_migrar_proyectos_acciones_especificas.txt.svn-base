@@ -1,0 +1,21 @@
+====== Migrar Proyectos y Acciones Especìficas ======
+
+Permite migrar los proyectos y acciones especìficas partiendo de:
+
+  - Los Còdigos Presupuestarios que se crearon previamente en el Subsistema de Presupuesto
+  - Las definiciones realizadas previamente en Definiciones Generales. <html><br><br></html>
+
+**Para ello:**
+
+  * Seleccione la opción **Formulación Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpre.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Mantenimiento**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpremant.jpg|}}"></div><br></html>
+ 
+  * Por último seleccione **Migrar Proyectos y Acciones Especìficas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpremantmigproyaccesp.jpg|}}"></div><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpremantmigproyaccespinc1.jpg|}}"></div><br><br></html>
+
+  * Una vez ubicado en la pantalla de **Migrar Proyectos y Acciones Especìficas** podemos observar una pantalla con una serie de botones que al presionarlos el sistema automàticamente realizarà la operaciòn correspondiente ya sea **Crear Proyectos**, **Crear Acciones Especìficas**, **Crear Unidades Ejecutoras** ó **Crear Partidas de Egreso**

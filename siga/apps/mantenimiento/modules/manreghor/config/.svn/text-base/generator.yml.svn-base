@@ -1,0 +1,45 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Manreghor
+    theme:            cidesaGenerator
+    fields:
+      numequ:
+        name: Código de Equipo
+        catalogo:
+          catalogoweb: Mantenimiento_Manregequ
+          clase: Manregequ
+          ajax: 1
+          parametros: getprincipal="getNumequ" getsecundario="getNomequ" campoprincipal="numequ" camposecundario="nomequ" campobase = "id"          
+      centro: { name: Centro de Costo, params: style="border:none" size=80}
+      estatus: { name: Estatus, params: style="border:none" size=80}
+      tipequ: { name: Tipo del Equipo, params: style="border:none" size=80}
+      fecreg: { name: Fecha, params: date_format='dd/MM/yyyy' maxlength=10}
+      tiping: { name: Tipo de Ingreso}
+      valhor: { name: HH}
+      nomequ: { name: Descripción}
+      codume:
+        name: Unidad de Medida
+        catalogo:
+          catalogoweb: Mantenimiento_Manunimed
+          clase: Manunimed
+          ajax: 0
+          parametros: getprincipal="getCodume" getsecundario="getDesume" campoprincipal="codume" camposecundario="desume" campobase = "id"          
+    list:
+      title:          Registro de Horómetros
+      display:        [=numequ, nomequ, fecreg]
+      filters:        [numequ]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           numequ
+    edit:
+      title:          Edición de Horómetro
+      display:
+        "NONE": [numequ, centro, estatus, tipequ, fecreg, _tiping, valhor, codume]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

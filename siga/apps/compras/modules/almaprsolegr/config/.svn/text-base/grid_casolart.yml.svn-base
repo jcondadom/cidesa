@@ -1,0 +1,71 @@
+opciones:                  # Opciones generales
+  name:                    compromiso
+  eliminar:                false
+  tabla:                   casolart
+  anchogrid:               820
+  ancho:                   820
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Aprobar
+  tipo:                    k
+  nombrecampo:             aprobar
+  html:                    ["size=3 onClick=verificar(this.id)"]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Rechazar
+  tipo:                    k
+  nombrecampo:             rechazar
+  html:                    ["size=3 onClick=verificar(this.id)"]
+  esgrabable:              true  
+3:       # Columna 3
+  titulo:                  Referencia
+  tipo:                    t
+  nombrecampo:             reqart
+  html:                    [size="10" ]
+  esgrabable:              true
+4:       # Columna 4
+  titulo:                  Descripcion
+  tipo:                    a
+  nombrecampo:             desreq
+  html:                    [size="40x2" ]
+  esgrabable:              false
+5:       # Columna 5
+  titulo:                  Fecha
+  tipo:                    f
+  nombrecampo:             fecreq
+  html:                    [size="10"]
+  esgrabable:              false
+6:       # Columna 6
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monreq
+  html:                    [size="10" ]
+  esgrabable:              false
+7:       # Columna 7
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monreq2
+  html:                    [size="10" ]
+  esgrabable:              false  
+  oculta:              true
+8:       # Columna 8
+  titulo:                  Analista
+  tipo:                    t
+  nombrecampo:             codemp
+  html:                    [size="15" readonly=true]
+  esgrabable:              true
+  catalogo:                [nphojint, sf_admin_edit_form, {Codemp: 8, Nomemp: 9}, Nphojint_Almordcom ]
+9:       # Columna 9
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nomemp
+  html:                    [size="25" readonly=true]
+  esgrabable:              true
+10:       # Columna 10
+  titulo:                  Observación
+  tipo:                    a
+  nombrecampo:             obsreq
+  html:                    [size="40x2" ]
+  esgrabable:              true

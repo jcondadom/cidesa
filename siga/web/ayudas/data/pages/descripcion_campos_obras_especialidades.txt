@@ -1,0 +1,10 @@
+====== Descripción de Campos ======
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontpersespecinc1.jpg|}}"></div><br></html>
+
+  * Ingresar el **Código** que identifique a la Especialidad. <html><br><br></html>
+
+  * Ingresar la **Descripción** de la Especialidad. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Especialidades** ahora podrá realizar determinadas [[operaciones_basicas|Operaciones Básicas]]
+ 

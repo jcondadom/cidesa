@@ -1,0 +1,507 @@
+propel:
+  _attributes: { noXsd: false, defaultIdMethod: native, package: lib.model.hcm }
+  hcdefgen:
+    _attributes:
+      description: Contiene las definiciones generales del modulo HCM
+    hcmcob:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: monto de la cobertura para HCM
+    matcob:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: monto de la cobertura para Maternidad
+    odocob:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: monto de la cobertura para Odontologia
+    funcob:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: monto de la cobertura para Funeraria
+    fecvig:
+      type: TIMESTAMP
+      description: Fecha de Vigencia de las Coberturas
+    codreem:
+      type: VARCHAR
+      size: 3
+      description: concepto de la nomina para los reembolsos de Medicinas
+    durcarava:
+      type: INTEGER
+      description: Días de duracion de la carta aval
+    codreeo:
+      type: VARCHAR
+      size: 3
+      description: concepto de la nomina para los reembolsos Odontológicos    
+    codramhcm:
+      type: VARCHAR
+      size: 6
+      description: Código del Ramos de Consumos HCM
+    codramgasfun:
+      type: VARCHAR
+      size: 6
+      description: Código del Ramos de Gastos Funerarios
+    notdef:
+      type: VARCHAR
+      size: 500
+      description: Nota por Defecto
+    duraut:
+      type: INTEGER
+      description: Duración de la autorización para exámenes
+    firemp1:
+      type: VARCHAR
+      size: 16
+      description: Firma Carta Aval 1
+    firemp2:
+      type: VARCHAR
+      size: 16
+      description: Firma Carta Aval 2
+    fecha:
+      type: TIMESTAMP
+      description: Fecha
+    codpre:
+      type: VARCHAR
+      size: 50
+      description: Código Presupuesto de consumo del HCM    
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  hcregconhcm:
+    _attributes:
+      description: Contiene los Registros de Consumo de HCM
+    codemp:
+      type: VARCHAR
+      size: 20
+      description: Cedula o Código del Titular
+      required: true
+      #foreignTable: nphojint
+      #foreignReference: codemp
+    cedfam:
+      type: VARCHAR
+      size: 20
+      description: Cedula del Beneficiario
+      required: true
+      #foreignTable: npinffam
+      #foreignReference: cedfam
+    tiphcm:
+      type: VARCHAR
+      size: 1
+      description: Tipo (Hospitalizacion/Maternidad)
+    rifpro:
+      type: VARCHAR
+      size: 15
+      description: Rif de la Clinica
+      required: true
+      #foreignTable: caprovee
+      #foreignReference: rifpro
+    feccon:
+      type: TIMESTAMP
+      description: Fecha del Consumo
+    moncon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Consumo
+    geneop:
+      type: VARCHAR
+      size: 1
+      description: Contiene si genera o no orden de pago
+    nrofac:
+      type: VARCHAR
+      size: 50
+      description: Número de la Factura  
+    fecfac:
+      type: TIMESTAMP
+      description: Fecha de la Factura
+    fecrecfac:
+      type: TIMESTAMP
+      description: Fecha de Recepción de la Factura
+    genop:
+      type: BOOLEAN      
+      description: Si genera Orden de Pago
+    titpro:
+      type: BOOLEAN      
+      description: Si genera Orden de Pago  a nombre del Titular o Proveedor
+    statop:
+      type: VARCHAR
+      size: 1
+      description: Status de Orden de Pago
+    loguse:
+      type: VARCHAR
+      size: 50
+      description: login del usuario    
+    numord:
+      type: VARCHAR
+      size: 8
+      description: Número de la Orden de Pago        
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  hcregmedlab:
+    _attributes:
+      description: Contiene los Registros de los Medicos y/o Laboratorios
+    codmedlab:
+      type: VARCHAR
+      size: 8
+      required: true
+      index: unique
+      description: Correlativo del Medico o Laboratorio
+    nommedlab:
+      type: VARCHAR
+      size: 100
+      required: true
+      description: Nombre del Medico o Laboratorio
+    tipmedlab:
+      type: VARCHAR
+      size: 1
+      description: Tipo (Medico/Laboratorio)
+    espmedlab:
+      type: VARCHAR
+      size: 50
+      description: Especialidad del Medico o Laboratorio
+    dirmedlab:
+      type: VARCHAR
+      size: 500
+      description: Direccion del Medico o Laboratorio
+    telmedlab:
+      type: VARCHAR
+      size: 15
+      description: Telefono del Medico o Laboratorio
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  hcgasfun:
+    _attributes:
+      description: Contiene los Registros de Gastos Funerarios
+    codgas:
+      type: VARCHAR
+      size: 8
+      required: true
+      index: unique
+      description: Correlativo del Gasto Funerario
+    codemp:
+      type: VARCHAR
+      size: 20
+      description: Cedula o Código del Titular
+      required: true
+      #foreignTable: nphojint
+      #foreignReference: codemp
+    cedfam:
+      type: VARCHAR
+      size: 20
+      description: Cedula del Beneficiario
+      required: true
+      #foreignTable: npinffam
+      #foreignReference: cedfam
+    fecgas:
+      type: TIMESTAMP
+      description: Fecha del Gasto Funerario
+    mongas:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Gasto Funerario
+    obsgas:
+      type: VARCHAR
+      size: 500
+      description: Observaciones
+    nrofac:
+      type: VARCHAR
+      size: 50
+      description: Número de la Factura  
+    fecfac:
+      type: TIMESTAMP
+      description: Fecha de la Factura
+    fecrecfac:
+      type: TIMESTAMP
+      description: Fecha de Recepción de la Factura
+    genop:
+      type: BOOLEAN      
+      description: Si genera Orden de Pago
+    titpro:
+      type: BOOLEAN      
+      description: Si genera Orden de Pago  a nombre del Titular o Proveedor
+    rifpro:
+      type: VARCHAR
+      size: 15
+      description: Rif de la Funeraria
+      required: true   
+    loguse:
+      type: VARCHAR
+      size: 50
+      description: login del usuario         
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  hcexacon:
+    _attributes:
+      description: Contiene los Registros de los examenes y consultas
+    nomcontra:
+      type: VARCHAR
+      size: 100
+      description: Nombre de la empresa
+    refexacon:
+      type: VARCHAR
+      size: 8
+      required: true
+      index: unique
+      description: Referencia del examene o consulta
+    tipexacon:
+      type: VARCHAR
+      size: 1
+      description: Tipo (Examen/Consulta)
+    fecexacon:
+      type: TIMESTAMP
+      description: Fecha del examene o consulta
+    codemp:
+      type: VARCHAR
+      size: 20
+      description: Cedula o Código del Titular
+      required: true
+      #foreignTable: nphojint
+      #foreignReference: codemp
+    cedfam:
+      type: VARCHAR
+      size: 20
+      description: Cedula del Beneficiario
+      required: true
+      #foreignTable: npinffam
+      #foreignReference: cedfam
+    codmedlab:
+      type: VARCHAR
+      size: 8
+      required: true
+      description: Código del Medico o Laboratorio
+      #foreignTable: hcregmedlab
+      #foreignReference: codmedlab
+    traexacon:
+      type: VARCHAR
+      size: 1000
+      description: Diagnostico y tratamiento del examene o consulta
+    notexacon:
+      type: VARCHAR
+      size: 500
+      description: Nota por defecto
+    durexacon:
+      type: VARCHAR
+      size: 10
+      description: Duración del examene o consulta
+    loguse:
+      type: VARCHAR
+      size: 50
+      description: login del usuario      
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  hcliqree  :
+    _attributes:
+      description: Contiene los Registros de la liquidación del reembolso
+    codliq:
+      type: VARCHAR
+      size: 8
+      required: true
+      index: unique
+      description: Correlativo de la liquidación del reembolso
+    codemp:
+      type: VARCHAR
+      size: 20
+      description: Cedula o Código del Titular
+      required: true
+      #foreignTable: nphojint
+      #foreignReference: codemp
+    cedfam:
+      type: VARCHAR
+      size: 20
+      description: Cedula del Beneficiario
+      required: true
+      #foreignTable: npinffam
+      #foreignReference: cedfam
+    tipliq:
+      type: VARCHAR
+      size: 1
+      description: Tipo (Odontológicas/Medicinas)
+    fecliq:
+      type: TIMESTAMP
+      description: Fecha de la liquidación del reembolso
+    monsol:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Solicitado de la liquidación
+    monliq:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Aprobado de la liquidación
+    obsliq:
+      type: VARCHAR
+      size: 500
+      description: Observacion
+    status:
+      type: VARCHAR
+      size: 1
+      description: Estatus de Aprobacion del reembolso
+    fecapr:
+      type: TIMESTAMP
+      description: Fecha de Aprobación del reembolso
+    usrapr:
+      type: VARCHAR
+      size: 50
+      description: Usuario que Aprueba el reembolso
+    stacie:
+      type: VARCHAR
+      size: 1
+      description: Estatus de Cierre del reembolso
+    stacpr:
+      type: VARCHAR
+      size: 1
+      description: Estatus de Aprobacion de Control Previo del reembolso
+    fecaprcp:
+      type: TIMESTAMP
+      description: Fecha de Aprobación de Control Previo del reembolso
+    usraprcp:
+      type: VARCHAR
+      size: 50
+      description: Usuario que Aprueba de Control Previo del reembolso
+    codcie:
+      type: VARCHAR
+      size: 8
+      description: Correlativo del Cierre
+    loguse:
+      type: VARCHAR
+      size: 50
+      description: login del usuario      
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  hccieree  :
+    _attributes:
+      description: Contiene los Registros de los cierre del reembolso
+    codcie:
+      type: VARCHAR
+      size: 8
+      required: true
+      index: unique
+      description: Correlativo del Cierre
+    codemp:
+      type: VARCHAR
+      size: 20
+      description: Código del Empleado
+      required: true
+    nomemp:
+      type: VARCHAR
+      size: 100
+      description: Nombre del Empleado
+    cedemp:
+      type: VARCHAR
+      size: 20
+      description: Cedula del Empleado
+    nomnom:
+      type: VARCHAR
+      size: 300
+      description: Nomina a la que pertenece el Empleado
+    nomcar:
+      type: VARCHAR
+      size: 1000
+      description: Cargo del Empleado
+    codttrab:
+      type: VARCHAR
+      size: 4
+      description: Código del Tipo del Empleado
+    moncie:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Cierre
+    feccie:
+      type: TIMESTAMP
+      description: Fecha de Cierre
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  hccarava  :
+    _attributes:
+      description: Contiene los Registros de las Cartas Aval
+    numcar:
+      type: VARCHAR
+      size: 20
+      description: Numero de la Carta Aval
+    codemp:
+      type: VARCHAR
+      size: 20
+      description: Cedula o Código del Titular
+      required: true
+      #foreignTable: nphojint
+      #foreignReference: codemp
+    cedfam:
+      type: VARCHAR
+      size: 20
+      description: Cedula del Beneficiario
+      required: true
+      #foreignTable: npinffam
+      #foreignReference: cedfam
+    rifpro:
+      type: VARCHAR
+      size: 15
+      description: Rif de la Clinica
+      required: true
+      #foreignTable: caprovee
+      #foreignReference: rifpro
+    feccar:
+      type: TIMESTAMP
+      description: Fecha de la Carta Aval
+    concar:
+      type: VARCHAR
+      size: 1000
+      description: Concepto de la Carta Aval
+    moncar:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto de la Carta Aval
+    observ:
+      type: VARCHAR
+      size: 1000
+      description: Observación de la Carta Aval
+    numpre:
+      type: VARCHAR
+      size: 50
+      description: Numero del Presupuesto
+    fecpre:
+      type: TIMESTAMP
+      description: Fecha del Presupuesto
+    loguse:
+      type: VARCHAR
+      size: 50
+      description: login del usuario      
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro

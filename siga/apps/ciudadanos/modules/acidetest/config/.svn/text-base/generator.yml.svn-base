@@ -1,0 +1,20 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Atdetest
+    theme:            cidesaGenerator
+
+    fields:
+      created_at:    { name: Fecha}
+
+    list:
+      title:          Cambios de Estados
+      display:        [descripcion, desde, hasta, created_at]
+      actions:
+        _create:         NONE
+
+    edit:
+      actions:
+        _list:        NONE
+        _save:        NONE
+        _delete:      NONE

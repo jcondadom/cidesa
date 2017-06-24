@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/apps/ingresosfacturacion/modules/generales/templates/list
+END
+_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/ingresosfacturacion/modules/generales/templates/list/_list.php
+END
+_list_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/ingresosfacturacion/modules/generales/templates/list/_list_actions.php
+END
+_list_td_tabular.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/ingresosfacturacion/modules/generales/templates/list/_list_td_tabular.php
+END
+_list_td_stacked.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/ingresosfacturacion/modules/generales/templates/list/_list_td_stacked.php
+END
+_list_th_tabular.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/ingresosfacturacion/modules/generales/templates/list/_list_th_tabular.php
+END
+_list_td_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/ingresosfacturacion/modules/generales/templates/list/_list_td_actions.php
+END
+_list_th_stacked.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/ingresosfacturacion/modules/generales/templates/list/_list_th_stacked.php
+END
+actions.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/apps/ingresosfacturacion/modules/generales/templates/list/actions.class.php
+END
+listSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/ingresosfacturacion/modules/generales/templates/list/listSuccess.php
+END
+_filters.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/ingresosfacturacion/modules/generales/templates/list/_filters.php
+END

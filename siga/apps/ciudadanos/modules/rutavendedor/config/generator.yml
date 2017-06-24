@@ -1,0 +1,34 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Rutavendedor
+    theme:            cidesaGenerator
+
+    fields:
+      _estado:      {title: Dirección}
+      atestados_id:     { name: Estado }
+      atmunicipios_id:  { name: Municipio }
+      atparroquias_id:  { name: Parroquia }
+      facliente_id:     { name: Cliente }
+      vendedores_id:  { name: Nombre y Apellidos }
+    list:      
+      title:          Registro de Ruta de Vendedor
+      display:        [_direccion, _vendedor, fecha_visita, fecha_despacho]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [atestados_id, facliente_id, vendedores_id]
+      max_per_page:   5
+    edit:
+      title:          Edición de Ruta de Vendedor
+      fields:
+        _atestados_id:      {title: Estado}
+      display:
+        Dirección:        [_atestados_id, _atmunicipios_id, _atparroquias_id, facliente_id]
+        Datos de las Fechas: [fecha_visita, fecha_despacho ]
+        Datos del Vendedor: [vendedores_id ]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

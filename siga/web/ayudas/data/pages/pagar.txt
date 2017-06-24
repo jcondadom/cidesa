@@ -1,0 +1,21 @@
+====== Pagar ======
+
+**Tabla:** CPPAGOS , CPIMPPAG
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Emisión de cheque a una orden de pago. Por lo general siempre se cancela el monto de la orden de pago.<br><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;También se pueden hacer pagos directos, por ejemplo una nota de debito por servicios bancarios. </html>
+
+**Para ello:**
+
+  * Seleccione la opción **Contabilidad Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpre.jpg|}}"></div><br></html>
+
+   * Seguidamente despliegue la opción **Ejecución Presupuestaria**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreejepre.jpg|}}"></div><br></html>
+
+  * Por último seleccione **Pagar**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprepagar.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Pagar** veamos la [[Descripcion_Campos_presupuesto_pagar|Descripción de los Campos]]
+

@@ -1,0 +1,27 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   segperesp
+  anchogrid:               800
+  ancho:                   900
+  filas:                   1
+  titulo:                  ' Procesos '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Módulo
+  tipo:                    t
+  nombrecampo:             codapl
+  html:                    ["size=30" readOnly=true"]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Proceso
+  tipo:                    t
+  nombrecampo:             proceso
+  html:                    ["size=50" readOnly=true"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Seleccione
+  tipo:                    k
+  nombrecampo:             marca
+  html:                    ["size=10"]
+  esgrabable:              true

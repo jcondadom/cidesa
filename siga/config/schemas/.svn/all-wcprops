@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repositorio/!svn/ver/62011/web/php/siga/branches/productions/trunk/config/schemas
+END
+compras_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/61952/web/php/siga/branches/productions/trunk/config/schemas/compras_schema.yml
+END
+obras_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45713/web/php/siga/branches/productions/trunk/config/schemas/obras_schema.yml
+END
+licitaciones_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/57824/web/php/siga/branches/productions/trunk/config/schemas/licitaciones_schema.yml
+END
+in_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/config/schemas/in_schema.yml
+END
+pag_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/config/schemas/pag_schema.yml
+END
+hcm_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/55952/web/php/siga/branches/productions/trunk/config/schemas/hcm_schema.yml
+END
+mantenimiento_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/61819/web/php/siga/branches/productions/trunk/config/schemas/mantenimiento_schema.yml
+END
+rh_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/59803/web/php/siga/branches/productions/trunk/config/schemas/rh_schema.yml
+END
+ciudadanos_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/53063/web/php/siga/branches/productions/trunk/config/schemas/ciudadanos_schema.yml
+END
+costos_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/49466/web/php/siga/branches/productions/trunk/config/schemas/costos_schema.yml
+END
+cuentasporcobrar_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/62011/web/php/siga/branches/productions/trunk/config/schemas/cuentasporcobrar_schema.yml
+END
+gestionindicadores_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/52984/web/php/siga/branches/productions/trunk/config/schemas/gestionindicadores_schema.yml
+END
+nomina_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/61682/web/php/siga/branches/productions/trunk/config/schemas/nomina_schema.yml
+END
+migrar_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/config/schemas/migrar_schema.yml
+END
+ac_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/42205/web/php/siga/branches/productions/trunk/config/schemas/ac_schema.yml
+END
+nom_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/config/schemas/nom_schema.yml
+END
+ingresos_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/59819/web/php/siga/branches/productions/trunk/config/schemas/ingresos_schema.yml
+END
+viaticosv2_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/60478/web/php/siga/branches/productions/trunk/config/schemas/viaticosv2_schema.yml
+END
+plan_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/config/schemas/plan_schema.yml
+END
+papiro_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/60395/web/php/siga/branches/productions/trunk/config/schemas/papiro_schema.yml
+END
+unidades_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/config/schemas/unidades_schema.yml
+END
+reim_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/config/schemas/reim_schema.yml
+END
+presupuesto_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/61919/web/php/siga/branches/productions/trunk/config/schemas/presupuesto_schema.yml
+END
+rc_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/config/schemas/rc_schema.yml
+END
+bienes_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/60886/web/php/siga/branches/productions/trunk/config/schemas/bienes_schema.yml
+END
+ingresosfacturacion_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/35081/web/php/siga/branches/productions/trunk/config/schemas/ingresosfacturacion_schema.yml
+END
+creditos_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/52984/web/php/siga/branches/productions/trunk/config/schemas/creditos_schema.yml
+END
+contabilidad_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/61600/web/php/siga/branches/productions/trunk/config/schemas/contabilidad_schema.yml
+END
+formulacion_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/47286/web/php/siga/branches/productions/trunk/config/schemas/formulacion_schema.yml
+END
+documentos_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/40352/web/php/siga/branches/productions/trunk/config/schemas/documentos_schema.yml
+END
+catastro_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/53050/web/php/siga/branches/productions/trunk/config/schemas/catastro_schema.yml
+END
+viaticos_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/57499/web/php/siga/branches/productions/trunk/config/schemas/viaticos_schema.yml
+END
+bd_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/config/schemas/bd_schema.yml
+END
+sima_user_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/60929/web/php/siga/branches/productions/trunk/config/schemas/sima_user_schema.yml
+END
+remov_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/config/schemas/remov_schema.yml
+END
+numeros_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/config/schemas/numeros_schema.yml
+END
+hacienda_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/47684/web/php/siga/branches/productions/trunk/config/schemas/hacienda_schema.yml
+END
+empresa_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/56730/web/php/siga/branches/productions/trunk/config/schemas/empresa_schema.yml
+END
+tesoreria_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/61984/web/php/siga/branches/productions/trunk/config/schemas/tesoreria_schema.yml
+END
+facturacion_schema.yml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/61982/web/php/siga/branches/productions/trunk/config/schemas/facturacion_schema.yml
+END

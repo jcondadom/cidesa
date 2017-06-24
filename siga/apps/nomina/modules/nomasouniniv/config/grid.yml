@@ -1,0 +1,25 @@
+opciones:                  # Opciones generales
+  eliminar:                false
+  tabla:                   Npasouniniv
+  anchogrid:               550
+  ancho:                   550
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Asociar
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:			   true
+  html:                    []
+2:       # Columna 2
+  titulo:                  Unidad de Adscripción
+  tipo:                    t
+  nombrecampo:             coduniads
+  esgrabable:			         true
+  html:                    [size="10" readonly=true]
+3:       # Columna 3
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desuniads
+  html:                    [size="50" readonly=true]

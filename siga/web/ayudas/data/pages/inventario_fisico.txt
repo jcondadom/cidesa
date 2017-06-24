@@ -1,0 +1,16 @@
+====== Inventario Físico ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite registrar la existencia actual de los artículos que se encuentren en los Almacénes de la Institución, luego de haber realizado el conteo físico de los mismos.  </html>
+
+**Para ello:**
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Almacén** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalm.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Inventario Físico**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalminvfisico.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Inventario Físico** veamos la [[Descripcion_Campos_Inventario_Fisico|Descripción de los Campos]]

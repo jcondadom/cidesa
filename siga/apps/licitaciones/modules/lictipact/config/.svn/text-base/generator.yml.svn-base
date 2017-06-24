@@ -1,0 +1,26 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Litipact
+    theme:            cidesaGenerator
+    fields:
+      codtipact: { name: Código, params: size=20}
+      nomtipact: { name: Nombre, params: size=40}
+      dettipact: { name: Detalle, type: textarea_tag, params: size="80x30" rich=true}
+
+
+    list:
+      title:           Tipos de Actas
+      display:         [=codtipact, nomtipact ]
+      object_actions:
+        _edit:          ~
+        _delete:        ~
+      max_per_page:    10
+
+    edit:
+      title:           Tipos de Actas
+      display:         [codtipact, nomtipact, dettipact ]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~

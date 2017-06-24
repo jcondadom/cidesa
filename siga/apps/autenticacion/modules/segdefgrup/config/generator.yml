@@ -1,0 +1,25 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Seggrupo
+    theme:            cidesaGenerator
+    fields:
+      codgru:      {name: Código, params: size=10 maxlength=3 }
+      desgru:      {name: Descripción, params: size=80 maxlength=100 }
+    list:
+      title:          Definición de Grupos
+      display:        [=codgru, desgru]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [codgru, desgru]
+      max_per_page:   5
+      sort:  codgru
+    edit:
+      title:          Edición de Grupo
+      display:        [codgru, desgru]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

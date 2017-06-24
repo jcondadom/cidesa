@@ -1,0 +1,145 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                [true,  CalcularTotal();]
+  tabla:                   Liprebasdet
+  anchogrid:               900
+  ancho:                   850
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+  camposcomoindices:       true
+1:       # Columna 2
+  titulo:                  Nro. Partida
+  tipo:                    t
+  nombrecampo:             numpar
+  esgrabable:              true
+  html:                    [size=3 readonly=true ]
+2:       # Columna 2
+  titulo:                  Partida de Obra
+  tipo:                    t
+  nombrecampo:             codart
+  esgrabable:              true
+  catalogo:                [ocdefpar, sf_admin_edit_form, {Codpar: 2, Despar: 3, Desuni: 7 }, Ocdefpar_codpar ]
+  ajaxcolumna:             true
+  html:                    [size=15 ]
+3:       # Columna 3
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desart
+  esgrabable:              false
+  html:                    [size=20 readonly=true ]
+4:       # Columna 4
+  titulo:                  Categoria Presupuestaria
+  tipo:                    t
+  nombrecampo:             codcat
+  esgrabable:              true
+  ajaxfila:                true
+  oculta:                  true
+  html:                    [ size=15 ]
+5:       # Columna 5
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nomcat
+  esgrabable:              false
+  oculta:                  true
+  html:                    [ size=20 readonly=true ]
+6:       # Columna 4
+  titulo:                  Codigo Presupuestario
+  tipo:                    t
+  nombrecampo:             codpre
+  esgrabable:              true
+  oculta:                  true
+  html:                    [ readonly=true size=30 ]
+7:       # Columna 4
+  titulo:                  Disponibilidad
+  tipo:                    m
+  nombrecampo:             dispo
+  esgrabable:              false
+  oculta:                  true
+  html:                    [ readonly=true ]
+8:       # Columna 5
+  titulo:                  Unidad de Medida
+  tipo:                    t
+  nombrecampo:             unimed
+  esgrabable:              true
+  html:                    [ readonly=true ]
+9:       # Columna 5
+  titulo:                  Cantidad Solicitada
+  tipo:                    m
+  nombrecampo:             cansol
+  esgrabable:              true
+  ajaxfila:                true
+  html:                    [ ]
+10:       # Columna 5
+  titulo:                  Cantidad Aprobada
+  tipo:                    m
+  nombrecampo:             canapr
+  esgrabable:              true
+  #ajaxfila:                true
+  #oculta:                  true
+  html:                    [ readonly=true ]
+11:       # Columna 5
+  titulo:                  Precio Unitario
+  tipo:                    m
+  nombrecampo:             costo
+  esgrabable:              true
+  ajaxfila:                true
+  html:                    [ ]
+12:       # Columna 5
+  titulo:                  Precio Unitario Moneda Extranjera
+  tipo:                    m
+  nombrecampo:             costoe
+  esgrabable:              true
+  oculta:                  true
+  ajaxfila:                true
+  html:                    [ readonly=true ]
+13:       # Columna 5
+  titulo:                  Sub-Total
+  tipo:                    m
+  nombrecampo:             subtot
+  esgrabable:              true
+  oculta:                  true
+  html:                    [ readonly=true ]
+14:       # Columna 5
+  titulo:                  Sub-Total Moneda Extranjera
+  tipo:                    m
+  nombrecampo:             subtote
+  esgrabable:              true
+  oculta:                  true
+  html:                    [ readonly=true ]
+15:       # Columna 5
+  titulo:                  Total Recargos
+  tipo:                    m
+  nombrecampo:             monrec
+  esgrabable:              true
+  oculta:                  true
+  html:                    [ readonly=true ]
+16:       # Columna 5
+  titulo:                  Sub Total
+  tipo:                    m
+  nombrecampo:             montot
+  esgrabable:              true
+  estotal:                 [true, liprebas_monsub ]
+  html:                    [ readonly=true ]
+17:       # Columna 5
+  titulo:                  Total Moneda Extranjera
+  tipo:                    m
+  nombrecampo:             montote
+  esgrabable:              true
+  oculta:                  true
+  #estotal:                 [true, liprebas_monpreext ]
+  html:                    [ readonly=true ]
+18:       # Columna 5
+  titulo:                  Valor Cambio
+  tipo:                    m
+  nombrecampo:             valcam
+  esgrabable:              true
+  oculta:                  true
+  html:                    [ readonly=true ]
+19:       # Columna 3
+  titulo:                  Tipconpub
+  tipo:                    t
+  nombrecampo:             tipconpub
+  esgrabable:              true
+  oculta:                  true
+  html:                    [size=20 readonly=true value='O' ]    

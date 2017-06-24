@@ -1,0 +1,82 @@
+opciones:                  # Opciones generales
+  eliminar:                false
+  tabla:                   Cpcompro
+  anchogrid:               1000
+  ancho:                   1500
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Número
+  tipo:                    t
+  nombrecampo:             refcom
+  html:                    [size="15" readonly=true]
+2:       # Columna 2
+  titulo:                  Fecha
+  tipo:                    t
+  nombrecampo:             cadenafec
+  html:                    [size="15" readonly=true]
+3:       # Columna 3
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             descom
+  html:                    [size="40", readonly=true]
+4:       # Columna 4
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             moncom
+  esnumerico:              true
+  html:                    [size="10" readonly="true"]
+5:       # Columna 5
+  titulo:                  Unidad Solicitante
+  tipo:                    t
+  nombrecampo:             nomubi
+  html:                    [size="40", readonly=true]
+6:       # Columna 6 
+  titulo:                  Servicio Contable
+  tipo:                    k
+  nombrecampo:             sercon
+  esgrabable:			         true
+  html:                    []
+7:       # Columna 7
+  titulo:                  Fecha Envío
+  tipo:                    f
+  nombrecampo:             fecser
+  esgrabable:			   true
+  ajaxfila:			           true
+  html:                    [ ]  
+8:       # Columna 8
+  titulo:                  Administración
+  tipo:                    k
+  nombrecampo:             admini
+  esgrabable:			         true
+  ajaxfila:			           true
+  html:                    []
+9:       # Columna 9
+  titulo:                  Fecha Envío
+  tipo:                    f
+  nombrecampo:             fecadm
+  esgrabable:			         true
+  ajaxfila:			           true
+  html:                    [ ] 
+10:       # Columna 10
+  titulo:                  Tesoreria
+  tipo:                    k
+  nombrecampo:             tesore
+  esgrabable:			         true
+  ajaxfila:			           true
+  html:                    []
+11:       # Columna 11
+  titulo:                  Fecha Envío
+  tipo:                    f
+  nombrecampo:             fectes
+  esgrabable:			         true
+  ajaxfila:			           true
+  html:                    [ ]   
+12:       # Columna 12
+  titulo:                  Fecha compromiso
+  tipo:                    f
+  nombrecampo:             feccom
+  esgrabable:			         true
+  oculta:			             true
+  html:                    [ ]     

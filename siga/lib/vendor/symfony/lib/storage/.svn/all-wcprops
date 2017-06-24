@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/storage
+END
+sfPostgreSQLSessionStorage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/storage/sfPostgreSQLSessionStorage.class.php
+END
+sfMySQLSessionStorage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/storage/sfMySQLSessionStorage.class.php
+END
+sfStorage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/storage/sfStorage.class.php
+END
+sfSessionStorage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/storage/sfSessionStorage.class.php
+END
+sfSessionTestStorage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/storage/sfSessionTestStorage.class.php
+END
+sfPDOSessionStorage.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/storage/sfPDOSessionStorage.class.php
+END

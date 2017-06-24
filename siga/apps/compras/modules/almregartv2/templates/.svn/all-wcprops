@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/61965/web/php/siga/branches/productions/trunk/apps/compras/modules/almregartv2/templates
+END
+autocompleteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/41971/web/php/siga/branches/productions/trunk/apps/compras/modules/almregartv2/templates/autocompleteSuccess.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/41971/web/php/siga/branches/productions/trunk/apps/compras/modules/almregartv2/templates/ajaxSuccess.php
+END
+_facturacion.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/52154/web/php/siga/branches/productions/trunk/apps/compras/modules/almregartv2/templates/_facturacion.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/51141/web/php/siga/branches/productions/trunk/apps/compras/modules/almregartv2/templates/editSuccess.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/41971/web/php/siga/branches/productions/trunk/apps/compras/modules/almregartv2/templates/_edit_actions.php
+END
+listSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/41971/web/php/siga/branches/productions/trunk/apps/compras/modules/almregartv2/templates/listSuccess.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/61965/web/php/siga/branches/productions/trunk/apps/compras/modules/almregartv2/templates/_edit_form.php
+END
+ajaxdetalleSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/41971/web/php/siga/branches/productions/trunk/apps/compras/modules/almregartv2/templates/ajaxdetalleSuccess.php
+END

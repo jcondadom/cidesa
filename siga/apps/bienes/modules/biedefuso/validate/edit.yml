@@ -1,0 +1,29 @@
+methods:
+  post:
+   - "bndefuso{coduso}"
+   - "bndefuso{desuso}"
+names:
+  bndefuso{coduso}:
+    required:  Yes
+    required_msg: El Código de el Uso no puede estar en Blanco.
+    validators: UniqueValidator
+
+  bndefuso{desuso}:
+    required:  Yes
+    required_msg: La Descripcion de el Uso no puede estar en Blanco.
+    validators: NombreValidator
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Bndefuso
+        column:   coduso
+        unique_error:   El Código de el Uso ya existe. Por Favor, Cambiélo por otro.
+
+NombreValidator:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripcion de el Uso no puede tener menos de 2 carácteres
+        max:       250
+        max_error: La descripcion de el Uso no puede tener más de 250 carácteres

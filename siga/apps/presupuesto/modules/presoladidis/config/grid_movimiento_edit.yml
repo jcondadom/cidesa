@@ -1,0 +1,36 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   cpasiini
+  anchogrid:               750
+  ancho:                   650
+  filas:                   5
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Presupuestario
+  tipo:                    t
+  nombrecampo:             codpre
+  html:                    [size=50 ]
+  oculta:                  false
+  esgrabable:              true
+  #ajaxfila:                true
+  catalogo:                [cpasiini, sf_admin_edit_form, { codpre: 1, mondis: 3 }, Cpasiini_Presoladidis]
+3:       # Columna 2
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monmov
+  html:                    [size="20"]
+  oculta:                  false
+  esgrabable:              true
+  #ajaxfila:                true
+  estotal:                 [true, cpsoladidis_totaldesde]
+3:       # Columna 3
+  titulo:                  Monto Disponible
+  tipo:                    m
+  nombrecampo:             mondis
+  html:                    [size="20" readonly="true"]
+  oculta:                  false
+  esgrabable:              true
+  #ajaxfila:                true
+  estotal:                 [true, cpsoladidis_totaldisponible]

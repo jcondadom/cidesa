@@ -1,0 +1,34 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cafirdocpre
+    theme:            cidesaGenerator
+    fields:
+      coddirec:
+        name: Estado
+        params: size=3 maxlength=15
+        catalogo:
+          catalogoweb: Cadefdirec_Almdefdiv
+          clase: cadefdirec
+          ajax: 1
+          parametros: getprincipal="getCoddirec" getsecundario="getDesdirec" campoprincipal="coddirec" camposecundario="desdirec" campobase = "id"
+      tipdoc:   { name: Tipo de Documento}
+      grid:   { name: .}
+    list:
+      title:        Configuración de Firmas para Documentos Preimpresos
+      display:      [=coddirec, desdirec, tipdoc]
+      filters:      [coddirec, tipdoc]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      sort:         coddirec      
+    edit:
+      title:          Configuración de Firmas para Documentos Preimpresos
+      display:
+        "NONE":   [coddirec, _tipdoc]
+        "Firmas":   [_grid]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

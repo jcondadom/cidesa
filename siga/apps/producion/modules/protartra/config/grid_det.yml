@@ -1,0 +1,66 @@
+opciones:                  # Opciones generales
+  eliminar:                false
+  tabla:                   fadettar
+  anchogrid:               900
+  ancho:                   900
+  filas:                   0
+  titulo:                  ' Descripción de las Actividades '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  N° Item
+  tipo:                    t
+  nombrecampo:             nuitem
+  esgrabable:              true  
+  html:                    ["size=1 maxlength=5 readOnly=true"]  
+2:       # Columna 2
+  titulo:                  Cod. Artículo
+  tipo:                    t
+  nombrecampo:             codart
+  esgrabable:              true
+  #ajaxgrid:                true
+  html:                    ["size=10 readOnly=true"]  
+3:       # Columna 3
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desart
+  html:                    ["size=40 maxlength=2000 readOnly=true"]
+  esgrabable:              true
+4:       # Columna 4
+  titulo:                  Fecha Planificada
+  tipo:                    f
+  esgrabable:              true
+  nombrecampo:             fecpla
+  vacia:                   true
+  html:                    ["size=10"]
+5:       # Columna 5
+  titulo:                  Fecha Inicio
+  tipo:                    f
+  esgrabable:              true
+  nombrecampo:             fecini
+  html:                    ["size=10 readOnly=true"]
+6:       # Columna 6
+  titulo:                  Fecha Culminación
+  tipo:                    f
+  esgrabable:              true
+  nombrecampo:             feccul
+  html:                    ["size=10 readOnly=true"]
+7:       # Columna 7
+  titulo:                  Agregar Materiales y personal
+  tipo:                    t
+  nombrecampo:             agremp
+  esgrabable:              true  
+  html:                    ["size=1"]
+8:       # Columna 18
+  titulo:                  Datos Materiales
+  tipo:                    t
+  nombrecampo:             datmat
+  esgrabable:              true
+  oculta:                  true
+  html:                    [ ]
+9:       # Columna 9
+  titulo:                  Datos Personal
+  tipo:                    t
+  nombrecampo:             datper
+  esgrabable:              true
+  oculta:                  true
+  html:                    [ ]      

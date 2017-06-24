@@ -1,0 +1,18 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcreginm
+    theme:            cidesaGenerator
+    fields:
+      nroinm:  { name: N° Inmueble, params: size=10 maxlength=15 }
+      rifcon:  { name: C.I. / RIF., params: size=14 readOnly=true }
+      nomcon:  { name: Nombre / Razón Social, params: size=80 readOnly=true }
+      nroinmnew:  { name: Nuevo n° Inmueble, params: size=10 maxlength=15 disabled=false}
+    edit:
+      title: Actualización de N° de Inmueble
+      display:
+        NONE: [ _nroinm, rifcon, nomcon, nroinmnew]
+      actions:
+        _list:        NONE
+        _save:        ~
+        _delete:      NONE

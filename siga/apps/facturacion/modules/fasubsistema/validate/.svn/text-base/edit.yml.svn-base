@@ -1,0 +1,21 @@
+methods:
+  post:
+   - "fasubsistema{codsub}"
+   - "fasubsistema{nomsub}"
+
+names:
+  fasubsistema{codsub}:
+    required:  Yes
+    required_msg: Introduzca el Código del Subsistema
+    validators: Validator_codsub
+
+  fasubsistema{nomsub}:
+    required:  Yes
+    required_msg: Introduzca el Nombre del Subsistema
+
+Validator_codsub:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Fasubsistema
+        column:       codsub
+        unique_error: El Código ya Existe intente con otro.

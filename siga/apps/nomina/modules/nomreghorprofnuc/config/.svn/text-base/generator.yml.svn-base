@@ -1,0 +1,58 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npemphor
+    theme:            cidesaGenerator
+    fields:      
+      codemp:
+        name: Empleado
+        params: size=20  maxlength=16
+        catalogo:
+          catalogoweb: Nphojint_Nomasicarconnom
+          clase: Nphojint
+          ajax: 1
+          parametros: getprincipal="getCodemp" getsecundario="getNomemp" campoprincipal="codemp" camposecundario="nomemp" campobase = "id"
+          divupdate: divgrid
+      codcar:
+        name: Cargo
+        params: size=20  maxlength=16
+        catalogo:
+          catalogoweb: Nomreghorprofnuc_Npdefcpt
+          clase: Npcargos
+          ajax: 2
+          parametros: getprincipal="getCodcar" getsecundario="getNomcar" campoprincipal="codcar" camposecundario="nomcar" campobase = "id"
+          catalogoparams: /param1/'."'+$('npemphor_codemp').value+'".'
+          ajaxparams: +'."'".'&empleado='."'+$('npemphor_codemp').value".'          
+      codcon:
+        name: Concepto
+        params: size=10  maxlength=3
+        catalogo:
+          catalogoweb: Npcalcon_nomcalcon
+          clase: Npdefcpt
+          ajax: 3
+          parametros: getprincipal="getCodcon" getsecundario="getNomcon" campoprincipal="codcon" camposecundario="nomcon" campobase = "id"          
+      fecreg: { name: Fecha}
+      grid:   { name: .}
+      nomemp:   { name: Nombre Emp.}
+      nomcar:   { name: Nombre Cargo}
+      nomcon:   { name: Nombre Concepto}
+      tothor:   { name: Total de Horas}
+    list:
+      title:          Registro de Horas de Docentes por Núcleo
+      filters:        [codemp, codcar, codcon, fecreg]
+      display:        [=codemp, nomemp, codcar, nomcar, codcon, nomcon]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codemp            
+    edit:
+      title:          Registro de Horas de Docentes por Núcleo
+      display:
+        "Datos":    [codemp, codcar, codcon, fecreg]
+        "Detalle":    [_grid, tothor]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

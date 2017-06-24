@@ -1,0 +1,129 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   Fcdeclar
+  anchogrid:               1000
+  ancho:                   1050
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Pagar
+  tipo:                    t
+  nombrecampo:             vpago
+  esgrabable:              true
+  html:                    [size=15 readonly=true ]
+2:       # Columna 2
+  titulo:                  Nro.
+  tipo:                    t
+  nombrecampo:             nroreg
+  esgrabable:              true
+  html:                    [size=15 readonly=true ]
+3:       # Columna 3
+  titulo:                  Concepto
+  tipo:                    t
+  nombrecampo:             fingreso
+  esgrabable:              truefecreq
+  html:                    [size=20 readonly=true ]
+4:       # Columna 4
+  titulo:                  Nro. Declaración
+  tipo:                    t
+  nombrecampo:             numdec
+  esgrabable:              true
+  html:                    [size=15 readonly=true ]
+5:       # Columna 5
+  titulo:                  Referencia
+  tipo:                    t
+  nombrecampo:             numref
+  esgrabable:              true
+  html:                    [size=15 readonly=true ]
+6:       # Columna 6
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nombre
+  esgrabable:              true
+  html:                    [size=30 readonly=true ]
+7:       # Columna 7
+  titulo:                  Vencimiento
+  tipo:                    f
+  nombrecampo:             fecven
+  html:                    [size="10"]
+  esgrabable:              false
+8:       # Columna 8
+  titulo:                  Frecuencia
+  tipo:                    t
+  nombrecampo:             tipo
+  esgrabable:              true
+  html:                    [size=20 readonly=true ]
+9:       # Columna 9
+  titulo:                  Monto de la Deuda (A)
+  tipo:                    m
+  nombrecampo:             mondec
+  esgrabable:              true
+  html:                    [readonly=true ]
+10:       # Columna 10
+  titulo:                  Monto Auto Liquidación
+  tipo:                    m
+  nombrecampo:             autliq
+  esgrabable:              true
+  html:                    [readonly=true ]
+11:       # Columna 11
+  titulo:                  Diferencia (B)
+  tipo:                    m
+  nombrecampo:             mondif
+  esgrabable:              true
+  html:                    [readonly=true ]
+12:       # Columna 12
+  titulo:                  Monto de Mora (C)
+  tipo:                    m
+  nombrecampo:             mora
+  esgrabable:              true
+  html:                    [readonly=true ]
+13:       # Columna 13
+  titulo:                  Descuento Pronto Pago (D)
+  tipo:                    m
+  nombrecampo:             prontopago
+  esgrabable:              true
+  html:                    [readonly=true ]
+14:       # Columna 14
+  titulo:                  Monto a Pagar (A+C-D)
+  tipo:                    m
+  nombrecampo:             montotpag
+  esgrabable:              true
+  html:                    [readonly=true ]
+15:       # Columna 15
+  titulo:                  Monto Pagado Contribuyente (E)
+  tipo:                    m
+  nombrecampo:             montocont
+  esgrabable:              true
+  html:                    [readonly=true ]
+16:       # Columna 16
+  titulo:                  Saldo (A+C-D)+B-E
+  tipo:                    m
+  nombrecampo:             saldototal
+  esgrabable:              true
+  html:                    [readonly=true ]
+17:       # Columna 17
+  titulo:                  Planilla de Liquidación
+  tipo:                    t
+  nombrecampo:             planilla
+  esgrabable:              true
+  html:                    [readonly=true ]
+18:       # Columna 18
+  titulo:                  Estatus Pagado
+  tipo:                    t
+  nombrecampo:             estapag
+  esgrabable:              true
+  html:                    [readonly=true ]  
+19:       # Columna 19
+  titulo:                  Fecha Pagado
+  tipo:                    t
+  nombrecampo:             fechapag
+  esgrabable:              true
+  html:                    [readonly=true ]   
+20:       # Columna 20
+  titulo:                  Funcionario Pagador
+  tipo:                    t
+  nombrecampo:             funcipag
+  esgrabable:              true
+  html:                    [readonly=true ]  

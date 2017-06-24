@@ -1,0 +1,59 @@
+Parametros:
+  modulo: facturacion
+  nomrep: facrlisdep
+  titulo: Historico de Despachos
+  orientacion: Vertical
+  tipopagina: Carta
+  width: 210
+
+Filas:
+  CATALAGO DESPACHO:
+    tipotag:   inputcat_tag
+    label: Despacho
+    sql: select min(dphart) as dphdes,max(dphart) as dphhas from CADPHART
+    nomdes: coddphdes
+    campodes: dphdes
+    catdes: 0
+    nomhas: coddphhas
+    campohas: dphhas
+    cathas: 1
+    nomcat:  despacho
+    size: 15
+
+  CATALAGO CLIENTES:
+    tipotag:   inputcat_tag
+    label: Clientes
+    sql: select min(codcli) as clides,max(codcli) as clihas from CADPHART
+    nomdes: codclides
+    campodes: clides
+    catdes: 2
+    nomhas: codclihas
+    campohas: clihas
+    cathas: 3
+    nomcat:  despclientes
+    size: 15
+
+  CATALAGO ARTICULOS:
+    tipotag:   inputcat_tag
+    label: Articulos
+    sql: select min(codart) as artdes,max(codart) as arthas from CAARTDPH
+    nomdes: codartdes
+    campodes: artdes
+    catdes: 4
+    nomhas: codarthas
+    campohas: arthas
+    cathas: 5
+    nomcat:  despachoarticulo
+    size: 15
+
+  CAJA FECHA:
+    tipotag:   inputfec_tag
+    label: Fecha Despachos
+    sql: select to_char(min(fecdph),'dd/mm/yyyy') as fecdes,to_char(max(fecdph),'dd/mm/yyyy') as fechas from CADPHART
+    nomdes: fecdes
+    campodes: fecdes
+    nomhas: fechas
+    campohas: fechas
+    size: 15
+
+

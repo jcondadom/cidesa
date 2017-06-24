@@ -1,0 +1,46 @@
+Los campos que conforman la pantalla de **Registro de Artículos y/o Servicios** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmartregartservinc1.jpg|}}"></div><br></html>
+
+  * El **Código del Artículo**: El cual es único y debe estar basado en el formato definido previamente. Se debe tomar en cuenta que si el formato posee varias rupturas, el código se debe establecer bajo una jerarquía, por ejemplo: si se desea definir el artículo “café”, este pertenece a una sub categoría denominada “alimentos y bebidas para personas” (esto es así si se quiere llevar una estructura similar al plan único de cuentas) y a su vez esta sub categoría esta dentro e una categoría denominada “materiales y suministros”. Por lo tanto los códigos quedarían de la siguiente manera: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>402: Materiales y Suministros <html><br></html>
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>402-01: Alimentos y bebidas para personas <html><br></html>
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>402-01-001: Café <html><br><br></html>
+
+  * **Tipo** : El cual debe indicar si el registro a incluir es un **Artículo** ó **Servicio**. Si se selecciona la opción “servicio” inmediatamente el Sistema bloqueara todas aquellas opciones referentes a inventario y almacén, ya que los servicios no están asociados a almacenes. <html><br><br></html>
+
+  * **Código Contable** en el que se asocia la cuenta de activo al artículo, esto solo es para los artículos que son activos. <html><br><br></html>
+
+  * **Descripción** del Artículo. <html><br><br></html>
+
+  * **Código del Ramo** que abastece el artículo, el cual puede ser ingresado ó seleccionado del Catalogo de ramos existentes. <html><br><br></html>
+
+  * La Partida asociada al Artículo correspondiente.<html><br><br></html> 
+
+  * **Unidad de Medida** que se usará para llevar el control de Inventario del artículo. <html><br><br></html>
+
+  * **Unidad Alterna**, donde se indica la unidad de medida alterna asociada al artículo; solo de carácter informativo. <html><br><br></html>
+
+  * **Relación** existente entra la Unidad de Medida y la Unidad Alterna, por ejemplo: si un artículo tiene unidad de medida “kilo” y su unidad alterna es “caja” y sabiendo que cada caja de ese artículo contiene 5 kilos de ese artículo entonces la relación es 1:5. <html><br><br></html>
+
+  * **Existencia Total del Artículo:** El cual se llena automáticamente, muestra la sumatoria de las cantidades de un artículo si este existe en varios almacénes. Por ejemplo, si el artículo “café” tiene un existencia actual de 10 en el almacén 1 y este artículo también tiene una existencia actual de 5 en el almacén 2, la existencia total que se colocará en el recuadro será 15. <html><br><br></html>
+
+  * **Fecha de Ultima Compra** del Artículo: Debe ser seleccionada del [[calendario|calendario]] la primera vez y luego se actualizará automáticamente cada vez que se genere una Orden de Compra del Artículo. <html><br><br></html>
+
+  * **Código del SNC** (Servicio Nacional de Contratistas). <html><br><br></html>
+
+  * **Ultimo Costo**: Registrará la información del costo actual del artículo, esta casilla solo estará activa la primera vez que se registre un artículo, luego de estar registrado la casilla se inhabilitará y el costo se ira actualizando cada vez que se haga una orden de compra que incluya al artícu
+lo registrado. <html><br><br></html>
+
+  * **Costo Promedio** de un Artículo: Si se está registrando un artículo por primera vez el costo promedio debe ser igual al costo actual, luego el Sistema actualizara este costo promedio cada vez que se emita una orden de compra con este artículo. <html><br><br></html>
+
+  * **Existencia Inicial** del Artículo: Se ingresará la primera ves y automáticamente el sistema lo actualizará cada vez que se emita una Orden de Compra. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmartregartservinc2.jpg}}"></div><br></html>
+
+  * En el [[Grid|Grid]] **Almacenes Existentes** se deben seleccionar aquellos almacenes en los cuales se encuentra el Artículo que se está registrando y por cada uno de ellos debe ingresar la Existencia Mínima, Existencia Máxima, Reorden, Existencia Actual en las columnas correspondientes. <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Por último si desea conocer la Ubicación de un determinado Almacén solo debe presionar el **Botón** {{:btnlupa.jpg|}} y el sistema muestra un [[Grid|Grid]] con las ubicaciones del Almacén correspondiente. Si desea que desaparesca el Grid con las Ubicaciones solo debe presionar el Botón {{:btnvolver.jpg|}} <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Registro de Artículos y/o Servicios** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

@@ -1,0 +1,14 @@
+====== Operación Incluir ======
+
+Para la operación de Registrar:
+
+  * Presione el Botón  {{:btnnuevo.jpg|}}   <html><br><br></html>
+
+  * Seguidamente ingrese el **Código del Estado** que está definiendo. <html><br><br></html>
+
+  * Ingrese el **Nombre** que haga referencia al Estado.  
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperestadosinc.jpg|}}"></div><br></html>
+
+  * Presionar {{:btnguardar.jpg|}} para registrar lo datos. <html><br><br></html>
+
+  * Para verificar que el registro se guardó con éxito podemos consultarlo directamente desde la Lista.

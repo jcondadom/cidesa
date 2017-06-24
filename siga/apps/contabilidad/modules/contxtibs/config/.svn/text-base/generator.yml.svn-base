@@ -1,0 +1,23 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Contabc
+    theme:            cidesaGenerator
+    fields:
+      tipcom: { name: Tipo}
+      fecdes: { name: Fechas Desde}
+      fechas: { name: Fechas Hasta}
+      grid:    { name: .}
+      descarga:    { name: .}
+    edit:
+      title:          Generar TXT de Comprobantes Contables en Lote
+      display:
+        "Filtros":     [_tipcom, _fecdes, _fechas]
+        "Comprobantes Contables":     [_grid, cancom, totcom, _descarga]
+      hide:            [direccion]
+      actions:
+        _list:        NONE
+        _save:
+          name:  Generar TXT
+        _create:      NONE
+        _delete:      NONE

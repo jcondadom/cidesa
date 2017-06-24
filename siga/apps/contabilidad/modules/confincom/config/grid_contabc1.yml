@@ -1,0 +1,76 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   contabc1
+  anchogrid:               1000
+  ancho:                   900
+  filas:                   2
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código de la cuenta
+  tipo:                    t
+  nombrecampo:             codcta
+  html:                    ["size=32"]
+  esgrabable:              true
+  catalogo:                [ contabb, sf_admin_edit_form, { codcta : 1 , descta : 2 }, Contabb_Confincom ]
+2:       # Columna 2
+  titulo:                  Descripción del asiento
+  tipo:                    t
+  nombrecampo:             desasi
+  html:                    ["size=60 readonly=true"]
+  oculta:                  false
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Referencia
+  tipo:                    t
+  nombrecampo:             refasi
+  html:                    ["size=10 maxlength=8"]
+  esgrabable:              true
+4:       # Columna 4
+  titulo:                  Debito/Credito
+  tipo:                    t
+  nombrecampo:             debcre
+  html:                    [size="10"]
+  oculta:                  true
+  esgrabable:              true  
+5:       # Columna 5
+  titulo:                  Débitos
+  tipo:                    m
+  nombrecampo:             mondebito
+  html:                    ["size=10  onBlur='toAjax(3,getUrlModuloAjax(),this.value,0,'&ides='+this.id)'" ]
+  esgrabable:              true
+  esnumerico:              true
+  estotal:                 [true, contabc_totdeb]
+  default:                 0,00
+6:       # Columna 6
+  titulo:                  Créditos
+  tipo:                    m
+  nombrecampo:             moncredito
+  html:                    ["size=10 onBlur='toAjax(3,getUrlModuloAjax(),this.value,0,'&ides='+this.id)'" ]
+  esgrabable:              true
+  esnumerico:              true
+  estotal:                 [true, contabc_totcre]
+  default:                 0,00
+7:       # Columna 7
+  titulo:                  Centro de Costo
+  tipo:                    t
+  nombrecampo:             codcencos
+  html:                    ["size=10 maxlength=32 onBlur='toAjax(4,getUrlModuloAjax(),this.value,0,'&cajtxtmos='+$(this.id).up().next(0).descendants()[0].id+'&cuenta='+$(this.id).up().previous(6).descendants()[0].value+'&ides='+this.id)'"]
+  esgrabable:              true
+  oculta:                  true
+  catalogo:                [ codefcencos, sf_admin_edit_form, { codcencos : 7 , descencos : 8 }, Codefcencos_Conasigcencos ]
+8:       # Columna 8
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             descencos
+  html:                    ["size=30 readOnly=true"]
+  esgrabable:              true
+  oculta:                  true
+9:       # Columna 9
+  titulo:                  Monto CC
+  tipo:                    m
+  nombrecampo:             moncencos
+  html:                    ["size=10"]
+  esgrabable:              true  
+  oculta:                  true

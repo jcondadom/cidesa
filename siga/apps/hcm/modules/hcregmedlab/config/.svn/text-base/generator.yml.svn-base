@@ -1,0 +1,37 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Hcregmedlab
+    theme:            cidesaGenerator
+
+    fields:
+      codmedlab: { name:  Código, params : size=20 onBlur="enter(this.value)" readonly=true}
+      nommedlab: { name:  Nombre, params : size=50 maxlength=100}
+      tipmedlab: { name:  Tipo}
+      espmedlab: { name:  Especialidad, params : size=50 maxlength=50}
+      dirmedlab: { name:  Dirección, type: textarea_tag, params: size=100x5 maxlength=500}
+      telmedlab: { name:  Teléfono, params : size=20 maxlength=15}
+
+    list:
+      fields:
+        codmedlab: { name:  Código,  params : size=20 maxlength=20}
+        nommedlab: { name:  Nombre, params : size=20 maxlength=100}
+        tipmedlab: { name:  Tipo}
+        espmedlab: { name:  Especialidad, params : size=20 maxlength=50}
+      title:          Registro de Médico o Laboratorio
+      display:        [=codmedlab, nommedlab, tipmedlab, espmedlab]
+      object_actions:
+        _edit:        ~
+        _delete:      NONE
+      filters:        [codmedlab, nommedlab, tipmedlab, espmedlab]
+      max_per_page:   10
+      sort:           codmedlab
+
+    edit:
+      title:          Registro de Médico o Laboratorio
+      display:
+        "Información ": [codmedlab, nommedlab, _tipmedlab, espmedlab, dirmedlab, telmedlab]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      NONE

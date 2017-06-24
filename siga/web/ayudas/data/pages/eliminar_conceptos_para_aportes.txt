@@ -1,0 +1,15 @@
+====== Operación Eliminar ======
+
+Si desea eliminar un determinado **Concepto para Aporte**:  <html><br><br></html>
+
+  * Seleccionar de la **Lista** el **Código del Concepto para Aporte** que desea eliminar.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconapoimod.jpg|}}"></div><br></html>
+
+  * El sistema muestra los **Conceptos para Aporte** por cada Nómina correspondiente al Aporte seleccionado. <html><br><br></html> 
+
+  * Presionar  {{:btnborrar.jpg|}}   <html><br><br></html> 
+
+  * El sistema emite un **Mensaje de Confirmación** antes de eliminar.
+ <html><br><div> <align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br></html>
+
+  * Presionar **Aceptar**.   <html><br><br></html>

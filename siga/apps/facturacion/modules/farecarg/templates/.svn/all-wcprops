@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/47745/web/php/siga/branches/productions/trunk/apps/facturacion/modules/farecarg/templates
+END
+autocompleteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/facturacion/modules/farecarg/templates/autocompleteSuccess.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/facturacion/modules/farecarg/templates/ajaxSuccess.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/facturacion/modules/farecarg/templates/editSuccess.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/facturacion/modules/farecarg/templates/_edit_actions.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/47745/web/php/siga/branches/productions/trunk/apps/facturacion/modules/farecarg/templates/_edit_form.php
+END
+1_filters.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/facturacion/modules/farecarg/templates/1_filters.php
+END

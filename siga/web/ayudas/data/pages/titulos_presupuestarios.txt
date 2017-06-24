@@ -1,0 +1,21 @@
+====== Títulos Presupuestarios ======
+**Tablas:** CPDEFTIT
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite definir todos los Títulos o Códigos Presupuestarios los cuales deben cumplir con la teoría de la escalera.<br><br> </html> 
+
+Para ello:
+
+  * Seleccione la opción **Contabilidad Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpre.jpg|}}"></div><br></html>
+
+   * Seguidamente despliegue la opción **Definiciones Específicas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpredefesp.jpg|}}"></div><br></html>
+
+  * Por último seleccione la opción **Títulos Presupuestarios**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpretitpre.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Títulos Presupuestarios** veamos la [[Descripcion_Campos_presupuesto_titulos_presupuestarios|Descripción de los Campos]]
+
+
+
+

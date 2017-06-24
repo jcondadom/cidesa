@@ -1,0 +1,36 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Faemptra
+    theme:            cidesaGenerator
+    fields:
+      codemptra: { name: Código, params : size=5 maxlength=4  onFocus=readonly(this.id) onBlur="this.value=this.value.pad(4, '0',0);"}
+      rifemptra: { name: RIF, params : size=20 maxlength=20}
+      nomemptra: { name: Nombre, params : size=50 maxlength=500}
+      diremptra: { name: Dirección, params : size=100 maxlength=1000}
+      codzon:  
+        name: Código de la zona
+        catalogo:
+          catalogoweb: FaDefZon_Codzon
+          clase: Fadefzon
+          ajax: 1
+          parametros: getprincipal="getCodzon" getsecundario="getDeszon" campoprincipal="codzon" camposecundario="deszon" campobase = "id"
+      tlfemptra: { name: Teléfono, params : size=50 maxlength=50}
+      nomperres: { name: Encargado, params : size=50 maxlength=100}
+    list:
+      title:          Lista de Empresas Transportistas
+      display:        [=codemptra, rifemptra, nomemptra, diremptra, tlfemptra]
+      filters:        [codemptra, nomemptra, rifemptra, codzon]
+      sort:           codemptra
+      max_per_page:   10
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      
+    edit:
+      title:          Empresa Transportista
+      display:        [codemptra, rifemptra, nomemptra, diremptra, codzon, tlfemptra, nomperres]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~

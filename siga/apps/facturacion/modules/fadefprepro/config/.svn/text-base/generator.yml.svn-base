@@ -1,0 +1,38 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fapreprocan
+    theme:            cidesaGenerator
+    fields:
+      codart:
+        name: Artículo
+        params: size=5 maxlength=5
+        catalogo:
+          catalogoweb: Caregart_Fapedido
+          clase: Caregart
+          ajax: 1
+          parametros: getprincipal="getCodart" getsecundario="getDesart" campoprincipal="codart" camposecundario="desart" campobase = "id"
+          catalogoparams: /param1/'."'+$('fapreprocan_longitud').value+'".'
+          divupdate: divgrid
+          ajaxparams: +'."'".'&canal='."'+$('fapreprocan_codcan').value".'
+      codcan:
+        name: Canal
+        params: size=20  maxlength=5
+        catalogo:
+          catalogoweb: Fadefcan_Fadefpreprocan
+          clase: Fadefcan
+          ajax: 2
+          parametros: getprincipal="getCodcan" getsecundario="getDescan" campoprincipal="codcan" camposecundario="descan" campobase = "id"
+          divupdate: divgrid
+          ajaxparams: +'."'".'&art='."'+$('fapreprocan_codart').value".'
+      grid: {name: .}
+    edit:
+      title: Edición de Precios por Producto Canal y Frecuencia
+      display:
+        "Datos": [codart, codcan, _grid]
+      hide: [longitud]
+      actions:
+        _list:          NONE
+        _save:          ~
+        _delete:        NONE
+        _create:        NONE

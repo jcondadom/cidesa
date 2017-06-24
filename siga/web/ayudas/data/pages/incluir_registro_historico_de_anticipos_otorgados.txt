@@ -1,0 +1,20 @@
+====== Operación Incluir ======
+
+Para **Registrar** el Anticipo otorgado a un determinado empleado de la institución:<html><br><br></html>
+
+  * Presione el Botón {{:btnnuevo.jpg|}} 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperreghisantotoinc1.jpg|}}"></div><br></html>
+
+  * Selecciona el **Código del Empleado** que esta solicitando el anticipo de prestaciones.<html><br><br></html>
+
+  * Seleccionar del calendario la **Fecha** en la que el empleado está solicitando el anticipo.<html><br><br></html>
+
+  * Ingresar el **Monto del Anticipo** solicitado por el empleado.<html><br><br></html>
+
+  * Presione el **Botón** {{:btnguardar.jpg|}} para registrar la información.
+
+
+
+
+

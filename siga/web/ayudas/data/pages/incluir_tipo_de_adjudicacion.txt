@@ -1,0 +1,15 @@
+====== Operación Incluir ======
+
+Para **Incluir** un Tipo de Adjudicación:<html><br><br></html>
+
+  * Presione el Botón {{:btnnuevo.jpg|}}
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontoferttipadjudinc1.jpg|}}"></div><br></html>
+
+  * Ingresar el **Código** que identifique al Tipo de Adjudicación. <html><br><br></html>
+
+  * Ingresar la **Descripción** del Tipo de Adjudicación. <html><br><br></html>
+
+  * Presione el **Botón** {{:btnguardar.jpg|}}
+
+

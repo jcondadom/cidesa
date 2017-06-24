@@ -1,0 +1,17 @@
+====== Operación Eliminar ======
+
+Si desea **Eliminar** un determinado Municipio debe:  <html><br><br></html>
+
+  * Presione el Botón {{:btnlista.jpg|}} <html><br><br></html>
+ 
+  * Seguidamente seleccionar de la **Lista** el **Municipio** a eliminar.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompermunicipiosmod.jpg|}}"></div><br></html> 
+
+  * Presionar el Botón {{:btnborrar.jpg|}}  <html><br><br></html> 
+
+  * El sistema emite un **Mensaje de Confirmación** antes de eliminar. 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br><br></html> 
+
+  * Presionar **Aceptar**.  <html><br><br></html>
+
+  * Desde la Lista podemos verificar que el registro fué eliminado exitosamente. 

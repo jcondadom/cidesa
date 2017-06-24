@@ -1,0 +1,17 @@
+====== Descripción de Campos ======
+
+Los campos que conforman la pantalla **Subsectores** son los siguientes
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpresubsectinc1.jpg}}"></div><br></html>
+
+  * **Sector:** Indica el tipo de sector al que pertenece el subsector que está registrando; solo debe hacer click sobre el ícono {{:btnflecha.jpg}} para que pueda visualizar un listado con todos los sectores que fueron definidos previamente en el sistema en la pantalla [[formulacion_sectores|Sectores]] <html><br><br></html>
+
+  * **Código:** Indica el número que identifica al Subsector. <html><br><br></html>
+
+  * **Descripción:** Indica el nombre que identifica al subsector. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Subsectores** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+
+
+
+

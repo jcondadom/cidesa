@@ -1,0 +1,6 @@
+all:
+   .apps:
+     autenticacion:    autenticacion
+     max_per_page:     15
+     this:             costos      #cambiar en cada app
+     ayuda:            ayudas

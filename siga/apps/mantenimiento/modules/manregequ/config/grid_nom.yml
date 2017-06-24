@@ -1,0 +1,15 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   mannomequ
+  anchogrid:               700
+  ancho:                   400
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nomalt
+  esgrabable:              true
+  html:                    ["size=60 maxlength=500"]

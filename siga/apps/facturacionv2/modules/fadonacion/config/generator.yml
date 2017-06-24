@@ -1,0 +1,41 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fadonacion
+    theme:            cidesaGenerator
+    fields:
+      nrodon: { name: Número, params : size=10 maxlength=10  readOnly=true}
+      fecdon: { name: Fecha, params: date_format='dd/MM/yyyy' size=10 maxlength=10}     
+      rifpro:
+        name: CI/RIF del Cliente
+        params: maxlength=15 disabled=false
+        catalogo:
+          catalogoweb: Rifcli_Fapedido
+          clase: Facliente
+          ajax: 1
+          parametros: getprincipal="getRifpro" getsecundario="getNompro" campoprincipal="rifpro" camposecundario="nompro" campobase = "id"          
+      dirpro: { name: Dirección, params : size=80 readOnly=true}
+      telpro: { name: Teléfono, params : size=15 readOnly=true}
+      desdon:  { name: Descripción, type: textarea_tag, params: size=80x5 maxlength=250 onkeyup=" return ismaxlength(this)"}
+      obj1: { name: .}
+      codpro: { name: Cliente}
+    list:
+      title:          Donaciones
+      display:        [=nrodon, fecdon, desdon]
+      filters:        [nrodon, fecdon]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      nrodon      
+    edit:
+      title:          Edición  de Donación
+      display:
+        "Datos":   [nrodon, fecdon, rifpro, dirpro, telpro, desdon]   
+        "Detalle":   [_obj1]       
+      hide:    [codpro, mondon]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

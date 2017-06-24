@@ -1,0 +1,17 @@
+====== Unidades de Medidas ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Proceso que permite definir las unidades de medidas utilizadas por la Institución para las obras.
+
+**Para ello:**
+
+  * Seleccione la opción **Obras y Contratos** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascont.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones Generales**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontdefgen.jpg|}}"></div><br></html>
+ 
+  * Por último seleccione **Unidades de Medidas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontunimed.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Unidades de Medidas** ahora veamos la [[Descripcion_Campos_obras_unidades_medidas|Descripción de los Campos]]
+

@@ -1,0 +1,7 @@
+====== Descripción de Campos ======
+
+  * Ingrese para cada uno de los tres niveles el **Nombre** y la **Abreviatura** del Nivel.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreaproinc1.jpg|}}"></div><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Aprobación** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

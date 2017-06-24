@@ -1,0 +1,15 @@
+methods:
+  post:
+   - "npconftxtcestic{tiptxt}"
+names:
+  npconftxtcestic{tiptxt}:
+    required:  Yes
+    required_msg: El Tipo de TXT no puede estar en Blanco
+    validators: Validator_tiptxt
+
+Validator_tiptxt:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Npconftxtcestic
+        column:       tiptxt
+        unique_error: El Tipo de TXT ya está registrado. Por favor, intente con otro.

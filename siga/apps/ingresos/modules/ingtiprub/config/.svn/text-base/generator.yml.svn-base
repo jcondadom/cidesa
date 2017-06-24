@@ -1,0 +1,35 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Citiprub
+    theme:            cidesaGenerator
+    fields:
+      codtiprub:      { name: Código, params: size=10 maxlength=6 onFocus=readonly(this.id)}
+      destiprub:      { name: Descripción, type: textarea_tag, params: size=50x2 }
+      codpre:
+        name: Código Presupuestario
+        catalogo:
+          catalogoweb: Ingtiprub_cideftit
+          clase: Ciasiini
+          ajax: 1
+          parametros: getprincipal="getCodpre" getsecundario="getNompre" campoprincipal="codpre" camposecundario="nompre" campobase = "id"
+    list:
+      title:          Tipos de Rubros
+      display:        [ =codtiprub, destiprub ]
+      fields:
+        codtiprub:      { params: size=10 maxlength=6 }
+        destiprub:      { params: size=20 }
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [ codtiprub, destiprub ]
+      max_per_page:   10
+      sort: codtiprub
+    edit:
+      title:          Edición de Tipos de Rubros
+      display:        [ codtiprub, destiprub, codpre ]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

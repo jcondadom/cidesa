@@ -1,0 +1,104 @@
+methods:
+  post:
+   - "liactdescont{numactdes}"
+   - "liactdescont{numcont}"
+   - "liactdescont{detactdes}"
+
+   - "liactdescont{codempadm}"
+   - "liactdescont{codempeje}"
+   - "liactdescont{fecreg}"
+   - "liactdescont{dias}"
+   - "liactdescont{fecven}"
+
+
+names:
+
+  liactdescont{numactdes}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numact
+
+  liactdescont{numcont}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numcont
+
+  liactdescont{detactdes}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_detact
+
+
+
+
+  liactdescont{codempadm}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  liactdescont{codempeje}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+    
+  liactdescont{fecreg}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  liactdescont{dias}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: MyNumberValidator
+    
+  liactdescont{fecven}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+    
+Validator_numact:
+    class: sfPropelUniqueValidator
+    param:
+        class:        liactdescont
+        column:       numactdes
+        unique_error: El número de acta ya existe, intente con otra
+
+Validator_numcont:
+    class: CidesaExistValidator
+    param:
+        class:        licontrat
+        column:       numcont
+        unique_error: El contrato no existe
+
+
+Validator_codemp:
+    class: CidesaExistValidator
+    param:
+        class:        Lidatste
+        column:       codemp
+        unique_error: El Empleado no existe
+
+
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+MyNumberValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]
+
+
+Validator_detact:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: El detalle del acta no puede tener menos de 2 caracteres
+        max:       1000
+        max_error: El detalle del acta no puede pasar mas de 1000 caracteres

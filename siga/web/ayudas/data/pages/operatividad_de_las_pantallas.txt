@@ -1,0 +1,15 @@
+====== Operatividad de las Pantallas ======
+
+  * [[Filtros|Filtros]]
+
+  * [[Listas|Listas]]
+
+  * [[Grid|Grid]]
+
+  * [[Calendario|Calendario]]
+
+  * [[Operaciones Básicas|Operaciones Básicas]]
+
+
+
+

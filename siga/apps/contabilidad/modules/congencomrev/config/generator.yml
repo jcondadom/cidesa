@@ -1,0 +1,27 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Contabc
+    theme:            cidesaGenerator
+    fields:
+      numcom:
+        name: Número de Comprobante Origen
+        params: maxlength=8
+        catalogo:
+          catalogoweb: Contabc_ConFinComRev2
+          clase: Contabc
+          ajax: 1
+          parametros: getprincipal="getNumcom" getsecundario="getDescom" campoprincipal="numcom" camposecundario="descom" campobase = "id"       
+      feccom:  {name: Fecha Comprobante Reverso, params: date_format='dd/MM/yyyy' onFocus=readonly(this.id)}
+      descom:  {name: Concepto de Anulación}
+      botoncom:  {name: .}
+    edit:
+      title:          Generar Comprobante Reverso
+      display:
+        Datos del comprobante:  [numcom, feccom, descom, _botoncom]
+      hide:  [numcomrev]
+      actions:
+        _list:        NONE
+        _save:        
+          name: Generar Comprobante
+        _delete:      NONE

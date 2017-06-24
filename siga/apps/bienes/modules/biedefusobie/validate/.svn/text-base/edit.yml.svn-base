@@ -1,0 +1,29 @@
+methods:
+  post:
+   - "bnusobie{codusobie}"
+   - "bnusobie{desusobie}"
+names:
+  bnusobie{codusobie}:
+    required:  Yes
+    required_msg: El Código de el Uso no puede estar en Blanco.
+    validators: UniqueValidator
+
+  bnusobie{desusobie}:
+    required:  Yes
+    required_msg: La Descripcion de el Uso no puede estar en Blanco.
+    validators: NombreValidator
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Bnusobie
+        column:   codusobie
+        unique_error:   El Código de el Uso ya existe. Por Favor, Cambiélo por otro.
+
+NombreValidator:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripcion de el Uso no puede tener menos de 2 carácteres
+        max:       500
+        max_error: La descripcion de el Uso no puede tener más de 500 carácteres

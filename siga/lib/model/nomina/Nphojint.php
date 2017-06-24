@@ -1,0 +1,666 @@
+<?php
+
+/**
+ * Subclase para representar una fila de la tabla 'nphojint'.
+ *
+ *
+ *
+ * @package    Roraima
+ * @subpackage lib.model.nomina
+ * @author     $Author: cramirez $ <desarrollo@cidesa.com.ve>
+ * @version SVN: $Id: Nphojint.php 42921 2011-03-03 18:34:11Z cramirez $
+ *
+ * @copyright  Copyright 2007, Cide S.A.
+ * @license    http://opensource.org/licenses/gpl-2.0.php GPLv2
+ */
+class Nphojint extends BaseNphojint
+{
+  protected $sueldo="";
+  protected $codnomvig="";
+  protected $prinom="";
+  protected $segnom="";
+  protected $priape="";
+  protected $segape="";
+  protected $check=false;
+  private $incapacidades ='';
+  protected $ultsue="0.00";
+  protected $edaact=0;
+  protected $grid=array();
+  protected $etiqueta="";
+  protected $statusegr="";
+  protected $monpre="";
+  protected $rescal="";
+  protected $gridjug=array();
+  protected $griduti=array();
+  protected $gridbec=array();
+  protected $gridapo=array();
+  protected $gridrem=array();
+  protected $gridreg=array();
+  protected $gridemb=array();
+  protected $grideva=array();
+  protected $gridvia=array();
+  protected $gridcap=array();
+  protected $gridrec=array();
+  protected $gridact=array();
+  protected $gridret=array();
+  protected $gridlab=array();
+  protected $gridded=array();
+  protected $gridant=array();
+  protected $gridint=array();
+  protected $depen="";
+
+  public function getCodnom()
+  {
+    $c = new Criteria();
+    $c->add(NpasiempcontPeer::CODEMP,self::getCodemp());
+    $nomemp = NpasiempcontPeer::doSelectone($c);
+    if ($nomemp){
+      return $nomemp->getCodnom();
+    }else{
+      return '<!Nombre no encontrado!>';
+    }
+  }
+
+  public function getEdaact()
+  {
+  	if (self::getFecNac())
+  	{
+		$sql = "select  Extract(year from age(now(),'" . self::getFecNac() . "')) as edad";
+		if (Herramientas :: BuscarDatos($sql, $result))
+			return $result[0]['edad'];
+		else
+		    return self::getEdaemp();
+  	}
+  	else
+  	    return 0;
+  }
+
+  public function getNomcod()
+  {
+    $c = new Criteria();
+    $c->add(NpasiconempPeer::CODEMP,self::getCodemp());
+    $nomemp = NpasiconempPeer::doSelectone($c);
+    if ($nomemp){
+      return $nomemp->getCodnom();
+    }else{
+      return '<!Nombre no encontrado!>';
+    }
+  }
+
+  public function getNomcar()
+  {
+    // Se obtiene el codcar de la tabla Npasicaremp
+    // Luego se obtiene el nombre del cargo de la tabla Npcargos
+
+    $c = new Criteria();
+    $c->addJoin(NpasicarempPeer::CODCAR,NpcargosPeer::CODCAR);
+    $c->add(NpasicarempPeer::CODEMP,self::getCodemp());
+    $c->add(NpasicarempPeer::STATUS,'V');
+    $registro = NpcargosPeer::doSelectOne($c);
+    if($registro) return $registro->getNomcar();
+    else return null;
+
+  }
+
+  public function getCodcar()
+  {
+    // Se obtiene el codcar de la tabla Npasicaremp
+    // Luego se obtiene el código del cargo de la tabla Npcargos
+
+    $c = new Criteria();
+    $c->addJoin(NpasicarempPeer::CODCAR,NpcargosPeer::CODCAR);
+    $c->add(NpasicarempPeer::CODEMP,self::getCodemp());
+    $c->add(NpasicarempPeer::STATUS,'V');
+    $registro = NpcargosPeer::doSelectOne($c);
+    if($registro) return $registro->getCodcar();
+    else return null;
+
+  }
+
+  public function getNomnom()
+  {
+    // Se obtiene Nomnom de la tabla Npasicaremp
+
+    $c = new Criteria();
+    $c->add(NpasicarempPeer::CODEMP,self::getCodemp());
+    $registro = NpasicarempPeer::doSelectOne($c);
+    if($registro) return $registro->getNomnom();
+    else return null;
+  }
+
+  public function getCodnom2()
+  {
+    // Se obtiene Nomnom de la tabla Npasicaremp
+
+    $c = new Criteria();
+    $c->add(NpasicarempPeer::CODEMP,self::getCodemp());
+    $registro = NpasicarempPeer::doSelectOne($c);
+    if($registro) return $registro->getCodnom();
+    else return null;
+
+
+  }
+
+
+  public function getPagerOfNpvacregsalActuales($pagina)
+  {
+    $c = new Criteria();
+    $c->add(NpvacregsalPeer::CODEMP,self::getCodemp() );
+    $c->add(NpvacregsalPeer::CODCAR,self::getCodcar() );
+    $c->add(NpvacregsalPeer::CODNOM,self::getCodnom() );
+    $c->add(NpvacregsalPeer::STAVAC,'N' );
+    $c->addAscendingOrderByColumn(NpvacregsalPeer::FECHASALIDA);
+
+      return self::getPagerOfNpvacregsalByCriteria($c,$pagina,5);
+
+  }
+
+  public function getPagerOfNpvacregsalHistoricos($pagina)
+  {
+    $c = new Criteria();
+    $c->add(NpvacregsalPeer::CODEMP,self::getCodemp() );
+    $c->add(NpvacregsalPeer::CODCAR,self::getCodcar() );
+    $c->add(NpvacregsalPeer::CODNOM,self::getCodnom() );
+    $c->add(NpvacregsalPeer::STAVAC,'S' );
+    $c->addDescendingOrderByColumn(NpvacregsalPeer::PERFIN);
+
+      return self::getPagerOfNpvacregsalByCriteria($c,$pagina,5);
+
+  }
+
+
+  private function getPagerOfNpvacregsalByCriteria($c,$pagina,$regs)
+  {
+    $pager = new sfPropelPager('Npvacregsal', $regs);
+      $pager->setCriteria($c);
+      $pager->setPage($pagina);
+      $pager->init();
+      return $pager;
+
+  }
+
+  public function getIncapacidades()
+    {
+    return $this->incapacidades;
+    }
+
+    public function setIncapacidades($val)
+    {
+      $this->incapacidades = $val;
+    }
+
+    public function getCodrespat()
+    {
+    	return self::getCodemp();
+    }
+
+    public function getNomrespat()
+    {
+    	return self::getNomemp();
+    }
+
+    public function getCodresuso()
+    {
+    	return self::getCodemp();
+    }
+
+    public function getNomresuso()
+    {
+    	return self::getNomemp();
+    }
+	public function getPrinom()
+    {
+        $nomemp = self::getNomemp();
+        $nomemp = str_replace("DEL ","DEL*",$nomemp);
+        $nomemp = str_replace("DE ","DE*",$nomemp);
+    	if(strrpos($nomemp,','))
+		{
+			$aux=split(',',$nomemp);
+			if(count($aux)==2)
+			{
+				$auxnom=split(' ',trim($aux[1]));
+				$val =  $auxnom[0];
+			}else
+			{
+				$auxnom=split(' ',$nomemp);
+				$val = count($auxnom)==2 ? $auxnom[1] : (count($auxnom)>2 ? $auxnom[2] : ' ');
+			}
+		}else
+		{
+			$auxnom=split(' ',$nomemp);
+			$val = count($auxnom)==2 ? $auxnom[1] : (count($auxnom)>2 ? $auxnom[2] : ' ');
+		}
+        $val = str_replace("DEL*","DEL ",$val);
+        $val = str_replace("DE*","DE ",$val);
+        return  $val;
+    }
+	public function getSegnom()
+    {
+
+        $nomemp = self::getNomemp();
+        $nomemp = str_replace("DEL ","DEL*",$nomemp);
+        $nomemp = str_replace("DE ","DE*",$nomemp);
+    	if(strrpos($nomemp,','))
+		{
+			$aux=split(',',$nomemp);
+			if(count($aux)==2)
+			{
+				$auxnom=split(' ',trim($aux[1]));
+                                if(count($auxnom)>1){
+                                  $segnom = '';
+                                  foreach($auxnom as $i => $nom){
+                                    if($i!=0){
+                                      $segnom .= $nom.' ';
+                                    }
+                                  }
+                                  $val = trim($segnom);
+                                }else $val = ' ';
+
+			}else
+			{
+				$auxnom=split(' ',$nomemp);
+                                if(count($auxnom)>3){
+                                  $segnom = '';
+                                  foreach($auxnom as $i => $nom){
+                                    if($i>2){
+                                      $segnom .= $nom.' ';
+                                    }
+                                  }
+                                  $val = trim($segnom);
+                                }else $val = ' ';
+			}
+		}else
+		{
+			$auxnom=split(' ',$nomemp);
+			$val =  count($auxnom)>3 ? $auxnom[3] : ' ';
+		}
+
+        $val = str_replace("DEL*","DEL ",$val);
+        $val = str_replace("DE*","DE ",$val);
+        return  $val;
+    }
+
+	public function getPriape()
+    {
+
+        $nomemp = self::getNomemp();
+        $nomemp = str_replace("DEL ","DEL*",$nomemp);
+        $nomemp = str_replace("DE ","DE*",$nomemp);
+    	if(strrpos($nomemp,','))
+            {
+                    $aux=split(',',$nomemp);
+                    if(count($aux)==2)
+                    {
+                            $auxnom=split(' ',trim($aux[0]));
+                            $val = $auxnom[0];
+                    }else
+                    {
+                            $auxnom=split(' ',$nomemp);
+                            $val = count($auxnom)==2 ? $auxnom[0] : (count($auxnom)>2 ? $auxnom[0] : ' ');
+                    }
+            }else
+            {
+                    $auxnom=split(' ',$nomemp);
+                    $val = count($auxnom)==2 ? $auxnom[0] : (count($auxnom)>2 ? $auxnom[0] : ' ');
+            }
+        $val = str_replace("DEL*","DEL ",$val);
+        $val = str_replace("DE*","DE ",$val);
+        return  $val;
+    }
+	public function getSegape()
+    {
+        $nomemp = self::getNomemp();
+        $nomemp = str_replace("DEL ","DEL*",$nomemp);
+        $nomemp = str_replace("DE ","DE*",$nomemp);
+    	if(strrpos($nomemp,','))
+		{
+			$aux=split(',',$nomemp);
+			if(count($aux)==2)
+			{
+				$auxnom=split(' ',trim($aux[0]));
+				$val =  count($auxnom)>1 ? $auxnom[1] : ' ';
+			}else
+			{
+				$auxnom=split(' ',$nomemp);
+				$val =  count($auxnom)>2 ? $auxnom[1] : ' ';
+			}
+		}else
+		{
+			$auxnom=split(' ',$nomemp);
+			$val =  count($auxnom)>2 ? $auxnom[1] : ' ';
+		}
+                $val = str_replace("DEL*","DEL ",$val);
+                $val = str_replace("DE*","DE ",$val);
+                return  $val;
+    }
+
+	public function getDesniv()
+	{
+		return Herramientas::getX('CODNIV', 'Npestorg', 'Desniv',self::getCodniv());
+
+	}
+
+	public function getDesniv2()
+	{
+		return Herramientas::getX('CODUBI', 'Npdefubi', 'Desubi',self::getUbifis());
+
+	}
+
+  public function getEtiqueta()
+  {
+    if (self::getFecfincon()!='')
+    {
+      if (self::getFecfincon()>=date('Y-m-d')){
+           $sql="select to_char((fecfincon-now()),'dd')::integer as dias from nphojint where codemp='".self::getCodemp()."'";
+          if (Herramientas::BuscarDatos($sql,$result))
+          {
+            $dias=$result[0]['dias'];
+          }
+          $diasmesact=date('t');
+          if ($dias<$diasmesact)
+          {
+            $eti="El Contrato esta próximo a Vencerce";
+          }
+          else if ($dias==$diasmesact)
+          {
+            $eti="El Contrato Esta Vencido";
+          }
+          else $eti="";
+
+        }else $eti="El Contrato Esta Vencido";
+    }else $eti="";
+    return $eti;
+  }
+
+  public function getStatusegr()
+  {
+
+    $dato="";
+    $varemp = sfContext::getInstance()->getUser()->getAttribute('configemp');
+    if ($varemp)
+	if(array_key_exists('aplicacion',$varemp))
+	 if(array_key_exists('nomina',$varemp['aplicacion']))
+	   if(array_key_exists('modulos',$varemp['aplicacion']['nomina']))
+	     if(array_key_exists('nomhojint',$varemp['aplicacion']['nomina']['modulos'])){
+	       if(array_key_exists('statusegr',$varemp['aplicacion']['nomina']['modulos']['nomhojint']))
+	       {
+	       	$dato=$varemp['aplicacion']['nomina']['modulos']['nomhojint']['statusegr'];
+	       }
+         }
+     return $dato;
+  }
+
+  public function setStatusegr()
+  {
+  	return $this->statusegr;
+  }
+    public function getNomempaco()
+    {
+    	return self::getNomemp();
+    }
+
+  public function getCodempaco()
+    {
+    	return self::getCodemp();
+    }
+  public function getNomempaut()
+    {
+    	return self::getNomemp();
+    }
+
+  public function getCodempaut()
+    {
+    	return self::getCodemp();
+    }
+
+  public function getDesmot()
+  {
+	return Herramientas::getX('CODMOT','Npmotegr','Desmot',self::getCodmot());
+  }
+  public function getFecingfor()
+  {
+	return self::getFecing('d/m/Y');
+  }
+
+  public function getCodnomvig()
+  {
+    // Se obtiene Nomnom de la tabla Npasicaremp
+
+    $c = new Criteria();
+    $c->add(NpasicarempPeer::CODEMP,self::getCodemp());
+    $c->add(NpasicarempPeer::STATUS,'V');
+    $registro = NpasicarempPeer::doSelectOne($c);
+    if($registro) return $registro->getCodnom();
+    else return null;
+
+
+  }
+
+  public function getSueldo()
+  {
+      try {
+        $suelnpcargos=H::getConfApp2('suelnpcargos', 'nomina', 'nomhojint');
+        if ($suelnpcargos=='S')
+        {
+            $sql="select a.suecar from npasicaremp b,npcargos a where a.codcar=b.codcar and b.codemp='".$this->codemp."' and b.status='V'";
+             if(H::BuscarDatos($sql,$rs))
+                return H::FormatoMonto($rs[0]['suecar']);
+            else
+                return '0';
+        }else {  
+         $sql="select sueldoemp('".self::getCodnomvig()."','".$this->codemp."',(select to_char(fecnom,'dd/mm/yyyy') from nphiscon where codemp='".$this->codemp."' order by fecnom desc limit 1),'H') as sueldo";
+         if(H::BuscarDatos($sql,$rs)) {
+           if ($rs[0]['sueldo']>0)
+            return H::FormatoMonto($rs[0]['sueldo']);
+           else
+           {
+               $sql="select c.suecar from npasicaremp b,npcargos a, npcomocp c where a.codcar=b.codcar and b.paso=c.pascar and b.grado=c.gracar and a.codtip=c.codtipcar and codemp='".$this->codemp."' and status='V'";
+             if(H::BuscarDatos($sql,$rs))
+                return H::FormatoMonto($rs[0]['suecar']);
+            else {
+              $sql="select A.suecar from npasicaremp b,npcargos a where a.codcar=b.codcar and codemp='".$this->codemp."' and status='V'";
+              if(H::BuscarDatos($sql,$rs))
+                return H::FormatoMonto($rs[0]['suecar']);
+               else
+                return '0';
+              }
+           }
+         }
+         else
+         {           
+             $sql="select c.suecar from npasicaremp b,npcargos a, npcomocp c where a.codcar=b.codcar and b.paso=c.pascar and b.grado=c.gracar and a.codtip=c.codtipcar and codemp='".$this->codemp."' and status='V'";
+             if(H::BuscarDatos($sql,$rs))
+                return H::FormatoMonto($rs[0]['suecar']);
+            else {
+              $sql="select A.suecar from npasicaremp b,npcargos a where a.codcar=b.codcar and codemp='".$this->codemp."' and status='V'";
+              if(H::BuscarDatos($sql,$rs))
+                return H::FormatoMonto($rs[0]['suecar']);
+               else
+                return '0';
+              }
+         }
+        }
+      } catch (Exception $exc) {
+          #echo $exc->getTraceAsString();
+          $sql="select c.suecar from npasicaremp b,npcargos a, npcomocp c where a.codcar=b.codcar and b.paso=c.pascar and b.grado=c.gracar and a.codtip=c.codtipcar and codemp='".$this->codemp."' and status='V'";
+             if(H::BuscarDatos($sql,$rs))
+                return H::FormatoMonto($rs[0]['suecar']);
+            else {
+              $sql="select A.suecar from npasicaremp b,npcargos a where a.codcar=b.codcar and codemp='".$this->codemp."' and status='V'";
+              if(H::BuscarDatos($sql,$rs))
+                return H::FormatoMonto($rs[0]['suecar']);
+               else
+                return '0';
+              }
+      }
+  }
+  
+  public function getOculdatpesper()
+  {
+  	return H::getConfApp2('oculdatpesper', 'nomina', 'nomhojint');
+  }
+  
+  public function getDenominacion()
+  {
+  	return H::getConfApp2('denominacion', 'nomina', 'nomhojint');
+  }  
+
+  public function getFiremp1()
+    {
+      return self::getCodemp();
+    }
+
+    public function getFiremp2()
+    {
+      return self::getCodemp();
+    }
+
+  public function getNomem2()
+    {
+      return self::getNomemp();
+    }  
+
+public function getDespro()
+  {
+  return Herramientas::getX('CODPRO','Catippro','Despro',self::getCodpro());
+  }
+
+public function getForced()
+  {
+  return Herramientas::getX_vacio('CODEMP','Npdefgen','Forced','001');
+  }  
+
+  public function getDestipemp()
+  {
+    return H::getX_vacio('CODTIPEMP','Nptipemp','Destipemp',self::getCodtipemp());
+  }  
+
+  public function getCodempayu()
+  {
+    return self::getCodemp();
+  }
+
+  public function getCodempusu()
+  {
+    return self::getCodemp();
+  }
+
+
+  public function getNomempusu()
+    {
+      return self::getNomemp();
+    }   
+
+  public function getSeghcm2()
+    {
+      if (self::getSeghcm()=='S')
+        return 'SI';
+      else if (self::getSeghcm()=='N')
+        return 'NO';
+      else
+        return '';
+    }   
+
+    public function getSegfun2()
+    {
+      if (self::getTiefun())
+        return 'SI';
+      else if (!self::getSeghcm())
+        return 'NO';
+      else
+        return '';
+    }
+
+    public function esBeneficiario(){
+      $trajo1=H::getX_vacio('CEDRIF','Opbenefi','Cedrif',self::getRifemp());
+      if ($trajo1=='')
+        $trajo2=H::getX_vacio('CEDRIF','Opbenefi','Cedrif',self::getCedemp());
+
+      if ($trajo1=='' && $trajo2=='')
+        return 'N';
+      else return 'S';
+    }
+
+public function getForemp()
+  {
+  return Herramientas::getX_vacio('CODEMP','Npdefgen','Foremp','001');
+  } 
+
+    public function getCodempsup()
+    {
+      return self::getCodemp();
+    }
+
+    public function getNomemsup()
+    {
+      return self::getNomemp();
+    }   
+
+    public function getStaemp2()
+  {
+  return Herramientas::getX_vacio('CODSITEMP','Npsitemp','Dessitemp',self::getStaemp());
+  }  
+
+   public function getCodempa()
+    {
+      return self::getCodemp();
+    }
+
+    public function getNomempa()
+    {
+      return self::getNomemp();
+    } 
+
+     public function getCodempp()
+    {
+      return self::getCodemp();
+    }
+
+    public function getNomempp()
+    {
+      return self::getNomemp();
+    }    
+
+    public function getDesofi()
+  {
+    return H::getX_vacio('CODOFI','Npdefofi','Desofi',self::getCodofi());
+  } 
+
+   public function getDepen()
+  {
+    $codigodep=H::getX_vacio('CODNIV','Npestorg','Coddep',self::getCodniv());
+    if ($codigodep!='')
+      return $codigodep.' - '.H::getX_vacio('CODDEP','Npdefdep','Desdep',$codigodep);
+    return '';
+  } 
+
+public function getDesdirec()
+  {
+    return H::getX_vacio('CODDIREC','Cadefdirec','Desdirec',self::getCoddirec());
+  } 
+
+    public function getDesubi()
+  {
+    return H::getX_vacio('CODUBI','Bnubibie','Desubi',self::getCodubi());
+  } 
+
+  public function getDesuniads()
+  {
+    return H::getX_vacio('CODUNIADS','Npuniads','Desuniads',self::getCoduniads());
+  }   
+
+  public function getCedres()
+  {
+    return self::getCedemp();
+  }
+
+  public function getNomempc()
+  {
+    return self::getNomemp();
+  }
+
+  public function getCedrec()
+  {
+    return self::getCedemp();
+  }
+}

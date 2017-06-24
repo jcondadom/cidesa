@@ -1,0 +1,67 @@
+methods:
+  post:
+   - "faproduc{rifprod}"
+   - "faproduc{nomprod}"
+   - "faproduc{dirprod}"
+   - "faproduc{telprod}"
+   - "faproduc{emaprod}"
+
+names:
+  faproduc{rifprod}:
+    required:  Yes
+    required_msg: El RIF del Productor no puedo estar en Blanco
+    validators: UniqueValidator
+
+  faproduc{nomprod}:
+    required:  Yes
+    required_msg: El Nombre del Productor no puedo estar en Blanco
+    validators: NombreValidator
+
+  faproduc{dirprod}:
+    required:  No
+    validators: DireccionValidator    
+
+  faproduc{telprod}:
+    required:  No
+    validators: TelefonoValidator        
+
+  faproduc{emaprod}:
+    required:  No
+    validators: EmailValidator
+
+NombreValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: El Nombre no puede tener menos de 5 caracteres
+        max:       250
+        max_error: El Nombre no puede tener más de 250 caracteres
+
+DireccionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Dirección no puede tener menos de 5 caracteres
+        max:       500
+        max_error: La Dirección no puede tener más de 500 caracteres
+
+TelefonoValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: El Teléfono no puede tener menos de 5 caracteres
+        max:       20
+        max_error: El Teléfono no puede tener más de 20 caracteres        
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Faproduc
+        column:   rifprod
+        unique_error:  El RIF del Productor ya existe. Por Favor, Cambiélo por otro.
+
+EmailValidator:
+    class: sfEmailValidator
+    param:
+        strict:       true
+        email_error:  La Dirección del Email es Inválida.

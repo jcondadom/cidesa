@@ -1,0 +1,31 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npjorcpt
+    theme:            cidesaGenerator
+    fields:
+      codjor:
+        name: Jornada
+        params: maxlength=2
+        catalogo:
+          catalogoweb: Npjortur_Nomasocptjor
+          clase: Npjortur
+          ajax: 1
+          parametros: getprincipal="getCodjor" getsecundario="getDesjor" campoprincipal="codjor" camposecundario="desjor" campobase = "id"
+      codnom:
+        name: Nómina
+        params: maxlength=3
+        catalogo:
+          catalogoweb: Npnomina_nomdefespvar
+          clase: Npnomina
+          ajax: 2
+          parametros: getprincipal="getCodnom" getsecundario="getNomnom" campoprincipal="codnom" camposecundario="nomnom" campobase = "id"
+          divupdate: divgrid
+          ajaxparams: +'."'".'&jornada='."'+$('npjorcpt_codjor').value".'
+      grid: { name: .}
+    edit:
+      title:          Asociación de Conceptos a Jornada
+      display:
+        "NONE":  [codjor, codnom, _grid]
+      actions:
+        _save:        ~

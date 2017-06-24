@@ -1,0 +1,31 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fasubsistema
+    theme:            cidesaGenerator
+
+    fields:
+      codsub: { name: Código, params : size=20 maxlength=5}
+      nomsub: { name: Nombre, type: textarea_tag, params : size=100x5 maxlength=500}
+
+    list:
+      fields:
+        codsub: { name: Código, params : size=20 maxlength=5}
+        nomsub: { name: Nombre, params : size=20 maxlength=500}
+      title:          Registro de Subsistema
+      display:        [=codsub, nomsub]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [codsub, nomsub]
+      max_per_page:   10
+      sort:           codsub
+
+    edit:
+      title:          Registro de Subsistemas
+      display:
+        "Información de Dependencia": [codsub, nomsub]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~

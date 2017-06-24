@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "viadefpri{codpri}"
+   - "viadefpri{despri}"
+   
+names:
+  viadefpri{codpri}:
+    required:  Yes
+    required_msg: El Código no puede estar en Blanco
+    validators: Validator_codpri
+
+  viadefpri{despri}:
+    required:  Yes
+    required_msg: La Descripción no puede estar en Blanco
+    validators: Validator_despri
+  
+Validator_codpri:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Viadefpri
+        column:       codpri
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_despri:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caracteres
+        max:       500
+        max_error: La descripción no puede pasar mas de 500 caracteres

@@ -1,0 +1,22 @@
+====== Niveles Organizacionales ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite especificar la estructura organizacional, bien sea por niveles, departamentos, divisiones o cualquier otra clasificación, con la finalidad de facilitar el manejo de la información del Sub-Sistema. </html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción ** Niveles Organizacionales **
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefnivorg.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Niveles Organizacionales** veamos la [[Descripcion_Campos_Niveles_Organizacionales|Descripción de los Campos]]
+ 
+
+
+
+
+

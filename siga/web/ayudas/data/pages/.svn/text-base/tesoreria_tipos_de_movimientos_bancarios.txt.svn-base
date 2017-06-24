@@ -1,0 +1,16 @@
+======Tipos de Movimientos Bancarios======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite registrar información relacionada con las diferentes transacciones que pueden realizarse entre el Banco y la Institución.  </html>
+
+**Para ello:**
+
+  * Seleccione la opción **Tesorería ó Banco** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesban.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbandefesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Tipos de Movimientos Bancarios**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbantipmovban.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Tipos de Movimientos Bancarios** veamos la [[Descripcion_Campos_tipos_movimientos_bancarios|Descripción de los Campos]]

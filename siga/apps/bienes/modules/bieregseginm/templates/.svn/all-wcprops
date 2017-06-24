@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/bienes/modules/bieregseginm/templates
+END
+autocompleteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/bienes/modules/bieregseginm/templates/autocompleteSuccess.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/bienes/modules/bieregseginm/templates/ajaxSuccess.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/bienes/modules/bieregseginm/templates/editSuccess.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/bienes/modules/bieregseginm/templates/_edit_actions.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/bienes/modules/bieregseginm/templates/_edit_form.php
+END

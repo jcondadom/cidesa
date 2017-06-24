@@ -1,0 +1,22 @@
+<?php
+/**
+ * Funciones de la vista.
+ *
+ * @package    Roraima
+ * @subpackage vistas
+ * @author     $Author$ <desarrollo@cidesa.com.ve>
+ * @version    SVN: $Id$
+ */
+// date: 2007/04/09 17:27:37
+?>
+<?php use_helper('Object', 'Validation', 'ObjectAdmin', 'Javascript', 'Grid', 'I18N', 'PopUp', 'Linktoapp') ?>
+<?php echo javascript_include_tag('ajax') ?>
+<?php echo javascript_include_tag('tools') ?>
+<?php if ($div=='S')
+{?>
+
+
+<?
+  echo grid_tag($obj);
+?>
+<?php }

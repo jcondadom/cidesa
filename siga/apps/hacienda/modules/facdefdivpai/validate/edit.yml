@@ -1,0 +1,37 @@
+methods:
+  post:
+   - "fcpais{codpai}"
+   - "fcpais{nompai}"
+
+names:
+  fcpais{codpai}:
+    required:  Yes
+    required_msg: El Código no puede estar en Blanco
+    validators: CorrelValidator, Validator_codpai
+
+  fcpais{nompai}:
+    required:  Yes
+    required_msg: El Nombre no puede estar en Blanco
+    validators: Validator_nompai
+
+
+Validator_codpai:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Fcpais
+        column:       codpai
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_nompai:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: El Nombre no puede tener menos de 5 caracteres
+        max:       30
+        max_error: El Nombre no puede pasar mÃ¡s de 30 caracteres
+
+CorrelValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]
+        values_error: El Código solo puede contener valores nÃºmericos

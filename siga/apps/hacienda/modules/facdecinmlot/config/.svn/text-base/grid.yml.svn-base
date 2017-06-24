@@ -1,0 +1,76 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   fcreginm
+  ancho:                   1000
+  anchogrid:               900
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+
+1:       # Columna 1
+  titulo:                  Marque
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:			   true
+  html:                    [size="5", readonly=false]
+2:       # Columna 2
+  titulo:                  Nro Inmueble
+  tipo:                    t
+  nombrecampo:             nroinm
+  esgrabable:			   true
+  html:                    [size="15", readonly=true]
+3:       # Columna 3
+  titulo:                  Código Catastral
+  tipo:                    t
+  nombrecampo:             codcatinm
+  esgrabable:			   true
+  html:                    [size="15", readonly=true]
+4:       # Columna 4
+  titulo:                  C.I./R.I.F
+  tipo:                    t
+  nombrecampo:             rifcon
+  esgrabable:			   true
+  html:                    [size="15", readonly=true]
+5:       # Columna 5
+  titulo:                  M2 Construcción
+  tipo:                    m
+  nombrecampo:             mtrcon
+  esgrabable:			   true
+  html:                    [size="15", readonly=true]
+  estotal:                 [true, 'fcdeclar_totalcon']
+6:       # Columna 6
+  titulo:                  M2 Terreno
+  tipo:                    m
+  nombrecampo:             mtrter
+  esgrabable:			   true
+  html:                    [size="15", readonly=true]
+  estotal:                 [true, 'fcdeclar_totalter']
+7:       # Columna 7
+  titulo:                  stacarinm
+  tipo:                    t
+  nombrecampo:             stacarinm
+  esgrabable:			   true
+  oculta:            true
+  html:                    [size="15", readonly=true]
+7:       # Columna 7
+  titulo:                  codzon
+  tipo:                    t
+  nombrecampo:             codzon
+  esgrabable:			   true
+  oculta:            true
+  html:                    [size="15", readonly=true]
+8:       # Columna 8
+  titulo:                  codtip
+  tipo:                    t
+  nombrecampo:             codtip
+  esgrabable:			   true
+  oculta:            true
+  html:                    [size="15", readonly=true]
+9:       # Columna 6
+  titulo:                  nomcon
+  tipo:                    t
+  nombrecampo:             nomcon
+  esgrabable:			   true
+  oculta:            true
+  html:                    [size="15", readonly=true]

@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "bnestado{codest}"
+   - "bnestado{nomest}"
+
+names:
+  bnestado{codest}:
+    required:  Yes
+    required_msg: El Código del Estado no puede estar en Blanco
+    validators: UniqueValidator
+
+  bnestado{nomest}:
+    required:  Yes
+    required_msg: La Descripción del Estado no puede estar en Blanco
+    validators: DescripcionValidator
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Bnestado
+        column:   codest
+        unique_error:   El Código del Estado ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       3
+        min_error: La Descripción del Estado no puede tener menos de 3 caracteres
+        max:       500
+        max_error: La Descripción del Estado no puede tener más de 500 caracteres

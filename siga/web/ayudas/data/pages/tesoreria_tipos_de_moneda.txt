@@ -1,0 +1,16 @@
+======Tipos de Monedas======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite registrar información relacionada con las unidades monetarias que debe tomar en cuenta el Sistema.  </html>
+
+**Para ello:**
+
+  * Seleccione la opción **Tesorería ó Banco** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesban.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbandefesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Tipos de Monedas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbantipmoned.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Tipos de Monedas** veamos la [[Descripcion_Campos_tipos_monedas|Descripción de los Campos]]

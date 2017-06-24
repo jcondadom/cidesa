@@ -1,0 +1,24 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Contabc
+    theme:            cidesaGenerator
+    fields:
+      tipcom: { name: Tipo, params: size=10 maxlength=3 onBlur="this.value=this.value.toUpperCase(); toAjaxUpdater('divgrid',1,getUrlModuloAjax(),this.value,'','&fecdes='+$('contabc_fecdes').value+'&fechas='+$('contabc_fechas').value+'&estatus='+$('contabc_stacom').value+'&tipcom='+$('contabc_tipcom').value)"}
+      fecdes: { name: Fechas Desde}
+      fechas: { name: Fechas Hasta}
+      stacom:    { name: Estatus}
+      grid:    { name: .}
+      descarga:    { name: .}
+    edit:
+      title:          Generar TXT de Comprobantes Contables
+      display:
+        "Filtros":     [tipcom, _fecdes, _fechas, _stacom]
+        "Comprobantes Contables":     [_grid, _descarga]
+      hide:            [direccion]
+      actions:
+        _list:        NONE
+        _save:        
+          name:  Generar TXT
+        _create:      NONE
+        _delete:      NONE

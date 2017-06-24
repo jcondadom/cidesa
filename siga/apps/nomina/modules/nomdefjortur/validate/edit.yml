@@ -1,0 +1,45 @@
+methods:
+  post:
+   - "npjortur{codjor}"
+   - "npjortur{desjor}"
+   - "npjortur{horini}"
+   - "npjortur{horfin}"
+   - "npjortur{numhor}"
+
+names:
+  npjortur{codjor}:
+    required:  Yes
+    required_msg: El Código de la Jornada no puedo estar en Blanco
+    validators: UniqueValidator
+
+  npjortur{desjor}:
+    required:  Yes
+    required_msg: La Descripción de la Jornada no puedo estar en Blanco
+    validators: DescripcionValidator
+    
+  npjortur{horini}:
+    required:  Yes
+    required_msg: La Hora Inicio de la Jornada no puedo estar en Blanco   
+    
+  npjortur{horfin}:
+    required:  Yes
+    required_msg: La Hora Fin de la Jornada no puedo estar en Blanco   
+
+  npjortur{numhor}:
+    required:  Yes
+    required_msg: El Total de horas no puedo estar en Blanco     
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Npjortur
+        column:   codjor
+        unique_error:   El Código de la Jornada ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción de la Jornada no puede tener menos de 5 caracteres
+        max:       500
+        max_error: La Descripción de la Jornada no puede tener más de 500 caracteres

@@ -1,0 +1,41 @@
+opciones:                  # Opciones generales
+  name:                    j
+  eliminar:                true
+  tabla:                   lidetactcroent
+  anchogrid:               800
+  ancho:                   650
+  filas:                   1
+  titulo:                  ' Actas Asociadas a las Fianzas'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Nro. Acta
+  tipo:                    t
+  nombrecampo:             numact
+  html:                    [ size=8 readonly=true ]
+  esgrabable:              true
+  catalogo:                [Liactas, sf_admin_edit_form, {Numact: 1, Codtipact: 2, Nomtipact: 3, Fecreg: 4 }, Liactas_numact ]
+2:       # Columna 1
+  titulo:                  Tipo Acta
+  tipo:                    t
+  nombrecampo:             codtipact
+  html:                    [ size=6 readonly=true ]
+  esgrabable:              true
+3:
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nomtipact
+  html:                    [ size=30 readonly=true ]
+  esgrabable:              true
+4:
+  titulo:                  Fecha
+  tipo:                    t
+  nombrecampo:             fecreg
+  html:                    [ size=8 readonly=true ]
+  esgrabable:              true
+  comofecha:               true
+5:
+  titulo:                  '  '
+  tipo:                    t
+  nombrecampo:             ver
+  html:                    [ size=4 ]
+  esgrabable:              true

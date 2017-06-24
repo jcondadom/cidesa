@@ -1,0 +1,24 @@
+====== Operación Consultar ======
+
+**Para consultar un Concepto registrado utilizando el Botón Lista:**   <html><br><br></html>
+
+  * Presione el **Botón**  {{:btnlista.jpg|}}    <html><br><br></html>
+
+  * Seleccione de la **Lista** el **Concepto** a consultar.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefconmod.jpg|}}"></div><br></html>
+
+  * El sistema automáticamente muestra los datos del **Concepto** seleccionado.
+
+  * Si desea consultar otro Concepto debe presionar nuevamente el** Botón** {{:btnlista.jpg|}}  y repita los pasos anteriores.
+ 
+<html><br><br></html>
+
+
+**Para consultar datos desde el Inicio de la pantalla de Conceptos:**  <html><br><br></html>
+
+  * El sistema muestra la **Lista** de **Conceptos** registrados.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefconmod.jpg|}}"></div><br></html>
+
+  * Seleccione de la Lista el **Concepto** a consultar.  <html><br><br></html>
+
+  * El sistema automáticamente muestra los datos del Concepto seleccionado.

@@ -1,0 +1,23 @@
+costos:
+  opciones:
+    activo: true #true/false
+    descripcion: Módulo de Costos
+    imagen: costos.gif
+    nombre: Costos
+    urls:
+      Cambiar Contraseña:
+        modulo: autenticacion.php
+        modulo_dev: autenticacion_dev.php
+      default:
+        modulo: costos.php
+        modulo_dev: costos_dev.php
+    imagenes:
+      default: OperatorClass.png
+  menu:
+    Definiciones:
+      Turnos:                                         cosdeftur
+      Tipos de Costos:                                costipcos
+      Tipos de Calculos:                              costipcal
+      Tipos de Productos:                             costippro
+      Tipo de Instrumento de Medición:                costipinsmed
+      Forma de Producción:                            cosforpro

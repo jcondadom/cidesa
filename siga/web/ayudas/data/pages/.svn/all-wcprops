@@ -1,0 +1,5801 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repositorio/!svn/ver/46004/web/php/documentacion/dokuwiki/trunk/data/pages
+END
+consultar_parametros_para_el_registro_y_control_de_vacaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_parametros_para_el_registro_y_control_de_vacaciones.txt
+END
+tipos_de_prestamos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipos_de_prestamos.txt
+END
+descripcion_campos_presupuesto_ajustes_ejecucion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_presupuesto_ajustes_ejecucion.txt
+END
+descripcion_campos_formulacion_formulacion_poa_por_unidad_ejecutora.txt
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_formulacion_poa_por_unidad_ejecutora.txt
+END
+descripcion_campos_presupuesto_precomprometer.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_presupuesto_precomprometer.txt
+END
+eliminar_contratos_registro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_contratos_registro.txt
+END
+compromisos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/compromisos.txt
+END
+descripcion_campos_obras_parroquia.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_parroquia.txt
+END
+aprobacion_de_requisiciones_por_lotes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/aprobacion_de_requisiciones_por_lotes.txt
+END
+modificar_permisos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_permisos.txt
+END
+modificar_definicion_de_condicion_contractual.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_definicion_de_condicion_contractual.txt
+END
+consultar_pagar.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_pagar.txt
+END
+consultar_unidades_de_medidas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_unidades_de_medidas.txt
+END
+formulacion_tipos_creditos_presupuestarios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_tipos_creditos_presupuestarios.txt
+END
+modificar_conceptos_para_el_islr.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_conceptos_para_el_islr.txt
+END
+consultar_registro_de_vacaciones_disfrutadas_en_lote.txt
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_registro_de_vacaciones_disfrutadas_en_lote.txt
+END
+orden_de_pago_de_aportes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/orden_de_pago_de_aportes.txt
+END
+descripcion_campos_movimientos_segun_bancos_anos_anteriores.txt
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_movimientos_segun_bancos_anos_anteriores.txt
+END
+descripcion_campos_obras_tipo_actas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_tipo_actas.txt
+END
+consultar_movimientos_por_conceptos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_movimientos_por_conceptos.txt
+END
+consultar_solicitud_de_anticipo_sobre_prestaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_solicitud_de_anticipo_sobre_prestaciones.txt
+END
+estados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/estados.txt
+END
+incluir_conceptos_de_ahorro_habitacional.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_conceptos_de_ahorro_habitacional.txt
+END
+incluir_causar.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_causar.txt
+END
+formulacion_definiciones_estatus.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_definiciones_estatus.txt
+END
+descripcion_campos_obras_municipio.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_municipio.txt
+END
+descripcion_campos_formulacion_parroquias.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_parroquias.txt
+END
+incluir_solicitud_de_traslados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_solicitud_de_traslados.txt
+END
+incluir_conceptos_de_compensacion_por_nomina.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_conceptos_de_compensacion_por_nomina.txt
+END
+asignacion_de_categorias_por_empleado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/asignacion_de_categorias_por_empleado.txt
+END
+llegadas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/llegadas.txt
+END
+eliminar_registro_de_dias_extras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_registro_de_dias_extras.txt
+END
+niveles_organizacionales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/niveles_organizacionales.txt
+END
+tipos_de_retiros.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipos_de_retiros.txt
+END
+descripcion_campos_traspaso_inventario.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_traspaso_inventario.txt
+END
+descripcion_campos_formulacion_definicion_situaciones_presupuestarias.txt
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_definicion_situaciones_presupuestarias.txt
+END
+descripcion_campos_financiera_acutalizar_comprobantes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_financiera_acutalizar_comprobantes.txt
+END
+incluir_definicion_de_ubicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_definicion_de_ubicacion.txt
+END
+modificar_municipios_obras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_municipios_obras.txt
+END
+eliminar_bancos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_bancos.txt
+END
+modificar_parametros_para_el_registro_y_control_de_vacaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_parametros_para_el_registro_y_control_de_vacaciones.txt
+END
+actividades_segun_catalogo_de_clasificacion_de_compras_del_estado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/actividades_segun_catalogo_de_clasificacion_de_compras_del_estado.txt
+END
+consultar_asignacion_de_conceptos_por_categoria_presupuestaria_especial.txt
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_asignacion_de_conceptos_por_categoria_presupuestaria_especial.txt
+END
+traspaso_de_articulos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/traspaso_de_articulos.txt
+END
+registro_contratistas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_contratistas.txt
+END
+descripcion_campos_inventario_fisico.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_inventario_fisico.txt
+END
+incluir_conceptos_para_el_islr.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_conceptos_para_el_islr.txt
+END
+descripcion_campos_formulacion_formulacion_poa.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_formulacion_poa.txt
+END
+tesoreria_definicion_iva_para_agentes_retencion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_definicion_iva_para_agentes_retencion.txt
+END
+descripcion_campos_presupuesto_causados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_presupuesto_causados.txt
+END
+finalizar_sistema.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/finalizar_sistema.txt
+END
+tipo_valuaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipo_valuaciones.txt
+END
+algoritmo_de_programacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/algoritmo_de_programacion.txt
+END
+eliminar_tipos_de_gastos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_tipos_de_gastos.txt
+END
+modificar_unidades_de_medidas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_unidades_de_medidas.txt
+END
+consultar_cargos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_cargos.txt
+END
+descripcion_campos_obras_registro_inspecciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_registro_inspecciones.txt
+END
+eliminar_conceptos_para_el_sueldo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_conceptos_para_el_sueldo.txt
+END
+consultar_tipo_de_cargos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_tipo_de_cargos.txt
+END
+nominas_especiales_cierre_nominas_especiales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/nominas_especiales_cierre_nominas_especiales.txt
+END
+ramos_de_articulos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/ramos_de_articulos.txt
+END
+eliminar_personal_profesiones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_personal_profesiones.txt
+END
+registro_de_dias_extras_por_nomina_en_lote.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_de_dias_extras_por_nomina_en_lote.txt
+END
+eliminar_personal_especialidades.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_personal_especialidades.txt
+END
+descripcion_campos_formulacion_subsectores.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_subsectores.txt
+END
+consultar_ciudad.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_ciudad.txt
+END
+eliminar_catalogo_de_clasificacion_de_compras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_catalogo_de_clasificacion_de_compras.txt
+END
+eliminar_registro_solicitudes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_registro_solicitudes.txt
+END
+modificar_pagos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_pagos.txt
+END
+descripcion_campos_obras_tipo_personal.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_tipo_personal.txt
+END
+incluir_precomprometer.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_precomprometer.txt
+END
+eliminar_conceptos_para_el_islr.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_conceptos_para_el_islr.txt
+END
+definicion_contable_de_inmuebles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_contable_de_inmuebles.txt
+END
+tarifas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tarifas.txt
+END
+incluir_solicitud_de_anticipo_sobre_prestaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_solicitud_de_anticipo_sobre_prestaciones.txt
+END
+tipo_partidas_construccion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipo_partidas_construccion.txt
+END
+profesiones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/profesiones.txt
+END
+eliminar_inspecciones_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_inspecciones_tipo.txt
+END
+descripcion_campos_definicion_razones_compra.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_definicion_razones_compra.txt
+END
+descripcion_campos_cheques_en_custodia.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_cheques_en_custodia.txt
+END
+registro_de_vacaciones_disfrutadas_en_lote.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_de_vacaciones_disfrutadas_en_lote.txt
+END
+consultar_tipo_organizaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_tipo_organizaciones.txt
+END
+formulacion_niveles_presupuestarios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_niveles_presupuestarios.txt
+END
+tesoreria_definicion_ubicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_definicion_ubicacion.txt
+END
+descripcion_campos_formulacion_definicion_objetivos_estrategicos_nueva_etapa.txt
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_definicion_objetivos_estrategicos_nueva_etapa.txt
+END
+incluir_tabla_para_los_dias_feriados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_tabla_para_los_dias_feriados.txt
+END
+eliminar_registro_partidas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_registro_partidas.txt
+END
+descripcion_campos_presupuesto_asignacion_inicial.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_presupuesto_asignacion_inicial.txt
+END
+consultar_jornadas_laborales_por_empleado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_jornadas_laborales_por_empleado.txt
+END
+incluir_tipo_de_adjudicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_tipo_de_adjudicacion.txt
+END
+descripcion_campos_obras_tipo_solicitantes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_tipo_solicitantes.txt
+END
+descripcion_campos_obras_profesiones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_profesiones.txt
+END
+definicion_de_motivos_de_faltantes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_motivos_de_faltantes.txt
+END
+descripcion_campos_bienes_definicion_activos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_bienes_definicion_activos.txt
+END
+modificar_conceptos_para_aportes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_conceptos_para_aportes.txt
+END
+jornadas_laborales_por_empleado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/jornadas_laborales_por_empleado.txt
+END
+tesoreria_tipos_de_retenciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_tipos_de_retenciones.txt
+END
+eliminar_estados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_estados.txt
+END
+incluir_definicion_de_cobertura_para_seguros.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_definicion_de_cobertura_para_seguros.txt
+END
+modificar_asignacion_de_trabajo_para_prestaciones_por_contrato_colectivo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_asignacion_de_trabajo_para_prestaciones_por_contrato_colectivo.txt
+END
+descripcion_campos_asociacion_conceptos_tipos_retenciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_asociacion_conceptos_tipos_retenciones.txt
+END
+descripcion_campos_obras_adjudicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_adjudicacion.txt
+END
+modificar_conceptos_para_las_primas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_conceptos_para_las_primas.txt
+END
+nominas_especiales_definicion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/nominas_especiales_definicion.txt
+END
+eliminar_perfiles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_perfiles.txt
+END
+modificar_tipos_de_retiros.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_tipos_de_retiros.txt
+END
+traspaso_de_inventario_fisico_a_logico.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/traspaso_de_inventario_fisico_a_logico.txt
+END
+modificar_tipos_de_parientes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_tipos_de_parientes.txt
+END
+registro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro.txt
+END
+eliminar_municipios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_municipios.txt
+END
+eliminar_estado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_estado.txt
+END
+descripcion_campos_presupuesto_titulos_presupuestarios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_presupuesto_titulos_presupuestarios.txt
+END
+descripcion_campos_obras_registro_contratos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_registro_contratos.txt
+END
+descripcion_campos_tipos_cuentas_bancarias.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_tipos_cuentas_bancarias.txt
+END
+descripcion_campos_definicion_tipos_entrada.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_definicion_tipos_entrada.txt
+END
+parrroquias.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/parrroquias.txt
+END
+consultar_registro_de_tipos_de_asignaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_registro_de_tipos_de_asignaciones.txt
+END
+modificar_profesiones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_profesiones.txt
+END
+consultar_tabla_para_los_dias_de_disfrute.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_tabla_para_los_dias_de_disfrute.txt
+END
+descripcion_campos_presupuesto_pagos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_presupuesto_pagos.txt
+END
+eliminar_registro_contratistas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_registro_contratistas.txt
+END
+eliminar_definicion_presupuestaria_de_liquidacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_definicion_presupuestaria_de_liquidacion.txt
+END
+prestamos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/prestamos.txt
+END
+modificar_nominas_especiales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_nominas_especiales.txt
+END
+tabla_para_los_dias_de_disfrute.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tabla_para_los_dias_de_disfrute.txt
+END
+consultar_asignacion_de_trabajadores_para_prestaciones_por_contrato_colectivo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_asignacion_de_trabajadores_para_prestaciones_por_contrato_colectivo.txt
+END
+descripcion_campos_tipos_retenciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_tipos_retenciones.txt
+END
+asignacion_de_cargos_a_nomina.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/asignacion_de_cargos_a_nomina.txt
+END
+incluir_conceptos_para_aportes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_conceptos_para_aportes.txt
+END
+eliminar_equipos_registro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_equipos_registro.txt
+END
+modificar_tipo_organizaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_tipo_organizaciones.txt
+END
+consultar_contratos_situacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_contratos_situacion.txt
+END
+indicadores_de_gestion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/indicadores_de_gestion.txt
+END
+pagar.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/pagar.txt
+END
+eliminar_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_tipo.txt
+END
+incluir_asignacion_de_trabajo_para_prestaciones_por_contrato_colectivo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_asignacion_de_trabajo_para_prestaciones_por_contrato_colectivo.txt
+END
+consultar_retenciones_y_aportes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_retenciones_y_aportes.txt
+END
+modificar_tipo_de_cargos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_tipo_de_cargos.txt
+END
+consultar_bancos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_bancos.txt
+END
+tesoreria_banco.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_banco.txt
+END
+descripcion_campos_bienes_definicion_motivos_disposicion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_bienes_definicion_motivos_disposicion.txt
+END
+descripcion_campos_formulacion_acciones_especificas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_acciones_especificas.txt
+END
+incluir.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir.txt
+END
+incluir_tipos_de_parientes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_tipos_de_parientes.txt
+END
+descripcion_campos_definicion_iva_agentes_retencion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_definicion_iva_agentes_retencion.txt
+END
+recepcion_de_ordenes_de_compra.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/recepcion_de_ordenes_de_compra.txt
+END
+eliminar_tarifas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_tarifas.txt
+END
+ingreso_a_siga.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/ingreso_a_siga.txt
+END
+modificar_registro_contratistas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_registro_contratistas.txt
+END
+inicio.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/inicio.txt
+END
+descripcion_campos_obras_tipo_licitaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_tipo_licitaciones.txt
+END
+tesoreria_fondos_terceros.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_fondos_terceros.txt
+END
+eliminar_registro_solicitante.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_registro_solicitante.txt
+END
+eliminar_profesiones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_profesiones.txt
+END
+eliminar_pais.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_pais.txt
+END
+eliminar_conceptos_para_aportes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_conceptos_para_aportes.txt
+END
+consultar_solicitud_de_traslados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_solicitud_de_traslados.txt
+END
+formulacion_definicion_situacion_presupuestaria.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_definicion_situacion_presupuestaria.txt
+END
+incluir_registro_de_dias_extras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_registro_de_dias_extras.txt
+END
+precompromisos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/precompromisos.txt
+END
+descripcion_campos_financiera_tipos_cuentas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_financiera_tipos_cuentas.txt
+END
+consultar_definicion_de_conceptos_para_dias_adicionales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_definicion_de_conceptos_para_dias_adicionales.txt
+END
+incluir_nominas_especiales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_nominas_especiales.txt
+END
+consultar_conceptos_para_retenciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_conceptos_para_retenciones.txt
+END
+incluir_equipos_registro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_equipos_registro.txt
+END
+incluir_retenciones_y_aportes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_retenciones_y_aportes.txt
+END
+eliminar_jornadas_laborales_por_empleado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_jornadas_laborales_por_empleado.txt
+END
+consultar_tipo_obras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_tipo_obras.txt
+END
+modificar_personal_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_personal_tipo.txt
+END
+modificar_conceptos_para_el_salario_integral.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_conceptos_para_el_salario_integral.txt
+END
+modificar_municipios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_municipios.txt
+END
+hacienda_municipal.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/46004/web/php/documentacion/dokuwiki/trunk/data/pages/hacienda_municipal.txt
+END
+formulacion_subsectores.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_subsectores.txt
+END
+modificar_definicion_de_clasificacion_funcional.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_definicion_de_clasificacion_funcional.txt
+END
+modificar_definicion_de_conceptos_variables.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_definicion_de_conceptos_variables.txt
+END
+permisos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/permisos.txt
+END
+descripcion_campos_formulacion_organismos_publicos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_organismos_publicos.txt
+END
+consultar_conceptos_para_el_islr.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_conceptos_para_el_islr.txt
+END
+modificar_conceptos_para_el_fondo_de_jubilacion_y_pensiones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_conceptos_para_el_fondo_de_jubilacion_y_pensiones.txt
+END
+tipos_de_cargos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipos_de_cargos.txt
+END
+descripcion_campos_formulacion_definicion_empresa.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_definicion_empresa.txt
+END
+prestacion_de_servicios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/prestacion_de_servicios.txt
+END
+descripcion_campos_obras_registro_contratistas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_registro_contratistas.txt
+END
+incluir_tipo_de_cargos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_tipo_de_cargos.txt
+END
+formulacion_formulacion_cambiar_contrasena.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_formulacion_cambiar_contrasena.txt
+END
+descripcion_campos_registro_licitaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_registro_licitaciones.txt
+END
+modificar_personal_profesiones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_personal_profesiones.txt
+END
+descripcion_campos_calculo_nomina_empleado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_calculo_nomina_empleado.txt
+END
+eliminar_tipo_partidas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_tipo_partidas.txt
+END
+modificar_registro_solicitudes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_registro_solicitudes.txt
+END
+definicion_de_conceptos_variables.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_conceptos_variables.txt
+END
+incluir_personal_especialidades.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_personal_especialidades.txt
+END
+compra_y_almacen.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/compra_y_almacen.txt
+END
+los_pagos_que_no_afectan_a_presupuesto.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/los_pagos_que_no_afectan_a_presupuesto.txt
+END
+consultar_ajustes_ejecucion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_ajustes_ejecucion.txt
+END
+descripcion_campos_bienes_definicion_ubicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_bienes_definicion_ubicacion.txt
+END
+datos_generales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/datos_generales.txt
+END
+causados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/causados.txt
+END
+aprobacion_de_solicitud_de_egresos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/aprobacion_de_solicitud_de_egresos.txt
+END
+definicion_de_condicion_contractual.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_condicion_contractual.txt
+END
+incluir_conceptos_para_el_salario_integral.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_conceptos_para_el_salario_integral.txt
+END
+incluir_municipios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_municipios.txt
+END
+consultar_estado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_estado.txt
+END
+consultar_conceptos_para_el_salario_integral.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_conceptos_para_el_salario_integral.txt
+END
+descripcion_campos_obras_registro_personal.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_registro_personal.txt
+END
+definicion_de_grupos_de_recaudos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_grupos_de_recaudos.txt
+END
+tesoreria_movimientos_segun_bancos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_movimientos_segun_bancos.txt
+END
+descripcion_campos_obras_registro_equipos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_registro_equipos.txt
+END
+nominas_especiales_conceptos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/nominas_especiales_conceptos.txt
+END
+descripcion_campos_presupuesto_aprobacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_presupuesto_aprobacion.txt
+END
+consultar_tipo_de_dedicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_tipo_de_dedicacion.txt
+END
+tipos_de_parientes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipos_de_parientes.txt
+END
+descripcion_campos_asignacion_modalidad_pago_cesta_ticket.txt
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_asignacion_modalidad_pago_cesta_ticket.txt
+END
+formulacion_politicas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_politicas.txt
+END
+situacion_del_empleado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/situacion_del_empleado.txt
+END
+descripcion_campos_presupuesto_compromiso.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_presupuesto_compromiso.txt
+END
+incluir_catalogo_de_clasificacion_de_compras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_catalogo_de_clasificacion_de_compras.txt
+END
+modificar_adjudicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_adjudicacion.txt
+END
+descripcion_campos_formulacion_estrategias.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_estrategias.txt
+END
+conceptos_para_retenciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/conceptos_para_retenciones.txt
+END
+formulacion_estados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_estados.txt
+END
+formulacion_presupuesto_ingresos_directa.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_presupuesto_ingresos_directa.txt
+END
+tesoreria_movimientos_segun_libros.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_movimientos_segun_libros.txt
+END
+tipo_obras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipo_obras.txt
+END
+descripcion_campos_presupuesto_asignacion_partidas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_presupuesto_asignacion_partidas.txt
+END
+consultar_retenciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_retenciones.txt
+END
+descripcion_campos_obras_especialidades.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_especialidades.txt
+END
+descripcion_campos_formulacion_totales_fuente_ingreso_ordinario_extraordinario.txt
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_totales_fuente_ingreso_ordinario_extraordinario.txt
+END
+aprobacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/aprobacion.txt
+END
+aplicacion_maestra.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/17634/web/php/documentacion/dokuwiki/trunk/data/pages/aplicacion_maestra.txt
+END
+requisiciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/requisiciones.txt
+END
+consultar_conceptos_para_aportes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_conceptos_para_aportes.txt
+END
+tesoreria_transferencias_bancarias.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_transferencias_bancarias.txt
+END
+documentacion_legal.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/documentacion_legal.txt
+END
+descripcion_campos_tipos_movimientos_bancarios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_tipos_movimientos_bancarios.txt
+END
+movimientos_por_conceptos_y_cargos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/movimientos_por_conceptos_y_cargos.txt
+END
+descripcion_campos_bienes_revalorizacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_bienes_revalorizacion.txt
+END
+descripcion_campos_prestamos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_prestamos.txt
+END
+tipo_licitaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipo_licitaciones.txt
+END
+cierre_de_periodo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/cierre_de_periodo.txt
+END
+incluir_inspecciones_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_inspecciones_tipo.txt
+END
+retenciones_y_aportes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/retenciones_y_aportes.txt
+END
+eliminar_definicion_de_conceptos_variables.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_definicion_de_conceptos_variables.txt
+END
+incluir_registro_de_tipos_de_asignaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_registro_de_tipos_de_asignaciones.txt
+END
+tesoreria_actualizar_monto_de_retenciones_por_orden.txt
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_actualizar_monto_de_retenciones_por_orden.txt
+END
+incluir_personal_cargos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_personal_cargos.txt
+END
+incluir_asignacion_de_cargos_a_nomina.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_asignacion_de_cargos_a_nomina.txt
+END
+salidas_de_almacen.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/salidas_de_almacen.txt
+END
+modificar_registro_solicitante.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_registro_solicitante.txt
+END
+incluir_registro_partidas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_registro_partidas.txt
+END
+formulacion_organismos_publicos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_organismos_publicos.txt
+END
+descripcion_campos_obras_empresas_participantes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_empresas_participantes.txt
+END
+consultar_liquidacion_de_vacaciones_por_egreso.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_liquidacion_de_vacaciones_por_egreso.txt
+END
+incluir_asignacion_de_cuentas_bancarias_por_empleado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_asignacion_de_cuentas_bancarias_por_empleado.txt
+END
+descripcion_campos_bienes_definicion_disposicion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_bienes_definicion_disposicion.txt
+END
+eliminar_definicion_de_condicion_contractual.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_definicion_de_condicion_contractual.txt
+END
+ejecucion_global.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/ejecucion_global.txt
+END
+conceptos_de_compensacion_por_nomina.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/conceptos_de_compensacion_por_nomina.txt
+END
+incluir_definicion_de_condicion_contractual.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_definicion_de_condicion_contractual.txt
+END
+tesoreria_definicion_reportes_comprobantes_retencion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_definicion_reportes_comprobantes_retencion.txt
+END
+descripcion_campos_definicion_grupo_recaudos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_definicion_grupo_recaudos.txt
+END
+descripcion_campos_bienes_definicion_empresa.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_bienes_definicion_empresa.txt
+END
+modificar_tabla_para_los_dias_de_disfrute.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_tabla_para_los_dias_de_disfrute.txt
+END
+descripcion_campos_obras_registro_obras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_registro_obras.txt
+END
+asignacion_de_cuentas_bancarias_por_empleado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/asignacion_de_cuentas_bancarias_por_empleado.txt
+END
+datos_de_la_oferta.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/datos_de_la_oferta.txt
+END
+especialidades.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/especialidades.txt
+END
+incluir_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_tipo.txt
+END
+definicion_contable_de_muebles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_contable_de_muebles.txt
+END
+calculo_de_nominas_por_empleado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/calculo_de_nominas_por_empleado.txt
+END
+eliminar_dtipo_de_cargos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_dtipo_de_cargos.txt
+END
+datos_de_la_publicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/datos_de_la_publicacion.txt
+END
+modificar_contratos_registro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_contratos_registro.txt
+END
+descripcion_campos_formulacion_tipos_contribuyentes_conexiones_organismos_publicos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_tipos_contribuyentes_conexiones_organismos_publicos.txt
+END
+descripcion_campos_aprobacion_requisiciones_lotes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_aprobacion_requisiciones_lotes.txt
+END
+definicion_de_motivos_de_disposicion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_motivos_de_disposicion.txt
+END
+consultar_personal_cargos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_personal_cargos.txt
+END
+descripcion_campos_definicion_comprobantes_retencion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_definicion_comprobantes_retencion.txt
+END
+asignacion_de_cargos_y_conceptos_a_empleados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/asignacion_de_cargos_y_conceptos_a_empleados.txt
+END
+descripcion_campos_definicion_recaudos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_definicion_recaudos.txt
+END
+consultar_tabla_de_ipc.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_tabla_de_ipc.txt
+END
+eliminar_personal_registro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_personal_registro.txt
+END
+consultar_conceptos_para_el_fondo_de_jubilacion_y_pensiones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_conceptos_para_el_fondo_de_jubilacion_y_pensiones.txt
+END
+incluir_pais.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_pais.txt
+END
+descripcion_campos_formulacion_directrices.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_directrices.txt
+END
+filtros.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/filtros.txt
+END
+eliminar_definicion_de_conceptos_para_dias_adicionalesl.txt
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_definicion_de_conceptos_para_dias_adicionalesl.txt
+END
+tipo_actas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipo_actas.txt
+END
+consultar_presupuesto.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_presupuesto.txt
+END
+descripcion_campos_financiera_comprobantes_contables.txt
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_financiera_comprobantes_contables.txt
+END
+descripcion_campos_bienes_definicion_contable_inmuebles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_bienes_definicion_contable_inmuebles.txt
+END
+incluir_parametros_para_el_registro_y_control_de_vacaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_parametros_para_el_registro_y_control_de_vacaciones.txt
+END
+titulos_presupuestarios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/titulos_presupuestarios.txt
+END
+registro_personal.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_personal.txt
+END
+consultar_pagos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_pagos.txt
+END
+eliminar_tabla_de_ipc.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_tabla_de_ipc.txt
+END
+consultar_niveles_organizacionales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_niveles_organizacionales.txt
+END
+asignacion_de_trabajo_para_prestaciones_por_contrato_colectivo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/asignacion_de_trabajo_para_prestaciones_por_contrato_colectivo.txt
+END
+consultar_adjudicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_adjudicacion.txt
+END
+incluir_movimientos_por_empleados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_movimientos_por_empleados.txt
+END
+descripcion_campos_bienes_disposicion_muebles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_bienes_disposicion_muebles.txt
+END
+formulacion_estrategias.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_estrategias.txt
+END
+consultar_conceptos_de_compensacion_por_nomina.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_conceptos_de_compensacion_por_nomina.txt
+END
+incluir_contratos_registro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_contratos_registro.txt
+END
+incluir_unidades_de_medidas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_unidades_de_medidas.txt
+END
+seguro_de_inmuebles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/seguro_de_inmuebles.txt
+END
+descripcion_campos_obras_tipo_organizaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_tipo_organizaciones.txt
+END
+incluir_conceptos_para_el_sueldo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_conceptos_para_el_sueldo.txt
+END
+tipo_equipos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipo_equipos.txt
+END
+eliminar_tipo_licitaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_tipo_licitaciones.txt
+END
+modificar_empresas_participantes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_empresas_participantes.txt
+END
+eliminar_retenciones_y_aportes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_retenciones_y_aportes.txt
+END
+ajuste_a_ordenes_de_compra.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/ajuste_a_ordenes_de_compra.txt
+END
+registro_obras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_obras.txt
+END
+presentacion_de_ofertas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/presentacion_de_ofertas.txt
+END
+consultar_comprometer.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_comprometer.txt
+END
+modificar_perfiles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_perfiles.txt
+END
+descripcion_campos_descripcion_campos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_descripcion_campos.txt
+END
+tipos_de_cuentas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipos_de_cuentas.txt
+END
+definicion_conceptos_cesta_tickets.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_conceptos_cesta_tickets.txt
+END
+documentos_que_refieren_a_un_causado_u_orden_de_pago_que_no_afecta_presupuesto.txt
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/documentos_que_refieren_a_un_causado_u_orden_de_pago_que_no_afecta_presupuesto.txt
+END
+incluir_datos_personales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_datos_personales.txt
+END
+modificar_niveles_organizacionales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_niveles_organizacionales.txt
+END
+eliminar_adjudicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_adjudicacion.txt
+END
+consultar_equipos_registro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_equipos_registro.txt
+END
+conceptos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/conceptos.txt
+END
+definicion_de_cobertura_para_seguros.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_cobertura_para_seguros.txt
+END
+datos_de_la_obra.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/datos_de_la_obra.txt
+END
+modificar_ejecucion_global.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_ejecucion_global.txt
+END
+definicion_de_tipos_de_entrada.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_tipos_de_entrada.txt
+END
+descripcion_campos_rango_cotizaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_rango_cotizaciones.txt
+END
+descripcion_campos_formulacion_metas_proyectos_acciones_especificas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_metas_proyectos_acciones_especificas.txt
+END
+eliminar_tipo_de_dedicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_tipo_de_dedicacion.txt
+END
+incluir_equipos_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_equipos_tipo.txt
+END
+registro_de_salario_integral_por_contrato_individual.txt
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_de_salario_integral_por_contrato_individual.txt
+END
+orden_de_pago_que_refiere_a_compromiso.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/orden_de_pago_que_refiere_a_compromiso.txt
+END
+consultar_ajustes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_ajustes.txt
+END
+descripcion_campos_obras_sector.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_sector.txt
+END
+modificar_definicion_presupuestaria_de_liquidacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_definicion_presupuestaria_de_liquidacion.txt
+END
+conceptos_para_las_primas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/conceptos_para_las_primas.txt
+END
+formulacion_clasificador_presupuestario_gastos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_clasificador_presupuestario_gastos.txt
+END
+modificar_conceptos_para_retenciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_conceptos_para_retenciones.txt
+END
+cargos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/cargos.txt
+END
+descripcion_campos_formulacion_clasificador_presupuestario.txt
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_clasificador_presupuestario.txt
+END
+modificar_retenciones_y_aportes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_retenciones_y_aportes.txt
+END
+descripcion_campos_obras_tipo_contratos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_tipo_contratos.txt
+END
+incluir_conceptos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_conceptos.txt
+END
+descripcion_campos_presupuesto_precompromisos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_presupuesto_precompromisos.txt
+END
+tipos_de_proveedores.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipos_de_proveedores.txt
+END
+descripcion_campos_formulacion_tipos_financiamiento.txt
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_tipos_financiamiento.txt
+END
+descripcion_campos_obras_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_tipo.txt
+END
+asignacion_modalidad_pago_cesta_ticket_a_empleado_por_nomina.txt
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/asignacion_modalidad_pago_cesta_ticket_a_empleado_por_nomina.txt
+END
+ciudad.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/ciudad.txt
+END
+incluir_empresas_participantes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_empresas_participantes.txt
+END
+modificar_cargos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_cargos.txt
+END
+descripcion_campos_obras_tipo_solicitudes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_tipo_solicitudes.txt
+END
+contabilidad_financiera.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/contabilidad_financiera.txt
+END
+definicion_de_proveedores.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_proveedores.txt
+END
+eliminar_personal_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_personal_tipo.txt
+END
+analisis_de_ofertas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/analisis_de_ofertas.txt
+END
+listas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/listas.txt
+END
+eliminar_personal_cargos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_personal_cargos.txt
+END
+incluir_llegadas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_llegadas.txt
+END
+eliminar_tipo_solicitudes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_tipo_solicitudes.txt
+END
+definicion_de_la_alcaldia.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/46004/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_la_alcaldia.txt
+END
+descripcion_campos_asignacion_categorias_empleado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_asignacion_categorias_empleado.txt
+END
+modificar_ciudad.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_ciudad.txt
+END
+calculo_de_conceptos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/calculo_de_conceptos.txt
+END
+despachos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/despachos.txt
+END
+registro_muebles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_muebles.txt
+END
+incluir_parroquias.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_parroquias.txt
+END
+descripcion_campos_financiera_catalogo_cuentas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_financiera_catalogo_cuentas.txt
+END
+consultar_registro_licitaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_registro_licitaciones.txt
+END
+tesoreria_cierre_de_periodo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_cierre_de_periodo.txt
+END
+tesoreria_tipos_de_rendimiento.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_tipos_de_rendimiento.txt
+END
+incluir_profesiones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_profesiones.txt
+END
+descripcion_campos_calculo_conceptos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_calculo_conceptos.txt
+END
+incluir_conceptos_para_retenciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_conceptos_para_retenciones.txt
+END
+eliminar_valuaciones_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_valuaciones_tipo.txt
+END
+formulacion_tipos_contribuyentes_conexiones_organismos_publicos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_tipos_contribuyentes_conexiones_organismos_publicos.txt
+END
+eliminar_empresas_participantes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_empresas_participantes.txt
+END
+cerrar_etapa_de_definicion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/cerrar_etapa_de_definicion.txt
+END
+descripcion_campos_bienes_tabla_ipc.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_bienes_tabla_ipc.txt
+END
+consultar_registro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_registro.txt
+END
+consultar_definicion_de_cobertura_para_seguros.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_definicion_de_cobertura_para_seguros.txt
+END
+registro_de_vacaciones_disfrutadas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_de_vacaciones_disfrutadas.txt
+END
+consultar_asignacion_de_conceptos_a_nomina.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_asignacion_de_conceptos_a_nomina.txt
+END
+incluir_movimientos_por_conceptos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_movimientos_por_conceptos.txt
+END
+incluir_tipo_organizaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_tipo_organizaciones.txt
+END
+datos_de_la_licitacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/datos_de_la_licitacion.txt
+END
+tipos_de_contratos_colectivos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipos_de_contratos_colectivos.txt
+END
+descripcion_campos_tipo_beneficiario.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_tipo_beneficiario.txt
+END
+formulacion_directrices.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_directrices.txt
+END
+consultar_registro_de_salario_integral_por_contrato_individual.txt
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_registro_de_salario_integral_por_contrato_individual.txt
+END
+eliminar_tipo_de_adjudicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_tipo_de_adjudicacion.txt
+END
+descripcion_campos_obras_respuesta_solicitud.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_respuesta_solicitud.txt
+END
+liquidacion_de_vacaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/liquidacion_de_vacaciones.txt
+END
+descripcion_campos_obras_tipo_equipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_tipo_equipo.txt
+END
+incluir_tipo_solicitudes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_tipo_solicitudes.txt
+END
+definicion_de_jornada_laboral.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_jornada_laboral.txt
+END
+incluir_registro_licitaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_registro_licitaciones.txt
+END
+registro_actas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/registro_actas.txt
+END
+formulacion_formulacion_seguimientos_metas_formuladas_poa.txt
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_formulacion_seguimientos_metas_formuladas_poa.txt
+END
+eliminar_conceptos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_conceptos.txt
+END
+consultar_definicion_de_clasificacion_funcional.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_definicion_de_clasificacion_funcional.txt
+END
+incluir_ciudad.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_ciudad.txt
+END
+tipo_personal.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipo_personal.txt
+END
+incluir_definicion_de_conceptos_para_dias_adicionales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_definicion_de_conceptos_para_dias_adicionales.txt
+END
+modificar_estados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_estados.txt
+END
+tesoreria_beneficiarios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_beneficiarios.txt
+END
+definiciones_generales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definiciones_generales.txt
+END
+formulacion_sectores.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_sectores.txt
+END
+consultar_registro_de_dias_extras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_registro_de_dias_extras.txt
+END
+incluir_valuaciones_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_valuaciones_tipo.txt
+END
+eliminar_conceptos_para_las_primas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_conceptos_para_las_primas.txt
+END
+asignacion_de_prioridad_a_cotizaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/asignacion_de_prioridad_a_cotizaciones.txt
+END
+consultar_definicion_de_condicion_contractual.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_definicion_de_condicion_contractual.txt
+END
+definiciones_especificas_de_institucion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definiciones_especificas_de_institucion.txt
+END
+formulacion_proyectos_acciones_centralizadas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_proyectos_acciones_centralizadas.txt
+END
+descripcion_campos_ordenes_de_pago.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_ordenes_de_pago.txt
+END
+formulacion_totales_fuentes_ingresos_ordinarios_extraordinarios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_totales_fuentes_ingresos_ordinarios_extraordinarios.txt
+END
+eliminar_comprobantes_anulados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_comprobantes_anulados.txt
+END
+descripcion_campos_beneficiario.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_beneficiario.txt
+END
+bancos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/bancos.txt
+END
+variables.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/variables.txt
+END
+descripcion_campos_formulacion_sectores.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_sectores.txt
+END
+consultar_municipios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_municipios.txt
+END
+pagos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/pagos.txt
+END
+eliminar_tipos_de_nominas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_tipos_de_nominas.txt
+END
+descripcion_de_campos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_de_campos.txt
+END
+nomina_y_personal.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/nomina_y_personal.txt
+END
+descripcion_campos_obras_situacion_contrato.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_situacion_contrato.txt
+END
+descripcion_campos_formulacion_proyectos_acciones_centralizadas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_proyectos_acciones_centralizadas.txt
+END
+cierre_de_nomina.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/cierre_de_nomina.txt
+END
+modificar_bancos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_bancos.txt
+END
+incluir_registro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_registro.txt
+END
+solicitud_de_traslados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/solicitud_de_traslados.txt
+END
+descripcion_campos_formulacion_niveles_presupuestarios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_niveles_presupuestarios.txt
+END
+descripcion_campos_tipos_financiamiento.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_tipos_financiamiento.txt
+END
+descripcion_campos_programar_compras_articulos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_programar_compras_articulos.txt
+END
+consultar_conceptos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_conceptos.txt
+END
+revalorizacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/revalorizacion.txt
+END
+consultar_tabla_de_sueldos_por_grado_y_paso.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_tabla_de_sueldos_por_grado_y_paso.txt
+END
+definicion_de_razones_de_compra.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_razones_de_compra.txt
+END
+eliminar_tipo_solicitante.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_tipo_solicitante.txt
+END
+entradas_de_almacen.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/entradas_de_almacen.txt
+END
+modificar_conceptos_de_ahorro_habitacional.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_conceptos_de_ahorro_habitacional.txt
+END
+modificar_inspecciones_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_inspecciones_tipo.txt
+END
+consultar_permisos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_permisos.txt
+END
+conceptos_para_el_sueldo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/conceptos_para_el_sueldo.txt
+END
+formulacion_clasificador_presupuestario.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_clasificador_presupuestario.txt
+END
+consultar_personal_especialidades.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_personal_especialidades.txt
+END
+consultar_tipo_partidas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_tipo_partidas.txt
+END
+modificar_registro_de_tipos_de_asignaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_registro_de_tipos_de_asignaciones.txt
+END
+eliminar_conceptos_de_ahorro_habitacional.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_conceptos_de_ahorro_habitacional.txt
+END
+descripcion_campos_bienes_disposicion_inmuebles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_bienes_disposicion_inmuebles.txt
+END
+modificar_asignacion_de_cargos_a_nomina.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_asignacion_de_cargos_a_nomina.txt
+END
+bienes_nacionales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/42082/web/php/documentacion/dokuwiki/trunk/data/pages/bienes_nacionales.txt
+END
+modificar_conceptos_de_compensacion_por_nomina.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_conceptos_de_compensacion_por_nomina.txt
+END
+consultar_asignacion_modalidad_pago_por_cesta_ticket_a_empleado_por_nomina.txt
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_asignacion_modalidad_pago_por_cesta_ticket_a_empleado_por_nomina.txt
+END
+modificar_registro_partidas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_registro_partidas.txt
+END
+descripcion_campos_bienes_definicion_contable_muebles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_bienes_definicion_contable_muebles.txt
+END
+consultar_conceptos_para_las_primas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_conceptos_para_las_primas.txt
+END
+catalogo_de_clasificacion_de_compras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/catalogo_de_clasificacion_de_compras.txt
+END
+registro_solicitudes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_solicitudes.txt
+END
+descripcion_campos_formulacion_definiciones_generales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_definiciones_generales.txt
+END
+modificar_tarifas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_tarifas.txt
+END
+formulacion_registro_programas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_registro_programas.txt
+END
+conceptos_para_el_islr.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/conceptos_para_el_islr.txt
+END
+actualizar_comprobantes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/actualizar_comprobantes.txt
+END
+consultar_asignacion_de_cargos_a_nomina.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_asignacion_de_cargos_a_nomina.txt
+END
+eliminar_tipos_de_contratos_colectivos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_tipos_de_contratos_colectivos.txt
+END
+tesoreria_enterar_retencion_islr.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_enterar_retencion_islr.txt
+END
+tesoreria_movimientos_segun_libros_anos_anteriores.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_movimientos_segun_libros_anos_anteriores.txt
+END
+ver_funcionalidad.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/16047/web/php/documentacion/dokuwiki/trunk/data/pages/ver_funcionalidad.txt
+END
+descripcion_campos_bienes_definicion_contable_inmuebles_lote.txt
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_bienes_definicion_contable_inmuebles_lote.txt
+END
+retenciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/retenciones.txt
+END
+tesoreria_asociacion_conceptos_tipos_retenciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_asociacion_conceptos_tipos_retenciones.txt
+END
+eliminar_sector.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_sector.txt
+END
+orden_de_pago_de_extrapresupuesto.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/orden_de_pago_de_extrapresupuesto.txt
+END
+registro_de_tipos_de_asignaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_de_tipos_de_asignaciones.txt
+END
+descripcion_campos_empresa.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_empresa.txt
+END
+modificar_asignacion_inicial.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_asignacion_inicial.txt
+END
+descripcion_campos_conceptos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_conceptos.txt
+END
+descripcion_campos_definicion_tipos_salida.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_definicion_tipos_salida.txt
+END
+incluir_personal_registro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_personal_registro.txt
+END
+descripcion_campos_obras_retenciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_retenciones.txt
+END
+descripcion_campos_financiera_definiciones_especificas_institucion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_financiera_definiciones_especificas_institucion.txt
+END
+eliminar_definicion_de_jornada_laboral.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_definicion_de_jornada_laboral.txt
+END
+descripcion_campos_registro_solicitudes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_registro_solicitudes.txt
+END
+incluir_bancos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_bancos.txt
+END
+situacion_contratos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/situacion_contratos.txt
+END
+salida_del_sistema_sistema.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/salida_del_sistema_sistema.txt
+END
+consultar_estados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_estados.txt
+END
+incluir_tipo_solicitante.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_tipo_solicitante.txt
+END
+registro_de_salario_integral_por_contrato.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_de_salario_integral_por_contrato.txt
+END
+consultar_empresas_participantes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_empresas_participantes.txt
+END
+consultar_asignacion_de_trabajo_para_prestaciones_por_contrato_colectivo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_asignacion_de_trabajo_para_prestaciones_por_contrato_colectivo.txt
+END
+modificar_registro_de_solicitud_de_vacaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_registro_de_solicitud_de_vacaciones.txt
+END
+descripcion_campos_banco.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_banco.txt
+END
+eliminar_guarderias.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_guarderias.txt
+END
+perfiles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/perfiles.txt
+END
+consultar_registro_obras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_registro_obras.txt
+END
+municipios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/municipios.txt
+END
+incluir_pagar.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_pagar.txt
+END
+estado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/estado.txt
+END
+definicion_contable_de_inmuebles_por_lotes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_contable_de_inmuebles_por_lotes.txt
+END
+descripcion_campos_definicion_articulos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_definicion_articulos.txt
+END
+modificar_registro_de_tasas_de_interes_periodicas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_registro_de_tasas_de_interes_periodicas.txt
+END
+incluir_registro_de_salario_integral_por_contrato.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_registro_de_salario_integral_por_contrato.txt
+END
+descripcion_campos_definicion_institucion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_definicion_institucion.txt
+END
+descripcion_campos_movimientos_segun_libros_anos_anteriores.txt
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_movimientos_segun_libros_anos_anteriores.txt
+END
+registro_licitaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_licitaciones.txt
+END
+eliminar_municipios_obras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_municipios_obras.txt
+END
+incluir_permisos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_permisos.txt
+END
+incluir_tipo_licitaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_tipo_licitaciones.txt
+END
+descripcion_campos_obras_tipo_inspecciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_tipo_inspecciones.txt
+END
+tesoreria_tipos_de_financiamiento.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_tipos_de_financiamiento.txt
+END
+eliminar_variables.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_variables.txt
+END
+incluir_asignacion_inicial.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_asignacion_inicial.txt
+END
+eliminar_pagos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_pagos.txt
+END
+descripcion_campos_formulacion_definiciones_estatus.txt
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_definiciones_estatus.txt
+END
+consultar_personal_profesiones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_personal_profesiones.txt
+END
+asignacion_de_conceptos_a_empleados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/asignacion_de_conceptos_a_empleados.txt
+END
+modificar_retenciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_retenciones.txt
+END
+definicion_presupuestaria_de_liquidacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_presupuestaria_de_liquidacion.txt
+END
+modificar_estado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_estado.txt
+END
+modificar_tabla_para_los_dias_feriados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_tabla_para_los_dias_feriados.txt
+END
+sub-sistema.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repositorio/!svn/ver/16047/web/php/documentacion/dokuwiki/trunk/data/pages/sub-sistema.txt
+END
+descripcion_campos_despachos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_despachos.txt
+END
+modificar_tipo_de_adjudicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_tipo_de_adjudicacion.txt
+END
+tesoreria_tipos_de_movimientos_bancarios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_tipos_de_movimientos_bancarios.txt
+END
+consultar_catalogo_de_clasificacion_de_compras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_catalogo_de_clasificacion_de_compras.txt
+END
+consultar_registro_solicitudes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_registro_solicitudes.txt
+END
+incluir_jornadas_laborales_por_empleado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_jornadas_laborales_por_empleado.txt
+END
+descripcion_campos_obras_registro_valuaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_registro_valuaciones.txt
+END
+descripcion_campos_niveles_organizacionales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_niveles_organizacionales.txt
+END
+consultar_contratos_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_contratos_tipo.txt
+END
+descripcion_campos_tesoreria_actualizar_montos_retenciones_por_orden.txt
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_tesoreria_actualizar_montos_retenciones_por_orden.txt
+END
+eliminar_actas_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_actas_tipo.txt
+END
+tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipo.txt
+END
+descripcion_campos_descripcion_servicios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_descripcion_servicios.txt
+END
+modificar_definicion_de_cobertura_para_seguros.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_definicion_de_cobertura_para_seguros.txt
+END
+formulacion_municipios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_municipios.txt
+END
+tesoreria_o_banco.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_o_banco.txt
+END
+descripcion_campos_definicion_condiciones_pago.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_definicion_condiciones_pago.txt
+END
+descripcion_campos_presupuesto_articulos_ley.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_presupuesto_articulos_ley.txt
+END
+incluir_tipos_de_contratos_colectivos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_tipos_de_contratos_colectivos.txt
+END
+registro_de_tasas_de_interes_periodica.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_de_tasas_de_interes_periodica.txt
+END
+tesoreria_ordenes_pago.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_ordenes_pago.txt
+END
+consultar_tarifas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_tarifas.txt
+END
+registro_de_proveedores.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_de_proveedores.txt
+END
+definicion_de_clasificacion_funcional.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_clasificacion_funcional.txt
+END
+asignacion_de_conceptos_por_cat._resup._especial.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/asignacion_de_conceptos_por_cat._resup._especial.txt
+END
+definicion_contable_de_muebles_por_lotes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_contable_de_muebles_por_lotes.txt
+END
+publicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/publicacion.txt
+END
+incluir_municipios_obras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_municipios_obras.txt
+END
+documentos_que_refieren_a_un_causado_u_orden_de_pagoque_no_afecta_a_presupuesto.txt
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/documentos_que_refieren_a_un_causado_u_orden_de_pagoque_no_afecta_a_presupuesto.txt
+END
+pais.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/pais.txt
+END
+registro_solicitante.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_solicitante.txt
+END
+conceptos_para_aportes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/conceptos_para_aportes.txt
+END
+eliminar_retenciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_retenciones.txt
+END
+descripcion_campos_presupuesto_traslados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_presupuesto_traslados.txt
+END
+descripcion_campos_cierre_nomina.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_cierre_nomina.txt
+END
+incluir_definicion_de_jornada_laboral.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_definicion_de_jornada_laboral.txt
+END
+presupuesto.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/presupuesto.txt
+END
+eliminar_registro_de_tipos_de_asignaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_registro_de_tipos_de_asignaciones.txt
+END
+descripcion_campos_formulacion_formulacion_seguimientos_metas_formuladas_poa.txt
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_formulacion_seguimientos_metas_formuladas_poa.txt
+END
+incluir_asignar_partidas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_asignar_partidas.txt
+END
+ajustes_ejecucion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/ajustes_ejecucion.txt
+END
+consultar_variables.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_variables.txt
+END
+modificar_guarderias.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_guarderias.txt
+END
+incluir_estado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_estado.txt
+END
+incluir_tabla_para_los_dias_de_disfrute.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_tabla_para_los_dias_de_disfrute.txt
+END
+definicion_de_tipo_de_proyecto.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_tipo_de_proyecto.txt
+END
+tesoreria_tipos_de_moneda.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_tipos_de_moneda.txt
+END
+descripcion_campos_obras_presupuesto.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_presupuesto.txt
+END
+descripcion_campos_conceptos_variables.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_conceptos_variables.txt
+END
+descripcion_campos_bienes_registro_inmuebles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_bienes_registro_inmuebles.txt
+END
+modificar_conceptos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_conceptos.txt
+END
+sesion_de_usuario.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/sesion_de_usuario.txt
+END
+tabla_para_los_dias_feriados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tabla_para_los_dias_feriados.txt
+END
+descripcion_campos_registro_solicitante.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_registro_solicitante.txt
+END
+descripcion_campos_aprobacion_solicitud_egreso.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_aprobacion_solicitud_egreso.txt
+END
+modificar_definicion_de_institucion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_definicion_de_institucion.txt
+END
+consultar_sector.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_sector.txt
+END
+calculo_de_prestaciones_sociales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/calculo_de_prestaciones_sociales.txt
+END
+incluir_registro_de_salario_integral_por_contrato_individual.txt
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_registro_de_salario_integral_por_contrato_individual.txt
+END
+eliminar_llegadas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_llegadas.txt
+END
+descripcion_campos_variables.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_variables.txt
+END
+comprometer.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/comprometer.txt
+END
+operaciones_basicas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/operaciones_basicas.txt
+END
+eliminar_niveles_organizacionales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_niveles_organizacionales.txt
+END
+eliminar_tipos_de_retiros.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_tipos_de_retiros.txt
+END
+consultar_registro_de_tasas_de_interes_periodicas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_registro_de_tasas_de_interes_periodicas.txt
+END
+orden_de_pago_de_nomina.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/orden_de_pago_de_nomina.txt
+END
+descripcion_campos_definicion_ubicaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_definicion_ubicaciones.txt
+END
+asignacion_de_conceptos_a_nomina.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/asignacion_de_conceptos_a_nomina.txt
+END
+modificar_registro_obras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_registro_obras.txt
+END
+asignacion_inicial.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/asignacion_inicial.txt
+END
+modificar_actas_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_actas_tipo.txt
+END
+parroquia.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/parroquia.txt
+END
+eliminar_registro_licitaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_registro_licitaciones.txt
+END
+definicion_de_articulos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_articulos.txt
+END
+consultar_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_tipo.txt
+END
+consultar_inspecciones_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_inspecciones_tipo.txt
+END
+institucion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/institucion.txt
+END
+incluir_guarderias.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_guarderias.txt
+END
+consultar_tipo_solicitudes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_tipo_solicitudes.txt
+END
+descripcion_campos_obras_tipo_valuaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_tipo_valuaciones.txt
+END
+incluir_asignacion_de_conceptos_a_empleados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_asignacion_de_conceptos_a_empleados.txt
+END
+descripcion_campos_tipos_prestamos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_tipos_prestamos.txt
+END
+consultar_registro_partidas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_registro_partidas.txt
+END
+formulacion_acciones_especificas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_acciones_especificas.txt
+END
+modificar_equipos_registro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_equipos_registro.txt
+END
+descripcion_campos_formulacion_estados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_estados.txt
+END
+incluir_tabla_de_sueldos_por_grado_y_paso.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_tabla_de_sueldos_por_grado_y_paso.txt
+END
+modificar_contratos_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_contratos_tipo.txt
+END
+descripcion_campos_presupuesto_ejecucion_global.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_presupuesto_ejecucion_global.txt
+END
+consultar_pais.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_pais.txt
+END
+consultar_registro_solicitante.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_registro_solicitante.txt
+END
+tesoreria_cheques_en_custodia.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_cheques_en_custodia.txt
+END
+descripcion_campos_obras_registro_partidas_construccion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_registro_partidas_construccion.txt
+END
+consultar_registro_de_salario_integral_por_contrato.txt
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_registro_de_salario_integral_por_contrato.txt
+END
+incluir_parroquia.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_parroquia.txt
+END
+municipio.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/municipio.txt
+END
+descripcion_campos_presupuesto_comprometer.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_presupuesto_comprometer.txt
+END
+consultar_valuaciones_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_valuaciones_tipo.txt
+END
+descripcion_campos_formulacion_clasificador_presupuestario_gastos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_clasificador_presupuestario_gastos.txt
+END
+modificar_registro_licitaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_registro_licitaciones.txt
+END
+descripcion_campos_cargos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_cargos.txt
+END
+incluir_tipos_de_retiros.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_tipos_de_retiros.txt
+END
+modificar_tipos_de_gastos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_tipos_de_gastos.txt
+END
+registro_equipos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_equipos.txt
+END
+eliminar_definicion_de_clasificacion_funcional.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_definicion_de_clasificacion_funcional.txt
+END
+descripcion_campos_presupuesto_niveles_presupuestarios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_presupuesto_niveles_presupuestarios.txt
+END
+descripcion_campos_obras_cargo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_cargo.txt
+END
+descripcion_campos_asignacion_prioridad_cotizaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_asignacion_prioridad_cotizaciones.txt
+END
+empresa_ganadora_del_proceso.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/empresa_ganadora_del_proceso.txt
+END
+modificar_definicion_de_conceptos_para_dias_adicionales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_definicion_de_conceptos_para_dias_adicionales.txt
+END
+consultar_causar.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_causar.txt
+END
+incluir_registro_obras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_registro_obras.txt
+END
+consultar_tipos_de_parientes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_tipos_de_parientes.txt
+END
+formulacion_formulacion_poa.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_formulacion_poa.txt
+END
+incluir_actas_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_actas_tipo.txt
+END
+descripcion_campos_definicion_motivos_faltantes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_definicion_motivos_faltantes.txt
+END
+descripcion_campos_presupuesto_solicitud_traslados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_presupuesto_solicitud_traslados.txt
+END
+tipo_inspecciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipo_inspecciones.txt
+END
+eliminar_registro_de_vacaciones_disfrutadas_en_lote.txt
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_registro_de_vacaciones_disfrutadas_en_lote.txt
+END
+descripcion_campos_procedimientos_ejecucion_compras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_procedimientos_ejecucion_compras.txt
+END
+descripcion_campos_presupuesto_ajustes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_presupuesto_ajustes.txt
+END
+descripcion_campos_documentacion_legal.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_documentacion_legal.txt
+END
+descripcion_campos_bienes_seguro_muebles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_bienes_seguro_muebles.txt
+END
+consultar_inspecciones_registro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_inspecciones_registro.txt
+END
+consultar_nominas_especiales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_nominas_especiales.txt
+END
+incluir_contratos_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_contratos_tipo.txt
+END
+traslados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/traslados.txt
+END
+descripcion_campos_formulacion_cambiar_contrasena.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_cambiar_contrasena.txt
+END
+formulacion_formulacion_poa_unidad_ejecutora.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_formulacion_poa_unidad_ejecutora.txt
+END
+introduccion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/introduccion.txt
+END
+registro_inmuebles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_inmuebles.txt
+END
+modificar_tipo_de_dedicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_tipo_de_dedicacion.txt
+END
+modificar_asignacion_de_trabajadores_para_prestaciones_por_contrato_colectivo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_asignacion_de_trabajadores_para_prestaciones_por_contrato_colectivo.txt
+END
+descripcion_campos_definicion_formas_entrega.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_definicion_formas_entrega.txt
+END
+consultar_personal_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_personal_tipo.txt
+END
+tesoreria_emision_pagos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_emision_pagos.txt
+END
+tesoreria_empresa.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_empresa.txt
+END
+eliminar_registro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_registro.txt
+END
+pagos_que_no_afectan_a_presupuesto.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/pagos_que_no_afectan_a_presupuesto.txt
+END
+registro_partidas_construccion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_partidas_construccion.txt
+END
+descripcion_campos_presupuesto_causar.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_presupuesto_causar.txt
+END
+incluir_movimientos_por_conceptos_y_cargos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_movimientos_por_conceptos_y_cargos.txt
+END
+incluir_traslados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_traslados.txt
+END
+modificar_catalogo_de_clasificacion_de_compras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_catalogo_de_clasificacion_de_compras.txt
+END
+eliminar_parroquia.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_parroquia.txt
+END
+consultar_tipos_de_nominas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_tipos_de_nominas.txt
+END
+incluir_inspecciones_registro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_inspecciones_registro.txt
+END
+modificar_variables.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_variables.txt
+END
+consultar_movimientos_por_conceptos_y_cargos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_movimientos_por_conceptos_y_cargos.txt
+END
+conceptos_para_el_fondo_de_jubilacion_y_pensiones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/conceptos_para_el_fondo_de_jubilacion_y_pensiones.txt
+END
+registro_de_recargos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_de_recargos.txt
+END
+descripcion_campos_requisiciones_servicios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_requisiciones_servicios.txt
+END
+catalogo_snc.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/catalogo_snc.txt
+END
+situacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/situacion.txt
+END
+consultar_tipo_solicitante.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_tipo_solicitante.txt
+END
+incluir_nominas_especiales_conceptos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_nominas_especiales_conceptos.txt
+END
+retiro_de_base.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/retiro_de_base.txt
+END
+consultar_conceptos_de_ahorro_habitacional.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_conceptos_de_ahorro_habitacional.txt
+END
+descripcion_campos_definiciones_generales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_definiciones_generales.txt
+END
+incluir_tipo_de_dedicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_tipo_de_dedicacion.txt
+END
+modificar_registro_de_vacaciones_disfrutadas_en_lote.txt
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_registro_de_vacaciones_disfrutadas_en_lote.txt
+END
+modificar_personal_registro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_personal_registro.txt
+END
+medios_de_comunicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/medios_de_comunicacion.txt
+END
+descripcion_campos_catalogo_snc.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_catalogo_snc.txt
+END
+descripcion_campos_fondos_terceros.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_fondos_terceros.txt
+END
+formulacion_definiciones_generales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_definiciones_generales.txt
+END
+manejo_del_menu_principal.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/manejo_del_menu_principal.txt
+END
+descripcion_campos_salidas_almacen.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_salidas_almacen.txt
+END
+incluir_personal_profesiones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_personal_profesiones.txt
+END
+incluir_asignacion_de_conceptos_a_nomina.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_asignacion_de_conceptos_a_nomina.txt
+END
+incluir_estados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_estados.txt
+END
+registro_valuaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_valuaciones.txt
+END
+registro_de_solicitud_de_vacaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_de_solicitud_de_vacaciones.txt
+END
+incluir_registro_solicitudes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_registro_solicitudes.txt
+END
+obras_y_contratos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/obras_y_contratos.txt
+END
+consultar_parroquia.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_parroquia.txt
+END
+institucion_obras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/institucion_obras.txt
+END
+profesiones_personal.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/profesiones_personal.txt
+END
+incluir_respuesta.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_respuesta.txt
+END
+descripcion_campos_traspaso_articulos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_traspaso_articulos.txt
+END
+datos_personales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/datos_personales.txt
+END
+modificar_situacion_del_empleado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_situacion_del_empleado.txt
+END
+descripcion_campos_definicion_ubicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_definicion_ubicacion.txt
+END
+parametros_para_el_registro_y_control_de_vacaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/parametros_para_el_registro_y_control_de_vacaciones.txt
+END
+incluir_tabla_de_ipc.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_tabla_de_ipc.txt
+END
+incluir_valuaciones_registro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_valuaciones_registro.txt
+END
+tesoreria_definicion_cuentas_contables_para_rendicion_gastos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_definicion_cuentas_contables_para_rendicion_gastos.txt
+END
+descripcion_campos_cierre_periodo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_cierre_periodo.txt
+END
+modificar_tipo_licitaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_tipo_licitaciones.txt
+END
+orden_de_pago_de_liquidacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/orden_de_pago_de_liquidacion.txt
+END
+eliminar_permisos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_permisos.txt
+END
+operatividad_de_las_pantallas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/operatividad_de_las_pantallas.txt
+END
+descripcion_campos_movimientos_segun_bancos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_movimientos_segun_bancos.txt
+END
+descripcion_campos_bienes_registro_muebles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_bienes_registro_muebles.txt
+END
+descripcion_campos_formulacion_presupuesto_ingresos_directa.txt
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_presupuesto_ingresos_directa.txt
+END
+formulacion_parroquias.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_parroquias.txt
+END
+incluir_registro_de_vacaciones_disfrutadas_en_lote.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_registro_de_vacaciones_disfrutadas_en_lote.txt
+END
+menu_bienes_nacionales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/16047/web/php/documentacion/dokuwiki/trunk/data/pages/menu_bienes_nacionales.txt
+END
+tabla_de_ipc.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tabla_de_ipc.txt
+END
+descripcion_campos_solicitud_egreso.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_solicitud_egreso.txt
+END
+incluir_tipo_partidas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_tipo_partidas.txt
+END
+modificar_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_tipo.txt
+END
+unidades_de_medidas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/unidades_de_medidas.txt
+END
+descripcion_campos_formulacion_registro_programas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_registro_programas.txt
+END
+descripcion_campos_tipo_adjudicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_tipo_adjudicacion.txt
+END
+descripcion_campos_obras_unidades_medidas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_unidades_medidas.txt
+END
+descripcion_campos_tipos_proveedores.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_tipos_proveedores.txt
+END
+consultar_municipios_obras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_municipios_obras.txt
+END
+funcionalidad.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repositorio/!svn/ver/46004/web/php/documentacion/dokuwiki/trunk/data/pages/funcionalidad.txt
+END
+incluir_adjudicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_adjudicacion.txt
+END
+precomprometer.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/precomprometer.txt
+END
+definicion_de_recaudos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_recaudos.txt
+END
+descripcion_campos_obras_tipo_partidas_construccion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_tipo_partidas_construccion.txt
+END
+descripcion_campos_tipos_nominas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_tipos_nominas.txt
+END
+eliminar_conceptos_para_el_fondo_de_jubilacion_y_pensiones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_conceptos_para_el_fondo_de_jubilacion_y_pensiones.txt
+END
+definicion_de_activos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_activos.txt
+END
+descripcion_campos_movimientos_segun_libros.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_movimientos_segun_libros.txt
+END
+consultar_nominas_especiales_conceptos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_nominas_especiales_conceptos.txt
+END
+descripcion_campos_formulacion_tipos_creditos_presupuestarios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_tipos_creditos_presupuestarios.txt
+END
+descripcion_campos_bienes_definicion_contable_muebles_lotes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_bienes_definicion_contable_muebles_lotes.txt
+END
+modificar_pais.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_pais.txt
+END
+adjudicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/adjudicacion.txt
+END
+incluir_situacion_del_empleado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_situacion_del_empleado.txt
+END
+descripcion_campos_obras_division_territorial.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_division_territorial.txt
+END
+incluir_tarifas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_tarifas.txt
+END
+conceptos_para_el_salario_integral.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/conceptos_para_el_salario_integral.txt
+END
+diccionario.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/diccionario.txt
+END
+consultar_asignacion_de_conceptos_a_empleados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_asignacion_de_conceptos_a_empleados.txt
+END
+registro_historico_de_anticipos_otorgados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_historico_de_anticipos_otorgados.txt
+END
+consultar_conceptos_para_el_sueldo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_conceptos_para_el_sueldo.txt
+END
+tipo_de_dedicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipo_de_dedicacion.txt
+END
+consultar_tipos_de_contratos_colectivos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_tipos_de_contratos_colectivos.txt
+END
+consultar_traslados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_traslados.txt
+END
+modificar_definicion_de_jornada_laboral.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_definicion_de_jornada_laboral.txt
+END
+definicion_de_conceptos_para_dias_adicionales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_conceptos_para_dias_adicionales.txt
+END
+eliminar_respuesta.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_respuesta.txt
+END
+descripcion_campos_presupuesto_pagar.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_presupuesto_pagar.txt
+END
+eliminar_nominas_especiales_conceptos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_nominas_especiales_conceptos.txt
+END
+descripcion_campos_transferencias_bancarias.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_transferencias_bancarias.txt
+END
+area_estrategica_y_objetivos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/area_estrategica_y_objetivos.txt
+END
+eliminar_tipos_de_parientes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_tipos_de_parientes.txt
+END
+tesoreria_tipos_cuentas_bancarias.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_tipos_cuentas_bancarias.txt
+END
+calendario.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/calendario.txt
+END
+consultar_definicion_de_jornada_laboral.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_definicion_de_jornada_laboral.txt
+END
+modificar_registro_de_vacaciones_disfrutadas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_registro_de_vacaciones_disfrutadas.txt
+END
+eliminar_situacion_del_empleado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_situacion_del_empleado.txt
+END
+eliminar_registro_de_solicitud_de_vacaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_registro_de_solicitud_de_vacaciones.txt
+END
+eliminar_liquidacion_de_vacaciones_por_egreso.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_liquidacion_de_vacaciones_por_egreso.txt
+END
+incluir_registro_historico_de_anticipos_otorgados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_registro_historico_de_anticipos_otorgados.txt
+END
+descripcion_campos_recepcion_ordenes_compra.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_recepcion_ordenes_compra.txt
+END
+incluir_registro_de_solicitud_de_vacaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_registro_de_solicitud_de_vacaciones.txt
+END
+eliminar_conceptos_para_retenciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_conceptos_para_retenciones.txt
+END
+consultar_definicion_de_conceptos_variables.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_definicion_de_conceptos_variables.txt
+END
+eliminar_nominas_especiales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_nominas_especiales.txt
+END
+eliminar_tipo_obras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_tipo_obras.txt
+END
+incluir_registro_solicitante.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_registro_solicitante.txt
+END
+organismos_publicos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/organismos_publicos.txt
+END
+tipo_solicitudes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipo_solicitudes.txt
+END
+incluir_asignacion_de_conceptos_por_categoria_presupuestaria_especial.txt
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_asignacion_de_conceptos_por_categoria_presupuestaria_especial.txt
+END
+articulos_de_ley.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/articulos_de_ley.txt
+END
+consultar_profesiones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_profesiones.txt
+END
+formulacion_formulacion_migrar_proyectos_acciones_especificas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_formulacion_migrar_proyectos_acciones_especificas.txt
+END
+consultar_situacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_situacion.txt
+END
+incluir_registro_de_tasas_de_interes_periodicas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_registro_de_tasas_de_interes_periodicas.txt
+END
+cotizaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/cotizaciones.txt
+END
+definicion_de_ubicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_ubicacion.txt
+END
+cierre_de_ejercicio.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/cierre_de_ejercicio.txt
+END
+descripcion_campos_bienes_definicion_proveedores.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_bienes_definicion_proveedores.txt
+END
+modificar_equipos_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_equipos_tipo.txt
+END
+descripcion_campos_conciliacion_bancaria.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_conciliacion_bancaria.txt
+END
+descripcion_campos_registro_proveedores.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_registro_proveedores.txt
+END
+finalizar_sesion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/finalizar_sesion.txt
+END
+movimientos_por_empleado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/movimientos_por_empleado.txt
+END
+descripcion_campos_formulacion_municipios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_municipios.txt
+END
+descripcion_campos_formulacion_unidades_ejecutoras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_unidades_ejecutoras.txt
+END
+descripcion_campos_obras_tarifas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_tarifas.txt
+END
+descripcion_campos_obras_ciudad.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_ciudad.txt
+END
+consultar_perfiles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_perfiles.txt
+END
+incluir_retenciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_retenciones.txt
+END
+consultar_respuesta.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_respuesta.txt
+END
+empresas_participantes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/empresas_participantes.txt
+END
+tipo_organizaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipo_organizaciones.txt
+END
+descripcion_campos_registro_recargos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_registro_recargos.txt
+END
+consultar_tipos_de_retiros.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_tipos_de_retiros.txt
+END
+descripcion_campos_calculo_nomina.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_calculo_nomina.txt
+END
+definicion_de_condiciones_de_pago.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_condiciones_de_pago.txt
+END
+eliminar_unidades_de_medidas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_unidades_de_medidas.txt
+END
+descripcion_campos_obras_situacion_obra.txt
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_situacion_obra.txt
+END
+formulacion_formulacion_crear_asignacion_inicial.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_formulacion_crear_asignacion_inicial.txt
+END
+programar_compras_de_articulos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/programar_compras_de_articulos.txt
+END
+eliminar_movimientos_por_conceptos_y_cargos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_movimientos_por_conceptos_y_cargos.txt
+END
+modificar_tabla_de_sueldos_por_grado_y_paso.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_tabla_de_sueldos_por_grado_y_paso.txt
+END
+descripcion_campos_cotizaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_cotizaciones.txt
+END
+descripcion_campos_cierre_nominas_especiales.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_cierre_nominas_especiales.txt
+END
+incluir_registro_de_vacaciones_disfrutadas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_registro_de_vacaciones_disfrutadas.txt
+END
+descripcion_campos_definicion_tipos_proyectos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_definicion_tipos_proyectos.txt
+END
+formulacion_metas_proyectos_acciones_especificas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_metas_proyectos_acciones_especificas.txt
+END
+formulacion_unidades_medidas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_unidades_medidas.txt
+END
+modificar_parroquia.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_parroquia.txt
+END
+orden_de_pago_directa.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/orden_de_pago_directa.txt
+END
+tipo_de_adjudicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipo_de_adjudicacion.txt
+END
+definicion_de_disposicion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_disposicion.txt
+END
+descripcion_campos_ajustes_ordenes_compra.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_ajustes_ordenes_compra.txt
+END
+catalogo_de_cuentas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/catalogo_de_cuentas.txt
+END
+consultar_contratos_registro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_contratos_registro.txt
+END
+consultar_definicion_presupuestaria_de_liquidacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_definicion_presupuestaria_de_liquidacion.txt
+END
+orden_de_pago_de_valuaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/orden_de_pago_de_valuaciones.txt
+END
+incluir_ajustes_ejecucion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_ajustes_ejecucion.txt
+END
+consultar_asignacion_de_cuentas_bancarias_por_empleado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_asignacion_de_cuentas_bancarias_por_empleado.txt
+END
+modificar_llegadas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_llegadas.txt
+END
+consultar_personal_registro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_personal_registro.txt
+END
+registro_cargos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_cargos.txt
+END
+incluir_pagos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_pagos.txt
+END
+tabla_de_sueldos_por_grado_y_paso.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tabla_de_sueldos_por_grado_y_paso.txt
+END
+tesoreria_tipo_de_beneficiario.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_tipo_de_beneficiario.txt
+END
+formulacion_tipos_financiamiento.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_tipos_financiamiento.txt
+END
+niveles_presupuestarios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/niveles_presupuestarios.txt
+END
+eliminar_registro_historico_de_anticipos_otorgados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_registro_historico_de_anticipos_otorgados.txt
+END
+eliminar_conceptos_de_compensacion_por_nomina.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_conceptos_de_compensacion_por_nomina.txt
+END
+descripcion_campos_formulacion_unidades_medidas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_unidades_medidas.txt
+END
+descripcion_campos_calculo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_calculo.txt
+END
+disposicion_de_muebles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/disposicion_de_muebles.txt
+END
+disponibilidad_de_pliegos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/disponibilidad_de_pliegos.txt
+END
+descripcion_campos_formulacion_politicas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_formulacion_politicas.txt
+END
+descripcion_campos_obras_registro_otras_organizaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_registro_otras_organizaciones.txt
+END
+seguros_de_muebles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/seguros_de_muebles.txt
+END
+ajustes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/ajustes.txt
+END
+modificar_tipo_obras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_tipo_obras.txt
+END
+consultar_guarderias.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_guarderias.txt
+END
+descripcion_campos_bienes_seguro_inmuebles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_bienes_seguro_inmuebles.txt
+END
+salidas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/salidas.txt
+END
+definicion_de_tipos_de_salida.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_tipos_de_salida.txt
+END
+usuarios_de_siga.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/usuarios_de_siga.txt
+END
+asignacion_de_trabajadores_para_prestaciones_por_contrato_colectivo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/asignacion_de_trabajadores_para_prestaciones_por_contrato_colectivo.txt
+END
+nominas_especiales_calculos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/nominas_especiales_calculos.txt
+END
+tipos_de_nominas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipos_de_nominas.txt
+END
+consultar_tipo_licitaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_tipo_licitaciones.txt
+END
+descripcion_campos_emision_pago.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_emision_pago.txt
+END
+incluir_perfiles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_perfiles.txt
+END
+incluir_conceptos_para_las_primas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_conceptos_para_las_primas.txt
+END
+modificar_tipo_solicitudes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_tipo_solicitudes.txt
+END
+requisiciones_por_departamento_solicitud_de_egreso.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/requisiciones_por_departamento_solicitud_de_egreso.txt
+END
+eliminar_movimientos_por_empleados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_movimientos_por_empleados.txt
+END
+definicion_de_formas_de_entrega.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_formas_de_entrega.txt
+END
+descripcion_campos_requisiciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_requisiciones.txt
+END
+movimientos_por_conceptos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/movimientos_por_conceptos.txt
+END
+orden_de_pago_de_fideicomiso.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/orden_de_pago_de_fideicomiso.txt
+END
+incluir_ejecucion_global.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_ejecucion_global.txt
+END
+tipo_solicitante.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipo_solicitante.txt
+END
+consultar_tipo_de_adjudicacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_tipo_de_adjudicacion.txt
+END
+formulacion_presupuestaria.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_presupuestaria.txt
+END
+inventario_fisico.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/inventario_fisico.txt
+END
+procedimientos_de_ejecucion_de_compras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/procedimientos_de_ejecucion_de_compras.txt
+END
+conceptos_de_ahorro_habitacional.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/conceptos_de_ahorro_habitacional.txt
+END
+consultar_registro_historico_de_anticipos_otorgados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_registro_historico_de_anticipos_otorgados.txt
+END
+modificar_inspecciones_registro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_inspecciones_registro.txt
+END
+modificar_personal_especialidades.txt
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_personal_especialidades.txt
+END
+consultar_actas_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_actas_tipo.txt
+END
+formulacion_definicion_empresa.txt
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_definicion_empresa.txt
+END
+incluir_definicion_presupuestaria_de_liquidacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_definicion_presupuestaria_de_liquidacion.txt
+END
+modificar_valuaciones_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_valuaciones_tipo.txt
+END
+consultar_situacion_del_empleado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_situacion_del_empleado.txt
+END
+incluir_presupuesto.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_presupuesto.txt
+END
+grid.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/grid.txt
+END
+comprobantes_contables.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/comprobantes_contables.txt
+END
+consultar_registro_contratistas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_registro_contratistas.txt
+END
+eliminar_tipo_organizaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_tipo_organizaciones.txt
+END
+incluir_tipo_obras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_tipo_obras.txt
+END
+eliminar_asignacion_de_trabajo_para_prestaciones_por_contrato_colectivo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_asignacion_de_trabajo_para_prestaciones_por_contrato_colectivo.txt
+END
+solicitud_de_anticipos_sobre_prestaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/solicitud_de_anticipos_sobre_prestaciones.txt
+END
+descripcion_campos_ramos_articulos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_ramos_articulos.txt
+END
+registro_contratos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_contratos.txt
+END
+descripcion_campos_definicion_rango_cotizaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_definicion_rango_cotizaciones.txt
+END
+tipos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipos.txt
+END
+sector.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/sector.txt
+END
+registro_inspecciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_inspecciones.txt
+END
+eliminar_definicion_de_disposicion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_definicion_de_disposicion.txt
+END
+descripcion_campos_tipos_rendimientos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_tipos_rendimientos.txt
+END
+eliminar_registro_obras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_registro_obras.txt
+END
+consultar_equipos_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_equipos_tipo.txt
+END
+descripcion_campos_obras_tipo_obras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_tipo_obras.txt
+END
+incluir_tipos_de_gastos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_tipos_de_gastos.txt
+END
+modificar_registro.txt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_registro.txt
+END
+consultar_movimientos_por_empleados.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_movimientos_por_empleados.txt
+END
+modificar_sector.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_sector.txt
+END
+formulacion_definicion_objetivos_estrategicos_nueva_etapa.txt
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_definicion_objetivos_estrategicos_nueva_etapa.txt
+END
+formulacion_unidades_ejecutoras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/formulacion_unidades_ejecutoras.txt
+END
+eliminar_definicion_de_cobertura_para_seguros.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_definicion_de_cobertura_para_seguros.txt
+END
+eliminar_tabla_de_sueldos_por_grado_y_paso.txt
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_tabla_de_sueldos_por_grado_y_paso.txt
+END
+requisiciones_de_servicios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/requisiciones_de_servicios.txt
+END
+incluir_comprometer.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_comprometer.txt
+END
+incluir_registro_contratistas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_registro_contratistas.txt
+END
+definicion_de_ubicaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_ubicaciones.txt
+END
+eliminar_registro_de_salario_integral_por_contrato_individual.txt
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_registro_de_salario_integral_por_contrato_individual.txt
+END
+guarderias.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/guarderias.txt
+END
+eliminar_contratos_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_contratos_tipo.txt
+END
+tesoreria_conciliacion_bancaria.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_conciliacion_bancaria.txt
+END
+descripcion_campos_tipos_monedas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_tipos_monedas.txt
+END
+modificar_respuesta.txt
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_respuesta.txt
+END
+calculo_de_nomina.txt
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/calculo_de_nomina.txt
+END
+registro_de_dias_extras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/registro_de_dias_extras.txt
+END
+consultar_precomprometer.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_precomprometer.txt
+END
+modulos_de_siga.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/modulos_de_siga.txt
+END
+eliminar_cargos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_cargos.txt
+END
+disposicion_de_inmuebles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/disposicion_de_inmuebles.txt
+END
+descripcion_campos_obras_catalogo_clasificacion_compras.txt
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_catalogo_clasificacion_compras.txt
+END
+eliminar_equipos_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_equipos_tipo.txt
+END
+incluir_personal_tipo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_personal_tipo.txt
+END
+descripcion_campos_entradas_almacen.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_entradas_almacen.txt
+END
+pagos_directos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/45929/web/php/documentacion/dokuwiki/trunk/data/pages/pagos_directos.txt
+END
+modificar_tipos_de_nominas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_tipos_de_nominas.txt
+END
+eliminar_ciudad.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_ciudad.txt
+END
+contabilidad_presupuestaria.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/contabilidad_presupuestaria.txt
+END
+incluir_definicion_de_clasificacion_funcional.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_definicion_de_clasificacion_funcional.txt
+END
+incluir_definicion_de_conceptos_variables.txt
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_definicion_de_conceptos_variables.txt
+END
+definicion_de_rangos_de_cotizaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_rangos_de_cotizaciones.txt
+END
+asignar_partidas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/asignar_partidas.txt
+END
+incluir_asignacion_de_trabajadores_para_prestaciones_por_contrato_colectivo.txt
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_asignacion_de_trabajadores_para_prestaciones_por_contrato_colectivo.txt
+END
+consultar_definicion_de_disposicion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_definicion_de_disposicion.txt
+END
+incluir_conceptos_para_el_fondo_de_jubilacion_y_pensiones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_conceptos_para_el_fondo_de_jubilacion_y_pensiones.txt
+END
+incluir_liquidacion_de_vacaciones_por_egreso.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_liquidacion_de_vacaciones_por_egreso.txt
+END
+causar.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/causar.txt
+END
+modificar_tipo_partidas.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_tipo_partidas.txt
+END
+consultar_tipos_de_gastos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_tipos_de_gastos.txt
+END
+consultar_registro_de_solicitud_de_vacaciones.txt
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/consultar_registro_de_solicitud_de_vacaciones.txt
+END
+respuesta_solicitudes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/respuesta_solicitudes.txt
+END
+incluir_sector.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_sector.txt
+END
+eliminar_movimientos_por_conceptos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/eliminar_movimientos_por_conceptos.txt
+END
+modificar_tipo_solicitante.txt
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_tipo_solicitante.txt
+END
+tipos_de_gastos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tipos_de_gastos.txt
+END
+tesoreria_movimientos_segun_bancos_anos_anteriores.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/tesoreria_movimientos_segun_bancos_anos_anteriores.txt
+END
+descripcion_campos_obras_estado.txt
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/descripcion_campos_obras_estado.txt
+END
+incluir_registro_de_dias_extras_por_nomina_en_lotes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/incluir_registro_de_dias_extras_por_nomina_en_lotes.txt
+END
+definicion_de_empresa.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/46004/web/php/documentacion/dokuwiki/trunk/data/pages/definicion_de_empresa.txt
+END
+modificar_personal_cargos.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/45928/web/php/documentacion/dokuwiki/trunk/data/pages/modificar_personal_cargos.txt
+END
+nuevo_mapa_estrategico_de_la_nacion.txt
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/42675/web/php/documentacion/dokuwiki/trunk/data/pages/nuevo_mapa_estrategico_de_la_nacion.txt
+END

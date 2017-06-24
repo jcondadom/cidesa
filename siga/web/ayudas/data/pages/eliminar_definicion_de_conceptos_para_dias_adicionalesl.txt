@@ -1,0 +1,15 @@
+====== Operación Eliminar ======
+
+Para la operación de Eliminar:  <html><br><br></html>
+
+  * Seleccionar de la **Lista** el **Tipo de Nómina** para la cual desea eliminar los Conceptos para Dias Adicionales.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefcondiasadimod.jpg|}}"></div><br></html>
+
+  * El sistema muestra los Conceptos asociados al Tipo de Nomina seleccionado. <html><br><br></html> 
+
+  * Presionar  {{:btnborrar.jpg|}}   <html><br><br></html> 
+
+  * El sistema emite un **Mensaje de Confirmación** antes de eliminar.
+ <html><br><div> <align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br></html>
+
+  * Presionar **Aceptar**.   <html><br><br></html>

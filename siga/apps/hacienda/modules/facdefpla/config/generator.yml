@@ -1,0 +1,27 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcdefpla
+    theme:            cidesaGenerator
+    fields:
+      codpla: { name: Código, params : size=5 maxlength=4  onFocus=readonly(this.id) onBlur="this.value=this.value.pad(4, '0',0);"}
+      despla: { name: Descripción, type: textarea_tag, params : size=80x5 maxlength=500 onkeyup="ismaxlength(this)" }
+      grid: { name: .}
+    list:
+      title:          Definición de Planillas
+      filters:        [codpla]
+      display:        [=codpla, despla]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codpla
+    edit:
+      title:          Edición  de Planillas
+      display:
+        "Definición de Planillas":   [codpla, despla, _grid]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

@@ -1,0 +1,24 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npasouniniv
+    theme:            cidesaGenerator
+    fields:
+      codniv:
+        name: Gerencia
+        catalogo:
+          catalogoweb: Npestorg_Nomhojint
+          clase: Npestorg
+          ajax: 1
+          parametros: getprincipal="getCodniv" getsecundario="getDesniv" campoprincipal="codniv" camposecundario="desniv" campobase = "id"
+          divupdate: divgrid
+          catalogoparams: /param1/'."'+$('npasouniniv_longitud').value+'".'
+          ajaxparams: +'."'".'&longitud='."'+$('npasouniniv_longitud').value".'          
+      grid: { name: .}
+    edit:
+      title:          Asociación de Unidades de Adscripción a Gerencia
+      display:
+        "NONE":  [codniv, _grid]
+      hide: [longitud]
+      actions:
+        _save:        ~

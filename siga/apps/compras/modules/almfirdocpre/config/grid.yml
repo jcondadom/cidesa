@@ -1,0 +1,34 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   cadetfirdocpre
+  anchogrid:               1000
+  ancho:                   650
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  N° Firma
+  tipo:                    t
+  nombrecampo:             numfir
+  html:                    ["size=5 readonly=true"]
+  esgrabable:              true
+  oculta:                  true
+2:       # Columna 2
+  titulo:                  Nombre 
+  tipo:                    t
+  nombrecampo:             nomfir
+  html:                    ["size=50 maxlength=500"]
+  esgrabable:              true 
+3:       # Columna 3
+  titulo:                  Cargo 
+  tipo:                    t
+  nombrecampo:             carfir
+  html:                    ["size=50 maxlength=500"]
+  esgrabable:              true   
+4:       # Columna 4
+  titulo:                  Observación
+  tipo:                    a
+  nombrecampo:             obsfir
+  html:                    ["size=40x2 maxlength=1000"]
+  esgrabable:              true

@@ -1,0 +1,73 @@
+opciones:                  # Opciones generales
+  name:                    h
+  eliminar:                true
+  tabla:                   Liregfiacont
+  anchogrid:               900
+  ancho:                   970
+  filas:                   1
+  titulo:                  ' Fianzas/Garantias'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Estado
+  tipo:                    t
+  nombrecampo:             estado
+  html:                    [ size=4 readonly=true ]
+  esgrabable:              false
+2:       # Columna 1
+  titulo:                  Estatus
+  tipo:                    c
+  nombrecampo:             estatus
+  html:                    [ size=1 ]
+  esgrabable:              true
+  combo:                   {1: Activa, 2: Renovada, 3: Ejecutada}
+3:       # Columna 1
+  titulo:                  Criterio
+  tipo:                    t
+  nombrecampo:             codcomres
+  html:                    [ size=2 readonly=true ]
+  catalogo:                [Liccomres, sf_admin_edit_form, {Codcomres: 1, Descomres: 2 }, Liccomres_codcomres ]
+  esgrabable:              true
+4:
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             descomres
+  html:                    [ size=20 readonly=true ]
+  esgrabable:              false
+5:
+  titulo:                  Porcentaje
+  tipo:                    m
+  nombrecampo:             porcen
+  html:                    [ size=8 ]
+  esgrabable:              true
+  default:                 0,00
+6:
+  titulo:                  Empresa
+  tipo:                    t
+  nombrecampo:             empresa
+  html:                    [ size=14 ]
+  esgrabable:              true
+7:
+  titulo:                  Fecha Emisión
+  tipo:                    f
+  nombrecampo:             fecemi
+  html:                    [ size=6 ]
+  esgrabable:              true
+8:
+  titulo:                  Fecha Vencimiento
+  tipo:                    f
+  nombrecampo:             fecven
+  html:                    [ size=6 ]
+  esgrabable:              true
+9:
+  titulo:                  Observaciones
+  tipo:                    t
+  nombrecampo:             observ
+  html:                    [ size=20 ]
+  esgrabable:              true
+10:
+  titulo:                  ofefia
+  tipo:                    t
+  nombrecampo:             liregofefia_Id
+  html:                    [ size=40 ]
+  esgrabable:              true
+  oculta:                  true

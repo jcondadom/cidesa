@@ -1,0 +1,14 @@
+====== Operación Modificar ======
+
+Para Modificar una determinada Tasa de Interés Periódica: <html><br><br></html>
+
+  * Seleccionar de la ** Lista**  **Fecha de Inicio** de la Tasa de Interés Periódica que desea consultar.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperregdetasasintpermod1.jpg|}}"></div><br></html>
+
+  * La única modificación que podrá realizar es en cuanto al **Porcentaje de las Tasas de Interés Activa, Pasiva ó Promedio**. <html><br><br></html>
+
+  * Una vez realizadas las modificaciones presionar  {{:btnguardar.jpg|}} para actualizar la información.<html><br><br></html>
+
+  * El sistema emite un **Mensaje de Éxito**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repositorio/!svn/ver/61952/web/php/siga/branches/productions/trunk/lib/business/compras
+END
+Articulos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/61527/web/php/siga/branches/productions/trunk/lib/business/compras/Articulos.class.php
+END
+Proveedor.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/61149/web/php/siga/branches/productions/trunk/lib/business/compras/Proveedor.class.php
+END
+Recepcion.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/58513/web/php/siga/branches/productions/trunk/lib/business/compras/Recepcion.class.php
+END
+Orden_compra.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/59400/web/php/siga/branches/productions/trunk/lib/business/compras/Orden_compra.class.php
+END
+Despachos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/58513/web/php/siga/branches/productions/trunk/lib/business/compras/Despachos.class.php
+END
+SolicituddeEgresos.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/61952/web/php/siga/branches/productions/trunk/lib/business/compras/SolicituddeEgresos.php
+END
+Almacen.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/60435/web/php/siga/branches/productions/trunk/lib/business/compras/Almacen.class.php
+END
+OrdenCompraMultiple.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/57725/web/php/siga/branches/productions/trunk/lib/business/compras/OrdenCompraMultiple.php
+END
+Compras.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/61886/web/php/siga/branches/productions/trunk/lib/business/compras/Compras.class.php
+END

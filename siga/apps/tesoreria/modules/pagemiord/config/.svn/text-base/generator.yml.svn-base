@@ -1,0 +1,90 @@
+generator:
+  class:              sfPropelAdminGenerator
+  param:
+    model_class:      Opordpag
+    theme:            default
+
+    fields:
+      numord: { name: Referencia, params: maxlength = 8}
+      fecemi: { name: Fecha, params: date_format=dd/MM/yyyy}
+      tipcau: { name: Tipo}
+      nomext: { name: Nombre}
+      desord: { name: Concepto}
+      cedrif: { name: C.I o R.I.F}
+      nomben: { name: Beneficiario}
+      codctasec: { name: Tipo}
+      ctapag: { name: Codigo Contable}
+      descta: { name: Descripción}
+      coduni: { name: Unidad Origen}
+      desubi: { name: Descripción}
+      tipfin: { name: Financiamiento}
+      nomext2: { name: Nombre2}
+      obsord: { name: Observaciones}
+      monord: { name: Monto}
+      mondes: { name: Monto1}
+      monret: { name: Monto2}
+      numcom: { name: Número de Comprobante}
+      feccom: { name: Fecha del Comprobante}
+      status: { name: Estatus}
+      idrefer: { name: Id de Comprobante}
+      fecanu: { name: Fecha de Anulación}
+      desanu: { name: Descripción}
+      numsigecof: { name: Número}
+      fecsigecof: { name: Fecha}
+      expsigecof: { name: Expediente}
+      nombensus: { name: Cesionario Autorizado}
+      codconcepto: { name: Concepto de Pago}
+      numforpre: { name: N° de Forma Preimpresa}
+      amortiza: { name: Amortización}
+      numcta: { name: Cuenta Bancaria}
+      tipdoc: { name: Tipo de Pagado}
+      codmon: { name: Moneda}
+      valmon: { name: valor}
+      ordsnc: { name: SNC}
+      codsnc: { name: Código SNC}
+      fecini: { name: Fecha Inicio}
+      fecfin: { name: Fecha Final}
+      medcom: { name: Modo de Comunicación}
+      modcon: { name: Modo de Contratación}
+      lugeje: { name: Lugar de Ejecución}
+      numcon: { name: Nro. Contrato}
+      mescon: { name: Mes del Contrato}
+      codadi: { name: Código Banco}
+      codtde: { name: Tipo de Descuento}
+      numordamo: { name: N° de Orden de Amortización}
+      montoamo: { name: Total OP Amortización}
+      restoamo: { name: Resto OP Amortización}
+      codrgo: { name: Código Recargo}
+      nomrgo: { name: Nombre Recargo}
+      monrgo: { name: Monto Recargo}
+      codpro: { name: Proyecto}
+      coddirec: { name: Dirección}
+      refcom: { name: Ref. Compromiso}
+      refava: { name: Referencia, params: size=25 maxlength = 20 }
+      fecava: { name: Fecha, params: date_format=dd/MM/yyyy }
+      nompacava: { name: Nombre del Paciente, params: size=80 maxlength = 200 }
+      cedpacava: { name: Cédula del Paciente, params: size=20 maxlength = 10 }
+      motsolava: { name: Motivo de la Solicitud, type: textarea_tag, params: size=80x5 maxlength=500 onkeyup="javascript:return ismaxlength(this)"}
+      moncarava: { name: Monto}
+      numval: { name: N° de Valuación}
+      ctaban: { name: Cuenta Bancaria}
+      numche: { name: Nro Cheque / Referencia}
+      tipmov: { name: Tipo de Documento}
+    list:
+      title:          Ordenes de Pago
+      display:        [=numord, fecemi, tipcau, desord, nomext, monord, cedrif, nomben]
+      filters:        [numord, fecemi, tipcau, cedrif, nomben, status, codconcepto, desord, numforpre, refcom, monord]
+      max_per_page:   5
+      sort:  numord
+      object_actions:
+        _edit:        ~
+    edit:
+      title:          Edición de la Orden de Pago
+      display:        [=numord, fecemi, tipcau, nomext, desord, cedrif, nomben, codctasec, ctapag, descta, coduni, desubi, tipfin, nomext2, obsord, monord, mondes, monret, numcom, feccom, status, idrefer, fecanu, desanu, referencias, documento, afectapre, totalcomprobantes, cuentarendicion, vacio, presiono, numsigecof, fecsigecof, expsigecof, nombensus, codconcepto, observe, numforpre, _cuades, numcta, tipdoc, amortiza, codmon, valmon, ordsnc, codsnc, fecini, fecfin, medcom, modcon, lugeje, numcon, mescon, codadi, codtde, numordamo, montoamo, restoamo, codrgo, nomrgo, monrgo, codpro, coddirec, refava, fecava, nompacava, cedpacava, motsolava, moncarava, numval, ctaban, numche, tipmov]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      
+          params:     confirm='¿Desea crear un nuevo registro? Perderá cualquier cambio en la ventana actual'
+        _delete:      ~
+

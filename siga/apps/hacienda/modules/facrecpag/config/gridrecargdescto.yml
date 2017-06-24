@@ -1,0 +1,34 @@
+opciones:                  # Opciones generales
+  name:                    c
+  eliminar:                true
+  tabla:                   fcrecdespag
+  ancho:                   600
+  anchogrid:               650
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             codrede
+  esgrabable:			         true
+  html:                    [size="10" onBlur=calcularDescuento(this.id);]
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nomdes
+  esgrabable:              false
+  html:                    [size="30", readonly=true ]
+3:       # Columna 3
+  titulo:                  Tipo
+  tipo:                    t
+  nombrecampo:             numcuo
+  esgrabable:			         false
+  html:                    [size="20", readonly=true ]
+4:       # Columna 4
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monto
+  esgrabable:			         true
+  html:                    ["size=10 onBlur='ValidarMontoGridv2(this); calcularDescuento(this.id);'"]
+ 

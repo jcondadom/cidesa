@@ -1,0 +1,92 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   lidetparins
+  anchogrid:               900
+  ancho:                   850
+  filas:                   0
+  titulo:                  ' Partidas de Obras '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Partida de Obra
+  tipo:                    t
+  nombrecampo:             codart
+  html:                    [ readonly=true size=4 ]
+  esgrabable:              true
+2:
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desart
+  html:                    [ readonly=true size=8 ]
+  esgrabable:              true
+3:
+  titulo:                  Unidad Medida
+  tipo:                    t
+  nombrecampo:             unimed
+  html:                    [ readonly=true size=4 ]
+  esgrabable:              true
+4:
+  titulo:                  Cantidad Partida
+  tipo:                    m
+  nombrecampo:             cantid
+  html:                    [ readonly=true size=4 ]
+  esgrabable:              true
+5:
+  titulo:                  Precio Unitario
+  tipo:                    m
+  nombrecampo:             preuni
+  html:                    [ readonly=true size=4 ]
+  esgrabable:              true
+6:
+  titulo:                  Total Partida
+  tipo:                    m
+  nombrecampo:             subtot
+  html:                    [ readonly=true size=4 ]
+  esgrabable:              true
+7:
+  titulo:                  Cantidad Valuación
+  tipo:                    m
+  nombrecampo:             cantidvalu
+  html:                    [ readonly=true size=6 ]
+  esgrabable:              true
+  ajaxfila:                true
+8:
+  titulo:                  Total Valuación
+  tipo:                    m
+  nombrecampo:             subtotvalu
+  html:                    [ readonly=true size=4 ]
+  esgrabable:              true
+9:
+  titulo:                  Cantidad Inspección
+  tipo:                    m
+  nombrecampo:             cantidins
+  html:                    [ size=6 ]
+  esgrabable:              true
+  ajaxfila:                true
+10:
+  titulo:                  Total Inspección
+  tipo:                    m
+  nombrecampo:             subtotins
+  html:                    [ readonly=true size=6 ]
+  esgrabable:              true
+  estotal:                 [true, liinspecciones_totins]
+11:
+  titulo:                  Diferencial Por Cantidad
+  tipo:                    m
+  nombrecampo:             difcantid
+  html:                    [ readonly=true size=6 ]
+  esgrabable:              true
+12:
+  titulo:                  Diferencial Por Monto
+  tipo:                    m
+  nombrecampo:             difcantid
+  html:                    [ readonly=true size=6 ]
+  esgrabable:              true
+  estotal:                 [true, liinspecciones_diftotins]
+13:
+  titulo:                  lidetparval
+  tipo:                    t
+  nombrecampo:             lidetparval_id
+  esgrabable:              true
+  oculta:                  true
+  html:                    [size=2 readonly=true ]

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repositorio/!svn/ver/49466/web/php/siga/branches/productions/trunk/lib/model/costos/om
+END
+BaseCosdeftur.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49457/web/php/siga/branches/productions/trunk/lib/model/costos/om/BaseCosdeftur.php
+END
+BaseCostipproPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/49466/web/php/siga/branches/productions/trunk/lib/model/costos/om/BaseCostipproPeer.php
+END
+BaseCostipcal.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49459/web/php/siga/branches/productions/trunk/lib/model/costos/om/BaseCostipcal.php
+END
+BaseCostipinsmed.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/49466/web/php/siga/branches/productions/trunk/lib/model/costos/om/BaseCostipinsmed.php
+END
+BaseCostipcosPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/49459/web/php/siga/branches/productions/trunk/lib/model/costos/om/BaseCostipcosPeer.php
+END
+BaseCostippro.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49466/web/php/siga/branches/productions/trunk/lib/model/costos/om/BaseCostippro.php
+END
+BaseCostipcos.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49459/web/php/siga/branches/productions/trunk/lib/model/costos/om/BaseCostipcos.php
+END
+BaseCosforproPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/49466/web/php/siga/branches/productions/trunk/lib/model/costos/om/BaseCosforproPeer.php
+END
+BaseCosdefturPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/49457/web/php/siga/branches/productions/trunk/lib/model/costos/om/BaseCosdefturPeer.php
+END
+BaseCosforpro.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49466/web/php/siga/branches/productions/trunk/lib/model/costos/om/BaseCosforpro.php
+END
+BaseCostipcalPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/49459/web/php/siga/branches/productions/trunk/lib/model/costos/om/BaseCostipcalPeer.php
+END
+BaseCostipinsmedPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/49466/web/php/siga/branches/productions/trunk/lib/model/costos/om/BaseCostipinsmedPeer.php
+END

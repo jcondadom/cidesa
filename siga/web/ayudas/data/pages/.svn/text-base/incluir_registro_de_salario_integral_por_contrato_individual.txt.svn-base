@@ -1,0 +1,21 @@
+====== Operación Incluir ======
+ 
+Para **Registrar** un Salario Integral por Contrato Individual debe: <html><br><br></html>
+
+  * Seleccionar el Tipo de Contrato.  <html><br><br></html>
+
+  * Seleccione el Tipo de Nómina. <html><br><br></html>
+
+  * Seleccione el Empleado.<html><br><br></html>
+
+  * Seleccione del Calendario la Fecha de Calculo del Salario Integral.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperregsalintporconindinc1.jpg|}}"></div><br><br></html>
+
+  * El sistema seguidamente nos muestra la tabla de **Asignaciones por Trabajador** donde se muestran las fechas por mes, desde su ingreso a la Institución hasta la Actualidad,los valores mensuales de las Asignaciones asociadas al Contrato Colectivo; además de un monto total por Asignaciones. 
+ 
+ <html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompersalintporcontindinc2.jpg|}}"></div><br><br></html>
+
+  * Presione el Botón {{:btnguardar.jpg|}} para almacenar la información.
+
+ 

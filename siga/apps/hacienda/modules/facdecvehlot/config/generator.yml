@@ -1,0 +1,48 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcdeclar
+    theme:            cidesaGenerator
+
+    fields:
+      anohasta:     { name: Hasta, params: size=4  maxlength=4 disabled=false }
+      anodesde:     { name: Desde, params: size=4  maxlength=4 disabled=false }
+      usodesde:
+        name: Desde
+        catalogo:
+          catalogoweb: Facdecvehlot_uso
+          clase: Fcusoveh
+          ajax: 2
+          parametros: getprincipal="getCoduso" getsecundario="getDesuso" campoprincipal="usodesde" camposecundario="deszon" campobase="id"
+        params: size=10
+      nomdesde:     { name: . }
+      usohasta:
+        name: Hasta
+        params: size=10
+        catalogo:
+          catalogoweb: Facdecvehlot_uso
+          clase: Fcusoveh
+          ajax: 2
+          parametros: getprincipal="getCoduso" getsecundario="getDesuso" campoprincipal="usohasta" camposecundario="desusoh" campobase="id"
+
+      nomhasta: { name: . }
+      grid: {name: .}
+      buscar: {name: .}
+      botones: { name: . }
+      fundec: { name: . }
+      mtoaforo: { name: Total Aforo }
+
+    edit:
+      title: Generación de Deudas en Lote
+
+      display:
+        "Año a Declarar": [ anodesde, anohasta]
+        "Uso del Vehiculo": [ usodesde, usohasta, _buscar ]
+        NONE:  [ _botones, _grid, mtoaforo]
+      hide: [ fundec]
+      actions:
+        _list:        NONE
+        _save:
+         name: Generar Deuda
+        _delete:      NONE
+        _create:

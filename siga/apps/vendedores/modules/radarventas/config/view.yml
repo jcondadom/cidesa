@@ -1,0 +1,23 @@
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Vendedores
+    robots:       index, follow
+    description:  Vendedores
+    keywords:     Vendedores
+    language:     en
+
+  stylesheets:    [main]
+
+  javascripts:    [ %SF_PROTOTYPE_WEB_DIR%/js/prototype, %SF_PROTOTYPE_WEB_DIR%/js/scriptaculous, observe, ajax, tools, vendedores/jquery-1.4.2.min.js]
+
+  has_layout:     on
+  layout:         layout_dashboard
+
+indexSuccess:
+  layout:         layout_dashboard
+  stylesheets:    [main, dashboard]
+  javascripts:    [vendedores/jquery-1.4.2.min.js]
+

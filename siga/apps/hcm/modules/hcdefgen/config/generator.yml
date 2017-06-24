@@ -1,0 +1,98 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Hcdefgen
+    theme:            cidesaGenerator
+
+    fields:
+      hcmcob: { name: Hcm, params : size=20 maxlength=20}
+      matcob: { name: Maternidad, params : size=20 maxlength=20}
+      odocob: { name: Odontologia, params : size=20 maxlength=20}
+      funcob: { name: Funeraria, params : size=20 maxlength=20}
+      fecvig: { name: Fecha de Vigencia}
+      codreem:
+        name: Medicina
+        params: maxlength=3
+        catalogo:
+          catalogoweb: Npdefcpt_codree
+          clase: Npdefcpt
+          ajax: 1
+          parametros: getprincipal="getCodreem" getsecundario="getNomcon" campoprincipal="codreem" camposecundario="nomcon" campobase = "id"
+      codreeo:
+        name: Odontológico
+        params: maxlength=3
+        catalogo:
+          catalogoweb: Npdefcpt_codree
+          clase: Npdefcpt
+          ajax: 1
+          parametros: getprincipal="getCodreeo" getsecundario="getNomcono" campoprincipal="codreeo" camposecundario="nomcono" campobase = "id"          
+
+      durcarava: { name: Carta Aval (Días) , params : size=20 maxlength=10}
+      codramhcm:
+        name: Consumos HCM
+        params: maxlength=6
+        catalogo:
+          catalogoweb: Caramart_Almregart
+          clase: Caramart
+          ajax: 2
+          parametros: getprincipal="getCodramhcm" getsecundario="getNomram" campoprincipal="codramhcm" camposecundario="nomram" campobase = "id"
+      codramgasfun:
+        name: Gastos Funerarios
+        params: maxlength=6
+        catalogo:
+          catalogoweb: Caramart_Almregart
+          clase: Caramart
+          ajax: 2
+          parametros: getprincipal="getCodramgasfun" getsecundario="getNomram2" campoprincipal="codramgasfun" camposecundario="nomram2" campobase = "id"
+      notdef: { name: Nota por Defecto, params : size=80 maxlength=500}
+      duraut: { name: Duración de Autorización , params : size=20 maxlength=10}
+      firemp1:
+        name: Firma 1
+        params: maxlength=15
+        catalogo:
+          catalogoweb: Nphojint_codtit
+          clase: Nphojint
+          ajax: 3
+          parametros: getprincipal="getFiremp1" getsecundario="getNomemp" campoprincipal="firemp1" camposecundario="nomemp" campobase = "id"
+      firemp2:
+        name: Firma 2
+        params: maxlength=15
+        catalogo:
+          catalogoweb: Nphojint_codtit
+          clase: Nphojint
+          ajax: 3
+          parametros: getprincipal="getFiremp2" getsecundario="getNomemp2" campoprincipal="firemp2" camposecundario="nomemp1" campobase = "id"
+      codpre:
+        name: Código Presupuestario 
+        catalogo:
+          catalogoweb: Cpasiini_Pagemiord
+          clase: Cpasiini
+          ajax: 4
+          parametros: getprincipal="getCodpre" getsecundario="getNompre" campoprincipal="codpre" camposecundario="nompre" campobase = "id"          
+    
+    list:
+      fields:
+        fecvig: {name: Vigencia, params: date_format='dd/MM/yyyy' size=12 maxlength=10}
+      title:          Definiciones Generales
+      display:        [=fecvig]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [fecvig]
+      max_per_page:   10
+      sort:           fecvig
+      
+    edit:
+      title:          Definiciones Generales
+      display:
+        "Monto por Cobertura": [hcmcob, matcob, odocob, funcob, _fecvig]
+        "Conceptos de Reembolsos": [codreem, codreeo]
+        "Duración": [durcarava]
+        "Ramos": [codramhcm, codramgasfun]
+        "Exámenes": [notdef, duraut]
+        "Firmas": [firemp1, firemp2]
+        "OP Consumo HCM": [codpre]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~

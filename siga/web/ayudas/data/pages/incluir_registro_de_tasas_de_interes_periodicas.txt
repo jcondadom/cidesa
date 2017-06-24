@@ -1,0 +1,14 @@
+====== Operación Incluir ======
+
+Para **Registrar** las Tasas de Interés Periódicas debe:<html><br><br></html>
+
+  * Tenemos en las **Fechas de Referencia** el **Rango de Inicio** y **Fin** para la Tasa de Interés Periódica que se defina.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperrerdetasasintperinc1.jpg|}}"></div><br></html>
+
+  * Seguidamente debe ingresar el porcentaje aplicable de Interés Activo, Pasivo y Promedio
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperregdetasasintperinc2.jpg|}}"></div><br><br></html>
+
+  * Presione el Botón <html>&nbsp;&nbsp;</html> {{:btnguardar.jpg|}} para almacenar la informaciónue
+

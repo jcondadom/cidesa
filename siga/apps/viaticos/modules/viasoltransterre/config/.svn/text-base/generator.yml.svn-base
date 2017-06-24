@@ -1,0 +1,77 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Viasoltraterre
+    theme:            cidesaGenerator
+    fields:
+      numsol: { name: N° Solicitud, params: size=10 maxlength=8 onBlur="event.keyCode=13; enter(event,this.value);"}
+      fecsol: { name: Fecha, params: date_format='dd/MM/yyyy' maxlength=10}
+      coddirec:
+        name: Dirección
+        params: size=3 maxlength=15
+        catalogo:
+          catalogoweb: Cadefdirec_Almdefdiv
+          clase: cadefdirec
+          ajax: 1
+          parametros: getprincipal="getCoddirec" getsecundario="getDesdirec" campoprincipal="coddirec" camposecundario="desdirec" campobase = "id"
+      codeve:
+        name: Evento
+        params: size=10 maxlength=6 
+        catalogo:
+          catalogoweb: Preprecom_Cpevepre
+          clase: Cpevepre
+          ajax: 2
+          parametros: getprincipal="getCodeve" getsecundario="getDeseve" campoprincipal="codeve" camposecundario="deseve" campobase = "id"
+      codniv:
+        name: Unidad Solicitante/Núcleo
+        params: size=20 maxlength=16 
+        catalogo:
+          catalogoweb: Npestorg_Nomreghorprofnuc
+          clase: Npestorg
+          ajax: 3
+          parametros: getprincipal="getCodniv" getsecundario="getDesniv" campoprincipal="codniv" camposecundario="desniv" campobase = "id"                    
+      esnoemp:   { name: No es Empleado, params: onClick="MostraCat()"}
+      codempusu:         { name: Usuario}
+      telemp:         { name: Teléfono}
+      fecha: { name: Fecha, params: date_format='dd/MM/yyyy' maxlength=10}
+      hora: { name: Hora}
+      ruta: { name: Ruta, type: textarea_tag, params: size=80x3 maxlength=200 onkeyup="javascript:return ismaxlength(this)"}
+      tipserv: { name: Tipo de Servicio, params: size=60 maxlength=50}
+      canvehi: { name: Cant. Vehículos, params: size=60 maxlength=50}
+      tipvehi: { name: Tipo de Vehículo, params: size=60 maxlength=50}
+      candias: { name: Cant. Días, params: size=60 maxlength=50}
+      canpasaj: { name: Cant. Pasajeros, params: size=60 maxlength=50}
+      equipaj: { name: Equipaje}
+      instrum: { name: Instrumentos}
+      bultos: { name: Bultos}
+      conesper: { name: Con Espera}
+      adisposi: { name: A Disposición}
+      js: {name: .}
+      grid: {name: .}
+      apepercon: { name: Apellidos, params: maxlength=50 size=55}
+      nompercon: { name: Nombres, params: maxlength=50 size=55}
+      numcelpercon: { name: Número de Celular, params: maxlength=15 size=20}
+      numsolvi: { name: N° Solicitud de Viáticos}
+      ordesp: { name: Ordenes Especiales, type: textarea_tag, params: size=100x5 maxlength=500}
+      btnrep: {name: .}
+    list:
+      title:          Solicitudes de Transporte Terrestre
+      filters:        [numsol, fecsol, numsolvi]
+      display:        [=numsol, fecsol, numsolvi]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           numsol
+    edit:
+      title:          Edición de Solicitud de Transporte Terrestre
+      display:
+        "Datos": [_btnrep, numsol, fecsol, coddirec, codeve, codniv, esnoemp, _codempusu, telemp, ordesp, _grid, numsolvi]
+        "NONE": [tipserv, canvehi, tipvehi, candias, canpasaj]
+        "Datos de la Persona Contacto":  [apepercon, nompercon, numcelpercon]
+        "Detalles": [equipaj, instrum, bultos, conesper, adisposi, _js]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

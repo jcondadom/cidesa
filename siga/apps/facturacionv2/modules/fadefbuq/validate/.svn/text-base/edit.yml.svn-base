@@ -1,0 +1,31 @@
+methods:
+  post:
+   - "fatipbuq{codbuq}"
+   - "fatipbuq{nombuq}"
+   
+names:
+  fatipbuq{codbuq}:
+    required:  Yes
+    required_msg: El Código del Buque no puedo estar en Blanco
+    validators: Validator_codbuq
+
+  fatipbuq{nombuq}:
+    required:  Yes
+    required_msg: El Nombre del Buque no puedo estar en Blanco
+    validators: Validator_Nombuq
+
+
+Validator_codbuq:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Fatipbuq
+        column:       codbuq
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_Nombuq:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: El Nombre del Buque no puede tener menos de 2 caracteres
+        max:       100
+        max_error: El Nombre del Buque no puede pasar mas de 100 caracteres

@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "mandeffab{codfab}"
+   - "mandeffab{desfab}"
+
+names:
+  mandeffab{codfab}:
+    required:  Yes
+    required_msg: Introduzca el Código del Fabricante
+    validators: Validator_codfab
+    
+  mandeffab{desfab}:
+    required:  Yes
+    required_msg: Introduzca la Descripción del Fabricante
+    validators: Validator_desfab
+
+Validator_codfab:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Mandeffab
+        column:       codfab
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_desfab:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La Descripción no puede tener mas de 250 caracteres    

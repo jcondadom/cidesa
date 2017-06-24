@@ -1,0 +1,7439 @@
+propel:
+  _attributes: { noXsd: false, defaultIdMethod: native, package: lib.model.hacienda }
+  fcabonos:
+    _attributes:
+      description:
+    numpag:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: 
+    fecpag:
+      type: DATE
+      required: true
+      description: 
+    rifcon:
+      type: VARCHAR
+      size: 14
+      required: true
+      description: 
+    fueing:
+      type: VARCHAR
+      size: 2
+      required: true
+      description: 
+    despag:
+      type: VARCHAR
+      size: 250
+      description: 
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monefe:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    funpag:
+      type: VARCHAR
+      size: 40
+      description: 
+      required: true
+    codrec:
+      type: VARCHAR
+      size: 10
+      description: 
+    salpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    stapag:
+      type: VARCHAR
+      size: 1
+      description: 
+    fecrec:
+      type: DATE
+      description: 
+    numpag2:
+      type: VARCHAR
+      size: 10
+      description: 
+    numref:
+      type: VARCHAR
+      size: 15
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcacceso:
+    _attributes:
+      description: 
+    cedula:
+      type: VARCHAR
+      size: 14
+      description: 
+    nomusu:
+      type: VARCHAR
+      size: 100
+      description: 
+    pasusu:
+      type: VARCHAR
+      size: 8
+      description: 
+    autsol:
+      type: VARCHAR
+      size: 1
+      description: 
+    anupag:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcactcom:
+    _attributes:
+      description: 
+    codact:
+      type: VARCHAR
+      size: 16
+      description: 
+    desact:
+      type: VARCHAR
+      size: 255
+      description: 
+      required: true
+    mintri:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    exoner:
+      type: VARCHAR
+      size: 1
+      description: 
+    minofac:
+      type: VARCHAR
+      size: 1
+      description: 
+    tipali:
+      type: VARCHAR
+      size: 1
+      description: 
+    porreb:
+      type: NUMERIC
+      size: 14
+      scale: 6
+      description: 
+    exepto:
+      type: VARCHAR
+      size: 1
+      description: 
+    rebaja:
+      type: VARCHAR
+      size: 1
+      description: 
+    exento:
+      type: VARCHAR
+      size: 1
+      description: 
+    tem:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    afoact:
+      type: NUMERIC
+      size: 20
+      scale: 4
+      description: 
+    anoact:
+      type: VARCHAR
+      size: 4
+      description: 
+    bascan:
+      type: VARCHAR
+      size: 1
+      description:         
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcactcom_hc:
+    _attributes:
+      description: 
+    codact:
+      type: VARCHAR
+      size: 16
+      description: 
+    desact:
+      type: VARCHAR
+      size: 255
+      description: 
+      required: true
+    mintri:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    exoner:
+      type: VARCHAR
+      size: 1
+      description: 
+    minofac:
+      type: VARCHAR
+      size: 1
+      description: 
+    tipali:
+      type: VARCHAR
+      size: 1
+      description: 
+    porreb:
+      type: NUMERIC
+      size: 14
+      scale: 6
+      description: 
+    exepto:
+      type: VARCHAR
+      size: 1
+      description: 
+    rebaja:
+      type: VARCHAR
+      size: 1
+      description: 
+    exento:
+      type: VARCHAR
+      size: 1
+      description: 
+    tem:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    afoact:
+      type: NUMERIC
+      size: 20
+      scale: 4
+      description: 
+    anoact:
+      type: VARCHAR
+      size: 4
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcactpic:
+    _attributes:
+      description: 
+    numdoc:
+      type: VARCHAR
+      size: 12
+      description: 
+    codact:
+      type: VARCHAR
+      size: 16
+      description: 
+    exoner:
+      type: VARCHAR
+      size: 1
+      description: 
+    monact:
+      type: NUMERIC
+      size: 32
+      scale: 2
+      description: 
+    porexo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    estact:
+      type: VARCHAR
+      size: 1
+      description: 
+    exento:
+      type: VARCHAR
+      size: 1
+      description: 
+    rebaja:
+      type: VARCHAR
+      size: 1
+      description: 
+    porreb:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monant:
+      type: NUMERIC
+      size: 32
+      scale: 2
+      description: 
+    impuesto:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    fecven:
+      type: DATE
+      description: 
+    anodec:
+      type: VARCHAR
+      size: 4
+      description: 
+    modo:
+      type: VARCHAR
+      size: 1
+      description: 
+    monreb:
+      type: NUMERIC
+      size: 32
+      scale: 2
+      default: 0
+      description: 
+    monexo:
+      type: NUMERIC
+      size: 32
+      scale: 2
+      default: 0
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcajuste:
+    _attributes:
+      description: 
+    numaju:
+      type: VARCHAR
+      size: 10
+      description: 
+    fecaju:
+      type: DATE
+      description: 
+    desaju:
+      type: VARCHAR
+      size: 250
+      description: 
+    numdec:
+      type: VARCHAR
+      size: 10
+      description: 
+    staaju:
+      type: VARCHAR
+      size: 1
+      description: 
+    monaju:
+      type: NUMERIC
+      size: 32
+      scale: 2
+      description: 
+    monreb:
+      type: NUMERIC
+      size: 32
+      scale: 2
+      description: 
+    monexo:
+      type: NUMERIC
+      size: 32
+      scale: 2
+      description: 
+    monimp:
+      type: NUMERIC
+      size: 32
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcaliinm:
+    _attributes:
+      description: 
+    codcatfis:
+      type: VARCHAR
+      size: 50
+      required: true
+      description: 
+    coduso:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: 
+    anovig:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: 
+    valorm:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    porvf:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    aliter:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    alicon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcaliuso:
+    _attributes:
+      description: 
+    coduso:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    anovig:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: 
+    nomuso:
+      type: VARCHAR
+      size: 250
+      description: 
+      required: true
+    alimon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    pormon:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcapulic:
+    _attributes:
+      description: 
+    nrocon:
+      type: VARCHAR
+      size: 8
+      required: true
+      description: 
+    fecreg:
+      type: DATE
+      description: 
+      required: true
+    rifcon:
+      type: VARCHAR
+      size: 14
+      description: 
+      required: true
+      foreignTable: fcconrep
+      foreignReference: rifcon
+    tipapu:
+      type: VARCHAR
+      size: 10
+      description: 
+    desapu:
+      type: VARCHAR
+      size: 250
+      description: 
+    dirapu:
+      type: VARCHAR
+      size: 250
+      description: 
+    monapu:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monimp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    funrec:
+      type: VARCHAR
+      size: 50
+      description: 
+    fecrec:
+      type: DATE
+      description: 
+    rifrep:
+      type: VARCHAR
+      size: 14
+      description: 
+      foreignTable: fcconrep
+      foreignReference: rifcon
+    staapu:
+      type: VARCHAR
+      size: 1
+      description: 
+    stadec:
+      type: VARCHAR
+      size: 1
+      description: 
+    nomcon:
+      type: VARCHAR
+      size: 50
+      description: 
+    dircon:
+      type: VARCHAR
+      size: 50
+      description: 
+    semdia:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    exoapu:
+      type: VARCHAR
+      size: 1
+      description: 
+    texexo:
+      type: VARCHAR
+      size: 300
+      description: 
+    fecapu:
+      type: DATE
+      description: 
+    serapui:
+      type: VARCHAR
+      size: 20
+      description: 
+    serapuf:
+      type: VARCHAR
+      size: 20
+      description: 
+    horaapu:
+      type: TIME
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcapulicdet:
+    _attributes:
+      description: 
+    nrocon:
+      type: VARCHAR
+      size: 8
+      description: 
+      required: true
+    rifcon:
+      type: VARCHAR
+      size: 14
+      description: 
+      required: true 
+    tipapu:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    campo:
+      type: VARCHAR
+      size: 50
+      description: 
+      required: true
+    valor:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    stsdec:
+      type: VARCHAR
+      size: 1
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcbanent:
+    _attributes:
+      description: 
+    coddoc:
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codfun:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+      foreignReference: codfun
+      onDelete:
+      onUpdate:
+    codentext:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+      foreignReference: codentext
+      onDelete:
+      onUpdate:
+    codtipdoc:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+      foreignReference: codtipdoc
+      onDelete:
+      onUpdate:
+    fecdoc:
+      type: DATE
+      description: 
+    hordoc:
+      type: DATE
+      description: 
+    fecres:
+      type: DATE
+      description: 
+    asunto:
+      type: VARCHAR
+      size: 100
+      description: 
+    codubifis:
+      type: VARCHAR
+      size: 16
+      description: 
+      foreignReference: codubifis
+      onDelete:
+      onUpdate:
+    fecubifis:
+      type: DATE
+      description: 
+    horubifis:
+      type: DATE
+      description: 
+    codubimag:
+      type: VARCHAR
+      size: 16
+      foreignReference: codubimag
+      onDelete:
+      onUpdate:
+    fecubimag:
+      type: DATE
+      description: 
+    horubimag:
+      type: DATE
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcbansal:
+    _attributes:
+      description: 
+    coddoc:
+      type: VARCHAR
+      size: 5
+      description: 
+      required: true
+    codfun:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+      foreignReference: codfun
+      onDelete:
+      onUpdate:
+    codentext:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+      foreignReference: codentext
+      onDelete:
+      onUpdate:
+    codtipdoc:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+      foreignReference: codtipdoc
+      onDelete:
+      onUpdate:
+    fecdoc:
+      type: DATE
+      description: 
+    hordoc:
+      type: DATE
+      description: 
+    asunto:
+      type: VARCHAR
+      size: 100
+      description: 
+    codubifis:
+      type: VARCHAR
+      size: 16
+      description: 
+      foreignReference: codubifis
+      onDelete:
+      onUpdate:
+    fecubifis:
+      type: DATE
+      description: 
+    horubifis:
+      type: DATE
+      description: 
+    codubimag:
+      type: VARCHAR
+      size: 16
+      description: 
+      foreignReference: codubimag
+      onDelete:
+      onUpdate:
+    fecubimag:
+      type: DATE
+      description: 
+    horubimag:
+      type: DATE
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fccajero:
+    _attributes:
+      description: 
+    codcaj:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    cedcaj:
+      type: VARCHAR
+      size: 15
+      description: 
+      required: true
+    nomcaj:
+      type: VARCHAR
+      size: 30
+      description: 
+      required: true
+    dircaj:
+      type: VARCHAR
+      size: 50
+      description: 
+    telcaj:
+      type: VARCHAR
+      size: 11
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fccarinm:
+    _attributes:
+      description: 
+    codcarinm:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    nomcarinm:
+      type: VARCHAR
+      size: 250
+      description: 
+      required: true
+    stacarinm:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fccatfis:
+    _attributes:
+      description: 
+    codcatfis:
+      type: VARCHAR
+      size: 50
+      description: 
+      required: true
+    nomcatfis:
+      type: VARCHAR
+      size: 250
+      description: 
+      required: true
+    linnor:
+      type: VARCHAR
+      size: 250
+      description: 
+    linsur:
+      type: VARCHAR
+      size: 250
+      description: 
+    linest:
+      type: VARCHAR
+      size: 250
+      description: 
+    linoes:
+      type: VARCHAR
+      size: 250
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcclaesp:
+    _attributes:
+      description: 
+    codcla:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    descla:
+      type: VARCHAR
+      size: 50
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fccobrad:
+    _attributes:
+      description: 
+    codcob:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    cedcob:
+      type: VARCHAR
+      size: 15
+      description: 
+      required: true
+    nomcob:
+      type: VARCHAR
+      size: 30
+      description: 
+      required: true
+    dircob:
+      type: VARCHAR
+      size: 50
+      description: 
+    telcob:
+      type: VARCHAR
+      size: 11
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fccominm:
+    _attributes:
+      description: 
+    anovig:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    codcom:
+      type: VARCHAR
+      size: 6
+      description: 
+      required: true
+    descom:
+      type: VARCHAR
+      size: 1000
+      description: 
+    afeinm:
+      type: VARCHAR
+      size: 1
+      description: 
+    opecom:
+      type: VARCHAR
+      size: 1
+      description: 
+    valcom:
+      type: NUMERIC
+      size: 32
+      scale: 3
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fccon:
+    _attributes:
+      description: 
+    rifcon:
+      type: VARCHAR
+      size: 14
+      description: 
+    repcon:
+      type: VARCHAR
+      size: 1
+      description: 
+    nitcon:
+      type: VARCHAR
+      size: 14
+      description: 
+    nomcon:
+      type: VARCHAR
+      size: 50
+      description: 
+    naccon:
+      type: VARCHAR
+      size: 1
+      description: 
+    dircon:
+      type: VARCHAR
+      size: 50
+      description: 
+    codpar:
+      type: VARCHAR
+      size: 4
+      description: 
+    ciucon:
+      type: VARCHAR
+      size: 30
+      description: 
+    cpocon:
+      type: VARCHAR
+      size: 6
+      description: 
+    apocon:
+      type: VARCHAR
+      size: 20
+      description: 
+    tipcon:
+      type: VARCHAR
+      size: 1
+      description: 
+    telcon:
+      type: VARCHAR
+      size: 30
+      description: 
+    faxcon:
+      type: VARCHAR
+      size: 15
+      description: 
+    emacon:
+      type: VARCHAR
+      size: 50
+      description: 
+    urlcon:
+      type: VARCHAR
+      size: 50
+      description: 
+    codmun:
+      type: VARCHAR
+      size: 4
+      description: 
+    codedo:
+      type: VARCHAR
+      size: 4
+      description: 
+    codpai:
+      type: VARCHAR
+      size: 4
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcconpag:
+    _attributes:
+      description: 
+    refcon:
+      type: VARCHAR
+      size: 15
+      description: 
+      required: true
+    feccon:
+      type: DATE
+      description: 
+      required: true
+    moncon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    estcon:
+      type: VARCHAR
+      size: 1
+      description: 
+    rifcon:
+      type: VARCHAR
+      size: 14
+      description: 
+      required: true
+    obscon:
+      type: VARCHAR
+      size: 250
+      description: 
+    funrec:
+      type: VARCHAR
+      size: 100
+      description: 
+    fecrec:
+      type: DATE
+      description: 
+    numcuo:
+      type: NUMERIC
+      size: 14
+      description: 
+      scale: 2
+      required: true
+    moncuo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    totcuo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    porini:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    monini:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    porfin:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    monfin:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    datced:
+      type: VARCHAR
+      size: 14
+      description: 
+    datnac:
+      type: VARCHAR
+      size: 14
+      description: 
+    datnom:
+      type: VARCHAR
+      size: 50
+      description: 
+    datdir:
+      type: VARCHAR
+      size: 60
+      description: 
+    dattel:
+      type: VARCHAR
+      size: 14
+      description: 
+    datcar:
+      type: VARCHAR
+      size: 60
+      description: 
+    datreg:
+      type: VARCHAR
+      size: 300
+      description: 
+    datcon:
+      type: VARCHAR
+      size: 300
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcconrep:
+    _attributes:
+      description: 
+    cedcon:
+      type: VARCHAR
+      size: 11
+      description: 
+    rifcon:
+      type: VARCHAR
+      size: 20
+      description: 
+    nomcon:
+      type: VARCHAR
+      size: 255
+      description: 
+    repcon:
+      type: VARCHAR
+      size: 1
+      description: 
+    dircon:
+      type: VARCHAR
+      size: 255
+      description: 
+    telcon:
+      type: VARCHAR
+      size: 30
+      description: 
+    emacon:
+      type: VARCHAR
+      size: 50
+      description: 
+    codsec:
+      type: VARCHAR
+      size: 4
+      description: 
+    codpar:
+      type: VARCHAR
+      size: 4
+      description: 
+    nitcon:
+      type: VARCHAR
+      size: 14
+      description: 
+    codmun:
+      type: VARCHAR
+      size: 4
+      description: 
+    codedo:
+      type: VARCHAR
+      size: 4
+      description: 
+    codpai:
+      type: VARCHAR
+      size: 4
+      description: 
+    ciucon:
+      type: VARCHAR
+      size: 30
+      description: 
+    cpocon:
+      type: VARCHAR
+      size: 6
+      description: 
+    apocon:
+      type: VARCHAR
+      size: 20
+      description: 
+    urlcon:
+      type: VARCHAR
+      size: 50
+      description: 
+    naccon:
+      type: VARCHAR
+      size: 1
+      description: 
+    tipcon:
+      type: VARCHAR
+      size: 1
+      description: 
+    faxcon:
+      type: VARCHAR
+      size: 15
+      description: 
+    clacon:
+      type: VARCHAR
+      size: 12
+      description: 
+    funrec:
+      type: VARCHAR
+      size: 50
+      description: 
+    fecdescon:
+      type: DATE
+      description: 
+    fecactcon:
+      type: DATE
+      description: 
+    stacon:
+      type: VARCHAR
+      size: 1
+      description: 
+    origen:
+      type: VARCHAR
+      size: 1
+      description: 
+    nomneg:
+      type: VARCHAR
+      size: 255
+      description: 
+    reccon:
+      type: VARCHAR
+      size: 100
+      description: 
+    tem:
+      type: NUMERIC
+      size: 8
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcconrepco:
+    _attributes:
+      description: 
+    cedcon:
+      type: VARCHAR
+      size: 11
+      description: 
+    rifcon:
+      type: VARCHAR
+      size: 14
+      description: 
+    nomcon:
+      type: VARCHAR
+      size: 120
+      description: 
+    repcon:
+      type: VARCHAR
+      size: 1
+      description: 
+    dircon:
+      type: VARCHAR
+      size: 80
+      description: 
+    telcon:
+      type: VARCHAR
+      size: 30
+      description: 
+    emacon:
+      type: VARCHAR
+      size: 50
+      description: 
+    codsec:
+      type: VARCHAR
+      size: 4
+      description: 
+    codpar:
+      type: VARCHAR
+      size: 4
+      description: 
+    nitcon:
+      type: VARCHAR
+      size: 14
+      description: 
+    codmun:
+      type: VARCHAR
+      size: 4
+      description: 
+    codedo:
+      type: VARCHAR
+      size: 4
+      description: 
+    codpai:
+      type: VARCHAR
+      size: 4
+      description: 
+    ciucon:
+      type: VARCHAR
+      size: 30
+      description: 
+    cpocon:
+      type: VARCHAR
+      size: 6
+      description: 
+    apocon:
+      type: VARCHAR
+      size: 20
+      description: 
+    urlcon:
+      type: VARCHAR
+      size: 50
+      description: 
+    naccon:
+      type: VARCHAR
+      size: 1
+      description: 
+    tipcon:
+      type: VARCHAR
+      size: 1
+      description: 
+    faxcon:
+      type: VARCHAR
+      size: 15
+      description: 
+    clacon:
+      type: VARCHAR
+      size: 12
+      description: 
+    fecdescon:
+      type: DATE
+      description: 
+    fecactcon:
+      type: DATE
+      description: 
+    stacon:
+      type: VARCHAR
+      size: 1
+      description: 
+    origen:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdecatp:
+    _attributes:
+      description: 
+    numdec:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    numsol:
+      type: VARCHAR
+      size: 12
+      description: 
+      required: true
+    numlic:
+      type: VARCHAR
+      size: 12
+      description: 
+      required: true
+    fecdec:
+      type: DATE
+      description: 
+      required: true
+    mondec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    fundec:
+      type: VARCHAR
+      size: 40
+      description: 
+      required: true
+    edodec:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdeclar:
+    _attributes:
+      description: 
+    numdec:
+      type: VARCHAR
+      size: 10
+      description: 
+    fecven:
+      type: DATE
+      description: 
+    fueing:
+      type: VARCHAR
+      size: 2
+      description: 
+    fecdec:
+      type: DATE
+      description: 
+    rifcon:
+      type: VARCHAR
+      size: 20
+      description: 
+    tipo:
+      type: VARCHAR
+      size: 3
+      description: 
+    numref:
+      type: VARCHAR
+      size: 30
+      description: 
+    nombre:
+      type: VARCHAR
+      size: 500
+      description: 
+    mondec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    edodec:
+      type: VARCHAR
+      size: 1
+      description: 
+    mora:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    prontopg:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    autliq:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    fundec:
+      type: VARCHAR
+      size: 40
+      description: 
+    codrec:
+      type: VARCHAR
+      size: 10
+      description: 
+    modo:
+      type: VARCHAR
+      size: 1
+      description: 
+    numero:
+      type: VARCHAR
+      size: 3
+      description: 
+    conpag:
+      type: VARCHAR
+      size: 1
+      default: N
+      description: 
+    monabo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      default: 0
+    numabo:
+      type: VARCHAR
+      size: 10
+      description: 
+    nomcon:
+      type: VARCHAR
+      size: 255
+      description: 
+    otro:
+      type: VARCHAR
+      size: 30
+      description: 
+    miginc:
+      type: VARCHAR
+      size: 1
+      description: 
+    anodec:
+      type: VARCHAR
+      size: 4
+      description: 
+    fecultpag:
+      type: DATE
+      description: 
+    fecini:
+      type: DATE
+      description: 
+    feccie:
+      type: DATE
+      description: 
+    exipaguni:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdeclar2:
+    _attributes:
+      description: 
+    numdec:
+      type: VARCHAR
+      size: 10
+      description: 
+    fecven:
+      type: DATE
+      description: 
+    fueing:
+      type: VARCHAR
+      size: 2
+      description: 
+    fecdec:
+      type: DATE
+      description: 
+    rifcon:
+      type: VARCHAR
+      size: 20
+      description: 
+    tipo:
+      type: VARCHAR
+      size: 3
+      description: 
+    numref:
+      type: VARCHAR
+      size: 15
+      description: 
+    nombre:
+      type: VARCHAR
+      size: 100
+      description: 
+    mondec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    edodec:
+      type: VARCHAR
+      size: 1
+      description: 
+    mora:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    prontopg:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    autliq:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    fundec:
+      type: VARCHAR
+      size: 40
+      description: 
+    codrec:
+      type: VARCHAR
+      size: 10
+      description: 
+    modo:
+      type: VARCHAR
+      size: 1
+      description: 
+    numero:
+      type: VARCHAR
+      size: 2
+      description: 
+    conpag:
+      type: VARCHAR
+      size: 1
+      description: 
+    monabo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    numabo:
+      type: VARCHAR
+      size: 10
+      description: 
+    nomcon:
+      type: VARCHAR
+      size: 255
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdecpag:
+    _attributes:
+      description: 
+    numpag:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    numdec:
+      type: VARCHAR
+      size: 10
+      description: 
+    numref:
+      type: VARCHAR
+      size: 32
+      description: 
+    fecven:
+      type: DATE
+      description: 
+      required: true
+    mondec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    numero:
+      type: VARCHAR
+      size: 2
+      description: 
+    fueing:
+      type: VARCHAR
+      size: 2
+      description: 
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    stsdec:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdefdesc:
+    _attributes:
+      description: 
+    coddes:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    nomdes:
+      type: VARCHAR
+      size: 250
+      description: 
+    codfue:
+      type: VARCHAR
+      size: 2
+      description: 
+    tipo:
+      type: VARCHAR
+      size: 1
+      description: 
+    modo:
+      type: VARCHAR
+      size: 1
+      description: 
+    limita:
+      type: VARCHAR
+      size: 1
+      description: 
+    auto:
+      type: VARCHAR
+      size: 1
+      description: 
+    anoact:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdefdetsol:
+    _attributes:
+      description: 
+    codsol:
+      type: VARCHAR
+      size: 2
+      description: 
+    tipo:
+      type: VARCHAR
+      size: 1
+      description: 
+    cuantos:
+      type: VARCHAR
+      size: 1
+      description: 
+    propie:
+      type: VARCHAR
+      size: 1
+      description: 
+    imprim:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdefdetsol2:
+    _attributes:
+      description: 
+    codsol:
+      type: VARCHAR
+      size: 2
+      description: 
+    tipo:
+      type: VARCHAR
+      size: 1
+      description: 
+    cuantos:
+      type: VARCHAR
+      size: 1
+      description: 
+    propie:
+      type: VARCHAR
+      size: 1
+      description: 
+    imprim:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdefentext:
+    _attributes:
+      description: 
+    codentext:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    nomentext:
+      type: VARCHAR
+      size: 50
+      description: 
+      required: true
+    pernatjur:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdeffun:
+    _attributes:
+      description: 
+    codfun:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    nomfun:
+      type: VARCHAR
+      size: 50
+      description: 
+      required: true
+    coduniadm:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+      foreignReference: coduniadm
+      description: 
+      onDelete:
+      onUpdate:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdefins:
+    _attributes:
+      description: 
+    codemp:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+      description: 
+    loncodact:
+      type: NUMERIC
+      size: 2
+      description: 
+    loncodveh:
+      type: NUMERIC
+      size: 2
+      description: 
+    loncodcat:
+      type: NUMERIC
+      size: 2
+      description: 
+    loncodubifis:
+      type: NUMERIC
+      size: 2
+      description: 
+    loncodubimag:
+      type: NUMERIC
+      size: 2
+      description: 
+    rupact:
+      type: NUMERIC
+      size: 2
+      description: 
+    rupveh:
+      type: NUMERIC
+      size: 2
+      description: 
+    rupcat:
+      type: NUMERIC
+      size: 2
+      description: 
+    rupubifis:
+      type: NUMERIC
+      size: 2
+      description: 
+    rupubimag:
+      type: NUMERIC
+      size: 2
+      description: 
+    foract:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    forveh:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    forcat:
+      type: VARCHAR
+      size: 20
+      description: 
+      required: true
+    forubifis:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    forubimag:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    porpic:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    porveh:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    porinm:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    unipic:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    valunitri:
+      type: NUMERIC
+      size: 19
+      scale: 3
+      description: 
+    unitas:
+      type: VARCHAR
+      size: 1
+      description: 
+    codpic:
+      type: VARCHAR
+      size: 2
+      description: 
+    codveh:
+      type: VARCHAR
+      size: 2
+      description: 
+    codinm:
+      type: VARCHAR
+      size: 2
+      description: 
+    codpro:
+      type: VARCHAR
+      size: 2
+      description: 
+    codesp:
+      type: VARCHAR
+      size: 2
+      description: 
+    codapu:
+      type: VARCHAR
+      size: 2
+      description: 
+    codajupic:
+      type: VARCHAR
+      size: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdefnca:
+    _attributes:
+      description: 
+    codpar:
+      type: VARCHAR
+      size: 4
+      description: 
+    codmun:
+      type: VARCHAR
+      size: 4
+      description: 
+    codedo:
+      type: VARCHAR
+      size: 4
+      description: 
+    codpai:
+      type: VARCHAR
+      size: 4
+      description: 
+    numniv:
+      type: NUMERIC
+      size: 2
+      description: 
+      required: true
+    nomext1:
+      type: VARCHAR
+      size: 210
+      description: 
+      required: true
+    nomabr1:
+      type: VARCHAR
+      size: 9
+      description: 
+      required: true
+    tamano1:
+      type: NUMERIC
+      size: 1
+      description: 
+      required: true
+    nomext2:
+      type: VARCHAR
+      size: 210
+      description: 
+    nomabr2:
+      type: VARCHAR
+      size: 9
+      description: 
+    tamano2:
+      type: NUMERIC
+      size: 1
+      description: 
+    nomext3:
+      type: VARCHAR
+      size: 210
+      description: 
+    nomabr3:
+      type: VARCHAR
+      size: 9
+      description: 
+    tamano3:
+      type: NUMERIC
+      size: 1
+      description: 
+    nomext4:
+      type: VARCHAR
+      size: 210
+      description: 
+    nomabr4:
+      type: VARCHAR
+      size: 9
+      description: 
+    tamano4:
+      type: NUMERIC
+      size: 1
+      description: 
+    nomext5:
+      type: VARCHAR
+      size: 210
+      description: 
+    nomabr5:
+      type: VARCHAR
+      size: 9
+      description: 
+    tamano5:
+      type: NUMERIC
+      size: 1
+      description: 
+    nomext6:
+      type: VARCHAR
+      size: 210
+      description: 
+    nomabr6:
+      type: VARCHAR
+      size: 9
+      description: 
+    tamano6:
+      type: NUMERIC
+      size: 1
+      description: 
+    nomext7:
+      type: VARCHAR
+      size: 210
+      description: 
+    nomabr7:
+      type: VARCHAR
+      size: 9
+      description: 
+    tamano7:
+      type: NUMERIC
+      size: 1
+      description: 
+    nomext8:
+      type: VARCHAR
+      size: 210
+      description: 
+    nomabr8:
+      type: VARCHAR
+      size: 9
+      description: 
+    tamano8:
+      type: NUMERIC
+      size: 1
+      description: 
+    nomext9:
+      type: VARCHAR
+      size: 210
+      description: 
+    nomabr9:
+      type: VARCHAR
+      size: 9
+      description: 
+    tamano9:
+      type: NUMERIC
+      size: 1
+      description: 
+    nomext10:
+      type: VARCHAR
+      size: 210
+      description: 
+    nomabr10:
+      type: VARCHAR
+      size: 9
+      description: 
+    tamano10:
+      type: NUMERIC
+      size: 10
+      description: 
+    nivinm:
+      type: VARCHAR
+      size: 2
+      description: 
+    numper:
+      type: NUMERIC
+      size: 3
+      description: 
+    denumper:
+      type: VARCHAR
+      size: 20
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdefpgi:
+    _attributes:
+      description: 
+    mondes:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    monhas:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    numpor:
+      type: VARCHAR
+      size: 3
+      description: 
+    despgi:
+      type: VARCHAR
+      size: 20
+      description: 
+    desabr:
+      type: VARCHAR
+      size: 3
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdefrecdes:
+    _attributes:
+      description: 
+    coddes:
+      type: VARCHAR
+      size: 4
+      description: 
+    codrec:
+      type: VARCHAR
+      size: 10
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdefrecint:
+    _attributes:
+      description: 
+    codrec:
+      type: VARCHAR
+      size: 4
+      description: 
+    nomrec:
+      type: VARCHAR
+      size: 250
+      description: 
+    tipo:
+      type: VARCHAR
+      size: 1
+      description: 
+    modo:
+      type: VARCHAR
+      size: 1
+      description: 
+    periodo:
+      type: VARCHAR
+      size: 1
+      default: N
+      description: 
+    promedio:
+      type: VARCHAR
+      size: 1
+      default: N
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdeftipdoc:
+    _attributes:
+      description: 
+    codtipdoc:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: 
+    nomtipdoc:
+      type: VARCHAR
+      size: 50
+      required: true
+      description: 
+    temtipdoc:
+      type: VARCHAR
+      size: 8
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdefubifis:
+    _attributes:
+      description: 
+    codubifis:
+      type: VARCHAR
+      size: 16
+      required: true
+      description: 
+    nomubifis:
+      type: VARCHAR
+      size: 50
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdefubimag:
+    _attributes:
+      description: 
+    codubimag:
+      type: VARCHAR
+      size: 16
+      required: true
+      description: 
+    nomubimag:
+      type: VARCHAR
+      size: 50
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdefuniadm:
+    _attributes:
+      idMethod: native
+      description: 
+    coduniadm:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    nomuniadm:
+      type: VARCHAR
+      size: 50
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdesveh:
+    _attributes:
+      description: 
+    numdes:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    plaveh:
+      type: VARCHAR
+      size: 8
+      description: 
+      required: true
+    fecdes:
+      type: DATE
+      description: 
+      required: true
+    motdes:
+      type: VARCHAR
+      size: 200
+      description: 
+      required: true
+    funrec:
+      type: VARCHAR
+      size: 40
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdetabo:
+    _attributes:
+      idMethod: native
+      description: 
+    numpag:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    nrodet:
+      type: VARCHAR
+      size: 30
+      description: 
+      required: true
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    tippag:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdetcon:
+    _attributes:
+      description: 
+    refcon:
+      type: VARCHAR
+      size: 15
+      description: 
+      required: true
+    numdec:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    moncuo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    numcuo:
+      type: VARCHAR
+      size: 2
+      description: 
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    obscuo:
+      type: VARCHAR
+      size: 100
+      description: 
+    descuo:
+      type: VARCHAR
+      size: 100
+      description: 
+    fecven:
+      type: DATE
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdetconfue:
+    _attributes:
+      description: 
+    refcon:
+      type: VARCHAR
+      size: 15
+      description: 
+      required: true
+    numdec:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    moncuo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    numcuo:
+      type: VARCHAR
+      size: 2
+      description: 
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    obscuo:
+      type: VARCHAR
+      size: 100
+      description: 
+    descuo:
+      type: VARCHAR
+      size: 100
+      description: 
+    fecven:
+      type: DATE
+      description: 
+    fuente:
+      type: VARCHAR
+      size: 100
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdetinm:
+    _attributes:
+      description: 
+    nroinm:
+      type: VARCHAR
+      size: 15
+      description: 
+    anoava:
+      type: VARCHAR
+      size: 4
+      description: 
+    codest:
+      type: VARCHAR
+      size: 6
+      description: 
+    codzon:
+      type: VARCHAR
+      size: 3
+      description: 
+    codtip:
+      type: VARCHAR
+      size: 3
+      description: 
+    anocon:
+      type: VARCHAR
+      size: 4
+      description: 
+    valter:
+      type: NUMERIC
+      size: 32
+      scale: 3
+      description: 
+    valcon:
+      type: NUMERIC
+      size: 32
+      scale: 3
+      description: 
+    mtrter:
+      type: NUMERIC
+      size: 32
+      scale: 3
+      description: 
+    mtrcon:
+      type: NUMERIC
+      size: 32
+      scale: 3
+      description: 
+    dprcon:
+      type: NUMERIC
+      size: 32
+      scale: 3
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdetpag:
+    _attributes:
+      description: 
+    numpag:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+      foreignReference: numpag
+      onDelete:
+      onUpdate:
+    nrodet:
+      type: VARCHAR
+      size: 30
+      description: 
+      required: true
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    tippag:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    fecdet:
+      type: DATE
+      description: 
+    ctaban:
+      type: VARCHAR
+      size: 20
+      description: 
+    nomcue:
+      type: VARCHAR
+      size: 40
+      description: 
+      foreignReference: tippag
+      onDelete: CASCADE
+      onUpdate:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdetreccob:
+    _attributes:
+      description: 
+    nument:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    codrec:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    codcob:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdetrep:
+    _attributes:
+      description: 
+    numrep:
+      type: VARCHAR
+      size: 15
+      description: 
+    descrip:
+      type: VARCHAR
+      size: 150
+      description: 
+    tipo:
+      type: VARCHAR
+      size: 3
+      description: 
+    monto:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    fecha:
+      type: DATE
+      description: 
+    fuente:
+      type: VARCHAR
+      size: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdetret:
+    _attributes:
+      description: 
+    numret:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    numref:
+      type: VARCHAR
+      size: 15
+      description: 
+      required: true
+    monasi:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      default: 0
+    monabo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      default: 0
+    mondeu:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      default: 0
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdeucon:
+    _attributes:
+      description: 
+    refcon:
+      type: VARCHAR
+      size: 15
+      description: 
+      required: true
+    numdec:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    numero:
+      type: VARCHAR
+      size: 2
+      description: 
+    fecven:
+      type: DATE
+      description: 
+    fueing:
+      type: VARCHAR
+      size: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdprinm:
+    _attributes:
+      description: 
+    anovig:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    antinm:
+      type: NUMERIC
+      description: 
+      required: true
+    codestinm:
+      type: VARCHAR
+      size: 6
+      description: 
+      required: true
+    mondpr:
+      type: NUMERIC
+      size: 32
+      scale: 2
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcesplic:
+    _attributes:
+      description: 
+    nrocon:
+      type: VARCHAR
+      size: 8
+      description: 
+      required: true
+    fecreg:
+      type: DATE
+      description: 
+      required: true
+    rifcon:
+      type: VARCHAR
+      size: 14
+      description: 
+      required: true
+    tipesp:
+      type: VARCHAR
+      size: 10
+      description: 
+    desesp:
+      type: VARCHAR
+      size: 250
+      description: 
+    diresp:
+      type: VARCHAR
+      size: 250
+      description: 
+    monesp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monimp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    funrec:
+      type: VARCHAR
+      size: 50
+      description: 
+    fecrec:
+      type: DATE
+      description: 
+    rifrep:
+      type: VARCHAR
+      size: 14
+      description: 
+    staesp:
+      type: VARCHAR
+      size: 1
+      description: 
+    stadec:
+      type: VARCHAR
+      size: 1
+      description: 
+    nomcon:
+      type: VARCHAR
+      size: 50
+      description: 
+    dircon:
+      type: VARCHAR
+      size: 50
+      description: 
+    semdia:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    texexo:
+      type: VARCHAR
+      size: 300
+      description: 
+    fecesp:
+      type: DATE
+      description: 
+    horespi:
+      type: TIME
+      description: 
+    horespf:
+      type: TIME
+      description: 
+    nroent:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monent:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    exoesp:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcesplicdet:
+    _attributes:
+      description: 
+    nrocon:
+      type: VARCHAR
+      size: 8
+      description: 
+      required: true
+    rifcon:
+      type: VARCHAR
+      size: 14
+      description: 
+      required: true
+    tipesp:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    campo:
+      type: VARCHAR
+      size: 50
+      description: 
+      required: true
+    valor:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcesppub:
+    _attributes:
+      description: 
+    nrocon:
+      type: VARCHAR
+      size: 8
+      description: 
+      required: true
+    fecreg:
+      type: DATE
+      description: 
+      required: true
+    rifcon:
+      type: VARCHAR
+      size: 14
+      description: 
+      required: true
+    rifrep:
+      type: VARCHAR
+      size: 14
+      description: 
+    nomesp:
+      type: VARCHAR
+      size: 100
+      description: 
+    diresp:
+      type: VARCHAR
+      size: 100
+      description: 
+    fecesp:
+      type: DATE
+      description: 
+    horesp:
+      type: VARCHAR
+      size: 20
+      description: 
+    tipesp:
+      type: VARCHAR
+      size: 10
+      description: 
+    nroent:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monent:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monimp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    nomres:
+      type: VARCHAR
+      size: 250
+      description: 
+    dirres:
+      type: VARCHAR
+      size: 100
+      description: 
+    telres:
+      type: VARCHAR
+      size: 15
+      description: 
+    funrec:
+      type: VARCHAR
+      size: 50
+      description: 
+    fecrec:
+      type: DATE
+      description: 
+    staesp:
+      type: VARCHAR
+      size: 1
+      description: 
+    stadec:
+      type: VARCHAR
+      size: 1
+      description: 
+    nomcon:
+      type: VARCHAR
+      size: 50
+      description: 
+    dircon:
+      type: VARCHAR
+      size: 50
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcestado:
+    _attributes:
+      description: 
+    codedo:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    codpai:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: 
+      foreignReference: codpai
+      onDelete:
+      onUpdate:
+    nomedo:
+      type: VARCHAR
+      size: 30
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcesting:
+    _attributes:
+      description: 
+    codpar:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    ano:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    perest:
+      type: VARCHAR
+      size: 2
+      description: 
+      required: true
+    monto:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcestinm:
+    _attributes:
+      description: 
+    codestinm:
+      type: VARCHAR
+      size: 6
+      description: 
+      required: true
+    desestinm:
+      type: VARCHAR
+      size: 1000
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcfuentesmul:
+    _attributes:
+      description: 
+    codmul:
+      type: VARCHAR
+      size: 4
+      description: 
+    codfue:
+      type: VARCHAR
+      size: 2
+      description: 
+    codfuegen:
+      type: VARCHAR
+      size: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcfuentesrec:
+    _attributes:
+      idMethod: native
+      description: 
+    codrec:
+      type: VARCHAR
+      size: 4
+      description: 
+    codfue:
+      type: VARCHAR
+      size: 2
+      description: 
+    codfuegen:
+      type: VARCHAR
+      size: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcfuepre:
+    _attributes:
+      description: 
+    codfue:
+      type: VARCHAR
+      size: 2
+      description: 
+      required: true
+    nomfue:
+      type: VARCHAR
+      size: 100
+      description: 
+      required: true
+    nomabr:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    frecob:
+      type: NUMERIC
+      size: 3
+      description: 
+    monmor:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    permor:
+      type: NUMERIC
+      size: 3
+      description: 
+    propag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    perppg:
+      type: NUMERIC
+      size: 3
+      description: 
+    liqact:
+      type: NUMERIC
+      size: 15
+      description: 
+    deufec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    recfec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    fecufa:
+      type: DATE
+      description: 
+    ingrec:
+      type: VARCHAR
+      size: 32
+      description: 
+    fueing:
+      type: VARCHAR
+      size: 32
+      description: 
+    inieje:
+      type: DATE
+      description: 
+    fineje:
+      type: DATE
+      description: 
+    diavso:
+      type: NUMERIC
+      size: 3
+      description: 
+    codprei:
+      type: VARCHAR
+      size: 50
+      description: 
+    deufra:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    autliq:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    simpre:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    feccie:
+      type: DATE
+      description: 
+    tipmul:
+      type: VARCHAR
+      size: 1
+      description: 
+    fecest:
+      type: DATE
+      description: 
+    diaven:
+      type: NUMERIC
+      size: 10
+      description: 
+      default: 0
+    tipven:
+      type: VARCHAR
+      size: 1
+      description: 
+      default: I
+    tipfue:
+      type: CHAR
+      size: 1
+      description: 
+    sumfue:
+      type: VARCHAR
+      size: 1        
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcinmcam:
+    _attributes:
+      description: 
+    nroinm:
+      type: VARCHAR
+      size: 255
+      description: 
+    codcatfis:
+      type: VARCHAR
+      size: 50
+      description: 
+      required: true
+    coduso:
+      type: VARCHAR
+      size: 3
+      description: 
+    codcarinm:
+      type: VARCHAR
+      size: 3
+      description: 
+    codsitinm:
+      type: VARCHAR
+      size: 3
+      description: 
+    rifcon:
+      type: VARCHAR
+      size: 14
+      description: 
+    fecpag:
+      type: DATE
+      description: 
+    feccal:
+      type: DATE
+      description: 
+    fecreg:
+      type: DATE
+      description: 
+    dirinm:
+      type: VARCHAR
+      size: 255
+      description: 
+    linnor:
+      type: VARCHAR
+      size: 250
+      description: 
+    linsur:
+      type: VARCHAR
+      size: 250
+      description: 
+    linest:
+      type: VARCHAR
+      size: 250
+      description: 
+    linoes:
+      type: VARCHAR
+      size: 250
+      description: 
+    mtrter:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    mtrcon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    bster:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    bscon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    docpro:
+      type: VARCHAR
+      size: 200
+      description: 
+    rifrep:
+      type: VARCHAR
+      size: 14
+      description: 
+    funrec:
+      type: VARCHAR
+      size: 40
+      description: 
+    fecrec:
+      type: DATE
+      description: 
+    estinm:
+      type: VARCHAR
+      size: 1
+      description: 
+    estdec:
+      type: VARCHAR
+      size: 1
+      description: 
+    codcatinm:
+      type: VARCHAR
+      size: 50
+      description: 
+    nomcon:
+      type: VARCHAR
+      size: 120
+      description: 
+    dircon:
+      type: VARCHAR
+      size: 250
+      description: 
+    clacon:
+      type: VARCHAR
+      size: 12
+      description: 
+    fecadq:
+      type: DATE
+      description: 
+    valinm:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    codman:
+      type: VARCHAR
+      size: 4
+      description: 
+    codsec:
+      type: VARCHAR
+      size: 4
+      description: 
+    codpar:
+      type: VARCHAR
+      size: 4
+      description: 
+    nroinmant:
+      type: VARCHAR
+      size: 15
+      description: 
+    totter:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    totcon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    total:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    codtip:
+      type: VARCHAR
+      size: 2
+      description: 
+    codzon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    destip:
+      type: VARCHAR
+      size: 150
+      description: 
+    deszon:
+      type: VARCHAR
+      size: 50
+      description: 
+    anual:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    folio:
+      type: VARCHAR
+      size: 10
+      description: 
+    tomo:
+      type: VARCHAR
+      size: 1
+      description: 
+    numdoc:
+      type: VARCHAR
+      size: 12
+      description: 
+    fecdoc:
+      type: DATE
+      description: 
+    usoinm:
+      type: VARCHAR
+      size: 50
+      description: 
+    desde:
+      type: VARCHAR
+      size: 50
+      description: 
+    hasta:
+      type: VARCHAR
+      size: 50
+      description: 
+    ord:
+      type: VARCHAR
+      size: 4
+      description: 
+    art:
+      type: VARCHAR
+      size: 10
+      description: 
+    fecdir:
+      type: DATE
+      description: 
+    fecava:
+      type: DATE
+      description: 
+    dirinm1:
+      type: VARCHAR
+      size: 255
+      description: 
+    fecela:
+      type: DATE
+      description: 
+    tri:
+      type: VARCHAR
+      size: 20
+      description: 
+    prot:
+      type: VARCHAR
+      size: 20
+      description: 
+    tipobol:
+      type: VARCHAR
+      size: 150
+      description: 
+    nomsitinm:
+      type: VARCHAR
+      size: 255
+      description: 
+    impanu:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    imptri:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcinmcom:
+    _attributes:
+      description: 
+    nroinm:
+      type: VARCHAR
+      size: 15
+      description: 
+    anoava:
+      type: VARCHAR
+      size: 4
+      description: 
+    codcom:
+      type: VARCHAR
+      size: 6
+      description: 
+    valcom:
+      type: NUMERIC
+      size: 32
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcinmmod:
+    _attributes:
+      description: 
+    nroinm:
+      type: VARCHAR
+      size: 255
+      description: 
+    codcatfis:
+      type: VARCHAR
+      size: 50
+      description: 
+      required: true
+    coduso:
+      type: VARCHAR
+      size: 3
+      description: 
+    codcarinm:
+      type: VARCHAR
+      size: 3
+      description: 
+    codsitinm:
+      type: VARCHAR
+      size: 3
+      description: 
+    rifcon:
+      type: VARCHAR
+      size: 14
+      description: 
+    fecpag:
+      type: DATE
+      description: 
+    feccal:
+      type: DATE
+      description: 
+    fecreg:
+      type: DATE
+      description: 
+    dirinm:
+      type: VARCHAR
+      size: 255
+      description: 
+    linnor:
+      type: VARCHAR
+      size: 250
+      description: 
+    linsur:
+      type: VARCHAR
+      size: 250
+      description: 
+    linest:
+      type: VARCHAR
+      size: 250
+      description: 
+    linoes:
+      type: VARCHAR
+      size: 250
+      description: 
+    mtrter:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    mtrcon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    bster:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    bscon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    docpro:
+      type: VARCHAR
+      size: 200
+      description: 
+    rifrep:
+      type: VARCHAR
+      size: 14
+      description: 
+    funrec:
+      type: VARCHAR
+      size: 40
+      description: 
+    fecrec:
+      type: DATE
+      description: 
+    estinm:
+      type: VARCHAR
+      size: 1
+      description: 
+    estdec:
+      type: VARCHAR
+      size: 1
+      description: 
+    codcatinm:
+      type: VARCHAR
+      size: 50
+      description: 
+    nomcon:
+      type: VARCHAR
+      size: 120
+      description: 
+    dircon:
+      type: VARCHAR
+      size: 250
+      description: 
+    clacon:
+      type: VARCHAR
+      size: 12
+      description: 
+    fecadq:
+      type: DATE
+      description: 
+    valinm:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    codman:
+      type: VARCHAR
+      size: 4
+      description: 
+    codsec:
+      type: VARCHAR
+      size: 4
+      description: 
+    codpar:
+      type: VARCHAR
+      size: 4
+      description: 
+    nroinmant:
+      type: VARCHAR
+      size: 15
+      description: 
+    totter:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    totcon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    total:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    codtip:
+      type: VARCHAR
+      size: 2
+      description: 
+    codzon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    destip:
+      type: VARCHAR
+      size: 150
+      description: 
+    deszon:
+      type: VARCHAR
+      size: 50
+      description: 
+    anual:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    folio:
+      type: VARCHAR
+      size: 10
+      description: 
+    tomo:
+      type: VARCHAR
+      size: 1
+      description: 
+    numdoc:
+      type: VARCHAR
+      size: 12
+      description: 
+    fecdoc:
+      type: DATE
+      description: 
+    usoinm:
+      type: VARCHAR
+      size: 50
+      description: 
+    desde:
+      type: VARCHAR
+      size: 50
+      description: 
+    hasta:
+      type: VARCHAR
+      size: 50
+      description: 
+    ord:
+      type: VARCHAR
+      size: 4
+      description: 
+    art:
+      type: VARCHAR
+      size: 10
+      description: 
+    fecdir:
+      type: DATE
+      description: 
+    fecava:
+      type: DATE
+      description: 
+    dirinm1:
+      type: VARCHAR
+      size: 255
+      description: 
+    fecela:
+      type: DATE
+      description: 
+    tri:
+      type: VARCHAR
+      size: 20
+      description: 
+    prot:
+      type: VARCHAR
+      size: 20
+      description: 
+    tipobol:
+      type: VARCHAR
+      size: 150
+      description: 
+    nomsitinm:
+      type: VARCHAR
+      size: 255
+      description: 
+    impanu:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    imptri:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcmodapu:
+    _attributes:
+      description: 
+    refmod:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    nrocon:
+      type: VARCHAR
+      size: 8
+      description: 
+      required: true
+    fecmod:
+      type: DATE
+      description: 
+      required: true
+    tipapu:
+      type: VARCHAR
+      size: 4
+      description: 
+    desapu:
+      type: VARCHAR
+      size: 250
+      description: 
+    monapu:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monimp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    tipapuant:
+      type: VARCHAR
+      size: 4
+      description: 
+    desapuant:
+      type: VARCHAR
+      size: 250
+      description: 
+    monapuant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monimpant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    funrec:
+      type: VARCHAR
+      size: 50
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcmodesp:
+    _attributes:
+      description: 
+    refmod:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    nrocon:
+      type: VARCHAR
+      size: 8
+      description: 
+      required: true
+      foreignReference: nrocon
+      onDelete: CASCADE
+      onUpdate:
+    fecmod:
+      type: DATE
+      description: 
+      required: true
+    nomesp:
+      type: VARCHAR
+      size: 100
+      description: 
+    diresp:
+      type: VARCHAR
+      size: 100
+      description: 
+    fecesp:
+      type: DATE
+      description: 
+    horesp:
+      type: VARCHAR
+      size: 20
+      description: 
+    tipesp:
+      type: VARCHAR
+      size: 4
+      description: 
+    nroent:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monent:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monimp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    nomres:
+      type: VARCHAR
+      size: 250
+      description: 
+    dirres:
+      type: VARCHAR
+      size: 100
+      description: 
+    telres:
+      type: VARCHAR
+      size: 15
+      description: 
+    nomespant:
+      type: VARCHAR
+      size: 100
+      description: 
+    direspant:
+      type: VARCHAR
+      size: 100
+      description: 
+    fecespant:
+      type: DATE
+      description: 
+    horespant:
+      type: VARCHAR
+      size: 20
+      description: 
+    tipespant:
+      type: VARCHAR
+      size: 4
+      description: 
+    nroentant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monentant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monimpant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    nomresant:
+      type: VARCHAR
+      size: 250
+      description: 
+    dirresant:
+      type: VARCHAR
+      size: 100
+      description: 
+    telresant:
+      type: VARCHAR
+      size: 15
+      description: 
+    funrec:
+      type: VARCHAR
+      size: 50
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcmodinm:
+    _attributes:
+      description: 
+    refmod:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    nroinm:
+      type: VARCHAR
+      size: 15
+      description: 
+      required: true
+    fecmod:
+      type: DATE
+      description: 
+      required: true
+    codcatfis:
+      type: VARCHAR
+      size: 50
+      description: 
+      required: true
+    coduso:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    codcarinm:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    codsitinm:
+      type: VARCHAR
+      size: 3
+      description: 
+    fecpag:
+      type: DATE
+      description: 
+    feccal:
+      type: DATE
+      description: 
+    dirinm:
+      type: VARCHAR
+      size: 255
+      description: 
+    linnor:
+      type: VARCHAR
+      size: 30
+      description: 
+    linsur:
+      type: VARCHAR
+      size: 30
+      description: 
+    linest:
+      type: VARCHAR
+      size: 30
+      description: 
+    linoes:
+      type: VARCHAR
+      size: 30
+      description: 
+    mtrter:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    mtrcon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    bster:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    bscon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    docpro:
+      type: VARCHAR
+      size: 200
+      description: 
+    codcatfisant:
+      type: VARCHAR
+      size: 50
+      description: 
+      required: true
+    codusoant:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    codcarinmant:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    codsitinmant:
+      type: VARCHAR
+      size: 3
+      description: 
+    fecpagant:
+      type: DATE
+      description: 
+    feccalant:
+      type: DATE
+      description: 
+    dirinmant:
+      type: VARCHAR
+      size: 255
+      description: 
+    linnorant:
+      type: VARCHAR
+      size: 30
+      description: 
+    linsurant:
+      type: VARCHAR
+      size: 30
+      description: 
+    linestant:
+      type: VARCHAR
+      size: 30
+      description: 
+    linoesant:
+      type: VARCHAR
+      size: 30
+      description: 
+    mtrterant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    mtrconant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    bsterant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    bsconant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    docproant:
+      type: VARCHAR
+      size: 200
+      description: 
+    funrec:
+      type: VARCHAR
+      size: 40
+      description: 
+    codcatinm:
+      type: VARCHAR
+      size: 50
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcmodlic:
+    _attributes:
+      description: 
+    refmod:
+      type: VARCHAR
+      size: 12
+      description: 
+    fecmod:
+      type: DATE
+      description: 
+    motmod:
+      type: VARCHAR
+      size: 300
+      description: 
+    numsol:
+      type: VARCHAR
+      size: 12
+      description: 
+    numlic:
+      type: VARCHAR
+      size: 12
+      description: 
+    fecsol:
+      type: DATE
+      description: 
+    feclic:
+      type: DATE
+      description: 
+    rifcon:
+      type: VARCHAR
+      size: 20
+      description: 
+    catcon:
+      type: VARCHAR
+      size: 30
+      description: 
+    rifrep:
+      type: VARCHAR
+      size: 20
+      description: 
+    nomneg:
+      type: VARCHAR
+      size: 120
+      description: 
+    tipinm:
+      type: VARCHAR
+      size: 1
+      description: 
+    tipest:
+      type: VARCHAR
+      size: 1
+      description: 
+    dirpri:
+      type: VARCHAR
+      size: 255
+      description: 
+    codrut:
+      type: VARCHAR
+      size: 6
+      description: 
+    capsoc:
+      type: NUMERIC
+      size: 15
+      description: 
+    horini:
+      type: DATE
+      description: 
+    horcie:
+      type: DATE
+      description: 
+    fecini:
+      type: DATE
+      description: 
+    fecfin:
+      type: DATE
+      description: 
+    discli:
+      type: NUMERIC
+      size: 10
+      description: 
+    disbar:
+      type: NUMERIC
+      size: 10
+      description: 
+    disdis:
+      type: NUMERIC
+      size: 10
+      description: 
+    disins:
+      type: NUMERIC
+      size: 10
+      description: 
+    disfun:
+      type: NUMERIC
+      size: 10
+      description: 
+    disest:
+      type: NUMERIC
+      size: 10
+      description: 
+    funres:
+      type: VARCHAR
+      size: 60
+      description: 
+    funrel:
+      type: VARCHAR
+      size: 40
+      description: 
+    fecres:
+      type: DATE
+      description: 
+    fecapr:
+      type: DATE
+      description: 
+    fecven:
+      type: DATE
+      description: 
+    tomo:
+      type: VARCHAR
+      size: 8
+      description: 
+    folio:
+      type: VARCHAR
+      size: 8
+      description: 
+    numero:
+      type: VARCHAR
+      size: 8
+      description: 
+    taslic:
+      type: NUMERIC
+      size: 15
+      description: 
+    deuanl:
+      type: NUMERIC
+      size: 15
+      description: 
+    deuacl:
+      type: NUMERIC
+      size: 15
+      description: 
+    implic:
+      type: NUMERIC
+      size: 15
+      description: 
+    deuanp:
+      type: NUMERIC
+      size: 15
+      description: 
+    deuacp:
+      type: NUMERIC
+      size: 15
+      description: 
+    stasol:
+      type: VARCHAR
+      size: 1
+      description: 
+    stalic:
+      type: VARCHAR
+      size: 1
+      description: 
+    stadec:
+      type: VARCHAR
+      size: 1
+      description: 
+    staliq:
+      type: VARCHAR
+      size: 1
+      description: 
+    nomcon:
+      type: VARCHAR
+      size: 255
+      description: 
+    dircon:
+      type: VARCHAR
+      size: 255
+      description: 
+    tipo:
+      type: VARCHAR
+      size: 1
+      description: 
+    estser:
+      type: VARCHAR
+      size: 1
+      default: N
+      description: 
+    telneg:
+      type: VARCHAR
+      size: 15
+      description: 
+    clacon:
+      type: VARCHAR
+      size: 12
+    capact:
+      type: NUMERIC
+      size: 15
+      description: 
+    numsol1:
+      type: VARCHAR
+      size: 12
+      description: 
+    numlic1:
+      type: VARCHAR
+      size: 12
+      description: 
+    horainie:
+      type: DATE
+      description:
+    horaciee:
+      type: DATE
+      description: 
+    unitri:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    tipsol:
+      type: VARCHAR
+      size: 1
+      description: 
+    unitrialc:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    unitriotr:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    licant:
+      type: VARCHAR
+      size: 12
+      description: 
+    dueant:
+      type: VARCHAR
+      size: 14
+      description: 
+    dirant:
+      type: VARCHAR
+      size: 50
+      description: 
+    impext:
+      type: NUMERIC
+      size: 15
+      description: 
+    imptotal:
+      type: NUMERIC
+      size: 15
+      description: 
+    codact:
+      type: VARCHAR
+      size: 16
+      description: 
+    codtiplic:
+      type: VARCHAR
+      size: 6
+      description: 
+    fecinilic:
+      type: DATE
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcmodpro:
+    _attributes:
+      description: 
+    refmod:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    nrocon:
+      type: VARCHAR
+      size: 8
+      description: 
+      required: true
+      foreignReference: nrocon
+      onDelete: CASCADE
+      onUpdate:
+    fecmod:
+      type: DATE
+      description: 
+      required: true
+    tippro:
+      type: VARCHAR
+      size: 4
+      description: 
+    despro:
+      type: VARCHAR
+      size: 250
+      description: 
+    dirpro:
+      type: VARCHAR
+      size: 250
+      description:
+    monpro:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monimp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    tipproant:
+      type: VARCHAR
+      size: 4
+      description: 
+    desproant:
+      type: VARCHAR
+      size: 250
+      description: 
+    dirproant:
+      type: VARCHAR
+      size: 250
+      description: 
+    monproant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monimpant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    funrec:
+      type: VARCHAR
+      size: 50
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcmodveh:
+    _attributes:
+      description: 
+    refmod:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    plaveh:
+      type: VARCHAR
+      size: 8
+      description: 
+      required: true
+    fecmod:
+      type: DATE
+      description: 
+      required: true
+    coduso:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    anoveh:
+      type: NUMERIC
+      size: 4
+      description: 
+      required: true
+    sermot:
+      type: VARCHAR
+      size: 15
+      description: 
+    sercar:
+      type: VARCHAR
+      size: 15
+      description: 
+    marveh:
+      type: VARCHAR
+      size: 20
+      description: 
+    colveh:
+      type: VARCHAR
+      size: 20
+      description: 
+    valori:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    modveh:
+      type: VARCHAR
+      size: 20
+      description: 
+      required: true
+    dueant:
+      type: VARCHAR
+      size: 50
+      description: 
+    dirant:
+      type: VARCHAR
+      size: 50
+      description: 
+    plaant:
+      type: VARCHAR
+      size: 8
+      description: 
+    codusoant:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    anovehant:
+      type: NUMERIC
+      size: 4
+      description: 
+      required: true
+    sermotant:
+      type: VARCHAR
+      size: 15
+      description: 
+    sercarant:
+      type: VARCHAR
+      size: 15
+      description: 
+    marvehant:
+      type: VARCHAR
+      size: 20
+      description: 
+    colvehant:
+      type: VARCHAR
+      size: 20
+      description: 
+    valoriant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    modvehant:
+      type: VARCHAR
+      size: 20
+      description: 
+      required: true
+    dueantant:
+      type: VARCHAR
+      size: 50
+      description: 
+    dirantant:
+      type: VARCHAR
+      size: 50
+      description: 
+    plaantant:
+      type: VARCHAR
+      size: 8
+      description: 
+    funrec:
+      type: VARCHAR
+      size: 40
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcmultas:
+    _attributes:      
+      description: 
+    codmul:
+      type: VARCHAR
+      size: 4
+      description: 
+    nommul:
+      type: VARCHAR
+      size: 250
+      description: 
+    tipo:
+      type: VARCHAR
+      size: 1
+      description: 
+    modo:
+      type: VARCHAR
+      size: 1
+      description: 
+    monpro:
+      type: VARCHAR
+      size: 1
+      description: 
+    tipdec:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcmunici:
+    _attributes:
+      description: 
+    codmun:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    codedo:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    codpai:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+      foreignReference: codpai
+      onDelete:
+      onUpdate:
+    nommun:
+      type: VARCHAR
+      size: 30
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcnomneg:
+    _attributes:
+      description: 
+    numlic:
+      type: VARCHAR
+      size: 12
+      description: 
+    rifcon:
+      type: VARCHAR
+      size: 14
+      description: 
+    nomneg:
+      type: VARCHAR
+      size: 1000
+      description: 
+    dirpri:
+      type: VARCHAR
+      size: 2000
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fconrep:
+    _attributes:
+      description: 
+    cedcon:
+      type: VARCHAR
+      size: 10
+      description: 
+    rifcon:
+      type: VARCHAR
+      size: 11
+      description: 
+    nomcon:
+      type: VARCHAR
+      size: 80
+      description: 
+    repcon:
+      type: VARCHAR
+      size: 1
+      description: 
+    dircon:
+      type: VARCHAR
+      size: 80
+      description: 
+    feccon:
+      type: DATE
+      description: 
+    telcon:
+      type: VARCHAR
+      size: 30
+      description: 
+    emacon:
+      type: VARCHAR
+      size: 50
+      description: 
+    codsec:
+      type: VARCHAR
+      size: 4
+      description: 
+    codpar:
+      type: VARCHAR
+      size: 4
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcotring:
+    _attributes:
+      description: 
+    nrocon:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    codfue:
+      type: VARCHAR
+      size: 2
+      description: 
+      required: true
+    fecreg:
+      type: DATE
+      description: 
+      required: true
+    rifcon:
+      type: VARCHAR
+      size: 14
+      description: 
+      required: true
+    desing:
+      type: VARCHAR
+      size: 250
+      description: 
+    monimp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    funrec:
+      type: VARCHAR
+      size: 50
+      description: 
+    fecrec:
+      type: DATE
+      description: 
+    rifrep:
+      type: VARCHAR
+      size: 14
+      description: 
+    staapu:
+      type: VARCHAR
+      size: 1
+      description: 
+    stadec:
+      type: VARCHAR
+      size: 1
+      description: 
+    nomcon:
+      type: VARCHAR
+      size: 500
+      description: 
+    dircon:
+      type: VARCHAR
+      size: 500
+      description: 
+    monsal:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcpaging:
+    _attributes:
+      description: 
+    refere:
+      type: VARCHAR
+      size: 10
+      required: true
+    tippag:
+      type: VARCHAR
+      size: 2
+      description: 
+    moning:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    numref:
+      type: VARCHAR
+      size: 10
+      description: 
+    nomref:
+      type: VARCHAR
+      size: 40
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcpagos:
+    _attributes:
+      description: 
+    numpag:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    fecpag:
+      type: DATE
+      description: 
+      required: true
+    rifcon:
+      type: VARCHAR
+      size: 20
+      description: 
+      required: true
+    despag:
+      type: VARCHAR
+      size: 250
+      description: 
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monefe:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    funpag:
+      type: VARCHAR
+      size: 40
+      description: 
+      required: true
+    codrec:
+      type: VARCHAR
+      size: 10
+      description: 
+    numpagold:
+      type: VARCHAR
+      size: 10
+      description: 
+    edopag:
+      type: VARCHAR
+      size: 1
+      description: 
+    fecanu:
+      type: DATE
+      description: 
+    motanu:
+      type: VARCHAR
+      size: 250
+      description: 
+    cedanu:
+      type: VARCHAR
+      size: 14
+      description: 
+    nomcon:
+      type: VARCHAR
+      size: 500
+      description: 
+    dircon:
+      type: VARCHAR
+      size: 3000
+      description: 
+    funval:
+      type: VARCHAR
+      size: 1000
+      description: 
+    fechorval:
+      type: TIMESTAMP
+      description: 
+    fechorregpag:
+      type: TIMESTAMP
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcpais:
+    _attributes:
+      description: 
+    codpai:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    nompai:
+      type: VARCHAR
+      size: 30
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcparroq:
+    _attributes:
+      description: 
+    codpar:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    codmun:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    codedo:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    codpai:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+      foreignReference: codpai
+      onDelete:
+      onUpdate:
+    nompar:
+      type: VARCHAR
+      size: 30
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcpreing:
+    _attributes:
+      description: 
+    codpar:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    nompar:
+      type: VARCHAR
+      size: 250
+      description: 
+      required: true
+    estima:
+      type: VARCHAR
+      size: 1
+      description: 
+    estcie:
+      type: VARCHAR
+      size: 1
+      description: 
+    acum:
+      type: VARCHAR
+      size: 1
+      default: N
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcprolic:
+    _attributes:
+      description: 
+    nrocon:
+      type: VARCHAR
+      size: 8
+      description: 
+      required: true
+    fecreg:
+      type: DATE
+      description: 
+      required: true
+    rifcon:
+      type: VARCHAR
+      size: 14
+      description: 
+      required: true
+    tippro:
+      type: VARCHAR
+      size: 4
+      description: 
+    despro:
+      type: VARCHAR
+      size: 250
+      description: 
+    dirpro:
+      type: VARCHAR
+      size: 250
+      description: 
+    monpro:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monimp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    funrec:
+      type: VARCHAR
+      size: 50
+      description: 
+    fecrec:
+      type: DATE
+      description: 
+    rifrep:
+      type: VARCHAR
+      size: 14
+      description: 
+    stapro:
+      type: VARCHAR
+      size: 1
+      description: 
+    stadec:
+      type: VARCHAR
+      size: 1
+      description: 
+    nomcon:
+      type: VARCHAR
+      size: 50
+      description: 
+    dircon:
+      type: VARCHAR
+      size: 50
+      description: 
+    semdia:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    texpub:
+      type: VARCHAR
+      size: 300
+      description: 
+    protip:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcprolicdet:
+    _attributes:
+      description: 
+    nrocon:
+      type: VARCHAR
+      size: 8
+      description: 
+      required: true
+    rifcon:
+      type: VARCHAR
+      size: 14
+      description: 
+      required: true
+    tippro:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    campo:
+      type: VARCHAR
+      size: 50
+      description: 
+      required: true
+    valor:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcrangosdes:
+    _attributes:
+      description: 
+    coddes:
+      type: VARCHAR
+      size: 4
+      description: 
+    diasdesde:
+      type: NUMERIC
+      description: 
+    diashasta:
+      type: NUMERIC
+      description: 
+    valor:
+      type: NUMERIC
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcrangosmul:
+    _attributes:
+      description: 
+    codmul:
+      type: VARCHAR
+      size: 4
+      description: 
+    diasdesde:
+      type: NUMERIC
+      default: 0
+      description: 
+    diashasta:
+      type: NUMERIC
+      default: 0
+      description: 
+    valor:
+      type: NUMERIC
+      default: 0
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcrangosrec:
+    _attributes:
+      description: 
+    codrec:
+      type: VARCHAR
+      size: 4
+      description: 
+    diasdesde:
+      type: NUMERIC
+      default: 0
+      description: 
+    diashasta:
+      type: NUMERIC
+      default: 0
+      description: 
+    valor:
+      type: NUMERIC
+      default: 0
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcreccob:
+    _attributes:
+      description: 
+    nument:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    fecent:
+      type: DATE
+      description: 
+      required: true
+    codcob:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcreccon:
+    _attributes:
+      description: 
+    codrec:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    fecent:
+      type: DATE
+      description: 
+    fecven:
+      type: DATE
+      description: 
+    rifcon:
+      type: VARCHAR
+      size: 14
+      description: 
+    numlic:
+      type: VARCHAR
+      size: 12
+      description: 
+    numsol:
+      type: VARCHAR
+      size: 12
+      description: 
+    tipsol:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcrecdes:
+    _attributes:
+      description: 
+    codrede:
+      type: VARCHAR
+      size: 2
+      required: true
+      description: 
+    recdes:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    desrede:
+      type: VARCHAR
+      size: 30
+      description: 
+      required: true
+    codcta:
+      type: VARCHAR
+      size: 18
+      description: 
+    porrede:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    codfue:
+      type: VARCHAR
+      size: 2
+      description: 
+    dias:
+      type: NUMERIC
+      size: 3
+      description: 
+    porcien:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcrecdesg:
+    _attributes:
+      description: 
+    codrede:
+      type: VARCHAR
+      size: 2
+      description: 
+      required: true
+    dias:
+      type: NUMERIC
+      size: 3
+      description: 
+    porcien:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcrecdespag:
+    _attributes:
+      description: 
+    numpag:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    codrede:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: 
+      foreignReference: coddes
+      onDelete:
+      onUpdate:
+    monto:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcrecibo:
+    _attributes:
+      description: 
+    codrec:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    fecrec:
+      type: DATE
+      description: 
+      required: true
+    desrec:
+      type: VARCHAR
+      size: 250
+      description: 
+      required: true
+    numlic:
+      type: VARCHAR
+      size: 12
+      description: 
+      required: true
+    rifcon:
+      type: VARCHAR
+      size: 15
+      description: 
+      required: true
+    monrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    nomcon:
+      type: VARCHAR
+      size: 50
+      description: 
+    dircon:
+      type: VARCHAR
+      size: 50
+      description: 
+    fecha:
+      type: DATE
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcrecurso:
+    _attributes:
+      description: 
+    coding:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    desing:
+      type: VARCHAR
+      size: 100
+      description: 
+    moning:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcreginm:
+    _attributes:
+      description: 
+    nroinm:
+      type: VARCHAR
+      size: 15
+      description: 
+    codcatfis:
+      type: VARCHAR
+      size: 50
+      description: 
+      required: true
+    coduso:
+      type: VARCHAR
+      size: 3
+      description: 
+    codcarinm:
+      type: VARCHAR
+      size: 3
+      description: 
+    codsitinm:
+      type: VARCHAR
+      size: 3
+      description: 
+    rifcon:
+      type: VARCHAR
+      size: 14
+      description: 
+    fecpag:
+      type: DATE
+      description: 
+    feccal:
+      type: DATE
+      description: 
+    fecreg:
+      type: DATE
+      description: 
+    dirinm:
+      type: VARCHAR
+      size: 1000
+      description: 
+    linnor:
+      type: VARCHAR
+      size: 250
+      description: 
+    linsur:
+      type: VARCHAR
+      size: 250
+      description: 
+    linest:
+      type: VARCHAR
+      size: 250
+      description: 
+    linoes:
+      type: VARCHAR
+      size: 250
+      description: 
+    mtrter:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description: 
+    mtrcon:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description: 
+    bster:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description: 
+    bscon:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description: 
+    rifrep:
+      type: VARCHAR
+      size: 14
+      description: 
+    funrec:
+      type: VARCHAR
+      size: 40
+      description: 
+    fecrec:
+      type: DATE
+      description: 
+    estinm:
+      type: VARCHAR
+      size: 1
+      description: 
+    estdec:
+      type: VARCHAR
+      size: 1
+      description: 
+    codcatinm:
+      type: VARCHAR
+      size: 50
+      description: 
+    nomcon:
+      type: VARCHAR
+      size: 120
+      description: 
+    dircon:
+      type: VARCHAR
+      size: 250
+      description: 
+    valinm:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description: 
+    folio:
+      type: VARCHAR
+      size: 10
+      description: 
+    tomo:
+      type: VARCHAR
+      size: 5
+      description: 
+    numdoc:
+      type: VARCHAR
+      size: 12
+      description: 
+    fecdoc:
+      type: DATE
+      description: 
+    usoinm:
+      type: VARCHAR
+      size: 50
+      description: 
+    aveinm:
+      type: VARCHAR
+      size: 1000
+      description: 
+    nrociv:
+      type: VARCHAR
+      size: 100
+      description: 
+    urbinm:
+      type: VARCHAR
+      size: 100
+      description: 
+    tipope:
+      type: VARCHAR
+      size: 100
+      description: 
+    prodoc:
+      type: VARCHAR
+      size: 100
+      description: 
+    tridoc:
+      type: VARCHAR
+      size: 50
+      description: 
+    aredoc:
+      type: NUMERIC
+      size: 32
+      scale: 2
+      description: 
+    linnordoc:
+      type: VARCHAR
+      size: 250
+      description: 
+    linsurdoc:
+      type: VARCHAR
+      size: 250
+      description: 
+    linestdoc:
+      type: VARCHAR
+      size: 250
+      description: 
+    linoesdoc:
+      type: VARCHAR
+      size: 250
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcregtarcon:
+    _attributes:
+      description: 
+    codcarinm:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: Código de la caracteristica del inmueble
+    codusoinm:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: Código de uso del inmueble
+    escdes:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      required: true
+      description: Escala desde en bs
+    eschas:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      required: true
+      description: Escala hasta en bs
+    alicuota:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      required: true
+      description: Alicuota a cobrar
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcrenlic:
+    _attributes:
+      description: 
+    numlic:
+      type: VARCHAR
+      size: 12
+      description: 
+      required: true
+    fecven:
+      type: DATE
+      description: 
+      required: true
+    fecren:
+      type: DATE
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcrepfis:
+    _attributes:
+      description: 
+    numlic:
+      type: VARCHAR
+      size: 12
+      description: 
+      required: true
+    funrec:
+      type: VARCHAR
+      size: 50
+      description: 
+      required: true
+    fecrep:
+      type: DATE
+      description: 
+      required: true
+    numrep:
+      type: VARCHAR
+      size: 15
+      description: 
+      required: true
+    monrep:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    conrep:
+      type: VARCHAR
+      size: 250
+      description: 
+    modo:
+      type: VARCHAR
+      size: 1
+      description: 
+    monadi:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    fuerep:
+      type: VARCHAR
+      size: 2
+      description: 
+    fuesan:
+      type: VARCHAR
+      size: 2
+      description: 
+    fecrec:
+      type: DATE
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcrepliq:
+    _attributes:
+      description: 
+    numrep:
+      type: VARCHAR
+      size: 15
+      description: 
+    ano:
+      type: VARCHAR
+      size: 10
+      description: 
+    codact:
+      type: VARCHAR
+      size: 10
+      description: 
+    moning:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monimp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monfis:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    porali:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monliq:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcretencion:
+    _attributes:
+      description: 
+    numret:
+      type: VARCHAR
+      size: 15
+      description: 
+      required: true
+    fueing:
+      type: VARCHAR
+      size: 2
+      description: 
+      required: true
+    fecret:
+      type: DATE
+      description: 
+    fecreg:
+      type: DATE
+      description: 
+    monret:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    numrel:
+      type: VARCHAR
+      size: 10
+      description: 
+    desret:
+      type: VARCHAR
+      size: 1000
+      description: 
+    monsal:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcrutas:
+    _attributes:
+      description: 
+    codrut:
+      type: VARCHAR
+      size: 6
+      description: 
+      required: true
+    desrut:
+      type: VARCHAR
+      size: 120
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcrutcob:
+    _attributes:
+      description: 
+    codcob:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: 
+      foreignReference: codcob
+      onDelete: CASCADE
+      onUpdate:
+    codrut:
+      type: VARCHAR
+      size: 6
+      required: true
+      foreignReference: codrut
+      onDelete:
+      onUpdate:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcsitjurinm:
+    _attributes:
+      description: 
+    codsitinm:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    nomsitinm:
+      type: VARCHAR
+      size: 250
+      description: 
+      required: true
+    stasitinm:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcsoldet:
+    _attributes:
+      description: 
+    codsol:
+      type: VARCHAR
+      size: 10
+      description: 
+    codfue:
+      type: VARCHAR
+      size: 2
+      description: 
+    nomfue:
+      type: VARCHAR
+      size: 60
+      description: 
+    objeto:
+      type: VARCHAR
+      size: 45
+      description: 
+    fecven:
+      type: DATE
+      description: 
+    edodec:
+      type: VARCHAR
+      size: 12
+      description: 
+    fecultpag:
+      type: DATE
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcsoldet2:
+    _attributes:
+      description: 
+    codsol:
+      type: VARCHAR
+      size: 10
+      description: 
+    codfue:
+      type: VARCHAR
+      size: 2
+      description: 
+    nomfue:
+      type: VARCHAR
+      size: 60
+      description: 
+    objeto:
+      type: VARCHAR
+      size: 45
+      description: 
+    fecven:
+      type: DATE
+      description: 
+    edodec:
+      type: VARCHAR
+      size: 12
+      description: 
+    conpag:
+      type: VARCHAR
+      size: 2
+      description: 
+    fecultpag:
+      type: DATE
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcsollic:
+    _attributes:
+      description: 
+    numsol:
+      type: VARCHAR
+      size: 12
+      description: 
+    numlic:
+      type: VARCHAR
+      size: 12
+      description: 
+    fecsol:
+      type: DATE
+      description: 
+    feclic:
+      type: DATE
+      description: 
+    rifcon:
+      type: VARCHAR
+      size: 20
+      description: 
+    catcon:
+      type: VARCHAR
+      size: 30
+      description: 
+    rifrep:
+      type: VARCHAR
+      size: 20
+      description: 
+    nomneg:
+      type: VARCHAR
+      size: 120
+      description: 
+    tipinm:
+      type: VARCHAR
+      size: 1
+      description: 
+    tipest:
+      type: VARCHAR
+      size: 1
+      description: 
+    dirpri:
+      type: VARCHAR
+      size: 255
+      description: 
+    codrut:
+      type: VARCHAR
+      size: 6
+      description: 
+    capsoc:
+      type: NUMERIC
+      size: 15
+      description: 
+    horini:
+      type: TIME
+      description: 
+    horcie:
+      type: TIME
+      description: 
+    fecini:
+      type: DATE
+      description: 
+    fecfin:
+      type: DATE
+      description: 
+    discli:
+      type: NUMERIC
+      size: 10
+      description: 
+    disbar:
+      type: NUMERIC
+      size: 10
+      description: 
+    disdis:
+      type: NUMERIC
+      size: 10
+      description: 
+    disins:
+      type: NUMERIC
+      size: 10
+      description: 
+    disfun:
+      type: NUMERIC
+      size: 10
+      description: 
+    disest:
+      type: NUMERIC
+      size: 10
+      description: 
+    funres:
+      type: VARCHAR
+      size: 60
+      description: 
+    funrel:
+      type: VARCHAR
+      size: 40
+      description: 
+    fecres:
+      type: DATE
+      description: 
+    fecapr:
+      type: DATE
+      description: 
+    fecven:
+      type: DATE
+      description: 
+    tomo:
+      type: VARCHAR
+      size: 8
+      description: 
+    folio:
+      type: VARCHAR
+      size: 8
+      description: 
+    numero:
+      type: VARCHAR
+      size: 8
+      description: 
+    taslic:
+      type: NUMERIC
+      size: 15
+      description: 
+    deuanl:
+      type: NUMERIC
+      size: 15
+      description: 
+    deuacl:
+      type: NUMERIC
+      size: 15
+      description: 
+    implic:
+      type: NUMERIC
+      size: 15
+      description: 
+    deuanp:
+      type: NUMERIC
+      size: 15
+      description: 
+    deuacp:
+      type: NUMERIC
+      size: 15
+      description: 
+    stasol:
+      type: VARCHAR
+      size: 1
+      description: 
+    stalic:
+      type: VARCHAR
+      size: 1
+      description: 
+    stadec:
+      type: VARCHAR
+      size: 1
+      description: 
+    staliq:
+      type: VARCHAR
+      size: 1
+      description: 
+    nomcon:
+      type: VARCHAR
+      size: 255
+      description: 
+    dircon:
+      type: VARCHAR
+      size: 255
+      description: 
+    tipo:
+      type: VARCHAR
+      size: 1
+      description: 
+    estser:
+      type: VARCHAR
+      size: 1
+      default: N
+      description: 
+    telneg:
+      type: VARCHAR
+      size: 15
+      description: 
+    clacon:
+      type: VARCHAR
+      size: 12
+      description: 
+    capact:
+      type: NUMERIC
+      size: 15
+      description: 
+    numsol1:
+      type: VARCHAR
+      size: 12
+      description: 
+    numlic1:
+      type: VARCHAR
+      size: 12
+      description: 
+    horainie:
+      type: TIME
+      description: 
+    horaciee:
+      type: TIME
+      description: 
+    unitri:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    tipsol:
+      type: VARCHAR
+      size: 1
+      description: 
+    unitrialc:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    unitriotr:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    licant:
+      type: VARCHAR
+      size: 12
+      description: 
+    dueant:
+      type: VARCHAR
+      size: 14
+      description: 
+    dirant:
+      type: VARCHAR
+      size: 50
+      description: 
+    impext:
+      type: NUMERIC
+      size: 15
+      description: 
+    imptotal:
+      type: NUMERIC
+      size: 15
+      description: 
+    codact:
+      type: VARCHAR
+      size: 16
+      description: 
+    codtiplic:
+      type: VARCHAR
+      size: 6
+      description: 
+    fecinilic:
+      type: DATE
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcsolneg:
+    _attributes:
+      idMethod: native
+      description: 
+    numneg:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    numsol:
+      type: VARCHAR
+      size: 12
+      description: 
+      required: true
+    motneg:
+      type: VARCHAR
+      size: 210
+      description: 
+    fecneg:
+      type: DATE
+      description: 
+      required: true
+    resolu:
+      type: VARCHAR
+      size: 10
+      description: 
+    tomon:
+      type: VARCHAR
+      size: 8
+      description: 
+    folion:
+      type: VARCHAR
+      size: 8
+      description: 
+    numeron:
+      type: VARCHAR
+      size: 8
+      description: 
+    funneg:
+      type: VARCHAR
+      size: 15
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcsolvencia:
+    _attributes:
+      description:  Tabla que almacena las solvencias
+    codsol:
+      type: VARCHAR
+      size: 10
+      required: true
+      description:  Código de la solvencia
+    codtip:
+      type: VARCHAR
+      size: 2
+      required: true
+      description:  Tipos de solvencia
+      foreignReference: codtip
+      description:  Código del tipo de solvencia
+      onDelete:
+      onUpdate:
+    fecexp:
+      type: DATE
+      required: true
+      description: Fecha de Expedición
+    fecven:
+      type: DATE
+      required: true
+      description: Fecha de vencimiento
+    numlic:
+      type: VARCHAR
+      size: 12
+      description: Número de Licencia
+    rifcon:
+      type: VARCHAR
+      size: 14
+      required: true
+      description: Rif del contribuyente
+    codcat:
+      type: VARCHAR
+      size: 30
+      description: Código de catastro
+    nomcon:
+      type: VARCHAR
+      size: 50
+      description: Nombre del contribuyente
+    dircon:
+      type: VARCHAR
+      size: 255
+      description: Dirección del contribuyente
+    codfue:
+      type: VARCHAR
+      size: 2
+      description: Código de la fuente de ingreso
+    tipo:
+      type: VARCHAR
+      size: 1
+      description: Tipo
+    stasol:
+      type: VARCHAR
+      size: 1
+      description: Estatus de la solvencia
+    referencia:
+      type: VARCHAR
+      size: 15
+      description: La referencia el Nro. de licencia o inmueble
+    motivo:
+      type: VARCHAR
+      size: 254
+      description: Motivo de la solvencia
+    funrec:
+      type: VARCHAR
+      size: 40
+      required: true
+      description: Funcionario
+    fecrec:
+      type: DATE
+      description: Fecha de recepción
+    catastro:
+      type: VARCHAR
+      size: 50
+      description: Codigo Catastral  
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcsuscan:
+    _attributes:
+      description: 
+    numsus:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    numsol:
+      type: VARCHAR
+      size: 12
+      description: 
+      required: true
+    numlic:
+      type: VARCHAR
+      size: 12
+      description: 
+      required: true
+    estlic:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    motsus:
+      type: VARCHAR
+      size: 210
+      description: 
+      required: true
+    fecsus:
+      type: DATE
+      description: 
+      required: true
+    resolu:
+      type: VARCHAR
+      size: 100
+      description: 
+    tomo:
+      type: VARCHAR
+      size: 100
+      description: 
+    folio:
+      type: VARCHAR
+      size: 100
+      description: 
+    numero:
+      type: VARCHAR
+      size: 100
+      description: 
+    funsus:
+      type: VARCHAR
+      size: 100
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fctasban:
+    _attributes:
+      description: 
+    tasano:
+      type: VARCHAR
+      size: 2004
+      description: 
+    taspor:
+      type: NUMERIC
+      size: 32
+      scale: 2
+      description: 
+    tasmes:
+      type: NUMERIC
+      size: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fctipapu:
+    _attributes:
+      idMethod: native
+      description: 
+    tipapu:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    anovig:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    destip:
+      type: VARCHAR
+      size: 250
+      description: 
+      required: true
+    pormon:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    alimon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    statip:
+      type: VARCHAR
+      size: 1
+      description: 
+    unipar:
+      type: VARCHAR
+      size: 50
+      description: 
+    frepar:
+      type: INTEGER
+      description: 
+    parapu:
+      type: VARCHAR
+      size: 300
+      description: 
+    exoapu:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fctipapudet:
+    _attributes:
+      description: 
+    tipvar:
+      type: VARCHAR
+      size: 500
+      description: 
+    tipo:
+      type: VARCHAR
+      size: 1
+      description: 
+    valor:
+      type: VARCHAR
+      size: 14
+      description: 
+    tipapu:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fctipesp:
+    _attributes:
+      description: 
+    tipesp:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    anovig:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    destip:
+      type: VARCHAR
+      size: 250
+      description: 
+      required: true
+    pormon:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    alimon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    statip:
+      type: VARCHAR
+      size: 1
+      description: 
+    unipar:
+      type: VARCHAR
+      size: 50
+      description: 
+    frepar:
+      type: INTEGER
+      description: 
+    paresp:
+      type: VARCHAR
+      size: 300
+      description: 
+    exoesp:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fctipespdet:
+    _attributes:
+      description: 
+    tipvar:
+      type: VARCHAR
+      size: 500
+      description: 
+    tipo:
+      type: VARCHAR
+      size: 1
+      description: 
+    valor:
+      type: VARCHAR
+      size: 14
+      description: 
+    tipesp:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fctiplic:
+    _attributes:
+      description: 
+    codtiplic:
+      type: VARCHAR
+      size: 6
+      description: 
+      required: true
+    destiplic:
+      type: VARCHAR
+      size: 1000
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fctippag:
+    _attributes:
+      description: 
+    tippag:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    genmov:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    despag:
+      type: VARCHAR
+      size: 30
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fctippro:
+    _attributes:
+      description: 
+    tippro:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    anovig:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    destip:
+      type: VARCHAR
+      size: 250
+      description: 
+      required: true
+    pormon:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    alimon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    statip:
+      type: VARCHAR
+      size: 1
+      description: 
+    unipar:
+      type: VARCHAR
+      size: 50
+      description: 
+    frepar:
+      type: INTEGER
+      description: 
+    parpro:
+      type: VARCHAR
+      size: 300
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fctipprodet:
+    _attributes:
+      description: 
+    tipvar:
+      type: VARCHAR
+      size: 500
+      description: 
+    tipo:
+      type: VARCHAR
+      size: 1
+      description: 
+    valor:
+      type: VARCHAR
+      size: 14
+      description: 
+    tippro:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fctipsol:
+    _attributes:
+      description: 
+    codtip:
+      type: VARCHAR
+      size: 2
+      description: 
+      required: true
+    destip:
+      type: VARCHAR
+      size: 100
+      description: 
+    monsol:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    valsol:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    privdeu:
+      type: VARCHAR
+      size: 1
+      description: 
+    privmsg:
+      type: VARCHAR
+      size: 3000
+      description: 
+    anocom:
+      type: VARCHAR
+      size: 1
+      description: 
+    fueing:
+      type: VARCHAR
+      size: 2
+      description: 
+    gendeu:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fctrainm:
+    _attributes:
+      description: 
+    numtra:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: 
+    nroinm:
+      type: VARCHAR
+      size: 15
+      description: 
+      required: true
+    fectra:
+      type: DATE
+      description: 
+      required: true
+    rifcon:
+      type: VARCHAR
+      size: 14
+      description: 
+      required: true
+    rifrep:
+      type: VARCHAR
+      size: 14
+      description: 
+    rifconant:
+      type: VARCHAR
+      size: 14
+      description: 
+      required: true
+    rifrepant:
+      type: VARCHAR
+      size: 14
+      description: 
+    funrec:
+      type: VARCHAR
+      size: 40
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fctralic:
+    _attributes:
+      description: 
+    numtra:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    fectra:
+      type: DATE
+      description: 
+      required: true
+    rifcon:
+      type: VARCHAR
+      size: 14
+      description: 
+      required: true
+    rifrep:
+      type: VARCHAR
+      size: 14
+      description: 
+    rifconant:
+      type: VARCHAR
+      size: 14
+      description: 
+      required: true
+    rifrepant:
+      type: VARCHAR
+      size: 14
+      description: 
+    funrec:
+      type: VARCHAR
+      size: 40
+      description: 
+      required: true
+    numlic:
+      type: VARCHAR
+      size: 12
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fctraveh:
+    _attributes:
+      description: 
+    numtra:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    plaveh:
+      type: VARCHAR
+      size: 8
+      description: 
+      required: true
+    fectra:
+      type: DATE
+      description: 
+      required: true
+    rifcon:
+      type: VARCHAR
+      size: 14
+      description: 
+      required: true
+    rifrep:
+      type: VARCHAR
+      size: 14
+      description: 
+    rifconant:
+      type: VARCHAR
+      size: 14
+      description: 
+      required: true
+    rifrepant:
+      type: VARCHAR
+      size: 14
+      description: 
+    funrec:
+      type: VARCHAR
+      size: 40
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcunimon:
+    _attributes:
+      description: 
+    codunimon:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    nomunimon:
+      type: VARCHAR
+      size: 30
+      description: 
+      required: true
+    valunimon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcusoinm:
+    _attributes:
+      description: 
+    codusoinm:
+      type: VARCHAR
+      size: 3
+      description: 
+      required: true
+    nomusoinm:
+      type: VARCHAR
+      size: 250
+      description: 
+      required: true
+    factor:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcusoveh:
+    _attributes:
+      description: 
+    coduso:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    anovig:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    desuso:
+      type: VARCHAR
+      size: 250
+      description: 
+      required: true
+    monafo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    porali:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+      required: true
+    anolim:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcvalinm:
+    _attributes:
+      description: 
+    codzon:
+      type: VARCHAR
+      size: 3
+      description: 
+    deszon:
+      type: VARCHAR
+      size: 50
+      description: 
+    codtip:
+      type: VARCHAR
+      size: 3
+      description: 
+    destip:
+      type: VARCHAR
+      size: 150
+      description: 
+    valmtr:
+      type: NUMERIC
+      size: 22
+      scale: 3
+      description: 
+    valfis:
+      type: NUMERIC
+      size: 22
+      scale: 3
+      description: 
+    alitip:
+      type: NUMERIC
+      size: 22
+      scale: 3
+      description: 
+    anual:
+      type: NUMERIC
+      size: 22
+      scale: 3
+      description: 
+    alitipt:
+      type: NUMERIC
+      size: 22
+      scale: 3
+      description: 
+    anualt:
+      type: NUMERIC
+      size: 22
+      scale: 3
+      description: 
+    anovig:
+      type: VARCHAR
+      size: 4
+      description: 
+    porvalfis:
+      type: NUMERIC
+      size: 22
+      scale: 3
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcvalinmold:
+    _attributes:
+      description: 
+    codzon:
+      type: VARCHAR
+      size: 3
+      description: 
+    deszon:
+      type: VARCHAR
+      size: 50
+      description: 
+    codtip:
+      type: VARCHAR
+      size: 3
+      description: 
+    destip:
+      type: VARCHAR
+      size: 150
+      description: 
+    valmtr:
+      type: NUMERIC
+      size: 22
+      scale: 3
+      description: 
+    valfis:
+      type: NUMERIC
+      size: 22
+      scale: 3
+      description: 
+    alitip:
+      type: NUMERIC
+      size: 22
+      scale: 3
+      description: 
+    anual:
+      type: NUMERIC
+      size: 22
+      scale: 3
+      description: 
+    alitipt:
+      type: NUMERIC
+      size: 22
+      scale: 3
+      description: 
+    anualt:
+      type: NUMERIC
+      size: 22
+      scale: 3
+      description: 
+    anovig:
+      type: VARCHAR
+      size: 4
+      description: 
+    porvalfis:
+      type: NUMERIC
+      size: 22
+      scale: 3
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      autoIncrement: true
+  fcregveh:
+    _attributes:
+      description: 
+    plaveh:
+      type: VARCHAR
+      size: 10
+      description: 
+      required: true
+    rifcon:
+      type: VARCHAR
+      size: 14
+      description: 
+      required: true
+    anoveh:
+      type: NUMERIC
+      size: 4
+      description: 
+      required: true
+    fecreg:
+      type: DATE
+      description: 
+    sermot:
+      type: VARCHAR
+      size: 15
+      description: 
+    sercar:
+      type: VARCHAR
+      size: 30
+      description: 
+    marveh:
+      type: VARCHAR
+      size: 30
+      description: 
+    colveh:
+      type: VARCHAR
+      size: 20
+      description: 
+    coduso:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    impveh:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    salact:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    salant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    valori:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    aboveh:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    morveh:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    desveh:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    estveh:
+      type: VARCHAR
+      size: 1
+      description: 
+    funrec:
+      type: VARCHAR
+      size: 40
+      description: 
+    obsveh:
+      type: VARCHAR
+      size: 200
+      description: 
+    rifrep:
+      type: VARCHAR
+      size: 14
+      description: 
+    modveh:
+      type: VARCHAR
+      size: 20
+      description: 
+      required: true
+    fecrec:
+      type: DATE
+      description: 
+    dueant:
+      type: VARCHAR
+      size: 50
+      description: 
+    dirant:
+      type: VARCHAR
+      size: 50
+      description: 
+    plaant:
+      type: VARCHAR
+      size: 8
+      description: 
+    estdec:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    nomcon:
+      type: VARCHAR
+      size: 50
+      description: 
+    dircon:
+      type: VARCHAR
+      size: 50
+      description: 
+    clacon:
+      type: VARCHAR
+      size: 12
+      description: 
+    capveh:
+      type: NUMERIC
+      description: 
+    pesveh:
+      type: NUMERIC
+      description: 
+    tipveh:
+      type: NUMERIC
+      description: 
+    fecact:
+      type: DATE
+      description: 
+    marcod:
+      type: VARCHAR
+      size: 30
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      autoIncrement: true
+  fcdeftasas:
+    _attributes:
+      description: 
+    codtas:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    destas:
+      type: VARCHAR
+      size: 500
+      description: 
+      required: true
+    bsout:
+      type: VARCHAR
+      size: 1
+      description: 
+    valtas:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    codfue:
+      type: VARCHAR
+      size: 2
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdefpla:
+    _attributes:
+      description: 
+    codpla:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    despla:
+      type: VARCHAR
+      size: 500
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcplatas:
+    _attributes:
+      description: 
+    codpla:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    codtas:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcliqpag:
+    _attributes:
+      description: 
+    numliq:
+      type: VARCHAR
+      size: 20
+      description: 
+      required: true
+      description: La referencia de la liquidación
+    fecliq:
+      type: DATE
+      required: true
+      description: La fecha de la liquidación
+    ctaban:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: El número de cuenta
+    nrodep:
+      type: VARCHAR
+      size: 30
+      required: true
+      description: El número de deposito
+    codtip:
+      type: VARCHAR
+      size: 4
+      required: true
+      foreignTable: tstipmov
+      foreignReference: codtip
+      description: El tipo de movimiento
+    desliq:
+      type: VARCHAR
+      size: 250
+      description: La descripción del movimiento
+    monliq:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: El monto total de los pagos
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro   
+  fcdetliq:
+    _attributes:
+      description: 
+    numliq:
+      type: VARCHAR
+      size: 20
+      required: true
+      foreignTable: fcliqpag
+      foreignReference: numliq
+      description: La referencia de la liquidación
+    numpag:
+      type: VARCHAR
+      size: 10
+      required: true
+      foreignTable: fcpagos
+      foreignReference: numpag
+      description: La referencia de pago
+    fecpag:
+      type: DATE
+      required: true
+      description: La fecha de pago
+    rifcon:
+      type: VARCHAR
+      size: 20
+      required: true
+      foreignTable: fcconrep
+      foreignReference: rifcon
+      description: El rif del contribuyente
+    nomcon:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: El nombre del contribuyente
+    despag:
+      type: VARCHAR
+      size: 250
+      description: La descripción del pago
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: El monto del pago
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcdefut:
+    _attributes:
+      description: 
+    fecini:
+      type: DATE
+      required: true
+      description: La fecha de inicio
+    fecfin:
+      type: DATE
+      required: true
+      description: La fecha fin
+    valorut:
+      type: NUMERIC
+      size: 20
+      scale: 4
+      description: El valor de la unidad tributaria
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  fcelideclar:
+    _attributes:
+      description: 
+    numdec:
+      type: VARCHAR
+      size: 10
+      description: 
+    fecven:
+      type: DATE
+      description: 
+    fueing:
+      type: VARCHAR
+      size: 2
+      description: 
+    fecdec:
+      type: DATE
+      description: 
+    rifcon:
+      type: VARCHAR
+      size: 20
+      description: 
+    tipo:
+      type: VARCHAR
+      size: 3
+      description: 
+    numref:
+      type: VARCHAR
+      size: 30
+      description: 
+    mondec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    edodec:
+      type: VARCHAR
+      size: 1
+      description: 
+    funrec:
+      type: VARCHAR
+      size: 40
+      description: 
+    modo:
+      type: VARCHAR
+      size: 1
+      description: 
+    numero:
+      type: VARCHAR
+      size: 3
+      description: 
+    nomcon:
+      type: VARCHAR
+      size: 255
+      description: 
+    anodec:
+      type: VARCHAR
+      size: 4
+      description: 
+    motivo:
+      type: VARCHAR
+      size: 1000
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro      

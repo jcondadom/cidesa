@@ -1,0 +1,9 @@
+Los campos que conforman la pantalla de **Tipo de Beneficiario** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbantipbenefinc1.jpg|}}"></div><br></html>
+
+  * **Código:** En este campo se coloca el número que identificara al Tipo de Beneficiario.<html><br><br></html>
+
+  * **Descripción:** Se refiere al nombre del Tipo de Beneficiario. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Tipo de Beneficiario** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

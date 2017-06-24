@@ -1,0 +1,66 @@
+<?php
+
+/**
+ * Subclase para crear funcionalidades específicas de busqueda y actualización en la tabla 'fadefcaj'.
+ *
+ *
+ *
+ * @package    Roraima
+ * @subpackage lib.model
+ * @author     $Author: dmartinez $ <desarrollo@cidesa.com.ve>
+ * @version SVN: $Id: FadefcajPeer.php 51034 2013-02-26 13:48:48Z dmartinez $
+ * 
+ * @copyright  Copyright 2007, Cide S.A.
+ * @license    http://opensource.org/licenses/gpl-2.0.php GPLv2
+ */
+class FadefcajPeer extends BaseFadefcajPeer
+{
+  public static function getCajas($alms=array())
+  {
+    $loguse= sfContext::getInstance()->getUser()->getAttribute('loguse');      
+    $filcajusu=H::getConfApp2('filcajusu', 'facturacion', 'fafactur');     
+  	$resp = array();
+    $c = new Criteria();
+
+    if(count($alms)>0){
+      $arr_or = array();
+      foreach($alms as $cod => $alm){
+        $arr_or[] = FadefcajPeer::CODALM."='$cod'";
+      }
+      $c->addOr(FadefcajPeer::CODALM,implode(' OR ', $arr_or),Criteria::CUSTOM);
+    }
+
+     if ($filcajusu=='S' && count($alms)==0) {
+          $sql='fadefcaj.id in (select codcaj from "SIMA_USER".segcajusu where loguse=\''.$loguse.'\')';
+          $c->add(FadefcajPeer::ID,$sql,Criteria::CUSTOM);
+     }
+
+    $m = FadefcajPeer::doSelect($c);
+    if($m){
+      foreach($m as $caj){
+        $resp[$caj->getId()] = $caj->getId()."  -  ".$caj->getDescaj();
+      }
+    }
+    return $resp;
+  }
+
+  public static function seleccionCaja($almacen=""){
+
+        $resp = array();
+        $c = new Criteria();
+        $c->add(FadefcajPeer::CODALM,$almacen);
+        $m = FadefcajPeer::doSelect($c);
+       if($m){
+          foreach($m as $caj){
+            $resp[$caj->getId()] = $caj->getId()."  -  ".$caj->getDescaj();
+          }
+       }
+
+        return $resp;
+  }
+
+  public function __toString()
+  {
+    return $this->id;
+  }
+}

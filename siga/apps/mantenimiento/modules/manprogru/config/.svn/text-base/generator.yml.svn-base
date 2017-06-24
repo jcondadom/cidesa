@@ -1,0 +1,38 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Manprogru
+    theme:            cidesaGenerator
+    fields: 
+      codgru:
+        name: Grupo de Trabajo
+        catalogo:
+          catalogoweb: Mantenimiento_Mangrutra
+          clase: Mangrutra
+          ajax: 0
+          parametros: getprincipal="getCodgru" getsecundario="getDesgru" campoprincipal="codgru" camposecundario="desgru" campobase = "id"
+      fecini: { name: Fecha Inicio, params: date_format='dd/MM/yyyy' maxlength=10}
+      candia: { name: Cantidad de días, params: onBlur="toAjaxUpdater('divgrid',1,getUrlModuloAjax(),this.value,'','&fecini='+$('manprogru_fecini').value+'')"}
+      fecult: { name: última programación, params: readOnly=true}
+      fecprx: { name: Fecha Próxima Programación, params: readOnly=true}
+      grid: { name: .}
+      desgru: { name: Descripción}
+    list:
+      title:          Programación para Grupos de Trabajo
+      display:        [=codgru, desgru]
+      filters:        [codgru]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           codgru
+    edit:
+      title:          Edición de Programación para Grupo de Trabajo
+      display:
+        "NONE": [codgru, fecini, candia, fecult, fecprx]
+        "Fecha Próximas de Programación":  [_grid]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

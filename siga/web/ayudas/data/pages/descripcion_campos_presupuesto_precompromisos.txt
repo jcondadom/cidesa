@@ -1,0 +1,11 @@
+====== Descripción de Campos ======
+
+  * Ingresar el **Tipo de Documento** que hará referencia al Precompromiso.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprepreinc1.jpg|}}"></div><br></html>
+
+  * Por último debe ingresar el **Nombre Extendido** y **Abreviado** asociado al Precompromiso.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprepreinc2.jpg|}}"></div><br><br></html>
+
+**Nota:** Los Documentos de Precompromiso más comunes son: Solicitudes de adquisición de algo (compra o servicio).  <html><br><br></html>

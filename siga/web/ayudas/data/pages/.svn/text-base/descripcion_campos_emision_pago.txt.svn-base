@@ -1,0 +1,48 @@
+Los campos que conforman la pantalla de **Emisión de Pagos** en un primer lugar están contemplados en la **Datos del Cheque** y son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbancemipaginc1.jpg|}}"></div><br></html>
+
+  * **Tipo de Documento:** Representa el Código del Documento que se va a emitir. Al presionar el Botón {{:btncuadrocatalogo.jpg}} el sistema muestra una [[Listas|Lista]] con los documentos definidos previamente de donde deberá seleccionar el que desee. <html><br><br></html>
+
+  * **Cuenta Bancaria:** Se refiere a la cuenta Bancaria de la que se va ha emitir el Cheque. Al presionar el Botón {{:btncuadrocatalogo.jpg}} el sistema muestra una lista con las cuentas bancarias que fueron deifnidas previamente en la pantalla [[tesoreria_banco|Bancos]] <html><br><br></html>
+
+  * **Número del Cheque:** En este campo se coloca el número que identifica el Cheque. <html><br><br></html>
+
+  * **C.I. ó R.I.F. del Beneficiario:** En este campo se coloca el número de cédula de identidad o el número de R.I.F. del beneficiario. <html><br><br></html>
+ 
+  * **Fecha de Emisión:** Seleccione del [[calendario|Calendario]]  la fecha en la cual se está emitiendo el cheque. <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>El resto de los campos van a depender del Tipo de Documento seleccionado anteriormente. Veamos para cada caso: <html><br><br></html>
+
+  * [[Pagos Directos]] 
+ 
+  * [[Documentos que refieren a un causado u Orden de Pago que no Afecta Presupuesto]]
+
+  * [[Los Pagos que no Afectan a Presupuesto]]  <html><br><br></html>
+
+
+**Comprobante Contable**  <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Una vez definido todos los campos es necesario que se genere el Comprobante Contable, para ello: <html><br><br></html>
+
+  * Presione el Botón {{:btngenerarcompcont.jpg|}}
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanordpagordpagoinc9.jpg|}}"></div><br></html>
+
+  * Automáticamente el sistema genera y muestra el **Comprobante Contable** correspondiente a la Orden de Pago. Dicho Comprobante contempla los siguientes campos: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Número:** Refiere al código que identifica al comprobante contable.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Referencia:** Refiere al Número de Comprobante Contable (campo autogenerable).
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-Fecha** en la que se generó la Orden de Pago.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-Descripción** de la Orden de Pago.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seguidamente se muestra en el [[Grid|Grid]] llamado **Asientos Contables** el **Código** y **Descripción** de las **Cuentas Contables**, la **Referencia** (Número de la Cuenta Contable), la **Fecha** en la que se realizó la Orden de Pago y los Montos correspondientes a **Débito** y **Crédito** en las columnas correspondientes.<html><br><br></html>
+ 
+  * Una vez que conoce cada uno de los campos de la pantalla de **Ordenes de Pago** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]] <html><br><br></html>
+
+
+
+

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/52154/web/php/siga/branches/productions/trunk/apps/bienes/modules/biedefconm/templates
+END
+autocompleteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/bienes/modules/biedefconm/templates/autocompleteSuccess.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/bienes/modules/biedefconm/templates/ajaxSuccess.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/bienes/modules/biedefconm/templates/editSuccess.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/52154/web/php/siga/branches/productions/trunk/apps/bienes/modules/biedefconm/templates/_edit_form.php
+END

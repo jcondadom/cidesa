@@ -1,0 +1,809 @@
+<?php
+
+
+abstract class BaseLidetactcroentPeer {
+
+	
+	const DATABASE_NAME = 'propel';
+
+	
+	const TABLE_NAME = 'lidetactcroent';
+
+	
+	const CLASS_DEFAULT = 'lib.model.licitaciones.Lidetactcroent';
+
+	
+	const NUM_COLUMNS = 3;
+
+	
+	const NUM_LAZY_LOAD_COLUMNS = 0;
+
+
+	
+	const NUMSOLPAG = 'lidetactcroent.NUMSOLPAG';
+
+	
+	const NUMACT = 'lidetactcroent.NUMACT';
+
+	
+	const ID = 'lidetactcroent.ID';
+
+	
+	private static $phpNameMap = null;
+
+
+	
+	private static $fieldNames = array (
+		BasePeer::TYPE_PHPNAME => array ('Numsolpag', 'Numact', 'Id', ),
+		BasePeer::TYPE_COLNAME => array (LidetactcroentPeer::NUMSOLPAG, LidetactcroentPeer::NUMACT, LidetactcroentPeer::ID, ),
+		BasePeer::TYPE_FIELDNAME => array ('numsolpag', 'numact', 'id', ),
+		BasePeer::TYPE_NUM => array (0, 1, 2, )
+	);
+
+	
+	private static $fieldKeys = array (
+		BasePeer::TYPE_PHPNAME => array ('Numsolpag' => 0, 'Numact' => 1, 'Id' => 2, ),
+		BasePeer::TYPE_COLNAME => array (LidetactcroentPeer::NUMSOLPAG => 0, LidetactcroentPeer::NUMACT => 1, LidetactcroentPeer::ID => 2, ),
+		BasePeer::TYPE_FIELDNAME => array ('numsolpag' => 0, 'numact' => 1, 'id' => 2, ),
+		BasePeer::TYPE_NUM => array (0, 1, 2, )
+	);
+
+	
+	public static function getMapBuilder()
+	{
+		include_once 'lib/model/licitaciones/map/LidetactcroentMapBuilder.php';
+		return BasePeer::getMapBuilder('lib.model.licitaciones.map.LidetactcroentMapBuilder');
+	}
+	
+	public static function getPhpNameMap()
+	{
+		if (self::$phpNameMap === null) {
+			$map = LidetactcroentPeer::getTableMap();
+			$columns = $map->getColumns();
+			$nameMap = array();
+			foreach ($columns as $column) {
+				$nameMap[$column->getPhpName()] = $column->getColumnName();
+			}
+			self::$phpNameMap = $nameMap;
+		}
+		return self::$phpNameMap;
+	}
+	
+	static public function translateFieldName($name, $fromType, $toType)
+	{
+		$toNames = self::getFieldNames($toType);
+		$key = isset(self::$fieldKeys[$fromType][$name]) ? self::$fieldKeys[$fromType][$name] : null;
+		if ($key === null) {
+			throw new PropelException("'$name' could not be found in the field names of type '$fromType'. These are: " . print_r(self::$fieldKeys[$fromType], true));
+		}
+		return $toNames[$key];
+	}
+
+	
+
+	static public function getFieldNames($type = BasePeer::TYPE_PHPNAME)
+	{
+		if (!array_key_exists($type, self::$fieldNames)) {
+			throw new PropelException('Method getFieldNames() expects the parameter $type to be one of the class constants TYPE_PHPNAME, TYPE_COLNAME, TYPE_FIELDNAME, TYPE_NUM. ' . $type . ' was given.');
+		}
+		return self::$fieldNames[$type];
+	}
+
+	
+	public static function alias($alias, $column)
+	{
+		return str_replace(LidetactcroentPeer::TABLE_NAME.'.', $alias.'.', $column);
+	}
+
+	
+	public static function addSelectColumns(Criteria $criteria)
+	{
+
+		$criteria->addSelectColumn(LidetactcroentPeer::NUMSOLPAG);
+
+		$criteria->addSelectColumn(LidetactcroentPeer::NUMACT);
+
+		$criteria->addSelectColumn(LidetactcroentPeer::ID);
+
+	}
+
+	const COUNT = 'COUNT(lidetactcroent.ID)';
+	const COUNT_DISTINCT = 'COUNT(DISTINCT lidetactcroent.ID)';
+
+	
+	public static function doCount(Criteria $criteria, $distinct = false, $con = null)
+	{
+				$criteria = clone $criteria;
+
+				$criteria->clearSelectColumns()->clearOrderByColumns();
+		if ($distinct || in_array(Criteria::DISTINCT, $criteria->getSelectModifiers())) {
+			$criteria->addSelectColumn(LidetactcroentPeer::COUNT_DISTINCT);
+		} else {
+			$criteria->addSelectColumn(LidetactcroentPeer::COUNT);
+		}
+
+				foreach($criteria->getGroupByColumns() as $column)
+		{
+			$criteria->addSelectColumn($column);
+		}
+
+		$rs = LidetactcroentPeer::doSelectRS($criteria, $con);
+		if ($rs->next()) {
+			return $rs->getInt(1);
+		} else {
+						return 0;
+		}
+	}
+	
+	public static function doSelectOne(Criteria $criteria, $con = null)
+	{
+		$critcopy = clone $criteria;
+		$critcopy->setLimit(1);
+		$objects = LidetactcroentPeer::doSelect($critcopy, $con);
+		if ($objects) {
+			return $objects[0];
+		}
+		return null;
+	}
+	
+	public static function doSelect(Criteria $criteria, $con = null)
+	{
+		return LidetactcroentPeer::populateObjects(LidetactcroentPeer::doSelectRS($criteria, $con));
+	}
+	
+	public static function doSelectRS(Criteria $criteria, $con = null)
+	{
+		if ($con === null) {
+			$con = Propel::getConnection(self::DATABASE_NAME);
+		}
+
+		if (!$criteria->getSelectColumns()) {
+			$criteria = clone $criteria;
+			LidetactcroentPeer::addSelectColumns($criteria);
+		}
+
+				$criteria->setDbName(self::DATABASE_NAME);
+
+						return BasePeer::doSelect($criteria, $con);
+	}
+	
+	public static function populateObjects(ResultSet $rs)
+	{
+		$results = array();
+	
+				$cls = LidetactcroentPeer::getOMClass();
+		$cls = Propel::import($cls);
+				while($rs->next()) {
+		
+			$obj = new $cls();
+			$obj->hydrate($rs);
+			$results[] = $obj;
+			
+		}
+		return $results;
+	}
+
+	
+	public static function doCountJoinLisolpag(Criteria $criteria, $distinct = false, $con = null)
+	{
+				$criteria = clone $criteria;
+
+				$criteria->clearSelectColumns()->clearOrderByColumns();
+		if ($distinct || in_array(Criteria::DISTINCT, $criteria->getSelectModifiers())) {
+			$criteria->addSelectColumn(LidetactcroentPeer::COUNT_DISTINCT);
+		} else {
+			$criteria->addSelectColumn(LidetactcroentPeer::COUNT);
+		}
+
+				foreach($criteria->getGroupByColumns() as $column)
+		{
+			$criteria->addSelectColumn($column);
+		}
+
+		$criteria->addJoin(LidetactcroentPeer::NUMSOLPAG, LisolpagPeer::NUMSOLPAG);
+
+		$rs = LidetactcroentPeer::doSelectRS($criteria, $con);
+		if ($rs->next()) {
+			return $rs->getInt(1);
+		} else {
+						return 0;
+		}
+	}
+
+
+	
+	public static function doCountJoinLiactas(Criteria $criteria, $distinct = false, $con = null)
+	{
+				$criteria = clone $criteria;
+
+				$criteria->clearSelectColumns()->clearOrderByColumns();
+		if ($distinct || in_array(Criteria::DISTINCT, $criteria->getSelectModifiers())) {
+			$criteria->addSelectColumn(LidetactcroentPeer::COUNT_DISTINCT);
+		} else {
+			$criteria->addSelectColumn(LidetactcroentPeer::COUNT);
+		}
+
+				foreach($criteria->getGroupByColumns() as $column)
+		{
+			$criteria->addSelectColumn($column);
+		}
+
+		$criteria->addJoin(LidetactcroentPeer::NUMACT, LiactasPeer::NUMACT);
+
+		$rs = LidetactcroentPeer::doSelectRS($criteria, $con);
+		if ($rs->next()) {
+			return $rs->getInt(1);
+		} else {
+						return 0;
+		}
+	}
+
+
+	
+	public static function doSelectJoinLisolpag(Criteria $c, $con = null)
+	{
+		$c = clone $c;
+
+				if ($c->getDbName() == Propel::getDefaultDB()) {
+			$c->setDbName(self::DATABASE_NAME);
+		}
+
+		LidetactcroentPeer::addSelectColumns($c);
+		$startcol = (LidetactcroentPeer::NUM_COLUMNS - LidetactcroentPeer::NUM_LAZY_LOAD_COLUMNS) + 1;
+		LisolpagPeer::addSelectColumns($c);
+
+		$c->addJoin(LidetactcroentPeer::NUMSOLPAG, LisolpagPeer::NUMSOLPAG);
+		$rs = BasePeer::doSelect($c, $con);
+		$results = array();
+
+		while($rs->next()) {
+
+			$omClass = LidetactcroentPeer::getOMClass();
+
+			$cls = Propel::import($omClass);
+			$obj1 = new $cls();
+			$obj1->hydrate($rs);
+
+			$omClass = LisolpagPeer::getOMClass();
+
+			$cls = Propel::import($omClass);
+			$obj2 = new $cls();
+			$obj2->hydrate($rs, $startcol);
+
+			$newObject = true;
+			foreach($results as $temp_obj1) {
+				$temp_obj2 = $temp_obj1->getLisolpag(); 				if ($temp_obj2->getPrimaryKey() === $obj2->getPrimaryKey()) {
+					$newObject = false;
+										$temp_obj2->addLidetactcroent($obj1); 					break;
+				}
+			}
+			if ($newObject) {
+				$obj2->initLidetactcroents();
+				$obj2->addLidetactcroent($obj1); 			}
+			$results[] = $obj1;
+		}
+		return $results;
+	}
+
+
+	
+	public static function doSelectJoinLiactas(Criteria $c, $con = null)
+	{
+		$c = clone $c;
+
+				if ($c->getDbName() == Propel::getDefaultDB()) {
+			$c->setDbName(self::DATABASE_NAME);
+		}
+
+		LidetactcroentPeer::addSelectColumns($c);
+		$startcol = (LidetactcroentPeer::NUM_COLUMNS - LidetactcroentPeer::NUM_LAZY_LOAD_COLUMNS) + 1;
+		LiactasPeer::addSelectColumns($c);
+
+		$c->addJoin(LidetactcroentPeer::NUMACT, LiactasPeer::NUMACT);
+		$rs = BasePeer::doSelect($c, $con);
+		$results = array();
+
+		while($rs->next()) {
+
+			$omClass = LidetactcroentPeer::getOMClass();
+
+			$cls = Propel::import($omClass);
+			$obj1 = new $cls();
+			$obj1->hydrate($rs);
+
+			$omClass = LiactasPeer::getOMClass();
+
+			$cls = Propel::import($omClass);
+			$obj2 = new $cls();
+			$obj2->hydrate($rs, $startcol);
+
+			$newObject = true;
+			foreach($results as $temp_obj1) {
+				$temp_obj2 = $temp_obj1->getLiactas(); 				if ($temp_obj2->getPrimaryKey() === $obj2->getPrimaryKey()) {
+					$newObject = false;
+										$temp_obj2->addLidetactcroent($obj1); 					break;
+				}
+			}
+			if ($newObject) {
+				$obj2->initLidetactcroents();
+				$obj2->addLidetactcroent($obj1); 			}
+			$results[] = $obj1;
+		}
+		return $results;
+	}
+
+
+	
+	public static function doCountJoinAll(Criteria $criteria, $distinct = false, $con = null)
+	{
+		$criteria = clone $criteria;
+
+				$criteria->clearSelectColumns()->clearOrderByColumns();
+		if ($distinct || in_array(Criteria::DISTINCT, $criteria->getSelectModifiers())) {
+			$criteria->addSelectColumn(LidetactcroentPeer::COUNT_DISTINCT);
+		} else {
+			$criteria->addSelectColumn(LidetactcroentPeer::COUNT);
+		}
+
+				foreach($criteria->getGroupByColumns() as $column)
+		{
+			$criteria->addSelectColumn($column);
+		}
+
+			$criteria->addJoin(LidetactcroentPeer::NUMSOLPAG, LisolpagPeer::NUMSOLPAG);
+	
+			$criteria->addJoin(LidetactcroentPeer::NUMACT, LiactasPeer::NUMACT);
+	
+		$rs = LidetactcroentPeer::doSelectRS($criteria, $con);
+		if ($rs->next()) {
+			return $rs->getInt(1);
+		} else {
+						return 0;
+		}
+	}
+
+
+	
+	public static function doSelectJoinAll(Criteria $c, $con = null)
+	{
+		$c = clone $c;
+
+				if ($c->getDbName() == Propel::getDefaultDB()) {
+			$c->setDbName(self::DATABASE_NAME);
+		}
+
+		LidetactcroentPeer::addSelectColumns($c);
+		$startcol2 = (LidetactcroentPeer::NUM_COLUMNS - LidetactcroentPeer::NUM_LAZY_LOAD_COLUMNS) + 1;
+
+			LisolpagPeer::addSelectColumns($c);
+			$startcol3 = $startcol2 + LisolpagPeer::NUM_COLUMNS;
+	
+			LiactasPeer::addSelectColumns($c);
+			$startcol4 = $startcol3 + LiactasPeer::NUM_COLUMNS;
+	
+			$c->addJoin(LidetactcroentPeer::NUMSOLPAG, LisolpagPeer::NUMSOLPAG);
+	
+			$c->addJoin(LidetactcroentPeer::NUMACT, LiactasPeer::NUMACT);
+	
+		$rs = BasePeer::doSelect($c, $con);
+		$results = array();
+
+		while($rs->next()) {
+
+			$omClass = LidetactcroentPeer::getOMClass();
+
+
+			$cls = Propel::import($omClass);
+			$obj1 = new $cls();
+			$obj1->hydrate($rs);
+
+
+							
+				$omClass = LisolpagPeer::getOMClass();
+	
+
+				$cls = Propel::import($omClass);
+				$obj2 = new $cls();
+				$obj2->hydrate($rs, $startcol2);
+
+				$newObject = true;
+				for ($j=0, $resCount=count($results); $j < $resCount; $j++) {
+					$temp_obj1 = $results[$j];
+					$temp_obj2 = $temp_obj1->getLisolpag(); 					if ($temp_obj2->getPrimaryKey() === $obj2->getPrimaryKey()) {
+						$newObject = false;
+						$temp_obj2->addLidetactcroent($obj1); 						break;
+					}
+				}
+
+				if ($newObject) {
+					$obj2->initLidetactcroents();
+					$obj2->addLidetactcroent($obj1);
+				}
+	
+
+							
+				$omClass = LiactasPeer::getOMClass();
+	
+
+				$cls = Propel::import($omClass);
+				$obj3 = new $cls();
+				$obj3->hydrate($rs, $startcol3);
+
+				$newObject = true;
+				for ($j=0, $resCount=count($results); $j < $resCount; $j++) {
+					$temp_obj1 = $results[$j];
+					$temp_obj3 = $temp_obj1->getLiactas(); 					if ($temp_obj3->getPrimaryKey() === $obj3->getPrimaryKey()) {
+						$newObject = false;
+						$temp_obj3->addLidetactcroent($obj1); 						break;
+					}
+				}
+
+				if ($newObject) {
+					$obj3->initLidetactcroents();
+					$obj3->addLidetactcroent($obj1);
+				}
+	
+			$results[] = $obj1;
+		}
+		return $results;
+	}
+
+
+		
+		public static function doCountJoinAllExceptLisolpag(Criteria $criteria, $distinct = false, $con = null)
+		{
+						$criteria = clone $criteria;
+
+						$criteria->clearSelectColumns()->clearOrderByColumns();
+			if ($distinct || in_array(Criteria::DISTINCT, $criteria->getSelectModifiers())) {
+				$criteria->addSelectColumn(LidetactcroentPeer::COUNT_DISTINCT);
+			} else {
+				$criteria->addSelectColumn(LidetactcroentPeer::COUNT);
+			}
+
+						foreach($criteria->getGroupByColumns() as $column)
+			{
+				$criteria->addSelectColumn($column);
+			}
+	
+				$criteria->addJoin(LidetactcroentPeer::NUMACT, LiactasPeer::NUMACT);
+		
+			$rs = LidetactcroentPeer::doSelectRS($criteria, $con);
+			if ($rs->next()) {
+				return $rs->getInt(1);
+			} else {
+								return 0;
+			}
+		}
+	
+
+		
+		public static function doCountJoinAllExceptLiactas(Criteria $criteria, $distinct = false, $con = null)
+		{
+						$criteria = clone $criteria;
+
+						$criteria->clearSelectColumns()->clearOrderByColumns();
+			if ($distinct || in_array(Criteria::DISTINCT, $criteria->getSelectModifiers())) {
+				$criteria->addSelectColumn(LidetactcroentPeer::COUNT_DISTINCT);
+			} else {
+				$criteria->addSelectColumn(LidetactcroentPeer::COUNT);
+			}
+
+						foreach($criteria->getGroupByColumns() as $column)
+			{
+				$criteria->addSelectColumn($column);
+			}
+	
+				$criteria->addJoin(LidetactcroentPeer::NUMSOLPAG, LisolpagPeer::NUMSOLPAG);
+		
+			$rs = LidetactcroentPeer::doSelectRS($criteria, $con);
+			if ($rs->next()) {
+				return $rs->getInt(1);
+			} else {
+								return 0;
+			}
+		}
+	
+
+	
+	public static function doSelectJoinAllExceptLisolpag(Criteria $c, $con = null)
+	{
+		$c = clone $c;
+
+								if ($c->getDbName() == Propel::getDefaultDB()) {
+			$c->setDbName(self::DATABASE_NAME);
+		}
+
+		LidetactcroentPeer::addSelectColumns($c);
+		$startcol2 = (LidetactcroentPeer::NUM_COLUMNS - LidetactcroentPeer::NUM_LAZY_LOAD_COLUMNS) + 1;
+
+			LiactasPeer::addSelectColumns($c);
+			$startcol3 = $startcol2 + LiactasPeer::NUM_COLUMNS;
+	
+			$c->addJoin(LidetactcroentPeer::NUMACT, LiactasPeer::NUMACT);
+	
+
+		$rs = BasePeer::doSelect($c, $con);
+		$results = array();
+
+		while($rs->next()) {
+
+			$omClass = LidetactcroentPeer::getOMClass();
+
+			$cls = Propel::import($omClass);
+			$obj1 = new $cls();
+			$obj1->hydrate($rs);
+
+				$omClass = LiactasPeer::getOMClass();
+	
+
+				$cls = Propel::import($omClass);
+				$obj2  = new $cls();
+				$obj2->hydrate($rs, $startcol2);
+
+				$newObject = true;
+				for ($j=0, $resCount=count($results); $j < $resCount; $j++) {
+					$temp_obj1 = $results[$j];
+					$temp_obj2 = $temp_obj1->getLiactas(); 					if ($temp_obj2->getPrimaryKey() === $obj2->getPrimaryKey()) {
+						$newObject = false;
+						$temp_obj2->addLidetactcroent($obj1);
+						break;
+					}
+				}
+
+				if ($newObject) {
+					$obj2->initLidetactcroents();
+					$obj2->addLidetactcroent($obj1);
+				}
+	
+			$results[] = $obj1;
+		}
+		return $results;
+	}
+
+
+	
+	public static function doSelectJoinAllExceptLiactas(Criteria $c, $con = null)
+	{
+		$c = clone $c;
+
+								if ($c->getDbName() == Propel::getDefaultDB()) {
+			$c->setDbName(self::DATABASE_NAME);
+		}
+
+		LidetactcroentPeer::addSelectColumns($c);
+		$startcol2 = (LidetactcroentPeer::NUM_COLUMNS - LidetactcroentPeer::NUM_LAZY_LOAD_COLUMNS) + 1;
+
+			LisolpagPeer::addSelectColumns($c);
+			$startcol3 = $startcol2 + LisolpagPeer::NUM_COLUMNS;
+	
+			$c->addJoin(LidetactcroentPeer::NUMSOLPAG, LisolpagPeer::NUMSOLPAG);
+	
+
+		$rs = BasePeer::doSelect($c, $con);
+		$results = array();
+
+		while($rs->next()) {
+
+			$omClass = LidetactcroentPeer::getOMClass();
+
+			$cls = Propel::import($omClass);
+			$obj1 = new $cls();
+			$obj1->hydrate($rs);
+
+				$omClass = LisolpagPeer::getOMClass();
+	
+
+				$cls = Propel::import($omClass);
+				$obj2  = new $cls();
+				$obj2->hydrate($rs, $startcol2);
+
+				$newObject = true;
+				for ($j=0, $resCount=count($results); $j < $resCount; $j++) {
+					$temp_obj1 = $results[$j];
+					$temp_obj2 = $temp_obj1->getLisolpag(); 					if ($temp_obj2->getPrimaryKey() === $obj2->getPrimaryKey()) {
+						$newObject = false;
+						$temp_obj2->addLidetactcroent($obj1);
+						break;
+					}
+				}
+
+				if ($newObject) {
+					$obj2->initLidetactcroents();
+					$obj2->addLidetactcroent($obj1);
+				}
+	
+			$results[] = $obj1;
+		}
+		return $results;
+	}
+
+	
+	public static function getTableMap()
+	{
+		return Propel::getDatabaseMap(self::DATABASE_NAME)->getTable(self::TABLE_NAME);
+	}
+
+	
+	public static function getOMClass()
+	{
+		return LidetactcroentPeer::CLASS_DEFAULT;
+	}
+
+	
+	public static function doInsert($values, $con = null)
+	{
+		if ($con === null) {
+			$con = Propel::getConnection(self::DATABASE_NAME);
+		}
+
+		if ($values instanceof Criteria) {
+			$criteria = clone $values; 		} else {
+			$criteria = $values->buildCriteria(); 		}
+
+		$criteria->remove(LidetactcroentPeer::ID); 
+
+				$criteria->setDbName(self::DATABASE_NAME);
+
+		try {
+									$con->begin();
+			$pk = BasePeer::doInsert($criteria, $con);
+			$con->commit();
+		} catch(PropelException $e) {
+			$con->rollback();
+			throw $e;
+		}
+
+		return $pk;
+	}
+
+	
+	public static function doUpdate($values, $con = null)
+	{
+		if ($con === null) {
+			$con = Propel::getConnection(self::DATABASE_NAME);
+		}
+
+		$selectCriteria = new Criteria(self::DATABASE_NAME);
+
+		if ($values instanceof Criteria) {
+			$criteria = clone $values; 
+			$comparison = $criteria->getComparison(LidetactcroentPeer::ID);
+			$selectCriteria->add(LidetactcroentPeer::ID, $criteria->remove(LidetactcroentPeer::ID), $comparison);
+
+		} else { 			$criteria = $values->buildCriteria(); 			$selectCriteria = $values->buildPkeyCriteria(); 		}
+
+				$criteria->setDbName(self::DATABASE_NAME);
+
+		return BasePeer::doUpdate($selectCriteria, $criteria, $con);
+	}
+
+	
+	public static function doDeleteAll($con = null)
+	{
+		if ($con === null) {
+			$con = Propel::getConnection(self::DATABASE_NAME);
+		}
+		$affectedRows = 0; 		try {
+									$con->begin();
+			$affectedRows += BasePeer::doDeleteAll(LidetactcroentPeer::TABLE_NAME, $con);
+			$con->commit();
+			return $affectedRows;
+		} catch (PropelException $e) {
+			$con->rollback();
+			throw $e;
+		}
+	}
+
+	
+	 public static function doDelete($values, $con = null)
+	 {
+		if ($con === null) {
+			$con = Propel::getConnection(LidetactcroentPeer::DATABASE_NAME);
+		}
+
+		if ($values instanceof Criteria) {
+			$criteria = clone $values; 		} elseif ($values instanceof Lidetactcroent) {
+
+			$criteria = $values->buildPkeyCriteria();
+		} else {
+						$criteria = new Criteria(self::DATABASE_NAME);
+			$criteria->add(LidetactcroentPeer::ID, (array) $values, Criteria::IN);
+		}
+
+				$criteria->setDbName(self::DATABASE_NAME);
+
+		$affectedRows = 0; 
+		try {
+									$con->begin();
+			
+			$affectedRows += BasePeer::doDelete($criteria, $con);
+			$con->commit();
+			return $affectedRows;
+		} catch (PropelException $e) {
+			$con->rollback();
+			throw $e;
+		}
+	}
+
+	
+	public static function doValidate(Lidetactcroent $obj, $cols = null)
+	{
+		$columns = array();
+
+		if ($cols) {
+			$dbMap = Propel::getDatabaseMap(LidetactcroentPeer::DATABASE_NAME);
+			$tableMap = $dbMap->getTable(LidetactcroentPeer::TABLE_NAME);
+
+			if (! is_array($cols)) {
+				$cols = array($cols);
+			}
+
+			foreach($cols as $colName) {
+				if ($tableMap->containsColumn($colName)) {
+					$get = 'get' . $tableMap->getColumn($colName)->getPhpName();
+					$columns[$colName] = $obj->$get();
+				}
+			}
+		} else {
+
+		}
+
+		$res =  BasePeer::doValidate(LidetactcroentPeer::DATABASE_NAME, LidetactcroentPeer::TABLE_NAME, $columns);
+    if ($res !== true) {
+        $request = sfContext::getInstance()->getRequest();
+        foreach ($res as $failed) {
+            $col = LidetactcroentPeer::translateFieldname($failed->getColumn(), BasePeer::TYPE_COLNAME, BasePeer::TYPE_PHPNAME);
+            $request->setError($col, $failed->getMessage());
+        }
+    }
+
+    return $res;
+	}
+
+	
+	public static function retrieveByPK($pk, $con = null)
+	{
+		if ($con === null) {
+			$con = Propel::getConnection(self::DATABASE_NAME);
+		}
+
+		$criteria = new Criteria(LidetactcroentPeer::DATABASE_NAME);
+
+		$criteria->add(LidetactcroentPeer::ID, $pk);
+
+
+		$v = LidetactcroentPeer::doSelect($criteria, $con);
+
+		return !empty($v) > 0 ? $v[0] : null;
+	}
+
+	
+	public static function retrieveByPKs($pks, $con = null)
+	{
+		if ($con === null) {
+			$con = Propel::getConnection(self::DATABASE_NAME);
+		}
+
+		$objs = null;
+		if (empty($pks)) {
+			$objs = array();
+		} else {
+			$criteria = new Criteria();
+			$criteria->add(LidetactcroentPeer::ID, $pks, Criteria::IN);
+			$objs = LidetactcroentPeer::doSelect($criteria, $con);
+		}
+		return $objs;
+	}
+
+} 
+if (Propel::isInit()) {
+			try {
+		BaseLidetactcroentPeer::getMapBuilder();
+	} catch (Exception $e) {
+		Propel::log('Could not initialize Peer: ' . $e->getMessage(), Propel::LOG_ERR);
+	}
+} else {
+			require_once 'lib/model/licitaciones/map/LidetactcroentMapBuilder.php';
+	Propel::registerMapBuilder('lib.model.licitaciones.map.LidetactcroentMapBuilder');
+}

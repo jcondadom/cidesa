@@ -1,0 +1,27 @@
+opciones:                  # Opciones generales
+  eliminar:                false
+  tabla:                   rhgruadi
+  anchogrid:               700
+  ancho:                   500
+  filas:                   0
+  name:                    b
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Seleccione
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:			         true
+  html:                    [ ]
+2:       # Columna 2
+  titulo:                  Código del Grupo
+  tipo:                    t
+  nombrecampo:             codgru
+  esgrabable:              true
+  html:                    [size="25" readonly=true]
+3:       # Columna 3
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desgru
+  esgrabable:              true
+  html:                    [size="30" readonly=true]

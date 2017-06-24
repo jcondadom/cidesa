@@ -1,0 +1,19 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Hcliqree
+    theme:            cidesaGenerator
+
+    fields:
+      fecdes: { name: Desde}
+      fechas: { name: Hasta}
+      gridr : { name: .}
+
+    edit:
+      title:          Aprobación de Liquidación de Reembolsos
+      display:
+        "Fechas": [_fecdes, _fechas, _gridr]
+      actions:
+        _list:        NONE
+        _save:        ~
+        _delete:      NONE

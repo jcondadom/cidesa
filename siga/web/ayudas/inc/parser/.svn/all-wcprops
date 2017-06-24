@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/parser
+END
+code.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/parser/code.php
+END
+xhtmlsummary.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/parser/xhtmlsummary.php
+END
+parser.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/parser/parser.php
+END
+xhtml.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/parser/xhtml.php
+END
+handler.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/parser/handler.php
+END
+lexer.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/parser/lexer.php
+END
+metadata.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/parser/metadata.php
+END
+renderer.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/parser/renderer.php
+END

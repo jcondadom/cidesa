@@ -1,0 +1,28 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   capretevades
+  anchogrid:               1000
+  ancho:                   950
+  filas:                   0
+  titulo:                  ' Aspectos Cuantitativos a Evaluar '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código 
+  tipo:                    t
+  nombrecampo:             codprg
+  html:                    ["size=10 maxlength=3 readonly=true"]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             desprg
+  html:                    ["size=30x1 maxlength=2000 readonly=true"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Puntuación
+  tipo:                    e
+  esgrabable:              true
+  nombrecampo:             punpre
+  html:                    ["size=10 onBlur='validarPuntuacion(event,this.id)'"]
+  estotal:                 [true, caevadespro_tocuat]

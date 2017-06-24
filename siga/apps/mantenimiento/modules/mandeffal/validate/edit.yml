@@ -1,0 +1,42 @@
+methods:
+  post:
+   - "mandeffal{coddfa}"
+   - "mandeffal{desdfa}"
+   - "mandeffal{codsfa}"
+
+names:
+  mandeffal{coddfa}:
+    required:  Yes
+    required_msg: Introduzca el Código del Defecto
+    validators: Validator_coddfa
+    
+  mandeffal{desdfa}:
+    required:  Yes
+    required_msg: Introduzca la Descripción del Defecto
+    validators: Validator_desdfa
+
+  mandeffal{codsfa}:
+    required:  No
+    validators: Validator_codsfa    
+
+Validator_coddfa:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Mandeffal
+        column:       coddfa
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_desdfa:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La Descripción no puede tener mas de 250 caracteres 
+
+Validator_codsfa:
+    class: CidesaExistValidator
+    param:
+        class:        Mansinfal
+        column:       codsfa
+        unique_error: El Síntoma de la Falla debe Existir.

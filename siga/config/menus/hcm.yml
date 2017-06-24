@@ -1,0 +1,31 @@
+hcm:
+  opciones:
+    activo: true #true/false
+    descripcion: Módulo de HCM
+    imagen: hcm.gif
+    nombre: HCM
+    urls:
+      Cambiar Contraseña:
+        modulo: autenticacion.php
+        modulo_dev: autenticacion_dev.php
+      default:
+        modulo: hcm.php
+        modulo_dev: hcm_dev.php
+    imagenes:
+      default: OperatorClass.png
+  menu:
+    Definiciones:
+      Generales:                                                    hcdefgen
+      Médicos o Laboratorios:                                       hcregmedlab
+    Movimientos:
+      Consumo de HCM:                                               hcregconhcm
+      Exámenes o Consultas:                                         hcexacon
+      Gastos Funerarios:                                            hcgasfun
+      Carta Aval:                                                   hccarava
+      Consulta de Titulares y Beneficiarios:                        hccontitben
+      Reembolsos:
+        Registro:                                                   hcliqree
+        Aprobación Control Previo:                                  hcaprconpre
+        Aprobación:                                                 hcaprliq
+        Cierre:                                                     hccieree
+        Reversar Cierre:                                            hcrevcie

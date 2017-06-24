@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/61826/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/pagordelec/templates
+END
+_cedrif.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/47669/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/pagordelec/templates/_cedrif.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/47669/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/pagordelec/templates/ajaxSuccess.php
+END
+_codconcepto.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/52662/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/pagordelec/templates/_codconcepto.php
+END
+_btnbuscar.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/47669/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/pagordelec/templates/_btnbuscar.php
+END
+_numord.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/47669/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/pagordelec/templates/_numord.php
+END
+_grid.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/60993/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/pagordelec/templates/_grid.php
+END
+_tipcau.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/47669/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/pagordelec/templates/_tipcau.php
+END
+_fecemi.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/61826/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/pagordelec/templates/_fecemi.php
+END

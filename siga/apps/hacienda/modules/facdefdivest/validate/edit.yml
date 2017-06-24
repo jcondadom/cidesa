@@ -1,0 +1,43 @@
+methods:
+  post:
+   - "fcestado{codpai}"
+   - "fcestado{codedo}"
+   - "fcestado{nomedo}"
+
+names:
+  fcestado{codpai}:
+    required:  Yes
+    required_msg: El Código del País no puede estar en Blanco
+    validators: CorrelValidator, Validator_codpai
+
+  fcestado{codedo}:
+    required:  Yes
+    required_msg: El Código no puede estar en Blanco
+    validators: CorrelValidator
+
+  fcestado{nomedo}:
+    required:  Yes
+    required_msg: El Nombre no puede estar en Blanco
+    validators: Validator_nomedo
+
+
+Validator_codpai:
+    class: CidesaExistValidator
+    param:
+        class:    Fcpais
+        column:   codpai
+        unique_error:  El País no Existe.
+
+Validator_nomedo:
+    class: sfStringValidator
+    param:
+        min:       4
+        min_error: El Nombre no puede tener menos de 4 caracteres
+        max:       30
+        max_error: El Nombre no puede pasar más de 30 caracteres
+
+CorrelValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]
+        values_error: El Código solo puede contener valores númericos

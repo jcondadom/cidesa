@@ -1,0 +1,8 @@
+====== Actividades Según Catálogo de Clasificación de Compras del Estado ======
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontlicitreginc6.jpg|}}"></div><br></html>
+
+  * En el campo **Clasificación** presione el **Botón** {{:btncuadrocatalogo.jpg|}} y seleccione del catálogo la clasificación de Compras del Estado a asignar para la Licitación.<html><br><br><br></html>
+
+  * Por último ingrese en **Observaciones** alguna información adicional (en caso de existir) sobre el registro de la Licitación
+

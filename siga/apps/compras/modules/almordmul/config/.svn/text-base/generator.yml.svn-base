@@ -1,0 +1,192 @@
+
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Caordcom
+    theme:            cidesaGenerator
+    fields:
+      ordcom: { name: N° Orden, params : size=10 maxlength=8  onFocus=readonly(this.id) onBlur="enter(this.value)" }
+      fecord: { name: Fecha}
+      tipmon: { name: Moneda}
+      valmon: { name: Valor}
+      tipord: { name: Tipo}
+      doccom:
+        name: Documento
+        params: size=10  maxlength=4
+        catalogo:
+          catalogoweb: Cpdoccom_Almordcom
+          clase: Cpdoccom
+          ajax: 2
+          parametros: getprincipal="getDoccom" getsecundario="getNomdoc" campoprincipal="doccom" camposecundario="nomdoc" campobase = "id"
+          ajaxparams: +'."'".'&tipord='."'+$('caordcom_tipord').value".'
+          divupdate: divgridsc
+      rifpro:
+        name: RIF Contratista de Bienes o Servicio y Cooperativa
+        params: size=20 maxlength=15
+        catalogo:
+          catalogoweb: Caprovee_Almordcom
+          clase: Caprovee
+          ajax: 3
+          parametros: getprincipal="getRifpro" getsecundario="getNompro" campoprincipal="rifpro" camposecundario="nompro" campobase = "id"
+          catalogoparams: /param1/'."'+$('caordcom_refsol').value+'".'
+          ajaxparams: +'."'".'&refsol='."'+$('caordcom_refsol').value+'".'&refprc='."'+$('caordcom_refprc').value".'
+      desord:  { name: Descripción, type: textarea_tag, params: size=80x5 maxlength=1000 onkeyup=" return ismaxlength(this)"}
+      tipo: { name: Tipo de Compra}
+      tipdes: { name: Tipo de Descuento}
+      monord: { name: Monto Total, params : size=25 readOnly=true}
+      botrecargos:  {  name: .}
+      grid:  {  name: .}
+      bottotales:  {  name: .}
+      totrecargo: { name: Recargo}
+      totorden: { name: Orden}
+      gridrec:  {  name: .}
+      gridres:  {  name: .}
+      gridrespar:  {  name: .}
+      gridfecent:  {  name: .}
+      gridforent:  {  name: .}
+      gridsc:  {  name: .}
+      conpag:
+        name: Condición de Pago
+        params: size=10 maxlength=4
+        catalogo:
+          catalogoweb: Caconpag_Almordcom
+          clase: Caconpag
+          ajax: 4
+          parametros: getprincipal="getConpag" getsecundario="getDesconpag" campoprincipal="conpag" camposecundario="desconpag" campobase = "id"
+      tippro:
+        name: Proyecto
+        params: size=10 maxlength=4
+        catalogo:
+          catalogoweb: Catippro_Almordcom
+          clase: Catippro
+          ajax: 5
+          parametros: getprincipal="getTippro" getsecundario="getDespro" campoprincipal="tippro" camposecundario="despro" campobase = "id"
+      forent:
+        name: Forma de Entrega
+        params: size=10 maxlength=4
+        catalogo:
+          catalogoweb: Caforent_Almordcom
+          clase: Caforent
+          ajax: 6
+          parametros: getprincipal="getForent" getsecundario="getDesforent" campoprincipal="forent" camposecundario="desforent" campobase = "id"
+      justif:      { name: Justificación, type: textarea_tag, params: size=80x5 maxlength=1000 onkeyup="ismaxlength(this)"}
+      tipfin:
+        name: Tipo de Financiamiento
+        params: size=10 maxlength=4
+        catalogo:
+          catalogoweb: Fortipfin_Almordcom
+          clase: Fortipfin
+          ajax: 7
+          parametros: getprincipal="getTipfin" getsecundario="getNomext" campoprincipal="tipfin" camposecundario="nomext" campobase = "id"
+      coduni:
+        name: Unidad Responsable
+        params: size=25 maxlength=30
+        catalogo:
+          catalogoweb: Bnubica_Almordcom
+          clase: Bnubica
+          ajax: 8
+          parametros: getprincipal="getCoduni" getsecundario="getDesubi" campoprincipal="coduni" camposecundario="desubi" campobase = "id"
+      codemp:
+        name: Empleado Responsable
+        params: size=20 maxlength=16
+        catalogo:
+          catalogoweb: Nphojint_Almordcom
+          clase: Nphojint
+          ajax: 9
+          parametros: getprincipal="getCodemp" getsecundario="getNomemp" campoprincipal="codemp" camposecundario="nomemp" campobase = "id"
+      codcen:
+        name: Centro de Costo
+        params: size=10 maxlength=4
+        catalogo:
+          catalogoweb: Cadefcen_Almsolegr
+          clase: Cadefcen
+          ajax: 10
+          parametros: getprincipal="getCodcen" getsecundario="getDescen" campoprincipal="codcen" camposecundario="descen" campobase = "id"
+      codcenaco:
+        name: Centro de Acopio
+        params: size=10 maxlength=4
+        catalogo:
+          catalogoweb: Cadefcenaco_Almsolegr
+          clase: Cadefcenaco
+          ajax: 11
+          parametros: getprincipal="getCodcenaco" getsecundario="getDescenaco" campoprincipal="codcenaco" camposecundario="descenaco" campobase = "id"
+      notord:   { name: Nota, type: textarea_tag, params: size=80x5 maxlength=1000 onkeyup="ismaxlength(this)"}
+      codmedcom:  {  name: Medio de Comunicación}
+      codprocom:  {  name: Tipo de Procedimiento}
+      codpai:  {  name: Pais}
+      codedo:  {  name: Estado}
+      codmun:  {  name: Municipio}
+      aplart:  {  name: Decreto 4000-Art 30}
+      aplart6:  {  name: Decreto 3798-Art 6}
+      numsigecof:  {  name: N° SIGECOF, params : size=10 maxlength=8}
+      fecsigecof: { name: Fecha, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      expsigecof:  {  name: Expediente, params : size=10 maxlength=8}
+      botgenres:   {  name: .}
+      botgenrespar:   {  name: .}
+      botgenfec:   {  name: .}
+      numproc: { name : N° de Procedimiento, params : size=40 maxlength=30}
+      tipocom: { name : Tipo de Compra, params : size=60 maxlength=50}
+      ceddon: { name : Cédula/R.I.F, params : size=20 maxlength=15}
+      nomdon: { name : Nombre, params : size=60 maxlength=50}
+      fecdon: { name : Fecha de Nacimiento, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      sexdon: { name : Sexo}
+      edaact: { name : Edad}
+      serdon: { name : Servicio Prestado}
+      status: { name : .}
+      codpro: { name : Contratista de Bienes o Servicio}
+      botespeciales: { name : .}
+      tipmon: { name: Moneda}
+      valmon: { name: Valor}
+      coddirec:
+        name: Dirección
+        params: size=10 maxlength=4
+        catalogo:
+          catalogoweb: Cadefdirec_Almdefdiv
+          clase: Cadefdirec
+          ajax: 17
+          parametros: getprincipal="getCoddirec" getsecundario="getDesdirec" campoprincipal="coddirec" camposecundario="desdirec" campobase = "id"
+      coddivi:
+        name: División
+        params: size=20 maxlength=15
+        catalogo:
+          catalogoweb: Cadefdivi_Almordcom
+          clase: cadefdivi
+          ajax: 18
+          parametros: getprincipal="getCoddivi" getsecundario="getDesdivi" campoprincipal="coddivi" camposecundario="desdivi" campobase = "id"
+          catalogoparams: /param1/'."'+$('caordcom_coddirec').value+'".'
+          ajaxparams: +'."'".'&coddirec='."'+$('caordcom_coddirec').value".'  
+      lugfec:   { name: Lugar y Fecha de Entrega, type: textarea_tag, params: size=80x3 maxlength=250 onkeyup="ismaxlength(this)"}
+      dirent:   { name: Dirección de Entrega, type: textarea_tag, params: size=80x3 maxlength=250 onkeyup="ismaxlength(this)"}
+      numpro:   { name: N° de Proceso, params: size=50 maxlength=30"}        
+    list:
+      title:          Ordenes de Compra y/o Servicio
+      filters:        [ordcom, fecord, codpro, codcen]
+      display:        [=ordcom, fecord, desord, codpro, monord]
+      object_actions:
+        _edit:          ~
+        _delete:        ~
+      max_per_page:   5
+      sort:           ordcom
+    edit:
+      title:          Edición de Orden de Compra y/o Servicio
+      display:
+        "Datos de la Orden":   [_status, ordcom, _fecord, _tipmon, valmon, _tipord, doccom, _gridsc, rifpro, desord, _tipo, _tipdes, monord, _botespeciales]
+        "Detalle de la Orden":   [_botrecargos, _gridrec, _grid, totrecargo, totorden]
+        "Resumen del Detalle":   [_botgenres, _gridres]
+        "Resumen por Partida Presupuestaria":   [_botgenrespar, _gridrespar]
+        "Cronograma de Entregas":   [_botgenfec, _gridfecent]
+        "Forma de Entrega o Despacho de la Orden":   [_gridforent]
+        "Otros Datos de la Orden":   [conpag, tippro, forent, lugfec, dirent, numpro, justif, tipfin, coduni, codemp, codcen, codcenaco, notord, coddirec, coddivi]
+        "Datos SNC":   [_codmedcom, _codprocom, numproc, _codpai, _codedo, _codmun, _aplart6, _aplart]
+        "Datos SIGECOF":   [numsigecof, fecsigecof, expsigecof]
+        "Datos del Beneficiario de la Donación":  [tipocom, ceddon, nomdon, fecdon, _sexdon, edaact, _serdon]
+      hide:    [ordcomdesh, refprc, refsol, tipopro, staord, manorddon, compro, manunialt, fechaanuserv, codpro, actualfila, totartsinrec]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~
+        _anular:
+          name: Anular
+          only_for: edit
+          params: class="sf_admin_action_delete" id="anular" onClick="Anular_orden()"

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/45926/web/php/siga/branches/productions/trunk/apps/documentos/modules/docpenv2/templates
+END
+_nroexp.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/40315/web/php/siga/branches/productions/trunk/apps/documentos/modules/docpenv2/templates/_nroexp.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/40303/web/php/siga/branches/productions/trunk/apps/documentos/modules/docpenv2/templates/ajaxSuccess.php
+END
+_estado.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/40727/web/php/siga/branches/productions/trunk/apps/documentos/modules/docpenv2/templates/_estado.php
+END
+_staate.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/40303/web/php/siga/branches/productions/trunk/apps/documentos/modules/docpenv2/templates/_staate.php
+END
+_fecdoc.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/40303/web/php/siga/branches/productions/trunk/apps/documentos/modules/docpenv2/templates/_fecdoc.php
+END
+_dfatendocdet.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/40303/web/php/siga/branches/productions/trunk/apps/documentos/modules/docpenv2/templates/_dfatendocdet.php
+END
+_diaent.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/40303/web/php/siga/branches/productions/trunk/apps/documentos/modules/docpenv2/templates/_diaent.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/45926/web/php/siga/branches/productions/trunk/apps/documentos/modules/docpenv2/templates/_edit_actions.php
+END
+_dfmedtra.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/40303/web/php/siga/branches/productions/trunk/apps/documentos/modules/docpenv2/templates/_dfmedtra.php
+END
+pendientesSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/40303/web/php/siga/branches/productions/trunk/apps/documentos/modules/docpenv2/templates/pendientesSuccess.php
+END

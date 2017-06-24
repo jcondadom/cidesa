@@ -1,0 +1,57 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npregconvar
+    theme:            cidesaGenerator
+    fields:      
+      codcon:
+        name: Concepto
+        params: size=15 maxlength=3
+        catalogo:
+          catalogoweb: Npdefcpt_asignarcategoriaxemp
+          clase: Npdefcpt
+          ajax: 1
+          parametros: getprincipal="getCodcon" getsecundario="getNomcon" campoprincipal="codcon" camposecundario="nomcom" campobase = "id"
+      codnom:
+        name: Nómina
+        params: size=10  maxlength=3
+        catalogo:
+          catalogoweb: Npnomina_nomdefespvar
+          clase: Npnomina
+          ajax: 2
+          parametros: getprincipal="getCodnom" getsecundario="getNomnom" campoprincipal="codnom" camposecundario="nomnom" campobase = "id"
+      fecnom: { name: Fecha de Nómina, params: date_format='dd/MM/yyyy' readOnly=true size=10 maxlength=10}
+      codemp:
+        name: Empleado
+        params: size=20  maxlength=16
+        catalogo:
+          catalogoweb: Presnomasitrabcont_Npasiempcont
+          clase: Nphojint
+          ajax: 3
+          parametros: getprincipal="getCodemp" getsecundario="getNomemp" campoprincipal="codemp" camposecundario="nomemp" campobase = "id"
+          catalogoparams: /param1/'."'+$('npregconvar_codnom').value+'".'
+          ajaxparams: +'."'".'&nomina='."'+$('npregconvar_codnom').value".'          
+      nomcar:     { name: Cargo, params: size=60}      
+      grid:   { name: .}    
+      nomemp:   { name: Nombre Emp.}
+      nomcon:   { name: Nombre Concepto}
+      nomnom:   { name: Nombre Nómina}
+    list:
+      title:          Registro de Conceptos Variables
+      filters:        [codcon, codnom, fecnom, codemp]
+      display:        [=codcon, nomcon, codnom, nomnom, codemp, nomemp, fecnom]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codcon           
+    edit:
+      title:          Registro de Conceptos Variables
+      display:
+        "Datos":    [codcon, codnom, fecnom, codemp, nomcar]
+        "Detalle":    [_grid]      
+      actions:
+        _list:          ~
+        _save:          ~
+        _delete:
+        _create:        ~

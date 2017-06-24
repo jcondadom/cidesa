@@ -1,0 +1,32 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Falisprc
+    theme:            cidesaGenerator
+    fields:
+      codprg: {name: Código del Programa}
+      codtipcli: {name: Tipo de Cliente}
+      conpag_id: {name: Condiciones de Pago}
+      fecvig: {name: Fecha de Vigencia}
+      fildes: {name: Código Artículo Desde }
+      filhas: {name: Código Artículo Hasta }
+      filcod: {name: Código de Artículo}
+      filnom: {name: Nombre de Artículo}
+      bfiltro: {name: . }
+      monglo: {name: . }
+      bmonglo: {name: . }
+      infofec: {name: . }
+      grid: {name: .}
+
+    edit:
+      title:          Edición de Lista de Precios de Artículos
+      display:
+           "Datos de la lista": [_codprg, _codtipcli, _conpag_id, fecvig]
+           "Filtro para consultar artículos": [_fildes, _filhas, _filcod, _filnom, _bfiltro]
+           "Aplicar monto global": [_monglo, _bmonglo]
+           "NONE"   : [_infofec, _grid]
+      actions:
+        _list:        NONE
+        _save:        ~
+        _delete:      ~
+        _create:      ~

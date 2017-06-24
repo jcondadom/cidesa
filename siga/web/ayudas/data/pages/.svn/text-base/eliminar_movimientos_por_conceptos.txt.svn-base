@@ -1,0 +1,15 @@
+====== Operación Eliminar ======
+
+Para **Eliminar** un determinado **Movimiento por Concepto**:  <html><br><br></html>
+
+  * Seleccionar de la **Lista** el **Código del Concepto** a eliminar.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompermovconmod.jpg|}}"></div><br></html>
+
+  * Presionar  {{:btnborrar.jpg|}}  <html><br><br></html>
+
+  * El sistema emite un **Mensaje de Confirmación** antes de eliminar.  
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br></html>
+ 
+  * Presionar **Aceptar**.   <html><br><br></html>
+ 
+  * El sistema nos lleva automáticamente a la **lista** con los **Movimientos por Conceptos** que poseen Rgistro de Salario Integral donde podemos observar que el registro se eliminó con éxito.

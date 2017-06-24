@@ -1,0 +1,27 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Rutavendedores
+    theme:            cidesaGenerator
+
+    fields:
+      _ruta:      {title: Ruta}
+      _vendedores:      {title: Vendedores}      
+      muestra_status: { name: Estatus}      
+      status: { name: Estatus}
+    list:      
+      title:          Registro de Rutas por Vendedores
+      display:        [_ruta, _vendedores, _muestra_status]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [ruta_id, vendedores_id]
+      max_per_page:   5
+    edit:
+      title:          Edición de Rutas del Vendedores 
+      display:	      [ruta_id, vendedores_id, _status]  
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

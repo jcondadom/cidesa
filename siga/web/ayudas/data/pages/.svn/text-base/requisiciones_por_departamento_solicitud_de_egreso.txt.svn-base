@@ -1,0 +1,16 @@
+====== Requisiciones por Departamento (Solicitud de Egreso) ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite registrar todas las solicitudes de egresos(Requisiciones) referentes a los Servicios y/o Articulos que sean requeridos por el almacén a la unidad de compras.</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Almacén** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalm.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Requisiciones por Departamento (Solicitud de Egreso)**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmsolegre.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Requisiciones por Departamento (Solicitud de Egreso)** veamos la [[Descripcion_Campos_Solicitud_Egreso|Descripción de los Campos]]

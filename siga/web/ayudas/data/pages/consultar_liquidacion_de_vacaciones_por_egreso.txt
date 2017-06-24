@@ -1,0 +1,20 @@
+====== Operación Consultar ======
+
+**Para consultar el registro de **Liquidación de Vacaciones por Egreso** de un determinado empleado:**   <html><br><br></html>
+
+  * Presione el **Botón**  {{:btnlista.jpg|}}    <html><br><br></html>
+
+  * Seleccione de la **Lista** el **Código del Trabajador** para el cual desea consultar el registro de Liquidación de Vacaciones por Egreso. <html><br><br></html> 
+
+  * El sistema automáticamente muestra el registro de Liquidación de Vacaciones por Egreso del trabajador seleccionado.<html><br><br></html>
+
+  * Si desea consultar la Liquidación de Vacaciones por Egreso de un nuevo empleado debe presionar nuevamente el** Botón** {{:btnlista.jpg|}}  y repetir los pasos anteriores. <html><br><br></html>
+
+
+**Para consultar datos desde el Inicio de la pantalla de Liquidación de Vacaciones por Egreso:**  <html><br><br></html>
+
+  * El sistema muestra la **Lista** de todos aquellos trabajadores que poseen registrados la Liquidación de Vacaciones por Egreso.<html><br><br></html>
+
+  * Seleccione de la **Lista** el **Código del Trabajador** para el cual desea consultar la liquidación. <html><br><br></html>
+
+  * El sistema automáticamente muestra la solicitud de vacaciones del empleado seleccionado.<html><br><br></html>

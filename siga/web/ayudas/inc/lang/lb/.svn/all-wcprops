@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb
+END
+locked.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/locked.txt
+END
+conflict.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/conflict.txt
+END
+backlinks.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/backlinks.txt
+END
+editrev.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/editrev.txt
+END
+password.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/password.txt
+END
+searchpage.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/searchpage.txt
+END
+updateprofile.txt
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/updateprofile.txt
+END
+pwconfirm.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/pwconfirm.txt
+END
+index.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/index.txt
+END
+login.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/login.txt
+END
+diff.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/diff.txt
+END
+read.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/read.txt
+END
+recent.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/recent.txt
+END
+preview.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/preview.txt
+END
+revisions.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/revisions.txt
+END
+register.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/register.txt
+END
+edit.txt
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/edit.txt
+END
+newpage.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/newpage.txt
+END
+mailtext.txt
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/mailtext.txt
+END
+registermail.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/registermail.txt
+END
+uploadmail.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/uploadmail.txt
+END
+denied.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/denied.txt
+END
+admin.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/admin.txt
+END
+norev.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/norev.txt
+END
+lang.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/lang.php
+END
+adminplugins.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/adminplugins.txt
+END
+resendpwd.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/resendpwd.txt
+END
+showrev.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/showrev.txt
+END
+draft.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/lang/lb/draft.txt
+END

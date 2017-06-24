@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/44642/web/php/siga/branches/productions/trunk/apps/licitaciones/modules/liccropag/templates
+END
+_js.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/44221/web/php/siga/branches/productions/trunk/apps/licitaciones/modules/liccropag/templates/_js.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/44221/web/php/siga/branches/productions/trunk/apps/licitaciones/modules/liccropag/templates/ajaxSuccess.php
+END
+_gridcroent.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/44221/web/php/siga/branches/productions/trunk/apps/licitaciones/modules/liccropag/templates/_gridcroent.php
+END
+_gridactas.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/44642/web/php/siga/branches/productions/trunk/apps/licitaciones/modules/liccropag/templates/_gridactas.php
+END
+_gridforpag.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/44221/web/php/siga/branches/productions/trunk/apps/licitaciones/modules/liccropag/templates/_gridforpag.php
+END

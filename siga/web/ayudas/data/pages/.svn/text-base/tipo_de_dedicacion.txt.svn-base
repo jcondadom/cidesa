@@ -1,0 +1,27 @@
+====== Tabla de Dedicación ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite definir la Dedicación que tiene un empleado dentro de la Empresa ó Institución. </html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Personal** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperper.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Tipo de Dedicación**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompertipded.jpg|}}"></div><br></html>
+
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Tipo de Dedicación** solo podrá realizar las Operaciones Básicas de:
+
+  * [[Incluir Tipo de Dedicación|Incluir]]
+
+  * [[Modificar Tipo de Dedicación|Modificar]]
+
+  * [[Eliminar Tipo de Dedicación|Eliminar]]
+
+  * [[Consultar Tipo de Dedicación|Consultar]]

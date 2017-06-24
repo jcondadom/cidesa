@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/35268/web/php/siga/branches/productions/trunk/apps/compras/modules/generales/templates
+END
+autocompleteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/compras/modules/generales/templates/autocompleteSuccess.php
+END
+catalogov2Success.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/compras/modules/generales/templates/catalogov2Success.php
+END
+error404Success.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/compras/modules/generales/templates/error404Success.php
+END
+nologinSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/compras/modules/generales/templates/nologinSuccess.php
+END
+disabledSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/35268/web/php/siga/branches/productions/trunk/apps/compras/modules/generales/templates/disabledSuccess.php
+END
+routingSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/compras/modules/generales/templates/routingSuccess.php
+END
+errores.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/compras/modules/generales/templates/errores.php
+END
+loginSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/compras/modules/generales/templates/loginSuccess.php
+END
+catalogoSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/compras/modules/generales/templates/catalogoSuccess.php
+END
+nocredentialsSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/compras/modules/generales/templates/nocredentialsSuccess.php
+END
+_filters.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/compras/modules/generales/templates/_filters.php
+END

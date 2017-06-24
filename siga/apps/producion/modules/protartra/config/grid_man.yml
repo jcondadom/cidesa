@@ -1,0 +1,51 @@
+opciones:                  # Opciones generales
+  name:                    c
+  eliminar:                true
+  tabla:                   famantartra
+  anchogrid:               850
+  ancho:                   750
+  filas:                   1
+  titulo:                  ' Personal necesario para la Ejecución de las Actividades '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Cód. del Cargo
+  tipo:                    t
+  nombrecampo:             codman
+  html:                    ["size=10 maxlength=16"]
+  esgrabable:              true
+  ajaxgrid:                true  
+  catalogo:                [Npcargos, sf_admin_edit_form, {Codman: 1, Desman: 2}, Viadettabcar_Npcargos ]
+2:       # Columna 2
+  titulo:                  Denominación del Cargo
+  tipo:                    t
+  nombrecampo:             desman
+  html:                    ["size=30 readOnly=true"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Cód. Personal
+  tipo:                    t
+  nombrecampo:             codemp
+  html:                    ["size=10 maxlength=16"]
+  esgrabable:              true
+  ajaxgrid:                true  
+  #catalogo:                [Nphojint, sf_admin_edit_form, {Codemp: 3, Nomemp: 4}, Personal_Nphojint ]
+4:       # Columna 4
+  titulo:                  Nombres y Apellidos
+  tipo:                    t
+  nombrecampo:             nomemp
+  html:                    ["size=30 readOnly=true"]
+  esgrabable:              true  
+5:      # Columna 5
+  titulo:                  Horas Planificadas
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             horpla
+  esnumerico:              true  
+  html:                    ["size=10"]
+6:      # Columna 6
+  titulo:                  Horas Ejecutadas
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             horeje
+  esnumerico:              true  
+  html:                    ["size=10 readOnly=true"]

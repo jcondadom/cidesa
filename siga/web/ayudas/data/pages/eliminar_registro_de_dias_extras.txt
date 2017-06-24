@@ -1,0 +1,14 @@
+====== Operación Eliminar ======
+
+Para **Eliminar** el **Registro de Dias Extras** de una determinada Tipo de Nómina: <html><br><br></html>
+
+  * Seleccionar de la ** Lista** el **Código de la Nómina** para el cual desea eliminar el Registro de Días Extras. <html><br><br></html>
+
+ * Presionar  {{:btnborrar.jpg|}}  <html><br><br></html>
+
+  * El sistema emite un mensaje de confirmación antes de eliminar.  
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br></html>
+ 
+  * Presionar **Aceptar**.   <html><br><br></html>
+ 
+  * El sistema nos lleva automáticamente a la lista con las Nóminas que poseen Registro de Días Extras.

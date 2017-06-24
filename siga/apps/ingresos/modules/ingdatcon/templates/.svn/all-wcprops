@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/41285/web/php/siga/branches/productions/trunk/apps/ingresos/modules/ingdatcon/templates
+END
+_tipcon.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/ingresos/modules/ingdatcon/templates/_tipcon.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/ingresos/modules/ingdatcon/templates/ajaxSuccess.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/41285/web/php/siga/branches/productions/trunk/apps/ingresos/modules/ingdatcon/templates/editSuccess.php
+END
+_naccon.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/ingresos/modules/ingdatcon/templates/_naccon.php
+END
+listSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/41285/web/php/siga/branches/productions/trunk/apps/ingresos/modules/ingdatcon/templates/listSuccess.php
+END

@@ -1,0 +1,74 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cppagos
+    theme:            cidesaGenerator
+    fields:
+      refpag:  {name: Referencia, params: onblur=rellenar() maxlength=8}
+      mensaje: {name: .}
+      fecpag:  {name: Fecha, params: date_format='dd/MM/yy'}
+      despag:  {name: Descripción, type: textarea_tag, params: size=80x5}
+      monpag:  {name: Monto Pagado, params: readonly=true size=10}
+      salaju2: {name: Ajustado, params: readonly=true size=10}
+      salpag:  {name: Pagado, params: readonly=true size=10}
+      totnet:  {name: Total Neto, params: readonly=true size=10}
+      cedrif:
+        name: Cedula/Rif
+        catalogo:
+          catalogoweb: Preprecom_Opbenefi
+          clase: Opbenefi
+          ajax: 4
+          parametros: getprincipal="getCedrif" getsecundario="getNomben" campoprincipal="cedrif" camposecundario="nomben" campobase = "id"
+      tippag:
+        name: Tipo Pagado
+        catalogo:
+          catalogoweb: Prepagar_Cpdocpag
+          clase: Cpdocpag
+          ajax: 2
+          parametros: getprincipal="getTippag" getsecundario="getNomext" campoprincipal="tippag" camposecundario="nomext" campobase = "id"
+          ajaxparams: +'."'".'&fecpag='."'+$('cppagos_fecpag').value".'
+      refcau:
+        name: Referencia
+        catalogo:
+          catalogoweb: Cpcausad_Prepagar
+          clase: Cppagos
+          ajax: 3
+          parametros: getprincipal="getRefcau" getsecundario="getDescau" campoprincipal="refcau" camposecundario="descau" campobase = "id"
+          catalogoparams: param1/'."'+$('cppagos_tippag').value.replace('/','*')+'".'/param2/'."'+$('cppagos_fecpag').value.replace('/','*').replace('/','*')+'".'
+          ajaxparams: +'."'".'&tippag='."'+$('cppagos_tippag').value".'+'."'".'&fecpag='."'+$('cppagos_fecpag').value".'
+          divupdate: divgrid
+      grid:      {name: .}
+      grid2: {name: . }
+      toteve: {name: Total Eventos, params: size=10 disabled=false readonly=true}
+      btn: {name: . }
+      coddirec:
+        name: Dirección
+        params: size=3 maxlength=15
+        catalogo:
+          catalogoweb: Cadefdirec_Almdefdiv
+          clase: cadefdirec
+          ajax: 5
+          parametros: getprincipal="getCoddirec" getsecundario="getDesdirec" campoprincipal="coddirec" camposecundario="desdirec" campobase = "id"
+    list:
+      title:    Pagados
+      display:  [=refpag, despag, fecpag]
+      filters:  [refpag, fecpag, despag]
+
+    edit:
+      title:  Edición de Pagados
+      display:
+        Datos del documento:           [_mensaje, _btn, _refpag, fecpag, despag, coddirec]
+        Datos del Pagado:              [tippag, refcau]
+        Datos del Beneficiario:        [cedrif]
+        Imputaciones Presupuestarias:  [_grid, _grid2]
+        Saldos:                        [salaju2, _salpag, monpag, totnet, toteve]
+      hide: [refer, stapag]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _anular:
+          name: Anular
+          only_for: edit
+          params: class="sf_admin_action_delete" onClick="anular()"
+        _delete:      ~

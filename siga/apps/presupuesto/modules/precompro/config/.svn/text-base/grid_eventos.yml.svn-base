@@ -1,0 +1,45 @@
+opciones:                  # Opciones generales
+  name:                    b
+  eliminar:                true
+  tabla:                   cpdiseve
+  anchogrid:               850
+  ancho:                   1000
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Presupuestario
+  tipo:                    t
+  nombrecampo:             codpre
+  html:                    ["size=30"]
+  esgrabable:              true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: cpcompro_detprecom}
+2:       # Columna 2
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monimp
+  html:                    ["size=10 readOnly=true"]
+  esgrabable:              true
+3:      # Columna 3
+  titulo:                  Código del Evento
+  tipo:                    t
+  nombrecampo:             codeve
+  html:                    ["size=30 maxlength=6" ]
+  esgrabable:              true
+  ajaxgrid:                true
+  catalogo:                [ cpevepre, sf_admin_edit_form, { codeve: 3, deseve: 4 }, Preprecom_Cpevepre ]
+4:      # Columna 4
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             deseve
+  html:                    ["size=40  readOnly=true " ]
+  esgrabable:              true
+5:       # Columna 5
+  titulo:                  Monto del Evento
+  tipo:                    m
+  nombrecampo:             moneve
+  html:                    ["size=10"]
+  esgrabable:              true
+  ajaxgrid:                true
+  estotal:                 [ true, cpcompro_toteve ]

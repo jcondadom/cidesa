@@ -1,0 +1,51 @@
+Los campos que conforman la pantalla de **Bancos** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbancoinc1.jpg|}}"></div><br></html>
+
+  * **Número Cuenta:** Corresponde al identificador de la Cuenta Bancaria que será utilizada para manejar las diferentes transacciones bancarias en la Institución.<html><br><br></html>
+
+  * **Nombre del Banco:** Denominación que permitirá identificar el Banco en que se apertura la Cuenta Bancaria. <html><br><br></html>
+
+  * **Tipo de Cuenta:** Se refiere a la clase de Cuenta Bancaria que maneja un banco. Por ejemplo: Cuenta de Ahorros, Cuenta Corriente, Cuenta a Plazo Fijo. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema automáticamente muestra una [[Listas|Lista]] con los tipos de cuenta que fueron registradas previamente en la pantalla [[tesoreria_tipos_cuentas_bancarias|Tipos de Cuentas Bancarias]] donde debe seleccionar el registro correspondiente. <html><br><br></html> 
+
+  * **Código Contable:** Representa el identificador de la cuenta contable según el formato establecido en la Definición Contable, que se asocia a la operación ó documento que se está emitiendo. <html><br><br></html>
+ 
+  * **Validez del Documento(Dias):** Corresponde al número de días que tendrá vigencia el Documento emitido. <html><br><br></html>
+
+  * **Fecha de Período:** Debe seleccionar del [[calendario|Calendario]] el día en que se inicia el período para las imputaciones presupuestarias. Generalmente coincide con el día de Inicio del Ejercicio de la Institución. <html><br><br></html>
+
+  * **Fecha de Vencimiento:** Indica el día en que dejará de tener validez el documento. <html><br><br></html>
+
+  * **Conciliable:** Permite seleccionar dentro del círculo "Sí" ó "No" si la Cuenta Bancaria participará en la Conciliación Bancaria de la Institución. <html><br><br></html>
+ 
+  * **Renovación Automática:** Permite seleccionar dentro del círculo "Sí" ó "No" si la Cuenta Bancaria será actualizada automáticamente por el Sistema. <html><br><br></html>
+
+  * **Fecha de Apertura:** Fecha en que se aperturó la cuenta Bancaria.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbancoinc2.jpg|}}"></div><br></html>
+
+  * En la pestaña **Información General**: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Grupo:** Indica las Cuentas Bancarias que se asocian con fines de pago comunes.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Uso de la Cuenta:** En este campo se indica el uso que va ha tener la cuenta.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Tipo de rendimiento:** En este campo se coloca el código del Tipo de rendimiento y generará automáticamente la descripción del mismo. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una lista con los tipos de rendimientos que fueron registrados previamente en la pantalla [[tesoreria_tipos_de_rendimiento|Tipos de Rendimiento]].
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Saldo Anterior en Banco:** Indica el saldo que trae la Institución del último Ejercicio Contable, según los registros bancarios.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Saldo Anterior en Libro:** Indica el saldo que trae la Institución del último Ejercicio Contable, según los registros en Libros.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Débitos en Bancos:** Indica el monto del pago de una deuda contraída por la Institución, registrada en Banco hasta la fecha.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Débitos en Libros:** Indica el monto del pago de una deuda contraída por la Institución, registrada en Libros hasta la fecha.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Créditos en Banco:** Representa el monto del pago de una deuda a la Institución, registrada en Banco hasta la fecha.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Créditos en Libro:** Representa el monto del pago de una deuda a la Institución, registrada en Libros hasta la fecha.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbancoinc3.jpg|}}"></div><br></html>
+
+  * En la pestaña **Manejo de Chequeras:** Permite controlar a través de un [[Grid|Grid]] el correlativo de los números de cheques y corroborar si el número del cheque que se esta emitiendo está dentro del rango definido. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Banco** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

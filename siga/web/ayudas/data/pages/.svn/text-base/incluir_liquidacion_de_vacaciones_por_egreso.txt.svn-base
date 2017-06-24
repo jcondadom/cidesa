@@ -1,0 +1,35 @@
+====== Operación Incluir ======
+
+Para **Registrar** la Liquidación de las vacaciones de un determinado trabajador:<html><br><br></html>
+
+  * Seleccionar el **Código del Empleado** para el cual se registrará la liquidación de las vacaciones.<html><br><br></html>
+
+  * El sistema automáticamente muestra la **Fecha de Ingreso** del empleado.<html><br><br></html>
+
+  * Ingrese la **Fecha de Egreso** de la institución por parte del trabajador.<html><br><br></html>
+
+  * Ingrese el **Último Sueldo** cobrado por el trabajador.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperliqvacporegreinc1.jpg|}}"></div><br></html>
+
+  * Seguidamente observará la tabla **Vacaciones por Disfrutar** la cual posee la siguiente información:
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**Período Desde:**En dicha columna se muestra el periodo inicial del rango de acuerdo a la antiguedad del trabajador.<html><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**Período Hasta:**En esta columna se muestra el periodo final del rango de acuerdo a la antiguedad del trabajador.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**Días de Disfrute:**En esta columna se muestran los días que quedaron pendientes por disfrutar por parte del trabajador.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**Días Bono Vacacional:**En esta columna se muestran los días pendientes del bono vacacional.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**Días a Cancelar:**En esta columna se muestra la suma de los días de disfrute mas los días de bono vacacional.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**Monto del Período:**En esta columna se muestra la suma de los días de disfrute mas los días de bono vacacional.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperliqvacporegreinc2.jpg|}}"></div><br></html>
+
+  * Por último encontramos la tabla de Historial de Disfrute de Vacaciones donde se indican los períodos vacacionales que el empleado ya disfrutó, señalando por cada período los **Días a Disfrutar** y los **Días Disfrutados**.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperliqvacporegreinc3.jpg|}}"></div><br></html>
+
+Presione el Botón <html>&nbsp;&nbsp;</html>{{:btnguardar.jpg|}} para almacenar la información.

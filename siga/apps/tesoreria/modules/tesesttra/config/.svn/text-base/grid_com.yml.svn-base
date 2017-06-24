@@ -1,0 +1,50 @@
+opciones:                  # Opciones generales
+  name:                    d
+  eliminar:                false
+  tabla:                   cpcompro
+  anchogrid:               1000
+  ancho:                   820
+  filas:                   0
+  titulo:                  ' Compromiso '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Referencia
+  tipo:                    t
+  nombrecampo:             refcom
+  html:                    ["size=10 readonly=true" ]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Fecha
+  tipo:                    f
+  nombrecampo:             feccom
+  html:                    ["size=10 readonly=true"]
+  esgrabable:              true  
+3:       # Columna 3
+  titulo:                  Tipo
+  tipo:                    t
+  nombrecampo:             tipcom
+  html:                    ["size=10 readonly=true"]
+  esgrabable:              true  
+4:       # Columna 4
+  titulo:                  Beneficiario
+  tipo:                    t
+  nombrecampo:             cedrif
+  html:                    ["size=15 readonly=true"]  
+5:       # Columna 5
+  titulo:                  Beneficiario
+  tipo:                    t
+  nombrecampo:             nomben
+  html:                    ["size=25 readonly=true"]
+  esgrabable:              true    
+6:       # Columna 6
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             descom
+  html:                    ["size=40x2 readonly=true" ]
+  esgrabable:              true
+7:       # Columna 7
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             moncom
+  html:                    ["size=10 readonly=true" ]
+  esgrabable:              true

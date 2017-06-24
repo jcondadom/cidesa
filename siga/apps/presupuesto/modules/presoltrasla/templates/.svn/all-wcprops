@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/61792/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/templates
+END
+indexSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/45478/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/templates/indexSuccess.php
+END
+_edit_footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/61792/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/templates/_edit_footer.php
+END
+_grid2.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/50175/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/templates/_grid2.php
+END
+_botones.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/45478/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/templates/_botones.php
+END
+_detalle.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/45478/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/templates/_detalle.php
+END
+_tipo.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/45478/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/templates/_tipo.php
+END
+anularSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/45478/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/templates/anularSuccess.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/58920/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/templates/ajaxSuccess.php
+END
+_criterio.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/58062/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/templates/_criterio.php
+END
+aprobarSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/45478/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/templates/aprobarSuccess.php
+END
+_etiqueta.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/45478/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/templates/_etiqueta.php
+END
+_btn.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/61792/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/templates/_btn.php
+END
+salvaraprSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repositorio/!svn/ver/45478/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/templates/salvaraprSuccess.php
+END
+salvaranuSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repositorio/!svn/ver/45478/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/templates/salvaranuSuccess.php
+END
+_tipgas.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/56496/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/templates/_tipgas.php
+END
+_grid_perdes.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/58920/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/templates/_grid_perdes.php
+END
+_grid_perhas.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/58920/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/templates/_grid_perhas.php
+END

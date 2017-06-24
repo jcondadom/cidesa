@@ -1,0 +1,131 @@
+methods:
+  post:
+   - "liregofe{codempadm}"
+   - "liregofe{codempeje}"
+   - "liregofe{numofe}"
+   - "liregofe{numexp}"
+   - "liregofe{fecreg}"
+   - "liregofe{dias}"
+   - "liregofe{fecven}"
+   - "liregofe{codpro}"
+   - "liregofe{codtipemp}"
+   - "liregofe{ofenro}"
+   - "liregofe{fecofe}"
+
+
+names:
+  liregofe{codempadm}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  liregofe{codempeje}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  liregofe{numofe}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numofe
+
+  liregofe{numexp}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numexp
+
+  liregofe{fecreg}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  liregofe{dias}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: MyNumberValidator
+
+  liregofe{fecven}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  liregofe{codpro}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codpro
+    
+  liregofe{codtipemp}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codtipemp
+    
+  liregofe{ofenro}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+
+  liregofe{fecofe}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+Validator_codemp:
+    class: CidesaExistValidator
+    param:
+        class:        Lidatstedet
+        column:       codemp
+        unique_error: El Empleado no existe
+
+Validator_numexp:
+    class: CidesaExistValidator
+    param:
+        class:        Liplieesp
+        column:       numexp
+        unique_error: El Expediente no Existe
+
+
+Validator_numofe:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Liregofe
+        column:       numofe
+        unique_error: El numero ya existe no puede repetirse
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+MyNumberValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]
+
+
+
+MyNumberValidator_Cosplie:
+    class: sfNumberValidator
+    param:
+        type:         decimal
+        type_error:   Por favor, Introduzca Números Decimales
+        nan_error:    Por Favor, introduzca un Número Decimal
+        min:          1.0
+        min_error:    El valor tiene que ser mayor que cero
+        max:          999999999999.99
+        max_error:    El valor debe contener maximo 9999999999.99
+
+Validator_codpro:
+    class: CidesaExistValidator
+    param:
+        class:        Liemppar
+        column:       codpro
+        unique_error: El proveedor no Existe
+
+
+Validator_codtipemp:
+    class: CidesaExistValidator
+    param:
+        class:        Litipemp
+        column:       codemp
+        unique_error: El tipo de Empresa no Existe

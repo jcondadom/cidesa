@@ -1,0 +1,25 @@
+====== Operación Incluir ======
+
+Para **Registrar** una determinada Parroquia: <html><br><br></html>
+
+  * Presione el **Botón** {{:btnnuevo.jpg|}}
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontparinc1.jpg|}}"></div><br></html>
+
+  * Seleccione el **País**. <html><br><br></html>
+
+  * Seleccione el **Estado**. <html><br><br></html>
+
+  * Seleccione el **Muncipio** para el cual registrará las Parroquias.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontparinc2.jpg|}}"></div><br></html>
+
+  * Ingrese el **Código** que identificará a la Parroquia. <html><br><br></html>
+
+  * Ingrese el **Nombre** que haga referencia a la Parroquia.<html><br><br></html>
+
+  * Presione el **Botón**  {{:btnguardar.jpg|}} para registrar la información.
+
+
+
+

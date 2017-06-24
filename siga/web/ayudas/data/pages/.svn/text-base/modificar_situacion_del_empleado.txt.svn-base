@@ -1,0 +1,13 @@
+====== Operación Modificar ======
+
+Para la operación de Modificar:  <html><br><br></html>
+
+  * Seleccionar de la **Lista** la **Situación** a modificar. 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompersitempmod.jpg|}}"></div><br></html>
+
+  * El sistema muestra los datos de la **Situación** seleccionada. <html><br><br></html>
+
+  * Realice las modificaciones en base a la **Situación** seleccionada. El único dato que se puede modificar es la **Descripción de la Situación del Empleado**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/"></div><br></html>
+
+  * Presionar {{:btnguardar.jpg|}} para registrar los datos. 

@@ -1,0 +1,18 @@
+indexSuccess:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Cidesa - Home
+    robots:       index, follow
+    description:  Home de Cidesa
+    keywords:     cidesa, portal, home, login
+    language:     es_VE
+
+  stylesheets:    [main]
+
+  javascripts:    [%SF_PROTOTYPE_WEB_DIR%/js/prototype, %SF_PROTOTYPE_WEB_DIR%/js/scriptaculous , tools, ajax, observer, bootstrap]
+  
+  has_layout:     on
+  layout:         layout
+

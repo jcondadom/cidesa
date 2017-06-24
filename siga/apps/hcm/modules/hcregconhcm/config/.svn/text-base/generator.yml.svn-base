@@ -1,0 +1,86 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Hcregconhcm
+    theme:            cidesaGenerator
+    fields:
+      codemp : { name: Codigo, params : readonly=true}
+      cedemp:
+        name: Cedula
+        params: maxlength=15
+        catalogo:
+          catalogoweb: Nphojint_codtit
+          clase: Nphojint
+          ajax: 1
+          parametros: getprincipal="getCedemp" getsecundario="getCodemp" campoprincipal="cedemp" camposecundario="codemp" campobase = "id"
+          divupdate: divgrid
+          ajaxparams: +'."'".'&codemp='."'+$('hcregconhcm_codemp').value".'
+      nomemp: { name: Nombre, params : size=50 readonly=true}
+      nomnom: { name: Nomina, params : size=50 readonly=true}
+      codttrab: { name: Tipo de Trabajador, params : size=20 readonly=true}
+      cedfam:
+        name: Cedula
+        params: maxlength=15
+        catalogo:
+          catalogoweb: Npinffam_codben
+          clase: Npinffam
+          ajax: 2
+          parametros: getprincipal="getCedfam" getsecundario="getNomfam" campoprincipal="cedfam" camposecundario="nomfam" campobase = "id"
+          catalogoparams: /param1/'."'+$('hcregconhcm_codemp').value+'".'
+          ajaxparams: +'."'".'&cedemp='."'+$('hcregconhcm_cedemp').value+'".'&codemp='."'+$('hcregconhcm_codemp').value+'".'&tiphcm='."'+$('hcregconhcm_tiphcm').value+'".'&misben='."'+$('hcregconhcm_misben').checked".'
+      parfam: { name: Parentesco, params : size=20 readonly=true}
+      tiphcm: { name: Tipo, params : size=10}
+      rifpro:
+        name: R.I.F
+        params: maxlength=15
+        catalogo:
+          catalogoweb: Caprovee_rifcli
+          clase: Caprovee
+          ajax: 3
+          parametros: getprincipal="getRifpro" getsecundario="getNompro" campoprincipal="rifpro" camposecundario="nompro" campobase = "id"
+          catalogoparams: /param1/'."'+$('hcregconhcm_codramhcm').value+'".'
+          ajaxparams: +'."'".'&codramhcm='."'+$('hcregconhcm_codramhcm').value".'
+      dirpro: { name: Direccion, type: textarea_tag, params: size=65x2 maxlength=110 readonly=true}
+      telpro: { name: Telefono, params : size=20 readonly=true}
+      feccon: { name: Fecha del Consumo}
+      moncon: { name: Monto del Consumo, params : size=20}
+      geneop: { name: Genera Orden de Pago}
+      misben: { name: ¿Mismo Beneficiario?, type: checkbox_tag, params: onClick='colocarDatosBen()'}
+      grid:  {name: .}
+      nrofac: { name: Número de Factura, params: size=50 maxlength=50}
+      fecfac:  {name: Fecha Factura, params: size=20 maxlength=10 date_format=dd/MM/yyyy}
+      fecrecfac:  {name: Fecha Recep. Factura, params: size=20 maxlength=10 date_format=dd/MM/yyyy}
+      genop: { name: Genera OP, type: checkbox_tag}
+      titpro: { name: Op a Nombre del Proveedor, type: checkbox_tag}
+    list:
+      fields:
+        codemp: {name: Titular, params : readonly=false}
+        cedfam: {name: Beneficiario}
+        rifpro: {name: Clinica}
+        feccon: {name: Fecha, params: date_format='dd/MM/yyyy' size=12 maxlength=10}
+        nrofac: {name: Factura, params: size=30 maxlength=30}
+        numord: {name: Orden de Pago, params: size=10 maxlength=8}
+        numche: {name: No. Cheque, params: readonly=false size=12 maxlength=20}
+      title:          Registro de Consumos de HCM
+      display:        [=codemp, cedfam, rifpro, feccon, numord, numche, tiphcm, nrofac]
+      object_actions:
+        _edit:        ~
+        _delete:      NONE
+      filters:        [codemp, cedfam, rifpro, feccon, nrofac, numord, tiphcm]
+      max_per_page:   10
+      sort:           codemp
+
+    edit:
+      title:          Registro de Consumos de HCM
+      display:
+        "Información del Titular": [cedemp, nomemp, nomnom, codttrab, misben, _grid]
+        "Información del Beneficiario": [cedfam, parfam]
+        "Información de la Clinica": [rifpro, dirpro, telpro]
+        "Informacion del Consumo": [_tiphcm, _feccon, moncon]
+        "Otra Información": [nrofac, fecfac, fecrecfac, genop, titpro]
+      hide:  [codramhcm]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

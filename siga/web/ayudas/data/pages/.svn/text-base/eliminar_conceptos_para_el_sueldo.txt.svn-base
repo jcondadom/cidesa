@@ -1,0 +1,15 @@
+====== Operación Eliminar ======
+
+Para la operación de Eliminar:
+
+  * Seleccionar de la **Lista** el **Tipo de Nómina** a la cual desea eliminar los Conceptos para el Sueldo.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconsuemod.jpg|}}"></div><br></html>
+
+  * El sistema muestra los datos del Tipo de Nómina seleccionado. <html><br><br></html> 
+
+  * Presionar  {{:btnborrar.jpg|}}   <html><br><br></html> 
+
+  * El sistema emite un **Mensaje de Confirmación** antes de eliminar.
+ <html><br><div> <align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br></html>
+
+  * Presionar **Aceptar**.   <html><br><br></html>

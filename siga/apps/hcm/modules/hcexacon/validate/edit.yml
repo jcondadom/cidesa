@@ -1,0 +1,38 @@
+methods:
+  post:
+   - "hcexacon{refexacon}"
+   - "hcexacon{codemp}"
+   - "hcexacon{cedfam}"
+   - "hcexacon{codmedlab}"
+   - "hcexacon{fecexacon}"
+   - "hcexacon{traexacon}"
+   - "hcexacon{durexacon}"
+
+names:
+  hcexacon{refexacon}:
+    required:  Yes
+    required_msg: Introduzca el Código de Referencia
+
+  hcexacon{codemp}:
+    required:  Yes
+    required_msg: Introduzca la Cedula del Titular
+
+  hcexacon{cedfam}:
+    required:  Yes
+    required_msg: Introduzca la Cedula del Beneficiario
+
+  hcexacon{codmedlab}:
+    required:  Yes
+    required_msg: Introduzca el Código del Médico o Laboratorio
+
+  hcexacon{fecexacon}:
+    required:  Yes
+    required_msg: Introduzca la Fecha del Examen o Consulta
+
+  hcexacon{traexacon}:
+    required:  Yes
+    required_msg: Introduzca el Diagnostico o Tratamiento
+
+  hcexacon{durexacon}:
+    required:  Yes
+    required_msg: Introduzca la Duración del Tratamiento

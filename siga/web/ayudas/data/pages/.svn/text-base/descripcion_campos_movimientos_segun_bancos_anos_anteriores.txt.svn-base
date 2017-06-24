@@ -1,0 +1,17 @@
+Los campos que conforman la pantalla **Movimientos Según Bancos Años Anteriores** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbancmovsegbananosantinc1.jpg|}}"></div><br></html>
+
+  * **Cuenta del Banco:** Indica Código y Descripción del banco al que pertence la cuenta bancaria. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[Lista|Lista]] con los bancos que fueron registrados previamente en la pantalla [[tesoreria_banco|Bancos]] de donde debe seleccionar el registro que desee. <html><br><br></html>
+
+  * **Referencia:** Indica el número de referencia correspondiente al Movimiento según Banco Años Anteriores. <html><br><br></html>
+
+  * **Fecha del Movimiento:** Seleccione del [[calendario|Calendario]] el día, mes y año en que se realiza la operación o transacción en el Banco. <html><br><br></html>
+
+  * **Tipo de Movimiento:** Indica los tipos de movimientos bancarios existentes. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[Lista|Lista]] con los movimientos bancarios que fueron definidos previamente en el sistema en la pantalla [[tesoreria_tipos_de_movimientos_bancarios|Tipos de Movimientos Bancarios]]. <html><br><br></html>
+
+  * **Descripción:** Se refiere a una breve explicación de la razón por la que se realiza una operación en el Banco. <html><br><br></html>
+
+  * **Monto:** Refiere al monto de la operación. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Tipos de Monedas** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

@@ -1,0 +1,91 @@
+methods:
+  post:
+   - "npasicaremp{codemp}"
+   - "npasicaremp{codcar}"
+   - "npasicaremp{codnom}"
+   - "npasicaremp{codcat}"
+   - "npasicaremp{codttrab}"
+   - "npasicaremp{codcen}"
+   - "npasicaremp{fecasi}"
+
+
+names:
+  npasicaremp{codemp}:
+    required:  Yes
+    required_msg: El Código del Empleado no puedo estar en Blanco.
+    validators: EmpleadoValidator
+
+  npasicaremp{codnom}:
+    required:  Yes
+    required_msg: El Código de la Nómina no puedo estar en Blanco.
+    validators: NominaValidator    
+
+  npasicaremp{codcar}:
+    required:  Yes
+    required_msg: El Código del Cargo no puedo estar en Blanco.
+    validators: CargoValidator
+
+  npasicaremp{fecasi}:
+    required:  No
+    validators: FechaValidator    
+
+  npasicaremp{codcat}:
+    required:  No
+    validators: CategoriaValidator
+
+  npasicaremp{codcen}:
+    required:  No
+    validators: CentroValidator
+
+  npasicaremp{codttrab}:
+    required:  No
+    validators: TtrabValidator    
+
+EmpleadoValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Nphojint
+        column:   codemp
+        unique_error:   El Código del Empleado no existe.
+
+CargoValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Npcargos
+        column:   codcar
+        unique_error:   El Código del Cargo no existe.
+
+CategoriaValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Npcatpre
+        column:   codcat
+        unique_error:   El Código de la Categoria no existe.
+
+CentroValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Cadefcen
+        column:   codcen
+        unique_error:   El Centro de Costo no existe.
+
+NominaValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Npnomina
+        column:   codnom
+        unique_error:   El Código de la Nómina no existe.
+
+TtrabValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Npdefttrab
+        column:   codttrab
+        unique_error:   El Código del Tipo de Trabajador no existe.
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha de Asignación es inválida        

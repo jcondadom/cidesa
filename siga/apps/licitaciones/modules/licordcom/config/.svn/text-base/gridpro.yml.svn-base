@@ -1,0 +1,51 @@
+opciones:                  # Opciones generales
+  name:                    e
+  eliminar:                false
+  tabla:                   liordcomsolegr
+  anchogrid:               900
+  ancho:                   600
+  filas:                   0
+  titulo:                  '  '
+  htmltotalfilas:          '  '
+1:       # Columna 2
+  titulo:                  Proyecto
+  tipo:                    t
+  nombrecampo:             codpre
+  html:                    [size="30" readonly=true]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Descripcion
+  tipo:                    t
+  nombrecampo:             nompre
+  html:                    [size="60" readonly=true]
+  esgrabable:              false  
+3:       # Columna 2
+  titulo:                  Solicitud de Egreso
+  tipo:                    t
+  nombrecampo:             numsol
+  html:                    [size="10" readonly=true]
+  esgrabable:              true
+4:       # Columna 2
+  titulo:                  Fecha
+  tipo:                    t
+  nombrecampo:             fecsol
+  html:                    [size="10" readonly=true]
+  esgrabable:              false
+5:       # Columna 4
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             montot
+  html:                    [size="15" readonly=true]
+  esgrabable:              false
+6:       # Columna 4
+  titulo:                  Monto Moneda Extranjera
+  tipo:                    m
+  nombrecampo:             montote
+  html:                    [size="15" readonly=true]
+  esgrabable:              false
+7:       # Columna 4
+  titulo:                  Valor de Cambio
+  tipo:                    m
+  nombrecampo:             valcam
+  html:                    [size="15" readonly=true]
+  esgrabable:              false

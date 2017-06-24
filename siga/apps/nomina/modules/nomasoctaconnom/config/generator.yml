@@ -1,0 +1,24 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npctaconnom
+    theme:            cidesaGenerator
+    fields:      
+      codcon:
+        name: Concepto
+        params: size=10 maxlength=3
+        catalogo:
+          catalogoweb: Npdefcpt_asignarcategoriaxemp
+          clase: Npdefcpt
+          ajax: 2
+          parametros: getprincipal="getCodcon" getsecundario="getNomcon" campoprincipal="codcon" camposecundario="nomcon" campobase = "id"
+          divupdate: divgrid         
+      grid: { name: . }
+    edit:
+      title:          Asociación de Cuentas Contables a Conceptos
+      display:        [codcon, _grid]
+      actions:
+        _list:        NONE
+        _save:        ~
+        _create:      NONE
+        _delete:      NONE 

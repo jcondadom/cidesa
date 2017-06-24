@@ -1,0 +1,28 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Radarventas
+    theme:            cidesaGenerator
+
+    fields:
+      _cliente:      {title: Cliente}
+      _vendedor:      {title: Vendedor}
+      _producto:      {title: Producto}
+      catproductos_id:  { name: Producto }
+      facliente_id:     { name: Cliente }
+      vendedores_id:  { name: Nombre y Apellidos del Vendedor }
+    list:      
+      title:          Registro de Radar de Ventas
+      display:        [_cliente, _vendedor, _producto, fecha]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [facliente_id, vendedores_id, catproductos_id]
+      max_per_page:   5
+    edit:
+      title:          Edición de Radar de Ventas     
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

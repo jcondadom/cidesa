@@ -1,0 +1,13 @@
+methods:
+  post:
+   - "hcliqree{fecdes}"
+   - "hcliqree{fechas}"
+
+names:
+ hcliqree{fecdes}:
+    required:  Yes
+    required_msg: Introduzca la Fecha
+
+ hcliqree{fechas}:
+    required:  Yes
+    required_msg: Introduzca la Fecha

@@ -1,0 +1,62 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Opordpag
+    theme:            cidesaGenerator
+    fields:
+      numord: { name: Referencia, params: size=10 readOnly=true}
+      fecemi: { name: Fecha, params: size=10 readOnly=true}
+      moneda: { name: Moneda, params: style="border:none" size=80}
+      tipoord: { name: Tipo, params: style="border:none" size=80}
+      desord:  { name: Concepto, type: textarea_tag, params: size=80x5 readOnly=true}
+      benefi: { name: Beneficiario, params: style="border:none" size=80}
+      cuenta: { name: Código Contable, params: style="border:none" size=80}
+      unidado: { name: Unidad Origen, params: style="border:none" size=80}
+      finan: { name: Financiamiento, params: style="border:none" size=80}
+      direcc: { name: Dirección, params: style="border:none" size=80}
+      concept: { name: Concepto de Pago, params: style="border:none" size=80}
+      cedrif: { name: Beneficiario}
+      monord: { name: Causado, params: size=15 readOnly=true}
+      monret: { name: Retenido, params: size=15 readOnly=true}
+      mondes: { name: Amortizado, params: size=15 readOnly=true}
+      neto: { name: Neto, params: size=15 readOnly=true}
+      btn: { name: .}
+      js: { name: .}
+      grid: {name: . }
+      grid_ret: {name: . }
+      grid_fac: {name: . }
+      totfac: {name: Total Facturado }
+      totexe: {name: Total Exento }
+      totiva: {name: Total IVA }
+      totmontmil: {name: Total 1 x 1000 }
+      totmontislr: {name: Total ISLR }
+      totmontirs: {name: Total IRS }
+      totmontimn: {name: Total Impuesto Municipal }
+    list:
+      title:          Solicitudes de Pago
+      fields:
+        numord: { name: Referencia, params: size=10 maxlength=8}
+        fecemi: { name: Fecha, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+        tipcau: { name: Tipo, params: size=10 maxlength=4}
+        cedrif: { name: Beneficiario, type: input_tag, params: size=10 maxlength=15}
+        monord2: { name: Monto}
+      display:        [=numord, fecemi, tipoord, benefi, monord2]
+      object_actions:
+        _edit:        ~
+      actions:
+        _create:      NONE
+      filters:        [numord, fecemi, tipcau, cedrif]
+      max_per_page:   10
+      sort:           numord
+    edit:
+      title:          Aplicar Retenciones a Solicitudes de Pago
+      display:        
+        "Datos de la Orden": [_btn, numord, fecemi, moneda, tipoord, desord, benefi, cuenta, unidado, finan, direcc, concept]
+        "Imputaciones Presupuestarias":  [_grid_ret, _grid]
+        "Totales":  [monord, monret, mondes, neto]
+        "Facturas":  [_grid_fac, totfac, totexe, totiva, totmontmil, totmontislr, totmontirs, totmontimn]
+      hide:   [cedrif, valmon, status, totmarcadas, monparsin, monpariva, afectapresup, tipcau, referencias2, retenapli, modbasimpiva, comaso, unidad]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      NONE

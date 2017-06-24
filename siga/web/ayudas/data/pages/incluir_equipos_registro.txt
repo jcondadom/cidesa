@@ -1,0 +1,25 @@
+====== Operación Incluir ======
+
+Para **Registrar** un Equipo Técnico: <html><br><br></html>
+
+  * Presione el Botón {{:btnnuevo.jpg|}} 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontequiptecreginc1.jpg|}}"></div><br></html> 
+
+  * Ingrese el **Código** que identifique al Equipo Técnico. <html><br><br></html>
+
+  * Ingrese la **Descripción**. <html><br><br></html>
+
+  * En el campo **Tipo** presione el **Botón** {{:btnconsultagrid.jpg|}} para que el sistema muestre un catálogo con los diferentes Tipos de Equipos que fueron registrados previamente donde debe seleccionar el Tipo al que pertenece el Equipo Técnico que está registrando. <html><br><br></html>
+
+  * Presione el Botón {{:btnguardar.jpg|}} para registrar la información.
+
+
+
+
+
+
+
+
+
+

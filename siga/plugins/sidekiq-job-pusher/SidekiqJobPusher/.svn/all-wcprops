@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/SidekiqJobPusher
+END
+Client.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/SidekiqJobPusher/Client.php
+END
+KeyGenerator.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/SidekiqJobPusher/KeyGenerator.php
+END
+MessageSerialiser.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/SidekiqJobPusher/MessageSerialiser.php
+END

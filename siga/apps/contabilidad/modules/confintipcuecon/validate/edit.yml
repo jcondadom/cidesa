@@ -1,0 +1,64 @@
+methods:
+  post:
+   - "contaba{codtesact}"
+   - "contaba{codtespas}"
+   - "contaba{codind}"
+   - "contaba{codegd}"
+   - "contaba{codctd}"
+   - "contaba{codcta}"
+   - "contaba{codord}"
+   - "contaba{codresant}"
+   - "contaba{codres}"
+
+names:
+  contaba{codtesact}:
+    required:  Yes
+    required_msg: La Cuenta de Activo no puede estar en Blanco
+    validators: Validator_ex1
+
+  contaba{codtespas}:
+    required:  Yes
+    required_msg: La Cuenta de Pasivo no puede estar en Blanco
+    validators: Validator_ex1    
+
+  contaba{codind}:
+    required:  Yes
+    required_msg: La Cuenta de Ingreso no puede estar en Blanco
+    validators: Validator_ex1
+
+  contaba{codegd}:
+    required:  Yes
+    required_msg: La Cuenta de Egreso no puede estar en Blanco
+    validators: Validator_ex1 
+
+  contaba{codctd}:
+    required:  Yes
+    required_msg: La Cuenta de Resultado no puede estar en Blanco
+    validators: Validator_ex1  
+
+  contaba{codcta}:
+    required:  Yes
+    required_msg: La Cuenta de Capital no puede estar en Blanco
+    validators: Validator_ex1  
+
+  contaba{codord}:
+    required:  Yes
+    required_msg: La Cuenta de Orden no puede estar en Blanco
+    validators: Validator_ex1  
+
+  contaba{codresant}:
+    required:  Yes
+    required_msg: La Cuenta de Resultado de Ejercicios Años Anteriores no puede estar en Blanco
+    validators: Validator_ex1 
+
+  contaba{codres}:
+    required:  Yes
+    required_msg: La Cuenta de Resultado de Ejercicio Actual no puede estar en Blanco
+    validators: Validator_ex1                         
+
+Validator_ex1:
+    class: CidesaExistValidator
+    param:
+        class:    Contabb
+        column:   codcta
+        unique_error:  La Cuenta Contable no existe.           

@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "fcdefpla{codpla}"
+   - "fcdefpla{despla}"
+
+names:
+  fcdefpla{codpla}:
+    required:  Yes
+    required_msg: No puede salvar sin Introducir el Código de la Planilla
+    validators: UniqueValidator
+
+  fcdefpla{despla}:
+    required:  Yes
+    required_msg: No puede salvar sin Introducir la  Descripción de la Planilla
+    validators: DescripcionValidator
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción no puede tener menos de 5 caracteres
+        max:       500
+        max_error: La Descripción no puede tener más de 500 caracteres
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Fcdefpla
+        column:   codpla
+        unique_error:   EL Código de la Planilla ya existe. Por Favor, CambiÃ©lo por otro.

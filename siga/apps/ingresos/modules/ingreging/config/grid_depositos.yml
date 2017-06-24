@@ -1,0 +1,60 @@
+opciones:                  # Opciones generales
+  name:                    b
+  eliminar:                true
+  tabla:                   cideping
+  anchogrid:               950
+  ancho:                   900
+  filas:                   1
+  titulo:                  ' Depósitos Realizados '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  N° de Deposito
+  tipo:                    t
+  nombrecampo:             numdep
+  esgrabable:              true
+  html:                    ["size=10 maxlength=20"]
+2:       # Columna 2
+  titulo:                  Cuenta Bancaria
+  tipo:                    t
+  nombrecampo:             numcue
+  esgrabable:              true
+  ajaxgrid:                true
+  html:                    ["size=20 maxlength=20"]
+  catalogo:                [tsdefban, sf_admin_edit_form, { Numcue: 2, Nomcue: 3 }, Ingreging_tsdefban ]
+3:       # Columna 3
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nomcue
+  esgrabable:              true
+  html:                    ["size=40  readonly=true"]
+4:       # Columna 4
+  titulo:                  Tipo de Movimiento
+  tipo:                    t
+  nombrecampo:             tipmov
+  esgrabable:              true
+  ajaxgrid:                true
+  html:                    ["size=5 maxlength=4"]
+  catalogo:                [tstipmov, sf_admin_edit_form, { Tipmov: 4, Destip: 5}, Ingreging_tstipmov ]
+5:       # Columna 5
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             destip
+  esgrabable:              true
+  html:                    ["size=20 readonly=true"]
+6:       # Columna 6
+  titulo:                  Fecha
+  tipo:                    f
+  esgrabable:              true
+  nombrecampo:             fecha
+  vacia:                   true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: cireging_fecing}
+  html:                    ["size=10 maxlength=10"]
+7:       # Columna 7
+  titulo:                  Monto
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             mondep
+  esnumerico:              true
+  html:                    ["size=10"]
+

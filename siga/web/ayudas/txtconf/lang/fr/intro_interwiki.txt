@@ -1,0 +1,16 @@
+====== Genstionaire des Config Texte: Interwiki  ======
+
+Utiliser cette page pour gerer la liste des Interwiki de votre intallation de Dokuwiki.\\
+Que sont les Interwiki? Voir [[doku>wiki:interwiki]].
+
+Each URL may contain one of the placeholders {URL} or {NAME}
+  * ''{URL}'' is replaced by the URL encoded representation of the wikiname this is the right thing to do in most cases
+  * ''{NAME}'' this is replaced by the wikiname as given in the document no further encoding is done
+If no placeholder is defined the urlencoded name is appended to the URL
+
+Please note that you may specify an image to use with interwiki links in your dokuwiki's ''images/interwiki'' directory. Unfortunately, this plugin does not upload image files.
+
+Pour plus de details a propos de ce plugin, voir [[doku>plugin:txtconf]].
+
+Assurez-vous d'appuyer le bouton **Sauver** avant de quitter cette page, sinon vos modifications seront perdues.
+

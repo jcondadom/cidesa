@@ -1,0 +1,8 @@
+====== Retiro de Base ======
+
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontofertadjinc5.jpg|}}"></div><br></html>
+
+  * Seleccionar del calendario {{:btncalendario.jpg|}} la Fecha **Inicio** del Retiro Base. <html><br><br></html>
+
+  * Seleccionar del calendario {{:btncalendario.jpg|}} la Fecha **Fin** del Retiro Base.

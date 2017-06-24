@@ -1,0 +1,216 @@
+methods:
+  post:
+   - "viasolviatra{numsol}"
+   - "viasolviatra{fecsol}"
+   - "viasolviatra{dessol}"
+   - "viasolviatra{codemp}"
+   - "viasolviatra{codcat}"
+   - "viasolviatra{codniv}"
+   - "viasolviatra{codempaco}"
+   - "viasolviatra{codnivaco}"
+   - "viasolviatra{codest}"
+   - "viasolviatra{codciu}"
+   - "viasolviatra{codproced}"
+   - "viasolviatra{fecdes}"
+   - "viasolviatra{fechas}"
+   - "viasolviatra{numdia}"
+   - "viasolviatra{codfortra}"
+   - "viasolviatra{codubi}"
+   - "viasolviatra{codcen}"
+   - "viasolviatra{codempaut}"
+   - "viasolviatra{codeve}"
+
+names:
+
+  viasolviatra{numsol}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numsol
+
+  viasolviatra{fecsol}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  viasolviatra{dessol}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: DescripcionValidator
+
+  viasolviatra{codemp}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    #validators: Validator_codemp
+
+  viasolviatra{codcat}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codcat
+
+  viasolviatra{codniv}:
+    required:  No
+    ##required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codniv
+
+  viasolviatra{codempaco}:
+    required:  No
+    required_msg: Este campo no puede estar en Blanco
+   #validators: Validator_codemp
+
+  viasolviatra{codnivaco}:
+    required:  No
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codniv
+
+  viasolviatra{codest}:
+    required:  No
+    validators: validator_codest
+
+  viasolviatra{codciu}:
+    required:  No
+    validators: validator_codciu
+
+  viasolviatra{codproced}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codproced
+
+  viasolviatra{fecdes}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  viasolviatra{fechas}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  viasolviatra{codfortra}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codfortra
+
+  viasolviatra{codempaut}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    #validators: Validator_codemp
+
+  viasolviatra{numdia}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: MyNumberValidator
+    
+  viasolviatra{codubi}:
+    required:  No
+    validators: Validator_codubi
+
+
+  viasolviatra{codcen}:
+    required:  No
+    validators: Validator_codcen   
+
+  viasolviatra{codeve}:
+    required:  No
+    validators: Validator_codeve     
+
+Validator_numsol:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Viasolviatra
+        column:   numsol
+        unique_error:   El Numero ya existe
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripcion debe tener minimo 2 caracteres
+        max:       1000
+        max_error: La Descripcion debe tener maximo 1000 caracteres
+
+Validator_codemp:
+    class: CidesaExistValidator
+    param:
+        class:    Nphojint
+        column:   codemp
+        unique_error:   El Empleado no existe
+
+Validator_codcat:
+    class: CidesaExistValidator
+    param:
+        class:    Npcatpre
+        column:   codcat
+        unique_error:   La Categoria no existe
+
+Validator_codniv:
+    class: CidesaExistValidator
+    param:
+        class:    Viadefniv
+        column:   codniv
+        unique_error:   El Nivel del Trabajador no existe
+
+Validator_codproced:
+    class: CidesaExistValidator
+    param:
+        class:    Viadefproced
+        column:   codproced
+        unique_error:   La Procedencia no existe
+
+Validator_codfortra:
+    class: CidesaExistValidator
+    param:
+        class:    Viadeffortra
+        column:   codfortra
+        unique_error:   La Forma de Traslado no existe
+
+MyNumberValidator:
+    class: sfNumberValidator
+    param:
+        type:         decimal
+        type_error:   Debe ser un Numero Valido
+        nan_error:    Debe ser un Numero Valido
+        min:          0000000001,00
+        min_error:    Los rangos de Fechas estan Incorrectos
+        max:          9999999999,99
+        
+Validator_codubi:
+    class: CidesaExistValidator
+    param:
+        class:    Bnubica
+        column:   codubi
+        unique_error:   La Unidad Solicitante no existe        
+
+Validator_codcen:
+    class: CidesaExistValidator
+    param:
+        class:    Cadefcen
+        column:   codcen
+        unique_error:   La Unidad Ejecutora no existe 
+
+Validator_codeve:
+    class: CidesaExistValidator
+    param:
+        class:    Cpevepre
+        column:   codeve
+        unique_error:   El Evento no existe     
+
+validator_codest:
+    class: CidesaExistValidator
+    param:
+        class:    Viaestado
+        column:   codest
+        unique_error:   El Estado no existe    
+
+validator_codciu:
+    class: CidesaExistValidator
+    param:
+        class:    Viaciudad
+        column:   codciu
+        unique_error:   La Ciudad no existe                  

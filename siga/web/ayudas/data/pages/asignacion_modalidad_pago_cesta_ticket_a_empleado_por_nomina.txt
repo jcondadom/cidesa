@@ -1,0 +1,15 @@
+======Asignación Modalidad Pago Cesta Ticket a Empleado por Nómina======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite asignar a una determinada Nómina asignar el pago de cestaticket ya sea por medio de ticket o de tarjeta</html>
+**Para ello:**
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Asignaciones Generales para el Cálculo de Nómina** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasigenparacaldenom.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Asignación Modalidad Pago por Cesta Ticket a Empleado por Nómina**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasimodpagcesticemppornom.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Asignación Modalidad Pago Cesta Ticket a Empleado por Nómina** veamos la [[Descripcion_Campos_Asignación_Modalidad_Pago_Cesta_Ticket|Descripción de los Campos]]

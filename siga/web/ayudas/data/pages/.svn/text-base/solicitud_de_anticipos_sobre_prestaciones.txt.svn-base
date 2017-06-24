@@ -1,0 +1,25 @@
+======Solicitud de Anticipo sobre Prestaciones======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite registrar todos los Anticipos que sean solicitados por los empleados, en un momento determinado. </html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Prestaciones** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperprest.jpg|}}"></div><br></html> 
+
+ * Por último seleccione la opción **Solicitud de Anticipo sobre Prestaciones**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompersoldeantsobrepre.jpg|}}"></div><br></html>
+
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Solicitud de Anticipo sobre Prestaciones** solo podrá realizar las Operaciones Básicas de: 
+
+  * [[Incluir Solicitud de Anticipo sobre Prestaciones|Incluir]]
+
+  * [[Eliminar Solicitud de Anticipo sobre Prestaciones|Eliminar]]
+
+  * [[Consultar Solicitud de Anticipo sobre Prestaciones|Consultar]]

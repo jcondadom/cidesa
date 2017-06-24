@@ -1,0 +1,37 @@
+====== Operación Incluir ======
+
+Para **registrar** un causado que refiere a un Compromiso se debe: <html><br><br></html>
+
+  * Ingresar la Referencia del Causado. <html><br><br></html>
+
+  * Ingresar la Fecha en la que se está  registrando el Causado. <html><br><br></html>
+
+  * Seleccionar el Tipo de Causado que haga referenvia al Compromiso. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprecausarinc1.jpg|}}"></div><br></html>
+
+  * En la sección **Tipo Causado**  se seleccciona el Código del Tipo de Causado al cual se refiere el movimiento. <html><br><br></html>
+
+  * En la sección **Saldos** encontramos el campo **Causar** que indica el monto pendiente por Pagar, con respecto al monto total causado y el campo **Ajustado** que indica el monto ajustado al Causado, en caso de que exista. Una vez que se realiza un ajuste, el Sistema determina el saldo automáticamente.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprecausarinc3.jpg|}}"></div><br></html>
+
+  * En **Código del Beneficiario** se indica la persona natural ó jurídica con quien se ha adquirido un compromiso.<html><br><br></html>
+
+  * En **Referencia** debe seleccionar el número del Compromiso en caso que el causado refiera a un compromiso.<html><br><br></html>
+
+  * En **Monto Causado** se coloca el monto por el cual se esta realizando el causado.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprecausarinc2.jpg|}}"></div><br></html>
+
+  * Si se está Causando un Compromiso; al momento de seleccionar dicho Compromiso automáticamente se cargan las Imputaciones Presupuestarias.<html><br><br></html>
+
+  * El sistema calcula y muestra el Monto Total Causado, el saldo y el monto y saldo de los ajustes en caso de existir. <html><br><br></html>
+
+  * Presione el **Botón Guardar** 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:btnguardar1.jpg|}}"></div><br></html>
+
+  * Presione OK
+
+

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/pear
+END
+pear-propel-gen.bat
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/pear/pear-propel-gen.bat
+END
+pear-build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/pear/pear-build.xml
+END
+BuildPropelGenPEARPackageTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/pear/BuildPropelGenPEARPackageTask.php
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/pear/build.properties
+END
+build-pear-package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/pear/build-pear-package.xml
+END
+pear-propel-gen
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/pear/pear-propel-gen
+END

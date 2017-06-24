@@ -1,0 +1,16 @@
+methods:
+  post:
+   - "catsenvia{dessen}"
+
+names:
+  catsenvia{dessen}:
+    required:  Yes
+    required_msg: La descripción es un campo requerido
+    validators: Validator_dessen
+
+Validator_dessen:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Catsenvia
+        column:       dessen
+        unique_error: El registro ya Existe intente con otro.

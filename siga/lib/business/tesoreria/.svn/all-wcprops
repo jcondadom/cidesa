@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repositorio/!svn/ver/61911/web/php/siga/branches/productions/trunk/lib/business/tesoreria
+END
+OrdendePago.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/61826/web/php/siga/branches/productions/trunk/lib/business/tesoreria/OrdendePago.class.php
+END
+Cheques.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/61911/web/php/siga/branches/productions/trunk/lib/business/tesoreria/Cheques.class.php
+END
+Tesoreria.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/61807/web/php/siga/branches/productions/trunk/lib/business/tesoreria/Tesoreria.class.php
+END

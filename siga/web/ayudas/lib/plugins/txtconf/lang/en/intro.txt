@@ -1,0 +1,6 @@
+====== Text Config Manager ======
+
+Use this page to Manage the Text config files (conf/*.conf) of your Dokuwiki installation.
+
+For more details about this plugin see [[doku>plugin:txtconf]].
+

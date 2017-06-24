@@ -1,0 +1,18 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcregveh
+    theme:            cidesaGenerator
+    fields:
+      plaveh:  { name: Placa, params: size=10 maxlength=10 }
+      rifcon:  { name: C.I. / RIF., params: size=14 readOnly=true }
+      nomcon:  { name: Nombre / Razón Social, params: size=80 readOnly=true }
+      plavehnew:  { name: Placa Nueva, params: size=10 maxlength=10 disabled=false}
+    edit:
+      title: Actualización de Placa de Vehiculo
+      display:
+        NONE: [ _plaveh, rifcon, nomcon, plavehnew]
+      actions:
+        _list:        NONE
+        _save:        ~
+        _delete:      NONE

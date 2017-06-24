@@ -1,0 +1,19 @@
+====== Acciones Específicas ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite definir aquellas operaciones concretas, suficientes, medibles y cuantificables anualmente, necesarias para lograr el resultado del proyecto.
+
+**Para ello:**
+
+  * Seleccione la opción **Formulación Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpre.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Egresos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegr.jpg}}"></div><br></html>
+ 
+  * Por último seleccione **Definiciones Específicas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefesp.jpg}}"></div><br></html>
+
+  * Por último seleccione **Acciones Específicas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefespaccesp.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Acciones Específicas** veamos la [[Descripcion_Campos_formulacion_acciones_especificas|Descripción de los Campos]]

@@ -1,0 +1,31 @@
+====== Descripción de campos ======
+
+Los campos que conforman la pantalla **Organismos Públicos** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreorgpubinc1.jpg}}"></div><br></html>
+
+  * **Código:** Indica el número que identifica al organismo público. <html><br><br></html>
+
+  * **Nombre:** Indica el nombre del organismo público que se está registrando. <html><br><br></html>
+
+  * **Ubicación:** Indica la dirección de ubicación del organismo público que se está registrando.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreorgpubinc2.jpg}}"></div><br></html>
+
+  * **Tipo de Organismo:** Indica el tipo de organismo público que se está registrando; como por ejemplo: si es una Alcaldía, Gobernación, Entes Adscritos, entre otros.  <html><br><br></html>
+
+  * **Presupuesto Anual Bs.:** Indica el Monto en Bs.F del presupuesto anual con el que cuenta el organismo que se está registrando.  <html><br><br></html>
+
+  * **Capital Social:** Indica el Monto en Bs.F del capital social del organismo.  <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Organismos Públicos** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+
+
+
+
+
+
+
+
+
+

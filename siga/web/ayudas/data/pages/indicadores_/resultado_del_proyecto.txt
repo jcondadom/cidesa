@@ -1,0 +1,44 @@
+====== Descripción de Campos ======
+
+Los campos que conforman la pestaña **Indicadores / Resultado del Poyecto** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefespproyacccentinc7.jpg|}}"></div><br></html>
+
+  * **Enunciado del Problema:** Indica el enunciado del problema que se pretende solucionar. <html><br><br></html>
+
+  * **Indicador de la Gestión:** Indica la situación cuantificable de la situación concreta que el proyecto pretende mejorar. <html><br><br></html>
+
+  * **Fecha Última Data:** Seleccione del [[calendario|Calendario]] el día, mes y año qe refieren los datos utilizados en la construcción del indicador. <html><br><br></html>
+
+  * **Situación Objetivo Deseada:** Indica la expresión cuantificable de la situación objetivo deseada. <html><br><br></html>
+
+  * **Fórmula del Indicador:** Indica la fórmula utilizada para el cálculo del indicador. <html><br><br></html>
+
+  * **Funte del Indicador:** Indica la procedencia u origen de la información. <html><br><br></html>
+
+  * **Indicador de la Situación Objetivo:** Indica la expresión cuantificable de la situación deseada con la ejecución del proyecto. <html><br><br></html>
+
+  * **Tiempo de Impacto Año(s) y Mes(es):** Indica el período expresado en años y meses que se establecerá para medir el impacto del proyecto. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefespproyacccentinc8.jpg|}}"></div><br></html>
+
+  * En la sección **Resultado del Proyecto:** <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Bien o Servicio:** Indica el producto que se genera de la ejecución del proyecto.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Unidad de Medida:** Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[listas|Lista]] con las unidades de medida que fueron registradas previamente en la pantalla [[formulacion_unidades_medidas|Unidades de Medidas]]
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Cantidad:** Indica la cuantificación física del bien o servicio a producir con el proyecto.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Beneficiarios del Proyecto:** Indica el nombre de los usuarios inmediatos de los bienes o servicios que produce el proyecto.
+
+
+
+
+ 
+
+
+
+
+
+

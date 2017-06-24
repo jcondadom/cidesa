@@ -1,0 +1,43 @@
+<?php
+
+/**
+ * Subclass for representing a row from the 'cpdocpag'.
+ *
+ *
+ *
+ * @package    Roraima
+ * @subpackage lib.model
+ * @author     $Author: dmartinez $ <desarrollo@cidesa.com.ve>
+ * @version SVN: $Id: Cpdocpag.php 57216 2014-06-10 14:03:23Z dmartinez $
+ *
+ * @copyright  Copyright 2007, Cide S.A.
+ * @license    http://opensource.org/licenses/gpl-2.0.php GPLv2
+ */
+class Cpdocpag extends BaseCpdocpag
+{
+	  protected $etadef="";
+    protected $refpag="";
+    protected $obj=array();
+
+  public function getEtadef() {
+    $cpdefniv=CpdefnivPeer::doSelectOne(new Criteria());
+	if ($cpdefniv){
+	   return $cpdefniv->getEtadef();
+	 } else return 1;
+    }
+
+    public function setEtadef()
+    {
+        return $this->etadef;
+    }
+    
+     public function getTipdoc()
+  {
+  	return self::getTippag();
+  }
+
+   public function getNompag()
+  {
+    return self::getNomext();
+  }
+}

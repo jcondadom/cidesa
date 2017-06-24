@@ -1,0 +1,62 @@
+====== Descripción de Campos ======
+
+Los campos que conforman la pantalla ** Acciones Específicas** son los siguientes: <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefespaccespinc1.jpg|}}"></div><br></html>
+
+  * En la sección **Proyecto ó Acción Centralizada** encontramos los siguientes campos: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Código:** Indica el código del proyecto ó acción centralizada que está registrando.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Descripción:** Indica el nombre que hace referencia al proyecto ó acción centralizada que está registrando.
+
+  * En la sección **Ubicación Geográfica de cada Acción Específica** encontramos los siguientes campos: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Estado:** Indica el estado al que pertenece la acción específica.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Municipio:** Indica el municipio al que pertenece la acción específica.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Parroquia:** Indica la parroquia a la que pertenece la acción específica.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefespaccespinc2.jpg|}}"></div><br></html>
+
+  * Seguidamente observamos el [[grid|Grid]] llamado **Detalle de las Acciones Específicas** donde encontramos en las columnas correspondientes los siguientes campos: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Código:** Indica el número que identifica a la acción específica.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Descripción:** Indica el nombre que identifica a la acción específica.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Organismo Ente Ejecutor:** Indica el organismo ó ente público encargado de ejecutar el proyecto, solo debe hacer click en el icono {{:btnflecha.jpg|}} y els sitema muestra un listado con los organismos ejecutores que fueron definidos previamente en el sistema en la pantalla [[formulacion_organismos_publicos|Grid]]
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Fecha de Inicio:** Seleccione del [[calendario|Calendario]] día, mes y año en la cual se aprueban y asignan recursos presupuestarios a las acciones específicas y comienzan a ejecutarse las actividades.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Fecha de Culminación :** Seleccione del [[calendario|calendario]] el día, mes y año en el cual se realiza la última actividad de una acción específica.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- C.I. Funcionario Responsable:** Indica la cédula de identidad del funcionario responsable de la acciçon específica.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Nombre Funcionario Responsable:** Indica el nombre y apellido del funcionario responsable de la acción específica.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Especificación Adicional:** Indica cualquier información adicional sobre la acción específica.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Estado, Municipio y Parroquia:** Al presionar el Botón {{:btnagregar4.jpg|}} automáticamente el sistema agrega el estado, municipio y parroquia que fueron seleccionadas en la sección **Ubicación Geográfica de cada Acción Específica**.
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Acciones Específicas** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

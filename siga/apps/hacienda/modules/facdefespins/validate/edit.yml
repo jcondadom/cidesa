@@ -1,0 +1,112 @@
+methods:
+  post:
+   - "fcdefins{foract}"
+   - "fcdefins{forveh}"
+   - "fcdefins{forcat}"
+   - "fcdefins{forubifis}"
+   - "fcdefins{forubimag}"
+   - "fcdefins{codajupic}"
+   - "fcdefins{codpic}"
+   - "fcdefins{codveh}"
+   - "fcdefins{codinm}"
+   - "fcdefins{codpro}"
+   - "fcdefins{codesp}"
+   - "fcdefins{codapu}"
+
+names:
+  fcdefins{foract}:
+    required:  Yes
+    required_msg: El formato del código de la Actividad Comercial no puedo estar en Blanco    
+
+  fcdefins{forveh}:
+    required:  Yes
+    required_msg: El formato del código del Clasificador de Vehiculos no puedo estar en Blanco
+
+  fcdefins{forcat}:
+    required:  Yes
+    required_msg: El formato del código Catastral no puedo estar en Blanco
+
+  fcdefins{forubifis}:
+    required:  Yes
+    required_msg: El formato del código de la ubicación física no puedo estar en Blanco
+
+  fcdefins{forubimag}:
+    required:  Yes
+    required_msg: El formato del código de la ubicación Magnetica no puedo estar en Blanco
+
+  fcdefins{codajupic}:
+    required:  No
+    validators: ExistValidator_fuepre1
+
+  fcdefins{codpic}:
+    required:  No
+    validators: ExistValidator_fuepre2
+
+  fcdefins{codveh}:
+    required:  No
+    validators: ExistValidator_fuepre3
+
+  fcdefins{codinm}:
+    required:  No
+    validators: ExistValidator_fuepre4
+
+  fcdefins{codpro}:
+    required:  No
+    validators: ExistValidator_fuepre5
+
+  fcdefins{codesp}:
+    required:  No
+    validators: ExistValidator_fuepre6
+
+  fcdefins{codapu}:
+    required:  No
+    validators: ExistValidator_fuepre7
+
+ExistValidator_fuepre1:
+    class: CidesaExistValidator
+    param:
+        class:        Fcfuepre
+        column:       codfue
+        unique_error: El codigo de Fuente asociado a los Ajustes de Patente Industria y Comercio no existe.
+
+ExistValidator_fuepre2:
+    class: CidesaExistValidator
+    param:
+        class:        Fcfuepre
+        column:       codfue
+        unique_error: El codigo de Fuente asociado a la Patente Industria y Comercio no existe.
+
+ExistValidator_fuepre3:
+    class: CidesaExistValidator
+    param:
+        class:        Fcfuepre
+        column:       codfue
+        unique_error: El codigo de Fuente asociado a Vehículos no existe.
+
+ExistValidator_fuepre4:
+    class: CidesaExistValidator
+    param:
+        class:        Fcfuepre
+        column:       codfue
+        unique_error: El codigo de Fuente asociado a Inmuebles Urbanos no existe.
+
+ExistValidator_fuepre5:
+    class: CidesaExistValidator
+    param:
+        class:        Fcfuepre
+        column:       codfue
+        unique_error: El codigo de Fuente asociado a Propaganda Comercial no existe.
+
+ExistValidator_fuepre6:
+    class: CidesaExistValidator
+    param:
+        class:        Fcfuepre
+        column:       codfue
+        unique_error: El codigo de Fuente asociado a Espectáculos Públicos no existe.
+
+ExistValidator_fuepre7:
+    class: CidesaExistValidator
+    param:
+        class:        Fcfuepre
+        column:       codfue
+        unique_error: El codigo de Fuente asociado a Apuestas Lícitas no existe.

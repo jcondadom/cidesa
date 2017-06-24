@@ -1,0 +1,13 @@
+Los campos que conforman la pantalla de **Cierre de Nómina** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompercalnomcierrenominc1.jpg|}}"></div><br></html>
+
+  * **Código:** Indica el número y descripción de la Nómina que se va a cerrar. Al presionar el Botón {{:btncuadrocatalogo.jpg}} el sistema muestra una [[Listas|Lista]] con los tipos de nóminas definidas previamente en la pantalla [[tipos_de_nominas|Tipos Nóminas]]. <html><br><br></html>
+
+  * **Ultima Fecha de Procesamiento:** Se refiere a la fecha de inicio del último período de cálculo de esta Nómina, asignada al sistema. <html><br><br></html>
+
+  * Por último debe presionar el **Botón Cerrar** y automáticamente el ssitema dará por cerrada la Nómina. <html><br><br></html>
+
+**Nota:** Es importante destacar que para llevar a cabo el cierre de una nómina, usted debe tomar en cuenta, que ya se hayan hecho todos los pagos concernientes a la misma, a cada empleado de la Institución, y debe asegurarse que no se vayan a realizar modificaciones y además ya se hayan generado todos los reportes y listados relacionados. Es muy importante tomar estas consideraciones, ya que al realizar el Cierre de la Nómina, el sistema cambia el período de cálculo de esta, pasando al siguiente y actualizando todos los registros correspondientes, de tal manera que toda la información asociada a los Conceptos en la Nómina anterior pasa a unos archivos históricos, y ya no puede recalcularse.<html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Cierre de Nómina** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

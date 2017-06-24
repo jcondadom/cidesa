@@ -1,0 +1,1250 @@
+propel:
+  _attributes: { noXsd: false, defaultIdMethod: native, package: lib.model.ingresos }
+  ciadidis:   
+    _attributes:
+      description:
+    refadi:
+      type: VARCHAR
+      size: 8
+      description:
+      required: true
+    fecadi:
+      type: DATE
+      description:
+      required: true
+    anoadi:
+      type: VARCHAR
+      size: 4
+      description:
+    desadi:
+      type: VARCHAR
+      size: 250
+      description:
+    desanu:
+      type: VARCHAR
+      size: 250
+      description:
+    adidis:
+      type: VARCHAR
+      size: 1
+      description:
+    totadi:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    staadi:
+      type: VARCHAR
+      size: 1
+      description:
+    fecanu:
+      type: DATE
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  ciajuste:   
+    _attributes:
+      description:
+    refaju:
+      type: VARCHAR
+      size: 8
+      description:
+      required: true
+    fecaju:
+      type: DATE
+      description:
+      required: true
+    anoaju:
+      type: VARCHAR
+      size: 4
+      description:
+      required: true
+    refere:
+      type: VARCHAR
+      size: 8
+      description:
+    desaju:
+      type: VARCHAR
+      size: 250
+      description:
+    desanu:
+      type: VARCHAR
+      size: 250
+      description:
+    totaju:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    staaju:
+      type: VARCHAR
+      size: 1
+    fecanu:
+      type: DATE
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  ciasiini:   
+    _attributes:
+      description:
+    codpre:
+      type: VARCHAR
+      size: 34
+      description:
+      required: true
+    nompre:
+      type: VARCHAR
+      size: 100
+      description:
+    perpre:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    anopre:
+      type: VARCHAR
+      size: 4
+      description:
+      required: true
+    monasi:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    monprc:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    moncom:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    moncau:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    montra:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    montrn:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    monadi:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    mondim:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    monaju:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    mondis:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    difere:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    status:
+      type: VARCHAR
+      size: 1
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  ciconrep:   
+    _attributes:
+      description:
+    rifcon:
+      type: VARCHAR
+      size: 15
+      description:
+      required: true
+    repcon:
+      type: VARCHAR
+      size: 1
+      description:
+      required: true
+    nitcon:
+      type: VARCHAR
+      size: 14
+      description:
+    nomcon:
+      type: VARCHAR
+      size: 500
+      description:
+      required: true
+    naccon:
+      type: VARCHAR
+      size: 1
+      description:
+      required: true
+    dircon:
+      type: VARCHAR
+      size: 500
+      description:
+    codpar:
+      type: VARCHAR
+      size: 4
+      description:
+    ciucon:
+      type: VARCHAR
+      size: 30
+      description:
+    cpocon:
+      type: VARCHAR
+      size: 6
+      description:
+    apocon:
+      type: VARCHAR
+      size: 20
+      description:
+    tipcon:
+      type: VARCHAR
+      size: 1
+      description:
+      required: true
+    telcon:
+      type: VARCHAR
+      size: 30
+      description:
+    faxcon:
+      type: VARCHAR
+      size: 15
+      description:
+    emacon:
+      type: VARCHAR
+      size: 50
+      description:
+    urlcon:
+      type: VARCHAR
+      size: 50
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  cidefniv:   
+    _attributes:
+      description:
+    codemp:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    loncod:
+      type: NUMERIC
+      size: 2
+      description:
+      required: true
+    rupcat:
+      type: NUMERIC
+      size: 2
+      description:
+      required: true
+    ruppar:
+      type: NUMERIC
+      size: 2
+      description:
+      required: true
+    nivdis:
+      type: NUMERIC
+      size: 2
+      description:
+      required: true
+    forpre:
+      type: VARCHAR
+      size: 32
+      description:
+      required: true
+    asiper:
+      type: VARCHAR
+      size: 1
+      description:
+      required: true
+    numper:
+      type: NUMERIC
+      size: 2
+      description:
+      required: true
+    peract:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    fecper:
+      type: DATE
+      description:
+    fecini:
+      type: DATE
+      description:
+    feccie:
+      type: DATE
+      description:
+    etadef:
+      type: VARCHAR
+      size: 1
+      description:
+    staprc:
+      type: VARCHAR
+      size: 1
+      description:
+    coraep:
+      type: VARCHAR
+      size: 8
+      description:
+    cortras:
+      type: VARCHAR
+      size: 8
+      description:
+    coraju:
+      type: VARCHAR
+      size: 8
+      description:
+    coradi:
+      type: VARCHAR
+      size: 8
+      description:
+    coring:
+      type: VARCHAR
+      size: 8
+      description:
+    codctarec:
+      type: VARCHAR
+      size: 32
+      description: Cuenta Contable para Recargos
+    rifcon:
+      type: VARCHAR
+      size: 14
+      description: Rif del Contribuyente de Ingreso
+    codtip:
+      type: VARCHAR
+      size: 3
+      description:  Tipo de Ingreso    
+    tipmov:
+      type: VARCHAR
+      size: 4
+      description: Código de Tipo de Movimiento del Ingreso
+    codctades:
+      type: VARCHAR
+      size: 32
+      description: Cuenta Contable para Descuentos
+    tipmovcom:
+      type: VARCHAR
+      size: 4
+      description: Código de Tipo de Movimiento de la Comisión
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  cideftit:   
+    _attributes:
+      description:
+    codpre:
+      type: VARCHAR
+      size: 32
+      description:
+      required: true
+    nompre:
+      type: VARCHAR
+      size: 100
+      description:
+      required: true
+    codcta:
+      type: VARCHAR
+      size: 32
+      description:
+    stacod:
+      type: VARCHAR
+      size: 1
+      description:
+    coduni:
+      type: VARCHAR
+      size: 4
+      description:
+    estatus:
+      type: VARCHAR
+      size: 1
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  cidisniv:   
+    _attributes:
+      description:
+    codpre:
+      type: VARCHAR
+      size: 32
+      description:
+      required: true
+    monasi:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    modificacion:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    asigactual:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    monprc:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    moncom:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    moncau:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    monaju:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    mondis:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    deuda:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  cierre:   
+    _attributes:
+      description:
+    codnom:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    codcon:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    fecnom:
+      type: DATE
+      description:
+      required: true
+    codpre:
+      type: VARCHAR
+      size: 32
+      description:
+      required: true
+    codcta:
+      type: VARCHAR
+      size: 32
+      description:
+      required: true
+    monto:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+      required: true
+    asided:
+      type: VARCHAR
+      size: 1
+      description:
+    codtipgas:
+      type: VARCHAR
+      size: 16
+      description:
+    cantidad:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    codban:
+      type: VARCHAR
+      size: 16
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  ciimping:   
+    _attributes:
+      description:
+    refing:
+      type: VARCHAR
+      size: 8
+      description:
+      required: true
+    codpre:
+      type: VARCHAR
+      size: 32
+      description:
+      required: true
+    codtiprub:
+      type: VARCHAR
+      size: 6
+      description:
+    moning:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    monrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    mondes:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    montot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    fecing:
+      type: DATE
+      description:
+    staimp:
+      type: VARCHAR
+      size: 1
+      description:
+    monaju:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    deving:
+      type: VARCHAR
+      size: 1
+      description: Indica si el cod Pre es negativo S o N
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  cimovadi:   
+    _attributes:
+      description:
+    refadi:
+      type: VARCHAR
+      size: 8
+      description:
+      required: true
+    codpre:
+      type: VARCHAR
+      size: 32
+      description:
+      required: true
+    perpre:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    monmov:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    stamov:
+      type: VARCHAR
+      size: 1
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  cimovaju:   
+    _attributes:
+      description:
+    refaju:
+      type: VARCHAR
+      size: 8
+      description:
+      required: true
+    codpre:
+      type: VARCHAR
+      size: 32
+      description:
+      required: true
+    monaju:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+      required: true
+    stamov:
+      type: VARCHAR
+      size: 1
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  cimovtra:   
+    _attributes:
+      description:
+    reftra:
+      type: VARCHAR
+      size: 8
+      description:
+      required: true
+    codori:
+      type: VARCHAR
+      size: 32
+      description:
+      required: true
+    coddes:
+      type: VARCHAR
+      size: 32
+      description:
+      required: true
+    monmov:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    stamov:
+      type: VARCHAR
+      size: 1
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  ciniveles:   
+    _attributes:
+      description:
+    catpar:
+      type: VARCHAR
+      size: 1
+      description:
+      required: true
+    consec:
+      type: NUMERIC
+      size: 2
+      description:
+      required: true
+    nomabr:
+      type: VARCHAR
+      size: 10
+      description:
+      required: true
+    nomext:
+      type: VARCHAR
+      size: 50
+      description:
+      required: true
+    lonniv:
+      type: NUMERIC
+      size: 2
+      description:
+    staniv:
+      type: VARCHAR
+      size: 1
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  cipereje:   
+    _attributes:
+      description:
+    fecini:
+      type: DATE
+      description:
+      required: true
+    feccie:
+      type: DATE
+      description:
+      required: true
+    pereje:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    fecdes:
+      type: DATE
+      description:
+      required: true
+    fechas:
+      type: DATE
+      description:
+      required: true
+    estper:
+      type: VARCHAR
+      size: 1
+      description: Estado del Periodo
+    cerrado:
+      type: VARCHAR
+      size: 1
+      description: indica Si esta cerrado el periodo      
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  cireging:   
+    _attributes:
+      description:
+    refing:                   
+      type: VARCHAR
+      size: 8
+      description: referencia
+      required: true
+    fecing:                   
+      type: DATE
+      description: fecha
+      required: true
+    desing:                   
+      type: VARCHAR
+      size: 500
+      description: descripcion 
+      required: true
+    codtip:                  
+      type: VARCHAR
+      size: 3
+      description: tipo
+      required: true
+    rifcon:                   
+      type: VARCHAR
+      size: 15
+      description: rif
+    moning:                   
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: monto ingreso
+      required: true
+    monrec:                   
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: monto recargo
+    mondes:                   
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: monto descuento
+    montot:                   
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: monto total
+    desanu:
+      type: VARCHAR
+      size: 250
+      description:
+    fecanu:
+      type: DATE
+      description:
+    staing:                   
+      type: VARCHAR
+      size: 1
+      description: status
+    ctaban:                   
+      type: VARCHAR
+      size: 20
+      description: cta bancaria
+    tipmov:                  
+      type: VARCHAR
+      size: 4
+      description: tipo de movimiento
+    previs:
+      type: VARCHAR
+      size: 1
+      description:
+    anoing:                  
+      type: VARCHAR
+      size: 4
+      description: ano ingreso
+    numdep:                   
+      type: VARCHAR
+      size: 50
+      description: numero de deposito
+    numofi:
+      type: VARCHAR
+      size: 50
+      description:
+    numcom:
+      type: VARCHAR
+      size: 8
+      description:
+    reflib:
+      type: VARCHAR
+      size: 20
+      description:
+    staliq:
+      type: VARCHAR
+      size: 1
+      description:
+    fecliq:
+      type: DATE
+      description:
+    refliq:
+      type: VARCHAR
+      size: 10
+      description:
+    desliq:
+      type: VARCHAR
+      size: 250
+      description:
+    fecdep:                  
+      type: DATE
+      description: fecha del Deposito
+    codtipper:
+      type: VARCHAR
+      size: 3
+      description:
+    banco:
+      type: VARCHAR
+      size: 50
+      description:
+    cheque:
+      type: VARCHAR
+      size: 50
+      description:
+    agencia:
+      type: VARCHAR
+      size: 50
+      description:
+    fecha:
+      type: DATE
+      description:
+    tipliq:
+      type: VARCHAR
+      size: 20
+      description:
+    codmon:
+      type: VARCHAR
+      size: 3
+      required: true
+      foreignTable: tsdefmon
+      foreignReference: codmon
+      description:
+    valmon:
+      type: NUMERIC
+      size: 14
+      scale: 6
+      description:
+    perpre:
+      type: VARCHAR
+      size: 2
+      description:     
+    starec:
+      type: VARCHAR
+      size: 1
+      description: Estatus de Recaudación  
+    fecrec:
+      type: DATE
+      description: Fecha de Recaudación    
+    codpar:
+      type: VARCHAR
+      size: 5
+      description: Código del Parque                 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  ciregingr:   
+    _attributes:
+      description:
+    refing:
+      type: VARCHAR
+      size: 8
+      description:
+      required: true
+    fecing:
+      type: DATE
+      description:
+      required: true
+    desing:
+      type: VARCHAR
+      size: 250
+      description:
+    codtip:
+      type: VARCHAR
+      size: 3
+      description:
+    rifcon:
+      type: VARCHAR
+      size: 15
+      description:
+    moning:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    monrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    mondes:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    montot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    desanu:
+      type: VARCHAR
+      size: 250
+      description:
+    fecanu:
+      type: DATE
+      description:
+    staing:
+      type: VARCHAR
+      size: 1
+      description:
+    ctaban:
+      type: VARCHAR
+      size: 20
+      description:
+    tipmov:
+      type: VARCHAR
+      size: 4
+      description:
+    previs:
+      type: VARCHAR
+      size: 1
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  citiping:   
+    _attributes:
+      description:
+    codtip:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    destip:
+      type: VARCHAR
+      size: 250
+      description:
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  citrasla:   
+    _attributes:
+      description:
+    reftra:
+      type: VARCHAR
+      size: 8
+      description:
+      required: true
+    fectra:
+      type: DATE
+      description:
+      required: true
+    anotra:
+      type: VARCHAR
+      size: 4
+      description:
+    pertra:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    destra:
+      type: VARCHAR
+      size: 250
+      description:
+    desanu:
+      type: VARCHAR
+      size: 250
+      description:
+    tottra:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    statra:
+      type: VARCHAR
+      size: 1
+      description:
+    fecanu:
+      type: DATE
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  citiprub:   
+    _attributes:
+      description:
+    codtiprub:
+      type: VARCHAR
+      size: 6
+      description:
+      required: true
+    destiprub:
+      type: VARCHAR
+      size: 250
+      description:
+      required: true
+    codpre:
+      type: VARCHAR
+      size: 50
+      description: Código presupuestario de Ingresos
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  citipper:   
+    _attributes:
+      description:
+    codtipper:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    destipper:
+      type: VARCHAR
+      size: 250
+      description:
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  ciliqing:   
+    _attributes:
+      description:
+    refliq:                  
+      type: VARCHAR
+      size: 8
+      description: referencia
+      required: true
+    fecliq:                  
+      type: DATE
+      description: fecha
+      required: true
+    desliq:                  
+      type: VARCHAR
+      size: 500
+      description: descripcion
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro      
+  cidetliq:   
+    _attributes:
+      description:
+    refliq:                  
+      type: VARCHAR
+      size: 8
+      description: referencialiquidacion
+      required: true
+    refing:                  
+      type: VARCHAR
+      size: 8
+      description: referenciaingreso
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  cideping:   
+    _attributes:
+      description: se graba los depositos realizados a un Ingreso
+    refing:
+      type: VARCHAR
+      size: 8      
+      required: true
+      description:  Referencia del Ingreso
+    numdep:
+      type: VARCHAR
+      size: 20
+      description: Número del Depósito
+      required: true 
+    numcue:
+      type: VARCHAR
+      size: 20
+      description: Número de la Cuenta Bancaria.
+      required: true           
+    tipmov:
+      type: VARCHAR
+      size: 4      
+      required: true
+      description: Código de Tipo de Movimiento.
+    fecha:
+      type: DATE
+      required: true
+      description: Fecha del Depósito
+    mondep:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Depósito
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  cidefpar:   
+    _attributes:
+      description: Tabla para registrar los Parques
+    codpar:
+      type: VARCHAR
+      size: 5
+      description: Código del Parque
+      required: true
+    despar:
+      type: VARCHAR
+      size: 250
+      description: Descripción del Parque
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  cibanco:   
+    _attributes:
+      description: Tabla donde se graban los bancos a usar en ingresos
+    codban:
+      type: VARCHAR
+      size: 30
+      required: true
+      description: Código del Banco      
+    desban:
+      type: VARCHAR
+      size: 200
+      required: true
+      description: Descripción del Banco
+    numcue:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: Número de la Cuenta Bancaria
+    mancom:
+      type: VARCHAR
+      size: 1
+      description: Maneja Comisión S-N
+    porcom:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Porcentaje de la Comisión
+    codcta:
+      type: VARCHAR
+      size: 32
+      description: Cuenta Contable de la Comisión    
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  cicatpre:
+    _attributes:
+      readOnly: true
+      skipSql: true
+    codcat:
+      type: VARCHAR
+      size: 32
+    nomcat:
+      type: VARCHAR
+      size: 100                          

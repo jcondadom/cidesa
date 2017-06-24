@@ -1,0 +1,93 @@
+methods:
+  post:
+   - "faordtra{reford}"
+   - "faordtra{fecord}"
+   - "faordtra{refpre}"
+   - "faordtra{rifpro}"   
+   - "faordtra{codsed}"   
+   - "faordtra{codemb}"      
+   - "faordtra{desord}"
+
+names:
+  faordtra{reford}:
+    required:  Yes
+    required_msg: La Referencia de la Orden no puedo estar en Blanco
+    validators: Validator_reford
+
+  faordtra{fecord}:
+    required:  Yes
+    required_msg: La Fecha de Emisión no puede estar blanco
+    validators: FechaValidator
+
+  faordtra{refpre}:
+    required:  No
+    validators: Refpre_Validator
+
+  faordtra{rifpro}:
+    required:  Yes
+    required_msg: El rif de cliente no puede estar en blanco
+    validators: Cliente_Validator    
+
+  faordtra{codsed}:
+    required:  Yes
+    required_msg: La Sede no puede estar blanco   
+    validators: Codsed_Validator
+
+  faordtra{codemb}:
+    required:  No
+    validators: Codemb_Validator     
+
+  faordtra{desord}:
+    required:  Yes
+    required_msg: La Descripción de la Orden no puede estar en blanco
+    validators: DescripcionValidator
+
+Validator_reford:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Faordtra
+        column:       reford
+        unique_error: El registro ya Existe intente con otro.
+
+Cliente_Validator:
+    class: CidesaExistValidator
+    param:
+        class:    Facliente
+        column:   rifpro
+        unique_error:  El Cliente no Existe.
+
+Refpre_Validator:
+    class: CidesaExistValidator
+    param:
+        class:    Fapresup
+        column:   refpre
+        unique_error:  La Cotización no existe.
+        
+Codsed_Validator:
+    class: CidesaExistValidator
+    param:
+        class:    Fadefsed
+        column:   codsed
+        unique_error:  La Sede no existe. 
+
+Codemb_Validator:
+    class: CidesaExistValidator
+    param:
+        class:    Faembarca
+        column:   codemb
+        unique_error:  El Código de Embarcación no existe.                
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripciónn no puede tener menos de 5 caracteres
+        max:       550
+        max_error: La Descripción no puede tener más de 550 caracteres
+        
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida              

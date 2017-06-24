@@ -1,0 +1,97 @@
+opciones:                  # Opciones generales
+  name:                    e
+  eliminar:                true
+  tabla:                   mancomord
+  anchogrid:               800
+  ancho:                   2000
+  filas:                   1
+  titulo:                  ' Componentes '
+  htmltotalfilas:          ' '
+1:
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             codcom
+  esgrabable:              true
+  html:                    ["size=10 maxlength=10"]
+2:
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             descom
+  esgrabable:              true
+  html:                    ["size=30x2 maxlength=500"]
+3:
+  titulo:                  Tipo
+  tipo:                    t
+  nombrecampo:             codtco
+  esgrabable:              true
+  html:                    ["size=10 maxlength=4"]
+  ajaxgrid:                true
+  catalogo:                [mantipcom, sf_admin_edit_form, {Codtco: 3, Destco: 4}, Mantenimiento_Mantipcom ]
+4:
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             destco
+  esgrabable:              true
+  html:                    ["size=30 readonly=true"]  
+5:
+  titulo:                  Número de Parte
+  tipo:                    t
+  nombrecampo:             numpar
+  esgrabable:              true
+  html:                    ["size=20 maxlength=30"]
+6:
+  titulo:                  Número de Serial
+  tipo:                    t
+  nombrecampo:             numser
+  esgrabable:              true
+  html:                    ["size=20 maxlength=50"]
+7:
+  titulo:                  Posición
+  tipo:                    t
+  nombrecampo:             posici
+  esgrabable:              true
+  html:                    ["size=20 maxlength=500"]
+8:
+  titulo:                  Tiempo Acumulado
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             tieacu
+  esnumerico:              true
+  default:                 '0,00'  
+  html:                    ["size=10"]
+9:
+  titulo:                  Instalado por 
+  tipo:                    c
+  nombrecampo:             inspor
+  esgrabable:              true
+  html:                    [ ]
+10:
+  titulo:                  Fecha Instalacion
+  tipo:                    f
+  esgrabable:              true
+  nombrecampo:             fecins
+  vacia:                   true
+  html:                    ["size=10"]
+11:
+  titulo:                  Vida Estimada (Horas)
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             videst
+  esnumerico:              true
+  default:                 '0,00'  
+  html:                    ["size=10"]
+12:
+  titulo:                  Vida actual (Horas)
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             vidact
+  esnumerico:              true
+  default:                 '0,00'  
+  html:                    ["size=10"]
+13:
+  titulo:                  Fecha de Reemplazo
+  tipo:                    f
+  esgrabable:              true
+  nombrecampo:             fecree
+  vacia:                   true
+  html:                    ["size=10"]

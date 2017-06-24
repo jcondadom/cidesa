@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/mysql
+END
+foreignkey.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/mysql/foreignkey.tpl
+END
+drop.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/mysql/drop.tpl
+END
+unique.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/mysql/unique.tpl
+END
+index.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/mysql/index.tpl
+END
+table.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/mysql/table.tpl
+END
+database-end.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/mysql/database-end.tpl
+END
+tablefk.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/mysql/tablefk.tpl
+END
+primarykey.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/mysql/primarykey.tpl
+END
+database-start.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/mysql/database-start.tpl
+END
+columns.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/mysql/columns.tpl
+END

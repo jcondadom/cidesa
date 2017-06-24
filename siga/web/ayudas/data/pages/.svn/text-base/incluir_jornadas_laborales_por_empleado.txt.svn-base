@@ -1,0 +1,20 @@
+====== Operación Incluir ======
+
+Para registrar la Jornada Laboral por Empleado debe: <html><br><br></html>
+
+  * Presionar {{:btnnuevo.jpg|}}  <html><br><br></html>
+
+  * Seleccionar del Catálogo la **Cédula del empleado** al cual se le asignará la Jornada Laboral. <html><br><br></html>
+
+  * El sistema automáticamente muestra los datos del empleado: **Nombre, Cargo y Nómina a la que pertenece**.
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperjorlabempinc.jpg|}}"></div><br></html>
+
+  * Seleccionar el **Tipo de Jornada Laboral** que cumple el empleado.  <html><br><br></html>
+
+  * Marcar los **días de la semana** que labora el empleado asociados a la jornada laboral que cumple.
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperjorlabempinc1.jpg|}}"></div><br></html> 
+
+  * Presionar  {{:btnguardar.jpg|}}  para guardar el registro. 
+

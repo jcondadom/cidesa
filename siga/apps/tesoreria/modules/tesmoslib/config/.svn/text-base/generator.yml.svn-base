@@ -1,0 +1,13 @@
+generator:
+  class:              sfPropelAdminGenerator
+  param:
+    model_class:      Tsmovban
+    theme:            default
+    fields:
+      numcue: { name: Cuenta Bancaria}
+      tipmovdesd: { name: Tipo de Movimiento Desde}
+      tipmovhast: { name: Tipo de Movimiento Hasta}
+    edit:
+      title:          Actualizacion en Lotes de los Bancos
+      display:
+        Bancos:       [numcue, tipmovdesd, tipmovhast]

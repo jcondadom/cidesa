@@ -1,0 +1,31 @@
+methods:
+  post:
+   - "bnmodtra{codmod}"
+   - "bnmodtra{desmod}"
+
+names:
+  bnmodtra{codmod}:
+    required:  Yes
+    required_msg: El Código del Modo de Transporte no puede estar en Blanco
+    validators: Validator_codmod
+
+  bnmodtra{desmod}:
+    required:  Yes
+    required_msg: La Descripción del Modo de Transporte no puede estar en Blanco
+    validators: Validator_desmod
+
+
+Validator_codmod:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Bnmodtra
+        column:       codmod
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_desmod:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La descripción no puede tener menos de 5 caracteres
+        max:       100
+        max_error: La descripción no puede pasar más de 100 caracteres

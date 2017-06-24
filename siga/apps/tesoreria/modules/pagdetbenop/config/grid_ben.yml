@@ -1,0 +1,33 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   opdetbenop
+  anchogrid:               800
+  ancho:                   700
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  C.I o R.I.F:
+  tipo:                    t
+  nombrecampo:             cedrif
+  esgrabable:              true
+  html:                    [size="15" maxlength=15]
+  ajaxgrid:                true  
+  catalogo:                [opbenefi, sf_admin_edit_form, {Cedrif: 1, Nomben: 2}, Opbenefi_Pagemiord ]  
+2:
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nomben
+  esgrabable:              true
+  html:                    [size="40" readonly=true]    
+3:
+  titulo:                  Monto
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monben
+  esnumerico:              true
+  ajaxgrid:                true  
+  ajaxadicionales:         {0: opdetbenop_monord}
+  html:                    [size="10"]  
+  estotal:                 [true, opdetbenop_montot]

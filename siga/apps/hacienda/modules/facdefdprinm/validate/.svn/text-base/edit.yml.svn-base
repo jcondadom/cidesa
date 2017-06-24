@@ -1,0 +1,8 @@
+methods:
+  post:
+   - "fcdprinm{anovig}"
+
+names:
+  fcdprinm{anovig}:
+    required:  Yes
+    required_msg: El Año es un campo requerido

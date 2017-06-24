@@ -1,0 +1,1 @@
+<?php echo select_tag('viadefrub[cancal]', options_for_select(array('D'=>'Días','K'=>'Kilómetros'),$viadefrub->getCancal())); ?>

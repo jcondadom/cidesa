@@ -1,0 +1,16 @@
+methods:
+  post:
+   - "catusoesp{desuso}"
+
+names:
+  catusoesp{desuso}:
+    required:  Yes
+    required_msg: La Descripción no puede estar en Blanco
+    validators: Validator_desuso
+    
+Validator_desuso:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Catusoesp
+        column:       desuso
+        unique_error: El registro ya Existe intente con otro.

@@ -1,0 +1,39 @@
+====== Operación Incluir ======
+
+Para **Registrar** una determinada Organización: <html><br><br></html>
+
+  * Presione el Botón {{:btnnuevo.jpg|}}
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontreginc1.jpg|}}"></div><br></html>
+
+  * Ingrese el **Código** que identificará a la Organización. <html><br><br></html>
+
+  * Ingrese el **Nombre** de la Organización que se está registrando. <html><br><br></html>
+
+  * En **Tipo de Organismo** presione el Botón {{:btncuadrocatalogo.jpg|}} para que el sistema muestre el catálogo con los Tipos de Organismos registrados donde debe seleccionar el tipo al que pertenece el organismo que está registrando.<html><br><br></html>
+
+  * Seleccione si el **Tipo de Ente** que está registrando es un **Organismo** ó una **Institución**<html><br><br></html>
+
+  * Ingrese la **Dirección** de ubicación del Organismo que está registrando.<html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontreginc2.jpg|}}"></div><br></html>
+
+  * Seleccionar el **País, Estado y Ciudad** donde se encuentra ubicada la Organización. <html><br><br></html>
+
+  * Ingresar el **Teléfono** de la Organización.  <html><br><br></html>
+
+  * Ingresar el **Número de Fax**.  <html><br><br></html>
+
+  * Ingresar el **E-Mail** de la Organización.  <html><br><br></html>
+
+  * Presione el Botón {{:btnguardar.jpg|}} para registrar la información
+
+
+
+
+
+
+
+
+
+

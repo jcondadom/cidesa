@@ -1,0 +1,51 @@
+opciones:                  # Opciones generales
+  eliminar:                false
+  name:                    a
+  tabla:                   cpmovaju
+  anchogrid:               900
+  ancho:                   700
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Presupuestario
+  tipo:                    t
+  nombrecampo:             codpre
+  esgrabable:              true
+  html:                    ["size=50 readonly=true"]
+2:       # Columna 2
+  titulo:                  Monto Ajuste
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monaju
+  esnumerico:              true  
+  html:                    ["size=10"]
+  ajaxgrid:                true  
+  estotal:                 [true, cpajuste_totaju]
+  ajaxadicionales:         {0: cpajuste_afeaju, 1: cpajuste_refere, 2: cpajuste_reftipaju, 3: cpajuste_fecaju}
+3:       # Columna 3
+  titulo:                  Monto
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monto
+  esnumerico:              true
+  html:                    ["size=10 readonly=true"]  
+4:       # Columna 4
+  titulo:                  Ref. Precompromiso
+  tipo:                    t
+  nombrecampo:             refprc
+  esgrabable:              true
+  html:                    ["size=10 readonly=true"]  
+5:       # Columna 5
+  titulo:                  Ref. Compromiso
+  tipo:                    t
+  nombrecampo:             refcom
+  esgrabable:              true
+  html:                    ["size=10 readonly=true"]  
+6:       # Columna 6
+  titulo:                  Ref. Causado
+  tipo:                    t
+  nombrecampo:             refcau
+  esgrabable:              true
+  html:                    ["size=10 readonly=true"] 
+  

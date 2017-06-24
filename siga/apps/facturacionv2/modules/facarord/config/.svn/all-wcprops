@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/49031/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/facarord/config
+END
+grid_detalle.yml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/48736/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/facarord/config/grid_detalle.yml
+END
+grid_faped.yml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/49031/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/facarord/config/grid_faped.yml
+END
+generator.yml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/48930/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/facarord/config/generator.yml
+END
+grid_detped.yml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/48882/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/facarord/config/grid_detped.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/48736/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/facarord/config/view.yml
+END

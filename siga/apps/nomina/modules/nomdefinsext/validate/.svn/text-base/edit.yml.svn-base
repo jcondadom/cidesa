@@ -1,0 +1,44 @@
+methods:
+  post:
+   - "npdefinsext{cedins}"
+   - "npdefinsext{nomins}"
+   - "npdefinsext{carins}"
+
+names:
+  npdefinsext{cedins}:
+    required:  Yes
+    required_msg:  La Cédula del Instructor Externo no puedo estar en Blanco
+    validators: Validator_cedins
+
+  npdefinsext{nomins}:
+    required:  Yes
+    required_msg:  El Nombre del Instructor Externo no puedo estar en Blanco
+    validators: Validator_nomins
+
+  npdefinsext{carins}:
+    required:  Yes
+    required_msg:  El Cargo del Instructor Externo no puedo estar en Blanco
+    validators: Validator_carins
+
+Validator_cedins:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Npdefinsext
+        column:       cedins
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_nomins:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: El Nombre del Instructor Externo no debe contener  menos de 2 caracteres
+        max:       200
+        max_error: El Nombre del Instructor Externo no debe contener mas de 200 caracteres
+
+Validator_carins:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: El Cargo del Instructor Externo no debe contener  menos de 2 caracteres
+        max:       100
+        max_error: El Cargo del Instructor Externo no debe contener mas de 100 caracteres        

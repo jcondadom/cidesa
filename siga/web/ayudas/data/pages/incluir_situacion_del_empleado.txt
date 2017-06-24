@@ -1,0 +1,15 @@
+====== Operación Incluir ======
+
+Para la operación de Registrar:   <html><br><br></html>
+
+  * Presione el Botón {{:btnnuevo.jpg|}}  <html><br><br></html>
+
+  * Ingresar el **Código** que identifique a la Situación.   <html><br><br></html>
+
+  * Ingresar la **Descripción** que haga referencia a la Situación que se está definiendo.  <html><br><br></html>
+
+  * Indicar si es o no **Calculable** en nómina dicha situación.  <html><br><br></html>
+ 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompersitempinc.jpg|}}"></div><br></html>
+
+  * Presionar {{:btnguardar.jpg|}} para almacenar el registro.  <html><br><br></html>

@@ -1,0 +1,2 @@
+ <?php echo select_tag('cireging[tipliq]', options_for_select(array('Efectivo' => '1.- Efectivo', 'Cheque' => '2.- Cheque', 'Depósito' => '3.- Depósito', 'Estado de Cuenta' => '4.- Estado de Cuenta', 'Nota de Crédito' => '5.- Nota de Crédito', 'Tarjeta de de Débito' => '6.- Tarjeta de de Débito', 'Tarjeta de Crédito' => '7.- Tarjeta de Crédito', 'Transferencia' => '8.- Transferencia'),$cireging->getTipliq(),'include_custom=Seleccione...'),array(
+   )) ?>

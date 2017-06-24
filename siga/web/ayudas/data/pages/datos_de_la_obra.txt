@@ -1,0 +1,9 @@
+====== Datos de la Obra ======
+
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontofertadjinc2.jpg|}}"></div><br></html>
+
+  * En el campo **Código de la Obra** presione el **Botón** {{:btncuadrocatalogo.jpg|}} y seleccione la obra para la cual esta registrando la adjudicación.<html><br><br></html>
+
+  * Automáticamente el sistema muestra el **Tipo de Obra**, **Descripción**, **Fecha Inicio**, **Fecha Fin** y **Monto** de la Obra
+

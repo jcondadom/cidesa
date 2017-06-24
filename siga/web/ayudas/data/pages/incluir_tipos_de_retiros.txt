@@ -1,0 +1,15 @@
+====== Operación Incluir ======
+
+Para registrar un **Tipo de Retiro** debe:
+
+  * Presionar el Botón  {{:btnnuevo.jpg|}} <html><br><br></html>
+
+  * Ingresar el **Código del Retiro**. <html><br><br></html>
+
+  * Ingresar la **Descripción del Retiro**.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompertipretinc.jpg|}}"></div><br></html>
+
+  * Presione el** Botón**  {{:btnguardar.jpg|}}
+
+
+

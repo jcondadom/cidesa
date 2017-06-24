@@ -1,0 +1,25 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npasiconparcar
+    theme:            cidesaGenerator
+    fields:          
+      codcar:
+        name: Cargo
+        params: size=20  maxlength=16
+        catalogo:
+          catalogoweb: Viadettabcar_Npcargos
+          clase: Npcargos
+          ajax: 1
+          parametros: getprincipal="getCodcar" getsecundario="getNomcar" campoprincipal="codcar" camposecundario="nomcar" campobase = "id"
+          divupdate: divgrid
+      grid:   { name: .}
+    edit:
+      title:          Asignación de Conceptos x Cargo
+      display:
+        "Datos":    [codcar, _grid]
+      actions:
+        _list:          NONE
+        _save:          ~
+        _delete:        NONE
+        _create:        NONE

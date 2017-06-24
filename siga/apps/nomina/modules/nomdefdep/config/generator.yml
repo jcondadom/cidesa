@@ -1,0 +1,27 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npdefdep
+    theme:            cidesaGenerator
+    fields:
+      coddep: { name: Código, params : size=5 maxlength=4  onFocus=readonly(this.id) onBlur="this.value=this.value.pad(4, '0',0);"}
+      desdep: { name: Descripción, params : size=80 maxlength=250 }
+      stadep: { name: Activa}
+    list:
+      title:          Definición de Dependencias
+      filters:        [coddep, desdep]
+      display:        [=coddep, desdep]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      coddep
+    edit:
+      title:          Edición  de Dependencia
+      display:
+        "Datos de la Dependencia":   [coddep, desdep, _stadep]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

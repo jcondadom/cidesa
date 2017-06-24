@@ -1,0 +1,21 @@
+===== Descripción de Campos =====
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedefdisinc1.jpg|}}"></div><br></html>
+
+  * Ingresar el **Código** y **Nombre** que haga referencia a la Disposición. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedefdisinc2.jpg|}}"></div><br></html>
+
+  * Indicar **Sí** ó **No**: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**Afecta la Contabilidad**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**Desincorpora del Inventario**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**Mejora el Bien** 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedefdisinc3.jpg|}}"></div><br></html>
+
+  * Indicar según sea el caso una de las opciones: **No Afecta, Aumenta ó Disminuye la Vida Util del Bien**. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Definición de Disposición** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

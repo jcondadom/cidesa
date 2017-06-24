@@ -1,0 +1,22 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   caartnosada
+  anchogrid:               600
+  ancho:                   550
+  filas:                   1
+  titulo:                  'Ubicaciones'
+  htmltotalfilas:          ' '
+1:
+  titulo:                  Código de Ubicación
+  tipo:                    t
+  nombrecampo:             codubi
+  esgrabable:              true
+  html:                    ["size=10 maxlength=4"]
+  ajaxgrid:                true
+2:
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nomubi
+  esgrabable:              true
+  html:                    ["size=30 readonly=true"]   

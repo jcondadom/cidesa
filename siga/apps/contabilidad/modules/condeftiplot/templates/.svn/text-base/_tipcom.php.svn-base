@@ -1,0 +1,1 @@
+<?php echo select_tag('codeftiplot[tipcom]', options_for_select(array('ALM' => 'Almacén', 'BIE' => 'Bienes', 'TES' => 'Tesoreria', 'CON' => 'Contabilidad'),$codeftiplot->getTipcom(),'include_custom=Seleccione'),array()) ?>

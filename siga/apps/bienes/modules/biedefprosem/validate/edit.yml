@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "bnprosem{codpro}"
+   - "bnprosem{despro}"
+
+names:
+  bnprosem{codpro}:
+    required:  Yes
+    required_msg: El Código del Propósitos no puede estar en Blanco
+    validators: UniqueValidator
+
+  bnprosem{despro}:
+    required:  Yes
+    required_msg: La Descripción del Propósitos  no puede estar en Blanco
+    validators: DescripcionValidator
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Bnprosem
+        column:   codpro
+        unique_error:   El Código del Propósitos  ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       3
+        min_error: La Descripción del Propósitos no puede tener menos de 3 caracteres
+        max:       500
+        max_error: La Descripción del Propósitos no puede tener más de 500 caracteres

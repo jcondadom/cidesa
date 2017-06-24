@@ -1,0 +1,51 @@
+Los campos que conforman la pantalla de **Cotizaciones** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompcotinc1.jpg|}}"></div><br></html>
+
+  * **Número** que identifica la Cotización que ofrece el Proveedor. <html><br><br></html>
+
+  * **Fecha:** Seleccionar del  [[calendario|Calendario]] la fecha en la cual se está registrando la Cotización. <html><br><br></html>
+
+  * **Moneda:** Se refiere al Tipo de moneda que es utilizado en los montos al momento de realizar la Cotización. <html><br><br></html>
+ 
+  * **R.I.F del Proveedor** que ofrece la Cotización. <html><br><br></html>
+
+  * **Descripción** de la Cotización que se está registrando.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompcotinc2.jpg|}}"></div><br></html>
+ 
+  * **Solicitud:** Indica el Código de la Solicitud de Egreso.<html><br><br></html>
+ 
+  * **Referencia** de la cotización que entrega el proveedor. <html><br><br></html>
+
+  * **Monto Total** de la Cotización que ofrece el Proveedor.<html><br><br></html>
+
+  * **Monto del Recargo** de la Cotización (en caso de aplicar).<html><br><br></html>
+
+  * **Monto del Descuento** aplicado a la cotización por parte del proveedor (en caso de aplicar). <html><br><br></html>
+
+  * **Descuenta:** En caso de que la Cotización posea descuento se debe indicar el Tipo de Descuento que maneja, en los cuales se manejan las siguientes opciones: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Tipo Porcentaje:** Se aplica a cada producto indicando la cantidad del porcentaje a descontar en la **columna Descuento**; en caso de que el descuento sea igual para cada uno de los árticulo se recomienda seleccionar el Botón {{:btnglobal.jpg|}} que se encuentra en la parte superior derecha del Detalle de la Orden de Cotización y de esta manera se le asignará el descuento automáticamente a cada uno de los árticulos.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Tipo Monto:** Consiste en definir el monto en bolívares que se le va a descontar a cada árticulo, en caso de que el descuento sea igual para cada uno de los árticulo se recomienda seleccionar el Botón {{:btnglobal.jpg|}} que se encuentra en la parte superior derecha del Detalle de la Orden y de esta manera se le asignará el descuento automáticamente a cada uno de los árticulos.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> ** - Tipo Total:** En este caso el descuento es en base al costo total de la orden, el cual es indicado en el primer árticulo; por tal motivo es obligatorio utilizar el Botón {{:btnglobal.jpg|}} ya que éste se encargará de distribuir el monto a descontar entre los diferentes artículos existentes según la cantidad solicitada y el costo unitario de los mismos.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompcotinc3.jpg|}}"></div><br></html>
+
+   * En la **Pestaña Detalle** se muestra en un [[Grid|Grid]] la información referente al detalle de la cotización: **Código y Descripción del Artículo**, **Cantidad Cotizada**, **Costo**, **Descuento**, **Total** (el sistema lo calcula) y la **Fecha de Entrega**.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompcotinc4.jpg|}}"></div><br></html>
+
+   * La **Pestaña Condiciones de Pago**, presenta la información referente al **Código** y **Descripción** de la Condiciones de Pago que fueron definidas previamente el sistema.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompcotinc5.jpg|}}"></div><br></html>
+
+   * La **Pestaña Forma de Entrega** , presenta la información referente al **Código** y **Descripción** de la Forma de Entrega de los Artículos la cual fue definida.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompcotinc6.jpg|}}"></div><br></html>
+
+  * En la Pestaña SNC (Servicio Nacional de Contratistas)se indica el **Porcentaje de de VAN de las Ofertas** y el **Porcentaje del Anticipo**. <html><br><br></html>
+
+   * Una vez que conoce cada uno de los campos de la pantalla de **Cotizaciones** podrá realizar las siguientes [[operaciones_basicas|Operaciones Basicas]]

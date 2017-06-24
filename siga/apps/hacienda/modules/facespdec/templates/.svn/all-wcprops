@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/45720/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates
+END
+_totmondec.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/44983/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_totmondec.php
+END
+_tipconcon.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_tipconcon.php
+END
+_numref.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/44983/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_numref.php
+END
+_nacconcon.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_nacconcon.php
+END
+_semdia.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/44983/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_semdia.php
+END
+_exoesp.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/44983/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_exoesp.php
+END
+_tipconrep.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_tipconrep.php
+END
+_tipesp.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_tipesp.php
+END
+_fecesp.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_fecesp.php
+END
+_horespf.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45720/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_horespf.php
+END
+_nacconrep.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_nacconrep.php
+END
+_horespi.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45720/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_horespi.php
+END
+_fecdec.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_fecdec.php
+END
+_numdec.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_numdec.php
+END
+_list_td_tabular.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/44983/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_list_td_tabular.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/44983/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/ajaxSuccess.php
+END
+_feccie.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/44983/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_feccie.php
+END
+gridSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/gridSuccess.php
+END
+_rifcon.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_rifcon.php
+END
+_mensaje.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_mensaje.php
+END
+_list_td_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/44983/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_list_td_actions.php
+END
+_grid.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_grid.php
+END
+_rifrep.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_rifrep.php
+END
+_fecrec.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_fecrec.php
+END
+_griddeuda.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/44983/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facespdec/templates/_griddeuda.php
+END

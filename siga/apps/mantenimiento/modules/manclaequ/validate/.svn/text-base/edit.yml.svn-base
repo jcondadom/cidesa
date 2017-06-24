@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "manclaequ{codcla}"
+   - "manclaequ{descla}"
+
+names:
+  manclaequ{codcla}:
+    required:  Yes
+    required_msg: Introduzca el Código de Clasificación
+    validators: Validator_codcla
+    
+  manclaequ{descla}:
+    required:  Yes
+    required_msg: Introduzca la Descripción de Clasificación
+    validators: Validator_descla
+
+Validator_codcla:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Manclaequ
+        column:       codcla
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_descla:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La Descripción no puede tener mas de 250 caracteres

@@ -1,0 +1,37 @@
+===== Documentos que Refieren a un Causado ú Orden de Pago y no afecta Presupuesto =====
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Cuando el tipo de Documento seleccionado refiere a un Causado o a una Orden de Pago que no afecta a Presupuesto , el sistema muestra los datos necesarios para completar la emisión de Cheque. Estos datos son: <html><br><br></html>
+
+Para este tipo de Documento se agrega la sección **Ordenes de Pago**:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbancemipaginc3.jpg|}}"></div><br></html>
+
+  * Tipo de Pago:
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Simple:** Paga una sola Orden de Pago.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Compuesta:** Paga varias Ordenes de Pago con un solo Cheque. <html><br><br></html>
+
+  * **Descripción del Pago:** En este campo se coloca el motivo por el cual se esta realizando el Pago. <html><br><br></html>
+
+  * **Monto Total:** En este campo aparece el monto total del pago.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbancemipaginc4.jpg|}}"></div><br></html>
+
+  * Al seleccionar el Beneficiario el sistema automáticamente muestra un [[Grid|Grid]] llamado **Ordenes de Pago** donde se muestran los datos correspondientes a las ordenes de pago asociadas al Beneficiario seleccionado en caso de que tenga pendientes por pagar. Los campos a mostrar en el grid son: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Num.Orden:** Corresponde al identificador de la Orden de Pago a la que hace referencia en la operación.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Fec. Emisión:** La fecha en la cual fue emitida la Orden de Pago.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Beneficiario:** En este campo se indica la persona a la cual se le está realizando la orden de pago.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Descuento:** Este campo indica si la Institución hace una deducción sobre la Orden de Pago que se emite.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Monto:** En este campo se coloca el monto de cada una de las ordenes de pago asociadas al beneficiario.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>** - Seleccione:** En este campo debe seleccionar aquellas Ordenes de Pago que desee cancelar. <html><br><br></html>
+
+  * En caso de que el beneficiario no posea Ordenes de Pago pendientes por pagar el sistema emitirá el siguiente mensaje: 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:mnsjordenpago.jpg|}}"></div><br></html>

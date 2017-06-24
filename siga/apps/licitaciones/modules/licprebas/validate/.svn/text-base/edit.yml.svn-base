@@ -1,0 +1,118 @@
+methods:
+  post:
+   - "liprebas{codempadm}"
+   - "liprebas{codempeje}"
+   - "liprebas{numpre}"
+   - "liprebas{codclacomp}"
+   - "liprebas{fecreg}"
+   - "liprebas{dias}"
+   - "liprebas{fecven}"
+   - "liprebas{codpre}"
+   - "liprebas{codprio}"
+   - "liprebas{despro}"
+
+names:
+  liprebas{codempadm}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  liprebas{codempeje}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  liprebas{numpre}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numpre
+
+  liprebas{codclacomp}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codclacomp
+
+  liprebas{fecreg}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  liprebas{dias}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: MyNumberValidator
+
+  liprebas{fecven}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  liprebas{codpre}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codpre
+
+  liprebas{codprio}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codprio
+
+  liprebas{despro}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_despro
+
+Validator_codemp:
+    class: CidesaExistValidator
+    param:
+        class:        Lidatstedet
+        column:       codemp
+        unique_error: El Empleado no existe
+
+Validator_numpre:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Liprebas
+        column:       numpre
+        unique_error: El numero ya existe no puede repetirse
+
+Validator_codclacomp:
+    class: CidesaExistValidator
+    param:
+        class:        Occlacomp
+        column:       codclacomp
+        unique_error: La Solicitud de Contratación no existe
+
+Validator_codpre:
+    class: CidesaExistValidator
+    param:
+        class:        Cpdeftit
+        column:       codpre
+        unique_error: El Código no existe
+
+Validator_codprio:
+    class: CidesaExistValidator
+    param:
+        class:        Lipriocon
+        column:       codprio
+        unique_error: La prioridad de Contratación no existe
+
+Validator_despro:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caracteres
+        max:       1000
+        max_error: La descripción no puede pasar mas de 1000 caracteres
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+MyNumberValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]

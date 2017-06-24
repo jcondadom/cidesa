@@ -1,0 +1,49 @@
+methods:
+  post:
+   - "npcosnivf{codnivc}"
+   - "npcosnivf{fecvig}"
+   - "npcosnivf{costo}"
+
+
+names:
+  npcosnivf{codnivc}:
+    required:  Yes
+    required_msg: El Código del Nivel no puedo estar en Blanco.
+    validators: NivelValidator
+
+  npcosnivf{fecvig}:
+    required:  Yes
+    required_msg: La Fecha de Vigencia no puedo estar en Blanco.
+    validators: FechaValidator    
+
+  npcosnivf{costo}:
+    required:  Yes
+    required_msg: El Costo no puedo estar en Blanco.
+    validators: MyNumberValidator   
+
+NivelValidator:
+    class: UniqueValidator2
+    param:
+        class:        Npcosnivf
+        column:       codnivc
+        column2:      fecvig
+        value2:       'npcosnivf[fecvig]'
+        unique_error: El Código de Nivel + Fecha de Vigencia ya Existe intente con otro.
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha de Vigencia es inválida   
+
+MyNumberValidator:
+    class: sfNumberValidator
+    param:
+        type:         decimal
+        type_error:   Por favor, Introduzca Números Decimales
+        nan_error:    Por Favor, introduzca un Número Decimal
+        min:          1
+        min_error:    El valor tiene que ser mayor que cero
+        max:           9999999999.99
+        max_error:    El valor debe contener maximo 9999999999.99

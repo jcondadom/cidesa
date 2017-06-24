@@ -1,0 +1,35 @@
+====== Tipos de Parientes ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite definir todos los Tipos de Parientes que puede tener el Empleado, con el fin de utilizar la información de estos para el calculo de HCM y para llevar un registro de su información familiar.</html>
+
+Para ello:
+
+ * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+   * Seguidamente despliegue la opción **Definiciones Específicas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefesp.jpg|}}"></div><br></html>
+
+  * Por último seleccione la opción **Tipos de Parientes**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdeftippar.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Tipos de Parientes** solo podrá realizar la Operación Básica de:
+
+  * [[Incluir Tipos de Parientes|Incluir]]
+
+  * [[Modificar Tipos de Parientes|Modificar]]
+
+  * [[Eliminar Tipos de Parientes|Eliminar]]
+
+  * [[Consultar Tipos de Parientes|Consultar]]
+
+
+
+
+
+
+
+
+

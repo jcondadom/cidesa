@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "fadefsed{codsed}"
+   - "fadefsed{dessed}"
+
+names:
+  fadefsed{codsed}:
+    required:  Yes
+    required_msg: El Código de la Sede no puedo estar en Blanco
+    validators: UniqueValidator
+
+  fadefsed{dessed}:
+    required:  Yes
+    required_msg: La Descripción de la Sede no puedo estar en Blanco
+    validators: DescripcionValidator
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Fadefsed
+        column:   codsed
+        unique_error:   El Código de la Sede ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción de la Sede no puede tener menos de 5 caracteres
+        max:       200
+        max_error: La Descripción de la Sede no puede tener más de 200 caracteres

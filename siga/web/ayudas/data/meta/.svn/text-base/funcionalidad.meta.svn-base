@@ -1,0 +1,13 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1316550241;s:8:"modified";i:1316550420;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:11:"last_change";a:7:{s:4:"date";i:1316550420;s:2:"ip";s:9:"127.0.1.1";s:4:"type";s:1:"E";s:2:"id";s:13:"funcionalidad";s:4:"user";s:6:"cidesa";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:6:"cidesa";s:6:"cidesa";}s:5:"title";s:47:"Funcionamiento Interno de las Pantallas de SIGA";s:11:"description";a:2:{s:15:"tableofcontents";a:1:{i:0;a:4:{s:3:"hid";s:47:"funcionamiento_interno_de_las_pantallas_de_siga";s:5:"title";s:47:"Funcionamiento Interno de las Pantallas de SIGA";s:4:"type";s:2:"ul";s:5:"level";i:1;}}s:8:"abstract";s:249:"El sistema SIGA  está compuesto por los siguientes Módulos ó Sub- Sistemas: 
+
+	*  Bienes Nacionales
+
+	*  Compra y Almacén  
+
+	*  Contabilidad Financiera 
+
+	*  Contabilidad Presupuestaria  
+
+	*  Formulación Presupuestaria
+
+	*  Nómina y Personal";}s:8:"relation";a:2:{s:10:"references";a:9:{s:17:"bienes_nacionales";b:1;s:16:"compra_y_almacen";b:1;s:23:"contabilidad_financiera";b:1;s:27:"contabilidad_presupuestaria";b:1;s:26:"formulacion_presupuestaria";b:1;s:17:"nomina_y_personal";b:1;s:17:"obras_y_contratos";b:1;s:17:"tesoreria_o_banco";b:1;s:18:"hacienda_municipal";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1316550241;s:8:"modified";i:1316550420;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:11:"last_change";a:7:{s:4:"date";i:1316550420;s:2:"ip";s:9:"127.0.1.1";s:4:"type";s:1:"E";s:2:"id";s:13:"funcionalidad";s:4:"user";s:6:"cidesa";s:3:"sum";s:0:"";s:5:"extra";s:0:"";}s:11:"contributor";a:1:{s:6:"cidesa";s:6:"cidesa";}}}

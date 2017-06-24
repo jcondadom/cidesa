@@ -1,0 +1,50 @@
+<?php
+
+/**
+ * Subclass for representing a row from the 'cpdefniv'.
+ *
+ *
+ *
+ * @package    Roraima
+ * @subpackage lib.model
+ * @author     $Author: dmartinez $ <desarrollo@cidesa.com.ve>
+ * @version SVN: $Id: Cpdefniv.php 59252 2014-10-29 13:19:07Z dmartinez $
+ *
+ * @copyright  Copyright 2007, Cide S.A.
+ * @license    http://opensource.org/licenses/gpl-2.0.php GPLv2
+ */
+class Cpdefniv extends BaseCpdefniv
+{
+	protected $nomemp='';
+	protected $gridper= array();
+	protected $objniv= array();
+    protected $defcod="";
+
+
+	public function afterHydrate(){
+		$this->nomemp = H::getX('CODEMP','Empresa','nomemp',self::getCodemp());
+    $this->nomext = Herramientas::getX_vacio('TIPCAU','Cpdoccau','Nomext',self::getTipcau());
+	}
+
+    public function getDefcod()
+    {
+        $reg=CpdeftitPeer::doSelect(new Criteria());
+          if ($reg)
+              return $this->defcod='S';
+           else  return  $this->defcod='N';
+    }
+
+  public function getNomdoc() {
+    return Herramientas::getX_vacio('TIPCOM','Cpdoccom','Nomext',self::getTipcom());
+  } 
+
+  public function getNomben() {
+    return  Herramientas::getX_vacio('CEDRIF','Opbenefi','Nomben',self::getCedrif());
+  }       
+
+  public function getNomext() {
+    return Herramientas::getX_vacio('TIPCAU','Cpdoccau','Nomext',self::getTipcau());
+  }
+
+
+}

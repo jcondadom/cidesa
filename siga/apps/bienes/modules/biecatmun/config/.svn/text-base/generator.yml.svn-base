@@ -1,0 +1,30 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Bnmunicip
+    theme:            cidesaGenerator
+    fields:
+      bnestado_codest: { name: Estado}
+      nomest: { name: Estado}
+      codmun: { name: Código, params: size=10 maxlength=6 onFocus=readonly(this.id) onBlur="this.value=this.value.pad(6, '0',0);"}
+      nommun: { name: Descripción, params: size=80 maxlength=500 onBlur="cadena=this.value;cadena=cadena.toUpperCase(); $(this.id).value=cadena"}
+    list:
+      title:          Municipios
+      fields:
+        codmun: { name: Código, params: size=10 maxlength=6 }
+        nommun: { name: Descripción, params: size=20 maxlength=500  }
+      filters:        [bnestado_codest, codmun, nommun]
+      display:        [=codmun, nommun, nomest]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:  10
+      sort: codmun
+    edit:
+      title:          Edición de Municipio
+      display:        [bnestado_codest, codmun, nommun]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

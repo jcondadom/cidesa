@@ -1,0 +1,45 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   npptocta
+  anchogrid:               900
+  ancho:                   870
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 2
+  titulo:                  Aprobar
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:              true  
+  html:                    [ size=4 onClick=verificar(this.id) ]
+2:       # Columna 2
+  titulo:                  DesAprobar
+  tipo:                    k
+  nombrecampo:             check2
+  esgrabable:              true  
+  html:                    [ size=4 onClick=verificar(this.id)]  
+3:       # Columna 3
+  titulo:                  Nro. Punto de Cuenta
+  tipo:                    t
+  nombrecampo:             numpta
+  esgrabable:              true
+  html:                    [ readonly=true size=25]
+4:       # Columna 4
+  titulo:                  Fecha
+  tipo:                    t
+  nombrecampo:             fecpta2
+  esgrabable:              true
+  html:                    [ readonly=true size=10]
+5:       # Columna 5
+  titulo:                  Cód. Empleado
+  tipo:                    t
+  nombrecampo:             codemp
+  esgrabable:              true
+  html:                    [ readonly=true size=35]
+6:       # Columna 6
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nomemp
+  esgrabable:              true
+  html:                    [ readonly=true size=35]

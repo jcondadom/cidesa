@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/46911/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdecpla/templates
+END
+_tipcon.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/44780/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdecpla/templates/_tipcon.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/44780/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdecpla/templates/ajaxSuccess.php
+END
+_tipconr.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/44780/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdecpla/templates/_tipconr.php
+END
+_monimp.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/46323/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdecpla/templates/_monimp.php
+END
+_buscar.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/46911/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdecpla/templates/_buscar.php
+END
+_naccon.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/44780/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdecpla/templates/_naccon.php
+END
+_nacconr.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/44780/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdecpla/templates/_nacconr.php
+END
+_grid.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/44780/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdecpla/templates/_grid.php
+END

@@ -1,0 +1,15 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Caordcom
+    theme:            cidesaGenerator
+    fields:
+      grid:   { name: .}
+
+    edit:
+      title:          Detalle de Orden de Compra
+      display:        [_grid]
+      actions:
+        _cerrar:
+          name: Cerrar
+          params: class="sf_admin_action_delete" onClick="self.close()"

@@ -1,0 +1,73 @@
+====== Bienes Nacionales ======
+
+Las opciones que conforman el **Menú** de **Bienes Nacionales** son las siguientes: 
+
+===== Definiciones =====
+
+  *  [[Definición de Empresa|Definición de Empresa]]
+
+  *  [[Definición de Ubicación|Definición de Ubicación]]
+
+  *  [[Definición de Proveedores|Definición de Proveedores]]
+
+  *  [[Definición de Activos|Definición de Activos]]
+
+  *  [[Definición de Motivos de Disposición|Definición de Motivos de Disposición]]
+
+  *  [[Definición de Disposición|Definición de Disposición]]
+
+===== Registro de Activos =====
+
+   *  [[Registro Muebles|Registro Muebles]]
+
+   *  [[Registro Inmuebles|Registro Inmuebles]]
+
+===== Disposición de Activos =====
+
+   *  [[Disposición de Muebles|Disposición de Muebles]]
+
+   *  [[Disposición de Inmuebles|Disposición de Inmuebles]]
+
+===== Registro de Seguros =====
+
+  *  [[Seguros de Muebles|Seguros de Muebles]]
+
+  *  [[Seguro de Inmuebles|Seguro de Inmuebles]]
+
+===== Contabilidad de Activos =====
+
+  *  [[Tabla de IPC|Tabla de IPC]]
+
+  *  [[Revalorización|Revalorización]]
+
+==== Definición Contable ====
+
+   *  [[Definición Contable de Muebles|Definición Contable de Muebles]]
+
+   *  [[Definición Contable de Muebles por Lotes|Definición Contable de Muebles por Lotes]]
+
+   *  [[Definición Contable de Inmuebles|Definición Contable de Inmuebles.]]
+
+   *  [[Definición Contable de Inmuebles por Lotes|Definición Contable de Inmuebles por Lotes]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

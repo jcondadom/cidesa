@@ -1,0 +1,35 @@
+===== Descripción de Campos =====
+
+  * Seleccione en **Código de Nivel** el código del Bien ó Activo Inmueble definido por la Contraloría General de la República. <html><br><br></html>
+
+  * Seleccione en **Código Mueble** el número de identificación del Activo Inmueble que se está registrando.<html><br><br></html>
+
+  * En la sección **Incorporación/Desincorporación**: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seleccione en **Cuenta a cargar** el número de identificación de la cuenta que se vaya a cargar del Bien (Activos Fijos).
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seleccione en **Cuenta a Abonar** Cuenta a abonar el número de identificación de la cuenta que se vaya a abonar del Bien (Activos Fijos).
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedefcontinminc1.jpg|}}"></div><br></html>
+
+  * En la **sección Depreciación Mensual**:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-**Seleccione en **Cuenta a cargar** el número de identificación de la cuenta que se vaya a cargar del Bien (Activos Fijos).
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seleccione en **Cuenta a abonar** el número de identificación de la cuenta que se vaya a abonar del Bien (Activos Fijos).<html><br><br></html>
+
+  * En la **sección Depreciación Acumulada**:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-**Seleccione en **Cuenta a cargar** el número de identificación de la cuenta que se vaya a cargar del Bien (Activos Fijos).
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seleccione en **Cuenta a abonar** el número de identificación de la cuenta que se vaya a abonar del Bien (Activos Fijos).<html><br><br></html>
+
+  * En la **sección Pérdida por Desincorporación**:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-**Seleccione en **Cuenta a cargar** el número de identificación de la cuenta que se vaya a cargar del Bien (Activos Fijos).
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seleccione en **Cuenta a abonar** el número de identificación de la cuenta que se vaya a abonar del Bien (Activos Fijos).
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedefcontinminc2.jpg|}}"></div><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Definición Contable de Inmuebles** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

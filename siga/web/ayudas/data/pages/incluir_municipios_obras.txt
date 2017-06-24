@@ -1,0 +1,24 @@
+====== Operación Incluir ======
+
+Para **Registrar** un determinado Municipio:<html><br><br></html>
+
+  * Presione el Botón {{:btnnuevo.jpg|}} 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontmuninc1.jpg|}}"></div><br><br></html>
+
+  * Seleccione el **País**.<html><br><br></html>
+
+  * Seleccione el **Estado**. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontmuninc2.jpg|}}"></div><br><br></html>
+
+  * Ingresar el **Código** que identificará al Municipio.<html><br><br></html>
+
+  * Ingresar el **Nombre** del Municipio. <html><br><br></html>
+
+  * Presione el Botón {{:btnguardar.jpg|}}
+
+
+
+
+

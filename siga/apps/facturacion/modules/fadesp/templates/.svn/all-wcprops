@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/55586/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fadesp/templates
+END
+autocompleteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fadesp/templates/autocompleteSuccess.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/42133/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fadesp/templates/ajaxSuccess.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/33696/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fadesp/templates/editSuccess.php
+END
+gridSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/55586/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fadesp/templates/gridSuccess.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fadesp/templates/_edit_actions.php
+END
+listSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/33696/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fadesp/templates/listSuccess.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/55586/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fadesp/templates/_edit_form.php
+END
+_filters.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/47669/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fadesp/templates/_filters.php
+END

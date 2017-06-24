@@ -1,0 +1,14 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cipereje
+    theme:            cidesaGenerator
+    fields:
+      pereje:      { name: Período }
+      fecdes:      { name: Fecha Desde }
+      fechas:      { name: Fecha Hasta}     
+      btn:      { name: .}     
+    edit:
+      title:         Cierre de Período
+      display:
+        "NONE":        [ _pereje, fecdes, fechas, _btn ]

@@ -1,0 +1,60 @@
+opciones:                  # Opciones generales
+  name:                    d
+  eliminar:                true
+  tabla:                   Licroent
+  anchogrid:               900
+  ancho:                   1050
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 3
+  titulo:                  Valuación
+  tipo:                    c
+  nombrecampo:             numval
+  esgrabable:              true
+  html:                    [size=1 ]
+  combo:                   {1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9, 10: 10}
+2:       # Columna 2
+  titulo:                  Partida de Obra
+  tipo:                    t
+  nombrecampo:             codart
+  esgrabable:              true
+  html:                    [size=10 readonly=true ]
+3:       # Columna 3
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desart
+  esgrabable:              false
+  html:                    [size=20 readonly=true ]
+4:       # Columna 5
+  titulo:                  Cantidad
+  tipo:                    m
+  nombrecampo:             cantid
+  esgrabable:              true
+  html:                    [ size=8 readonly=true ]
+5:       # Columna 3
+  titulo:                  Cantidad a Entregar
+  tipo:                    m
+  nombrecampo:             cantident
+  esgrabable:              true
+  html:                    [size=8 ]
+6:       # Columna 3
+  titulo:                  Fecha Entrega
+  tipo:                    f
+  nombrecampo:             fecent
+  esgrabable:              true
+  vacia:                   true
+  html:                    [size=20 readonly=true ]
+7:       # Columna 3
+  titulo:                  Condición
+  tipo:                    t
+  nombrecampo:             condic
+  esgrabable:              true
+  html:                    [size=30  ]
+8:       # Columna 3
+  titulo:                  liforpag
+  tipo:                    t
+  nombrecampo:             liforpag_id
+  esgrabable:              true
+  oculta:                  true
+  html:                    [size=2  ]

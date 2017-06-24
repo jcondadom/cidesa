@@ -1,0 +1,16 @@
+======Tipos de Cuentas Bancarias======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite registrar información relacionada con diferentes Tipos de Cuentas Bancarias utilizadas en la Institución. </html>
+
+**Para ello:**
+
+  * Seleccione la opción **Tesorería ó Banco** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesban.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbandefesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Tipos de Cuentas Bancarias**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbantipcueban.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Tipos de Cuentas Bancarias** veamos la [[Descripcion_Campos_tipos_cuentas_bancarias|Descripción de los Campos]]

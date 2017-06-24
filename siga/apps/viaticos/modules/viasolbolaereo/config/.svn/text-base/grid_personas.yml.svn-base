@@ -1,0 +1,28 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   viadetsolbolaer
+  anchogrid:               650
+  ancho:                   600
+  filas:                   1
+  titulo:                  ' Pasajeros '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Cédula
+  tipo:                    t
+  nombrecampo:             cedperpas
+  esgrabable:              true
+  ajaxgrid:                true
+  html:                    ["size=15 maxlength=15"]
+2:       # Columna 2
+  titulo:                  Apellidos
+  tipo:                    t
+  nombrecampo:             apeperpas
+  esgrabable:              true
+  html:                    ["size=40 maxlength=50"]
+3:       # Columna 3
+  titulo:                  Nombres
+  tipo:                    t
+  nombrecampo:             nomperpas
+  esgrabable:              true
+  html:                    ["size=40 maxlength=50"]

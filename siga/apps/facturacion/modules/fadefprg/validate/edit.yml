@@ -1,0 +1,21 @@
+methods:
+  post:
+   - "fadefprg{codprg}"
+   - "fadefprg{desprg}"
+
+names:
+  fadefprg{codprg}:
+    required:  Yes
+    required_msg: El Código del programa no debe estar en Blanco
+    validators: Validator_codprg
+
+  fadefprg{desprg}:
+    required:  Yes
+    required_msg: La desc del programa no debe estar en Blanco
+
+Validator_codprg:
+    class: sfPropelUniqueValidator
+    param:
+         class:        Fadefprg
+         column:       codprg
+         unique_error: El registro ya existe, intente con otro.

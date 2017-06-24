@@ -1,0 +1,39 @@
+generator:
+  class:              sfPropelAdminGenerator
+  param:
+    model_class:      Careqart
+    theme:            default
+    fields:
+      reqart:      { name : Número, params: maxlength=8 }
+      fecreq:      { name : Fecha, params: date_format='dd/MM/yy' }
+      desreq:      { name : Descripción }
+      monreq:      { name : Monto, params: maxlength=17 }
+      stareq:      { name : Estatus }
+      codcatreq:   { name : Unidad }
+      desubi:      { name : Descripción Unidad }
+      codcen:      { name : Centro de Costo }
+      codalm:      { name : Almacén }
+      codubi:      { name : Ubicación }
+      motivo:      { name : Motivo }
+      coddirec: { name: Dirección}
+      codest: { name: Lista Repuesto}
+    list:
+      title:          Requisiciones
+      display:        [=reqart, fecreq, desreq, monreq, stareq, codcatreq, desubi]
+      filters:        [reqart, fecreq, desreq, codcen, descen, stareq, codcatreq, desubi, codalm, nomalm, codubi, nomubi ]
+      max_per_page:	  5
+      sort:           reqart
+      object_actions:
+        _edit:        ~
+        _delete:      NONE
+    edit:
+      title:          Edición de Requisiciones
+      display:        [reqart, fecreq, desreq, monreq, codcatreq, desubi, codcen, codalm, codubi, motivo, coddirec, codest]
+      fields:
+        fecreq: { params: date_format='dd/MM/yy' }
+        reqart: { help: Máximo 8 caracteres}
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

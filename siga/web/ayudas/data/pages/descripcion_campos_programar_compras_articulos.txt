@@ -1,0 +1,19 @@
+Los campos que conforman la pantalla de **Programar Compra de Artículos** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmsncprogcompartinc1.jpg|}}"></div><br></html>
+
+  * **Fecha:** Seleccione del calendario la fecha en la cual se está registrando la Programación de la Compra. <html><br><br></html>
+
+  * **Código de la Unidad** asociada a la programación de compra de artículos. <html><br><br></html>
+
+  * En la sección Ubicación Geográfica debe seleccionar el **Estado**, **Municipio** y **Parroquia**.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmsncprogcompartinc2.jpg|}}"></div><br></html>
+
+  * **Artículos a Programar:** Se muestra y selecciona a través de un [[Grid|Grid]] los siguientes campos: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Seleccione el Código y Descripción del artículo, Cantidad a comprar, Monto Estimado, la Fecha estimada en que se realizará la compra(campo Inicio), y Fuente de Financiamiento en las columnas correspondientes.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> En cuanto a Estado, Parroquia y Ciudad debe presionar el Botón {{:btnpositivo.jpg|}} y automáticamente el sistema muestra la información que se encuentra en la sección Ubicación Geográfica de cada Artículo a programar en las columnas correspondientes a ellas. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Procedimientos de Ejecución de Compras** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

@@ -1,0 +1,13 @@
+====== Descripción de Campos ======
+
+  * Ingresar el **Tipo de Documento** a utilizar para el registro del ajuste. <html><br><br></html>
+
+  * Ingresar el **Nombre Extendido** y **Abreviado** del Tipo de Documento.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreajustesinc1.jpg|}}"></div><br></html>
+
+  * Se debe indicar a que documento (precompromiso, compromiso, causado, pagado) se le está realizando el ajuste.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreajustesinc2.jpg|}}"></div><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Ajustes** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

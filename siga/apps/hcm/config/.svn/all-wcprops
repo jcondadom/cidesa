@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repositorio/!svn/ver/49210/web/php/siga/branches/productions/trunk/apps/hcm/config
+END
+factories.yml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/49210/web/php/siga/branches/productions/trunk/apps/hcm/config/factories.yml
+END
+i18n.yml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repositorio/!svn/ver/49210/web/php/siga/branches/productions/trunk/apps/hcm/config/i18n.yml
+END
+app.yml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repositorio/!svn/ver/49210/web/php/siga/branches/productions/trunk/apps/hcm/config/app.yml
+END
+settings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/49210/web/php/siga/branches/productions/trunk/apps/hcm/config/settings.yml
+END
+cache.yml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repositorio/!svn/ver/49210/web/php/siga/branches/productions/trunk/apps/hcm/config/cache.yml
+END
+config_handlers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/49210/web/php/siga/branches/productions/trunk/apps/hcm/config/config_handlers.yml
+END
+logging.yml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/49210/web/php/siga/branches/productions/trunk/apps/hcm/config/logging.yml
+END
+routing.yml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/49210/web/php/siga/branches/productions/trunk/apps/hcm/config/routing.yml
+END
+security.yml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/49210/web/php/siga/branches/productions/trunk/apps/hcm/config/security.yml
+END
+filters.yml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/49210/web/php/siga/branches/productions/trunk/apps/hcm/config/filters.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repositorio/!svn/ver/49210/web/php/siga/branches/productions/trunk/apps/hcm/config/view.yml
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/49210/web/php/siga/branches/productions/trunk/apps/hcm/config/config.php
+END

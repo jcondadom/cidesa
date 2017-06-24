@@ -1,0 +1,79 @@
+opciones:                  # Opciones generales
+  name:                    e
+  eliminar:                false
+  tabla:                   caresordcom
+  anchogrid:               1000
+  ancho:                   1300
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Artículo
+  tipo:                    t
+  nombrecampo:             codart
+  html:                    ["size=20 readOnly=true"]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             desres
+  html:                    ["size=30x1 maxlength=500 onkeyup='return ismaxlength(this)'"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Cód. Art. Contratista de Bienes o Servicios y Cooperativas
+  tipo:                    t
+  nombrecampo:             codartpro
+  html:                    ["size=20 maxlength=15"]
+  esgrabable:              true
+4:       # Columna 4
+  titulo:                  Cantidad Ordenada
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canord
+  esnumerico:              true
+  html:                    ["size=10 onBlur='ValidarMontoGridv2(this);'"]
+5:       # Columna 5
+  titulo:                  Cantidad Ajustada
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canaju
+  esnumerico:              true
+  html:                    ["size=10 readOnly=true"]
+6:       # Columna 6
+  titulo:                  Cantidad Recibida
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canrec
+  esnumerico:              true
+  html:                    ["size=10 readOnly=true"]
+7:       # Columna 7
+  titulo:                  Cantidad Total
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             cantot
+  esnumerico:              true
+  html:                    ["size=10 readOnly=true"]
+8:       # Columna 8
+  titulo:                  Costo
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             costo
+  esnumerico:              true
+  decimal:                 6
+  html:                    ["size=10 readOnly=true"]
+9:       # Columna 9
+  titulo:                  Recargo
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             rgoart
+  esnumerico:              true
+  decimal:                 4
+  html:                    ["size=10 readOnly=true"]
+10:       # Columna 10
+  titulo:                  Total
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             totart
+  esnumerico:              true
+  decimal:                 6
+  html:                    ["size=10 readOnly=true"]

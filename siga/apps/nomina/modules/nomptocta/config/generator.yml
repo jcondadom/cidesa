@@ -1,0 +1,76 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npptocta
+    theme:            cidesaGenerator
+    fields:
+      numpta: { name: N° Punto de Cuenta, params: size=20 maxlength=20 onFocus=readonly(this.id)}
+      fecpta: { name: Fecha, params: size=10 date_format='dd/MM/yyyy' maxlength=10}
+      codempa:
+        name: Presentado a
+        catalogo:
+          catalogoweb: Nominctratxt_Nphojint
+          clase: Nphojint
+          ajax: 1
+          parametros: getprincipal="getCodempa" getsecundario="getNomempa" campoprincipal="codempa" camposecundario="nomempa" campobase = "id"
+      codempp:
+        name: Presentado por
+        catalogo:
+          catalogoweb: Nominctratxt_Nphojint
+          clase: Nphojint
+          ajax: 2
+          parametros: getprincipal="getCodempp" getsecundario="getNomempp" campoprincipal="codempp" camposecundario="nomempp" campobase = "id"
+      tippto: { name: Tipo}      
+      codemp:
+        name: Empleado
+        catalogo:
+          catalogoweb: Nphojint_Npptocta
+          clase: Nphojint
+          ajax: 3
+          parametros: getprincipal="getCodemp" getsecundario="getNomemp" campoprincipal="codemp" camposecundario="nomemp" campobase = "id"
+          ajaxparams: +'."'".'&tippto='."'+$('npptocta_tippto').value".'
+      cedemp:           { name: Cédula, params: style="border:none"}      
+      fecing:           { name: Fecha de Ingreso, params: style="border:none"}      
+      nivel:            { name: Ubicación Administrativa, params: style="border:none" size=80}
+      local:            { name: Localidad, params: style="border:none" size=80}
+      fechas:            { name: Fecha Inicio y Fin de Contrato, params: style="border:none" size=80}
+      codnom:
+        name: Nómina
+        catalogo:
+          catalogoweb: Nomdefespcestic_Npnomina
+          clase: Npnomina
+          ajax: 4
+          parametros: getprincipal="getCodnom" getsecundario="getNomnom" campoprincipal="codnom" camposecundario="nomnom" campobase = "id"          
+      codcar:
+        name: Cargo
+        catalogo:
+          catalogoweb: Nomasicarconnom_Npasicarnom
+          clase: Npcargos
+          ajax: 5
+          parametros: getprincipal="getCodcar" getsecundario="getNomcar" campoprincipal="codcar" camposecundario="nomcar" campobase = "id"          
+          catalogoparams: /param1/'."'+$('npptocta_codnom').value+'".'
+          ajaxparams: +'."'".'&nomina='."'+$('npptocta_codnom').value+'".'&codniv='."'+$('npptocta_codniv').value".'
+          divupdate: divgrid2
+      js: { name: .}
+      grid: {name: . }
+      grid2: {name: . }
+    list:
+      title:          Punto de Cuenta
+      display:        [=numpta, fecpta, codemp, nomemp]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [numpta, fecpta, codemp]
+      max_per_page:   10
+      sort:           numpta
+    edit:
+      title:          Edición de Punto de Cuenta
+      display:        
+        "Datos del Punto de Cuenta": [_js, numpta, fecpta, _tippto, codempa, codempp]
+        "Datos del Empleado":  [codemp, cedemp, fecing, nivel, local, fechas, codnom, codcar, _grid, _grid2]
+      hide:   [codniv]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

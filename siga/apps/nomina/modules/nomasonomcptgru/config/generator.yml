@@ -1,0 +1,33 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npgrucon
+    theme:            cidesaGenerator
+    fields:
+      codgrucpt: { name: Código, params : size=5 maxlength=4  readonly=true  }
+      desgrucpt: { name: Descripción, params : size=80 readonly=true }      
+      grid: { name: .}      
+    list:
+      title:          Asociación de Conceptos a Grupos
+      filters:        [codgrucpt, desgrucpt]
+      display:        [=codgrucpt, desgrucpt]
+      fields:
+        codgrucpt: { name: Código, params : size=5 maxlength=4}
+        desgrucpt: { name: Descripción, params : size=10 maxlength=250}       
+      object_actions:
+        _edit:        ~
+        _delete:      NONE
+      actions:
+        _create:        NONE
+      max_per_page:   10
+      sort:      codgrucpt
+    edit:
+      title:          Asociación de Conceptos a Grupos
+      display:
+        "Datos del Grupo":   [codgrucpt, desgrucpt]
+        "Nóminas - Conceptos":   [_grid]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      NONE
+        _create:      NONE

@@ -1,0 +1,63 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   npasicaremp
+  anchogrid:               750
+  ancho:                   700
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Marque
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:              true
+  html:                    []
+2:       # Columna 2
+  titulo:                  Código del Empleado
+  tipo:                    t
+  nombrecampo:             codemp
+  html:                    ["size=6 readonly=true"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Nombre del Empleado
+  tipo:                    t
+  nombrecampo:             nomemp
+  html:                    ["size=60 readonly=true"]
+  esgrabable:              true
+4:     # Columna 4
+  titulo:                  Tipo de Teléfono
+  tipo:                    c
+  nombrecampo:             tiptel
+  html:                    [ ]
+  esgrabable:              true  
+5:       # Columna 5
+  titulo:                  PAN Nuevo
+  tipo:                    t
+  nombrecampo:             pan
+  html:                    ["size=25 maxlength=20"]
+  esgrabable:              true    
+  oculta:                  true    
+6:     # Columna 6
+  titulo:                  Motivo de Baja
+  tipo:                    c
+  nombrecampo:             motbaj
+  html:                    [ ]
+  esgrabable:              true  
+  oculta:                  true    
+7:     # Columna 7
+  titulo:                  Identificación de Registro
+  tipo:                    c
+  nombrecampo:             tipreg
+  html:                    [ ]
+  esgrabable:              true
+  oculta:                  true
+8:       # Columna 8
+  titulo:                  Monto Transacción
+  tipo:                    m
+  nombrecampo:             montra
+  esnumerico:              true
+  esgrabable:              true
+  oculta:                  true
+  html:                    ["size=10"]
+    

@@ -1,0 +1,16 @@
+====== Operación Incluir ======
+
+Si desea **Incluir** un **Concepto para Aporte** debe:
+
+  * Presionar el Botón {{:btnnuevo.jpg|}} <html><br><br></html>
+
+  * Seleccionar el **Código** del **Tipo de Aporte**. <html><br><br></html>
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconapoinc.jpg|}}"></div><br></html>
+
+  * En la sección **“Conceptos para Aportes”** encontramos un grid donde se debe seleccionar el **Código de la Nómina** para la cual asociará los Conceptos y para cada una el **Código del Concepto** que se definirá como aporte. <html><br><br></html> 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconapoinc1.jpg|}}"></div><br></html>
+
+  * Presionar el Botón  {{:btnguardar.jpg|}}   para guardar el registro.  <html><br><br></html>
+
+  * El sistema emite un Mensaje de Éxito. 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

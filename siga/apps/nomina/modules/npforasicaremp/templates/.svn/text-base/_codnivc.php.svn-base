@@ -1,0 +1,1 @@
+<?php echo select_tag('npasicaremp[codnivc]', options_for_select(NpcosnivfPeer::getNiveles(),$npasicaremp->getCodnivc(), 'include_custom=Seleccione uno ...'),array()) ?>

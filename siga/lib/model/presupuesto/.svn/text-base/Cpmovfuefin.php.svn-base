@@ -1,0 +1,61 @@
+<?php
+
+/**
+ * Subclass for representing a row from the 'cpmovfuefin'.
+ *
+ *
+ *
+ * @package    Roraima
+ * @subpackage lib.model
+ * @author     $Author$ <desarrollo@cidesa.com.ve>
+ * @version SVN: $Id$
+ * 
+ * @copyright  Copyright 2007, Cide S.A.
+ * @license    http://opensource.org/licenses/gpl-2.0.php GPLv2
+ */
+class Cpmovfuefin extends BaseCpmovfuefin
+{
+	protected $obj = array();
+	protected $montot = 0;
+	protected $desprc = '';
+	protected $desadi = '';
+	protected $descau = '';
+	protected $descom = '';
+	protected $despag = '';
+	protected $destra = '';
+        protected $desfue="";
+        protected $codfin="";
+
+
+        public function getDesadi()
+  {
+     return Herramientas::getX('refadi','cpadidis','Desadi',self::getRefmov());
+  }
+  
+  public function getDescau()
+  {
+     return Herramientas::getX('refcau','cpcausad','Descau',self::getRefmov());
+  }  
+  
+  public function getDescom()
+  {
+     return Herramientas::getX('refcom','cpcompro','Descom',self::getRefmov());
+  }   
+  
+  public function getDespag()
+  {
+     return Herramientas::getX('refpag','cppagos','Despag',self::getRefmov());
+  } 
+  
+  public function getDesprc()
+  {
+     return Herramientas::getX('refprc','cpprecom','Desprc',self::getRefmov());
+  }
+  
+  public function getDestra()
+  {
+     return Herramientas::getX('reftra','cpsoltrasla','Destra',self::getRefmov());
+  }   
+
+}
+

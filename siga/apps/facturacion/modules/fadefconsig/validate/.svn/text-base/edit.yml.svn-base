@@ -1,0 +1,54 @@
+methods:
+  post:
+   - "faconsignatario{codcon}"
+   - "faconsignatario{nomcon}"
+   - "faconsignatario{dircon}"
+   - "faconsignatario{email}"
+
+names:
+  faconsignatario{codcon}:
+    required:  Yes
+    required_msg: El Código del Consignatario no puedo estar en Blanco
+    validators: UniqueValidator
+
+  faconsignatario{nomcon}:
+    required:  Yes
+    required_msg: El Nombre del Consignatario no puedo estar en Blanco
+    validators: NombreValidator
+    
+  faconsignatario{dircon}:
+    required:  No
+    validators: DireccionValidator    
+
+  faconsignatario{email}:
+    required:  No
+    validators: EmailValidator
+
+NombreValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: El Nombre no puede tener menos de 5 caracteres
+        max:       250
+        max_error: El Nombre no puede tener más de 250 caracteres
+
+DireccionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Dirección no puede tener menos de 5 caracteres
+        max:       500
+        max_error: La Dirección no puede tener más de 500 caracteres
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Faconsignatario
+        column:   codcon
+        unique_error:  El Código del Consignatario ya existe. Por Favor, Cambiélo por otro.
+
+EmailValidator:
+    class: sfEmailValidator
+    param:
+        strict:       true
+        email_error:  La Dirección del Email es Inválida.

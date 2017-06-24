@@ -1,0 +1,70 @@
+opciones:                  # Opciones generales
+  name:                    c
+  eliminar:                false
+  tabla:                   cpsolmovtra
+  anchogrid:               850
+  ancho:                   800
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Origen
+  tipo:                    t
+  nombrecampo:             codori
+  html:                    [size="50" readonly= true]
+  oculta:                  false
+  esgrabable:              true
+  #ajaxfila:                true
+  #catalogo:                [cpasiini, sf_admin_edit_form, { codpre: 1 }, Presoltrasla_Cpasiini]
+2:       # Columna 2
+  titulo:                  Dist. Período Origen
+  tipo:                    t
+  nombrecampo:             anadir
+  esgrabable:              false
+  oculta:                  true
+  html:                    ["type='text' size='1' style='border:none' class='imagenalmacen' onClick='mostrargridperiodosoricon(this.id)'"]
+3:       # Columna 3
+  titulo:                  Datos periodos
+  tipo:                    t
+  nombrecampo:             datosperiodos
+  esgrabable:              true
+  oculta:                  true
+  html:                    ["size=25"]
+4:       # Columna 4
+  titulo:                  Código Destino
+  tipo:                    t
+  nombrecampo:             coddes
+  html:                    [size="50" readonly= true]
+  oculta:                  false
+  esgrabable:              true
+  #ajaxfila:                true
+  #catalogo:                [cpasiini, sf_admin_edit_form, { codpre: 2 }, Presoltrasla_Cpasiini]
+5:       # Columna 5
+  titulo:                  Dist. Período Destino
+  tipo:                    t
+  nombrecampo:             anadir2
+  esgrabable:              false
+  oculta:                  true
+  html:                    ["type='text' size='1' style='border:none' class='imagenalmacen' onClick='mostrargridperiodosdescon(this.id)'"]
+6:       # Columna 6
+  titulo:                  Datos periodos
+  tipo:                    t
+  nombrecampo:             datosperiodos2
+  esgrabable:              true
+  oculta:                  true
+  html:                    ["size=25"]
+7:       # Columna 7
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monmov
+  html:                    [size="8" readonly= true]
+  oculta:                  false
+  esgrabable:              true
+  #ajaxfila:                true
+  estotal:                 [true, cpsoltrasla_totalhasta]
+#3:       # Columna 3
+#  titulo:                  Disponibilidad
+#  tipo:                    m
+#  nombrecampo:             mondis
+#  html:                    [size="8" readonly="true"]
+#  esgrabable:              false

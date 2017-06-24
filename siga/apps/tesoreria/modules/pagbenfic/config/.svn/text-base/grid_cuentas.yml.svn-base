@@ -1,0 +1,23 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   opctaben
+  anchogrid:               750
+  ancho:                   700
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código de la cuenta
+  tipo:                    t
+  nombrecampo:             codcta
+  html:                    ["size=15"]
+  esgrabable:              true
+  catalogo:                [ contabb, sf_admin_edit_form, { codcta : 1 , descta : 2 }, Contabb_Confincom ]
+  ajaxgrid:                true
+2:       # Columna 2
+  titulo:                  Descripción de la Cuenta
+  tipo:                    t
+  nombrecampo:             descta
+  html:                    ["size=50 readonly=true"]
+  esgrabable:              true

@@ -1,0 +1,82 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Hcexacon
+    theme:            cidesaGenerator
+
+    fields:
+      nomcontra: { name: Contratante, params: size=50 readonly=true}
+      refexacon: { name: Referencia, params: size=20 onBlur="enter(this.value)" readonly=true}
+      codemp : { name: Codigo, params : readonly=true}
+
+      cedemp:
+        name: Cedula
+        params: maxlength=15
+        catalogo:
+          catalogoweb: Nphojint_codtit
+          clase: Nphojint
+          ajax: 1
+          parametros: getprincipal="getCedemp" getsecundario="getNomemp" campoprincipal="cedemp" camposecundario="nomemp" campobase = "id"
+          divupdate: divgrid
+      nomnom: { name: Nomina, params : size=50 readonly=true}
+      codttrab: { name: Tipo de Trabajador, params : size=20 readonly=true}
+
+      cedfam:
+        name: Cedula
+        params: maxlength=15
+        catalogo:
+          catalogoweb: Npinffam_codben
+          clase: Npinffam
+          ajax: 2
+          parametros: getprincipal="getCedfam" getsecundario="getNomfam" campoprincipal="cedfam" camposecundario="nomfam" campobase = "id"
+          catalogoparams: /param1/'."'+$('hcexacon_codemp').value+'".'
+          ajaxparams: +'."'".'&cedemp='."'+$('hcexacon_cedemp').value+'".'&codemp='."'+$('hcexacon_codemp').value+'".'&misben='."'+$('hcexacon_misben').checked".'
+      parfam: { name: Parentesco, params : size=20 readonly=true}
+
+      codmedlab:
+        name: Código
+        params: maxlength=8
+        catalogo:
+          catalogoweb: Hcregmedlab_codmedlab
+          clase: Hcregmedlab
+          ajax: 3
+          parametros: getprincipal="getCodmedlab" getsecundario="getNommedlab" campoprincipal="codmedlab" camposecundario="nommedlab" campobase = "id"
+
+      tipexacon: { name: Tipo, type: input_hidden_tag}
+      fecexacon: { name: Fecha}
+      traexacon: { name: Diagnostico y Tratamiento, type: textarea_tag, params: size=100x5 maxlength=1000}
+      notexacon: { name: Nota por defecto, type: textarea_tag, params: size=100x5 maxlength=500}
+      durexacon: { name: Duración, params: size=20 maxlength=10}
+      misben: { name: ¿Mismo Beneficiario?, type: checkbox_tag, params: onClick='colocarDatosBen()'}
+      grid:  {name: .}
+      btn: {name: . }
+    list:
+      fields:
+        refexacon: { name: Referencia, params: size=15}
+        codemp: {name: Titular, params: size=15}
+        cedfam: {name: Beneficiario, params: size=15}
+        codmedlab: {name: Médico o Laboratorio, params: size=15}
+        tipexacon: { name: Tipo}
+        fecexacon: {name: Fecha,  params: date_format='dd/MM/yyyy' size=12 maxlength=10}
+      title:          Registro de Exámenes o Consultas
+      display:        [=refexacon, codemp, cedfam, codmedlab, tipexacon, fecexacon]
+      object_actions:
+        _edit:        ~
+        _delete:      NONE
+      filters:        [refexacon, codemp, cedfam, codmedlab, _tipexacon, fecexacon]
+      max_per_page:   10
+      sort:           refexacon
+
+    edit:
+      title:          Registro de Exámenes o Consultas
+      display:
+        "Información del Titular": [cedemp, nomnom, codttrab, misben, _grid]
+        "Información del Beneficiario": [cedfam, parfam]
+        "Información del Médico o Laboratorio": [codmedlab]
+        "Información del Examen o Consulta": [_btn, nomcontra, refexacon, _fecexacon, traexacon, notexacon, durexacon]
+      hide:  [codemp]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:        ~
+        _delete:      NONE

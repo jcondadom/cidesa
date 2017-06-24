@@ -1,0 +1,41 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npcalnomrot
+    theme:            cidesaGenerator
+    fields:
+      codtur:
+        name: Turno
+        params: maxlength=2
+        catalogo:
+          catalogoweb: Npturnos_Nomasigrutur
+          clase: Npturnos
+          ajax: 1
+          parametros: getprincipal="getCodtur" getsecundario="getDestur" campoprincipal="codtur" camposecundario="destur" campobase = "id"
+      codgru:
+        name: Grupo
+        params: maxlength=2
+        catalogo:
+          catalogoweb: Npgrupos_Nomeditcalnomrot
+          clase: Npgrupos
+          ajax: 4
+          parametros: getprincipal="getCodgru" getsecundario="getDesgru" campoprincipal="codgru" camposecundario="desgru" campobase = "id"
+      codnom:
+        name: Nómina
+        params: maxlength=3
+        catalogo:
+          catalogoweb: Npnomina_nomdefespvar
+          clase: Npnomina
+          ajax: 2
+          parametros: getprincipal="getCodnom" getsecundario="getNomnom" campoprincipal="codnom" camposecundario="nomnom" campobase = "id"
+      fecini: { name: Inicio}
+      fecfin: { name: Fin}
+      grid: { name: .}
+      boton: { name: .}
+    edit:
+      title:          Edición de Calendario
+      display:
+        "Datos":  [codtur, codgru, codnom, _fecini, _fecfin, _boton]
+        "NONE":  [_grid]
+      actions:
+        _save:        ~

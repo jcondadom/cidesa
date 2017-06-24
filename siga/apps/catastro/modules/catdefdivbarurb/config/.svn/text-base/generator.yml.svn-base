@@ -1,0 +1,37 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Catbarurb
+    theme:            cidesaGenerator
+
+    fields:
+      coddivgeo:    { name: Código, params: size=32}
+      desdivgeo:    { name: Descripción, params: size=32}
+      catdivgeo:    { name: División Geografico, params: size=32}
+      catdivgeo_id: { name: División Geografico, params: size=32}
+      nombarurb:    { name: Descripción, params: size=40}
+      alibarurb:    { name: Alias, params: size=40}
+
+    list:
+      title:     Definición de Barrio/Urbanizaciones
+      display:   [ =coddivgeo, desdivgeo, nombarurb]
+      fields:
+        catdivgeo_id: { name: División Geográfico, params: size=32}
+        nombarurb:    { name: Barrio/Urbanización, params: size=15}
+      sort:      nombarurb
+      filters:   [ nombarurb]
+      max_per_page: 10
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+
+
+    edit:
+      title: Edición de Barrio/Urbanizaciones
+      display: [ _coddivgeo, nombarurb, alibarurb]
+      hide:    [catdivgeo_id]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

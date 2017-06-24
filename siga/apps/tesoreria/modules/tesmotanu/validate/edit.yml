@@ -1,0 +1,29 @@
+methods:
+  post:
+   - "tsmotanu{codmotanu}"
+   - "tsmotanu{desmotanu}"
+names:
+  tsmotanu{codmotanu}:
+    required:  Yes
+    required_msg: El código no puedo estar en Blanco
+    validators: Validator_codmot
+
+  tsmotanu{desmotanu}:
+    required:  Yes
+    required_msg: La descripción no puedo estar en Blanco
+    validators: Validator_desmot
+
+Validator_codmot:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Tsmotanu
+        column:       codmotanu
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_desmot:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caracteres
+        max:       250
+        max_error: La descripción no puede pasar mas de 250 caracteres

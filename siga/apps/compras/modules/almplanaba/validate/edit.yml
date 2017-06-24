@@ -1,0 +1,50 @@
+methods:
+  post:
+   - "capdaoc{refpda}"
+   - "capdaoc{fecpda}"
+   - "capdaoc{despda}"
+names:
+  capdaoc{refpda}:
+    required:  Yes
+    required_msg: La Referencia del Plan de Abastecimiento no puede estar en Blanco.
+    validators: UniqueValidator
+
+  capdaoc{fecpda}:
+    required:  Yes
+    required_msg: La Fecha no puede estar en Blanco
+    validators: FechaValidator2, FechaValidator
+
+  capdaoc{despda}:
+    required:  Yes
+    required_msg: La Descripción no puede estar en Blanco.
+    validators: DescripcionValidator
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caracteres
+        max:       2000
+        max_error: La descripción no puede pasar mas de 1000 caracteres
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Capdaoc
+        column:       refpda
+        unique_error: La Referencia del Plan de Abastecimiento ya existe. Por Favor, Cambiélo por otro.
+
+FechaValidator:
+    class:         CidesaDateNow
+    param:
+        compare: 'now'
+        compare_error: La Fecha no puede ser mayor a la Fecha Actual
+        operator: '<='
+        date_error:  Fecha Inválida
+
+FechaValidator2:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es inválida

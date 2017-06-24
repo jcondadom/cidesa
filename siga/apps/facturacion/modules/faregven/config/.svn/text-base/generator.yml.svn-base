@@ -1,0 +1,34 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Faregvend
+    theme:            cidesaGenerator
+    fields:
+      rifven: { name: CED/RIF, params : size=15 maxlength=15  onFocus=readonly(this.id) }
+      nomven: { name: Nombre, params : size=80 maxlength=250 }
+      dirven: { name: Dirección, params : size=80 maxlength=500 }
+      telven: { name: Teléfono, params : size=30 maxlength=20 }
+      emaven: { name: Email, params : size=80 maxlength=50 }
+      percon: { name: Persona Contacto, params : size=80 maxlength=100 }
+    list:
+      title:          Vendedores
+      fields:
+        rifven: { name: CED/RIF, params : size=15 maxlength=15}
+        nomven: { name: Nombre, params : size=20 maxlength=250 }
+        telven: { name: Teléfono, params : size=15 maxlength=20 }
+      filters:        [rifven, nomven]
+      display:        [=rifven, nomven, telven]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      rifven
+    edit:
+      title:          Edición  del Vendedor
+      display:
+        "Datos Personales":   [rifven, nomven, dirven, telven, emaven, percon]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

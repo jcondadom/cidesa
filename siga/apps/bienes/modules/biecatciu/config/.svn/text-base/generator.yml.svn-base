@@ -1,0 +1,30 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Bnciudad
+    theme:            cidesaGenerator
+    fields:
+      bnmunicip_codmun: { name: Municipio}
+      nommun: { name: Municipio}
+      codciu: { name: Código, params: size=10 maxlength=12 onFocus=readonly(this.id)}
+      nomciu: { name: Descripción, params: size=80 maxlength=500 onBlur="cadena=this.value;cadena=cadena.toUpperCase(); $(this.id).value=cadena"}
+    list:
+      title:          Ciudades
+      fields:
+        codciu: { name: Código, params: size=10 maxlength=12 }
+        nomciu: { name: Descripción, params: size=20 maxlength=500  }
+      filters:        [bnmunicip_codmun, codciu, nomciu]
+      display:        [=codciu, nomciu, nommun]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:  10
+      sort: codciu
+    edit:
+      title:          Edición de Ciudad
+      display:        [bnmunicip_codmun, codciu, nomciu]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

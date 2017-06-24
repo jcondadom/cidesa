@@ -1,0 +1,33 @@
+opciones:                  # Opciones generales
+  name:                    b
+  eliminar:                false
+  tabla:                   fcdetcon
+  ancho:                   600
+  anchogrid:               700
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Fecha Venc.
+  tipo:                    f
+  nombrecampo:             fecven
+  esgrabable:			   true
+  html:                    [size="10"]
+2:       # Columna 2
+  titulo:                  Descripcion Cuota
+  tipo:                    t
+  nombrecampo:             numcuo
+  esgrabable:			   true
+  html:                    [size="10"]
+3:       # Columna 3
+  titulo:                  Observaciones
+  tipo:                    t
+  nombrecampo:             obscuo
+  esgrabable:			   true
+  html:                    [size="10"]
+4:       # Columna 4
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             moncuo
+  esgrabable:			   true
+  estotal:                 [true, fcconpag_totalmoncon]

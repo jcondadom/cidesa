@@ -1,0 +1,60 @@
+opciones:                  # Opciones generales
+  eliminar:                false
+  tabla:                   Opdetord
+  anchogrid:               750
+  ancho:                   600
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Marcar
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:              true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: opordpag_totmarcadas}
+  html:                    []
+2:       # Columna 2
+  titulo:                  Código Presupuestario
+  tipo:                    t
+  nombrecampo:             codpre
+  esgrabable:	      		   true
+  html:                    [size="32" readonly=true]
+3:       # Columna 3
+  titulo:                  Monto Causar
+  tipo:                    m
+  nombrecampo:             moncau
+  esnumerico:              true
+  esgrabable:			         true
+  estotal:                 [true, opordpag_monord]
+  html:                    [size="10" readonly="true"]
+4:       # Columna 4
+  titulo:                  Retenciones
+  tipo:                    m
+  nombrecampo:             monret
+  esnumerico:              true
+  esgrabable:              true
+  estotal:                 [true, opordpag_monret]
+  html:                    [size="10" readonly="true"]
+5:       # Columna 5
+  titulo:                  Amortización
+  tipo:                    m
+  nombrecampo:             mondes
+  esnumerico:              true
+  esgrabable:              true
+  estotal:                 [true, opordpag_mondes]
+  html:                    [size="10" readonly="true"]
+6:       # Columna 6
+  titulo:                  Aplica Iva
+  tipo:                    t
+  nombrecampo:             retiva
+  esgrabable:			         true
+  oculta:         			   true
+  html:                    [size="10" readonly=true]
+7:       # Columna 7
+  titulo:                  Referencia Compromiso
+  tipo:                    t
+  nombrecampo:             refcom
+  esgrabable:              true
+  oculta:                  true
+  html:                    [size="10" readonly=true]  

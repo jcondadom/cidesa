@@ -1,0 +1,36 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cpcompro
+    theme:            cidesaGenerator
+    fields:
+      refcom: { name: Referencia, params: size=15 maxlength=8 onFocus=readonly(this.id) onBlur="this.value=this.value.pad(8, '0',0);"  }
+      feccom: { name: Fecha, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      descom:  { name: Descripción, type: textarea_tag, params: size=80x5 maxlength=1000 onkeyup=" return ismaxlength(this)"}
+      tipcom:
+        name: Tipo
+        params: maxlength=4
+        catalogo:
+          catalogoweb: Cpdoccom_Predoccom
+          clase: Cpdoccom
+          ajax: 1
+          parametros: getprincipal="getTipcom" getsecundario="getNomext" campoprincipal="tipcom" camposecundario="nomext" campobase = "id"
+      tipapo: { name: Aporte}
+      cedrif:
+        name: Beneficiario
+        params: maxlength=15
+        catalogo:
+          catalogoweb: Preprecom_Opbenefi
+          clase: Opbenefi
+          ajax: 2
+          parametros: getprincipal="getCedrif" getsecundario="getNomben" campoprincipal="cedrif" camposecundario="nomben" campobase = "id"
+      moncom: { name: Monto Total, params: size=25 maxlength=25 readOnly=true}     
+      grid: { name: .}
+    edit:
+      title:          Generar Compromomisos de Aportes
+      display:
+        "Datos Generales":  [refcom, feccom, descom, tipcom, _tipapo, cedrif, moncom]
+        "Detalle": [_grid]
+      hide:       [fecnom, gasto]
+      actions:
+        _save:        ~

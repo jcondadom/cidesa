@@ -1,0 +1,1 @@
+<?php echo select_tag('mangrutre[tipo]', options_for_select(array('I' => 'Interno', 'E' => 'Externo'),$mangrutre->getTipo()),array()); ?>

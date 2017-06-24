@@ -1,0 +1,16 @@
+======Asociación Conceptos + Tipos de Retenciones======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite realizar la asociación entre los conceptos de deducción de las nóminas con las retenciones, de manera tal que el sistema pueda saber cuales conceptos son los que van a generar ordenes de pago de retencion de forma separada de la orden de pago de nómina. </html>
+
+**Para ello:**
+
+  * Seleccione la opción **Tesorería ó Banco** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesban.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbandefesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Asociación Conceptos + Tipos de Retenciones**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanasoccontipret.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Asociación Conceptos + Tipos de Retenciones** veamos la [[Descripcion_Campos_asociacion_conceptos_tipos_retenciones|Descripción de los Campos]]

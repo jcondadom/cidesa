@@ -1,0 +1,44 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Contabbhis
+    theme:            cidesaGenerator
+
+    fields:
+      codcta:
+        name: Código Cuenta
+        params: maxlength=16
+        catalogo:
+          catalogoweb: Contabb_ConFinCue
+          clase: Contabb
+          ajax: 1
+          parametros: getprincipal="getCodcta" getsecundario="getDescta" campoprincipal="codcta" camposecundario="descta" campobase = "id"
+          divupdate: divgrid_periodos
+      cargab: {name: Cargable}
+      debcre: {name: Tipo}
+      salant: {name: Saldo Anterior, params: size=20 readOnly=true}
+      grid_periodos: {name: .}
+
+    list:
+      title:          Cuentas
+      fields:
+        codcta: { name: Código, params : size=20 maxlength=16  onFocus=readonly(this.id)}
+        descta: { name: Descripción, params : size=40 maxlength=30 }
+        cargab: {name: Cargable (C->Si o N->No), params: size=1}
+        debcre: {name: Tipo (D->Débito o C->Crédito), params: size=1}
+      display:        [=codcta, descta, cargab, debcre, salant]
+      #object_actions:
+      #  _edit:        NONE
+      #  _delete:      NONE
+      filters:        [codcta, descta, cargab, debcre]
+      max_per_page:   10
+      sort:           codcta
+    edit:
+      title:          Registro de Saldos Históricos
+      display:
+        "Datos de la Cuenta": [codcta, _cargab, _debcre, salant, _grid_periodos]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

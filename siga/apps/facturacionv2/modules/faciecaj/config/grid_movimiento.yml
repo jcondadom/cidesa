@@ -1,0 +1,75 @@
+opciones:                  # Opciones generales
+  name:                    b
+  eliminar:                false
+  tabla:                   fadetmovcie
+  anchogrid:               750
+  ancho:                   700
+  filas:                   0
+  titulo:                  ' Movimientos '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             reffac
+  esgrabable:			         true
+  oculta:                  true
+  html:                    ["size=8 maxlength=8 readOnly=true"]
+2:       # Columna 2
+  titulo:                  Número
+  tipo:                    t
+  nombrecampo:             numero
+  esgrabable:			         true
+  html:                    ["size=15 maxlength=30 readOnly=true"]
+3:       # Columna 3
+  titulo:                  tippag_id
+  tipo:                    e
+  nombrecampo:             tippagid
+  esgrabable:			         true
+  oculta:                  true
+  html:                    ["readOnly=true"]
+4:       # Columna 4
+  titulo:                  Denominación
+  tipo:                    t
+  nombrecampo:             destippag
+  esgrabable:			         false
+  html:                    ["size=15 maxlength=30 readOnly=true"]
+5:       # Columna 5
+  titulo:                  codban_id
+  tipo:                    e
+  nombrecampo:             codbanid
+  esgrabable:			         true
+  oculta:                  true
+  html:                    ["readOnly=true"]
+6:       # Columna 6
+  titulo:                  Banco
+  tipo:                    t
+  nombrecampo:             nomban
+  esgrabable:			         false
+  html:                    ["size=30 maxlength=100 readOnly=true"]
+7:       # Columna 7
+  titulo:                  Comisión
+  tipo:                    t
+  nombrecampo:             comision
+  esgrabable:			         true
+  html:                    ["size=5 maxlength=5 readOnly=true"]
+8:       # Columna 8
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monpag
+  esgrabable:			         true
+  html:                    ["size=10 maxlength=32 readOnly=true"]
+9:       # Columna 9
+  titulo:                  Total
+  tipo:                    m
+  nombrecampo:             total
+  esgrabable:			         false
+  html:                    ["size=16 maxlength=32 readOnly=true"]
+  default:                 monpag
+10:       # Columna 10
+  titulo:                  Check
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:              true
+  html:                    [ ]
+  ajaxgrid:                true
+  

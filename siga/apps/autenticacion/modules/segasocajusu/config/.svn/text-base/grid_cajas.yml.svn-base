@@ -1,0 +1,28 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   segcajusu
+  anchogrid:               750
+  ancho:                   700
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Marque
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:              true
+  html:                    []
+2:       # Columna 2
+  titulo:                  Código de la Categoria
+  tipo:                    t
+  oculta:                  true
+  nombrecampo:             codcaj
+  html:                    ["size=20 readonly=true"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Caja
+  tipo:                    t
+  nombrecampo:             descaj
+  html:                    ["size=60 readonly=true"]
+  esgrabable:              true

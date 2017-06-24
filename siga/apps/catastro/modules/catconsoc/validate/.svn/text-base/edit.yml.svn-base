@@ -1,0 +1,16 @@
+methods:
+  post:
+   - "catconsoc{desconsoc}"
+names:
+  catconsoc{desconsoc}:
+    required:  Yes
+    required_msg: La Descripción no puede estar en Blanco
+    validators: Validator_desconsoc
+
+Validator_desconsoc:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Catconsoc
+        column:       desconsoc
+        unique_error: El registro ya Existe intente con otro.
+

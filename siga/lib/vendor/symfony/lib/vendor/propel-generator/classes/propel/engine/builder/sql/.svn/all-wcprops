@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/builder/sql
+END
+DDLBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/builder/sql/DDLBuilder.php
+END
+DataSQLBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/engine/builder/sql/DataSQLBuilder.php
+END

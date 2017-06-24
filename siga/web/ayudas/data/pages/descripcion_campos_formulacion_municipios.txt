@@ -1,0 +1,14 @@
+====== Descripción de Campos ======
+
+Los campos que conforman la pantalla **Municipios** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreubicgeogmuninc1.jpg}}"></div><br></html>
+
+  * **Estado:** Indica el estado al que pertenece el municipio que está registrando; solo debe hacer click sobre el ícono {{:btnflecha.jpg}} para que pueda visualizar un listado con todos los estados que fueron definidos previamente en el sistema en la pantalla [[formulacion_estados|Estados]] <html><br><br></html>
+
+  * **Código:** Indica el número que identifica al municipio. <html><br><br></html>
+
+  * **Descripción:** Indica el nombre que hace referencia al municipio. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Municipios** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+

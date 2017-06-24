@@ -1,0 +1,18 @@
+methods:
+  post:
+   - "fcdefnca{numper}"
+   - "fcdefnca{numniv}"
+   - "fcdefnca{nivinm}"
+
+names:
+  fcdefnca{numper}:
+    required:  Yes
+    required_msg: No puede salvar sin introducir al menos el NÃºmero de Periodos por AÃ±o.
+
+  fcdefnca{numniv}:
+    required:  Yes
+    required_msg: No puede salvar sin introducir al menos el NÃºmero de Niveles.
+
+  fcdefnca{nivinm}:
+    required:  Yes
+    required_msg: No puede salvar sin introducir al menos el Nivel del Inmueble.

@@ -1,0 +1,38 @@
+====== Operación Consultar ======
+
+**Para consultar un determinado Tipo de Equipo Técnico utilizando el Botón Lista:**   <html><br><br></html>
+
+  * Presione el **Botón**  {{:btnlista.jpg|}}    <html><br><br></html>
+
+  * Al haber Tipos de Equipos Técnicos registrados automáticamente observará una **Lista** con todos ellos, a través del cual podrá elegir el registro que desa modificar.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontequiptecmod.jpg|}}"></div><br></html>
+
+  * Es la presente Lista podemos observar que en la barra inferior izquierda se encuentra el **Número de Registros existentes**. Para pasearse por cada uno de los registros hasta encontrar el que desea consultar podrá realizarlo a través de los botones {{:btnatrasoadelante.jpg|}} que se encuentran ubicados en la barra inferior derecha <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:filtrotipoadj.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>También puede pasearse por los registros realizando un **Filtro** de los mismos ya sea por **Código** ó **Descripción**. Solo debe ingresar para cualquiera que sea el caso el dato por el cual desea filtrar y seguidamente presionar el Botón {{:btnfiltrar.jpg|}}, si desea volver a la lista del principio solo debe presionar el Botón {{:btnlimpiar.jpg|}} <html><br><br></html>
+
+  * Seleccione de la **Lista** el **Código del Tipo de Equipo Técnico** a consultar. <html><br><br></html>
+
+  * El sistema automáticamente muestra los datos del **Tipo de Equipo Técnico** seleccionado.<html><br><br></html>
+
+  * Si desea consultar un nuevo Tipo de Equipo Técnico debe presionar nuevamente el** Botón** {{:btnlista.jpg|}}  y repetir los pasos anteriores. <html><br><br></html>
+
+
+**Para consultar datos desde el Inicio de la pantalla Tipo:**  <html><br><br></html>
+
+  * Al haber Tipos de Equipos Técnicos registrados automáticamente observará una **Lista** con todos ellos, a través del cual podrá elegir el registro que desa modificar.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontequiptecmod.jpg|}}"></div><br></html>
+
+  * Es la presente Lista podemos observar que en la barra inferior izquierda se encuentra el **Número de Registros existentes**. Para pasearse por cada uno de los registros hasta encontrar el que desea consultar podrá realizarlo a través de los botones {{:btnatrasoadelante.jpg|}} que se encuentran ubicados en la barra inferior derecha <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:filtrotipoadj.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>También puede pasearse por los registros realizando un **Filtro** de los mismos ya sea por **Código** ó **Descripción** . Solo debe ingresar para cualquiera que sea el caso el dato por el cual desea filtrar y seguidamente presionar el Botón {{:btnfiltrar.jpg|}}, si desea volver a la lista del principio solo debe presionar el Botón {{:btnlimpiar.jpg|}} <html><br><br></html>
+
+  * Seleccione de la Lista el **Código del Tipo de Equipo Técnico** a consultar.  <html><br><br></html>
+
+  * El sistema automáticamente muestra los datos del **Tipo de Equipo Técnico** seleccionado.

@@ -1,0 +1,128 @@
+methods:
+  post:
+   - "licontrat{codempadm}"
+   - "licontrat{codempeje}"
+   - "licontrat{numcont}"
+   - "licontrat{resolu}"
+   - "licontrat{fecrel}"
+   - "licontrat{numptocuecon}"
+   - "licontrat{fecreg}"
+   - "licontrat{dias}"
+   - "licontrat{fecven}"
+   - "licontrat{objcont}"
+   - "licontrat{sancio}"
+   - "licontrat{garant}"
+   - "licontrat{numofe}"
+   - "licontrat{numexp}"
+
+
+names:
+  licontrat{codempadm}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  licontrat{codempeje}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  licontrat{numcont}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numcont
+    
+  licontrat{resolu}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    
+  licontrat{fecrel}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator    
+
+  licontrat{numptocuecon}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numptocuecon
+
+  licontrat{fecreg}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  licontrat{dias}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: MyNumberValidator
+    
+  licontrat{fecven}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  licontrat{numofe}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    
+  licontrat{numexp}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco  
+    
+  licontrat{objcont}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_des
+    
+  licontrat{sancio}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_des
+    
+  licontrat{garant}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_des
+
+Validator_codemp:
+    class: CidesaExistValidator
+    param:
+        class:        Lidatstedet
+        column:       codemp
+        unique_error: El Empleado no existe
+
+Validator_numptocuecon:
+    class: CidesaExistValidator
+    param:
+        class:        Liptocuecon
+        column:       numptocuecon
+        unique_error: El Expediente no Existe
+
+
+Validator_numcont:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Licontrat
+        column:       numcont
+        unique_error: El numero ya existe no puede repetirse
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+MyNumberValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]
+
+
+Validator_des:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Recomendación no puede tener menos de 2 caracteres
+        max:       1000
+        max_error: La Recomendación no puede pasar mas de 1000 caracteres

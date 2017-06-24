@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "manestord{codsor}"
+   - "manestord{dessor}"
+
+names:
+  manestord{codsor}:
+    required:  Yes
+    required_msg: Introduzca el Código del Estatus
+    validators: Validator_codsor
+    
+  manestord{dessor}:
+    required:  Yes
+    required_msg: Introduzca la Descripción del Estatus
+    validators: Validator_dessor
+
+Validator_codsor:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Manestord
+        column:       codsor
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_dessor:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La Descripción no puede tener mas de 250 caracteres 

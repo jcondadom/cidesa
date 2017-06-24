@@ -1,0 +1,23 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   farecart
+  anchogrid:               705
+  ancho:                   700
+  filas:                   1
+  titulo:                  'Artículos asociados'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Cod. Artículo
+  tipo:                    t
+  nombrecampo:             codart
+  html:                    ["size=20 "]
+  esgrabable:              true
+  catalogo:                [caregart, sf_admin_edit_form, {Codart: 1, Desart: 2}, Caregart_Faproalt ]
+  ajaxgrid:                true
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desart
+  html:                    ["size=50 readonly=true"]
+  esgrabable:              true

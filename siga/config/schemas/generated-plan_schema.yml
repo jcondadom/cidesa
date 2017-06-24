@@ -1,0 +1,40 @@
+---
+propel: 
+  _attributes: 
+    noXsd: false
+    defaultIdMethod: native
+    package: lib.model
+  plannuevo: 
+    codold: 
+      type: VARCHAR
+      size: 32
+    nomold: 
+      type: VARCHAR
+      size: 1000
+    codnew: 
+      type: VARCHAR
+      size: 32
+    nomnew: 
+      type: VARCHAR
+      size: 1000
+    id: 
+      type: integer
+      required: true
+      primaryKey: true
+      autoincrement: true
+  planunico: 
+    codcta: 
+      type: VARCHAR
+      size: 32
+    nompre: 
+      type: VARCHAR
+      size: 250
+      required: true
+    codnew: 
+      type: VARCHAR
+      size: 10
+    id: 
+      type: integer
+      required: true
+      primaryKey: true
+      autoincrement: true

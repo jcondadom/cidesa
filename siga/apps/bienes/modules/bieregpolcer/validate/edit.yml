@@ -1,0 +1,60 @@
+methods:
+  post:
+   - "bnregpolcer{numpol}"
+   - "bnregpolcer{fecpol}"
+   - "bnregpolcer{fecini}"
+   - "bnregpolcer{fecven}"
+   - "bnregpolcer{numsol}"
+
+names:
+  bnregpolcer{numpol}:
+    required:  Yes
+    required_msg: El Número de Póliza no puedo estar en Blanco
+    validators: UniqueValidator
+
+  bnregpolcer{fecpol}:
+    required:  Yes
+    required_msg: La Fecha de la Póliza no puedo estar en Blanco
+    validators: FechaValidator, FechaValidator1
+
+  bnregpolcer{fecini}:
+    required:  No
+    validators: FechaValidator
+
+  bnregpolcer{fecven}:
+    required:  No
+    validators: FechaValidator   
+
+  bnregpolcer{numsol}:
+    required:  Yes
+    required_msg: La Solicitud de Pólizas/Certificados no puedo estar en Blanco
+    validators: SolicitudValidator
+
+FechaValidator1:
+    class:         CidesaDateNow
+    param:
+        compare: 'now'
+        compare_error: La Fecha no puede ser mayor a la Fecha Actual
+        operator: '<='
+        date_error:  Fecha Inválida
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Bnregpolcer
+        column:   numpol
+        unique_error:   El Número de Póliza ya existe. Por Favor, Cambiélo por otro.
+
+SolicitudValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Bnsolpolcer
+        column:   numsol
+        unique_error:  La Solicitud de Pólizas/Certificados no existe.
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es inválida

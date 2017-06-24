@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/49071/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/faciecaj/templates
+END
+_gride.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/48613/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/faciecaj/templates/_gride.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/49071/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/faciecaj/templates/ajaxSuccess.php
+END
+_codalm.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48613/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/faciecaj/templates/_codalm.php
+END
+_gridm.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/48613/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/faciecaj/templates/_gridm.php
+END
+_codcaj.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/49071/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/faciecaj/templates/_codcaj.php
+END

@@ -1,0 +1,49 @@
+vendedores:
+  opciones:
+    activo: true #true/false
+    descripcion: Módulo de Vendedores
+    imagen: documentos.gif
+    nombre: Vendedores
+    urls:
+      Cambiar Contraseña:
+        modulo: autenticacion.php
+        modulo_dev: autenticacion_dev.php
+      default:
+        modulo: vendedores.php
+        modulo_dev: vendedores_dev.php
+      Reportes:
+        absoluta: reportes/reportes/vendedores
+    imagenes:
+      default: OperatorClass.png
+  menu:
+    Rutas:
+      Registrar Rutas:                                        ruta
+      Rutas por Cliente:                                      rutacliente
+      Rutas por Vendedores:                                   rutavendedores  
+    Metas:
+      Registrar Metas:                                        metas   
+    Radar de Ventas:
+      Registrar Radar de Ventas:                              radarventas  
+    Reportes:
+      Rutas:
+        Listado de Rutas:                                     ruta.php
+      Metas:
+        Listado de Metas:                                     metas.php
+      Pedidos:
+        Últimos Pedidos por Cliente:                          fapedido.php
+        Pedidos Pedientes:                                    pedidospendientes.php
+      Facturas:
+        Vendedores con Mayor y Menor Facturación:             vendedoresfactura.php      
+    Dashboard:
+      General:                                      	      dashboard/dashboard
+      Clientes:                                               ../vendedores.php/dashboard/graficacliente
+      Pedidos:                                                ../vendedores.php/dashboard/graficapedidosMes
+      Facturación:                                            ../vendedores.php/dashboard/graficafacturacion
+      Cuentas por Cobrar:                                     ../vendedores.php/dashboard/graficacuentaxcobrar
+      Clientes Con Mayor y Menor Facturación:                 ../vendedores.php/dashboard/graficaclientesmayormenosfac
+      Productos más Vendidos:                                 ../vendedores.php/dashboard/graficaventaproductos
+      Vendedores con más Ventas:                              ../vendedores.php/dashboard/graficavendedoresmes
+      Rutas con Mayor Facturación:                            ../vendedores.php/dashboard/graficarutasmes
+    Mantenimiento:
+      Cambiar Contraseña:                                     cambiopasswd
+

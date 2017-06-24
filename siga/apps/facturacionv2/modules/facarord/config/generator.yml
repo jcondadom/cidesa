@@ -1,0 +1,77 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Facarord
+    theme:            cidesaGenerator
+    fields:
+      numcar: { name: Número, params : size=20 maxlength=20  onFocus=readonly(this.id)}
+      feccar: { name: Fecha, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      fecven: { name: Fecha de Vencimiento, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      codentcre:
+        name: Entidad Crediticia
+        params: maxlength=3
+        catalogo:
+          catalogoweb: Faentcre_Facarord
+          clase: Faentcre
+          ajax: 1
+          parametros: getprincipal="getCodentcre" getsecundario="getNomentcre" campoprincipal="codentcre" camposecundario="nomentcre" campobase = "id"
+      rifpro:
+        name: CI/RIF del Cliente
+        params: maxlength=15 disabled=false
+        catalogo:
+          catalogoweb: Rifcli_Fapedido
+          clase: Facliente
+          ajax: 2
+          parametros: getprincipal="getRifpro" getsecundario="getNompro" campoprincipal="rifpro" camposecundario="nompro" campobase = "id"
+      dirpro: { name: Dirección, params : size=80 readOnly=true}
+      telpro: { name: Teléfono, params : size=15 readOnly=true}
+      ramart:
+        name: Rubro
+        params: maxlength=6
+        catalogo:
+          catalogoweb: Caramart_Almregart
+          clase: Caramart
+          ajax: 3
+          parametros: getprincipal="getRamart" getsecundario="getNomram" campoprincipal="ramart" camposecundario="nomram" campobase = "id"
+      descar:  { name: Descripción, type: textarea_tag, params: size=80x5 maxlength=250 onkeyup=" return ismaxlength(this)"}
+      codban:
+        name: Paguese A
+        params: maxlength=15
+        catalogo:
+          catalogoweb: Rifcli_Fapedido
+          clase: Facliente
+          ajax: 4
+          parametros: getprincipal="getCodban" getsecundario="getNomban" campoprincipal="codban" camposecundario="nomban" campobase = "id"
+      moncar: { name: Monto Total, params: size=25}
+      codprg: { name: Programa}
+      concre: { name: Tipo de Pago}
+      conpag: { name: Condición de Pago}
+      obj1: { name: .}
+      obj2: { name: .}
+      obj3: { name: .}
+      js: { name: .}
+      codpro: { name: Cliente}
+      totdetped: { name: Total Desglose de Artículo}
+      pedido: { name: Monto Pedido }
+      facturado: { name: Monto Facturado }
+      disponible: { name: Monto Disponible }
+    list:
+      title:          Carta Orden      
+      display:        [=numcar, feccar, descar, moncar]
+      #filters:        [numcar, feccar]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      numcar      
+    edit:
+      title:          Edición  de Carta Orden
+      display:
+        "Datos":   [numcar, feccar, fecven, codentcre, rifpro, dirpro, telpro, ramart, descar, codban, moncar, pedido, facturado, disponible, _codprg, _concre, _conpag]
+        "Detalle":   [_obj1, _obj2, _totdetped, _obj3, _js]
+      hide:    [codpro, famart, totped, mondet, codtipcli]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

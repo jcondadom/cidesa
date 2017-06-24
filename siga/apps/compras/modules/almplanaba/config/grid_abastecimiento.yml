@@ -1,0 +1,135 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   cadetpda
+  anchogrid:               1050
+  ancho:                   1100
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Nro Orden de Compra
+  tipo:                    t  
+  nombrecampo:             ordcom
+  html:                    ["size=10 readOnly=true"]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Cód. Estado
+  tipo:                    t
+  nombrecampo:             codedo
+  html:                    ["size=10 maxlength=4"]
+  esgrabable:              true
+  ajaxgrid:                true
+  catalogo:                [ocestado, sf_admin_edit_form, {Codedo: 2, Nomedo: 3}, Catipalm_codedo ]  
+3:       # Columna 3
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nomedo
+  html:                    ["size=20 readOnly=true"]  
+4:       # Columna 4
+  titulo:                  Tipo
+  tipo:                    c
+  nombrecampo:             catipalm_id
+  html:                    [ ]
+  esgrabable:              true
+5:       # Columna 5
+  titulo:                  Cód. Proveedor
+  tipo:                    t
+  nombrecampo:             codpro
+  html:                    ["size=10 readOnly=true"]
+  esgrabable:              true
+6:       # Columna 6
+  titulo:                  Proveedor
+  tipo:                    t
+  nombrecampo:             nompro
+  html:                    ["size=25 readOnly=true"]
+  esgrabable:              true
+7:       # Columna 7
+  titulo:                  Dirección
+  tipo:                    a
+  nombrecampo:             dirori
+  html:                    ["size=25x1 readOnly=true"]
+  esgrabable:              true
+8:       # Columna 8
+  titulo:                  Cód. Artículo
+  tipo:                    t
+  nombrecampo:             codart
+  html:                    ["size=25 readOnly=true"]
+  esgrabable:              true
+9:       # Columna 9
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             desart
+  html:                    ["size=25x1 readOnly=true"]
+  esgrabable:              true  
+10:       # Columna 10
+  titulo:                  Cantidad
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canart
+  esnumerico:              true
+  html:                    ["size=10 readOnly=true"]
+11:       # Columna 11
+  titulo:                  Unidad de Medida
+  tipo:                    t
+  nombrecampo:             unimed
+  html:                    ["size=10 readOnly=true"]
+  esgrabable:              true
+12:       # Columna 12
+  titulo:                  TM
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             tmart
+  esnumerico:              true
+  html:                    ["size=10 readOnly=true"]  
+13:       # Columna 13
+  titulo:                  Mes
+  tipo:                    c
+  nombrecampo:             mes
+  html:                    [ ]
+  esgrabable:              true  
+14:       # Columna 14
+  titulo:                  Tipo de Transporte
+  tipo:                    t
+  nombrecampo:             tiptra
+  html:                    ["size=10 readOnly=true"]
+  esgrabable:              true
+15:       # Columna 15
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             destrans
+  html:                    ["size=25 readOnly=true"]
+  esgrabable:              true  
+16:       # Columna 16
+  titulo:                  Distribución de Almacén
+  tipo:                    t
+  nombrecampo:             agregar
+  html:                    ["size=1 style='border:none' class='imagenannadir' onClick='mostrarAlmacen(this.id)'"]
+  esgrabable:              true 
+17:       # Columna 17  
+  titulo:                  Observaciones
+  tipo:                    a
+  nombrecampo:             observ
+  html:                    ["size=25x1  maxlength=1000 onkeyup='return ismaxlength(this)'"]
+  esgrabable:              true  
+18:       # Columna 18
+  titulo:                  Distribucion por artículo
+  tipo:                    t
+  nombrecampo:             distri
+  html:                    ["size=10 readOnly=true"]
+  esgrabable:              true  
+  oculta:                  true  
+19:       # Columna 19
+  titulo:                  ID
+  tipo:                    t
+  nombrecampo:             id
+  html:                    ["size=10 readOnly=true"]
+  esgrabable:              true  
+  oculta:                  true    
+20:       # Columna 20
+  titulo:                  Fecha Entrega
+  tipo:                    f
+  nombrecampo:            fecent
+  html:                    [ ]
+  esgrabable:              true  
+  oculta:                  true      

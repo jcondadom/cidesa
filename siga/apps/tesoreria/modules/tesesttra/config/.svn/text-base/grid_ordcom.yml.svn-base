@@ -1,0 +1,50 @@
+opciones:                  # Opciones generales
+  name:                    b
+  eliminar:                false
+  tabla:                   caordcom
+  anchogrid:               1000
+  ancho:                   820
+  filas:                   0
+  titulo:                  ' Orden de Compra '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Referencia
+  tipo:                    t
+  nombrecampo:             ordcom
+  html:                    ["size=10 readonly=true" ]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Fecha
+  tipo:                    f
+  nombrecampo:             fecord
+  html:                    ["size=10 readonly=true"]
+  esgrabable:              true  
+3:       # Columna 3
+  titulo:                  Tipo
+  tipo:                    t
+  nombrecampo:             tipordletra
+  html:                    ["size=10 readonly=true"]
+  esgrabable:              true  
+4:       # Columna 4
+  titulo:                  Cód. Proveedor
+  tipo:                    t
+  nombrecampo:             codpro
+  html:                    ["size=15 readonly=true"]  
+5:       # Columna 5
+  titulo:                  Proveedor
+  tipo:                    t
+  nombrecampo:             nompro
+  html:                    ["size=25 readonly=true"]
+  esgrabable:              true    
+6:       # Columna 6
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             desord
+  html:                    ["size=40x2 readonly=true" ]
+  esgrabable:              true
+7:       # Columna 7
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monord
+  html:                    ["size=10 readonly=true" ]
+  esgrabable:              true

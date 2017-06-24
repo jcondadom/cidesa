@@ -1,0 +1,26 @@
+====== Tipos de Gastos ======
+
+ Proceso que permite definir los Tipos de Gastos Presupuestarios a los cuales se asociarán los cargos.
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el **Menú Principal** de **SIGA**.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Tipos de Gastos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompertipgas.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Tipos de Gastos** podrá realizar la Operaciones Básicas de:
+
+  * [[Incluir Tipos de Gastos|Incluir]]
+
+  * [[Modificar Tipos de Gastos|Modificar]]
+
+  * [[Eliminar Tipos de Gastos|Eliminar]]
+
+  * [[Consultar Tipos de Gastos|Consultar]]

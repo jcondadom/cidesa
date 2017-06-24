@@ -1,0 +1,43 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cpdoccau
+    theme:            cidesaGenerator
+    fields:
+      tipcau: {name: Tipo de Documento, params: onblur=convertirMayusculas(this.id) maxlength=4 size=5 onFocus=readonly(this.id)}
+      nomext: {name: Nombre Extendido}
+      nomabr: {name: Nombre Abreviado, params: onblur=convertirMayusculas(this.id) maxlength=4 size=5}
+      refier: {name: Refiere a}
+      afeprc: {name: .}
+      afecom: {name: .}
+      afecau: {name: .}
+      afedis: {name: .}
+      codcta: {name: .}
+      genlibcom: {name: Genera Libro de Compra}
+      codtiptra:
+        name: Tipo de Transacción
+        catalogo:
+          catalogoweb: ConFinActCom_Cotiptra
+          clase: Cotiptra
+          ajax: 2
+          parametros: getprincipal="getCodtiptra" getsecundario="getDestiptra" campoprincipal="codtiptra" camposecundario="destiptra" campobase = "id"
+    list:
+      title:   Causados
+      display: [=tipcau, nomext]
+      filters: [tipcau, nomext]
+
+    edit:
+      title:                     Causados
+      display:
+        Datos del Documento:     [tipcau, nomext, nomabr, _refier, codtiptra, genlibcom]
+        Precompromiso:           [_afeprc]
+        Compromiso:              [_afecom]
+        Causado:                 [_afecau]
+        Disponibilidad:          [_afedis]
+        Cuenta Contable:          [_codcta]
+      hide:  [etadef]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

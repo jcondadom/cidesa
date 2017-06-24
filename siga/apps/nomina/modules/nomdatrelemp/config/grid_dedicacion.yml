@@ -1,0 +1,28 @@
+opciones:                  # Opciones generales
+  name:                    q
+  eliminar:                true
+  tabla:                   npcamded
+  anchogrid:               500
+  ancho:                   400
+  filas:                   1
+  titulo:                  'Cambios de Dedicación'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Dedicación
+  tipo:                    t
+  nombrecampo:             codtip
+  esgrabable:              true
+  html:                    ["size=10 maxlength=4"]
+  catalogo:                [nptipded, sf_admin_edit_form, {Codtip: 1, Destip: 2}, Nomdatrelemp_Nptipded ]
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             destip
+  esgrabable:              true
+  html:                    ["size=30 readOnly=true"]
+3:       # Columna 3
+  titulo:                  Fecha de Cambio
+  tipo:                    f
+  nombrecampo:             feccam
+  esgrabable:              true
+  html:                    ["size=15 maxlength=10"]

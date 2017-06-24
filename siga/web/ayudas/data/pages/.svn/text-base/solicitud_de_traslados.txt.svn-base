@@ -1,0 +1,21 @@
+====== Solicitud de Traslados ======
+
+**Tabla:** CPTRASLA , CPMOVTRA
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite incluir las operaciones que registran una Solicitud de un Traslado durante la Ejecución del Presupuesto de forma tal que antes de realizar los traslados exista una solicitud que sea autorizada por una persona o institucion.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La Solicitud de Traslado es el paso previo a realizar antes de un Traslado Presupuestario. Basicamente, los usuarios ingresan la información referente a los posibles códigos presupuesatarios cedentes y receptores además del monto que van a tomar del código presupuestario cedente.<br><br></html>
+
+
+**Para ello:**
+
+   * Seleccione la opción **Contabilidad Presupuestaria** ubicada en el Menú Principal de **SIGA**
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpre.jpg|}}"></div><br></html>
+
+   * Seguidamente despliegue la opción **Ejecución Presupuestaria**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreejepre.jpg|}}"></div><br></html>
+
+  * Por último seleccione **Solicitud de Traslados**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpresoltras.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Solicitud de Traslados** veamos la [[Descripcion_Campos_presupuesto_solicitud_traslados|Descripción de los Campos]]
+

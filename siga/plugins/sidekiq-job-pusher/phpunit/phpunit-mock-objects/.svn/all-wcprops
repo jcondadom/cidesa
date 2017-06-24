@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/composer.json
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/LICENSE
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/.gitignore
+END
+.travis.yml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/.travis.yml
+END
+CONTRIBUTING.md
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/CONTRIBUTING.md
+END
+.gitattributes
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/.gitattributes
+END
+ChangeLog.markdown
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/ChangeLog.markdown
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/phpunit.xml.dist
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/package.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/build.xml
+END

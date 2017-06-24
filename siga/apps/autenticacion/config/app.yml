@@ -1,0 +1,92 @@
+all:
+   .apps:
+     autenticacion:    autenticacion
+     max_per_page:     15
+     contabilidadpresupuesto: /home/desarrollo22/www/siga_cp/
+     reportes:         /home/desarrollo22/www/reportes_pdval/
+     reportes_web:                     reportes/reportes
+     this: autenticacion
+     configemp:
+       generales:
+         impcpt: X            # Se creo para configurar si los conceptos de nomina en la orden de pago de nomina deben ser imprimibles por defecto son imprimibles 'S' para si o 'X' para no
+         noformatcont: S             # Permite configurar si las OC y OP no manejan el formato correlativo de Contaba
+         manmodcontra: S             # Permite realizar los ajustes al mod de licitaciones como contrataciones
+         mostodart: S             # Permite Mostrar todos los articulos tanto los de compras y facturación
+         filprevig: S             # Permite Mostrar los precios de articulos que esten dentro del rango de vigencia
+       aplicacion:
+         autenticacion:
+           modulos:
+             login:
+               usualms: S        # Habilita la carga de los almacenes asignados al usuario que se logea de la tabla causualm, para usarse en facturacionv2
+         nomina:
+           modulos:
+             nomnomcienom:           #Cierre de Nomina
+               intpre: N             #Integracion con Presupuesto
+             nomhojint:
+               valifecing:  S   # Si el valor es S no valida que la fecha de ingreso no se mayor a la actual
+         compras:
+           modulos:
+             almordrec:               #Recepcion de Ordenes de Compras
+               recmer: S              # Muestra el campo de Nombre del Cliente, Cantidad de Cajas , Cantidad de Jaulas
+             almentalm:
+               recmer: S                  # Muestra el campo de  Tamaño Metrico , Cantidad de Jaulas
+             almsalalm:
+               recmer: S                  # Muestra el campo de  Tamaño Metricoo , Cantidad de Jaulas
+             almsolegr:               #Recepcion de Ordenes de Compras
+               catbnubica: S               #la ubicacion sale de Bnbica
+             almdefalm:               #Definicion de Almacenes
+               codlongveinte: S       # se creo para el caso de que el almacen sea mas de 6 caracteres
+             almregart:               # Registro de Articulos
+               manunialt: S       # se creo para el manejo de unidades alternas
+               manartlot: S       # se creo para el manejo de articulos en lotes
+             almordcom:           # Registro de Ordenes de Compra
+               valresp:  S        # Para que valide que grabe el responsable
+               valunidad:  S      # Para que valide que grabe el Tipo de Unidad
+               manforent:   S  #En caso de que la orden maneje forma de entrega o despacho
+               novalgriddis:   S  #En caso de que no se quiera validar en el grid la disponibilidad
+               manpda:  S        # Para muestre el grid de plan de abastecimiento
+             almdesp:               #Formulario de Despachos
+               etidesp: Despachos de Requisiciones       # se creo para cambiar la etiqueta de despachos
+               orddesveh:     S           # Campos para la orden de despacho vehicular
+               catubibnu:     S           # Para que el catalogo de Ubicacion sea de Bnubica
+             almreq:               #Formulario de Requisiciones
+               catubibnu:     S           # Para que el catalogo de Ubicacion sea de Bnubica
+               manalmubi:     S           # Se Creo para que se pueda registar origen y destino de requisicion
+         contabilidad:
+           modulos:
+             confincue:
+               camnomcatcta: S         #Cambia el nombre de la descripcion cuando la cta este en CONTABC1
+             confincom:
+               camnomcatcta: S         #Cambia el comprobante cuando el comprobante sea de otro modulo
+         facturacion:
+           modulos:
+             fafactur:               # Formulario de Factura
+               cambiolog: S      # Se creo para el cliente logicasa el cual maneja los cambios adicionales despues de n° de entrega
+               numfilas:   15  # se creo para hacer configurables el numero de filas
+               valnumfil:  S   # se creo para validar si el numero de filas configuradas es menor o igual a las que va a grabar
+               gencomext:  S   # se creo para generar el comprobante externo.
+             fadesp:
+               orddesveh:     S           # Campos para la orden de despacho vehicular
+               indicalm:     S           # Se creo para indicar de Almacén aplicar a todos los articulos
+         cuentasxcobrar:
+           modulos:
+             cobtransa:       # Formulario de Transacciones
+               nogenlc:  S    # Para que no genere comprobante, ni movimientos según Libros
+         tesoreria:
+           modulos:
+             tesdesubi:
+               respon:   S           # Agregar Campo Responsable y Campo Cargo
+             tesdeffonant:
+               camcatejeadm:   S           # Se creo para cambiar la cofiguracion de los catalogos.
+             tesmovseglib:
+               reflibmay8:   S           # Se creo para cambiar la longitud de la referencia del libro.
+             tesmovsegban:
+               refbanmay8:   S           # Se creo para cambiar la longitud de la referencia del banco.
+         ingresos:
+           modulos:
+             ingreging:           #Registro de Ingresos
+               mansec: S             #Para indicarle al sistema que el correlativo es con secuencia
+         viaticos:
+           modulos:
+             viasolviatra:           #Registro de Solicitud de Viaticos
+               beneficiario: S       #Para indicarle al sistema que debe buscar en la tabla opbenefi

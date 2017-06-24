@@ -1,0 +1,29 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Bnprosem
+    theme:            cidesaGenerator
+
+    fields:
+      codpro: { name: Código, params: size=10 maxlength=3 onFocus=readonly(this.id) onBlur="this.value=this.value.pad(3, '0',0);"}
+      despro: { name: Descripción, type: textarea_tag, params: size=100x5 maxlength=500}
+    list:
+      title:          Definición de Propósitos
+      fields:
+        codpro: { name: Código, params: size=10 maxlength=3 }
+        despro: { name: Descripción, params: size=20 maxlength=500  }
+      filters:        [codpro, despro]
+      display:        [=codpro, despro]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:  10
+      sort: codpro
+    edit:
+      title:          Edición de Propósitos 
+      display:        [codpro, despro]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

@@ -1,0 +1,21 @@
+methods:
+  post:
+    - "costipcal{codcal}"
+    - "costipcal{descal}"
+
+names:
+  costipcal{codcal}:
+    required:  Yes
+    required_msg: Introduzca valor
+    validators: Validator_codcal
+
+  costipcal{descal}:
+    required:  Yes
+    required_msg: Introduzca valor
+
+Validator_codcal:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Costipcal
+        column:       codcal
+        unique_error: El Código ya Existe intente con otro.

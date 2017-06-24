@@ -1,0 +1,23 @@
+====== Datos de la Oferta ======
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontlicitreginc5.jpg|}}"></div><br></html>
+
+  * Seleccione la **Entidad donde se efectúo el Proceso** <html><br><br></html>
+
+  * Seleccione la **Entidad Receptora del Bien-Obra-Servicio**. <html><br><br></html>
+
+  * En el campo **Fuente de Financiamiento** presione el Botón {{:btncuadrocatalogo.jpg|}} y seleccione del catálogo la fuente que finaciará la Oferta.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontlicitreginc5.1.jpg|}}"></div><br></html>
+
+  * Seleccione del calendario {{:btncalendario.jpg|}} la **Fecha de Presentación** de la Oferta.<html><br><br></html>
+
+  * Indique la **Hora de Presentación** de la Oferta.<html><br><br></html>
+
+  * Especifique la **Dirección** de ubicación donde se realizará la oferta.<html><br><br></html>
+
+  * Ingresar los **Teléfonos** de la **persona Contacto**
+
+
+
+

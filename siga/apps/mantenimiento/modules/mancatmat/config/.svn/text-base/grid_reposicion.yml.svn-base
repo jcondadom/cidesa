@@ -1,0 +1,53 @@
+opciones:                  # Opciones generales
+  name:                    d
+  eliminar:                true
+  tabla:                   manexicat
+  anchogrid:               850
+  ancho:                   840
+  filas:                   1
+  titulo:                  ' Reposición'
+  htmltotalfilas:          ' '
+1:
+  titulo:                  Stock Class
+  tipo:                    c
+  nombrecampo:             stccla
+  esgrabable:              true
+  html:                    [ ]
+2:
+  titulo:                  Cód. Almacén
+  tipo:                    t
+  nombrecampo:             codalm
+  esgrabable:              true
+  html:                    ["size=15 maxlength=20"]
+  ajaxgrid:                true
+  catalogo:                [cadefalm, sf_admin_edit_form, {Codalm: 2, Nomalm: 3}, Cadefalm_Almdes ]
+3:
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nomalm
+  esgrabable:              true
+  html:                    ["size=30 readonly=true"]  
+4:
+  titulo:                  MIN
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             eximin
+  esnumerico:              true
+  default:                 '0,00'  
+  html:                    ["size=10"]
+5:
+  titulo:                  MIN
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             eximax
+  esnumerico:              true
+  default:                 '0,00'  
+  html:                    ["size=10"]
+6:
+  titulo:                  SEG
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             ptoreo
+  esnumerico:              true
+  default:                 '0,00'  
+  html:                    ["size=10"]    

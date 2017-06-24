@@ -1,0 +1,17 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cpptocta
+    theme:            cidesaGenerator
+    fields:
+      grid:           { name: .}
+      fecdes:           { name: Fecha Desde}
+      fechas:           { name: Fecha Hasta}
+      
+    edit:
+      title:          Aprobación de Punto de Cuenta
+      display:
+        Filtros:  [_fecdes, _fechas]
+        Puntos de Cuenta por Aprobar:  [_grid]
+      actions:
+        _save:        ~

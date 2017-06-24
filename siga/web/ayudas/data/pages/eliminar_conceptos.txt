@@ -1,0 +1,14 @@
+====== Operación Eliminar ======
+
+Para eliminar un determinado **Concepto** debe:
+
+  * Seleccionar de la **Lista** el **Concepto** a eliminar. <html><br><br></html>
+
+  * Presionar  {{:btnborrar.jpg|}}  <html><br><br></html>
+
+  * El sistema emite un mensaje de confirmación antes de eliminar.  
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br></html>
+ 
+  * Presionar **Aceptar**.   <html><br><br></html>
+ 
+  * El sistema nos lleva automáticamente a la lista con los Conceptos donde podemos verificar que el registro fué eliminado

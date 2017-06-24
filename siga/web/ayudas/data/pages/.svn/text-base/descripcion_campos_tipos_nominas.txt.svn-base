@@ -1,0 +1,21 @@
+Los campos que conforman la pantalla de Tipos de Nómina son los siguientes:<html><br><br></html>
+
+ 
+  * **Código** que identificará al **Tipo de Nómina** <html><br><br></html>
+
+  * **Frecuencia** con que se calculará y realizará el pago de ese tipo de nómina. <html><br><br></html>
+
+  * **Nombre** que identificará al **Tipo de Nómina** que se está registrando.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompertipnominc.jpg|}}"></div><br><br></html>
+
+  * **Fecha Desde:** Debe seleccionar del [[calendario|calendario]]
+  la fecha desde que se realizará el cálculo de la nómina. <html><br><br></html>
+
+  * **Fecha Hasta** ó de culminación del cálculo de la nómina. <html><br><br></html>
+
+  * ** Semana** que corresponde a la nómina. <html><br><br></html>
+
+  * Indicar si **Genera Orden de Pago.** 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefinsinc3.jpg|}}"></div><br><br></html>

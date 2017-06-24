@@ -1,0 +1,55 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   mantarord
+  anchogrid:               800
+  ancho:                   1000
+  filas:                   1
+  titulo:                  ' Tareas'
+  htmltotalfilas:          ' '
+1:
+  titulo:                  N° de la Tarea
+  tipo:                    t
+  nombrecampo:             numtar
+  esgrabable:              true
+  html:                    ["size=4 maxlength=4"]
+2:
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             destar
+  esgrabable:              true
+  html:                    ["size=30x2 maxlength=500"]
+3:
+  titulo:                  Cód. Instrucción de Seguridad
+  tipo:                    t
+  nombrecampo:             codins
+  esgrabable:              true
+  html:                    ["size=10 maxlength=4"]
+  ajaxgrid:                true
+  catalogo:                [maninsseg, sf_admin_edit_form, {Codins: 3, Desins: 4}, Mantenimiento_Maninsseg ]
+4:
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desins
+  esgrabable:              true
+  html:                    ["size=30 readonly=true"]  
+5:
+  titulo:                  Cód. Lista de Repuestos
+  tipo:                    t
+  nombrecampo:             codest
+  esgrabable:              true
+  html:                    ["size=10 maxlength=8"]
+  ajaxgrid:                true
+  catalogo:                [manesttra, sf_admin_edit_form, {Codest: 5, Desest: 6}, Mantenimiento_Manesttra ]
+6:
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desest
+  esgrabable:              true
+  html:                    ["size=30 readonly=true"]
+7:
+  titulo:                  Rutina
+  tipo:                    a
+  nombrecampo:             rutina
+  esgrabable:              true
+  html:                    ["size=40x2 maxlength=5000"]  

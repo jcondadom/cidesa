@@ -1,0 +1,19 @@
+====== Operación Incluir ======
+ 
+Para **Registrar** un Salario Integral por Contrato debe: <html><br><br></html>
+
+  * Seleccionar el Tipo de Contrato Colectivo.  <html><br><br></html>
+
+  * Seleccione el Tipo de Nómina. <html><br><br></html>
+
+  * Seleccione el Período que el sistema tomará en cuenta para obtener los valores almacenados en archivos históricos.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperregsalintporconinc1.jpg|}}"></div><br><br></html>
+
+  * El sistema seguidamente nos muestra la tabla de **Asignaciones por Trabajador** donde se muestra el **Código del Trabajador, Nombre, Fecha de Ingreso y todas las Asignaciones** que se definieron en Tipos de Asignaciones, con sus respectivos valores; además de una sumatoria total de ellas.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperregsalintporconinc2.jpg|}}"></div><br><br></html>
+
+  * Presione el Botón {{:btnguardar.jpg|}} para almacenar la información.
+
+

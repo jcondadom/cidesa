@@ -1,0 +1,173 @@
+methods:
+  post:
+   - "liplieesp{codempadm}"
+   - "liplieesp{codempeje}"   
+   - "liplieesp{numcomint}"
+   - "liplieesp{numplie}"
+   - "liplieesp{numexp}"
+   - "liplieesp{fecreg}"
+   - "liplieesp{dias}"
+   - "liplieesp{fecven}"
+   - "liplieesp{idioma}"
+   - "liplieesp{resolu}"
+   - "liplieesp{fecrel}"
+   - "liplieesp{decret}"
+   - "liplieesp{fecdec}"
+   - "liplieesp{descrip}"
+   - "liplieesp{cosplie}"
+
+
+names:
+  liplieesp{codempadm}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  liplieesp{codempeje}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  liplieesp{numcomint}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numcomint
+
+  liplieesp{numplie}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numplie
+
+  liplieesp{numexp}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numexp
+
+  liplieesp{fecreg}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  liplieesp{dias}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: MyNumberValidator
+
+  liplieesp{fecven}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  liplieesp{idioma}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_idioma
+
+  liplieesp{resolu}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_reldec
+
+  liplieesp{fecrel}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  liplieesp{decret}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_reldec
+
+  liplieesp{fecdec}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  liplieesp{descrip}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_descrip
+
+  liplieesp{cosplie}:
+    required:  No
+    required_msg: Este campo no puede estar en Blanco
+    #validators: MyNumberValidator_Cosplie
+
+Validator_codemp:
+    class: CidesaExistValidator
+    param:
+        class:        Lidatstedet
+        column:       codemp
+        unique_error: El Empleado no existe
+
+Validator_numcomint:
+    class: CidesaExistValidator
+    param:
+        class:        Licomint
+        column:       numcomint
+        unique_error: La Compra Integral no Existe
+
+
+Validator_numplie:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Liplieesp
+        column:       numplie
+        unique_error: El numero ya existe no puede repetirse
+
+
+Validator_numexp:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Liplieesp
+        column:       numexp
+        unique_error: El numero ya existe no puede repetirse
+
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+MyNumberValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]
+
+
+Validator_idioma:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caracteres
+        max:       50
+        max_error: La descripción no puede pasar mas de 50 caracteres
+
+Validator_reldec:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: Este Campo no puede tener menos de 2 caracteres
+        max:       8
+        max_error: Este Campo no puede pasar mas de 8 caracteres
+
+Validator_descrip:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caracteres
+        max:       100
+        max_error: La descripción no puede pasar mas de 1000 caracteres
+
+MyNumberValidator_Cosplie:
+    class: sfNumberValidator
+    param:
+        type:         decimal
+        type_error:   Por favor, Introduzca Números Decimales
+        nan_error:    Por Favor, introduzca un Número Decimal
+        min:          1.0
+        min_error:    El valor tiene que ser mayor que cero
+        max:          999999999999.99
+        max_error:    El valor debe contener maximo 9999999999.99

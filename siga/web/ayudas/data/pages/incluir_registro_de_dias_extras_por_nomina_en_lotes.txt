@@ -1,0 +1,23 @@
+====== Operación Incluir ======
+
+Para **Registrar** los Días Extras por Nómina en Lotes:<html><br><br></html>
+
+  * Presione el **Botón** {{:btnnuevo.jpg|}} 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperregdiasextpornomenloteinc1.jpg|}}"></div><br></html>
+
+  * Seleccione la **Fecha** en la que un determiando lote de empleados trabajó horas extras.<html><br><br></html>
+
+  * Seleccione el **Código del Tipo de nómina** en la cual un lote de los empleados pertenecientes a ella trabajaron horas extras en la fecha seleccionada anteriormente.<html><br><br></html>
+
+  * Al seleccionar el **Tipo de Nómina** el sistema automáticamente muestra en el grid la Cédula y Nombre todos los empleados pertenecientes al Tipo de Nómina seleccionada.<html><br><br></html>
+
+  * Seleccione en la tabla cada uno de los empleados de la nómina que trabajaron horas extras en la Fecha seleccionada.<html><br><br></html>
+
+  * Presione el Botón {{:btnguardar.jpg|}} para registrar la información.
+
+
+
+
+
+

@@ -1,0 +1,136 @@
+methods:
+  post:
+   - "hcdefgen{hcmcob}"
+   - "hcdefgen{matcob}"
+   - "hcdefgen{odocob}"
+   - "hcdefgen{funcob}"
+   - "hcdefgen{fecvig}"
+   - "hcdefgen{codreem}"
+   - "hcdefgen{codreeo}"
+   - "hcdefgen{durcarava}"
+   - "hcdefgen{codramhcm}"
+   - "hcdefgen{codramgasfun}"
+   - "hcdefgen{firemp1}"
+   - "hcdefgen{firemp2}"
+   - "hcdefgen{codpre}"   
+
+names:
+ hcdefgen{hcmcob}:
+    required:  Yes
+    required_msg: Introduzca valor
+    validators: MyNumberValidator
+
+ hcdefgen{matcob}:
+    required:  Yes
+    required_msg: Introduzca valor
+    validators: MyNumberValidator
+
+ hcdefgen{odocob}:
+    required:  Yes
+    required_msg: Introduzca valor
+    validators: MyNumberValidator
+
+ hcdefgen{funcob}:
+    required:  Yes
+    required_msg: Introduzca valor
+    validators: MyNumberValidator
+
+ hcdefgen{fecvig}:
+    required:  Yes
+    required_msg: Introduzca la fecha de vigencia
+    
+ hcdefgen{codreem}:
+    required:  Yes
+    required_msg: Introduzca valor
+    validators: ExistValidator
+
+ hcdefgen{codreeo}:
+    required:  Yes
+    required_msg: Introduzca valor    
+    validators: ExistValidator
+
+ hcdefgen{codreeo}:
+    required:  Yes
+    required_msg: Introduzca valor    
+    validators: ExistValidator    
+
+ hcdefgen{durcarava}:
+    required:  Yes
+    required_msg: Introduzca valor    
+    validators: MyNumberValidator    
+
+ hcdefgen{codramhcm}:
+    required:  Yes
+    required_msg: Introduzca valor
+    validators: ExistValidator
+
+ hcdefgen{codramhcm}:
+    required:  Yes
+    required_msg: Introduzca valor
+    validators: ExistValidator2
+
+ hcdefgen{codramgasfun}:
+    required:  Yes
+    required_msg: Introduzca valor
+    validators: ExistValidator2   
+
+ hcdefgen{firemp1}:
+    required:  Yes
+    required_msg: Introduzca valor
+    validators: ExistValidator3      
+
+ hcdefgen{firemp2}:
+    required:  Yes
+    required_msg: Introduzca valor
+    validators: ExistValidator3  
+
+ hcdefgen{codpre}:
+    required:  Yes
+    required_msg: Introduzca valor
+    validators: ExistValidator4             
+
+MyNumberValidator:
+    class: sfNumberValidator
+    param:
+        type:         decimal
+        type_error:   Por favor, Introduzca Números Decimales
+        nan_error:    Por Favor, introduzca un Número Decimal
+        min:          000000000000,00
+        min_error:    El valor tiene que ser mayor que cero
+        max:          999999999999,99
+
+ExistValidator:
+    class: CidesaExistValidator
+    param:
+        class:        Npdefcpt
+        column:       codcon
+        unique_error: El Concepto debe estar Registrado.
+
+ExistValidator:
+    class: CidesaExistValidator
+    param:
+        class:        Npdefcpt
+        column:       codcon
+        unique_error: El Concepto debe estar Registrado.        
+
+ExistValidator2:
+    class: CidesaExistValidator
+    param:
+        class:        Caramart
+        column:       ramart
+        unique_error: El Ramo debe estar Registrado.  
+
+ExistValidator3:
+    class: CidesaExistValidator
+    param:
+        class:        Nphojint
+        column:       codemp
+        unique_error: El Empleado debe estar Registrado.  
+
+ExistValidator4:
+    class: CidesaExistValidator
+    param:
+        class:        Cpasiini
+        column:       codpre
+        unique_error: El Código Presupuestario debe estar Registrado.  
+

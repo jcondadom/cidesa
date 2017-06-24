@@ -1,0 +1,34 @@
+
+<?php
+/**
+ * Funciones de la vista.
+ *
+ * @package    Roraima
+ * @subpackage vistas
+ * @author     $Author: dmartinez $ <desarrollo@cidesa.com.ve>
+ * @version    SVN: $Id: _gridcomplemento.php 46517 2011-11-09 13:14:32Z dmartinez $
+ */
+// date: 2007/04/09 17:27:37
+?>
+<?php use_helper('Object', 'Validation', 'Javascript', 'Grid', 'SubmitClick') ?>
+<div id="complemento">
+<?
+	echo grid_tag_v2($fcreginm->getGridcomplemento());
+?>
+</div>
+
+
+<script type="text/javascript" lang="JavaScript">
+    var oculava='<?php echo H::getConfApp2('oculavaluo', 'hacienda', 'facinmreg')?>';
+    if (oculava=='S')
+        $('divgrid').hide();
+
+function totaliava()
+{
+    var num1=toFloat('fcreginm_bster');
+    var num2=toFloat('fcreginm_bscon');
+    
+    var calculo= num1+ num2;
+    $('fcreginm_totalavaluo').value=format(calculo.toFixed(2),'.',',','.');
+}
+</script>

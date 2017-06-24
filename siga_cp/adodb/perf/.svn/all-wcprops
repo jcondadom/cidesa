@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repositorio/!svn/ver/696/web/php/presupuesto/trunk/adodb/perf
+END
+perf-db2.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repositorio/!svn/ver/696/web/php/presupuesto/trunk/adodb/perf/perf-db2.inc.php
+END
+perf-informix.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repositorio/!svn/ver/696/web/php/presupuesto/trunk/adodb/perf/perf-informix.inc.php
+END
+perf-mssql.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repositorio/!svn/ver/696/web/php/presupuesto/trunk/adodb/perf/perf-mssql.inc.php
+END
+perf-oci8.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repositorio/!svn/ver/696/web/php/presupuesto/trunk/adodb/perf/perf-oci8.inc.php
+END
+perf-mysql.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repositorio/!svn/ver/696/web/php/presupuesto/trunk/adodb/perf/perf-mysql.inc.php
+END
+perf-postgres.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repositorio/!svn/ver/696/web/php/presupuesto/trunk/adodb/perf/perf-postgres.inc.php
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/autenticacion/modules/cambiopasswd/templates
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/autenticacion/modules/cambiopasswd/templates/ajaxSuccess.php
+END
+_password.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/autenticacion/modules/cambiopasswd/templates/_password.php
+END
+_repassword.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/autenticacion/modules/cambiopasswd/templates/_repassword.php
+END

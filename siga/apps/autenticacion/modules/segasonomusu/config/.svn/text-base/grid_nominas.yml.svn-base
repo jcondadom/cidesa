@@ -1,0 +1,27 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   segusunom
+  anchogrid:               500
+  ancho:                   600
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Marque
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:              true
+  html:                    []
+2:       # Columna 2
+  titulo:                  Código de la Nómina
+  tipo:                    t
+  nombrecampo:             codnom
+  html:                    ["size=20 readonly=true"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Nombre de la Nómina
+  tipo:                    t
+  nombrecampo:             nomnom
+  html:                    ["size=60 readonly=true"]
+  esgrabable:              true

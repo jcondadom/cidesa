@@ -1,0 +1,26 @@
+====== Definición de Jornada Laboral ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite definir por cada Nómina los dias de la semana que laborarán los empleados que la conformen </html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Vacaciones** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompervac.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Definición de Jornada Laboral**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefjorlab.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Definición de Jornada Laboral** solo podrá realizar las Operaciones Básicas de: 
+
+  * [[Incluir Definición de Jornada Laboral |Incluir]]
+
+  * [[Modificar Definición de Jornada Laboral|Modificar]]
+
+  * [[Eliminar Definición de Jornada Laboral|Eliminar]]
+
+  * [[Consultar Definición de Jornada Laboral|Consultar]]

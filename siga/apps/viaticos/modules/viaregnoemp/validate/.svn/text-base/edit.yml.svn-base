@@ -1,0 +1,67 @@
+methods:
+  post:
+   - "vianoemp{rifnemp}"
+   - "vianoemp{nomnemp}"
+   - "vianoemp{dirnemp}"
+   - "vianoemp{telnemp}"
+   - "vianoemp{emanemp}"
+
+names:
+  vianoemp{rifnemp}:
+    required:  Yes
+    required_msg: El RIF ó Cédula del Personal no Empleado no puedo estar en Blanco
+    validators: UniqueValidator
+
+  vianoemp{nomnemp}:
+    required:  Yes
+    required_msg: El Nombre del Personal no Empleado no puedo estar en Blanco
+    validators: NombreValidator
+
+  vianoemp{dirnemp}:
+    required:  No
+    validators: DireccionValidator    
+
+  vianoemp{telnemp}:
+    required:  No
+    validators: TelefonoValidator        
+
+  vianoemp{emanemp}:
+    required:  No
+    validators: EmailValidator
+
+NombreValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: El Nombre no puede tener menos de 5 caracteres
+        max:       250
+        max_error: El Nombre no puede tener más de 250 caracteres
+
+DireccionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Dirección no puede tener menos de 5 caracteres
+        max:       500
+        max_error: La Dirección no puede tener más de 500 caracteres
+
+TelefonoValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: El Teléfono no puede tener menos de 5 caracteres
+        max:       20
+        max_error: El Teléfono no puede tener más de 20 caracteres        
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Vianoemp
+        column:   rifnemp
+        unique_error:  El RIF ó Cédula del Personal no Empleado ya existe. Por Favor, Cambiélo por otro.
+
+EmailValidator:
+    class: sfEmailValidator
+    param:
+        strict:       true
+        email_error:  La Dirección del Email es Inválida.

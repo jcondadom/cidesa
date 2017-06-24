@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext
+END
+CreoleTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/CreoleTask.php
+END
+PhpLintTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/PhpLintTask.php
+END
+SmartyTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/SmartyTask.php
+END
+MailTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/MailTask.php
+END
+TarTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/TarTask.php
+END
+XmlLintTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/XmlLintTask.php
+END
+UntarTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/UntarTask.php
+END
+PackageAsPathTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/PackageAsPathTask.php
+END
+CapsuleTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/CapsuleTask.php
+END
+CreoleSQLExecTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/CreoleSQLExecTask.php
+END
+ZendCodeAnalyzerTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/ZendCodeAnalyzerTask.php
+END
+ZipTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/ZipTask.php
+END
+PearPackageTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/PearPackageTask.php
+END
+ExtractBaseTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/ExtractBaseTask.php
+END
+UnzipTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/UnzipTask.php
+END

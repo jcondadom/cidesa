@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/phing
+END
+PropelCreoleTransformTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/phing/PropelCreoleTransformTask.php
+END
+PropelDataDTDTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/phing/PropelDataDTDTask.php
+END
+PropelDataSQLTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/phing/PropelDataSQLTask.php
+END
+PropelDataModelTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/phing/PropelDataModelTask.php
+END
+PropelGraphvizTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/phing/PropelGraphvizTask.php
+END
+PropelOldOMTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/phing/PropelOldOMTask.php
+END
+PropelOMTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/phing/PropelOMTask.php
+END
+AbstractPropelDataModelTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/phing/AbstractPropelDataModelTask.php
+END
+PropelOldSQLTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/phing/PropelOldSQLTask.php
+END
+PropelDataDumpTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/phing/PropelDataDumpTask.php
+END
+PropelSQLTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/phing/PropelSQLTask.php
+END
+PropelSQLExec.php
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/classes/propel/phing/PropelSQLExec.php
+END

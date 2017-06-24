@@ -1,0 +1,39 @@
+La descripción de los campos que conforman la pantalla **Cheques en Custodia** están contemplados en diferentes secciones como lo son: <html><br><br></html>
+
+  * **Datos del Cheque:**
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbancajacheqcustinc1.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Nro. Cheque:** Número: Este campo refiere al número del Cheque.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Fecha Emisión:** Seleccione del [[calendario|calendario]] la fecha en la cual fué emitido el cheque.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Monto:** En este campo se coloca el monto por el cual se emitió el Cheque.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Beneficiario:**En este campo se coloca la persona ó institución a la cual se le emitió el Cheque. <html><br><br></html>
+
+  * **Datos del Banco:**
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbancajacheqcustinc2.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Número de Cuenta:** Corresponde al identificador de la Cuenta Bancaria que será utilizada para manejar las diferentes transacciones bancarias en la Institución.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbancajacheqcustinc3.jpg|}}"></div><br></html>
+
+  * **Orden de Pago:** Número que identifica la Orden de Pago a la que el cheque hace referencia en caso de que asi sea. <html><br><br></html>
+
+  * **Número Comprobante:** Campo que refiere al Número del Comprobante. <html><br><br></html>
+
+  * **Estado del Cheque:** Permite identificar el status en el cual se encuentra el Cheque (**Anulado**, **Entregado** ó **Caja**). <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbancajacheqcustinc4.jpg|}}"></div><br></html>
+
+  * **Fecha Entrega:** Seleccione del calendario la fecha en la cual se entregó el Cheque. <html><br><br></html>
+
+  * **Observación:** En este campo se coloca cualquier observación que sea necesaria a la hora de entregar el cheque. <html><br><br></html>
+
+  * **Recibido Por:** Se refiere a la identificación de la persona que hace el retiro de un Cheque. <html><br><br></html>
+
+  * **Entregado Por:** Se refiere a la identificación de la persona quien entrega un Cheque. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Tipos de Monedas** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

@@ -1,0 +1,229 @@
+methods:
+  post:
+   - "caordcom{ordcom}"
+   - "caordcom{fecord}"
+   - "caordcom{tipord}"
+   - "caordcom{doccom}"
+   - "caordcom{rifpro}"
+   - "caordcom{desord}"
+   - "caordcom{tipo}"
+   - "caordcom{tipmon}"
+   - "caordcom{valmon}"
+   - "caordcom{conpag}"
+   - "caordcom{tippro}"
+   - "caordcom{forent}"
+   - "caordcom{tipfin}"
+   - "caordcom{codcen}"
+   - "caordcom{codcenaco}"
+   - "caordcom{coddirec}"
+   - "caordcom{coddivi}"
+
+names:
+  caordcom{ordcom}:
+    required:  Yes
+    required_msg: El Número de Orden de Compra no puedo estar en Blanco
+    validators: Validator_ordcom
+
+  caordcom{fecord}:
+    required:  Yes
+    required_msg: La Fecha de la Orden no puedo estar en Blanco
+    validators: FechaValidator, FechaValidator1, FechaValidator_fecord
+
+  caordcom{tipmon}:
+    required:  Yes
+    required_msg: La Moneda no puedo estar en Blanco
+
+  caordcom{rifpro}:
+    required:  Yes
+    required_msg: El Código de la Contratistas de Bienes o Servicio y Cooperativas no puedo estar en Blanco
+    validators: ExistValidator_rifpro, Exist2Validator_rifpro
+
+  caordcom{desord}:
+    required:  Yes
+    required_msg: La descripción de la Orden no puedo estar en Blanco
+    validators: Validator_desord
+
+  caordcom{doccom}:
+    required:  Yes
+    required_msg: El Tipo de Compromiso de la Orden no puedo estar en Blanco
+    validators: ExistValidator_doccom
+
+  caordcom{tipo}:
+    required:  Yes
+    required_msg: El Tipo de la Orden no puedo estar en Blanco
+
+  caordcom{conpag}:
+    required:  Yes
+    required_msg: La Condición de  Pago de la Orden no puedo estar en Blanco
+    validators: Validator_codconpag
+
+  caordcom{tippro}:
+    required:  No
+    validators: ExistValidator_tippro
+
+  caordcom{forent}:
+    required:  Yes
+    required_msg: La Forma de Entrega no puedo estar en Blanco
+    validators: ExistValidator_codforent
+
+  caordcom{tipfin}:
+    required:  Yes
+    required_msg: El Tipo de Financiamiento no puedo estar en Blanco
+    validators: ExistValidator_tipfin
+
+  caordcom{fecord}:
+    required:  No
+    validators: FechaValidator
+
+  caordcom{tipord}:
+    required:  Yes
+    required_msg: El Tipo de Orden de Compra no puede estar vacio
+
+  caordcom{valmon}:
+    required:  Yes
+    required_msg: La Moneda no puedo estar en Blanco
+    validators: MyNumberValidator_valmon    
+
+  caordcom{codcen}:
+    required:  No
+    validators: ExistValidator_codcen
+
+  caordcom{codcenaco}:
+    required:  No
+    validators: ExistValidator_codcenaco
+
+  caordcom{coddirec}:
+    required:  No
+    validators: DireccionValidator      
+
+  caordcom{coddivi}:
+    required:  No
+    validators: DivisionValidator     
+
+Validator_ordcom:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Caordcom
+        column:       ordcom
+        unique_error: El registro ya Existe intente con otro.
+
+FechaValidator_fecord:
+    class: CidesaDateValidator
+    param:
+        class:        Cpdefniv
+        columnmin:    fecini
+        columnmax:    feccie
+        min_error:    La Fecha Especificada no puede ser Menor a la Fecha de Inicio del Período
+        max_error:    La Fecha Especificada no puede ser Mayor a la Fecha de Fin del Período
+        date_error:   Fecha Inválida
+
+ExistValidator_rifpro:
+    class: CidesaExistValidator
+    param:
+        class:        Caprovee
+        column:       rifpro
+        unique_error: El Código de la Contratistas de Bienes o Servicio y Cooperativas debe Existir.
+
+Exist2Validator_rifpro:
+    class: CidesaExistValidator
+    param:
+        class:        Opbenefi
+        column:       cedrif
+        unique_error: El Código de la Contratistas de Bienes o Servicio y Cooperativas debe Existir como Beneficiario.        
+
+Validator_desord:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caracteres
+        max:       2000
+        max_error: La descripción no puede pasar mas de 2000 caracteres
+
+ExistValidator_doccom:
+    class: CidesaExistValidator
+    param:
+        class:        Cpdoccom
+        column:       tipcom
+        unique_error: El Código del Tipo de Compromiso debe Existir.
+
+Validator_codconpag:
+    class: CidesaExistValidator
+    param:
+        class:        Caconpag
+        column:       codconpag
+        unique_error: La Condición de Pago debe Existir.
+
+ExistValidator_tippro:
+    class: CidesaExistValidator
+    param:
+        class:        Catippro
+        column:       codpro
+        unique_error: El Código del Proyecto debe Existir.
+
+ExistValidator_codforent:
+    class: CidesaExistValidator
+    param:
+        class:        Caforent
+        column:       codforent
+        unique_error: El Código de la Forma de Entrega debe Existir.
+
+ExistValidator_tipfin:
+    class: CidesaExistValidator
+    param:
+        class:        Fortipfin
+        column:       codfin
+        unique_error: El Tipo de Financiamiento debe Existir.
+
+MyNumberValidator_valmon:
+    class: sfNumberValidator
+    param:
+        type:         decimal
+        type_error:   Por favor, Introduzca Números Decimales
+        nan_error:    Por Favor, introduzca un Número Decimal
+        min:          1
+        min_error:    El valor tiene que ser mayor que cero
+        max:          500.0
+        max_error:    El valor debe contener maximo 9999999999.99
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+FechaValidator1:
+    class:         CidesaDateNow
+    param:
+        compare: 'now'
+        compare_error: La Fecha no puede ser mayor a la Fecha Actual
+        operator: '<='
+        date_error:  Fecha Inválida
+
+ExistValidator_codcen:
+    class: CidesaExistValidator
+    param:
+        class:        Cadefcen
+        column:       codcen
+        unique_error: El Centro de Costo debe Existir.        
+
+ExistValidator_codcenaco:
+    class: CidesaExistValidator
+    param:
+        class:        Cadefcenaco
+        column:       codcenaco
+        unique_error: El Centro de Acopio debe Existir.  
+
+DireccionValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Cadefdirec
+        column:   coddirec
+        unique_error:   La Dirección no existe.        
+
+DivisionValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Cadefdivi
+        column:   coddivi
+        unique_error:   La División no existe.                

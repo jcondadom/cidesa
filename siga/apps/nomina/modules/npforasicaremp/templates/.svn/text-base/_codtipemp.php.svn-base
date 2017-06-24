@@ -1,0 +1,1 @@
+<?php echo select_tag('npasicaremp[codtipemp]', options_for_select(NptipempPeer::CargarTipEmp(),$npasicaremp->getCodtipemp(),'include_custom=Seleccione Uno')) ?>

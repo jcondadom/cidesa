@@ -1,0 +1,12 @@
+Los campos que conforman la pantalla Niveles Organizacionales son los siguientes? <html><br><br></html>
+
+  * **Código:** Número que identifica al Nivel Organizacional. <html><br><br></html>
+
+  * **Descripción** que haga referencia al Nivel Organizacional. <html><br><br></html>
+
+  * **Teléfono** del Nivel Organizacional.
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefnivorginc.jpg|}}"></div><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Definición de Grupos de Recaudos** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+ 

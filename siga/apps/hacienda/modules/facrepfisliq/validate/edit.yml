@@ -1,0 +1,48 @@
+methods:
+  post:
+   - "fcrepfis{numrep}"
+   - "fcrepfis{fecrep}"
+   - "fcrepfis{numlic}"
+   - "fcrepfis{funrec}"
+   - "fcrepfis{annioini}"
+   - "fcrepfis{anniofin}"
+names:
+  fcrepfis{numrep}:
+    required:  Yes
+    required_msg: El Número de Reparo es un campo requerido
+    validators: NumdecExistValidator
+
+  fcrepfis{numlic}:
+    required:  Yes
+    required_msg: El Número de Solicitud de Licencia no puede estar en Blanco
+
+  fcrepfis{fecrep}:
+    required:  Yes
+    required_msg: La Fecha de Reparo es un campo requerido
+    validators: Fecha2Validator
+
+  fcrepfis{funrec}:
+    required:  Yes
+    required_msg: El Funcionario no puede estar en Blanco
+
+  fcrepfis{annioini}:
+    required:  Yes
+    required_msg: El Año Desde no puede estar en Blanco
+
+  fcrepfis{anniofin}:
+    required:  Yes
+    required_msg: El Año Hasta no puede estar en Blanco
+
+Fecha2Validator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+NumdecExistValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Fcrepfis
+        column:       numrep
+        unique_error: El Número de Reparo no Existe.

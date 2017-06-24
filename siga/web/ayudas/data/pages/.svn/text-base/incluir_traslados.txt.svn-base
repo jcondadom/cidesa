@@ -1,0 +1,18 @@
+====== OPeración Incluir ======
+
+Para **registrar** un Traslado una vez que la Solicitud halla sido aprobada:<html><br><br></html>
+
+  * Ingresamos la **Referencia** de la Solicitud de Traslado.<html><br><br></html>
+
+  * El sistema automáticamente carga toda la información correspondiente a la Solicitud de Traslado la cual pasa a ser definida como un Traslado.<html><br><br></html>
+
+  * El sistema carga los **Datos del Traslado**, el **Tipo de Traslado** (Uno a Uno, Uno a Varios y Varios a Uno) y los** Movimientos del Traslado**.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpretrasinc1.jpg|}}"></div><br></html> 
+
+  * Presionamos el **Botón Guardar**
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:btnguardar1.jpg|}}"></div><br></html>
+
+  * Una ves guardado el Traslado es cuando se realiza de manera formal, es decir, las partidas presupuestarias son afectadas.
+ 
+

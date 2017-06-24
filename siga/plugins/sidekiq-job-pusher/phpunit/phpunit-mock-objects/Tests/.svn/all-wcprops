@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/Tests
+END
+MockBuilderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/Tests/MockBuilderTest.php
+END
+MockObjectTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/Tests/MockObjectTest.php
+END
+GeneratorTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/Tests/GeneratorTest.php
+END

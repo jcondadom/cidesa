@@ -1,0 +1,151 @@
+methods:
+  post:
+   - "manordtra{numord}"
+   - "manordtra{desord}"
+   - "manordtra{numequ}"
+   - "manordtra{fecemi}"
+   - "manordtra{codact}"
+   - "manordtra{cedemp}"
+   - "manordtra{cedres}"
+   - "manordtra{codtma}"
+   - "manordtra{codart}"
+   - "manordtra{codsor}"
+   - "manordtra{codgrr}"
+
+names:
+  manordtra{numord}:
+    required:  Yes
+    required_msg: Introduzca el Número de la Orden
+    validators: Validator_numord
+    
+  manordtra{desord}:
+    required:  Yes
+    required_msg: Introduzca la Descripción de la Orden
+    validators: Validator_desord
+
+  manordtra{numequ}:
+    required:  Yes
+    required_msg: Introduzca el Equipo
+    validators: Validator_numequ
+
+  manordtra{fecemi}:
+    required:  Yes
+    required_msg: Introduzca la fecha de la Orden
+    validators: Validator_fecemi
+      
+  manordtra{codact}:
+    required:  No
+    validators: Validator_codact 
+
+  manordtra{cedemp}:
+    required:  Yes
+    required_msg: Introduzca la Cédula del Usuario Crea la Orden
+    validators: Validator_cedemp
+      
+  manordtra{cedres}:
+    required:  Yes
+    required_msg: Introduzca la Cédula del Usuario Responsable
+    validators: Validator_cedres
+
+  manordtra{codtma}:
+    required:  No
+    validators: Validator_codtma
+
+  manordtra{codart}:
+    required:  Yes
+    required_msg: Introduzca el Número de ART
+    validators: Validator_codart 
+
+  manordtra{codsor}:
+    required:  Yes
+    required_msg: Introduzca el Estatus de la Orden
+    validators: Validator_codsor      
+
+  manordtra{codgrr}:
+    required:  No
+    validators: Validator_codgrr
+
+Validator_numord:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Manordtra
+        column:       numord
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_desord:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caracteres
+        max:       500
+        min_error: La descripción no puede tener mas de 500 caracteres
+
+Validator_numequ:
+    class: CidesaExistValidator
+    param:
+        class:        Manregequ
+        column:       numequ
+        unique_error: El equipo debe Existir.
+
+Validator_fecemi:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es inválida  
+
+Validator_codact:
+    class: CidesaExistValidator
+    param:
+        class:        Manactest
+        column:       codact
+        unique_error: El Estándar de Trabajo debe Existir. 
+
+Validator_cedemp:
+    class: CidesaExistValidator
+    param:
+        class:        Nphojint
+        column:       cedemp
+        unique_error: La Cédula de Usuario Crea la Orden debe Existir.
+
+Validator_codgru:
+    class: CidesaExistValidator
+    param:
+        class:        Mangrutra
+        column:       codgru
+        unique_error: El Grupo de Trabajo debe Existir.
+
+Validator_cedres:
+    class: CidesaExistValidator
+    param:
+        class:        Nphojint
+        column:       cedemp
+        unique_error: La Cédula del Usuario Responsable debe Existir.        
+
+Validator_codtma:
+    class: CidesaExistValidator
+    param:
+        class:        Mantipman
+        column:       codtma
+        unique_error: El Tipo de Mantenimiento debe Existir.
+
+Validator_codart:
+    class: CidesaExistValidator
+    param:
+        class:        Mannumart
+        column:       codart
+        unique_error: El Número ART debe Existir.
+
+Validator_codsor:
+    class: CidesaExistValidator
+    param:
+        class:        Manestord
+        column:       codsor
+        unique_error: El Estatus de la Orden debe Existir.                
+
+Validator_codgrr:
+    class: CidesaExistValidator
+    param:
+        class:        Mangrutre
+        column:       codgrr
+        unique_error: El Grupo Responsable del Trabajo debe Existir.

@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "faentcre{codentcre}"
+   - "faentcre{nomentcre}"   
+
+names:
+  faentcre{codentcre}:
+    required:  Yes
+    required_msg: El Código no puede estar en Blanco
+    validators: Validator_codentcre
+      
+  faentcre{nomentcre}:
+    required:  Yes
+    required_msg: Debe escribir el Nombre de la Entidad Crediticia
+    validators: Vstring_1_100_0
+
+Vstring_1_100_0:
+    class: sfStringValidator
+    param:
+        min:       1
+        min_error: La descripción no puede tener menos de 1 caracteres
+        max:       100
+        max_error: La descripción no puede tener más de 100 caracteres
+        
+Validator_codentcre:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Faentcre
+        column:       codentcre
+        unique_error: El registro ya Existe. Intente con otro.        

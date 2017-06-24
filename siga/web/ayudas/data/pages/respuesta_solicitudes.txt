@@ -1,0 +1,20 @@
+====== Respuesta ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite registrar la respuesta generada a una determinada solicitud
+
+**Para ello:**
+
+  * Seleccione la opción **Obras y Contratos** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascont.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Atención del Ciudadano**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontatealciu.jpg}}"></div><br></html>
+ 
+  * Seleccione **Solicitudes**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontsolicitudes.jpg|}}"></div><br></html>
+
+  * Por último seleccione **Respuesta**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontsolicitudesresp.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Respuesta** ahora veamos la [[Descripcion_Campos_obras_respuesta_solicitud|Descripción de los Campos]]
+

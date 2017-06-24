@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "fadefcan{codcan}"
+   - "fadefcan{descan}"
+
+names:
+  fadefcan{codcan}:
+    required:  Yes
+    required_msg: El Código del Canal no puedo estar en Blanco
+    validators: UniqueValidator
+
+  fadefcan{descan}:
+    required:  Yes
+    required_msg: La Descripción del Canal no puedo estar en Blanco
+    validators: DescripcionValidator
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Fadefcan
+        column:   codcan
+        unique_error:   El Código del Canal ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción del Canal no puede tener menos de 5 caracteres
+        max:       1000
+        max_error: La Descripción del Canal no puede tener más de 1000 caracteres

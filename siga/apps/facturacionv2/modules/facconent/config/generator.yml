@@ -1,0 +1,25 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fafactur
+    theme:            cidesaGenerator
+    fields:
+      fecemides: { name: Fecha Emisión Desde }
+      fecemihas: { name: Fecha Emisión Desde}
+      fecent: { name: Fecha Entrega }
+      rifpro:
+        name: C.I/R.I.F Cliente
+        params: maxlength=15 disabled=false
+        catalogo:
+          catalogoweb: Rifcli_Fapedido
+          clase: Facliente
+          ajax: 2
+          parametros: getprincipal="getRifpro" getsecundario="getNompro" campoprincipal="rifpro" camposecundario="nompro" campobase = "id"
+      grid: { name: . }
+    edit:
+      title:          Control de Entregas de Facturas
+      display:
+        "Filtros": [rifpro, _fecemides, _fecemihas]
+        "Facturas": [_fecent, _grid]
+      actions:
+        _save:        ~

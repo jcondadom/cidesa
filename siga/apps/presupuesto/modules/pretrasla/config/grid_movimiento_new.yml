@@ -1,0 +1,61 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   cpmovtra
+  anchogrid:               750
+  ancho:                   650
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Origen
+  tipo:                    t
+  nombrecampo:             codori
+  html:                    [size="40"]
+  oculta:                  false
+  esgrabable:              true
+  ajaxfila:                true
+2:       # Columna 2
+  titulo:                  Dist. Período Origen
+  tipo:                    t
+  nombrecampo:             anadir
+  esgrabable:              false
+  oculta:                  true
+  html:                    ["type='text' size='1' style='border:none' class='imagenalmacen' onClick='mostrargridperiodos(this.id)'"]
+3:       # Columna 3
+  titulo:                  Datos periodos
+  tipo:                    t
+  nombrecampo:             datosperiodos
+  esgrabable:              true
+  oculta:                  true
+  html:                    ["size=25"]
+4:       # Columna 4
+  titulo:                  Código Destino
+  tipo:                    t
+  nombrecampo:             coddes
+  html:                    [size="40"]
+  oculta:                  false
+  esgrabable:              true
+  ajaxfila:                true
+5:       # Columna 5
+  titulo:                  Dist. Período Destino
+  tipo:                    t
+  nombrecampo:             anadir2
+  esgrabable:              false
+  oculta:                  true
+  html:                    ["type='text' size='1' style='border:none' class='imagenalmacen' onClick='mostrargridperiodos2(this.id)'"]
+6:       # Columna 6
+  titulo:                  Datos periodos
+  tipo:                    t
+  nombrecampo:             datosperiodos2
+  esgrabable:              true
+  oculta:                  true
+  html:                    ["size=25"]
+7:       # Columna 7
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monmov
+  html:                    [size="8"]
+  oculta:                  false
+  esgrabable:              true
+  estotal:                 [true, cptrasla_totalhasta]

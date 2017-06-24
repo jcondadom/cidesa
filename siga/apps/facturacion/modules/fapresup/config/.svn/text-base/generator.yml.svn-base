@@ -1,0 +1,139 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fapresup
+    theme:            cidesaGenerator
+    fields:
+      refpre:       { name: Número}
+      despre:       { name: Descripción}
+      fecpre:       { name: Fecha, params: date_format='dd/MM/yyyy'}
+      nompro:       { name: Nombre }
+      rifpro:       { name: CI/RIF Cliente}
+      dirpro:       { name: Dirección}
+      telpro:       { name: Teléfono}
+      monpre:       { name: Monto total}
+      mondesc:      { name: Total Descuento}
+      monrgo:       { name: Total Recargo}
+      faconpag_id:  { name: Condición de Pago}
+      fafordes_id:  { name: Forma de Despacho}
+      faforsol_id:  { name: Forma de Solicitud}
+      tipmon:       { name: Moneda}
+      valmon:       { name: Valor de Cambio de la Moneda}
+      observ:       { name: Observación}
+      codubi:       { name: Codigo de Ubicación}
+      grid:         { name: .}
+      totrec:  { name: Total Recargos}
+      grid_fargopre:    { name: .}
+      cantras: { name: Canal de Trasmisión, params: size=20 maxlength=50}
+      pertra: { name: Período de Trasmisión, params: size=20 maxlength=50}
+      frectra: { name: Frecuencia, params: size=20 maxlength=50}
+      duracion: { name: Duración, params: size=20 maxlength=50}
+      obstra: { name: Observaciones, params: size=80 maxlength=50}
+      tippre:       { name: Tipo Presupuesto}
+      gridcon:         { name: .}
+      percon:       { name: Período}
+      feciniper:       { name: Fecha Inicio, params: date_format='dd/MM/yyyy'}
+      codemb:
+        name: Código
+        params: maxlength=4
+        catalogo:
+          catalogoweb: Faembarca_Fapresup
+          clase: Faembarca
+          ajax: 13
+          parametros: getprincipal="getCodemb" getsecundario="getNomemb" campoprincipal="codemb" camposecundario="nomemb" campobase = "id"
+      tipemb:  { name: Tipo, params: style="border:none"}
+      proemb:  { name: Cliente/Armador, params: style="border:none"}
+      eslora:  { name: Eslora, params: style="border:none"}
+      manga:  { name: Manga, params: style="border:none"}
+      puntal:  { name: Puntal, params: style="border:none"}
+      calado:  { name: Calado, params: style="border:none"}
+      sigimo:  { name: SIGLAS/IMO, params: style="border:none"}
+      peso:  { name: Peso, params: style="border:none"}
+      coddirec:
+        name: Dirección
+        params: maxlength=4
+        catalogo:
+          catalogoweb: Cadefdirec_Almdefdiv
+          clase: Cadefdirec
+          ajax: 11
+          parametros: getprincipal="getCoddirec" getsecundario="getDesdirec" campoprincipal="coddirec" camposecundario="desdirec" campobase = "id"
+      codgru:
+        name: Grupo
+        params: maxlength=4
+        catalogo:
+          catalogoweb: Facturacion_Fadefgru
+          clase: Fadefgru
+          ajax: 14
+          parametros: getprincipal="getCodgru" getsecundario="getDesgru" campoprincipal="codgru" camposecundario="desgru" campobase = "id"
+          divupdate: divgridclau
+      gridclau:   { name: . }
+      gridmat:         { name: .}
+      totmat:  { name: Total Materiales}
+      gridequ:         { name: .}
+      totequ:  { name: Total Maquinaria y Equipos}
+      gridman:         { name: .}
+      totman:  { name: Total Mano de Obra}
+      totapu:  { name: Costo Directo}
+      totgasadm:  { name: Gastos Administrativos}
+      totuti:  { name: Utilidad}
+      totpreuni:  { name: Precio Unitario}
+      gridser:         { name: .}
+      totser:  { name: Total Servicios}
+      totcarfab:  { name: Carga Fábril}
+      codsed:
+        name: Sede
+        params: maxlength=3
+        catalogo:
+          catalogoweb: Facturacion_Fadefsed
+          clase: Fadefsed
+          ajax: 18
+          parametros: getprincipal="getCodsed" getsecundario="getDessed" campoprincipal="codsed" camposecundario="dessed" campobase = "id"
+      tiecot:  { name: Refiere a Otra Cotización}
+      refpreaso: { name: N° de Cotización, params: onBlur="toAjax(19,getUrlModuloAjax(),this.value,'','&codpro='+$('fapresup_codcli').value+'')" }
+      facliper_id:
+        name: Persona Contacto
+        params: maxlength=3
+        catalogo:
+          catalogoweb: Facturacion_Facliper
+          clase: Facliper
+          ajax: 20
+          parametros: getprincipal="getFacliperId" getsecundario="getNomper" campoprincipal="facliper_id" camposecundario="nomper" campobase = "id"
+          catalogoparams: param1/'."'+$('fapresup_codcli').value+'".'
+          ajaxparams: +'."'".'&codpro='."'+$('fapresup_codcli').value".'
+      dirper:  { name: Dirección, params: style="border:none"}
+      telper:  { name: Teléfono, params: style="border:none"}
+      numcue:
+        name: Cuenta Bancaria
+        params: maxlength=20
+        catalogo:
+          catalogoweb: Opdefemp_tsdefban
+          clase: Tsdefban
+          ajax: 20
+          parametros: getprincipal="getNumcue" getsecundario="getNomcue" campoprincipal="numcue" camposecundario="nomcue" campobase = "id"
+    edit:
+      title: Emisión de Presupuesto
+      display:
+        "Presupuesto": [refpre, tiecot, refpreaso, fecpre, tipmon, rifpro, nompro, dirpro, telpro, facliper_id, dirper, telper, despre, codsed, coddirec, faforsol_id, monrgo, mondesc, monpre, totrec, tippre, percon, feciniper]
+        "Detalle Presupuesto": [_grid_fargopre, _gridcon, _gridmat, totmat, _gridequ, totequ, _gridman, totman, _gridser, totser, totapu, totgasadm, totcarfab, totuti, totpreuni, _grid]
+        "Condición de Pago": [faconpag_id]
+        "Forma de Despacho": [fafordes_id]
+        "Embarcación":  [codemb, sigimo, tipemb, proemb, eslora, manga, puntal, calado, peso, numcue]
+        "Observación": [observ]
+        "Condiciones": [codgru, _gridclau]
+        "Otros Datos":  [cantras, pertra, frectra, duracion, obstra]
+      hide:   [filactrec, trajo, filactcon, manunialt, filactapu]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~
+
+    list:
+      title:          Presupuestos
+      display:        [=refpre, fecpre, despre, rifpro, nompro]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [refpre, fecpre, despre, rifpro, nompro]
+      max_per_page:   10
+      sort:           refpre

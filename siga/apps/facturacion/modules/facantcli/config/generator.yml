@@ -1,0 +1,64 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Faantcli
+    theme:            cidesaGenerator
+    fields:
+      nroant: { name: Número, params : size=15 maxlength=8 onFocus=readonly(this.id) onBlur="rellenarcorr(this.id)" }
+      fecant: { name: Fecha, params: date_format='dd/MM/yyyy' size=12 maxlength=10}
+      rifpro:
+        name: C.I/R.I.F Cliente
+        params: maxlength=15 disabled=false
+        catalogo:
+          catalogoweb: Rifcli_Fapedido
+          clase: Facliente
+          ajax: 1
+          parametros: getprincipal="getRifpro" getsecundario="getNompro" campoprincipal="rifpro" camposecundario="nompro" campobase = "id"
+          ajaxparams: +'."'".'&tipant='."'+$('faantcli_tipant').value".'
+          divupdate: divgrid
+      nompro:  { name: Nombre o Razon Social, params: readonly=true}
+      telpro:  { name: Teléfono(s), params: readonly=true  size=30}
+      dirpro:  { name: Dirección, params: readonly=true size=65}
+      desant:  { name: Descripción, type: textarea_tag, params: size=65x2 maxlength=250 onkeyup=" return ismaxlength(this)"}
+      totant: { name: Monto Total Anticipo, params: size=15 readOnly=true}
+      totxan: { name: % Anticipo, params: size=15 readOnly=true}
+      numcue:
+        name: Cuenta Bancaria
+        params: maxlength=4 disabled=false
+        catalogo:
+          catalogoweb: Ingreging_tsdefban
+          clase: Tsdefban
+          ajax: 2
+          parametros: getprincipal="getNumcue" getsecundario="getNomcue" campoprincipal="numcue" camposecundario="nomcue" campobase = "id"
+      codtip:
+        name: Tipo de Movimiento
+        params: maxlength=4 disabled=false
+        catalogo:
+          catalogoweb: Tsmovlib_tesmovdeglib2
+          clase: Tstipmov
+          ajax: 3
+          parametros: getprincipal="getCodtip" getsecundario="getDestip" campoprincipal="codtip" camposecundario="destip" campobase = "id"
+      grid: { name: .}
+      js: { name: .}
+      comprobante: { name: .}
+      tipant: { name: Refiere a}
+    list:
+      title:  Anticipos por Cliente
+      display: [=nroant, fecant, desant, totant]
+      filters: [nroant, codcli, fecant, numcue]
+      object_actions:
+       _edit:        ~
+       _delete:      ~
+      max_per_page:	  10
+      sort:    nroant
+    edit:
+      title:          Edición de Anticipo de Clientes
+      display:
+        "Datos del Anticipo":  [nroant, fecant, _tipant, rifpro, dirpro, telpro, desant, numcue, codtip, totant, totxan, _comprobante, _js]
+        "NONE": [_grid]
+      hide:       [codcli, idcom]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

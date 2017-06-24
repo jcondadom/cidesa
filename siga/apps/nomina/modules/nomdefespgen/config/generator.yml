@@ -1,0 +1,41 @@
+generator:
+  class:              sfPropelAdminGenerator
+  param:
+    model_class:      Npdefgen
+    theme:            default
+
+    fields:
+      codemp:     { name: Código Empresa }
+      nomemp:     { name: Nombre Empresa }
+      forcar:     { name: Cargo }
+      foremp:     { name: Empleado }
+      fororg:     { name: Nivel Organizacional }
+      foruni:     { name: Unidad Ejecutora }
+      foresc:     { name: Escuelas }
+      numrec:     { name: Num. Recibo }
+      unitrib:    { name: Valor Unidad Tributaria }
+      redmon:     { name: Redondeo para los Calculos }
+      codpre:     { name: Presupuestar Cargos }
+      asiconnom:  { name: Asignar Conceptos a la Nómina }
+      redondeo:   { name: Convertir Capital de Prestaciones a Bsf. a Partir del 2008 }
+      forced:     { name: Formato Cédula, params: size=15 maxlength=10 }
+      corayu:     { name: Correlativo de Solicitud de Ayuda, params: size=4 maxlength=8 }
+      suemin:     { name: Valor Sueldo Minimo }
+      codsitemp:     { name: Situación del Empleado }
+      codestemp:     { name: Estatus del Empleado }
+      codtipgas:     { name: Tipo de Gasto del Empleado }
+      corpto:     { name: Correlativo de Punto de Cuenta, params: size=4 maxlength=8 }
+    list:
+      title:          Institución
+      display:        [=codemp, nomemp, forcar, foremp, fororg, foruni ]
+      filters:        [codemp]
+      max_per_page:   5
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+
+    edit:
+      title:          Definición de Institución
+      display:        [codemp, nomemp, forcar, foremp, fororg, foruni, foresc, numrec, unitrib, redmon, codpre, asiconnom, redondeo, forced, corayu, suemin, codsitemp, codestemp, codtipgas, corpto]
+      actions:
+        _save:        ~

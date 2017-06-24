@@ -1,0 +1,198 @@
+methods:
+  post:
+   - "manregequ{numequ}"
+   - "manregequ{nomequ}"
+   - "manregequ{codteq}"
+   - "manregequ{codide}"
+   - "manregequ{codcla}"
+   - "manregequ{codtal}"
+   - "manregequ{codtta}"
+   - "manregequ{codfab}"
+   - "manregequ{coddis}"
+   - "manregequ{codtga}"
+   - "manregequ{codume}"
+   - "manregequ{codest}"
+   - "manregequ{codubi}"
+   - "manregequ{codniv}"
+   - "manregequ{codcencos}"
+   - "manregequ{codcar}"
+
+names:
+  manregequ{numequ}:
+    required:  Yes
+    required_msg: Introduzca el Número del Equipo
+    validators: Validator_numequ
+    
+  manregequ{nomequ}:
+    required:  Yes
+    required_msg: Introduzca el Nombre del Equipo
+    validators: Validator_nomequ
+
+  manregequ{codteq}:
+    required:  No
+    validators: Validator_codteq
+
+  manregequ{codide}:
+    required:  No
+    validators: Validator_codide
+
+  manregequ{codcla}:
+    required:  No
+    validators: Validator_codcla            
+
+  manregequ{codtal}:
+    required:  No
+    validators: Validator_codtal 
+
+  manregequ{codtta}:
+    required:  No
+    validators: Validator_codtta
+
+  manregequ{codfab}:
+    required:  No
+    validators: Validator_codfab
+
+  manregequ{coddis}:
+    required:  No
+    validators: Validator_coddis
+
+  manregequ{codtga}:
+    required:  No
+    validators: Validator_codtga
+
+  manregequ{codume}:
+    required:  No
+    validators: Validator_codume
+
+  manregequ{codest}:
+    required:  No
+    validators: Validator_codest
+
+  manregequ{codubi}:
+    required:  No
+    validators: Validator_codubi
+
+  manregequ{codniv}:
+    required:  No
+    validators: Validator_codniv
+
+  manregequ{codcencos}:
+    required:  No
+    validators: Validator_codcencos                
+
+  manregequ{codcar}:
+    required:  No
+    validators: Validator_codcar
+
+Validator_numequ:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Manregequ
+        column:       numequ
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_nomequ:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: El Nombre no puede tener menos de 2 caracteres
+        max:       500
+        min_error: El Nombre no puede tener mas de 500 caracteres
+
+Validator_codteq:
+    class: CidesaExistValidator
+    param:
+        class:        Mantipequ
+        column:       codteq
+        unique_error: El Tipo de Equipo debe Existir.
+
+Validator_codide:
+    class: CidesaExistValidator
+    param:
+        class:        Manidegru
+        column:       codide
+        unique_error: El Modelo de Equipo debe Existir.
+
+Validator_codcla:
+    class: CidesaExistValidator
+    param:
+        class:        Manclaequ
+        column:       codcla
+        unique_error: La Clasificación de Equipo debe Existir.
+
+Validator_codtal:
+    class: CidesaExistValidator
+    param:
+        class:        Mantipali
+        column:       codtal
+        unique_error: El Tipo de Alimentación debe Existir. 
+
+Validator_codtta:
+    class: CidesaExistValidator
+    param:
+        class:        Mantiptra
+        column:       codtta
+        unique_error: El Tipo de Trasmisión debe Existir.
+
+Validator_codfab:
+    class: CidesaExistValidator
+    param:
+        class:        Mandeffab
+        column:       codfab
+        unique_error: El Fabricante debe Existir. 
+
+Validator_coddis:
+    class: CidesaExistValidator
+    param:
+        class:        Bndisbie
+        column:       coddis
+        unique_error: El Tipo de Incorporación debe Existir. 
+
+Validator_codtga:
+    class: CidesaExistValidator
+    param:
+        class:        Mantipgar
+        column:       codtga
+        unique_error: El Tipo de Garantía debe Existir. 
+
+Validator_codume:
+    class: CidesaExistValidator
+    param:
+        class:        Manunimed
+        column:       codume
+        unique_error: La Unidad de Medida debe Existir.
+
+Validator_codest:
+    class: CidesaExistValidator
+    param:
+        class:        Manestequ
+        column:       codest
+        unique_error: El Estatus del Equipo debe Existir.  
+
+Validator_codubi:
+    class: CidesaExistValidator
+    param:
+        class:        Bnubibie
+        column:       codubi
+        unique_error: La Ubicacón Física debe Existir.
+
+Validator_codniv:
+    class: CidesaExistValidator
+    param:
+        class:        Npestorg
+        column:       codniv
+        unique_error: La Ubicación administrativa debe Existir. 
+
+Validator_codcencos:
+    class: CidesaExistValidator
+    param:
+        class:        Codefcencos
+        column:       codcencos
+        unique_error: El Centro de Costo debe Existir. 
+
+Validator_codcar:
+    class: CidesaExistValidator
+    param:
+        class:        Npcargos
+        column:       codcar
+        unique_error: El Cargo del Custodio debe Existir.                                    

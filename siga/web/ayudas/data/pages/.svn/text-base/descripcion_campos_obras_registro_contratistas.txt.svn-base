@@ -1,0 +1,63 @@
+====== Descripción de Campos ======
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontcontratinc1.jpg|}}"></div><br></html>
+
+  * Indique el **Código** que identificará a la contratista.<html><br><br></html>
+
+  * Ingrese el **Nombre** de la Contratista.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:catalogorecaudos.jpg|}}"></div><br></html>
+
+  * En el campo **Código Especialidad** presione el **Botón** {{:btncuadrocatalogo.jpg|}} y seleccione del catálogo la especialidad del contratista.<html><br><br></html>
+
+  * En la pestaña **Datos Personales**:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Ingrese la **Cédula de Identidad ó RIF**. del proveedor y el **NIT**.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Especifique la** Dirección** de Ubicación
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Ingrese el **Teléfono** y el **Número de Fax**    
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Indicar el **Número de OCEI** (Oficina Central de Estadística e Informática) que posee el Contratista y el **E-Mail**.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** En **Ramo que provee** presione el **Botón** {{:btncuadrocatalogo.jpg|}} y seleccione del catálogo el ramo  al que pertenece el contratista.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Indicar el **Límite de Crédito** del Contratista
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** En el campo **Cuenta Contable Asociada** presione el **Botón** {{:btncuadrocatalogo.jpg|}} y seleccione del catálogo la Cuenta contable asociada al contratista.<html><br><br></html>
+
+  * En la pestaña **Datos del Registro**: 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontcontratreginc2.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Ingresar el **Número de Registro Mercantil** y la **Fecha de Registro** 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Indicar el **Tomo** y **Folio**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Ingresar el **Capital Suscrito** y el Capital Pagado
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Indicar la **Cédula ó Rif**, **Nombre** y **Dirección** del Representante Legal. <html><br><br></html>
+
+  * En la pestaña **Recaudos**: 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontcontratreginc3.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** En el campo **Grupo** presione el Botón {{:btncuadrocatalogo.jpg|}} para que el sistema muestre un catálogo con todos los grupos de Recaudos donde debe seleccionar el Grupo de Recaudo a registrar.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-**  Seguidamente observará una tabla de Recaudos donde debe ubicarse en la columna **Código** y presionar el **Botón** {{:btnconsultagrid.jpg|}} para que el sistema le muestre un catálogo con todos los Recaudos previamente registrados donde debe seleccionar cada uno de los recaudos que debe consignar la contratista.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Por último seleccione del calendario {{:btncalendario.jpg|}} la **Fecha de Entrega** y la **Fecha de Vencimiento** de los Recaudos.<html><br><br></html>
+
+  * En la pestaña **Personal**: 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontcontratreginc4.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Seguidamente observará una tabla de Personal donde debe ubicarse en la columna **Código** y presionar el **Botón** {{:btnconsultagrid.jpg|}} para que el sistema le muestre un catálogo con el personal previamente registrados en el sistema donde debe seleccionar cada uno de los empleados que conforman la contratista. Al seleccionar el Código del empleado el sistema muestra en la tabla la **Profesión** y el **Cargo** del empleado en sus columnas respectivas.<html><br><br></html>
+
+  * En la pestaña **Equipos**: 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontcontratreginc5.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Seguidamente observará una tabla de Equipos donde debe ubicarse en la columna **Código** y presionar el **Botón** {{:btnconsultagrid.jpg|}} para que el sistema le muestre un catálogo con todos los equipos técnicos previamente registrados en el sistema donde debe seleccionar cada uno de los equipos técnicos de trabajo que posee la contratista. Al seleccionar el Código del Equipo Técnico el sistema muestra en la tabla la **Descripción** y la **Cantidad** de equipos  en sus columnas respectivas. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Registro** ahora podrá realizar determinadas [[operaciones_basicas|Operaciones Básicas]]

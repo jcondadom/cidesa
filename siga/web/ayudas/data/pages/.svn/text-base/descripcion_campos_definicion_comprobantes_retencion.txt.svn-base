@@ -1,0 +1,13 @@
+Los campos que conforman la pantalla de **Definición de Reportes de Comprobantes de Retención** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbandefrepcomretinc1.jpg|}}"></div><br></html>
+
+  * **Tipo de Comprobante:** Debe seleccionar el tipo de comprobante (IVA, ISRL Y LTF).<html><br><br></html>
+
+  * Seguidamente se presenta un [[Grid|Grid]] con los siguientes campos en las columnas correspondientes: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Código:** Indica el código del tipo de retención a aplicar (IVA, ISRL Y LTF). 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Descripción:** Es una breve descripción de la retención 
+ 
+ 

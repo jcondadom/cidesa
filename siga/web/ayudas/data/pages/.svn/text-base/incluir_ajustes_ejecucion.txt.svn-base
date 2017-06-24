@@ -1,0 +1,39 @@
+====== Operación Incluir ======
+
+  * Ingresamos la **Referencia** del Ajuste.<html><br><br></html>
+
+  * Ingrese la **Fecha** del Ajuste.<html><br><br></html>
+
+  * Ingrese la **Descripción** que hace referencia al ajuste.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreajuejeinc1.jpg|}}"></div><br></html>
+
+  * En la sección **Tipo de Ajuste** seleccione el Código del Tipo de Ajuste a realizar.<html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreajuejeinc2.jpg|}}"></div><br></html>
+
+  * En la sección **Datos del Movimiento** encontramos:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Referencia:</b>Se coloca la referencia del movimiento al cual se esta realizando el ajuste.</html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Descripción:</b>Se coloca la referencia del movimiento al cual se esta realizando el ajuste</html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Fecha:</b> En este campo se coloca la fecha en la cual se realizó el movimiento.</html> <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreajuejeinc3.jpg|}}"></div><br></html>
+
+  * En la sección **Movimientos del Ajuste** tenemos: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Código Presupuestario:</b>Representa la estructura de los tipos de gastos del presupuesto.</html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>El Monto del Ajuste</b></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>El Monto del Movimiento</b></html> al cual se le esta realizando el ajuste.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Referencia del Compromiso</b></html> 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Referencia Causado</b><br></html> 
+ 
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Total</b></html> por el cual se esta realizando el ajuste.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreajuejeinc4.jpg|}}"></div><br></html>

@@ -1,0 +1,24 @@
+===== Descripción de Campos =====
+
+  * Seleccionar en **Código de nivel** el código del Bien ó Activo Inmueble definido por la Contraloría General de la República.<html><br><br></html>
+
+  * Seleccionar el **Código del Activo Inmueble** para el cual está registrando el seguro dentro de la Institución.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:bieregseginminc1.jpg|}}"></div><br></html>
+
+  * En la **Sección Póliza de Seguro** se definen los siguientes datos:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Ingresar el **Número de la Póliza de Seguro**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Ingresar la **Fecha** en la que se realiza la Póliza de Seguro.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Ingresar el **Nombre de la Compañía Aseguradora**.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Seleccionar la **Cobertura del seguro**.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Ingresar el **Nombre del Promotor** que realizó el contrato.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Ingresar de ser necesario **Observaciones** adicionales acerca del seguro de muebles.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:bieregseginminc2.jpg|}}"></div><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Seguro de Inmuebles** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

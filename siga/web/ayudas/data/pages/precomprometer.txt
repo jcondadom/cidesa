@@ -1,0 +1,20 @@
+====== Precomprometer ======
+
+**Tabla:** CPPRECOM , CPIMPPRC
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite registrar los movimientos que Precomprometen la Disponibilidad, llevar un control de estos Documentos, así como el estado actual de los Precompromisos a nivel global y por Código Presupuestario. </html>
+
+**Para ello:**
+
+  * Seleccione la opción **Contabilidad Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpre.jpg|}}"></div><br></html>
+
+   * Seguidamente despliegue la opción **Ejecución Presupuestaria**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreejepre.jpg|}}"></div><br></html>
+
+  * Por último seleccione **Precomprometer**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreprecomprometer.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Precomprometer** veamos la [[Descripcion_Campos_presupuesto_precomprometer|Descripción de los Campos]]
+
+

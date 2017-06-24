@@ -1,0 +1,59 @@
+Los campos que conforman la pantalla de **Definición de Artículos** son los siguientes: 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmartdefartinc1.jpg|}}"></div><br></html>
+
+  * En primer lugar en la **Sección Datos de la Empresa** se encuentran los siguientes campos: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** El **Nombre** de la Institución
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** La **Dirección** de la Institución.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmartdefartinc6.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Formatos de Código** se encuentran los siguientes campos: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **1. Sección Código de Artículo:** <html><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Longuitud del Código:** Indica la cantidad de caracteres que va a tener el formato.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Rupturas de Control:** Indica el número de rupturas que conforman el Código del Artículo.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Formato:** Representa la estructura que va a tener el Código del Artículo.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Descripción:** Indica  la descripción de dicho Formato. <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **2. Sección Códigos de Ubicación :** <html><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Formato:** Representa la Estructura que va a tener el formato de la Ubicación.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Descripción:** Representa la descripción de como debe ser la nomenclatura del formato. <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **3. Sección Código SNC :** <html><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Formato:** Representa la Estructura que va a tener el Código del Servicio Nacional de Contratistas.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Descripción:** Representa la descripción del Código del Servicio Nacional de Contratistas. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmartdefartinc2.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Integración** se indican las distintas opciones con las que se harán las Imputaciones del Recargo, las cuales pueden ser:
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Código Presupuestario:** El sistema asociará un recargo a un código presupuestario completo (categoría presupuestaria + partida presupuestaria), de esta forma el Sistema siempre tomara este código para realizar la imputación presupuestaria del recargo sin importar la categoría a la que se asocie un artículo o servicio determinado al momento de hacer una orden de compra/servicio. 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Código de Partida:** El sistema asociara un recargo a una partida presupuestaria específica, esto con el fin de que el Sistema asocie la misma categoría presupuestaria de un artículo ó servicio al recargo. De esta manera la imputación del artículo y el recargo serán por la misma categoría presupuestaria. 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Costo de Artículos:** El monto del recargo se adicionará a la imputación presupuestaria del código presupuestario asociado al artículo ó servicio.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmartdefartinc3.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Correlativos** se define el número inicial de los correlativos correspondientes a: **Ordenes de Compra**, **Ordenes de Servicio**, **Requisiciones**, **Despacho**, **Recepciones** y **Solicitudes de Compra/Servicio**. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmartdefartinc4.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Afectación Presupuestaria** se debe seleccionar si  la empresa desea que una Solicitud de Egresos y una Orden de Compra y Servicios sea Asociada al Presupuesto ó que Requiera de Aprobación. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmartdefartinc5.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Requiere Aprobación** se indica si la Requisición requiere aprobación para poder ser despachada y la Solicitud de Egreso para poder ser la Orden de Compra. <html><br><br></html>
+
+  * Una vez que se definan todos los campos anteriores debe presionar el Botón {{:btnguardar.jpg|}} para registrar la información. Es importante destacar que la Definición de Artículos se realiza una sola vez y no esta sujeto a modificaciones ni podrá ser elñiminado.

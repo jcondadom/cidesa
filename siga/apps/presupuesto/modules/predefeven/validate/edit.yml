@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "cpevepre{codeve}"
+   - "cpevepre{deseve}"
+
+names:
+  cpevepre{codeve}:
+    required:  Yes
+    required_msg: No puede salvar sin Introducir el Código del Evento
+    validators: UniqueValidator
+
+  cpevepre{deseve}:
+    required:  Yes
+    required_msg: No puede salvar sin Introducir la  Descripción del Evento
+    validators: DescripcionValidator
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción no puede tener menos de 5 caracteres
+        max:       1000
+        max_error: La Descripción no puede tener más de 1000 caracteres
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Cpevepre
+        column:   codeve
+        unique_error:   EL Código del Evento ya existe. Por Favor, Cambiélo por otro.

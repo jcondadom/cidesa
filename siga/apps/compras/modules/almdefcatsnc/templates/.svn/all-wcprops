@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/compras/modules/almdefcatsnc/templates
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/compras/modules/almdefcatsnc/templates/ajaxSuccess.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/compras/modules/almdefcatsnc/templates/editSuccess.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/compras/modules/almdefcatsnc/templates/_edit_actions.php
+END
+listSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/compras/modules/almdefcatsnc/templates/listSuccess.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/compras/modules/almdefcatsnc/templates/_edit_form.php
+END
+_filters.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/compras/modules/almdefcatsnc/templates/_filters.php
+END

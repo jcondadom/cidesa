@@ -1,0 +1,97 @@
+===== Descripción de Campos =====
+
+  * En la **Pestaña Registro** ingresamos todos los datos principales del Inmueble:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biereginminc1.jpg}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seleccionar en **Código Catálogo** el código del activo a registrar.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Ingresar en **Código Activo** el Código del bien que haga referencia a dicho activo.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Ingresar un **Código Alterno**.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seleccionar la **Orden de Compra** a la que refiere la adquisición del mueble
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Ingresar el **Número de la Factura** de la compra del Mueble
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seleccionar el **Proveedor** del Mueble
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Fecha de la Compra** y la **Fecha del Cálculo**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seleccionar el **Código de la Ubicación** del Mueble
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Ingresar lo **valores** correpsondientes a la **Vida Util**. <html><br><br></html>
+
+  * En la pestaña **Características del Inmueble** debe registrar:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biereginminc2.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** La **Denominación** del Inmueble
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Nro. Expediente:** Número de expediente que identificará al inmueble.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Detalle:** Se refiere a cualquier explicación que se quiera dejar asentada a el Inmueble.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Avaluo Actual:** Se refiere al valor que tiene el inmueble al momento del registro.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Avaluo Comisión:** Se refiere al valor por comisión que tiene el Inmueble.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Clasificación Funcional:** Se refiere al número de identificación de la Clasificación Funcional de los bienes de la Institución. Al presionar el Botón {{:btncuadrocatalogo.jpg}} el sistema muestra una [[listas|Lista]] con las clasificaciones funcionales registradas previamente en el sistema.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Edo. Legal de la Construcción:** Se refiere al estado actual de la construcción.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Observación:** Se refiere a cualquier observación que se le quiera añadir a los datos del Inmueble. <html><br><br></html>
+
+  * En la pestaña **Linderos** se registran los siguientes campos:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biereginminc3.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Lindero Norte:** Punto de referencia con el cual limita el Inmueble por el Norte.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Lindero Sur:** Punto de referencia con el cual limita el Inmueble por el Sur.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Lindero Este:** Punto de referencia con el cual limita el Inmueble por el Este.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Lindero Oeste:** Punto de referencia con el cual limita el Inmueble por el Oeste.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Area del Terreno:** Cantidad en metros cuadrados del terreno de Inmueble.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Area Cubierta:** Cantidad en metros cuadrados del terreno de cubierta del Inmueble.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Area Construida:** Cantidad en metros cuadrados de construcción que posee el Inmueble.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Otras Instalaciones:** Se refiere a posibles instalaciones adicionales existentes en el Inmueble.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Área Total:** Cantidad total en metros cuadrados del terreno del Inmueble.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **Código Disposición** del Inmueble.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **Nombre** de la Disposición del Inmueble. <html><br><br></html>
+
+  * En la pestaña **Costo Histórico** se registran los Costos Históricos de:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biereginminc4.jpg}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- El Valor Inicial:** Refiere al costo del bien.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- La Depreciación Acumulada**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Valor Reexpresado**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Valor Reexpresado**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Valor de Rescate:** Se refiere al costo, que se estima será recuperado cuando deje de prestar servicio y sea vendido.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Valor Libros:** Se refiere al valor, que viene dado por la diferencia entre el costo y la depreciación que esté acumulada a una determinada fecha.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Costo Reposición**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Depreciación Mensual**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Valor Adición**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Valor Actual**
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Registro de Inmuebles** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+
+

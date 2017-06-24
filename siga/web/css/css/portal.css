@@ -1,0 +1,238 @@
+/* 
+    Document   : portal
+    Created on : 27/11/2012, 04:11:05 PM
+    Author     : pasantejb
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+.logo1 {
+    margin-top: -5px;
+    width: 200px;
+    height: 60px;
+    margin-left: 0px;
+}
+.logo2 {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+
+}
+.logo3 {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+
+}
+.logot {
+    margin-top: 0px;
+    width: 40px;
+    height: 30px;
+}
+
+.publicidad {
+    margin-top: 0px;
+    width: 80px;
+    height: 80px;
+}
+
+.bordedown {
+    border-bottom: 1px solid #ccc;
+}
+
+.span35{
+    width: 280px;
+}
+.span33{
+    width: 300px;
+}
+
+.centradoi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.alignli{
+    float: left;
+}
+.tweetbutton{
+    margin-left: 211px;
+    margin-top: 7px;        
+}
+.centradot {
+    text-align:center;
+}
+.titlecenter {
+    margin-left: 100px;
+}
+.alignlt {
+    text-align:left;
+}
+.colorazul{
+    color:#006dcc;
+}
+.justificadot{
+    text-align : justify;
+}
+.margensuperior{
+    /*margin-top: 5px;*/
+    margin-left: 0px;
+}
+.margensuperior2{
+    margin-top: 0px;
+}
+.margensuperior3{
+    margin-top: 10px;
+    margin-left: -100px;
+}
+.margensuperior4{
+    margin-top: 5px;
+}
+.margeninferior{
+    margin-bottom: 20px;
+}
+.contenedor{
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.contenedor2{
+    background-color: #cdcdcd;
+    border: 1px solid #a5a5a5;
+    padding-top: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.contenedor3{
+    background-color: #ffffff;
+    color: #006dcc;
+    border: 0px solid #a5a5a5;
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    
+}
+
+.contenedor4{
+    background-color: #a5a5a5;
+    border: 1px solid #cccccc;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+.navbar-cidesa{  
+    min-height: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #79A5FD;
+    background-image: -moz-linear-gradient(top, #79A5FD, #006dcc);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#79A5FD), to(#006dcc));
+    background-image: -webkit-linear-gradient(top, #79A5FD, #006dcc);
+    background-image: -o-linear-gradient(top, #79A5FD, #006dcc);
+    background-image: linear-gradient(to bottom, #79A5FD, #006dcc);
+    background-repeat: repeat-x;
+    border: 1px solid #79A5FD;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #ffffff;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+    *zoom: 1;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+
+}
+
+.navbar-inner-original {
+  min-height: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #fafafa;
+  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));
+  background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  background-repeat: repeat-x;
+  border: 1px solid #d4d4d4;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+  *zoom: 1;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
+}
+
+.active-cidesa{
+    background-color: #006dcc;
+    color: #555555;
+    text-decoration: none;
+    -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+    -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+    box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+}
+
+.interlineado{
+    line-height:15px;
+}
+
+.pequena{
+    font-size: 0.85em;
+}
+
+.pequena2{
+    font-size: 1em;
+}
+
+
+.borde{
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    width: 910px;
+    margin-left: 15px;
+}
+
+.registro{
+    margin-top: 20px;
+}
+
+.login{
+    margin-top: 10px;
+}
+
+.spanpub {
+   width: 280px;
+}

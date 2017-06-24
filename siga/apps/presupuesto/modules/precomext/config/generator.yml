@@ -1,0 +1,52 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cpcomext
+    theme:            cidesaGenerator
+    fields:
+      refcomext: { name: Referencia, params : size=10 maxlength=8  onFocus=readonly(this.id) onBlur="javascript:event.keyCode=13; enter(event,this.value);"  }
+      feccom:  {name: Fecha, params: size=10 maxlength=10 date_format='dd/MM/yy'}
+      codmon:  {name: Moneda}
+      valmon:  {name: valor}
+      descom:  { name: Descripción, type: textarea_tag, params: size=80x5 maxlength=1000 onkeyup=" return ismaxlength(this)"}
+      tipcom:
+        name: Tipo Compromiso
+        catalogo:
+          catalogoweb: Precompro_Cpdoccom2
+          clase: Cpdoccom
+          ajax: 1
+          parametros: getprincipal="getTipcom" getsecundario="getNomext" campoprincipal="tipcom" camposecundario="nomext" campobase = "id"
+      cedrif:
+        name: Cedula/Rif
+        catalogo:
+          catalogoweb: Preprecom_Opbenefi
+          clase: Opbenefi
+          ajax: 2
+          parametros: getprincipal="getCedrif" getsecundario="getNomben" campoprincipal="cedrif" camposecundario="nomben" campobase = "id"
+      moncom:  {name: Monto, params: readOnly=true}
+      refcom:  {name: Compromiso, params: readOnly=true}
+      grid:  {name: .}
+    list:
+      title:          Compromisos en Otras Monedas
+      filters:        [refcomext, feccom, cedrif]
+      display:        [=refcomext, feccom, descom]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      refcomext
+    edit:
+      title:          Edición  de Compromisos en Otras Monedas
+      display:
+        "Datos del Compromiso":   [refcomext, feccom, _codmon, valmon, descom, tipcom, cedrif, moncom, refcom]
+        "Imputaciones del Compromiso":  [_grid]
+      hide:     [stacom]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~
+        _anular:
+          name: Anular
+          only_for: edit
+          params: class="sf_admin_action_delete" onClick="anular()"        

@@ -1,0 +1,68 @@
+methods:
+  post:
+   - "fatartra{reftar}"
+   - "fatartra{fectar}"
+   - "fatartra{reford}"
+   - "fatartra{codemp}"   
+   - "fatartra{destar}"
+
+names:
+  fatartra{reftar}:
+    required:  Yes
+    required_msg: La Referencia de la Tarjeta no puedo estar en Blanco
+    validators: Validator_reftar
+
+  fatartra{fectar}:
+    required:  Yes
+    required_msg: La Fecha de Emisión no puede estar blanco
+    validators: FechaValidator
+
+  fatartra{reford}:
+    required:  No
+    validators: reford_Validator
+
+  fatartra{codemp}:
+    required:  Yes
+    required_msg: El El Jefe de Proyecto y/o Responsable no puede estar en blanco
+    validators: Jefe_Validator     
+
+  fatartra{destar}:
+    required:  Yes
+    required_msg: La Descripción de la Tarjeta no puede estar en blanco
+    validators: DescripcionValidator
+
+Validator_reftar:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Fatartra
+        column:       reftar
+        unique_error: El registro ya Existe intente con otro.
+
+Jefe_Validator:
+    class: CidesaExistValidator
+    param:
+        class:    Nphojint
+        column:   codemp
+        unique_error:  El Jefe de Proyecto y/o Responsable no Existe.
+
+reford_Validator:
+    class: CidesaExistValidator
+    param:
+        class:    Faordtra
+        column:   reford
+        unique_error:  La Orden Trabajo no existe.
+        
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripciónn no puede tener menos de 5 caracteres
+        max:       550
+        max_error: La Descripción no puede tener más de 550 caracteres
+        
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida              

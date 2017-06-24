@@ -1,0 +1,16 @@
+====== Operación Eliminar ======
+
+Para **Eliminar** debe:  <html><br><br></html>
+
+  * Seleccionar de la **Lista** el **Tipo de Contrato Colectivo** para el cual desea eliminar la asignación de trabajadores para Prestaciones por Contrato Colectivo..
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/"></div><br></html>
+
+  * Presionar  {{:btnborrar.jpg|}}  <html><br><br></html>
+
+  * El sistema emite un **Mensaje de Confirmación** antes de eliminar.  
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br></html>
+ 
+  * Presionar **Aceptar**.   <html><br><br></html>
+ 
+  * El sistema nos lleva automáticamente a la **lista** con la Asignación de Trajadores para Prestaciones por Contrato Colectivo.

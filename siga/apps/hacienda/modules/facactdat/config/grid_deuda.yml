@@ -1,0 +1,87 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   fcdeclar
+  anchogrid:               800
+  ancho:                   700
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Marque
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:			   true
+  html:                    [ ]  
+2:       # Columna 2
+  titulo:                  Vencimiento
+  tipo:                    f
+  nombrecampo:             fecven
+  html:                    ["size=10 readOnly=true"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Nro Licencia
+  tipo:                    t
+  nombrecampo:             numref
+  html:                    ["size=15 readOnly=true"]
+  esgrabable:              true
+4:       # Columna 4
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             nombre
+  html:                    ["size=30x2 readOnly=true" ]
+  esgrabable:              true
+5:       # Columna 5
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             mondec
+  html:                    ["size=10 onBlur='ValidarMontoGridv2(this); calcularTotales()'"]
+  esgrabable:              true
+  estotal:                 [true, fcdeclar_totmon]
+6:       # Columna 6
+  titulo:                  Mora
+  tipo:                    m
+  nombrecampo:             mora
+  html:                    ["size=10 onBlur='ValidarMontoGridv2(this); calcularTotales()'"]
+  esgrabable:              true
+  estotal:                 [true, fcdeclar_totmor]
+7:       # Columna 7
+  titulo:                  Fecha Declaración
+  tipo:                    f
+  nombrecampo:             fecdec
+  html:                    ["size=10 readOnly=true"]
+  esgrabable:              true  
+8:       # Columna 8
+  titulo:                  Estatus
+  tipo:                    c
+  nombrecampo:             edodecstatus
+  html:                    [ ]
+  esgrabable:              true
+9:       # Columna 9
+  titulo:                  Numdec
+  tipo:                    t
+  nombrecampo:             numdec
+  html:                    ["size=5"]
+  oculta:                  true
+  esgrabable:              true
+10:       # Columna 10
+  titulo:                  Fueing
+  tipo:                    t
+  nombrecampo:             fueing
+  html:                    ["size=5"]
+  oculta:                  true
+  esgrabable:              true
+11:       # Columna 11
+  titulo:                  Numero
+  tipo:                    t
+  nombrecampo:             numero
+  html:                    ["size=5"]
+  oculta:                  true
+  esgrabable:              true  
+12:       # Columna 12
+  titulo:                  Tipo
+  tipo:                    t
+  nombrecampo:             tipo
+  html:                    ["size=10"]
+  oculta:                  true
+  esgrabable:              true

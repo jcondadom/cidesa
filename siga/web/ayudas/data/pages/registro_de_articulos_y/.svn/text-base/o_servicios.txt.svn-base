@@ -1,0 +1,16 @@
+======Registro de Artículos y/o Servicios======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso en el que se registran todos los artículos ó servicios a usar en una orden de compra/servicio. Se compone de varios campos necesarios para el registro de todos los datos relevantes tanto para la información del artículo, como para la integración contable y presupuestaria del Sistema..</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Artículos** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmart.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Registro de Artículos y/o Servicios**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmartregartserv.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Registro de Artículos y/o Servicios** veamos la [[Descripcion_Campos_Registro_Articulos_Servicios|Descripción de los Campos]]

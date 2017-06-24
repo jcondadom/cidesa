@@ -1,0 +1,62 @@
+methods:
+  post:
+   - "cpptocta{numpta}"
+   - "cpptocta{fecpta}"
+   - "cpptocta{codubiori}"
+   - "cpptocta{codubides}"
+names:
+  cpptocta{numpta}:
+    required:  Yes
+    required_msg: El Número de Punto de Cuenta no puede estar en blanco
+    validators: Validator_numpta
+
+  cpptocta{fecpta}:
+    required:  Yes
+    required_msg: La Fecha no puede estar en blanco
+    validators: FechaValidator1, FechaValidator2
+
+  cpptocta{codubiori}:
+    required:  Yes
+    required_msg: La Unidad de Origen no puede estar en blanco
+    validators: Validator_existe 
+
+  cpptocta{codubides}:
+    required:  Yes
+    required_msg: La Unidad Destino no puede estar en blanco
+    validators: Validator_existe2 
+
+Validator_existe:
+    class: CidesaExistValidator
+    param:
+        class:        Bnubica
+        column:       codubi
+        unique_error: La Unidad de Origen no existe.
+
+Validator_existe2:
+    class: CidesaExistValidator
+    param:
+        class:        Bnubica
+        column:       codubi
+        unique_error: La Unidad Destino no existe.        
+
+Validator_numpta:
+  class: sfPropelUniqueValidator
+  param:
+    class:        Cpptocta
+    column:       numpta
+    unique_error: El Número de Punto de Cuenta ya Existe intente con otro.
+
+FechaValidator1:
+    class:         CidesaDateNow
+    param:
+        compare: 'now'
+        compare_error: La Fecha no puede ser mayor a la Fecha Actual
+        operator: '<='
+        date_error:  Fecha Inválida
+
+FechaValidator2:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida    

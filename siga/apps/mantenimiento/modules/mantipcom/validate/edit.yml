@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "mantipcom{codtco}"
+   - "mantipcom{destco}"
+
+names:
+  mantipcom{codtco}:
+    required:  Yes
+    required_msg: Introduzca el Código del Tipo de Componente
+    validators: Validator_codtco
+    
+  mantipcom{destco}:
+    required:  Yes
+    required_msg: Introduzca la Descripción del Tipo de Componente
+    validators: Validator_destco
+
+Validator_codtco:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Mantipcom
+        column:       codtco
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_destco:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La Descripción no puede tener mas de 250 caracteres

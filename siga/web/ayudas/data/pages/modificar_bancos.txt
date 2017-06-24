@@ -1,0 +1,16 @@
+====== Operación Modificar ======
+
+Para Modificar un Banco:
+
+
+  * Seleccionar de la Lista el Banco a modificar.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefbanmod.jpg|}}"></div><br></html>
+
+  * Realice las modificaciones. Es importante tomar en cuenta que el único dato que se puede modificar es la **Descripción del Banco**. 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/"></div></html>
+
+  * Una vez realizadas las modificaciones presionar  {{:btnguardar.jpg|}}  para actualizar la información. <html><br><br></html>
+
+  * Para verificar que los cambios se guardaron con éxito podemos consultar el Banco directamente desde la Lista
+
+

@@ -1,0 +1,33 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcmunici
+    theme:            cidesaGenerator
+    fields:
+      codpai: { name: País, params : size=5 maxlength=4 }
+      nompai: { name: Paí­s}
+      codedo: { name: Estado, params : size=5 maxlength=4 }
+      nomedo: { name: Estado}
+      codmun: { name: Código, params : size=5 maxlength=4  onFocus=readonly(this.id) onBlur="this.value=this.value.pad(4, '0',0);"  }
+      nommun: { name: Nombre, params : size=60 maxlength=30 onBlur="cadena=this.value;cadena=cadena.toUpperCase(); $(this.id).value=cadena"}
+    list:
+      title:          Definiciones de Municipios
+      filters:        [codpai, codedo, codmun]
+      display:        [=codmun, nommun, nompai, nomedo]
+      fields:
+        codmun:
+          name: Municipio
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codmun
+    edit:
+      title:          Edición  de Municipio
+      display:
+        "Datos del Municipio":   [_codpai, _codedo, codmun, nommun]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

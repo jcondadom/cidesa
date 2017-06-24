@@ -1,0 +1,10 @@
+methods:
+  post:
+
+   - "catproter{descatproter}"
+
+names:
+
+  catproter{descatproter}:
+    required:  Yes
+    required_msg: La Descripción no puede estar en Blanco

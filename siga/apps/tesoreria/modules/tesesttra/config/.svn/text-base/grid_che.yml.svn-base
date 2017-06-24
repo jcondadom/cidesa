@@ -1,0 +1,55 @@
+opciones:                  # Opciones generales
+  name:                    g
+  eliminar:                false
+  tabla:                   tsmovlib
+  anchogrid:               1000
+  ancho:                   820
+  filas:                   0
+  titulo:                  ' Cheques '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Referencia
+  tipo:                    t
+  nombrecampo:             reflib
+  html:                    ["size=10 readonly=true" ]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Fecha
+  tipo:                    f
+  nombrecampo:             feclib
+  html:                    ["size=5 readonly=true"]
+  esgrabable:              true  
+3:       # Columna 3
+  titulo:                  Cuenta Bancaria
+  tipo:                    t
+  nombrecampo:             numcue
+  html:                    ["size=20 readonly=true"]
+  esgrabable:              true  
+4:       # Columna 4
+  titulo:                  Tipo
+  tipo:                    t
+  nombrecampo:             tipmov
+  html:                    ["size=5 readonly=true"]
+  esgrabable:              true  
+5:       # Columna 5
+  titulo:                  Beneficiario
+  tipo:                    t
+  nombrecampo:             cedrif
+  html:                    ["size=10 readonly=true"]  
+6:       # Columna 6
+  titulo:                  Beneficiario
+  tipo:                    t
+  nombrecampo:             nomben
+  html:                    ["size=15 readonly=true"]  
+7:       # Columna 7
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             deslib
+  html:                    ["size=40x2 readonly=true" ]
+  esgrabable:              true
+8:       # Columna 8
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monmov
+  html:                    ["size=10 readonly=true" ]
+  esgrabable:              true

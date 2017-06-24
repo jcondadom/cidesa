@@ -1,0 +1,24 @@
+====== Descripción de Campos ======
+ 
+  * El **Código** de la Cuenta Contable, el cual obedece a la estructura lógica de la cuenta, y hay que crear cuantas cuentas como niveles sean necesarios para poder llegar a la cuenta de movimiento o cuenta cargable.<html><br><br></html>
+ 
+  *  La **Descripción** que se le asigna a la Cuenta Contable según el criterio del contador, apoyado en el plan único de cuentas o plan de cuentas contables.<html><br><br></html>
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/cfincatcueinc.jpg"></div> <br></html>
+
+  * Indicar si la cuenta será **Cargable**, y esto sucede si y solo si esta sujeta a recibir asientos o registros contables directamente en ella, si por el contrario es una cuenta totalizadora, deberá ser registrada como no cargable o cuenta de mayor.<html><br><br></html>
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/cfincatcueinc1.jpg"></div> <br></html>
+
+
+  * El **Tipo de Saldo**, el cual resume la naturaleza de la cuenta si es Deudora o Acreedora, independientemente de que ya se haya parametrizado los grupos de cuentas contables.<html><br><br></html>
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/cfincatcueinc2.jpg"></div> <br></html>
+
+  * En este módulo también se muestra a niveles de saldos los movimientos de las cuentas, resume por periodos los respectivos Movimientos Deudores y Acreedores de cada una de las cuentas así como también muestra el Saldo del Periodo y el Saldo Acumulado. Vale la pena destacar que los saldos acreedores serán mostrados con un signo negativo.
+
+<html> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En este módulo se puede aperturar cuentas en cualquier momento de la ejecución del ejercicio fiscal siempre y cuando se respete la teoría de la escalera.</html>
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/cfincatcueinc3.jpg"></div> <br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Catálogo de Cuentas** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

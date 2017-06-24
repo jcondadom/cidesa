@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repositorio/!svn/ver/61967/web/php/siga/branches/productions/trunk/lib/business/nomina
+END
+CalculoNominaEspecial.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/52409/web/php/siga/branches/productions/trunk/lib/business/nomina/CalculoNominaEspecial.class.php
+END
+CierredeNominaEspecial.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/61684/web/php/siga/branches/productions/trunk/lib/business/nomina/CierredeNominaEspecial.class.php
+END
+Vacaciones.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/59791/web/php/siga/branches/productions/trunk/lib/business/nomina/Vacaciones.class.php
+END
+EmpleadosBanco.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/61412/web/php/siga/branches/productions/trunk/lib/business/nomina/EmpleadosBanco.class.php
+END
+NominaConceptos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/60076/web/php/siga/branches/productions/trunk/lib/business/nomina/NominaConceptos.class.php
+END
+Nomina.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/61967/web/php/siga/branches/productions/trunk/lib/business/nomina/Nomina.class.php
+END
+PrestacionesSociales.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/59813/web/php/siga/branches/productions/trunk/lib/business/nomina/PrestacionesSociales.class.php
+END
+FormulaConceptos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/52078/web/php/siga/branches/productions/trunk/lib/business/nomina/FormulaConceptos.class.php
+END
+CalculoNomina.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/60213/web/php/siga/branches/productions/trunk/lib/business/nomina/CalculoNomina.class.php
+END
+CierredeNomina.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/61698/web/php/siga/branches/productions/trunk/lib/business/nomina/CierredeNomina.class.php
+END

@@ -1,0 +1,36 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   cpsolmovadi
+  anchogrid:               750
+  ancho:                   650
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Presupuestario
+  tipo:                    t
+  nombrecampo:             codpre
+  html:                    [size="50"]
+  oculta:                  false
+  esgrabable:              true
+  ajaxfila:                true
+  #catalogo:                [cpasiini, sf_admin_edit_form, { codpre: 1 }, Pretrasla_Cpasiini]
+2:       # Columna 2
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monmov
+  html:                    [size="8"]
+  oculta:                  false
+  esgrabable:              true
+  ajaxfila:                true
+  estotal:                 [true, cpadidis_total]
+3:       # Columna 3
+  titulo:                  Monto Disponible
+  tipo:                    m
+  nombrecampo:             mondis
+  html:                    [size="8" readonly="true"]
+  oculta:                  false
+  esgrabable:              true
+  ajaxfila:                true
+  estotal:                 [true, cpadidis_totaldisponible]

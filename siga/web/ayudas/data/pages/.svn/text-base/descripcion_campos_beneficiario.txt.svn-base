@@ -1,0 +1,39 @@
+Los campos que conforman la pantalla de **Beneficiarios** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbenefinc1.jpg|}}"></div><br></html>
+
+  * **C.I. ó R.I.F:** Se refiere al código que identificará al Beneficiario. <html><br><br></html>
+
+  * **N.I.T:** Número de Identificación Tributaria que posee el Beneficiario. <html><br><br></html>
+
+  * **Nombre ó Razón Social:** Se refiere al nombre que identifica al Beneficiario. <html><br><br></html>
+
+  * **Tipo de Persona:** En este campo se indica si la persona es natural o jurídica. <html><br><br></html>
+
+  * **Nacionalidad:** En este campo se coloca la nacionalidad del Beneficiario si es Venezolana o Extranjera. <html><br><br></html>
+
+  * **Residente en el País:** En este campo se indica si el beneficiario actualmente vive en el país. <html><br><br></html>
+
+  * **Constituida en el País:** En este campo se indica, si la empresa esta constituida en el país. <html><br><br></html>
+
+  * **Dirección** donde se puede ubicar al beneficiario. <html><br><br></html>
+
+  * **Teléfono** del beneficiario.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbenefinc2.jpg|}}"></div><br></html>
+
+  * En la pestaña **Cuentas**: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Código Contable:** Representa el identificador de la cuenta contable según el formato establecido en la Definición Contable.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Cuenta de Orden:** Se refiere a las cuentas del beneficiario donde se registran operaciones de las que es necesario llevar un registro, con fines de recordatorio, de control, o bien, para anotar situaciones contingentes que pueden, o no presentarse en el futuro pero que no modifican el activo, pasivo o el capital de la empresa.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Cuenta PerContra:** Se refiere a la Cuenta de Orden Acreedora.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Tipo de Beneficiario:** En este campo se selecciona dentro de que grupo se encuentra registrado el Beneficiario.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbenefinc3.jpg|}}"></div><br></html>
+
+  * En la pestaña **Otras Cuentas (Actividad Secundaria)**: Se seleccionan las Cuentas Contables, de Orden, de Percontra y Cuenta de Caja Chica asociadas a actividades secundarias. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Tipos de Financiamiento** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

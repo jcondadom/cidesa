@@ -1,0 +1,19 @@
+====== Descripción de Campos ======
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprecominc1.jpg|}}"></div><br></html>
+
+  * Ingrese el **Tipo de Documento** <html><br><br></html>
+
+  * Ingrese el **Nombre extendido** y **Abreviado** que identificará al Compromiso.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprecominc2.jpg|}}"></div><br></html>
+
+  * Indique **si refiere** a un Precompromiso. <html><br><br></html>
+
+  * Indicar (**Sí ó No**) si el Compromiso **Requiere Autorización para su Causado**.<html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprecominc3.jpg|}}"></div><br></html>
+
+  * Indicar si Afecta ó No al **Precompromiso, Compromiso y Disponibilidad**.<html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Compromisos** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

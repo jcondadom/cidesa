@@ -1,0 +1,31 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Ocbanpro
+    theme:            cidesaGenerator
+    fields:
+      codbanpro: { name: Código, params: size=10 maxlength=4 onBlur="this.value=this.value.pad(4, '0',0);" }
+      desbanpro: { name: Descripción, type: textarea_tag, params: size=80x5 maxlength=500 onkeyup="ismaxlength(this)"}
+      grid: { name: . }
+    list:
+      title:   Proyectos
+      display: [=codbanpro, desbanpro]
+      filters: [codbanpro, desbanpro]
+      fields:
+        desbanpro:
+          params: size=20
+      object_actions:
+       _edit:        ~
+       _delete:      ~
+      max_per_page:	  20
+      sort:    codbanpro
+    edit:
+      title:  Edición de Proyectos
+      display:
+        "Datos del Proyecto": [codbanpro, desbanpro]
+        "Partidas del Proyeco": [ _grid]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

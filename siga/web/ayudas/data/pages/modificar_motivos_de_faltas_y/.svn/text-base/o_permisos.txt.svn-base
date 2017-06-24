@@ -1,0 +1,12 @@
+====== Operación Modificar ======
+
+Para la operación de Modificar:
+
+  * Seleccionar de la **Lista** el **Motivo de la Falta y/o Permiso** a modificar. 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompermotfalpermod.jpg|}}"></div><br></html>
+
+  * El sistema muestra los datos del Motivo de Falta y/o Permiso seleccionada. <html><br><br></html>
+
+  * Realice las modificaciones en base al Motivo seleccionado. El único dato que se puede modificar es la **Descripción del Motivo**  <html><br><br></html>
+
+  * Presionar {{:btnguardar.jpg|}} para registrar los datos. 

@@ -1,0 +1,36 @@
+methods:
+  post:
+   - "manprogru{codgru}"
+   - "manprogru{fecini}"
+   - "manprogru{candia}"
+
+names:
+  manprogru{codgru}:
+    required:  Yes
+    required_msg: No puede salvar sin introducir el Código del Grupo de Trabajo
+    validators: Validator_codgru
+      
+  manprogru{fecini}:
+    required:  Yes
+    required_msg: No puede salvar sin introducir la Fecha de Inicio
+    validators: FechaValidator
+
+  manprogru{candia}:
+    required:  Yes
+    required_msg: No puede salvar sin introducir la Cantidad de Días
+
+Validator_codgru:
+    class: CidesaExistValidator
+    param:
+        class:        Mangrutra
+        column:       codgru
+        unique_error: El Grupo de Trabajo debe Existir.
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es inválida            
+
+

@@ -1,0 +1,19 @@
+Los campos que conforman la pantalla de **Requisiciones** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmreqinc1.jpg|}}"></div><br></html>
+
+  * **Número:** Se refiere al Identificador de la Requisición que se realiza.<html><br><br></html>
+ 
+  * **Fecha:** Seleccionar del [[calendario|Calendario]] la fecha en la que se realiza la Requisición. <html><br><br></html>
+
+  * **Descripción** de la Requisición que se está registrando. <html><br><br></html>
+
+  * **Unidad** asociada a la Requisición.<html><br><br></html>
+ 
+  *  **Monto Total:** Cantidad de dinero por la que se está realizando la Solicitud.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmreqinc2.jpg|}}"></div><br></html>
+
+  * **Detalle de la Orden de Requisición:** Aquí se muestra un [[Grid|Grid]], con toda la información correspondiente a los artículos que requiere la unidad, señalando el **Código y Descripción del Artículo**, el **Código y Descripción de la Unidad** que lo requiere, la **Cantidad Requerida**, la **Cantidad Recibida**, **Costo** y **Total** por artículo. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Requisiciones** podrá realizar las siguientes [[operaciones_basicas|Operaciones_Basicas]]

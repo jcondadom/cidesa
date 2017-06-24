@@ -1,0 +1,50 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Viadefrub
+    theme:            cidesaGenerator
+    fields:
+      codrub:         { name: Código Rubro, params: maxlength=2 size=5 onFocus=readonly(this.id) onBlur="$(this.id).value=$(this.id).value.pad(2,'0',0)"}
+      desrub:         { name: Descripción, params: maxlength=250 }
+      tipo:           { name: Tipo de Calculo del Rubro}
+      tiprub:         { name: Tipo de Rubro}
+      ltipo:          { name: Tipo de Calculo del Rubro}
+      ltiprub:        { name: Tipo de Rubro}
+      tipdia:         { name: Dias a Pagar del Rubro}
+      ptipo:          { name: .}
+      ptiprub:        { name: .}
+      ptipdia:        { name: .}
+      diadef:         { name: Dias por Defecto, params: size=10}
+      sumres:         { name: Suma o resta}
+      codpar:
+        name: Partida
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Nppartidas_Almregart
+          clase: Nppartidas
+          ajax: 0
+          parametros: getprincipal="getCodpar" getsecundario="getNompar" campoprincipal="codpar" camposecundario="nompar" campobase = "id"
+      tipviat:        { name: Viático}
+      horsal:        { name: Hora de Salida}
+      horlle:        { name: Hora de Llegada}
+      cancal:        { name: Cantidad del Calculo en}
+    list:
+      title: Listado de Rubros
+      fields:
+        codrub:         { name: Código Rubro, params: maxlength=2 size=5}
+      display: [=codrub, desrub, ltipo, ltiprub]
+      filters: [codrub, desrub]
+      sort:    codrub
+      objects_actions:
+        _edit:        ~
+        _delete:        ~      
+    edit:
+      title: Edición de Rubros
+      display:
+        Datos Generales del Rubro: [codrub, desrub, _ptipo, _ptiprub, _ptipdia, diadef, codpar, _tipviat, _cancal, horsal, horlle]
+      #hide:   [horsal, horlle]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

@@ -1,0 +1,29 @@
+Los campos que conforman la pantalla de **Despachos** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmdesinc1.jpg|}}"></div><br></html>
+
+  * **Número:** Representa el  número que identifica el registro del Despacho que se está realizando.<html><br><br></html>
+
+  * **Fecha:** Seleccione del [[calendario|Calendario]]   en la cual se esta realizando el Despacho. <html><br><br></html>
+
+  * **Código del Almacén:** Se refiere al Código y Descripción del almacén que está realizando el despacho de artículos. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[Listas|Lista]] con los almacénes que fueron registrados previamente en la pantalla [[Definiciones_Generales|Definiciones Generales]]  <html><br><br></html>
+
+  * **Código de la Ubicación:** Se refiere al Código y Descripción de la Ubicación del Almacén. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[Listas|Lista]] con las Ubicaciones que fueron registradas previamente en la pantalla [[definicion_de_ubicaciones|Definición de Ubicaciones]]  
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmdesinc2.jpg|}}"></div><br></html>
+
+  * **Refiere a Solicitud de Materiales:** Se debe seleccionar la [[requisiciones_por_departamento_solicitud_de_egreso|Solicitud de Egreso]] a la cual refiere el Despacho de artículos. <html><br><br></html>
+
+  * **Descripción** del Despacho. <html><br><br></html>
+
+  * **Unidad de Origen:** Indica el Código y Descripción de la Unidad qu está realizando el despacho. <html><br><br></html>
+
+  * **Monto Total** en Bolívares de los artículos que fueron despachados.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmdesinc3.jpg|}}"></div><br></html>
+
+  * **Detalle del Despacho:** Se muestra un [[Grid|Grid]] que le permite visualizar la información referente al detalle del despacho , mostrando el Código y Descripción  del Artículo, Cantidad Despachada, Cantidad no Despachada, Costo, Código de la Unidad que lo requiere, Unidad de Medida.<html><br><br></html>
+
+  * Por último deberá seleccionar por cada artículo el Motivo del Despacho en la columna correspondiente. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Despachos** podrá realizar las siguientes [[operaciones_Basicas|Operaciones Básicas]]

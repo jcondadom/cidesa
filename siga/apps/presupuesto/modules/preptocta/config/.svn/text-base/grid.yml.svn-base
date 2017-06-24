@@ -1,0 +1,30 @@
+opciones:                  
+  name:                    a
+  eliminar:                true
+  tabla:                   cpdetptocta
+  anchogrid:               850
+  ancho:                   800
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+
+1:       # Columna 1
+  titulo:                  Código Presupuestario
+  tipo:                    t
+  nombrecampo:             codpre
+  html:                    [size="50"]
+  esgrabable:              true
+  ajaxgrid:                true
+  catalogo:                [ cpasiini, sf_admin_edit_form, { codpre: 1, nompre: 2 }, Preptocta_Cpasiini ]
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nompre
+  html:                    [size="50"]
+  esgrabable:              false
+3:       # Columna 3
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             moncod
+  html:                    [size="10" ]
+  esgrabable:              true

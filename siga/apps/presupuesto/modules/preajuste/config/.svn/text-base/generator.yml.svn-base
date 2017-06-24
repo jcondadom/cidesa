@@ -1,0 +1,56 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cpajuste
+    theme:            cidesaGenerator
+    fields:
+      refaju: { name: Referencia, params: size=10 maxlength=8 onFocus=readonly(this.id) onBlur="javascript:event.keyCode=13; enter(event,this.value);"}
+      fecaju: { name: Fecha, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      desaju:  { name: Descripción, type: textarea_tag, params: size=80x5 maxlength=1000 onkeyup=" return ismaxlength(this)"}
+      tipaju:
+        name: Código
+        params: maxlength=4
+        catalogo:
+          catalogoweb: Cpdocaju_Predocaju
+          clase: Cpdocaju
+          ajax: 1
+          parametros: getprincipal="getTipaju" getsecundario="getNomext" campoprincipal="tipaju" camposecundario="nomext" campobase = "id"
+      afeaju: { name: Afecta}
+      refere:  { name: Referencia}      
+      fecmov: { name: Fecha, params: size=10 readOnly=true}
+      desmov:  { name: Descripción, type: textarea_tag, params: size=60x5 readOnly=true}
+      grid: { name: .}
+      comprobante: { name: .}
+      estatus: { name: .}
+      btnrep: { name: .}
+      staaju: { name: Estatus}
+      totaju: { name: Total, params: size=25 readOnly=true}      
+    list:
+      title:  Ajustes Ejecución
+      fields:
+        refaju: { name: Referencia, params: size=15 maxlength=8}
+        desaju:  { name: Descripción, params: size=20 maxlength=1000 }
+      display: [=refaju, fecaju, desaju]
+      filters: [refaju, desaju, fecaju, refere, staaju]
+      object_actions:
+       _edit:        ~
+       _delete:      NONE
+      max_per_page:	  10
+      sort:    refaju
+    edit:
+      title:          Edición de Ajuste Ejecución
+      display:
+        "Datos del Ajuste":  [_estatus, _btnrep, refaju, fecaju, desaju]
+        "Tipo de Ajuste": [tipaju, _afeaju]
+        "Datos del Movimiento": [_refere, fecmov, desmov]
+        "Detalle del Ajuste": [_comprobante , _grid, totaju]
+      hide:       [reftipaju, idrefer]
+      actions:
+        _list:          ~
+        _save:          ~
+        _create:        ~
+        _delete:        ~
+        _anular:
+          name: Anular
+          only_for: edit
+          params: class="sf_admin_action_delete" id="anula" onClick="anular()"

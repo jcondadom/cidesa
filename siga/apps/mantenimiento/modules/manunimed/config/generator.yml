@@ -1,0 +1,29 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Manunimed
+    theme:            cidesaGenerator
+    fields:
+      codume: { name:  Código, params : size=5 maxlength=4 onFocus=readonly(this.id)}
+      desume: { name:  Descripción, params : size=80 maxlength=250}
+    list:
+      title:          Unidades de Medida
+      display:        [=codume, desume]
+      fields:
+        codume: { name:  Código, params : size=5 maxlength=4}
+        desume: { name:  Descripción, params : size=15 maxlength=250}
+      filters:        [codume, desume]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           codume
+    edit:
+      title:          Edición de la Unidad de Medida
+      display:
+        "NONE": [codume, desume]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

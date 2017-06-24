@@ -1,0 +1,16 @@
+======Definición de Ubicación======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite registrar, actualizar y consultar los datos de las unidades de la organización a las cuales se les asocia una orden de pago.
+
+**Para ello:**
+
+  * Seleccione la opción **Tesorería ó Banco** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesban.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbandefesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Definición de Ubicación**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbandefubic.jpg}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Definición de Ubicación** veamos la [[Descripcion_Campos_definicion_ubicacion|Descripción de los Campos]]

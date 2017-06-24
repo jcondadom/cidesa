@@ -1,0 +1,28 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Bndefpro
+    theme:            cidesaGenerator
+    fields:
+      codproc: { name: Código, params : size=5 maxlength=3  onFocus=readonly(this.id)}
+      desproc: { name: Descripción, params : size=80 maxlength=250 }      
+    list:
+      title:          Procedencias
+      fields:
+        codproc: { name: Código, params : size=5 maxlength=3}
+      filters:        [codproc, desproc]
+      display:        [=codproc, desproc]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codproc
+    edit:
+      title:          Edición  de Procedencias
+      display:
+        "Datos Generales":   [codproc, desproc]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

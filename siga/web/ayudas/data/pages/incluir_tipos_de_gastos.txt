@@ -1,0 +1,12 @@
+====== Operación Incluir ======
+
+Para la operación de Registrar debe:
+
+  * Presionar el Botón {{:btnnuevo.jpg|}}  <html><br><br></html>
+
+  * Ingresar el **Código** que identifique al Tipo de Gasto.  <html><br><br></html>
+
+  * Ingresar la **Descripción** que haga referencia al **Tipo de Gasto** que se está definiendo. 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompertipgasinc.jpg|}}"></div><br></html>
+
+  * Presionar {{:btnguardar.jpg|}} para almacenar el registro. <html><br><br></html>

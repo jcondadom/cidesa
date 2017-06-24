@@ -1,0 +1,1 @@
+<?php echo select_tag('mantarpro[tipfre]', options_for_select(array('H' => 'Horas', 'K' => 'Km', 'D' => 'Días', 'T' => 'Toneladas'),$mantarpro->getTipfre()),array()); ?>

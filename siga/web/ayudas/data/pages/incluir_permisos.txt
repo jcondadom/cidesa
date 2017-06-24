@@ -1,0 +1,17 @@
+====== Operación Incluir ======
+
+Para la operación de Registrar:
+
+  * Presione el Botón {{:btnnuevo.jpg|}}  <html><br><br></html>
+
+  * Seleccione el **Código** del Permiso a solicitar. <html><br><br></html>
+
+  * Seleccione el **Motivo** de la salida. 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompersalidasinc1.jpg|}}"></div><br></html>
+
+  * Indicar alguna **Observación** sobre la salida del empleado.<html><br><br></html>
+
+  * Seleccionar del calendario la **Fecha Hasta**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompersalidasinc2.jpg|}}"></div><br></html>
+
+  * Presionar {{:btnguardar.jpg|}} para almacenar el registro.  <html><br><br></html>

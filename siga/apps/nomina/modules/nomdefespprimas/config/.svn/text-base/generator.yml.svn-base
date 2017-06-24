@@ -1,0 +1,27 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npprimashijos
+    theme:            cidesaGenerator    
+    fields:
+      primahijos:
+        name:.
+      primaprofe:
+        name:.  
+      primacarcol:
+        name:.  
+      codcof:
+        name: Código PH
+      becnivins:
+        name:.
+      codbec:
+        name: Código BNI
+    edit:
+      title:                            Parametros Especiales para el Calculo de las Primas
+      display:
+        Primas por Hijos:               [_codcof, _primahijos]
+        Prima Profesionalizacion:       [_primaprofe]
+        Prima Cargo Colateral:          [_primacarcol]
+        Becas por Nivel de Instrucción:  [_codbec, _becnivins]
+      actions:
+        _save:        ~

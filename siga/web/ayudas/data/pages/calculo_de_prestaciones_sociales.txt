@@ -1,0 +1,27 @@
+====== Cálculo de Prestaciones Sociales ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite efectuar el cálculo de prestaciones de un determinado trabajador de la institución</html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Prestaciones** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperprest.jpg|}}"></div><br></html> 
+
+ * Por último seleccione la opción **Cálculo de Prestaciones Sociales**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/"></div><br></html>
+
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Cálculo de Prestaciones Sociales** solo podrá realizar las Operaciones Básicas de: 
+
+  * [[Incluir Cálculo de Prestaciones Sociales|Incluir]]
+
+  * [[Modificar Cálculo de Prestaciones Sociales|Modificar]]
+
+  * [[Eliminar Cálculo de Prestaciones Sociales|Eliminar]]
+
+  * [[Consultar Cálculo de Prestaciones Sociales|Consultar]]

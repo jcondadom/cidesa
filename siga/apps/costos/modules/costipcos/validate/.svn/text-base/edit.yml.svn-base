@@ -1,0 +1,21 @@
+methods:
+  post:
+    - "costipcos{codcos}"
+    - "costipcos{descos}"
+
+names:
+  costipcos{codcos}:
+    required:  Yes
+    required_msg: Introduzca valor
+    validators: Validator_codcos
+
+  costipcos{descos}:
+    required:  Yes
+    required_msg: Introduzca valor
+
+Validator_codcos:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Costipcos
+        column:       codcos
+        unique_error: El Código ya Existe intente con otro.

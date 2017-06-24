@@ -1,0 +1,46 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   cpcausad
+  anchogrid:               850
+  ancho:                   800
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Referencia del Causado
+  tipo:                    t
+  nombrecampo:             refcau
+  html:                    [size="10" readonly="true" ]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Fecha del Causado
+  tipo:                    t
+  nombrecampo:             feccau2
+  html:                    [size="10" readonly="true" ]
+  esgrabable:              true  
+3:       # Columna 3
+  titulo:                  Monto Imputado
+  tipo:                    m
+  nombrecampo:             moncau
+  html:                    [size="15" readonly="true" ]
+  esgrabable:              true
+4:       # Columna 4
+  titulo:                  Número de Comprobante
+  tipo:                    t
+  nombrecampo:             numcom
+  html:                    [size="10" readonly="true" ]
+  oculta:                  false
+  esgrabable:              true  
+5:       # Columna 5
+  titulo:                  Fecha del Comprobante
+  tipo:                    t
+  nombrecampo:             feccom
+  html:                    [size="10" readonly="true" ]
+  esgrabable:              true  
+6:       # Columna 6
+  titulo:                  Monto Asiento
+  tipo:                    m
+  nombrecampo:             moncom
+  html:                    [size="15" readonly="true" ]
+  esgrabable:              true

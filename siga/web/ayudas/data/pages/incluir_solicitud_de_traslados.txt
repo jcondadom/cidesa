@@ -1,0 +1,35 @@
+====== Operación Incluir ======
+
+Para **registrar** una Solicitud de Traslado:
+
+  * Asignamos el **Número de Referencia** al traslado. <html><br><br></html>
+
+  * Ingresamos la **Fecha** del traslado. <html><br><br></html>
+
+  * Se ingresa la **Descripción** que haga referencia al traslado.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpresoltrasinc1.jpg|}}"></div><br></html>
+
+  * Seleccionar el **Artículo de ley** a utilizar al momento de autorizar el traslado. <html><br><br></html>
+
+  * Seleccionar el **Tipo** de movimiento a registrar (traslado, insubsistencia, reduccion o recursos adicionales). <html><br><br></html>
+
+  * Seleccionar el **Tipo de Gasto** en el que se va a realizar la solicitud. <html><br><br></html>
+
+  * Ingresar la **Fecha de Envío para Aprobación**
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpresoltrasinc2.jpg|}}"></div><br></html>
+
+  * Seleccionar si el traslado es de: **una a muchas**, **de muchas a una** ó de **muchas a muchas**. <html><br><br></html>
+
+  * En la pestaña **Solicitud de Traslado**. <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seleccionar  el **Código Presupuestario Origen** del recurso del cual se va a realizar la solicitud de traslado. <html><br></html>
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seleccionar el **Código Presupuestario Destino**<html><br></html>
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Ingresar el **Monto** a trasladar
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpresoltrasinc3.jpg|}}"></div><br></html>
+
+   * En la pestaña **Justificación** el usuario puede escribir libremente las razones que justifiquen la solicitud del traslado. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpresoltrasinc4.jpg|}}"></div><br></html>

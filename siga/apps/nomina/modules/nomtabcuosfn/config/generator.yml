@@ -1,0 +1,22 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Nptabsfn
+    theme:            cidesaGenerator
+    fields:
+      codcon:
+        name: Concepto
+        params: size=10  maxlength=3
+        catalogo:
+          catalogoweb: Npcalcon_nomcalcon
+          clase: Npdefcpt
+          ajax: 1
+          parametros: getprincipal="getCodcon" getsecundario="getNomcon" campoprincipal="codcon" camposecundario="nomcon" campobase = "id"          
+          divupdate: divgrid
+      grid: { name: .}
+    edit:
+      title:    Tabla de Montos Cuota Servicios Funerarios
+      display:
+        "NONE":  [codcon, _grid]
+      actions:
+        _save:        ~

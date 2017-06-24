@@ -1,0 +1,73 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   npasiconemp
+  anchogrid:               1000
+  ancho:                   950
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Marque
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:              true
+  html:                    []
+2:       # Columna 2
+  titulo:                  Código del Concepto
+  tipo:                    t
+  nombrecampo:             codcon
+  html:                    ["size=6 readonly=true"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Nombre del Concepto
+  tipo:                    t
+  nombrecampo:             nomcon
+  html:                    ["size=60 readonly=true"]
+  esgrabable:              true
+4:       # Columna 4
+  titulo:                  Fecha de Inicio
+  tipo:                    f
+  nombrecampo:             fecini
+  esgrabable:              true
+  html:                    ["size=15 maxlength=10"]
+5:       # Columna 5
+  titulo:                  Fecha de Expiración
+  tipo:                    f
+  nombrecampo:             fecexp
+  esgrabable:              true
+  html:                    ["size=15 maxlength=10"]
+6:     # Columna 6
+  titulo:                  Cantidad
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             cantidad
+  esnumerico:              true
+  html:                    ["size=10"]
+7:     # Columna 7
+  titulo:                  Monto
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monto
+  esnumerico:              true
+  html:                    ["size=10"]
+8:     # Columna 8
+  titulo:                  Frecuencia
+  tipo:                    c
+  nombrecampo:             frecon
+  html:                    [ ]
+  esgrabable:              true  
+9:       # Columna 9
+  titulo:                  Activo
+  tipo:                    t
+  nombrecampo:             activo
+  html:                    ["size=5"]
+  esgrabable:              true  
+10:     # Columna 10
+  titulo:                  Acumulado
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             acumulado
+  esnumerico:              true
+  oculta:                  true
+  html:                    ["size=10"]

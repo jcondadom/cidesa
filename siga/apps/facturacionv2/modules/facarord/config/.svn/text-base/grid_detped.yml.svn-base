@@ -1,0 +1,96 @@
+opciones:                  # Opciones generales
+  name:                    b
+  eliminar:                true
+  tabla:                   faartped
+  anchogrid:               900
+  ancho:                   1600
+  filas:                   1
+  titulo:                  ' Desglose de Artículos '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Exento IVA
+  tipo:                    k
+  nombrecampo:             exento
+  esgrabable:			         true
+  html:                    [ ]
+2:       # Columna 2
+  titulo:                  Cod. Artículo
+  tipo:                    t
+  nombrecampo:             codart
+  esgrabable:              true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: facarord_feccar, 1: facarord_codprg, 2: facarord_codtipcli, 3: facarord_conpag }
+  html:                    [size="20"]
+3:       # Columna 3
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desart
+  html:                    [size="40", readonly=true]
+4:       # Columna 4
+  titulo:                  Unidad de Medida
+  tipo:                    t
+  nombrecampo:             codunimed
+  esgrabable:              true
+  ajaxgrid:                true
+  html:                    ["size=10 maxlength=6"]
+  catalogo:                [Cadefunimed, sf_admin_edit_form, { Codunimed: 4, Desunimed: 5}, Cadefunimed_Almregart ]
+5:       # Columna 5
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desunimed
+  esgrabable:              true
+  html:                    ["size=40 readonly=true "]  
+6:      # Columna 6
+  titulo:                  Cant. Solicitada
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canord
+  esnumerico:              true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: facarord_codalmusu}
+  html:                    ["size=10"]
+7:     # Columna 7
+  titulo:                  Precio Unitario
+  tipo:                    c
+  nombrecampo:             preart
+  html:                    [ ]
+  ajaxgrid:                true
+  esgrabable:              true
+8:      # Columna 8
+  titulo:                  Precio Editable
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             precioe
+  esnumerico:              true
+  ajaxgrid:                true
+  html:                    ["size=10"]
+9:    # Columna 9
+  titulo:                  Descuento
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             mondesc
+  esnumerico:              true
+  html:                    ["size=10 readonly=true"]
+10:    # Columna 10
+  titulo:                  Recargo
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monrgo
+  esnumerico:              true
+  html:                    ["size='10' readonly=true"]
+11:     # Columna 11
+  titulo:                  Total
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             totart
+  esnumerico:              true
+  html:                    ["size=10 readonly=true"]
+  estotal:                 [true, facarord_totdetped]
+12:  # Columna 12
+  titulo:                  Porcentaje Recargo
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             porrgo
+  esnumerico:              true
+  oculta:                  true
+  html:                    ["size=10 readonly=true"]

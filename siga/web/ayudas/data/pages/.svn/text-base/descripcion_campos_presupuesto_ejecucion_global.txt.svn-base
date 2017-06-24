@@ -1,0 +1,15 @@
+====== Descripción de Campos ======
+
+  * Se debe Seleccionar el Código Presupuestario y el Período a consultar, seguidamente el sistema muestra el valor actual de cada Partida, el cual se genera de la siguiente formula:  <html><br><br></html>
+
+**Asignación Actual = Asignación Actual - ( Precompromisos +  Ajustes)**   <html><br><br></html>
+
+  * El período “00” es el período de Ejecución Global, el totaliza la suma desde el período “01” hasta el período “12”.   <html><br><br></html>
+
+  * La disponibilidad de una partida, va a depender de si fué afectada por algún momento presupuestario (Precompromiso, Compromiso, Causado o Pagado.), es genera de la siguiente fómula:  <html><br><br></html>
+
+**Disponibilidad = Asig. Inicial + Traslados(+) + Aumentos – Traslados(-) – Disminuciones.**
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreejegloinc1.jpg|}}"></div><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Ejecución Global** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

@@ -1,0 +1,27 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Rutacliente
+    theme:            cidesaGenerator
+
+    fields:
+      _ruta:      {title: Ruta}
+      _cliente:      {title: Cliente}      
+      muestra_status: { name: Estatus}      
+      status: { name: Estatus}
+    list:      
+      title:          Registro de Rutas por Cliente
+      display:        [_ruta, _cliente, _muestra_status]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [ruta_id, facliente_id]
+      max_per_page:   5
+    edit:
+      title:          Edición de Rutas del Cliente 
+      display:	      [ruta_id, facliente_id, _status]  
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

@@ -1,0 +1,16 @@
+======Actualizar Montos de Retenciones por Orden======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Pantalla que permite consultar por cada Orden de Pago el monto de las retenciones y a su vez poder actualizarlas en caso de ser necesario.
+
+**Para ello:**
+
+  * Seleccione la opción **Tesorería ó Banco** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesban.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Mantenimiento** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanmant.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Actualizar Montos de Retenciones por Orden**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanmantactmontretord.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Actualizar Montos de Retenciones por Orden** veamos la [[Descripcion_Campos_tesoreria_actualizar_montos_retenciones_por_orden|Descripción de los Campos]]

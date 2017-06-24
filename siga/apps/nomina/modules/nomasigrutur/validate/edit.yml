@@ -1,0 +1,55 @@
+methods:
+  post:
+   - "npgrutur{codtur}"
+   - "npgrutur{codnom}"
+   - "npgrutur{fecini}"
+   - "npgrutur{fecfin}"
+
+names:
+  npgrutur{codtur}:
+    required:  Yes
+    required_msg: El Código del Turno no puedo estar en Blanco
+    validators: CodTurValidator
+
+  npgrutur{codnom}:
+    required:  Yes
+    required_msg: El Código de la Nómina no puedo estar en Blanco
+    validators: CodNomValidator    
+
+  npgrutur{fecini}:
+    required:  Yes
+    required_msg: La Fecha de Inicio no puedo estar en Blanco
+    validators: FeciniValidator   
+    
+  npgrutur{fecfin}:
+    required:  Yes
+    required_msg: La Fecha Fin no puedo estar en Blanco
+    validators: FecfinValidator       
+
+CodTurValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Npturnos
+        column:   codtur
+        unique_error:   El Código del Turno no existe.
+        
+CodNomValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Npnomina
+        column:   codnom
+        unique_error:   El Código de la Nómina no existe.        
+        
+FeciniValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha de Inicio introducida es inválida     
+        
+FecfinValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha de Fin introducida es inválida               

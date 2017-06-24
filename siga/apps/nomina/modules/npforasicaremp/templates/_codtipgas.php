@@ -1,0 +1,1 @@
+<?php echo select_tag('npasicaremp[codtipgas]', options_for_select(NptipgasPeer::getGastos(),$npasicaremp->getCodtipgas(), 'include_custom=Seleccione uno ...'),array()) ?>

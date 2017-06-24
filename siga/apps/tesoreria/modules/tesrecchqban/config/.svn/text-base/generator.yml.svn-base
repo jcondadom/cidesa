@@ -1,0 +1,26 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Tsdefban
+    theme:            cidesaGenerator
+    fields:
+      numcue:
+        name: Cuenta Bancaria
+        params: maxlength=20
+        catalogo:
+          catalogoweb: Ingreging_tsdefban
+          clase: Tsdefban
+          ajax: 1
+          parametros: getprincipal="getNumcue" getsecundario="getNomcue" campoprincipal="numcue" camposecundario="nomcue" campobase = "id"
+      fechades: { name: Fecha Desde}
+      fechahas: { name: Fecha Hasta}
+      grid: { name: .}
+      comprobante: { name: . }
+    edit:
+      title:          Ajustar Pagos por Cambio Diferencial
+      display:
+        "Datos":  [numcue, _fechades, _fechahas]
+        "NONE": [_grid, _comprobante]
+      hide:  [totalcomprobantes]
+      actions:
+        _save:        ~

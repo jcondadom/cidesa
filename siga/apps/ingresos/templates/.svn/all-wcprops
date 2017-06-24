@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repositorio/!svn/ver/42252/web/php/siga/branches/productions/trunk/apps/ingresos/templates
+END
+.directory
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/26960/web/php/siga/branches/productions/trunk/apps/ingresos/templates/.directory
+END
+layout.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/42252/web/php/siga/branches/productions/trunk/apps/ingresos/templates/layout.php
+END
+layout_generales.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/ingresos/templates/layout_generales.php
+END

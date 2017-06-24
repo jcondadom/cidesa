@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/49029/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fapedido/templates
+END
+autocompleteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fapedido/templates/autocompleteSuccess.php
+END
+anularSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fapedido/templates/anularSuccess.php
+END
+_codcli.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48541/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fapedido/templates/_codcli.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/48812/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fapedido/templates/ajaxSuccess.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fapedido/templates/editSuccess.php
+END
+_rifpro.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48826/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fapedido/templates/_rifpro.php
+END
+_grid_fafecped.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fapedido/templates/_grid_fafecped.php
+END
+_grid.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fapedido/templates/_grid.php
+END
+listSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fapedido/templates/listSuccess.php
+END
+salvaranuSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/49025/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fapedido/templates/salvaranuSuccess.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/49029/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fapedido/templates/_edit_form.php
+END

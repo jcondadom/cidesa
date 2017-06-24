@@ -1,0 +1,29 @@
+methods:
+  post:
+   - "npgruemp{codgru}"
+   - "npgruemp{codnom}"
+
+names:
+  npgruemp{codgru}:
+    required:  Yes
+    required_msg: El Código del Grupo no puedo estar en Blanco
+    validators: CodGruValidator
+
+  npgruemp{codnom}:
+    required:  Yes
+    required_msg: El Código de la Nómina no puedo estar en Blanco
+    validators: CodNomValidator    
+
+CodGruValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Npgrupos
+        column:   codgru
+        unique_error:   El Código del Grupo no existe.
+        
+CodNomValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Npnomina
+        column:   codnom
+        unique_error:   El Código de la Nómina no existe.        

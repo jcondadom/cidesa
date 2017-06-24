@@ -1,0 +1,11 @@
+Los campos que conforman la pantalla de **Definición de Motivos de Faltantes** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmprovmotfalinc1.jpg|}}"></div><br></html>
+
+  * El **Código** del Motivo de Faltante. <html><br><br></html>
+ 
+  * La **Descripción** que hace referencia al Motivo de Faltante. <html><br><br></html>
+
+  * El **Motivo del Faltante**; campo donde se debe indicar si el motivo pertenece a una "**Recepción**" ó a un "**Despacho**" <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Definición de Motivos de Faltantes** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

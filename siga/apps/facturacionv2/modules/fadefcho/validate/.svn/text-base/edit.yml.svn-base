@@ -1,0 +1,47 @@
+methods:
+  post:
+   - "fadefcho{cedcho}"
+   - "fadefcho{nomcho}"
+   - "fadefcho{codemptra}"
+   
+names:
+  fadefcho{cedcho}:
+    required:  Yes
+    required_msg: La Cedula del Chofer puedo estar en Blanco
+    validators: Validator_cedcho
+
+  fadefcho{nomcho}:
+    required:  Yes
+    required_msg: El Nombre del Chofer no puedo estar en Blanco
+    validators: Validator_Nomcho
+
+  fadefcho{codemptra}:
+    required:  Yes
+    required_msg: Debe seleccionar una empresa
+
+Validator_cedcho:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Fadefcho
+        column:       cedcho
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_Nomcho:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: El Nombre del Chofer no puede tener menos de 2 caracteres
+        max:       100
+        max_error: El Nombre del Chofer no puede pasar mas de 100 caracteres
+
+Validator_solo_num:
+    class: sfNumberValidator
+    param:
+        nan_error: Por favor introduzca solo numeros
+
+Validator_solo_letra:
+    class: sfStringValidator
+    param:
+      values: [a, z]
+      values_error: Solo valores entre a y z
+

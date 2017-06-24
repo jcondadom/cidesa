@@ -1,0 +1,50 @@
+<?php
+
+/**
+ * Subclass for representing a row from the 'cpimppag'.
+ *
+ *
+ *
+ * @package    Roraima
+ * @subpackage lib.model
+ * @author     $Author: dmartinez $ <desarrollo@cidesa.com.ve>
+ * @version SVN: $Id: Cpimppag.php 49167 2012-08-07 14:18:51Z dmartinez $
+ *
+ * @copyright  Copyright 2007, Cide S.A.
+ * @license    http://opensource.org/licenses/gpl-2.0.php GPLv2
+ */
+class Cpimppag extends BaseCpimppag
+{
+  protected $descodpre;
+  protected $mondis = 0.00;
+  protected $monnet = 0.00;
+  protected $salparpag = 0.00;
+  protected $codpre2="";
+
+  public function afterHydrate(){
+      $disponible = H::Monto_disponible(H::getCodPreDis($this->codpre));
+      $this->mondis= H::FormatoMonto($disponible);
+      $this->salparpag= H::FormatoMonto($disponible-$this->monimp);
+      $this->codpre2=$this->codpre;
+  }  
+  
+  
+  public function getDescodpre()
+  {
+	return CpdeftitPeer::getNompre(self::getCodpre());
+  }
+
+
+  /*public function setMondis($val){
+  	$this->mondis = $val;
+  }
+
+  public function getMondis(){
+	return
+  }*/
+  
+    public function getCodpredis()
+    {
+      return H::GetCodPreDis($this->getCodpre());
+    }
+}

@@ -1,0 +1,31 @@
+====== Tipos de Nóminas ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Permite definir la forma como serian calculadas las diferentes Nóminas existentes en la Institución, basándose en la frecuencia con que se realizan las mismas. </html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones Específicas**.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Tipos de Nóminas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompertipnom.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Tipos de Nóminas** de Recaudos veamos la [[Descripcion_Campos_Tipos_Nominas|Descripción de los Campos]]
+
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Tipos de Nóminas** solo podrá realizar la Operación Básica de:
+
+  * [[Incluir Tipos de Nóminas|Incluir]]
+
+  * [[Modificar Tipos de Nóminas|Modificar]]
+
+  * [[Eliminar Tipos de Nóminas|Eliminar]]
+
+  * [[Consultar Tipos de Nóminas|Consultar]]
+
+

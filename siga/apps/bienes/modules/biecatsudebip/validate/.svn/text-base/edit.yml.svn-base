@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "bncatsudebip{sudebip}"
+   - "bncatsudebip{desudebip}"
+
+names:
+  bncatsudebip{sudebip}:
+    required:  Yes
+    required_msg: El Código SUDEBIP no puede estar en Blanco
+    validators: UniqueValidator
+
+  bncatsudebip{desudebip}:
+    required:  Yes
+    required_msg: La Descripción SUDEBIP no puede estar en Blanco
+    validators: DescripcionValidator
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Bncatsudebip
+        column:   sudebip
+        unique_error:   El Código SUDEBIP ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       3
+        min_error: La Descripción SUDEBIP no puede tener menos de 3 caracteres
+        max:       500
+        max_error: La Descripción SUDEBIP no puede tener más de 500 caracteres

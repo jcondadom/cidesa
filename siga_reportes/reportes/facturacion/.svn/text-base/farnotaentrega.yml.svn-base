@@ -1,0 +1,34 @@
+Parametros:
+  modulo: facturacion
+  nomrep: farnotaentrega
+  titulo: FORMA PREIMPRESA DE LA NOTA DE ENTREGA
+  orientacion: Vertical
+  tipopagina: Carta
+  width:210
+
+Filas:
+Filas:
+  CATALOGO NOTA:
+    tipotag:  inputcat_tag
+    label: Número de Nota:
+    sql: select min(dphart) as notdes,max(dphart) as nothas from CADPHART
+    nomdes: notdes
+    campodes: notdes
+    catdes: 0
+    nomhas: nothas
+    campohas: nothas
+    cathas: 1
+    nomcat: despacho
+    size: 15
+  CAJA ENTREGADO:
+    tipotag:   input_tag
+    label: Entregado Por:
+    nomdes: entregado
+    campodes:
+    size: 20
+  CAJA RECIBIDO:
+    tipotag:   input_tag
+    label: Recibido Por:
+    nomdes: recibido
+    campodes:
+    size: 20

@@ -1,0 +1,39 @@
+===== Descripción de Campos =====
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprenivpreinc1.jpg|}}"></div><br></html>
+
+  * Seleccionamos en el **Clasificador de Categorías** el **Número de Rupturas** que tendrá el **Centro de Gastos**. <html><br><br></html>
+
+  * Seleccionamos en el **Clasificador de Partidas** el **Número de Rupturas** que tendrá la **Partida**. <html><br><br></html> 
+
+  * Seleccionamos en el **Nivel de Disponibilidad** el nivel donde se le dará la Asignación al Título Presupuestario. Los niveles presupuestarios serán definidos una sola vez.<html><br><br></html>
+ 
+** Es importante destacar que se deben manejar por lo menos cuatro niveles en las partidas (Partida-Genérica-Específica-Sub Específica).** <html><br><br></html>
+
+  * Luego de definir los Datos del Código Presupuestario procedemos a llenar la tabla que sigue a continuación basándose en los datos definidos previamente: <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprenivpreinc2.jpg|}}"></div><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** En la **columna Tipo** seleccione tantas categorías como fueron definidas en el Clasificador de Categorías; el sistema automáticamente validará que no se ingrese un número mayor al definido.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Una ves ingresadas todas las Categorías, el procedimiento anterior debe ser repetido pero ahora con las Partidas
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Por último para cada una de las Categorías y Partidas debe ingresar la **Longuitud**,** Nombre Abreviado** y **Nombre Extendido** en las columnas correspondientes.  <html><br><br></html>
+
+  * Seguidamente en la **Pestaña Configuración Generales**:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprenivpreinc3.jpg|}}"></div><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Se debe seleccionar la **Fecha de Inicio y Fin del Ejercicio** así como el **Período** correspondiente.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Se nos presenta la opción de **Asignación Periódica (Si ó No)** que se tildará dependiendo del título presupuestario al que se le vaya a dar asignación inicial. Se recomienda que se comience con las periódicas.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Ingresar el **Número de Períodos** del Mes el cual va a depender de si la Asignación es Periódica ó No. Si la Asignación es Periódica generalmente debe seleccionar los 12 meses del año pero si no es Periódica seleccionará el número de meses correspondiente.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprenivpreinc4.jpg|}}"></div><br><br></html>
+
+  * En la **Pestaña Configuración de Correlativos** se indicará el **Número de Correlativo** por el cual iniciarán los siguientes documentos: **AEP (Autorización de Egreso Presupuestario), Precompromiso, Compromiso, Causado, Pagado, Solicitud de Traslado, Traslado, Solicitud de Adición/Disminución, Adición/Disminución y Ajuste.** <html><br><br></html>
+ 
+  * El Sistema maneja una ejecución presupuestaria global. Por aquí se cierran los Períodos Presupuestarios.<html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Niveles Presupuestarios** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

@@ -1,0 +1,156 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   cobdettra
+  anchogrid:               1100
+  ancho:                   1200
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:
+  titulo:                  Ref. Documento
+  tipo:                    t
+  nombrecampo:             refdoc
+  esgrabable:              true
+  html:                    [size="10" readonly=true]
+2:
+  titulo:                  Fecha Emisión
+  tipo:                    f
+  esgrabable:              true
+  nombrecampo:             fecemi
+  vacia:                   true
+  html:                    [size="10" readonly=true]
+3:
+  titulo:                  Fecha Vencimiento
+  tipo:                    f
+  esgrabable:              true
+  nombrecampo:             fecven
+  vacia:                   true
+  html:                    [size="10" readonly=true]
+4:
+  titulo:                  Monto Total
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             montotalformato
+  esnumerico:              true
+  html:                    [size="10" readonly=true]
+5:
+  titulo:                  Saldo Documento
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             saldoc
+  esnumerico:              true
+  html:                    [size="10" readonly=true]
+6:
+  titulo:                  Monto a Pagar
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monpag
+  esnumerico:              true
+  html:                    [size="10"]  
+7:
+  titulo:                  Monto Pagado
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monpagado
+  esnumerico:              true
+  html:                    [size="10" readonly=true]    
+8:
+  titulo:                  Click Recargo
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monrec
+  esnumerico:              true
+  html:                    [size="10" readonly=true]
+9:
+  titulo:                  Click Descuento
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             mondsc
+  esnumerico:              true
+  html:                    [size="10" readonly=true]
+  estotal:                 [true, cobtransa_totret]
+10:
+  titulo:                  Recargos
+  tipo:                    t
+  nombrecampo:             recargos
+  esgrabable:              true
+  oculta:                  true
+  html:                    [size="10" readonly=true]
+11:
+  titulo:                  Descuento
+  tipo:                    t
+  nombrecampo:             descuentos
+  esgrabable:              true
+  oculta:                  true
+  html:                    [size="10" readonly=true]
+12:
+  titulo:                  marca
+  tipo:                    t
+  nombrecampo:             marca
+  esgrabable:              true
+  oculta:                  true
+  html:                    [size="10" readonly=true]
+13:
+  titulo:                  Nro Anticipo
+  tipo:                    t
+  nombrecampo:             nroant
+  esgrabable:              true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: cobtransa_codcli}
+  #oculta:                  true
+  html:                    ["size=20"]
+  #catalogo:                [faantcli, sf_admin_edit_form, {Nroant: 13, Desant: 15}, Faantcli_Cobtransa ]
+14:
+  titulo:                  Fecha
+  tipo:                    t
+  nombrecampo:             fecant2
+  esgrabable:              true
+  #oculta:                  true
+  html:                    ["size=10 readonly=true"]
+15:
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desant
+  esgrabable:              true
+  #oculta:                  true
+  html:                    ["size=20 readonly=true"]
+16:
+  titulo:                  Monto 
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             totant
+  esnumerico:              true
+  #oculta:                  true
+  html:                    ["size=10 readonly=true"]
+17:
+  titulo:                  Resto 
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             resant
+  esnumerico:              true
+  #oculta:                  true
+  html:                    ["size=10 readonly=true"]
+18:
+  titulo:                  Monto Amortizar
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monamo
+  esnumerico:              true
+  ajaxgrid:                true
+  html:                    ["size=10"]
+  estotal:                 [true, cobtransa_totant]
+19:       # Columna 13
+  titulo:                  Cancelar
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:			   true
+  html:                    []
+20:
+  titulo:                  Recargo del Documento 
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             recdoc
+  esnumerico:              true
+  #oculta:                  true
+  html:                    ["size=10 readonly=true"]

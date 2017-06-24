@@ -1,0 +1,49 @@
+Parametros:
+  modulo: facturacion
+  nomrep: facrlibventas
+  titulo: LIBRO DE VENTAS
+  orientacion: Vertical
+  tipopagina: Carta
+  width: 210
+
+Filas:
+  CATALOGO FACTURAS:
+    tipotag:  inputcat_tag
+    label: "Código Factura:"
+    sql: "select min(reffac) as numfacdes,max(reffac) as numfachas from fafactur"
+    nomdes: numfacdes
+    campodes: numfacdes
+    catdes: 0
+    nomhas: numfachas
+    campohas: numfachas
+    cathas: 1
+    nomcat: fafaclib
+    size: 15
+  CATALOGO CLIENTES:
+    tipotag:  inputcat_tag
+    label: "Código Cliente:"
+    sql: "select min(codpro) as codclides,max(codpro) as codclihas from facliente"
+    nomdes: codclides
+    campodes: codclides
+    catdes: 2
+    nomhas: codclihas
+    campohas: codclihas
+    cathas: 3
+    nomcat: clienteslib
+    size: 15
+  ANHO:
+    tipotag:  combo_tag
+    sql: "select distinct to_char(fecfac,'yyyy') as fecha from fafactur order by fecha"
+    label: "Año:"
+    nomdes: anho
+    campodes: fecha-fecha
+  MES:
+    tipotag:  combof_tag
+    label: "Mes:"
+    nomdes: mes
+    campodes: [01=>ENERO, 02=>FEBRERO, 03=>MARZO, 04=>ABRIL, 05=>MAYO, 06=>JUNIO, 07=>JULIO, 08=>AGOSTO, 09=>SEPTIEMBRE, 10=>OCTUBRE, 11=>NOVIEMBRE, 12=>DICIEMBRE]
+  ARCHIVOTEXTO:
+    tipotag:  combof_tag
+    label: "Generar Archivo XLS:"
+    nomdes: archtxt
+    campodes: [SI=>Si, NO=>No]

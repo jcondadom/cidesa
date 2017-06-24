@@ -1,0 +1,34 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcconrep
+    theme:            cidesaGenerator
+    fields:
+      feccon: {name: .}
+      rifcon:
+        name: C.I. / RIF.
+        params: size=20 maxlength=20
+        catalogo:
+          catalogoweb:  Facpicsollic_Rifcon
+          clase: Fcconrep
+          ajax: 1
+          parametros: getprincipal="getRifcon" getsecundario="getNomcon" campoprincipal="rifcon" camposecundario="nomcon" campobase = "id"
+          divupdate: divgrid
+          ajaxparams: +'."'".'&fecha='."'+$('fcconrep_feccon').value".'
+      dircon: {name: Dirección, params: size=80   readOnly= true}
+      nancon:  { name: Nacionalidad }
+      tipcon:  { name: Tipo}
+      grid:  { name: .}
+      criterio:  { name: Criterios de búsqueda}
+
+    edit:
+      title:     Estado de Cuenta Integral
+      display:
+        "Fecha de Consulta":   [_feccon]
+        "Contribuyente":   [rifcon, dircon, _nancon, _tipcon]
+        "NONE": [_criterio, _grid]
+      actions:
+        _list:        NONE
+        _save:        NONE
+        _delete:      NONE
+        _create:      NONE

@@ -1,0 +1,113 @@
+methods:
+  post:
+   - "facarord{numcar}"
+   - "facarord{feccar}"
+   - "facarord{fecven}"
+   - "facarord{codentcre}"
+   - "facarord{rifpro}"
+   - "facarord{ramart}"
+   - "facarord{codban}"
+   - "facarord{codprg}"
+   - "facarord{ramart}"
+   - "facarord{descar}"
+
+names:
+  facarord{numcar}:
+    required:  Yes
+    required_msg: El Número de la Carta Orden no puedo estar en Blanco
+    validators: Validator_numcar
+
+  facarord{feccar}:
+    required:  Yes
+    required_msg: La Fecha de la Carta no puede estar blanco
+    validators: FechaValidator, FechaValidator1
+    
+  facarord{fecven}:
+    required:  Yes
+    required_msg: La Fecha de Vencimiento Carta no puede estar blanco
+    validators: FechaValidator    
+
+  facarord{rifpro}:
+    required:  Yes
+    required_msg: El rif de cliente no puede estar en blanco
+    validators: Cliente_Validator
+
+  facarord{codentcre}:
+    required:  Yes
+    required_msg: La Entidad Crediticia no puede estar en blanco
+    validators: EntCre_Validator
+    
+  facarord{ramart}:
+    required:  No
+    validators: RamArt_Validator    
+    
+  facarord{codban}:
+    required:  Yes
+    required_msg: El Banco no puede estar en blanco
+    validators: CodBan_Validator    
+
+  facarord{descar}:
+    required:  No
+    validators: DescripcionValidator
+
+  facarord{codprg}:
+    required:  Yes
+    required_msg: El Programa no puede estar blanco    
+
+Validator_numcar:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Facarord
+        column:       numcar
+        unique_error: El registro ya Existe intente con otro.
+
+Cliente_Validator:
+    class: CidesaExistValidator
+    param:
+        class:    Facliente
+        column:   rifpro
+        unique_error:  El Cliente no Existe.
+
+EntCre_Validator:
+    class: CidesaExistValidator
+    param:
+        class:    Faentcre
+        column:   codentcre
+        unique_error:  La Entidad Crediticia no existe.
+        
+RamArt_Validator:
+    class: CidesaExistValidator
+    param:
+        class:    Caramart
+        column:   ramart
+        unique_error:  El Rubro no existe.   
+        
+CodBan_Validator:
+    class: CidesaExistValidator
+    param:
+        class:    Facliente
+        column:   codpro
+        unique_error:  El Banco no existe.           
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripición no puede tener menos de 5 caracteres
+        max:       250
+        max_error: La Descripición no puede tener más de 250 caracteres
+        
+FechaValidator1:
+    class:         CidesaDateNow
+    param:
+        compare: 'now'
+        compare_error: La Fecha no puede ser mayor a la Fecha Actual
+        operator: '<='
+        date_error:  La Fecha es Inválida             
+        
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es inválida        

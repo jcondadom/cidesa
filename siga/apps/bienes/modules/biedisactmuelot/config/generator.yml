@@ -1,0 +1,25 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Bndismue
+    theme:            cidesaGenerator
+    fields:
+      nrodismue: { name: Número de Orden, params: size=15 maxlength=10}
+      tipdismue: { name: Tipo}
+      codmot: { name: Motivo}
+      fecdismue: { name: Fecha, params: date_format='dd/MM/yy'}
+      fecdevdis: { name: Fecha Devolución, params: date_format='dd/MM/yy'}
+      mondismue: { name: Monto}
+      detdismue: { name: Detalle}
+      codubides: { name: Destino}
+      grid:  { name: .}
+    edit:
+      title:         Disposición de Muebles en Lotes
+      display:
+        "Información de Disposición": [_tipdismue, _codmot, fecdismue, fecdevdis, mondismue, detdismue, _codubides]
+        "Muebles a Disponer": [_grid]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

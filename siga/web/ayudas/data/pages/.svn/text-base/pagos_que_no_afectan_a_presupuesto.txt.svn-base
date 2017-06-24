@@ -1,0 +1,17 @@
+===== Pagos que no Agectan a Presupuesto =====
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Son aquellos documentos que requieren ser pagados y que no afectan el Presupuesto Actual. <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Para este caso el sistema muestra la sección **Pago que no Afecta a Presupuesto** en la cual encontraremos los siguientes campos:
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbancemipaginc2.jpg|}}"></div><br></html>
+
+  * **Concepto:** En este campo se coloca la explicación que indica el motivo por el cual se emite un Cheque. <html><br><br></html>
+
+  * **Monto:** Se refiere al monto por el cual se esta realizando el pago. <html><br><br></html>
+
+  * **Descuento:** Monto del descuento. <html><br><br></html>
+
+  * **Concepto de Descuento:** Este campo indica el concepto bajo el cual la Institución hace una deducción sobre el Pago que se emite. <html><br><br></html>
+
+  * **Neto a Pagar:** Es el monto total del pago. 

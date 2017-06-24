@@ -1,0 +1,141 @@
+methods:
+  post:
+   - "fcsollic{numsol}"
+   - "fcsollic{fecsol}"
+   - "fcsollic{rifcon}"
+   - "fcsollic{nomneg}"
+   - "fcsollic{dirpri}"
+   - "fcsollic{codrut}"
+   - "fcsollic{disbar}"
+   - "fcsollic{disins}"
+   - "fcsollic{discli}"
+   - "fcsollic{disfun}"
+   - "fcsollic{disdis}"
+   - "fcsollic{disest}"
+   - "fcsollic{capsoc}"
+   - "fcsollic{funres}"
+   - "fcsollic{tipinm}"
+   - "fcsollic{tipest}"
+   - "fcsollic{fecini}"
+   - "fcsollic{fecfin}"
+   - "fcsollic{fecres}"
+
+names:
+  fcsollic{numsol}:
+    required:  Yes
+    required_msg: El Número de Solicitud no puede estar en Blanco
+    validators: Validator_numsol
+
+  fcsollic{fecsol}:
+    required:  Yes
+    required_msg: La Fecha de la Solicitud no puede estar en Blanco
+    validators: Fecha2Validator, FechaValidator1
+
+  fcsollic{rifcon}:
+    required:  Yes
+    required_msg: El Contribuyente no puede estar en Blanco
+
+  fcsollic{nomneg}:
+    required:  Yes
+    required_msg: El Nombre del Establecimiento no puede estar en Blanco
+
+  fcsollic{dirpri}:
+    required:  Yes
+    required_msg: La Dirección del Establecimiento no puede estar en Blanco
+
+  fcsollic{codrut}:
+    required:  Yes
+    required_msg: La Ruta del Establecimiento no puede estar en Blanco
+    validators: CodrutExistValidator
+
+  fcsollic{disbar}:
+    required:  Yes
+    required_msg: La Distancia del Establecimiento a un Bar no puede estar en Blanco
+
+  fcsollic{disins}:
+    required:  Yes
+    required_msg: La Distancia del Establecimiento a una Inst. Educacional no puede estar en Blanco
+
+  fcsollic{discli}:
+    required:  Yes
+    required_msg: La Distancia del Establecimiento a una Clínica u Hospital no puede estar en Blanco
+
+  fcsollic{disfun}:
+    required:  Yes
+    required_msg: La Distancia del Establecimiento a una Funeraria no puede estar en Blanco
+
+  fcsollic{disdis}:
+    required:  Yes
+    required_msg: La Distancia del Establecimiento a un Dispensario no puede estar en Blanco
+
+  fcsollic{disest}:
+    required:  Yes
+    required_msg: La Distancia del Establecimiento a una Estación de Servicio no puede estar en Blanco
+
+  fcsollic{capsoc}:
+    required:  Yes
+    required_msg: El Capital Social no puede estar en Blanco
+
+  fcsollic{funres}:
+    required:  Yes
+    required_msg: El Funcionario Receptor no puede estar en Blanco
+
+  fcsollic{tipinm}:
+    required:  Yes
+    required_msg: El Tipo de Inmueble no puede estar en Blanco
+
+  fcsollic{tipest}:
+    required:  Yes
+    required_msg: El Tipo de Establecimiento no puede estar en Blanco
+
+  fcsollic{fecini}:
+    required:  Yes
+    required_msg: La Fecha Inicio del Ejercicio Económico no puede estar en Blanco
+    validators: Fecha2Validator
+
+  fcsollic{fecfin}:
+    required:  Yes
+    required_msg: La Fecha Fin del Ejercicio Económico no puede estar en Blanco
+    validators: Fecha2Validator
+
+  fcsollic{fecres}:
+    required:  Yes
+    required_msg: La Fecha de Recepción no puede estar en Blanco
+    validators: Fecha2Validator
+
+Validator_numsol:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Fcsollic
+        column:       numsol
+        unique_error: El registro ya Existe intente con otro.
+
+
+CatconExistValidator:
+    class: CidesaExistValidator
+    param:
+        class:        Fcreginm
+        column:       codcatinm
+        unique_error: El Código Catastral no Existe.
+
+CodrutExistValidator:
+    class: CidesaExistValidator
+    param:
+        class:        Fcrutas
+        column:       codrut
+        unique_error: La Ruta del Establecimiento no Existe.
+
+Fecha2Validator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es inválida
+
+FechaValidator1:
+    class:         CidesaDateNow
+    param:
+        compare: 'now'
+        compare_error: Esta Fecha no puede ser mayor a la Fecha Actual
+        operator: '<='
+        date_error:  Fecha Inválida

@@ -1,0 +1,25 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Opdefemp
+    theme:            cidesaGenerator
+    fields:
+      grid1: { name: . }
+      grid2: { name: . }
+      grid3: { name: . }
+      grid4: { name: . }
+      grid5: { name: . }
+      grid6: { name: . }
+      grid7: { name: . }
+      referencia: { name: . }
+      tiptra: { name: Tipo de Trámite }
+      btnbuscar: { name: . }
+    edit:
+      title:          Estatus del Trámite
+      display:
+        "Filtros":  [_tiptra, _referencia, _btnbuscar]
+        "Resultados del Trámite": [_grid1, _grid2, _grid3, _grid4, _grid5, _grid6, _grid7]
+      actions:
+        _list:        NONE
+        _save:        NONE
+        _delete:      NONE

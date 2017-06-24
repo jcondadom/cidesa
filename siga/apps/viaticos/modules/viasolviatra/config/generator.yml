@@ -1,0 +1,216 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Viasolviatra
+    theme:            cidesaGenerator
+    fields:
+      numsol:         { name: Nro Solicitud, params: maxlength=10 size=10 onBlur="rellenar(this.id)"}
+      fecsol:         { name: Fecha Solicitud}
+      tipvia:         { name: Tipo Viatico}
+      ptipvia:        { name: .}
+      dessol:         {name: Descripción, type: textarea_tag, params: cols=65 maxlength=1000 }
+      #codeve:         { name: Evento}
+      js:             { name: .}
+      codemp:         { name: Empleado}
+      codcat:
+        name: Categoria
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: NconceptosCat_Asignar
+          clase: Npcatpre
+          ajax: 15
+          parametros: getprincipal="getCodcat" getsecundario="getNomcat" campoprincipal="codcat" camposecundario="nomcat" campobase = "id"
+      codniv:
+        name: Nivel del Trabajador
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: viadefniv_codniv
+          clase: Viadefniv
+          ajax: 0
+          parametros: getprincipal="getCodniv" getsecundario="getDesniv" campoprincipal="codniv" camposecundario="desniv" campobase = "id"
+      codempaco: { name: Empleado Acompañante}
+      codnivaco:
+        name: Nivel del Empleado Acompañante
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: viadefniv_codniv
+          clase: Viadefniv
+          ajax: 3
+          parametros: getprincipal="getCodnivaco" getsecundario="getDesnivaco" campoprincipal="codnivaco" camposecundario="desnivaco" campobase = "id"
+      codproced:
+        name: Procedencia
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: viadefproced_codproced
+          clase: Viadefproced
+          ajax: 0
+          parametros: getprincipal="getCodproced" getsecundario="getDesproced" campoprincipal="codproced" camposecundario="desproced" campobase = "id"
+      fecdes:         { name: Fecha Desde, params: onchange="CalculaDias(this.id)"}
+      fechas:         { name: Fecha Hasta, params: onchange="CalculaDias(this.id)"}
+      numdia:         { name: Número Dias, params: readOnly=true}
+      codfortra:
+        name: Forma de Traslado
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: viadeffortra_codfortra
+          clase: Viadeffortra
+          ajax: 0
+          parametros: getprincipal="getCodfortra" getsecundario="getDesfortra" campoprincipal="codfortra" camposecundario="desfortra" campobase = "id"
+      codempaut:
+        name: Empleado que Autoriza
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Nphojint
+          clase: Nphojint
+          ajax: 5
+          parametros: getprincipal="getCodempaut" getsecundario="getNomempaut" campoprincipal="codempaut" camposecundario="nomempaut" campobase = "id"
+      cedemp:           { name: Cedula, params: style="border:none"}
+      cargo:            { name: Cargo, params: style="border:none" size=80}
+      nivel:            { name: Nivel Organizacional, params: style="border:none" size=80}
+      cedempaco:           { name: Cedula, params: style="border:none"}
+      cargoaco:            { name: Cargo, params: style="border:none" size=80}
+      nivelaco:            { name: Nivel Organizacional, params: style="border:none" size=80}
+      cedempaut:           { name: Cedula, params: style="border:none"}
+      nivelaut:            { name: Nivel Organizacional, params: style="border:none" size=80}
+      tipbol:         { name: Bolsa de Trabajo}
+      monbol:         { name: Monto Bolsa de Trabajo}
+      codpai:
+        name: Pais
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: viaestado_codpai
+          clase: Viapais
+          ajax: 7
+          parametros: getprincipal="getCodpai" getsecundario="getNompai" campoprincipal="codpai" camposecundario="nompai" campobase = "id"
+      codest:
+        name: Estado
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: viaestado_codest
+          clase: Viaestado
+          ajax: 6
+          parametros: getprincipal="getCodest" getsecundario="getNomest" campoprincipal="codest" camposecundario="nomest" campobase = "id"
+          catalogoparams: /param1/'."'+$('viasolviatra_codpai').value+'".'
+      codmun:
+        name: Municipio
+        catalogo:
+          catalogoweb: viamunicip_codmun
+          clase: Viamunicip
+          ajax: 13
+          parametros: getprincipal="getCodmun" getsecundario="getNommun" campoprincipal="codmun" camposecundario="nommun" campobase = "id"
+          catalogoparams: /param1/'."'+$('viasolviatra_codest').value+'".'
+          ajaxparams: +'."'".'&estado='."'+$('viasolviatra_codest').value".'
+      codciu:
+        name: Ciudad
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: viaciudad_codciu
+          clase: Viaciudad
+          ajax: 0
+          parametros: getprincipal="getCodciu" getsecundario="getNomciu" campoprincipal="codciu" camposecundario="nomciu" campobase = "id"
+          catalogoparams: /param1/'."'+$('viasolviatra_codest').value+'".'/param2/'."'+$('viasolviatra_codpai').value+'".'
+      status2:   { name: Status}
+      tipvia2:   { name: Tipo}
+      eti:   { name: .}
+      codubi:
+        name: Unidad Solicitante
+        catalogo:
+          catalogoweb: Bnubica_Almordcom
+          clase: Bnubica
+          ajax: 8
+          parametros: getprincipal="getCodubi" getsecundario="getDesubi" campoprincipal="codubi" camposecundario="desubi" campobase = "id"
+      codcen:
+        name: Unidad Ejecutora
+        catalogo:
+          catalogoweb: Cadefcen_Almsolegr
+          clase: Cadefcen
+          ajax: 9
+          parametros: getprincipal="getCodcen" getsecundario="getDescen" campoprincipal="codcen" camposecundario="descen" campobase = "id"
+      codeve:
+        name: Evento
+        catalogo:
+          catalogoweb: Preprecom_Cpevepre
+          clase: Cpevepre
+          ajax: 14
+          parametros: getprincipal="getCodeve" getsecundario="getDeseve" campoprincipal="codeve" camposecundario="deseve" campobase = "id"          
+      coddirec:
+        name: Dirección
+        params: size=3 maxlength=15
+        catalogo:
+          catalogoweb: Cadefdirec_Almdefdiv
+          clase: cadefdirec
+          ajax: 11
+          parametros: getprincipal="getCoddirec" getsecundario="getDesdirec" campoprincipal="coddirec" camposecundario="desdirec" campobase = "id"
+      esnoemp:   { name: No es Empleado, params: onClick="MostraCat()"}
+      grid:   { name: .}
+      numpas: { name: Número de Pasaporte, params: maxlength=15 size=20}
+      numvis: { name: Número de Visa, params: maxlength=15 size=20}
+      numcel: { name: Número de Teléfono Celular, params: maxlength=15 size=20}
+      numext: { name: Número de Extensión del Teléfono, params: maxlength=15 size=20}
+      apepercon: { name: Apellidos, params: maxlength=50 size=55}
+      nompercon: { name: Nombres, params: maxlength=50 size=55}
+      parpercon: { name: Parentesco}
+      numhabpercon: { name: Número de Habitación, params: maxlength=15 size=20}
+      numcelpercon: { name: Número de Celular, params: maxlength=15 size=20}
+      reqbolaer: { name: Requiere Boleto Aéreo}
+      reqhospe: { name: Requiere Hospedaje}
+      reqtrater: { name: Requiere Transporte Terrestre}
+      horsal:        { name: Hora de Salida}
+      horlle:        { name: Hora de Llegada}
+      gridbolaer:   { name: .}
+      rutbolaer: { name: Ruta, type: textarea_tag, params: size=80x3 maxlength=200 onkeyup="javascript:return ismaxlength(this)"}
+      motviabol: { name: Motivo, type: textarea_tag, params: size=80x3 maxlength=500 onkeyup="javascript:return ismaxlength(this)"}
+      gridtrater:   { name: .}
+      codempusu:
+        name: Contacto
+        catalogo:
+          catalogoweb: Nphojint
+          clase: Nphojint
+          ajax: 12
+          parametros: getprincipal="getCodempusu" getsecundario="getNomempusu" campoprincipal="codempusu" camposecundario="nomempusu" campobase = "id"
+      celemp: { name: Teléfono, params: size=15 maxlength=20}
+      tipserv: { name: Tipo de Servicio, params: size=60 maxlength=50}
+      canvehi: { name: Cant. Vehículos, params: size=60 maxlength=50}
+      tipvehi: { name: Tipo de Vehículo, params: size=60 maxlength=50}
+      candias: { name: Cant. Días, params: size=60 maxlength=50}
+      canpasaj: { name: Cant. Pasajeros, params: size=60 maxlength=50}
+      equipaj: { name: Equipaje}
+      instrum: { name: Instrumentos}
+      bultos: { name: Bultos}
+      conesper: { name: Con Espera}
+      adisposi: { name: A Disposición}
+      tippas: { name: Tipo de Pasaje}
+      fecsal: { name: Fecha Salida, params: date_format='dd/MM/yyyy' maxlength=10}
+      horsalb: { name: Hora de Salida}
+      fecreg: { name: Fecha Regreso, params: date_format='dd/MM/yyyy' maxlength=10}
+      horreg: { name: Hora de Regreso}
+      itinerario: { name: Itinerario, type: textarea_tag, params: size=80x3 maxlength=500 onkeyup="ismaxlength(this)"}
+      lugsal: { name: Lugar de Salida, type: textarea_tag, params: size=80x3 maxlength=100 onkeyup="ismaxlength(this)"}
+      hosped: { name: Hospedaje}
+      obshos: { name: Observaciones del Hospedaje, type: textarea_tag, params: size=80x3 maxlength=1000 onkeyup="ismaxlength(this)"}
+      codpro: { name: Proyecto}
+    list:
+      title:        Listado de Solicitudes de Viaticos
+      display:      [=numsol, fecsol, codemp, nomemp, nivel, status2, tipvia2]
+      filters:      [numsol, fecsol, codemp, codniv]
+      sort:         numsol
+    edit:
+      title:        Edición de Solicitudes de Viaticos
+      display:
+        Datos Generales:      [_eti, numsol, fecsol, _ptipvia, dessol, codeve, coddirec]
+        Datos Empleado Solicitante:           [esnoemp, _codemp, cedemp, cargo, nivel, codcat, codniv, _grid]
+        Detalle:              [codpai, codest, codmun, codciu, codproced, _codpro, fecdes, fechas, numdia, codfortra, codubi, codcen, codempaut, cedempaut, nivelaut, _tipbol, monbol, horsal, horlle, itinerario, lugsal]
+        Otros Datos:           [numpas, numvis, numcel, numext, _reqhospe, _hosped, obshos]
+        Solicitud de Boleto Áereo:           [_reqbolaer, _gridbolaer, _tippas, fecsal, horsalb, fecreg, horreg, rutbolaer, motviabol]
+        Solicitud de Transporte Terrestre:           [_reqtrater, _gridtrater, codempusu, celemp, tipserv, canvehi, tipvehi, candias, canpasaj, equipaj, instrum, bultos, conesper, adisposi]
+        Datos de la Persona Contacto en caso de Emergencia:           [apepercon, nompercon, _parpercon, numhabpercon, numcelpercon, _js]
+      hide:  [nomempe, status, codnivorg]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~
+        _anular:
+          name: Anular
+          only_for: edit
+          params: class="sf_admin_action_delete" onClick="anular()"

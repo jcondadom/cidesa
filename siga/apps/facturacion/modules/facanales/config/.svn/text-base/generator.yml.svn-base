@@ -1,0 +1,28 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fadefcan
+    theme:            cidesaGenerator
+    fields:
+      codcan: { name: Código, params: size=10 maxlength=3 onFocus=readonly(this.id) onBlur="this.value=this.value.pad(3, '0',0);"}
+      descan: { name: Descripción, params: size=80 maxlength=1000  }
+    list:
+      title:          Canales
+      fields:
+        codcan: { name: Código, params: size=10 maxlength=3 }
+        descan: { name: Descripción, params: size=20 maxlength=500  }
+      filters:        [codcan, descan ]
+      display:        [=codcan, descan]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:  8
+      sort: codcan
+    edit:
+      title:          Edición de Canales
+      display:        [codcan, descan]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "caregiones{codreg}"
+   - "caregiones{nomreg}"
+
+names:
+  caregiones{codreg}:
+    required:  Yes
+    required_msg: El código de la Región no puede estar en Blanco
+    validators: Validator_codreg
+
+  caregiones{nomreg}:
+    required:  Yes
+    required_msg: El Nombre de la Región no puede estar en Blanco
+    validators: Validator_nomreg
+
+Validator_codreg:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Caregiones
+        column:       codreg
+        unique_error: El código de la Región ya Existe intente con otro.
+
+Validator_nomreg:
+  class: sfStringValidator
+  param:
+    min:       2
+    min_error: El Nombre no puede tener menos de 2 caracteres
+    max:       250
+    max_error: El Nombre no puede pasar mas de 250 caracteres

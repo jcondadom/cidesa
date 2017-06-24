@@ -1,0 +1,38 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcliqpag
+    theme:            cidesaGenerator
+    fields:
+      numliq:     { name: Referencia Liquidación, params: size=20 maxlength=20 }
+      fecliq:     { name: Fecha Liquidación, params: size=10 maxlength=10 date_format='dd/MM/yyyy'}
+      fechaini:      { name: . }
+      fechafin:      { name: . }
+      ctaban: { name: . , params: maxlength=20}
+      nrodep:     { name: Deposito, params: size=30 maxlength=10 }
+      codtip:     { name: Tipo de Movimiento }
+      desliq:     { name: Descripción, params: size=40 maxlength=250}
+      monliq:     { name: Monto, params: size=15  readOnly=true}
+      grid:     { name: . }
+      botones:     { name: . }
+      id:     { name: . }
+    list:
+      title:     Registro de Liquidación de Pagos
+      display:        [=numliq, fecliq ]
+      filters:        [numliq, fecliq ]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      sort:  fecliq
+      max_per_page:   10
+    edit:
+      title:          Liquidación de Pagos
+      display:
+        NONE: [ _numliq, fecliq, _ctaban, nrodep, _codtip, desliq, monliq]
+        "Pagos" : [ _fechaini, _fechafin, _botones, _grid]
+      hide: [ id ]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

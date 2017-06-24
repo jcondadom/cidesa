@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "bntiplug{codtlu}"
+   - "bntiplug{destlu}"
+
+names:
+  bntiplug{codtlu}:
+    required:  Yes
+    required_msg: El Código del Tipo de Lugar no puede estar en Blanco
+    validators: UniqueValidator
+
+  bntiplug{destlu}:
+    required:  Yes
+    required_msg: La Descripción del Tipo de Lugar no puede estar en Blanco
+    validators: DescripcionValidator
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Bntiplug
+        column:   codtlu
+        unique_error:   El Código del Tipo de Lugar ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       3
+        min_error: La Descripción del Tipo de Lugar no puede tener menos de 3 caracteres
+        max:       500
+        max_error: La Descripción del Tipo de Lugar no puede tener más de 500 caracteres 

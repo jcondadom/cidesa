@@ -1,0 +1,26 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fatippue
+    theme:            cidesaGenerator
+    fields:
+      codpue: { name: Código, params : size=5 maxlength=4  onFocus=readonly(this.id) onBlur="this.value=this.value.pad(4, '0',0);"}
+      nompue: { name: Nombre, params : size=80 maxlength=100 }
+    list:
+      title:          Definiciones de Puertos
+      filters:        [codpue, nompue]
+      display:        [=codpue, nompue]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codpue
+    edit:
+      title:          Edición  de Puertos
+      display:
+        "Datos del Puerto":   [codpue, nompue]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

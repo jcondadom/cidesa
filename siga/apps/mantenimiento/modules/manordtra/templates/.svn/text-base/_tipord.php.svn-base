@@ -1,0 +1,1 @@
+<?php echo select_tag('manordtra[tipord]', options_for_select(array('I' => 'Imprevista', 'P' => 'Programda'),$manordtra->getTipord(),'include_custom=Seleccione Uno'),array()); ?>

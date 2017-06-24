@@ -1,0 +1,20 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Faciemes
+    theme:            cidesaGenerator
+    fields:
+      pereje: { name: Período}
+      fecdes: { name: Fecha Desde, params: date_format='dd/MM/yyyy' readOnly=true}
+      fechas: { name: Fecha Hasta, params: date_format='dd/MM/yyyy' readOnly=true}
+      botones: { name: .}
+    edit:
+      title:          Cierre de Mes
+      display:
+        "NONE": [_pereje, fecdes, fechas, _botones]
+      hide: [proceso, status]
+      actions:
+        _list:        NONE
+        _save:        NONE
+        _delete:      NONE
+        _create:      NONE

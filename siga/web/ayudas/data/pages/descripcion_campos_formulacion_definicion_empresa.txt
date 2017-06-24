@@ -1,0 +1,34 @@
+====== Descripción de campos ======
+
+La pantalla **Definición de Empresa** está conformada por los siguientes campos:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpredefempinc1.jpg|}}"></div><br></html>
+
+  * **Nombre:** Refiere al nombre de la Institución. <html><br><br></html>
+
+  * **Dirección:** Refiere a la dirección de ubicación de la Institución. <html><br><br></html>
+
+  * **Ciudad:** Refiere a la ciudad donde está ubicada la Institución. <html><br><br></html>
+
+  * **Teléfonos:** Refiere a los números telefónicos de contacto de la Institución. <html><br><br></html>
+
+  * **Pág. Web:** Refiere a la dirección de la página web de la Institución. <html><br><br></html>
+
+  * **Fax:** Refiere al número de fax de la Institución. <html><br><br></html>
+
+  * **Código Postal:** Refiere al código postal de la ciudad donde está ubicada la Institución. <html><br><br></html>
+
+  * **Presidente de la Institución:** Refiere al nombre del presidente de la Institución. <html><br><br></html>
+
+  * **Director(a) de Presupuesto:** Refiere al nombre del director del Departamento de presupuesto de la Institución. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Definición de Empresa** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+
+
+
+
+
+
+
+
+

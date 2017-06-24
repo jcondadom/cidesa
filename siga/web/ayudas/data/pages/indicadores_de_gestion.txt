@@ -1,0 +1,33 @@
+====== Descripción de Campos ======
+
+Los campos que conforman la pestaña **Indicadores de Gestión** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefespproyacccentinc9.jpg|}}"></div><br></html>
+
+  * **Núcleo de Desarrollo Endógeno:** Indica la iniciativa productiva del proyecto que emerge del interior de un territorio, sector económico ó empresa para aprovechar las capacidades, potenciales y habilidades propias con el fin de desarrollar proyectos económicos, sociales, ambientales, territoriales y tecnológicos. <html><br><br></html>
+
+  * **Zonas Económicas de Desarrollo Sustentable (ZEDES):** Indica las áreas diferenciadas dentro del ámbito de influencia de los Ejes de Desarrollo con características físico-naturales, geopolíticas, condiciones de habitabilidad y potenciales que permiten implementar la estrategia de descentralización desconcentrada. <html><br><br></html>
+
+  * **Complejo Industrial:** Indica la la zona de laa industrias básicas y a los conjuntos industriales petroleros al que pertenece el proyecto. <html><br><br></html>
+
+  * **Monto Total del Proyecto:** Indica el monto total requerido para la ejecución del proyecto. <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefespproyacccentinc10.jpg|}}"></div><br></html>
+
+  * Por último tenemos el [[grid|Grid]] llamado **Conexiones Inter-Institucionales** el cual está compuesto en cada columna correspondiente los siguientes campos: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Código y Descripción:** Seleccione el código de cada conexión inter-institucional, al seleccionarlo automáticamente el sistema mostrará la descripción de las mismas.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Tipo de Contribución:** Seleccione el tipo de contribución recibida por la insitución, solo debe hacer click en el icono {{:btnflecha.jpg|}} y el sistema muestra un listado con los tipos de contribuyentes que fueron definidos previamente en el sistema en la pantalla [[formulacion_tipos_contribuyentes_conexiones_organismos_publicos|Tipos de Contribuyentes / Conexiones a Organismos Públicos]]
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Detalles / Observaciones:** Indica información adicional en caso de existir para cada conexión inter-institucional.
+
+
+
+
+
+
+
+
+
+

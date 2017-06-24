@@ -1,0 +1,108 @@
+<?php
+
+/**
+ * predoccau actions.
+ *
+ * @package    siga
+ * @subpackage predoccau
+ * @author     Your name here
+ * @version    SVN: $Id: actions.class.php 51141 2013-03-07 16:02:05Z dmartinez $
+ */
+class predoccauActions extends autopredoccauActions
+{
+
+  public function editing()
+  {
+
+  }
+
+  public function executeAjax()
+  {
+    $codigo = $this->getRequestParameter('codigo','');
+    $ajax = $this->getRequestParameter('ajax','');
+    $cajtexmos = $this->getRequestParameter('cajtexmos','');
+    $cajtexcom = $this->getRequestParameter('cajtexcom','');
+    $dato=""; $j="";
+
+    switch ($ajax){
+      case '1':
+          $t= new Criteria();
+          $t->add(ContabbPeer::CODCTA,$codigo);
+          $result= ContabbPeer::doSelectOne($t);
+          if ($result)
+          {
+              if ($result->getCargab()=='C')
+              {
+                  $dato=$result->getDescta();
+              }else {
+                  $js="alert_('La Cuenta Contable no es Cargable'); $('$cajtexcom').value=''; $('$cajtexcom').focus(); ";
+              }
+          }else {
+              $js="alert_('La Cuenta Contable no existe'); $('$cajtexcom').value=''; $('$cajtexcom').focus(); ";
+          }
+        $output = '[["'.$cajtexmos.'","'.$dato.'",""],["javascript","'.$js.'",""],["","",""]]';
+        break;
+      case '2':
+          $t= new Criteria();
+          $t->add(CotiptraPeer::CODTIPTRA,$codigo);
+          $result= CotiptraPeer::doSelectOne($t);
+          if ($result)
+          {
+            $dato=$result->getDestiptra();
+          }else {
+              $js="alert_('El Tipo de Transacci&oacute;n no existe'); $('cpdoccau_codtiptra').value=''; $('$cajtexmos').value=''; $('cpdoccau_codtiptra').focus(); ";
+          }
+        $output = '[["'.$cajtexmos.'","'.$dato.'",""],["javascript","'.$js.'",""],["","",""]]';
+        break;        
+      default:
+        $output = '[["","",""],["","",""],["","",""]]';
+    }
+
+    $this->getResponse()->setHttpHeader("X-JSON", '('.$output.')');
+    return sfView::HEADER_ONLY;
+  }
+
+
+  public function validateEdit()
+  {
+    $this->coderr =-1;
+    if($this->getRequest()->getMethod() == sfRequest::POST){
+
+      if($this->coderr!=-1){
+        return false;
+      } else return true;
+
+    }else return true;
+  }
+
+  public function saving($cpdoccau)
+  {
+    return Presupuesto::salvarPredoccau($cpdoccau);
+  }
+
+  public function deleting($cpdoccau)
+  {
+    return Presupuesto::eliminarPredoccau($cpdoccau);
+  }
+
+   public function executeCreate()
+  {
+  	$c= new Criteria();
+    $cpdefniv=CpdefnivPeer::doSelectOne($c);
+    if (!$cpdefniv)
+    {
+      $this->getRequest()->setError('valida', 'Debe definir los Niveles Presupuestarios.');
+      return $this->forward('predoccau', 'list');
+    }else{
+    	if ($cpdefniv->getEtadef()=='C')
+    	{
+    	  $this->getRequest()->setError('valida', 'La Etapa de Definición está Cerrada.');
+          return $this->forward('predoccau', 'list');
+    	}
+    }
+
+    return $this->forward('predoccau', 'edit');
+  }
+
+
+}

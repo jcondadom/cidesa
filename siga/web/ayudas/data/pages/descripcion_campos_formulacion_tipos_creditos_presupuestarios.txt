@@ -1,0 +1,14 @@
+====== Descripción de Campos ======
+
+Los campos que conforman la pantalla **Tipos de Créditos Presupuestarios (Funcionamiento/Inversión)** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefesptipcredpreinc1.jpg}}"></div><br></html>
+
+  * **Código:** Indica el número que identifica al tipo de Crédito Presupuestario que está registrando. <html><br><br></html>
+
+  * **Nombre:** Indica el nombre al que hace referencia el tipo de crédito presupuestario. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Tipos de Créditos Presupuestarios (Funcionamiento/Inversión)** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+
+
+

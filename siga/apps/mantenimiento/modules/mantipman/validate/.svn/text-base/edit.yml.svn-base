@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "mantipman{codtma}"
+   - "mantipman{destma}"
+
+names:
+  mantipman{codtma}:
+    required:  Yes
+    required_msg: Introduzca el Código del Tipo de Mantenimiento
+    validators: Validator_codtma
+    
+  mantipman{destma}:
+    required:  Yes
+    required_msg: Introduzca la Descripción del Tipo de Mantenimiento
+    validators: Validator_destma
+
+Validator_codtma:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Mantipman
+        column:       codtma
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_destma:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La Descripción no puede tener mas de 250 caracteres

@@ -1,0 +1,11 @@
+====== Genstionaire des Config Texte: Smileys ======
+
+Utiliser cette page pour gerer la liste des Smileys de votre intallation de Dokuwiki.\\
+Que sont les Smileys? Voir [[doku>wiki:smileys]].
+Et egalement [[wp>Smiley|Wikipedia list of Smiley]]
+
+Please note that you need to specify a smiley image file that does exist in your dokuwiki's ''images/smileys'' directory. Unfortunately, this plugin does not upload image files.
+
+Pour plus de details a propos de ce plugin, voir [[doku>plugin:txtconf]].
+
+Assurez-vous d'appuyer le bouton **Sauver** avant de quitter cette page, sinon vos modifications seront perdues.

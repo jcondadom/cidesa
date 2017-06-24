@@ -1,0 +1,114 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   cadettra
+  anchogrid:               1000
+  ancho:                   1000
+  filas:                   1
+  titulo:                  ' Artículos'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Almacén Origen
+  tipo:                    t
+  nombrecampo:             almori
+  esgrabable:              true
+  ajaxgrid:                true
+  html:                    ["size=10"]
+  catalogo:                [Cadefalm, sf_admin_edit_form, {Codalm: 1, Nomalm: 2}, Cadefalm_Almtraalm ]
+2:       # Columna 2  
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nomalmori
+  html:                    ["size=25 readOnly=true"]
+  esgrabable:              true
+3:       # Columna 6   3
+  titulo:                  Código Ubicación Origen
+  tipo:                    t
+  nombrecampo:             codubiori
+  esgrabable:              true
+  ajaxgrid:                true
+  html:                    ["size=10"]
+4:       # Columna 4
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nomubiori
+  html:                    ["size=25 readOnly=true"]
+  esgrabable:              true
+5:       # Columna 5
+  titulo:                  Código Almacén Destino
+  tipo:                    t
+  nombrecampo:             almdes
+  esgrabable:              true
+  ajaxgrid:                true
+  html:                    ["size=10"]
+  catalogo:                [Cadefalm, sf_admin_edit_form, {Codalm: 5, Nomalm: 6}, Cadefalm_Almtraalm ]  
+6:       # Columna 6
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nomalmdes
+  html:                    ["size=25 readOnly=true"]
+  esgrabable:              true
+7:      # Columna 7    
+  titulo:                  Código Ubicación Destino
+  tipo:                    t
+  nombrecampo:             codubides
+  esgrabable:              true
+  ajaxgrid:                true
+  html:                    ["size=10"]
+8:       # Columna 8
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nomubides
+  html:                    ["size=25 readOnly=true"]
+  esgrabable:              true
+9:       # Columna 9
+  titulo:                  Código Artículo
+  tipo:                    t
+  nombrecampo:             codart
+  esgrabable:              true
+  ajaxgrid:                true
+  html:                    ["size=25"]
+10:       # Columna 10
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             desart
+  esgrabable:              true
+  html:                    ["size=30x1 readOnly=true"]
+11:       # Columna 11
+  titulo:                  Unidad de Medida
+  tipo:                    t
+  nombrecampo:             unimed
+  esgrabable:              true
+  html:                    ["size=20 readOnly=true"]  
+12:      # Columna 12  
+  titulo:                  N° de Lote Origen
+  tipo:                    c
+  esgrabable:              true
+  nombrecampo:             numlotori
+  ajaxgrid:                true
+  oculta:                  true
+  html:                    [ ]  
+13:       # Columna 13
+  titulo:                  N° de Lote Destino
+  tipo:                    c
+  esgrabable:              true
+  nombrecampo:             numlotdes
+  oculta:                  true
+  html:                    [ ]
+14:      # Columna 14
+  titulo:                  Disponible
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             exitot
+  esnumerico:              true
+  oculta:                  true
+  html:                    ["size=10 readOnly=true"]  
+15:      # Columna 15  
+  titulo:                  Transferir
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canart
+  esnumerico:              true
+  default:                 '0,00'
+  ajaxgrid:                true
+  html:                    ["size=10"]  

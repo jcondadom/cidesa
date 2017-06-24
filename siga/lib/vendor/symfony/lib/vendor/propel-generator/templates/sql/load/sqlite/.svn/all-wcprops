@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/load/sqlite
+END
+val.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/load/sqlite/val.tpl
+END
+row.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/load/sqlite/row.tpl
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/59459/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/addon/propel
+END
+sfPropelManyToMany.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/59459/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/addon/propel/sfPropelManyToMany.class.php
+END
+sfPropelPager.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/addon/propel/sfPropelPager.class.php
+END
+sfPropelBehavior.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/addon/propel/sfPropelBehavior.class.php
+END
+sfPropelAutoload.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/addon/propel/sfPropelAutoload.php
+END
+sfPropelDatabaseSchema.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repositorio/!svn/ver/48799/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/addon/propel/sfPropelDatabaseSchema.class.php
+END
+sfPropelData.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/addon/propel/sfPropelData.class.php
+END

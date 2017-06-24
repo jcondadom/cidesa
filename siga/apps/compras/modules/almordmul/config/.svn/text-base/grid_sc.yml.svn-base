@@ -1,0 +1,33 @@
+opciones:                  # Opciones generales
+  name:                    g
+  eliminar:                false
+  tabla:                   casolart
+  anchogrid:               900
+  ancho:                   800
+  filas:                   0
+  titulo:                  ' Solicitudes Disponibles'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Seleccione
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:			         true
+  html:                    [ ]
+2:       # Columna 2
+  titulo:                  N° Requisición
+  tipo:                    t
+  nombrecampo:             reqart
+  esgrabable:              true
+  html:                    ["size=15 readOnly=true"]
+3:       # Columna 3
+  titulo:                  Fecha
+  tipo:                    f
+  nombrecampo:             fecreq
+  esgrabable:              true
+  html:                    ["size=25 readOnly=true"]
+4:       # Columna 4
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             desreq
+  esgrabable:              true
+  html:                    ["size=50x1 readOnly=true"]

@@ -1,0 +1,41 @@
+methods:
+  post:
+   - "codeftiplot{codlot}"
+   - "codeftiplot{deslot}"
+   - "codeftiplot{numlot}"
+   - "codeftiplot{tipcom}"
+
+names:
+  codeftiplot{codlot}:
+    required:  Yes
+    required_msg: El Código del Tipo de Lote no puedo estar en Blanco
+    validators: UniqueValidator
+
+  codeftiplot{deslot}:
+    required:  Yes
+    required_msg: La Descripción del Tipo de Lote no puedo estar en Blanco
+    validators: DescripcionValidator
+    
+  codeftiplot{numlot}:
+    required:  Yes
+    required_msg: El Número del Lote no puedo estar en Blanco
+    
+  codeftiplot{tipcom}:
+    required:  Yes
+    required_msg: El Tipo de Comprobante no puedo estar en Blanco
+ 
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Codeftiplot
+        column:   codlot
+        unique_error:   El Código del Tipo de Lote ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción del  Tipo de Lote no puede tener menos de 5 caracteres
+        max:       100
+        max_error: La Descripción del  Tipo de Lote no puede tener más de 100 caracteres

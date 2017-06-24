@@ -1,0 +1,19 @@
+====== Artículos de Ley ======
+**Tablas:** 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Proceso que permite definir los artículos de Ley, los cuales serán usados en la solicitud de Traslados Presupuestarios. Estos artículos de Ley especifican qué persona ó institución aprobará una Solicitud de Traslado.</html>
+
+Para ello:
+
+  * Seleccione la opción **Contabilidad Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpre.jpg|}}"></div><br></html>
+
+   * Seguidamente despliegue la opción **Definiciones Específicas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpredefesp.jpg|}}"></div><br></html>
+
+  * Por último seleccione la opción **Artículos de Ley**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreartley.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Artículos de Ley** veamos la [[Descripcion_Campos_presupuesto_articulos_ley|Descripción de los Campos]]
+
+

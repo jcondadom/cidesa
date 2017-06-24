@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/48775/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/facliente/templates
+END
+autocompleteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/facliente/templates/autocompleteSuccess.php
+END
+dobleSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/facliente/templates/dobleSuccess.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/facliente/templates/editSuccess.php
+END
+_doble.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/facliente/templates/_doble.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/facliente/templates/_edit_actions.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/48775/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/facliente/templates/_edit_form.php
+END

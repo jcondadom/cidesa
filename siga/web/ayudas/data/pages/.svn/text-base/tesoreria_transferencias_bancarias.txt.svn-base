@@ -1,0 +1,16 @@
+======Transferencias Bancarias======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite realizar la transferencia de dinero entre cuentas bancarias bien sea del mismo banco o de bancos diferentes siempre y cuando sea la cuenta que maneja la institución. A su vez el módulo genera un comprobante contable de la transferencia efectuada.
+
+**Para ello:**
+
+  * Seleccione la opción **Tesorería ó Banco** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesban.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Banco** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbanc.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Transferencias Bancarias**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbanctransbanc.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Tarnsferencias Bancarias** veamos la [[Descripcion_Campos_transferencias_bancarias|Descripción de los Campos]]

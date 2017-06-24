@@ -1,0 +1,77 @@
+methods:
+  post:
+   - "fcdeclar{numdec}"
+   - "fcdeclar{numref}"
+   - "fcdeclar{fundec}"
+   - "fcdeclar{fecdec}"
+   - "fcdeclar{rifcon}"
+   - "fcdeclar{fecini}"
+   - "fcdeclar{feccie}"
+
+
+names:
+  fcdeclar{numdec}:
+    required:  Yes
+    required_msg: El NÃºmero de declaraciÃ³n no puede estar en Blanco
+    validators: Validator_existencia, Validator_MyString
+
+  fcdeclar{numref}:
+    required:  Yes
+    required_msg: El NÃºmero de placa no puede estar en Blanco
+    validators:  Validator_MyString
+
+  fcdeclar{fundec}:
+    required:  Yes
+    required_msg: El Funcionario que otorgo la declaraciÃ³n no puede estar en Blanco
+
+
+  fcdeclar{fecdec}:
+    required:  Yes
+    required_msg: La Fecha  de declaraciÃ³n no puede estar en Blanco
+    validators: Fecha2Validator
+
+  fcdeclar{rifcon}:
+    required:  Yes
+    required_msg: La C.I. / RIF del Contribuyente no puede estar en Blanco
+    validators: RifconValidator, Validator_MyString
+
+
+  fcdeclar{fecini}:
+    required:  No
+    required_msg:
+    validators: Fecha2Validator
+
+  fcdeclar{feccie}:
+    required:  No
+    required_msg:
+    validators: Fecha2Validator
+
+Validator_existencia:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Fcdeclar
+        column:       numdec
+        unique_error: El NÃºmero de declaraciÃ³n ya Existe intente con otra.
+
+Validator_MyString:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La referencia no puede tener menos de 2 caracteres
+        max:       10
+        max_error: La referencia no puede tener mas de 10 caracteres
+
+Fecha2Validator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+RifconValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Fcconrep
+        column:   rifcon
+        unique_error:   La C.I. / RIF no existe.
+

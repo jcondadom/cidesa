@@ -1,0 +1,16 @@
+====== Organismos Públicos ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite definir cada uno de los Organismos Públicos responsables y ejecutores del proyecto.
+
+**Para ello:**
+
+  * Seleccione la opción **Formulación Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpre.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones Generales**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpredefesp.jpg|}}"></div><br></html>
+ 
+  * Por último seleccione **Organismos Públicos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreorgpub.jpg}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Organismos Públicos** veamos la [[Descripcion_Campos_formulacion_organismos_publicos|Descripción de los Campos]]

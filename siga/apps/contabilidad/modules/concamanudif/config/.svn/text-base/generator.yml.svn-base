@@ -1,0 +1,19 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Contabc
+    theme:            cidesaGenerator
+    fields:      
+      fecdes: { name: Fechas Desde}
+      fechas: { name: Fechas Hasta}
+      grid:    { name: .}
+    edit:
+      title:          Reversar Comprobantes Anualados a Diferidos
+      display:
+        "Filtros":     [_fecdes, _fechas]
+        "Comprobantes Contables":     [_grid]
+      actions:
+        _list:        NONE
+        _save:        ~
+        _create:      NONE
+        _delete:      NONE

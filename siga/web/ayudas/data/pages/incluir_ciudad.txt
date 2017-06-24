@@ -1,0 +1,19 @@
+====== Operación Incluir ======
+
+Para **Incluir** una determinada Estado: <html><br><br></html>
+
+  * Presione el **Botón** {{:btnnuevo.jpg|}}
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontciudadinc1.jpg|}}"></div><br><br></html>
+
+  * Seleccione el **País**. <html><br><br></html>
+
+  * Seleccione el **Estado** para el cual registrará las ciudades.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontciudadinc2.jpg|}}"></div><br><br></html>
+
+  * Ingrese el **Código** que identificará a la Ciudad.<html><br><br></html>
+
+  * Ingrese el **Nombre** de la Ciudad que está registrando. <html><br><br></html>
+
+  * Presione el **Botón**  {{:btnguardar.jpg|}} para registrar la información

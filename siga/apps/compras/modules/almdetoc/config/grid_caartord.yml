@@ -1,0 +1,75 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   caartord
+  anchogrid:               1000
+  ancho:                   1200
+  filas:                   0
+  titulo:                  'Detalle de la OC'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código  Artículo
+  tipo:                    t
+  nombrecampo:             codart
+  html:                    [size="15" disabled=true]
+  esgrabable:              false
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             desart
+  html:                    [size="20x2" disabled=true]
+  esgrabable:              false
+3:       # Columna 3
+  titulo:                  Código Unidad
+  tipo:                    t
+  nombrecampo:             codcat
+  html:                    [size="15" disabled=true]
+  esgrabable:              false
+4:       # Columna 4
+  titulo:                  Cant. Ordenada
+  tipo:                    m
+  nombrecampo:             canord
+  html:                    [size="10" disabled=true]
+  esgrabable:              false
+5:       # Columna 5
+  titulo:                  Cant. Ajustada
+  tipo:                    m
+  nombrecampo:             canaju
+  html:                    [size="10" disabled=true]
+  esgrabable:              false
+6:       # Columna 6
+  titulo:                  Cant. Recibida
+  tipo:                    m
+  nombrecampo:             canrec
+  html:                    [size="10" disabled=true]
+  esgrabable:              false  
+7:       # Columna 7
+  titulo:                  Costo
+  tipo:                    m
+  nombrecampo:             preart
+  html:                    [size="10" disabled=true]
+  esgrabable:              false
+8:       # Columna 8
+  titulo:                  Descuento
+  tipo:                    m
+  nombrecampo:             dtoart
+  html:                    [size="10" disabled=true]
+  esgrabable:              false  
+9:       # Columna 9
+  titulo:                  Recargo
+  tipo:                    m
+  nombrecampo:             rgoart
+  html:                    [size="10" disabled=true]
+  esgrabable:              false
+10:       # Columna 10
+  titulo:                  Total
+  tipo:                    m
+  nombrecampo:             totart
+  html:                    [size="10" disabled=true]
+  esgrabable:              false
+11:       # Columna 11
+  titulo:                  Código Presupuestario
+  tipo:                    t
+  nombrecampo:             codpre
+  html:                    [size="15" disabled=true]
+  esgrabable:              false

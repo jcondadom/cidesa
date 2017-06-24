@@ -1,0 +1,78 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Hccarava
+    theme:            cidesaGenerator
+
+    fields:
+      codemp : { name: Codigo, params : readonly=true}
+      cedemp:
+        name: Cedula
+        params: maxlength=15
+        catalogo:
+          catalogoweb: Nphojint_codtit
+          clase: Nphojint
+          ajax: 1
+          parametros: getprincipal="getCedemp" getsecundario="getNomemp" campoprincipal="cedemp" camposecundario="nomemp" campobase = "id"
+          divupdate: divgrid
+      nomnom: { name: Nomina, params : size=50 readonly=true}
+      codttrab: { name: Tipo de Trabajador, params : size=20 readonly=true}
+      cedfam:
+        name: Cedula
+        params: maxlength=15
+        catalogo:
+          catalogoweb: Npinffam_codben
+          clase: Npinffam
+          ajax: 2
+          parametros: getprincipal="getCedfam" getsecundario="getNomfam" campoprincipal="cedfam" camposecundario="nomfam" campobase = "id"
+          catalogoparams: /param1/'."'+$('hccarava_codemp').value+'".'
+          ajaxparams: +'."'".'&cedemp='."'+$('hccarava_cedemp').value+'".'&codemp='."'+$('hccarava_codemp').value+'".'&misben='."'+$('hccarava_misben').checked".'
+      parfam: { name: Parentesco, params : size=20 readonly=true}
+      rifpro:
+        name: R.I.F
+        params: maxlength=15
+        catalogo:
+          catalogoweb: Caprovee_rifcli
+          clase: Caprovee
+          ajax: 3
+          parametros: getprincipal="getRifpro" getsecundario="getNompro" campoprincipal="rifpro" camposecundario="nompro" campobase = "id"
+      numpre: { name: Numero, params: size=20 maxlength=50}
+      fecpre: { name: Fecha }
+      numcar: { name: Numero, params : size=20 onBlur="enter(this.value)" readonly=true}
+      feccar: { name: Fecha }
+      concar: { name: Concepto, type: textarea_tag, params: size=100x5 maxlength=1000 }
+      moncar: { name: Monto, params: size=20 }
+      observ: { name: Observaciones, type: textarea_tag, params: size=100x5 maxlength=1000 }
+      misben: { name: ¿Mismo Beneficiario?, type: checkbox_tag, params: onClick='colocarDatosBen()'}
+      grid:  {name: .}
+      btn: {name: . }
+    list:
+      fields:
+        codemp: {name: Titular}
+        cedfam: {name: Beneficiario}
+        rifpro: {name: Clinica}
+        feccar: {name: Fecha, params: date_format='dd/MM/yyyy' size=12 maxlength=10}
+        numcar: {name: Numero de Cargo}
+      title:          Registro de Carta Aval
+      display:        [=codemp, cedfam, rifpro, numcar, feccar]
+      object_actions:
+        _edit:        ~
+        _delete:      NONE
+      filters:        [codemp, cedfam, rifpro, numcar, feccar]
+      max_per_page:   10
+      sort:           numcar
+
+    edit:
+      title:          Registro de Carta Aval
+      display:
+        "Información del Titular": [cedemp, nomnom, codttrab, misben, _grid]
+        "Información del Beneficiario": [cedfam, parfam]
+        "Información de la Clinica": [rifpro, dirpro]
+        "Infomación del Presupuesto":  [numpre, _fecpre]
+        "Información de la Carta Aval": [_btn, numcar, _feccar, concar, moncar, observ]
+      hide:  [codemp]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:        ~
+        _delete:      NONE

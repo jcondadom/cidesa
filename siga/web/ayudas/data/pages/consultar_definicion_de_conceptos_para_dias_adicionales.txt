@@ -1,0 +1,18 @@
+====== Operación Consultar ======
+
+**Para consultar los Conceptos para Dias Adicionales asociados a una determinada Tipo de Nómina:**   <html><br><br></html>
+
+  * Presione el **Botón**  {{:btnlista.jpg|}}    <html><br><br></html>
+
+  * Seleccione de la **Lista** el **Tipo de Nómina** para la cual desea consultar los **Conceptos para Dias Adicionales**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefcondiasadimod.jpg|}}"></div><br></html>
+
+
+**Para consultar datos desde el Inicio de la pantalla de Definición de Conceptos para Dias Adicionales:**  <html><br><br></html>
+
+  * El sistema muestra la **Lista** de los **Tipos de Nóminas** a los cuales se les asocia un grupo de **Conceptos para Dias Adicionales.**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefcondiasadimod.jpg|}}"></div><br></html>
+
+  * Seleccione de la Lista el **Tipo de Nómina** para la cual desea consultar los Conceptos para Dias Adicionales.  <html><br><br></html>
+
+  * El sistema automáticamente muestra los Conceptos para Dias Adicionales del Tipo de Nómina seleccionado.

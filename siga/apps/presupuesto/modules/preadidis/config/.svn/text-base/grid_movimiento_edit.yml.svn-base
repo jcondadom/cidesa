@@ -1,0 +1,72 @@
+opciones:                  # Opciones generales
+  name:                    b
+  eliminar:                false
+  tabla:                   cpmovadi
+  anchogrid:               1000
+  ancho:                   650
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Presupuestario
+  tipo:                    t
+  nombrecampo:             codpre
+  html:                    [size=50 readonly="true" ]
+  oculta:                  false
+  esgrabable:              true
+  #ajaxfila:                true
+  #catalogo:                [cpasiini, sf_admin_edit_form, { codpre: 1, mondis: 3 }, Preadidis_Cpasiini]
+2:       # Columna 2
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monmov
+  html:                    [size="8" readonly="true"]
+  oculta:                  false
+  esgrabable:              true
+  ajaxfila:                true
+  estotal:                 [true, cpadidis_totaldesde]
+3:       # Columna 3
+  titulo:                  IVA
+  tipo:                    m
+  nombrecampo:             iva
+  html:                    [size="10" readonly="true"]
+  ajaxfila:                true
+  ajaxadicionales:         {0: id, 1: cpsoladidis_adidis_D}
+  oculta:                  false
+  esgrabable:              true
+4:       # Columna 4
+  titulo:                  Monto Total
+  tipo:                    m
+  nombrecampo:             monto
+  html:                    [size="15" readonly="true" onBlur="ValidarMontoGridv2(this.id);]
+  oculta:                  false
+  esgrabable:              true
+  estotal:                 [true, cpadidis_totadi]
+5:       # Columna 5
+  titulo:                  Monto Disponible
+  tipo:                    m
+  nombrecampo:             mondis
+  html:                    [size="15" readonly="true"]
+  oculta:                  false
+  esgrabable:              true
+6:       # Columna 6
+  titulo:                  Tipo
+  tipo:                    t
+  nombrecampo:             des
+  oculta:                  false
+  esgrabable:              true
+  html:                    [size="8" readonly="true"]
+7:       # Columna 7
+  titulo:                  Distribución Período
+  tipo:                    t
+  nombrecampo:             anadir
+  esgrabable:              false
+  oculta:                  true
+  html:                    ["type='text' size='1' style='border:none' class='imagenalmacen' onClick='mostrargridperiodos(this.id)'"]  
+8:       # Columna 8
+  titulo:                  Datos periodos
+  tipo:                    t
+  nombrecampo:             datosperiodos
+  esgrabable:              true
+  oculta:                  true
+  html:                    ["size=25"]  

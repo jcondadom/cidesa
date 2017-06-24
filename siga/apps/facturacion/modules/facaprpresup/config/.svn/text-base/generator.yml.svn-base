@@ -1,0 +1,19 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fapresup
+    theme:            cidesaGenerator
+    fields:
+      grid:           { name: .}
+      fecdes:           { name: Fecha Desde}
+      fechas:           { name: Fecha Hasta}
+
+    edit:
+      title:          Aprobación de Cotización
+      display:
+        Filtros:  [_fecdes, _fechas]
+        Lista de Cotizaciones:  [_grid]
+      actions:
+        _list:        none
+        _save:        ~
+        _delete:      none

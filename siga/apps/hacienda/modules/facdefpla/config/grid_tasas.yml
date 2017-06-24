@@ -1,0 +1,23 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   fcplatas
+  anchogrid:               500
+  ancho:                   450
+  filas:                   1
+  titulo:                  'Asociar Tasas a Planillas '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             codtas
+  html:                    ["size=10 maxlength=4"]
+  esgrabable:              true
+  catalogo:                [fcdeftasas, sf_admin_edit_form, {Codtas: 1, Destas: 2}, Fcdefpla_Facdeftasas ]
+  ajaxgrid:                true
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             destas
+  html:                    ["size=50 readonly=true"]
+  esgrabable:              true

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/60589/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fadevolu/templates
+END
+autocompleteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fadevolu/templates/autocompleteSuccess.php
+END
+anularSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/58404/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fadevolu/templates/anularSuccess.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fadevolu/templates/ajaxSuccess.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fadevolu/templates/editSuccess.php
+END
+gridSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/58336/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fadevolu/templates/gridSuccess.php
+END
+_edit_footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/58404/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fadevolu/templates/_edit_footer.php
+END
+_grid.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fadevolu/templates/_grid.php
+END
+salvaranuSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/58404/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fadevolu/templates/salvaranuSuccess.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/60589/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fadevolu/templates/_edit_form.php
+END
+_filters.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/48946/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fadevolu/templates/_filters.php
+END

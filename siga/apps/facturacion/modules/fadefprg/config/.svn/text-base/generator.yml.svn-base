@@ -1,0 +1,30 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fadefprg
+    theme:            cidesaGenerator
+    fields:
+      codprg: { name: Código, params : size=5 maxlength=4  onFocus=readonly(this.id) onBlur="this.value=this.value.pad(4, '0',0);"}
+      desprg: { name: Descripción, params : size=80 maxlength=100 }
+      espae: {name: "Es PAE"}
+    list:
+      title:          Definiciones de Programas de Abastecimiento
+      fields:
+        codprg: { name: Código, params : size=5 maxlength=4  onFocus=readonly(this.id)}
+        desprg: { name: Descripción, params : size=80 maxlength=30 }
+        espae: {name: Es PAE (S->Si o N->No), params: size=1}
+      filters:        [codprg, desprg, espae]
+      display:        [=codprg, desprg]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codprg
+    edit:
+      title:          Edición de Programas de Abastecimiento
+      display:        [codprg, desprg, _espae]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

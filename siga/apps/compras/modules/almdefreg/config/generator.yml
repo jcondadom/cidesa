@@ -1,0 +1,26 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Caregiones
+    theme:            cidesaGenerator
+    fields:
+      codreg: { name: Código, params: maxlength=4 onFocus=readonly(this.id) onBlur="this.value=this.value.pad(4, '0',0);"}
+      nomreg: { name: Nombre, params: size=50 maxlength=250}
+      grid:  { name: .}
+    list:
+      title:          Definiciones de Regiones
+      filters:        [codreg, nomreg]
+      display:        [=codreg, nomreg]
+      max_per_page:   10
+      sort:  codreg
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+    edit:
+      title:          Edición de Regiones
+      display:        [codreg, nomreg, _grid]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

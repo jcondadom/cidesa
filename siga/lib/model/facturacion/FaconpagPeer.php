@@ -1,0 +1,57 @@
+<?php
+
+/**
+ * Subclase para crear funcionalidades específicas de busqueda y actualización en la tabla 'faconpag'.
+ *
+ * 
+ *
+ * @package    Roraima
+ * @subpackage lib.model
+ * @author     $Author: storres $ <desarrollo@cidesa.com.ve>
+ * @version SVN: $Id: FaconpagPeer.php 48517 2012-06-20 21:43:32Z storres $
+ * 
+ * @copyright  Copyright 2007, Cide S.A.
+ * @license    http://opensource.org/licenses/gpl-2.0.php GPLv2
+ */ 
+class FaconpagPeer extends BaseFaconpagPeer
+{
+
+    public static function getCondicionesForCombo() {
+        $c = new Criteria();
+        $obj = FaconpagPeer::doSelect($c);
+        $arr = array();
+        foreach ($obj as $ob) {
+            $arr[$ob->getCodconpag()] = $ob->getDesconpag();
+        }
+        return $arr;
+    }
+
+    public static function TipPagos($codp="", $tipc="", $conti="")
+  {
+    $resp = array();
+    if ($conti=="") {
+        $c = new Criteria();
+        $m = FaconpagPeer::doSelect($c);
+        if($m){
+          foreach($m as $mon){
+            $resp[$mon->getId()] = $mon->getDesconpag();
+          }
+        }
+    }else {
+         //print $codp.'aa'.$tipc.'ss'.$conti;
+        $c = new Criteria();
+        $c->add(FalisprcPeer::CODPRG,$codp);
+        $c->add(FalisprcPeer::CODTIPCLI,$tipc);
+        $c->add(FaconpagPeer::TIPCONPAG,$conti);
+        $c->addJoin(FaconpagPeer::ID,  FalisprcPeer::CONPAG_ID);
+        $m = FaconpagPeer::doSelect($c);
+        if($m){
+
+          foreach($m as $mon){
+            $resp[$mon->getId()] = $mon->getDesconpag();
+          }
+    }
+    }
+    return $resp;
+  }
+}

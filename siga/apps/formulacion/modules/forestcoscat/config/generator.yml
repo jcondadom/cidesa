@@ -1,0 +1,31 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Forestcoscat
+    theme:            cidesaGenerator
+    fields:
+      codcat:
+        name: Código
+        params: maxlength='."'+$('forestcoscat_longitud2').value".' onkeyDown=dFilter(event.keyCode, this,'."'+$('forestcoscat_mascara').value".')
+        catalogo:
+          catalogoweb: Fordefcatpre_Forotrcrepre
+          clase: Fordefcatpre
+          ajax: 1
+          parametros: getprincipal="getCodcat" getsecundario="getNomcat" campoprincipal="codcat" camposecundario="nomcat" campobase = "id"
+          catalogoparams: /param1/'."'+$('forestcoscat_longitud2').value+'".'
+          ajaxparams: +'."'".'&longitud='."'+$('forestcoscat_longitud2').value".'
+          divupdate: divgrid
+      grid:  { name: .}
+      gridper:   { name: .}
+      gridfue:   { name: .}
+    edit:
+      title:          Definición de Estructura de Costos por Categoría Programática
+      display:
+        "Categoria Programática":         [codcat]
+        "Estructura Costo":    [_grid, _gridper, _gridfue]
+      hide:             [mascarart, longitud, filper, filfin, totfil, mascara, longitud2]
+      actions:
+        _list:          NONE
+        _save:          ~
+        _delete:        ~
+        _create:        NONE

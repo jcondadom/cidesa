@@ -1,0 +1,5893 @@
+propel:
+  _attributes: { noXsd: false, defaultIdMethod: native, package: lib.model.licitaciones }
+  lidefemp:
+    codemp:
+      type: VARCHAR
+      size: 15
+      required: true
+    nomemp:
+      type: VARCHAR
+      size: 100
+      required: true
+    diremp:
+      type: VARCHAR
+      size: 100
+      required: true
+    telemp:
+      type: VARCHAR
+      size: 30
+      required: true
+    faxemp:
+      type: VARCHAR
+      size: 30
+    emaemp:
+      type: VARCHAR
+      size: 100
+    unitri:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    ptocta:
+      type: INTEGER
+    prebas:
+      type: INTEGER
+    expdie:
+      type: INTEGER
+    numemo:
+      type: INTEGER
+    solegr:
+      type: INTEGER
+    comint:
+      type: INTEGER
+    pliego:
+      type: INTEGER
+    aclara:
+      type: INTEGER
+    oferta:
+      type: INTEGER
+    anaofe:
+      type: INTEGER
+    recome:
+      type: INTEGER
+    ptocuecon:
+      type: INTEGER
+    notifi:
+      type: INTEGER
+    numdec:
+      type: INTEGER
+    contrat:
+      type: INTEGER
+    ordcom:
+      type: INTEGER
+    entregas:
+      type: INTEGER
+    anaemp:
+      type: INTEGER
+    penalizaciones:
+      type: INTEGER
+    actdescont:
+      type: INTEGER
+    obptocta:
+      type: INTEGER
+    obprebas:
+      type: INTEGER
+    obexpdie:
+      type: INTEGER
+    obnumemo:
+      type: INTEGER
+    obsolegr:
+      type: INTEGER
+    obpliego:
+      type: INTEGER
+    obaclara:
+      type: INTEGER
+    oboferta:
+      type: INTEGER
+    obanaofe:
+      type: INTEGER
+    obrecome:
+      type: INTEGER
+    obptocuecon:
+      type: INTEGER
+    obnotifi:
+      type: INTEGER
+    obnumdec:
+      type: INTEGER
+    obcontrat:
+      type: INTEGER
+    obactas:
+      type: INTEGER
+    obvaluaciones:
+      type: INTEGER
+    obinspecciones:
+      type: INTEGER
+    obsolpag:
+      type: INTEGER
+    obentregas:
+      type: INTEGER
+    obanaemp:
+      type: INTEGER
+    obpenalizaciones:
+      type: INTEGER
+    obactdescont:
+      type: INTEGER
+    obmodcont:
+      type: INTEGER
+    obaddendum:
+      type: INTEGER
+    codifili:
+      type: VARCHAR
+      size: 8
+    codifiob:
+      type: VARCHAR
+      size: 8
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  lisicact:
+    dessicact:
+      type: VARCHAR
+      size: 100
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  litipste:
+    desste:
+      type: VARCHAR
+      size: 100
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  lidatste:
+    coduniste:
+      type: VARCHAR
+      size: 4
+      required: true
+    desuniste:
+      type: VARCHAR
+      size: 100
+      required: true
+    litipste_id:
+      type: INTEGER
+      required: true
+      foreignTable: litipste
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    dirste:
+      type: VARCHAR
+      size: 100
+    telste:
+      type: VARCHAR
+      size: 30
+    faxste:
+      type: VARCHAR
+      size: 30
+    emaste:
+      type: VARCHAR
+      size: 100
+    codpai:
+      type: VARCHAR
+      size: 4
+    codedo:
+      type: VARCHAR
+      size: 4
+    codmun:
+      type: VARCHAR
+      size: 4
+    codpar:
+      type: VARCHAR
+      size: 4
+    codsec:
+      type: VARCHAR
+      size: 4
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+      
+      
+  lidatstedet:
+    coduniste:
+      type: VARCHAR
+      size: 4
+      required: true
+    codemp:
+      type: VARCHAR
+      size: 16
+    nomemp:
+      type: VARCHAR
+      size: 100
+    nomcar:
+      type: VARCHAR
+      size: 100
+    resolu:
+      type: VARCHAR
+      size: 20
+    fecres:
+      type: DATE
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  litipsol:
+    dessol:
+      type: VARCHAR
+      size: 100
+      required: true
+    tipsol:
+      type: VARCHAR
+      size: 1
+    maxdia:
+      type: VARCHAR
+      size: 4
+    stasol:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  licomlic:            #comision de licitacion
+    codcom:
+      type: VARCHAR
+      size: 4
+      required: true
+    descom:
+      type: VARCHAR
+      size: 500
+      required: true
+    fecnom:
+      type: DATE
+    decret:
+      type: VARCHAR
+      size: 1000
+    respon:
+      type: VARCHAR
+      size: 1000
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  lidetcom:                 #Detalle de la comision, empleados q pertenecen a ella
+    licomlic_id:
+      type: INTEGER
+      required: true
+      foreignTable: licomlic
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    codemp:
+      type: VARCHAR
+      size: 16
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liregsol:
+    numsol:
+      type: VARCHAR
+      size: 8
+      required: true
+    dessol:
+      type: VARCHAR
+      size: 500
+      required: true
+    lidatste_id:                          #Unidad Solicitante
+      type: INTEGER
+      required: true
+      foreignTable: lidatste
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    litipsol_id:                         #Tipo Solicitud
+      type: INTEGER
+      required: true
+      foreignTable: litipsol
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    fecsol:
+      type: DATE
+      required: true
+    fecres:
+      type: DATE
+    obssol:
+      type: VARCHAR
+      size: 1000
+    licomlic_id:
+      type: INTEGER
+      foreignTable: licomlic
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    codemp:
+      type: VARCHAR
+      size: 16
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liressol:
+    liregsol_id:
+      type: INTEGER
+      required: true
+      foreignTable: liregsol
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    numsol:
+      type: VARCHAR
+      size: 8
+      required: true
+    numcor:
+      type: VARCHAR
+      size: 12
+      required: true
+    codempemi:
+      type: VARCHAR
+      size: 16
+      required: true
+    codempfir:
+      type: VARCHAR
+      size: 16
+      required: true
+    ubiarc:
+      type: VARCHAR
+      size: 250
+    fecres:
+      type: DATE
+    fecfir:
+      type: DATE
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  litiplic:
+    codtiplic:
+      type: VARCHAR
+      size: 4
+      required: true
+    destiplic:
+      type: VARCHAR
+      size: 500
+      required: true
+    maxunitri:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    artley:
+      type: VARCHAR
+      size: 1000
+    canunitribie:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    canunitriobr:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  lireglic:
+    codlic:
+      type: VARCHAR
+      size: 32
+      required: true
+    deslic:
+      type: VARCHAR
+      size: 1000
+      required: true
+    litiplic_id:
+      type: INTEGER
+      required: true
+      foreignTable: litiplic
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    fecreg:
+      type: DATE
+      required: true
+    fecedi:
+      type: DATE
+    numemo:
+      type: VARCHAR
+      size: 8
+    plamodifi:
+      type: INTEGER
+    plaaclara:
+      type: INTEGER
+    plaprorro:
+      type: INTEGER
+    fecdisdes:
+      type: DATE
+      required: true
+    fecdishas:
+      type: DATE
+      required: true
+    costo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      required: true
+    forpag:
+      type: VARCHAR
+      size: 1000
+    decretos:
+      type: VARCHAR
+      size: 1000
+    dirret:
+      type: VARCHAR
+      size: 1000
+    percontac:
+      type: VARCHAR
+      size: 1000
+    horaret:
+      type: VARCHAR
+      size: 1000
+    periodico:
+      type: VARCHAR
+      size: 1000
+    fecpub:
+      type: DATE
+    pagina:
+      type: VARCHAR
+      size: 3
+    cuerpo:
+      type: VARCHAR
+      size: 1000
+    mes:
+      type: VARCHAR
+      size: 1000
+    codpaiefec:
+      type: VARCHAR
+      size: 4
+    codpairecep:
+      type: VARCHAR
+      size: 4
+    codfin:
+      type: VARCHAR
+      size: 4
+    fecofer:
+      type: DATE
+    horaofer:
+      type: VARCHAR
+      size: 1000
+    dirofer:
+      type: VARCHAR
+      size: 1000
+    percontacofer:
+      type: VARCHAR
+      size: 1000
+    codclacomp:
+      type: VARCHAR
+      size: 5
+    observaciones:
+      type: VARCHAR
+      size: 1000
+    archivopli:
+      type: VARCHAR
+      size: 100
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  lilichis:
+    codlic:
+      type: VARCHAR
+      size: 32
+      required: true
+    periodico:
+      type: VARCHAR
+      size: 1000
+    fecpub:
+      type: DATE
+    pagina:
+      type: VARCHAR
+      size: 3
+    mes:
+      type: VARCHAR
+      size: 2
+    cuerpo:
+      type: VARCHAR
+      size: 1000
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liemppar:
+    numplie:
+      type: VARCHAR
+      size: 32
+      required: true
+    numexp:
+      type: VARCHAR
+      size: 32
+      required: true
+    codpro:
+      type: VARCHAR
+      size: 15
+      required: true
+    fecret:
+      type: DATE
+    nomrepleg:
+      type: VARCHAR
+      size: 100
+    rifpro:
+      type: VARCHAR
+      size: 15
+    observaciones:
+      type: VARCHAR
+      size: 1000
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liempofe:
+    numplie:
+      type: VARCHAR
+      size: 32
+      required: true
+    numexp:
+      type: VARCHAR
+      size: 32
+      required: true
+    codpro:
+      type: VARCHAR
+      size: 15
+      required: true
+    fecofe:
+      type: DATE
+    observaciones:
+      type: VARCHAR
+      size: 1000
+    montot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  lioferpre:
+    lireglic_id:
+      type: INTEGER
+      required: true
+      foreignTable: lireglic
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    codlic:
+      type: VARCHAR
+      size: 32
+      required: true
+    codpro:
+      type: VARCHAR
+      size: 15
+      required: true
+    codpar:
+      type: VARCHAR
+      size: 32
+      required: true
+    cant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      required: true
+    precio:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      required: true
+    monsiniva:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      required: true
+    iva:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    montot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  lirecaud:                        # Recaudos
+    codrec:
+      type: VARCHAR
+      size: 4
+      required: true
+    desrec:
+      type: VARCHAR
+      size: 100
+      required: true
+    requerido:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liasplegcrieva:                        # Aspecto Legal Criterios de Evaluacion
+    codcri:
+      type: VARCHAR
+      size: 4
+      required: true
+    descri:
+      type: VARCHAR
+      size: 100
+      required: true
+    puntaje:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liaspteccrieva:                        # Aspecto Técnico Criterios de Evaluacion
+    codcri:
+      type: VARCHAR
+      size: 4
+      required: true
+    descri:
+      type: VARCHAR
+      size: 100
+      required: true
+    puntaje:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liaspfincrieva:                        # Aspecto Técnico Criterios de Evaluacion
+    codcri:
+      type: VARCHAR
+      size: 4
+      required: true
+    descri:
+      type: VARCHAR
+      size: 100
+      required: true
+    puntaje:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liasptecanalis:
+    lireglic_id:
+      type: INTEGER
+      required: true
+      foreignTable: lireglic
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    codlic:
+      type: VARCHAR
+      size: 32
+      required: true
+    codpro:
+      type: VARCHAR
+      size: 15
+      required: true
+    liaspteccrieva_id:
+      type: INTEGER
+      required: true
+      foreignTable: liaspteccrieva
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    puntaje:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liaspfinanalis:
+    lireglic_id:
+      type: INTEGER
+      required: true
+      foreignTable: lireglic
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    codlic:
+      type: VARCHAR
+      size: 32
+      required: true
+    codpro:
+      type: VARCHAR
+      size: 15
+      required: true
+    liaspfincrieva_id:
+      type: INTEGER
+      required: true
+      foreignTable: liaspfincrieva
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    puntaje:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  licalvan:
+    lireglic_id:
+      type: INTEGER
+      required: true
+      foreignTable: lireglic
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    codlic:
+      type: VARCHAR
+      size: 32
+      required: true
+    codpro:
+      type: VARCHAR
+      size: 15
+      required: true
+    vandecla:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    vanmayor:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    vanprefer:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    preadipym:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    preportot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    preevaofe:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    preajusta:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    id:
+      type: INTEGER
+      required: true
+      autoIncrement: true
+  licconcurso:
+    codcon:
+      type: VARCHAR
+      size: 2
+      required: true
+    descon:
+      type: VARCHAR
+      size: 100
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liccomres:
+    codcomres:
+      type: VARCHAR
+      size: 2
+      required: true
+    descomres:
+      type: VARCHAR
+      size: 100
+      required: true
+    porcentaje:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liprebas:
+    numpre:
+      type: VARCHAR
+      size: 32
+    codempadm:
+      type: VARCHAR
+      size: 16
+    coduniadm:
+      type: VARCHAR
+      size: 4
+    codempeje:
+      type: VARCHAR
+      size: 16
+    coduniste:
+      type: VARCHAR
+      size: 4
+    codclacomp:
+      type: VARCHAR
+      size: 5
+    fecreg:
+      type: date
+    horreg:
+      type: VARCHAR
+      size: 10
+    dias:
+      type: INTEGER
+    fecven:
+      type: DATE
+    tipcom:
+      type: VARCHAR
+      size: 1
+    codpre:
+      type: VARCHAR
+      size: 55
+    nompre:
+      type: VARCHAR
+      size: 250
+    codprio:
+      type: VARCHAR
+      size: 3
+    despro:
+      type: VARCHAR
+      size: 1000
+    monpre:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    codmon:
+      type: VARCHAR
+      size: 3
+    valcam:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    feccam:
+      type: TIMESTAMP
+    docane1:
+      type: VARCHAR
+      size: 100
+    docane2:
+      type: VARCHAR
+      size: 100
+    docane3:
+      type: VARCHAR
+      size: 100
+    status:
+      type: VARCHAR
+      size: 1
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+    prepor:
+      type: VARCHAR
+      size: 100
+    cargopre:
+      type: VARCHAR
+      size: 100
+    aprpor:
+      type: VARCHAR
+      size: 100
+    cargoapr:
+      type: VARCHAR
+      size: 100
+    tipcon:
+      type: VARCHAR
+      size: 1
+    acto:
+      type: VARCHAR
+      size: 1
+    fecdecla:
+      type: date
+    monrgo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    monsub:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    codfin:
+      type: VARCHAR
+      size: 4
+    codsec:
+      type: VARCHAR
+      size: 4
+      description:  Código de sector
+    dirobr:
+      type: VARCHAR
+      size: 1000
+      description:  Dirección de la Obra
+    codpro:
+      type: VARCHAR
+      size: 15
+      description:  Código de Proveedor
+    reqart:
+      type: VARCHAR
+      size: 15
+      description:  Código solicitud de egreso
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liprebasdet:
+    numpre:
+      type: VARCHAR
+      size: 8
+    codart:
+      type: VARCHAR
+      size: 32
+    codcat:
+      type: VARCHAR
+      size: 32
+    codpre:
+      type: VARCHAR
+      size: 55
+    unimed:
+      type: VARCHAR
+      size: 250
+    cansol:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    canapr:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    costo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    subtot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    monrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    montot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    status:
+      type: VARCHAR
+      size: 1
+    codmon:
+      type: VARCHAR
+      size: 3
+    valcam:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    codfin:
+      type: VARCHAR
+      size: 4
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liprergo:
+    numpre:
+      type: VARCHAR
+      size: 8
+    codcat:
+      type: VARCHAR
+      size: 32
+    codart:
+      type: VARCHAR
+      size: 32
+    codrgo:
+      type: VARCHAR
+      size: 4
+    monrgo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    codpre:
+      type: VARCHAR
+      size: 55
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liprergofac:
+    numpre:
+      type: VARCHAR
+      size: 8
+    codrgo:
+      type: VARCHAR
+      size: 4
+    monrgo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  limemoran:
+    numemo:
+      type: VARCHAR
+      size: 32
+      required: true
+    numpre:
+      type: VARCHAR
+      size: 32
+      required: true
+    codempadm:
+      type: VARCHAR
+      size: 16
+    coduniadm:
+      type: VARCHAR
+      size: 4
+    codempeje:
+      type: VARCHAR
+      size: 16
+    coduniste:
+      type: VARCHAR
+      size: 4
+    despro:
+      type: VARCHAR
+      size: 5000
+    docane1:
+      type: VARCHAR
+      size: 100
+    docane2:
+      type: VARCHAR
+      size: 100
+    docane3:
+      type: VARCHAR
+      size: 100
+    prepor:
+      type: VARCHAR
+      size: 100
+    preporcar:
+      type: VARCHAR
+      size: 100
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+    anapor:
+      type: VARCHAR
+      size: 100
+    anaporcar:
+      type: VARCHAR
+      size: 100
+    status:
+      type: VARCHAR
+      size: 1
+    fecreg:
+      type: date
+    dias:
+      type: INTEGER
+    fecven:
+      type: DATE
+    fecdecla:
+      type: date
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  lileycon:
+    archivocon:
+      type: VARCHAR
+      size: 100
+    archivoreg:
+      type: VARCHAR
+      size: 100
+    descripcion:
+      type: VARCHAR
+      size: 1000
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  linorcov:
+    archinorcov:
+      type: VARCHAR
+      size: 100
+    descripcion:
+      type: VARCHAR
+      size: 1000
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  licomint:
+    numcomint:
+      type: VARCHAR
+      size: 8
+    codempadm:
+      type: VARCHAR
+      size: 16
+    coduniadm:
+      type: VARCHAR
+      size: 4
+    codempeje:
+      type: VARCHAR
+      size: 16
+    coduniste:
+      type: VARCHAR
+      size: 4
+    tipcon:
+      type: VARCHAR
+      size: 1
+    fecreg:
+      type: DATE
+    dias:
+      type: INTEGER
+    fecven:
+      type: DATE
+    codclacomp:
+      type: VARCHAR
+      size: 5
+    moncom:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    codtiplic:
+      type: VARCHAR
+      size: 4
+    codmon:
+      type: VARCHAR
+      size: 3
+    tipcom:
+      type: VARCHAR
+      size: 1
+    status:
+      type: VARCHAR
+      size: 1
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+    prepor:
+      type: VARCHAR
+      size: 100
+    cargopre:
+      type: VARCHAR
+      size: 100
+    aprpor:
+      type: VARCHAR
+      size: 100
+    cargoapr:
+      type: VARCHAR
+      size: 100
+    fecdecla:
+      type: date
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  lidetcomint:
+    numcomint:
+      type: VARCHAR
+      size: 8
+    numsol:
+      type: VARCHAR
+      size: 8
+    montot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    valcam:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  lirecomen:
+    numrecofe:
+      type: VARCHAR
+      size: 32
+    numplie:
+      type: VARCHAR
+      size: 32
+    numexp:
+      type: VARCHAR
+      size: 32
+    codempadm:
+      type: VARCHAR
+      size: 16
+    coduniadm:
+      type: VARCHAR
+      size: 4
+    codempeje:
+      type: VARCHAR
+      size: 16
+    coduniste:
+      type: VARCHAR
+      size: 4
+    fecreg:
+      type: DATE
+    dias:
+      type: INTEGER
+    fecven:
+      type: DATE
+    docane1:
+      type: VARCHAR
+      size: 100
+    docane2:
+      type: VARCHAR
+      size: 100
+    docane3:
+      type: VARCHAR
+      size: 100
+    prepor:
+      type: VARCHAR
+      size: 100
+    cargopre:
+      type: VARCHAR
+      size: 100
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+    anapor:
+      type: VARCHAR
+      size: 100
+    cargoana:
+      type: VARCHAR
+      size: 100
+    status:
+      type: VARCHAR
+      size: 1
+    recomen:
+      type: VARCHAR
+      size: 1000
+    fecdecla:
+      type: DATE
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  lirecomendet:
+    numrecofe:
+      type: VARCHAR
+      size: 8
+    codpro:
+      type: VARCHAR
+      size: 15
+    punleg:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    puntec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    punfin:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    punfia:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    puntipemp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    punvan:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    punmin:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    puntot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liptocue:
+    numptocue:
+      type: VARCHAR
+      size: 32
+    numemo:
+      type: VARCHAR
+      size: 32
+      required: true
+    numpre:
+      type: VARCHAR
+      size: 32
+      required: true
+    codempadm:
+      type: VARCHAR
+      size: 16
+    coduniadm:
+      type: VARCHAR
+      size: 4
+    codempeje:
+      type: VARCHAR
+      size: 16
+    coduniste:
+      type: VARCHAR
+      size: 4
+    despro:
+      type: VARCHAR
+      size: 5000
+    docane1:
+      type: VARCHAR
+      size: 100
+    docane2:
+      type: VARCHAR
+      size: 100
+    docane3:
+      type: VARCHAR
+      size: 100
+    prepor:
+      type: VARCHAR
+      size: 100
+    preporcar:
+      type: VARCHAR
+      size: 100
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+    anapor:
+      type: VARCHAR
+      size: 100
+    anaporcar:
+      type: VARCHAR
+      size: 100
+    status:
+      type: VARCHAR
+      size: 1
+    fecreg:
+      type: date
+    dias:
+      type: INTEGER
+    fecven:
+      type: DATE
+    fecdecla:
+      type: date
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  litipemp:
+    codemp:
+      type: VARCHAR
+      size: 3
+    desemp:
+      type: VARCHAR
+      size: 250
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  lipriocon:
+    codprio:
+      type: VARCHAR
+      size: 3
+    desprio:
+      type: VARCHAR
+      size: 100
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liuniadm:
+    coduniadm:
+      type: VARCHAR
+      size: 3
+    desuniadm:
+      type: VARCHAR
+      size: 100
+    codemp:
+      type: VARCHAR
+      size: 16
+    nomemp:
+      type: VARCHAR
+      size: 100
+    nomcar:
+      type: VARCHAR
+      size: 100
+    resolu:
+      type: VARCHAR
+      size: 20
+    fecres:
+      type: DATE
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  lisolegr:
+    numsol:
+      type: VARCHAR
+      size: 32
+    numptocue:
+      type: VARCHAR
+      size: 32
+    numpre:
+      type: VARCHAR
+      size: 32
+    codempadm:
+      type: VARCHAR
+      size: 16
+    coduniadm:
+      type: VARCHAR
+      size: 4
+    codempeje:
+      type: VARCHAR
+      size: 16
+    coduniste:
+      type: VARCHAR
+      size: 4
+    despro:
+      type: VARCHAR
+      size: 1000
+    monsol:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    codmon:
+      type: VARCHAR
+      size: 3
+    valcam:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    feccam:
+      type: TIMESTAMP
+    docane1:
+      type: VARCHAR
+      size: 100
+    docane2:
+      type: VARCHAR
+      size: 100
+    docane3:
+      type: VARCHAR
+      size: 100
+    status:
+      type: VARCHAR
+      size: 1
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+    prepor:
+      type: VARCHAR
+      size: 100
+    cargopre:
+      type: VARCHAR
+      size: 100
+    aprpor:
+      type: VARCHAR
+      size: 100
+    cargoapr:
+      type: VARCHAR
+      size: 100
+    fecreg:
+      type: date
+    dias:
+      type: INTEGER
+    fecven:
+      type: DATE
+    fecdecla:
+      type: date
+    monrgo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    monsub:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    codtiplic:
+      type: VARCHAR
+      size: 4
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  lisolegrdet:
+    numsol:
+      type: VARCHAR
+      size: 8
+    codart:
+      type: VARCHAR
+      size: 32
+    codcat:
+      type: VARCHAR
+      size: 32
+    codpre:
+      type: VARCHAR
+      size: 55
+    unimed:
+      type: VARCHAR
+      size: 250
+    cansol:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    costo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    subtot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    monrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    montot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    status:
+      type: VARCHAR
+      size: 1
+    codmon:
+      type: VARCHAR
+      size: 3
+    valcam:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    codfin:
+      type: VARCHAR
+      size: 4
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  lisolegrrgo:
+    numsol:
+      type: VARCHAR
+      size: 8
+    codcat:
+      type: VARCHAR
+      size: 32
+    codart:
+      type: VARCHAR
+      size: 32
+    codrgo:
+      type: VARCHAR
+      size: 4
+    monrgo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    codpre:
+      type: VARCHAR
+      size: 55
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  lisolegrdir:
+    numsol:
+      type: VARCHAR
+      size: 8
+    codart:
+      type: VARCHAR
+      size: 32
+    cantid:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    coduniste:
+      type: VARCHAR
+      size: 4
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  limeccon:
+    codmec:
+      type: VARCHAR
+      size: 3
+    desmec:
+      type: VARCHAR
+      size: 100
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liplieesp:
+    numplie:
+      type: VARCHAR
+      size: 32
+    numcomint:
+      type: VARCHAR
+      size: 32
+    numexp:
+      type: VARCHAR
+      size: 32
+    codempadm:
+      type: VARCHAR
+      size: 16
+    coduniadm:
+      type: VARCHAR
+      size: 4
+    codempeje:
+      type: VARCHAR
+      size: 16
+    coduniste:
+      type: VARCHAR
+      size: 4
+    fecreg:
+      type: DATE
+    dias:
+      type: INTEGER
+    fecven:
+      type: DATE
+    idioma:
+      type: VARCHAR
+      size: 50
+    cosplie:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    resolu:
+      type: VARCHAR
+      size: 8
+    fecrel:
+      type: DATE
+    decret:
+      type: VARCHAR
+      size: 8
+    fecdec:
+      type: DATE
+    descrip:
+      type: VARCHAR
+      size: 1000
+    docane1:
+      type: VARCHAR
+      size: 100
+    docane2:
+      type: VARCHAR
+      size: 100
+    docane3:
+      type: VARCHAR
+      size: 100
+    prepor:
+      type: VARCHAR
+      size: 100
+    preporcar:
+      type: VARCHAR
+      size: 100
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+    anapor:
+      type: VARCHAR
+      size: 100
+    anaporcar:
+      type: VARCHAR
+      size: 100
+    status:
+      type: VARCHAR
+      size: 1
+    fecdecla:
+      type: DATE
+    porleg:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    minleg:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    portec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    mintec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    porfin:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    minfin:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    porfia:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    minfia:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    portipemp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    mintipemp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  lipliedep:
+    numplie:
+      type: VARCHAR
+      size: 8
+    numexp:
+      type: VARCHAR
+      size: 8
+    numcue:
+      type: VARCHAR
+      size: 20
+    nomcue:
+      type: VARCHAR
+      size: 100
+    tipcue:
+      type: VARCHAR
+      size: 3
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  lipliemec:
+    numplie:
+      type: VARCHAR
+      size: 8
+    numexp:
+      type: VARCHAR
+      size: 8
+    codmec:
+      type: VARCHAR
+      size: 3
+    fecsob1:
+      type: DATE
+    horsob1:
+      type: VARCHAR
+      size: 10
+    fecsob2:
+      type: DATE
+    horsob2:
+      type: VARCHAR
+      size: 10
+    dirofe:
+      type: VARCHAR
+      size: 100
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  liplieact:
+    numplie:
+      type: VARCHAR
+      size: 8
+    numexp:
+      type: VARCHAR
+      size: 8
+    desact:
+      type: VARCHAR
+      size: 500
+    fecdes:
+      type: DATE
+    hordes:
+      type: VARCHAR
+      size: 10
+    fechas:
+      type: DATE
+    horhas:
+      type: VARCHAR
+      size: 10
+    lugar:
+      type: VARCHAR
+      size: 250
+    direc:
+      type: VARCHAR
+      size: 500
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  lipliepub:
+    numplie:
+      type: VARCHAR
+      size: 8
+    numexp:
+      type: VARCHAR
+      size: 8
+    medio:
+      type: VARCHAR
+      size: 100
+    fecini:
+      type: DATE
+    fecfin:
+      type: DATE
+    dias:
+      type: INTEGER
+    pagina:
+      type: VARCHAR
+      size: 5
+    cuerpo:
+      type: VARCHAR
+      size: 5
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  lipliecrileg:
+    numplie:
+      type: VARCHAR
+      size: 8
+    numexp:
+      type: VARCHAR
+      size: 8
+    codcri:
+      type: VARCHAR
+      size: 4
+    puntua:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    porcen:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    limita:
+      type: VARCHAR
+      size: 1
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  lipliecritec:
+    numplie:
+      type: VARCHAR
+      size: 8
+    numexp:
+      type: VARCHAR
+      size: 8
+    codcri:
+      type: VARCHAR
+      size: 4
+    puntua:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    porcen:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    limita:
+      type: VARCHAR
+      size: 1
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  lipliecrifin:
+    numplie:
+      type: VARCHAR
+      size: 8
+    numexp:
+      type: VARCHAR
+      size: 8
+    codcri:
+      type: VARCHAR
+      size: 4
+    puntua:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    porcen:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    limita:
+      type: VARCHAR
+      size: 1
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  lipliecrifian:
+    numplie:
+      type: VARCHAR
+      size: 8
+    numexp:
+      type: VARCHAR
+      size: 8
+    codcomres:
+      type: VARCHAR
+      size: 4
+    puntua:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    porcen:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    empresa:
+      type: VARCHAR
+      size: 100
+    fecemi:
+      type: DATE
+    fecven:
+      type: DATE
+    limita:
+      type: VARCHAR
+      size: 1
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  liplietipemp:
+    numplie:
+      type: VARCHAR
+      size: 8
+    numexp:
+      type: VARCHAR
+      size: 8
+    codtipemp:
+      type: VARCHAR
+      size: 4
+    puntua:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    porcen:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    fecemi:
+      type: DATE
+    fecven:
+      type: DATE
+    limita:
+      type: VARCHAR
+      size: 1
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  liplieart:
+    numplie:
+      type: VARCHAR
+      size: 8
+    numexp:
+      type: VARCHAR
+      size: 8
+    codart:
+      type: VARCHAR
+      size: 32
+    cantid:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  liaclara:
+    numplie:
+      type: VARCHAR
+      size: 32
+    numexp:
+      type: VARCHAR
+      size: 32
+    numacla:
+      type: VARCHAR
+      size: 32
+    codempadm:
+      type: VARCHAR
+      size: 16
+    coduniadm:
+      type: VARCHAR
+      size: 4
+    codempeje:
+      type: VARCHAR
+      size: 16
+    coduniste:
+      type: VARCHAR
+      size: 4
+    fecreg:
+      type: DATE
+    dias:
+      type: INTEGER
+    fecven:
+      type: DATE
+    detpre:
+      type: VARCHAR
+      size: 1000
+    fecpre:
+      type: DATE
+    detres:
+      type: VARCHAR
+      size: 1000
+    fecres:
+      type: DATE
+    docane1:
+      type: VARCHAR
+      size: 100
+    docane2:
+      type: VARCHAR
+      size: 100
+    docane3:
+      type: VARCHAR
+      size: 100
+    prepor:
+      type: VARCHAR
+      size: 100
+    cargopre:
+      type: VARCHAR
+      size: 100
+    codpro:
+      type: VARCHAR
+      size: 15
+      required: true
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  liregofe:
+    numofe:
+      type: VARCHAR
+      size: 32
+    numplie:
+      type: VARCHAR
+      size: 32
+    numexp:
+      type: VARCHAR
+      size: 32
+    codempadm:
+      type: VARCHAR
+      size: 16
+    coduniadm:
+      type: VARCHAR
+      size: 4
+    codempeje:
+      type: VARCHAR
+      size: 16
+    coduniste:
+      type: VARCHAR
+      size: 4
+    fecreg:
+      type: DATE
+    dias:
+      type: INTEGER
+    fecven:
+      type: DATE
+    codpro:
+      type: VARCHAR
+      size: 15
+    codtipemp:
+      type: VARCHAR
+      size: 3
+    ofenro:
+      type: VARCHAR
+      size: 8
+    fecofe:
+      type: DATE
+    docane1:
+      type: VARCHAR
+      size: 100
+    docane2:
+      type: VARCHAR
+      size: 100
+    docane3:
+      type: VARCHAR
+      size: 100
+    docane4:
+      type: VARCHAR
+      size: 100
+    prepor:
+      type: VARCHAR
+      size: 100
+    cargopre:
+      type: VARCHAR
+      size: 100
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+    anapor:
+      type: VARCHAR
+      size: 100
+    cargoana:
+      type: VARCHAR
+      size: 100
+    status:
+      type: VARCHAR
+      size: 1
+    monofe:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    monrecofe:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    monofetot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    porvan:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    declar:
+      type: VARCHAR
+      size: 1
+    fecdecla:
+      type: DATE
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  liregofedet:
+    numofe:
+      type: VARCHAR
+      size: 8
+    codart:
+      type: VARCHAR
+      size: 32
+    unimed:
+      type: VARCHAR
+      size: 250
+    cantid:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    preuni:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    monrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    subtot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  liregofergo:
+    numofe:
+      type: VARCHAR
+      size: 8
+    codrgo:
+      type: VARCHAR
+      size: 4
+    monrgo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  liforpag:
+    numofe:
+      type: VARCHAR
+      size: 8
+    desant:
+      type: VARCHAR
+      size: 1000
+    porant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    montot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    monrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    subtot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    poramoant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    netpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    fecant:
+      type: DATE
+    condic:
+      type: VARCHAR
+      size: 1000
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    numval:
+      type: INTEGER
+      description:  Numero de valuación
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  licroent:
+    numofe:
+      type: VARCHAR
+      size: 8
+    codart:
+      type: VARCHAR
+      size: 32
+    cantid:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    coduniadm:
+      type: VARCHAR
+      size: 4
+    fecent:
+      type: DATE
+    condic:
+      type: VARCHAR
+      size: 1000
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    cantident:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    liforpag_id:
+      type: INTEGER
+      foreignTable: liforpag
+      foreignReference: id
+      description:  Valuación a cancelar
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  liregofeleg:
+    numofe:
+      type: VARCHAR
+      size: 8
+    codcri:
+      type: VARCHAR
+      size: 4
+    observ:
+      type: VARCHAR
+      size: 1000
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  liregofetec:
+    numofe:
+      type: VARCHAR
+      size: 8
+    codcri:
+      type: VARCHAR
+      size: 4
+    observ:
+      type: VARCHAR
+      size: 1000
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  liregofefin:
+    numofe:
+      type: VARCHAR
+      size: 8
+    codcri:
+      type: VARCHAR
+      size: 4
+    observ:
+      type: VARCHAR
+      size: 1000
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  liregofefia:
+    numofe:
+      type: VARCHAR
+      size: 8
+    codcomres:
+      type: VARCHAR
+      size: 4
+    observ:
+      type: VARCHAR
+      size: 1000
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  lianaofe:
+    numanaofe:
+      type: VARCHAR
+      size: 32
+    numplie:
+      type: VARCHAR
+      size: 32
+    numexp:
+      type: VARCHAR
+      size: 32
+    codempadm:
+      type: VARCHAR
+      size: 16
+    coduniadm:
+      type: VARCHAR
+      size: 4
+    codempeje:
+      type: VARCHAR
+      size: 16
+    coduniste:
+      type: VARCHAR
+      size: 4
+    fecreg:
+      type: DATE
+    dias:
+      type: INTEGER
+    fecven:
+      type: DATE
+    numofe:
+      type: VARCHAR
+      size: 8
+    docane1:
+      type: VARCHAR
+      size: 100
+    docane2:
+      type: VARCHAR
+      size: 100
+    docane3:
+      type: VARCHAR
+      size: 100
+    docane4:
+      type: VARCHAR
+      size: 100
+    prepor:
+      type: VARCHAR
+      size: 100
+    cargopre:
+      type: VARCHAR
+      size: 100
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+    anapor:
+      type: VARCHAR
+      size: 100
+    cargoana:
+      type: VARCHAR
+      size: 100
+    status:
+      type: VARCHAR
+      size: 1
+    fecdecla:
+      type: DATE
+    porleg:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    portec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    porfin:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    porfia:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    portipemp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    portot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  lianaofeleg:
+    numanaofe:
+      type: VARCHAR
+      size: 8
+    codcri:
+      type: VARCHAR
+      size: 4
+    punemp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    poremp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    observ:
+      type: VARCHAR
+      size: 1000
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  lianaofetec:
+    numanaofe:
+      type: VARCHAR
+      size: 8
+    codcri:
+      type: VARCHAR
+      size: 4
+    punemp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    poremp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    observ:
+      type: VARCHAR
+      size: 1000
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  lianaofefin:
+    numanaofe:
+      type: VARCHAR
+      size: 8
+    codcri:
+      type: VARCHAR
+      size: 4
+    punemp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    poremp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    observ:
+      type: VARCHAR
+      size: 1000
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  lianaofefia:
+    numanaofe:
+      type: VARCHAR
+      size: 8
+    codcomres:
+      type: VARCHAR
+      size: 4
+    punemp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    poremp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    observ:
+      type: VARCHAR
+      size: 1000
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  lianaofetipemp:
+    numanaofe:
+      type: VARCHAR
+      size: 8
+    codtipemp:
+      type: VARCHAR
+      size: 4
+    punemp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    poremp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    observ:
+      type: VARCHAR
+      size: 1000
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  liptocuecon:
+    numptocuecon:
+      type: VARCHAR
+      size: 32
+    numplie:
+      type: VARCHAR
+      size: 32
+    numexp:
+      type: VARCHAR
+      size: 32
+    codempadm:
+      type: VARCHAR
+      size: 16
+    coduniadm:
+      type: VARCHAR
+      size: 4
+    codempeje:
+      type: VARCHAR
+      size: 16
+    coduniste:
+      type: VARCHAR
+      size: 4
+    fecreg:
+      type: DATE
+    dias:
+      type: INTEGER
+    fecven:
+      type: DATE
+    detrecomen:
+      type: VARCHAR
+      size: 1000
+    numrecofe:
+      type: VARCHAR
+      size: 8
+    codpro:
+      type: VARCHAR
+      size: 15
+    resolu:
+      type: VARCHAR
+      size: 8
+    fecrel:
+      type: DATE
+    decret:
+      type: VARCHAR
+      size: 8
+    fecdec:
+      type: DATE
+    detdecret:
+      type: VARCHAR
+      size: 1000
+    docane1:
+      type: VARCHAR
+      size: 100
+    docane2:
+      type: VARCHAR
+      size: 100
+    docane3:
+      type: VARCHAR
+      size: 100
+    prepor:
+      type: VARCHAR
+      size: 100
+    cargopre:
+      type: VARCHAR
+      size: 100
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+    anapor:
+      type: VARCHAR
+      size: 100
+    cargoana:
+      type: VARCHAR
+      size: 100
+    status:
+      type: VARCHAR
+      size: 1
+    fecdecla:
+      type: DATE
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  linotific:
+    numnotif:
+      type: VARCHAR
+      size: 32
+    numptocuecon:
+      type: VARCHAR
+      size: 32
+    numplie:
+      type: VARCHAR
+      size: 32
+    numexp:
+      type: VARCHAR
+      size: 32
+    codempadm:
+      type: VARCHAR
+      size: 16
+    coduniadm:
+      type: VARCHAR
+      size: 4
+    codempeje:
+      type: VARCHAR
+      size: 16
+    coduniste:
+      type: VARCHAR
+      size: 4
+    fecreg:
+      type: DATE
+    dias:
+      type: INTEGER
+    fecven:
+      type: DATE
+    detrecomen:
+      type: VARCHAR
+      size: 1000
+    codpro:
+      type: VARCHAR
+      size: 15
+    direnvcor:
+      type: VARCHAR
+      size: 1000
+    docane1:
+      type: VARCHAR
+      size: 100
+    docane2:
+      type: VARCHAR
+      size: 100
+    docane3:
+      type: VARCHAR
+      size: 100
+    prepor:
+      type: VARCHAR
+      size: 100
+    cargopre:
+      type: VARCHAR
+      size: 100
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+    anapor:
+      type: VARCHAR
+      size: 100
+    cargoana:
+      type: VARCHAR
+      size: 100
+    status:
+      type: VARCHAR
+      size: 1
+    fecdecla:
+      type: DATE
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  lisolegrrgofac:
+    numsol:
+      type: VARCHAR
+      size: 8
+    codrgo:
+      type: VARCHAR
+      size: 4
+    monrgo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  liplieesphis:
+    numplie:
+      type: VARCHAR
+      size: 8
+    numcomint:
+      type: VARCHAR
+      size: 8
+    numexp:
+      type: VARCHAR
+      size: 8
+    codempadm:
+      type: VARCHAR
+      size: 16
+    coduniadm:
+      type: VARCHAR
+      size: 4
+    codempeje:
+      type: VARCHAR
+      size: 16
+    coduniste:
+      type: VARCHAR
+      size: 4
+    fecreg:
+      type: DATE
+    dias:
+      type: INTEGER
+    fecven:
+      type: DATE
+    idioma:
+      type: VARCHAR
+      size: 50
+    cosplie:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    resolu:
+      type: VARCHAR
+      size: 8
+    fecrel:
+      type: DATE
+    decret:
+      type: VARCHAR
+      size: 8
+    fecdec:
+      type: DATE
+    descrip:
+      type: VARCHAR
+      size: 1000
+    docane1:
+      type: VARCHAR
+      size: 100
+    docane2:
+      type: VARCHAR
+      size: 100
+    docane3:
+      type: VARCHAR
+      size: 100
+    prepor:
+      type: VARCHAR
+      size: 100
+    preporcar:
+      type: VARCHAR
+      size: 100
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+    anapor:
+      type: VARCHAR
+      size: 100
+    anaporcar:
+      type: VARCHAR
+      size: 100
+    status:
+      type: VARCHAR
+      size: 1
+    fecdecla:
+      type: DATE
+    porleg:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    minleg:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    portec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    mintec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    porfin:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    minfin:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    porfia:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    minfia:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    portipemp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    mintipemp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liasigdec:
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    fecdecla:
+      type: DATE
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+    anapor:
+      type: VARCHAR
+      size: 100
+    anaporcar:
+      type: VARCHAR
+      size: 100
+    status:
+      type: VARCHAR
+      size: 1
+    numdoc:
+      type: VARCHAR
+      size: 8
+    tabla:
+      type: VARCHAR
+      size: 20
+    numdec:
+      type: INTEGER
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liasigdechis:
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    fecdecla:
+      type: DATE
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+    anapor:
+      type: VARCHAR
+      size: 100
+    anaporcar:
+      type: VARCHAR
+      size: 100
+    status:
+      type: VARCHAR
+      size: 1
+    numdoc:
+      type: VARCHAR
+      size: 8
+    tabla:
+      type: VARCHAR
+      size: 20
+    numdec:
+      type: INTEGER
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  licontrat:
+    numcont:
+      type: VARCHAR
+      size: 32
+    resolu:
+      type: VARCHAR
+      size: 8
+    fecrel:
+      type: DATE
+    fecreg:
+      type: DATE
+    dias:
+      type: INTEGER
+    fecven:
+      type: DATE
+    numptocuecon:
+      type: VARCHAR
+      size: 8
+    numexp:
+      type: VARCHAR
+      size: 8
+    codempadm:
+      type: VARCHAR
+      size: 16
+    coduniadm:
+      type: VARCHAR
+      size: 4
+    codempeje:
+      type: VARCHAR
+      size: 16
+    coduniste:
+      type: VARCHAR
+      size: 4
+    codpro:
+      type: VARCHAR
+      size: 15
+    numofe:
+      type: VARCHAR
+      size: 8
+    objcont:
+      type: VARCHAR
+      size: 1000
+    sancio:
+      type: VARCHAR
+      size: 1000
+    garant:
+      type: VARCHAR
+      size: 1000
+    status:
+      type: VARCHAR
+      size: 1
+    docane1:
+      type: VARCHAR
+      size: 100
+    docane2:
+      type: VARCHAR
+      size: 100
+    docane3:
+      type: VARCHAR
+      size: 100
+    prepor:
+      type: VARCHAR
+      size: 100
+    preporcar:
+      type: VARCHAR
+      size: 100
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    fecdecla:
+      type: DATE
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+    anapor:
+      type: VARCHAR
+      size: 100
+    anaporcar:
+      type: VARCHAR
+      size: 100
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liordcom:
+    numord:
+      type: VARCHAR
+      size: 8
+    resolu:
+      type: VARCHAR
+      size: 8
+    fecrel:
+      type: DATE
+    fecreg:
+      type: DATE
+    dias:
+      type: INTEGER
+    fecven:
+      type: DATE
+    numptocuecon:
+      type: VARCHAR
+      size: 8
+    numexp:
+      type: VARCHAR
+      size: 8
+    codempadm:
+      type: VARCHAR
+      size: 16
+    coduniadm:
+      type: VARCHAR
+      size: 4
+    codempeje:
+      type: VARCHAR
+      size: 16
+    coduniste:
+      type: VARCHAR
+      size: 4
+    codpro:
+      type: VARCHAR
+      size: 15
+    numofe:
+      type: VARCHAR
+      size: 8
+    objcont:
+      type: VARCHAR
+      size: 1000
+    tipdesc:
+      type: VARCHAR
+      size: 1
+    conpag:
+      type: VARCHAR
+      size: 4
+    sancio:
+      type: VARCHAR
+      size: 1000
+    garant:
+      type: VARCHAR
+      size: 1000
+    status:
+      type: VARCHAR
+      size: 1
+    docane1:
+      type: VARCHAR
+      size: 100
+    docane2:
+      type: VARCHAR
+      size: 100
+    docane3:
+      type: VARCHAR
+      size: 100
+    prepor:
+      type: VARCHAR
+      size: 100
+    preporcar:
+      type: VARCHAR
+      size: 100
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    fecdecla:
+      type: DATE
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+    anapor:
+      type: VARCHAR
+      size: 100
+    anaporcar:
+      type: VARCHAR
+      size: 100
+    codmedcom:
+      type: VARCHAR
+      size: 4
+    codprocom:
+      type: VARCHAR
+      size: 4
+    numpro:
+      type: VARCHAR
+      size: 8
+    codpai:
+      type: VARCHAR
+      size: 4
+    codest:
+      type: VARCHAR
+      size: 4
+    codmun:
+      type: VARCHAR
+      size: 4
+    de4000:
+      type: VARCHAR
+      size: 1
+    de3798:
+      type: VARCHAR
+      size: 1
+    numsig:
+      type: VARCHAR
+      size: 8
+    fecsig:
+      type: DATE
+    expdie:
+      type: VARCHAR
+      size: 8
+    monpro:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liordcomsolegr:
+    numord:
+      type: VARCHAR
+      size: 8
+    numcomint:
+      type: VARCHAR
+      size: 8
+    numsol:
+      type: VARCHAR
+      size: 8
+    codpre:
+      type: VARCHAR
+      size: 55
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liordcomdet:
+    numord:
+      type: VARCHAR
+      size: 8
+    codart:
+      type: VARCHAR
+      size: 20
+    unimed:
+      type: VARCHAR
+      size: 250
+    cantid:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    preuni:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    monrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    subtot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  liordcomforpag:
+    numord:
+      type: VARCHAR
+      size: 8
+    desant:
+      type: VARCHAR
+      size: 1000
+    porant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    montot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    monrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    subtot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    poramoant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    netpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    fecant:
+      type: DATE
+    condic:
+      type: VARCHAR
+      size: 1000
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  liordcomcroent:
+    numord:
+      type: VARCHAR
+      size: 8
+    codart:
+      type: VARCHAR
+      size: 20
+    cantid:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    coduniadm:
+      type: VARCHAR
+      size: 4
+    fecent:
+      type: DATE
+    condic:
+      type: VARCHAR
+      size: 1000
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  liordcomfia:
+    numord:
+      type: VARCHAR
+      size: 8
+    codcomres:
+      type: VARCHAR
+      size: 4
+    observ:
+      type: VARCHAR
+      size: 1000
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  liordcomrgo:
+    numord:
+      type: VARCHAR
+      size: 8
+    codrgo:
+      type: VARCHAR
+      size: 4
+    monrgo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  litipact:
+    _attributes:
+      description:  Tipos de actas manejables por el sistema
+    codtipact:
+      type: VARCHAR
+      size: 8
+      description:  Código del tipo de acta
+    nomtipact:
+      type: VARCHAR
+      size: 100
+      description:  Nombre del tipo de acta
+    dettipact:
+      type: VARCHAR
+      size: 10000
+      description:  Detalle del acta
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+
+  liregforpagcont:
+    _attributes:
+      description:  Registro de formas de pago por contrato
+    numcont:
+      type: VARCHAR
+      size: 20
+      foreignTable: licontrat
+      foreignReference: numcont
+      description:  Código del contrato
+    desant:
+      type: VARCHAR
+      size: 1000
+    porant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    montot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    monrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    subtot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    poramoant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    netpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    fecant:
+      type: DATE
+    condic:
+      type: VARCHAR
+      size: 1000
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    numord:
+      type: VARCHAR
+      size: 10
+    numche:
+      type: VARCHAR
+      size: 10
+    feccom:
+      type: DATE
+    feccau:
+      type: DATE
+    fecpag:
+      type: DATE
+    liforpag_id:
+      type: INTEGER
+      foreignTable: liforpag
+      foreignReference: id
+      description:  Código del contrato
+    numval:
+      type: INTEGER
+      description:  Número de Valuación
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+
+  lidetactforpag:
+    _attributes:
+      description:  Detalle de la actas por fianzas de contratos
+    numcont:
+      type: VARCHAR
+      size: 20
+      foreignTable: licontrat
+      foreignReference: numcont
+      description:  Código de acta de compromiso
+    numact:
+      type: VARCHAR
+      size: 8
+      foreignTable: liactas
+      foreignReference: numact
+      description:  Código de acta
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+
+
+  liactas:
+    _attributes:
+      description:  Tipos de actas manejables por el sistema
+    numact:
+      type: VARCHAR
+      size: 8
+      description:  Código de acta de compromiso
+    numcont:
+      type: VARCHAR
+      size: 20
+      foreignTable: licontrat
+      foreignReference: numcont
+      description:  Código de acta de compromiso
+    codtipact:
+      type: VARCHAR
+      size: 8
+      foreignTable: litipact
+      foreignReference: codtipact
+      description:  Código de tipo de acta, enlazado con litipact
+    detact:
+      type: VARCHAR
+      size: 1000
+      description:  Detalle del acta
+    codempadm:
+      type: VARCHAR
+      size: 16
+      foreignTable: lidatstedet
+      foreignReference: codemp
+      description:  Código del empleado receptora del acta
+    coduniadm:
+      type: VARCHAR
+      size: 4
+      description:  Código de la unidad administrativa receptora
+    codempeje:
+      type: VARCHAR
+      size: 16
+      foreignTable: lidatstedet
+      foreignReference: codemp
+      description:  Código del empleado emisor del acta
+    coduniste:
+      type: VARCHAR
+      size: 4
+      description:  Código de la unidad emisora del acta
+    fecreg:
+      type: DATE
+      description:  Fecha de Registro del acta
+    dias:
+      type: INTEGER
+      description:  Días de vigencia del acta
+    fecven:
+      type: DATE
+      description:  Fecha de Vencimiento del Acta
+    status:
+      type: VARCHAR
+      size: 1
+      description:  Estado del acta
+    docane1:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 1
+    docane2:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 2
+    docane3:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 3
+    prepor:
+      type: VARCHAR
+      size: 100
+      description:  Preparado por
+    preporcar:
+      type: VARCHAR
+      size: 100
+      description:  Cargo del "Preparado por"
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      description:  Declaratoria de Modalidad
+    fecdecla:
+      type: DATE
+      description:  Fecha Declaratoria de Modalidad
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+      description:  Detalle Declaratoria de Modalidad
+    anapor:
+      type: VARCHAR
+      size: 100
+      description:  Analizado Por
+    anaporcar:
+      type: VARCHAR
+      size: 100
+      description:  Cargo "Analizado Por"
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  liregfiacont:
+    _attributes:
+      description:  Registro de Fianzas a contratos
+    numcont:
+      type: VARCHAR
+      size: 20
+      foreignTable: licontrat
+      foreignReference: numcont
+      description:  Código de acta de compromiso
+    codcomres:
+      type: VARCHAR
+      size: 4
+      foreignTable: liccomres
+      foreignReference: codcomres
+      description:  Código de
+    porcen:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Porcentaje de la fianza
+    empresa:
+      type: VARCHAR
+      size: 100
+      description:  Empresa de la fianza
+    fecemi:
+      type: DATE
+      description:  Fecha de Emisión
+    fecven:
+      type: DATE
+      description:  Fecha de Vencimiento
+    liregofefia_id:
+      type: INTEGER
+      foreignTable: liregofefia
+      foreignReference: id
+      description:  Enlace con la tabla liregofefia que contiene la fianza original de la oferta
+    observ:
+      type: VARCHAR
+      size: 1000
+      description:  Observación
+    estatus:
+      type: INTEGER
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  lidetactfiacont:
+    _attributes:
+      description:  Detalle de la actas por fianzas de contratos
+    numcont:
+      type: VARCHAR
+      size: 20
+      foreignTable: licontrat
+      foreignReference: numcont
+      description:  Código de acta de compromiso
+    numact:
+      type: VARCHAR
+      size: 8
+      foreignTable: liactas
+      foreignReference: numact
+      description:  Código de acta
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+
+  livaluaciones:
+    _attributes:
+      description:  Maestro de Valuaciones
+    numval:
+      type: VARCHAR
+      size: 8
+      description:  Número de la valuación
+    fecdes:
+      type: DATE
+      description:  Fecha "desde" de la valuación
+    fechas:
+      type: DATE
+      description:  Fecha "hasta" de la valuación
+    numcont:
+      type: VARCHAR
+      size: 20
+      foreignTable: licontrat
+      foreignReference: numcont
+      description:  Código de acta de compromiso
+    codempadm:
+      type: VARCHAR
+      size: 16
+      foreignTable: lidatstedet
+      foreignReference: codemp
+      description:  Código del empleado receptora de la valuación
+    coduniadm:
+      type: VARCHAR
+      size: 4
+      description:  Código de la unidad administrativa receptora
+    codempeje:
+      type: VARCHAR
+      size: 16
+      foreignTable: lidatstedet
+      foreignReference: codemp
+      description:  Código del empleado emisor de la valuación
+    coduniste:
+      type: VARCHAR
+      size: 4
+      description:  Código de la unidad emisora de la valuación
+    fecreg:
+      type: DATE
+      description:  Fecha de Registro de la valuación
+    dias:
+      type: INTEGER
+      description:  Días de vigencia de la valuación
+    fecven:
+      type: DATE
+      description:  Fecha de Vencimiento de la valuación
+    status:
+      type: VARCHAR
+      size: 1
+      description:  Estado de la valuación
+    docane1:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 1
+    docane2:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 2
+    docane3:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 3
+    prepor:
+      type: VARCHAR
+      size: 100
+      description:  Preparado por
+    preporcar:
+      type: VARCHAR
+      size: 100
+      description:  Cargo del "Preparado por"
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      description:  Declaratoria de Modalidad
+    fecdecla:
+      type: DATE
+      description:  Fecha Declaratoria de Modalidad
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+      description:  Detalle Declaratoria de Modalidad
+    anapor:
+      type: VARCHAR
+      size: 100
+      description:  Analizado Por
+    anaporcar:
+      type: VARCHAR
+      size: 100
+      description:  Cargo "Analizado Por"
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  lidetparval:
+    _attributes:
+      description:  Detalle de partidas por contrato
+    numval:
+      type: VARCHAR
+      size: 8
+      foreignTable: livaluaciones
+      foreignReference: numval
+      description:  Número de la valuación
+    codart:
+      type: VARCHAR
+      size: 32
+      description:  Código del articulo/partida
+    unimed:
+      type: VARCHAR
+      size: 250
+      description:  Unidad de Medida
+    cantid:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad Solicitada
+    preuni:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Precio Unitario
+    monrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Monto por recargo
+    subtot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  SubTotal
+    cantidvalu:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad procesada en la valuación
+    subtotvalu:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  SubTotal Valuación
+    aprobado:
+      type: BOOLEAN
+      description:  Articulo aprobado en esta valuación
+    liregcondet_id:
+      type: INTEGER
+      foreignTable: liregcondet
+      foreignReference: id
+      description:  Enlace con el Detalle de la oferta
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+
+  liinspecciones:
+    _attributes:
+      description:  Maestro de Inspecciones
+    numins:
+      type: VARCHAR
+      size: 8
+      description:  Número de la valuación
+    fecdes:
+      type: DATE
+      description:  Fecha "desde" de la valuación
+    fechas:
+      type: DATE
+      description:  Fecha "hasta" de la valuación
+    numval:
+      type: VARCHAR
+      size: 8
+      foreignTable: livaluaciones
+      foreignReference: numval
+      description:  Código de la valuación
+    detins:
+      type: VARCHAR
+      size: 10000
+    codempadm:
+      type: VARCHAR
+      size: 16
+      foreignTable: lidatstedet
+      foreignReference: codemp
+      description:  Código del empleado receptora de la valuación
+    coduniadm:
+      type: VARCHAR
+      size: 4
+      description:  Código de la unidad administrativa receptora
+    codempeje:
+      type: VARCHAR
+      size: 16
+      foreignTable: lidatstedet
+      foreignReference: codemp
+      description:  Código del empleado emisor de la valuación
+    coduniste:
+      type: VARCHAR
+      size: 4
+      description:  Código de la unidad emisora de la valuación
+    fecreg:
+      type: DATE
+      description:  Fecha de Registro de la valuación
+    dias:
+      type: INTEGER
+      description:  Días de vigencia de la valuación
+    fecven:
+      type: DATE
+      description:  Fecha de Vencimiento de la valuación
+    status:
+      type: VARCHAR
+      size: 1
+      description:  Estado de la valuación
+    docane1:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 1
+    docane2:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 2
+    docane3:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 3
+    prepor:
+      type: VARCHAR
+      size: 100
+      description:  Preparado por
+    preporcar:
+      type: VARCHAR
+      size: 100
+      description:  Cargo del "Preparado por"
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      description:  Declaratoria de Modalidad
+    fecdecla:
+      type: DATE
+      description:  Fecha Declaratoria de Modalidad
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+      description:  Detalle Declaratoria de Modalidad
+    anapor:
+      type: VARCHAR
+      size: 100
+      description:  Analizado Por
+    anaporcar:
+      type: VARCHAR
+      size: 100
+      description:  Cargo "Analizado Por"
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  lidetparins:
+    _attributes:
+      description:  Detalle de partidas por contrato
+    numins:
+      type: VARCHAR
+      size: 8
+      foreignTable: liinspecciones
+      foreignReference: numins
+      description:  Número de la inspección
+    lidetparval_id:
+      type: INTEGER
+      foreignTable: lidetparval
+      foreignReference: id
+      description:  Detalle de la partida de la valuación
+    cantidins:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad procesada en la inspección
+    subtotins:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Total de la inspección
+    aprobado:
+      type: BOOLEAN
+      description:  Articulo aprobado en esta valuación
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  lidetactins:
+    _attributes:
+      description:  Detalle de la actas por fianzas de contratos
+    numins:
+      type: VARCHAR
+      size: 8
+      foreignTable: liinspecciones
+      foreignReference: numins
+      description:  Número de la inspección
+    numact:
+      type: VARCHAR
+      size: 8
+      foreignTable: liactas
+      foreignReference: numact
+      description:  Código de acta
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+
+
+  lientregas:
+    _attributes:
+      description:  Maestro de Entregas
+    nument:
+      type: VARCHAR
+      size: 8
+      description:  Número de la entrega
+    numcont:
+      type: VARCHAR
+      size: 20
+      foreignTable: licontrat
+      foreignReference: numcont
+      description:  Código del contrato
+    desent:
+      type: VARCHAR
+      size: 1000
+    codempadm:
+      type: VARCHAR
+      size: 16
+      foreignTable: lidatstedet
+      foreignReference: codemp
+      description:  Código del empleado receptora de la valuación
+    coduniadm:
+      type: VARCHAR
+      size: 4
+      description:  Código de la unidad administrativa receptora
+    codempeje:
+      type: VARCHAR
+      size: 16
+      foreignTable: lidatstedet
+      foreignReference: codemp
+      description:  Código del empleado emisor de la valuación
+    coduniste:
+      type: VARCHAR
+      size: 4
+      description:  Código de la unidad emisora de la valuación
+    fecreg:
+      type: DATE
+      description:  Fecha de Registro de la valuación
+    dias:
+      type: INTEGER
+      description:  Días de vigencia de la valuación
+    fecven:
+      type: DATE
+      description:  Fecha de Vencimiento de la valuación
+    status:
+      type: VARCHAR
+      size: 1
+      description:  Estado de la valuación
+    docane1:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 1
+    docane2:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 2
+    docane3:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 3
+    prepor:
+      type: VARCHAR
+      size: 100
+      description:  Preparado por
+    preporcar:
+      type: VARCHAR
+      size: 100
+      description:  Cargo del "Preparado por"
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      description:  Declaratoria de Modalidad
+    fecdecla:
+      type: DATE
+      description:  Fecha Declaratoria de Modalidad
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+      description:  Detalle Declaratoria de Modalidad
+    anapor:
+      type: VARCHAR
+      size: 100
+      description:  Analizado Por
+    anaporcar:
+      type: VARCHAR
+      size: 100
+      description:  Cargo "Analizado Por"
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+
+  lidetcroentcont:
+    _attributes:
+      description:  Detalle de cronogramas de entregas de contratos
+    nument:
+      type: VARCHAR
+      size: 8
+      foreignTable: lientregas
+      foreignReference: nument
+      description:  Numero de la entrega
+    codart:
+      type: VARCHAR
+      size: 32
+      description:  Código del artículo
+    cantid:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad pedida
+    coduniadm:
+      type: VARCHAR
+      size: 4
+      foreignTable: liuniadm
+      foreignReference: coduniadm
+      description:  Código de la unidad administrativa
+    fecentcont:
+      type: DATE
+      description:  Fecha de Entrega en el contrato
+    fecent:
+      type: DATE
+      description:  Fecha de Entrega por parte del proveedor (modificada)
+    condic:
+      type: VARCHAR
+      size: 1000
+      description:  Condición de la entrega
+    cantidrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad recibida
+    fecrec:
+      type: DATE
+      description:  Fecha de recepción
+    observacion:
+      type: VARCHAR
+      size: 1000
+      description:  Observación sobre la entre del articulo/servicio/obra
+    tipconpub:
+      type: VARCHAR
+      size: 1
+      description:  Tipo de contato (Obra/Articulos)
+    licroent_id:
+      type: VARCHAR
+      size: 4
+      foreignTable: licroent
+      foreignReference: id
+      description:  Cronograma de entrega original del contrato
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  lidetcroentcontob:
+    _attributes:
+      description:  Detalle de cronogramas de entregas de contratos de obras
+    numcont:
+      type: VARCHAR
+      size: 20
+      foreignTable: licontrat
+      foreignReference: numcont
+      description:  Numero contrato de obras
+    codart:
+      type: VARCHAR
+      size: 32
+      description:  Código del artículo
+    cantid:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad pedida
+    coduniadm:
+      type: VARCHAR
+      size: 4
+      foreignTable: liuniadm
+      foreignReference: coduniadm
+      description:  Código de la unidad administrativa
+    fecentcont:
+      type: DATE
+      description:  Fecha de Entrega en el contrato
+    fecent:
+      type: DATE
+      description:  Fecha de Entrega por parte del proveedor (modificada)
+    condic:
+      type: VARCHAR
+      size: 1000
+      description:  Condición de la entrega
+    cantidrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad recibida
+    fecrec:
+      type: DATE
+      description:  Fecha de recepción
+    observacion:
+      type: VARCHAR
+      size: 1000
+      description:  Observación sobre la entre del articulo/servicio/obra
+    tipconpub:
+      type: VARCHAR
+      size: 1
+      description:  Tipo de contato (Obra/Articulos)
+    numval:
+      type: INTEGER
+      description:  Número de Valuación
+    licroent_id:
+      type: VARCHAR
+      size: 4
+      foreignTable: licroent
+      foreignReference: id
+      description:  Cronograma de entrega original del contrato
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  lidetactcroent:
+    _attributes:
+      description:  Detalle de las actas por cronograma de entrega
+    nument:
+      type: VARCHAR
+      size: 8
+      foreignTable: lientregas
+      foreignReference: nument
+      description:  Número de entrega
+    numact:
+      type: VARCHAR
+      size: 8
+      foreignTable: liactas
+      foreignReference: numact
+      description:  Código de acta
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+
+
+  liactdescont:
+    _attributes:
+      description:  Actuación y desempeño de la contratista
+    numactdes:
+      type: VARCHAR
+      size: 8
+      description:  Número de la evaluación de desempeño
+    numcont:
+      type: VARCHAR
+      size: 20
+      foreignTable: licontrat
+      foreignReference: numcont
+      description:  Número de la valuación
+    detactdes:
+      type: VARCHAR
+      size: 1000
+      description:  Detalle del acta
+    codempadm:
+      type: VARCHAR
+      size: 16
+      foreignTable: lidatstedet
+      foreignReference: codemp
+      description:  Código del empleado receptora del acta
+    coduniadm:
+      type: VARCHAR
+      size: 4
+      description:  Código de la unidad administrativa receptora
+    codempeje:
+      type: VARCHAR
+      size: 16
+      foreignTable: lidatstedet
+      foreignReference: codemp
+      description:  Código del empleado emisor del acta
+    coduniste:
+      type: VARCHAR
+      size: 4
+      description:  Código de la unidad emisora del acta
+    fecreg:
+      type: DATE
+      description:  Fecha de Registro del acta
+    dias:
+      type: INTEGER
+      description:  Días de vigencia del acta
+    fecven:
+      type: DATE
+      description:  Fecha de Vencimiento del Acta
+    status:
+      type: VARCHAR
+      size: 1
+      description:  Estado del acta
+    docane1:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 1
+    docane2:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 2
+    docane3:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 3
+    prepor:
+      type: VARCHAR
+      size: 100
+      description:  Preparado por
+    preporcar:
+      type: VARCHAR
+      size: 100
+      description:  Cargo del "Preparado por"
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      description:  Declaratoria de Modalidad
+    fecdecla:
+      type: DATE
+      description:  Fecha Declaratoria de Modalidad
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+      description:  Detalle Declaratoria de Modalidad
+    anapor:
+      type: VARCHAR
+      size: 100
+      description:  Analizado Por
+    anaporcar:
+      type: VARCHAR
+      size: 100
+      description:  Cargo "Analizado Por"
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+
+  lidetactcroent:
+    _attributes:
+      description:  Detalle de las actas por solicitud de pago
+    numsolpag:
+      type: VARCHAR
+      size: 8
+      foreignTable: lisolpag
+      foreignReference: numsolpag
+      description:  Número de solicitud de pago
+    numact:
+      type: VARCHAR
+      size: 8
+      foreignTable: liactas
+      foreignReference: numact
+      description:  Código de acta
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+
+
+  lidetactactdescont:
+    _attributes:
+      description:  Detalle de la actas por analisis de actuación y desempeño del contrato
+    numactdes:
+      type: VARCHAR
+      size: 8
+      foreignTable: liactdescont
+      foreignReference: numactdes
+      description:  Código de acta de compromiso
+    numact:
+      type: VARCHAR
+      size: 8
+      foreignTable: liactas
+      foreignReference: numact
+      description:  Código de acta
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+
+  lisolpag:
+    _attributes:
+      description:  Solicitud de Pagos
+    numsolpag:
+      type: VARCHAR
+      size: 8
+      description:  Numero de solicitud de pago
+    numcont:
+      type: VARCHAR
+      size: 20
+      foreignTable: licontrat
+      foreignReference: numcont
+      description:  Numero del contrato (para servicios/bienes y obras)
+    numval:
+      type: VARCHAR
+      size: 8
+      foreignTable: livaluaciones
+      foreignReference: numval
+      description:  Numero de la valuación (solo para obras)
+    obssolpag:
+      type: VARCHAR
+      size: 1000
+      description:  Observacion de la solicitud de pago
+    codempadm:
+      type: VARCHAR
+      size: 16
+      foreignTable: lidatstedet
+      foreignReference: codemp
+      description:  Código del empleado receptora del acta
+    coduniadm:
+      type: VARCHAR
+      size: 4
+      description:  Código de la unidad administrativa receptora
+    codempeje:
+      type: VARCHAR
+      size: 16
+      foreignTable: lidatstedet
+      foreignReference: codemp
+      description:  Código del empleado emisor del acta
+    coduniste:
+      type: VARCHAR
+      size: 4
+      description:  Código de la unidad emisora del acta
+    fecreg:
+      type: DATE
+      description:  Fecha de Registro del acta
+    dias:
+      type: INTEGER
+      description:  Días de vigencia del acta
+    fecven:
+      type: DATE
+      description:  Fecha de Vencimiento del Acta
+    status:
+      type: VARCHAR
+      size: 1
+      description:  Estado del acta
+    docane1:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 1
+    docane2:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 2
+    docane3:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 3
+    prepor:
+      type: VARCHAR
+      size: 100
+      description:  Preparado por
+    preporcar:
+      type: VARCHAR
+      size: 100
+      description:  Cargo del "Preparado por"
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      description:  Declaratoria de Modalidad
+    fecdecla:
+      type: DATE
+      description:  Fecha Declaratoria de Modalidad
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+      description:  Detalle Declaratoria de Modalidad
+    anapor:
+      type: VARCHAR
+      size: 100
+      description:  Analizado Por
+    anaporcar:
+      type: VARCHAR
+      size: 100
+      description:  Cargo "Analizado Por"
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+
+  lidetactsolpag:
+    _attributes:
+      description:  Detalle de las actas por solicitud de pago
+    numsolpag:
+      type: VARCHAR
+      size: 8
+      foreignTable: lisolpag
+      foreignReference: numsolpag
+      description:  Número de solicitud de pago
+    numact:
+      type: VARCHAR
+      size: 8
+      foreignTable: liactas
+      foreignReference: numact
+      description:  Código de acta
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+
+  lipenalizaciones:
+    _attributes:
+      description:  Penalizaciones a la contratista
+    numpen:
+      type: VARCHAR
+      size: 8
+      description:  Número de la evaluación de desempeño
+    numcont:
+      type: VARCHAR
+      size: 20
+      foreignTable: licontrat
+      foreignReference: numcont
+      description:  Número de la valuación
+    detpen:
+      type: VARCHAR
+      size: 1000
+      description:  Detalle de la penalización
+    codtippen:
+      type: INTEGER
+      foreignTable: litippen
+      foreignReference: codtippen
+      description:  Tipo de Pensalización
+
+    codempadm:
+      type: VARCHAR
+      size: 16
+      foreignTable: lidatstedet
+      foreignReference: codemp
+      description:  Código del empleado receptora del acta
+    coduniadm:
+      type: VARCHAR
+      size: 4
+      description:  Código de la unidad administrativa receptora
+    codempeje:
+      type: VARCHAR
+      size: 16
+      foreignTable: lidatstedet
+      foreignReference: codemp
+      description:  Código del empleado emisor del acta
+    coduniste:
+      type: VARCHAR
+      size: 4
+      description:  Código de la unidad emisora del acta
+    fecreg:
+      type: DATE
+      description:  Fecha de Registro del acta
+    dias:
+      type: INTEGER
+      description:  Días de vigencia del acta
+    fecven:
+      type: DATE
+      description:  Fecha de Vencimiento del Acta
+    status:
+      type: VARCHAR
+      size: 1
+      description:  Estado del acta
+    docane1:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 1
+    docane2:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 2
+    docane3:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 3
+    prepor:
+      type: VARCHAR
+      size: 100
+      description:  Preparado por
+    preporcar:
+      type: VARCHAR
+      size: 100
+      description:  Cargo del "Preparado por"
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      description:  Declaratoria de Modalidad
+    fecdecla:
+      type: DATE
+      description:  Fecha Declaratoria de Modalidad
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+      description:  Detalle Declaratoria de Modalidad
+    anapor:
+      type: VARCHAR
+      size: 100
+      description:  Analizado Por
+    anaporcar:
+      type: VARCHAR
+      size: 100
+      description:  Cargo "Analizado Por"
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  lianaemp:
+    numanaemp:
+      type: VARCHAR
+      size: 32
+    numplie:
+      type: VARCHAR
+      size: 32
+    numexp:
+      type: VARCHAR
+      size: 32
+    codempadm:
+      type: VARCHAR
+      size: 16
+    coduniadm:
+      type: VARCHAR
+      size: 4
+    codempeje:
+      type: VARCHAR
+      size: 16
+    coduniste:
+      type: VARCHAR
+      size: 4
+    codpro:
+      type: VARCHAR
+      size: 15
+    fecreg:
+      type: DATE
+    dias:
+      type: INTEGER
+    fecven:
+      type: DATE
+    docane1:
+      type: VARCHAR
+      size: 100
+    docane2:
+      type: VARCHAR
+      size: 100
+    docane3:
+      type: VARCHAR
+      size: 100
+    prepor:
+      type: VARCHAR
+      size: 100
+    cargopre:
+      type: VARCHAR
+      size: 100
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      onDelete:
+      onUpdate:
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+    anapor:
+      type: VARCHAR
+      size: 100
+    cargoana:
+      type: VARCHAR
+      size: 100
+    status:
+      type: VARCHAR
+      size: 1
+    fecdecla:
+      type: DATE
+    porleg:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    portec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    porfin:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    portot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  lianaempleg:
+    numanaemp:
+      type: VARCHAR
+      size: 8
+    codcri:
+      type: VARCHAR
+      size: 4
+    punemp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    poremp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    observ:
+      type: VARCHAR
+      size: 1000
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  lianaemptec:
+    numanaemp:
+      type: VARCHAR
+      size: 8
+    codcri:
+      type: VARCHAR
+      size: 4
+    punemp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    poremp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    observ:
+      type: VARCHAR
+      size: 1000
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  lianaempfin:
+    numanaemp:
+      type: VARCHAR
+      size: 8
+    codcri:
+      type: VARCHAR
+      size: 4
+    punemp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    poremp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    observ:
+      type: VARCHAR
+      size: 1000
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  lidetactpen:
+    _attributes:
+      description:  Detalle de la actas por penalización
+    numpen:
+      type: VARCHAR
+      size: 8
+      foreignTable: lipenalizaciones
+      foreignReference: numpen
+      description:  Código de acta de compromiso
+    numact:
+      type: VARCHAR
+      size: 8
+      foreignTable: liactas
+      foreignReference: numact
+      description:  Código de acta
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+
+  litippen:
+    _attributes:
+      description:  Tipos de penalizaciones manejables por el sistema
+    codtippen:
+      type: VARCHAR
+      size: 8
+      description:  Código del tipo de penalización
+    nomtippen:
+      type: VARCHAR
+      size: 100
+      description:  Nombre de la penalización
+    dettippen:
+      type: VARCHAR
+      size: 10000
+      description:  Detalle de la penalización
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+
+# Detalle del contrato
+  liregcondet:
+    _attributes:
+      description:  Registro de detalle del el contrato
+    numcont:
+      type: VARCHAR
+      size: 20
+      foreignTable: licontrat
+      foreignReference: numcont
+      description:  Código del contrato
+    codart:
+      type: VARCHAR
+      size: 32
+      description:  Código del articulo/partida
+    unimed:
+      type: VARCHAR
+      size: 250
+      description:  Unidad de Medida
+    cantid:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad del presupuesto base (viene de la oferta)
+    preuni:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Precio unitario del presupuesto base (viene de la oferta)
+    monrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Recargo del presupuesto base (viene de la oferta)
+    cantidaum:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad aumentada por "Aumentos"
+    cantiddis:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad Disminuida por "Disminuciones"
+    preunirec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Precio unitario reconsiderado. Aumentos/Disminuciones/Obras Extras
+    monrecrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Monto de Recargo por Reconsideraciones de Precios. Aumentos/Disminuciones/Obras Extras
+    cantidadd:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad por addendums
+    preuniadd:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Precio Unitario por Addendum
+    monrecadd:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Monto Recargo por Addendum
+    cantidtot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad total
+    subtot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    liregofedet_id:
+      type: INTEGER
+      foreignTable: liregofedet
+      foreignReference: id
+      description:  Código del detalle de la oferta
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  liregconrgo:
+    numcont:
+      type: VARCHAR
+      size: 20
+      foreignTable: licontrat
+      foreignReference: numcont
+      description:  Código del contrato
+    codrgo:
+      type: VARCHAR
+      size: 4
+    monrgo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+
+
+  limodcont:
+    _attributes:
+      description:  Modificaciones de contratos / Aumentos, disminuciones y/o Obras Extras
+    nummod:
+      type: VARCHAR
+      size: 8
+      description:  Número de modificación del contrato
+    tipmod:
+      type: VARCHAR
+      size: 8
+      foreignTable: litipmod
+      foreignReference: codtipmod
+      description:  Tipo de Modificación de contratos
+    numcont:
+      type: VARCHAR
+      size: 20
+      foreignTable: licontrat
+      foreignReference: numcont
+      description:  Número de la valuación
+    detmod:
+      type: VARCHAR
+      size: 1000
+      description:  Detalle de la penalización
+    codtipmod:
+      type: INTEGER
+      foreignTable: litipmod
+      foreignReference: codtipmod
+      description:  Tipo de Modificación
+    codempadm:
+      type: VARCHAR
+      size: 16
+      foreignTable: lidatstedet
+      foreignReference: codemp
+      description:  Código del empleado receptora del acta
+    coduniadm:
+      type: VARCHAR
+      size: 4
+      description:  Código de la unidad administrativa receptora
+    codempeje:
+      type: VARCHAR
+      size: 16
+      foreignTable: lidatstedet
+      foreignReference: codemp
+      description:  Código del empleado emisor del acta
+    coduniste:
+      type: VARCHAR
+      size: 4
+      description:  Código de la unidad emisora del acta
+    fecreg:
+      type: DATE
+      description:  Fecha de Registro del acta
+    dias:
+      type: INTEGER
+      description:  Días de vigencia del acta
+    fecven:
+      type: DATE
+      description:  Fecha de Vencimiento del Acta
+    status:
+      type: VARCHAR
+      size: 1
+      description:  Estado del acta
+    docane1:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 1
+    docane2:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 2
+    docane3:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 3
+    prepor:
+      type: VARCHAR
+      size: 100
+      description:  Preparado por
+    preporcar:
+      type: VARCHAR
+      size: 100
+      description:  Cargo del "Preparado por"
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      description:  Declaratoria de Modalidad
+    fecdecla:
+      type: DATE
+      description:  Fecha Declaratoria de Modalidad
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+      description:  Detalle Declaratoria de Modalidad
+    anapor:
+      type: VARCHAR
+      size: 100
+      description:  Analizado Por
+    anaporcar:
+      type: VARCHAR
+      size: 100
+      description:  Cargo "Analizado Por"
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+
+  litipmod:
+    _attributes:
+      description:  Tipos de modificaciones a contratos
+    codtipmod:
+      type: VARCHAR
+      size: 8
+      description:  Código del tipo de modificación
+    nomtipmod:
+      type: VARCHAR
+      size: 100
+      description:  Nombre de la modificación
+    dettipmod:
+      type: VARCHAR
+      size: 10000
+      description:  Detalle de la modificación
+    tipo:
+      type: VARCHAR
+      size: 1
+      description:  Tipo de modificación, define el comportamiento del formulario de modificación. (Obras Extras(E)/Obras Nuevas(N)/Obras Complementarias(C))
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+
+  liregmodcondet:
+    _attributes:
+      description:  Detalle de modificación de contratos
+    nummod:
+      type: VARCHAR
+      size: 8
+      foreignTable: limodcont
+      foreignReference: nummod
+      description:  Número de la modificación
+    codart:
+      type: VARCHAR
+      size: 32
+      description:  Código del articulo/partida
+    unimed:
+      type: VARCHAR
+      size: 250
+      description:  Unidad de Medida
+    cantid:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad del presupuesto base (viene de la oferta)
+    preuni:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Precio unitario del presupuesto base (viene de la oferta)
+    monrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Recargo del presupuesto base (viene de la oferta)
+    cantidaum:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad aumentada por "Aumentos"
+    cantiddis:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad Disminuida por "Disminuciones"
+    preunirec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Precio unitario reconsiderado. Aumentos/Disminuciones/Obras Extras
+    monrecrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Monto de Recargo por Reconsideraciones de Precios. Aumentos/Disminuciones/Obras Extras
+    cantidadd:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad por addendums
+    preuniadd:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Precio Unitario por Addendum
+    monrecadd:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Monto Recargo por Addendum
+    cantidtot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad total
+    subtot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    tipo:
+      type: VARCHAR
+      size: 1
+      description:  Tipo de Modificación
+    eliminada:
+      type: BOOLEAN
+      description:  Partida Eliminada
+    liregcondet_id:
+      type: INTEGER
+      foreignTable: liregcondet
+      foreignReference: id
+      description:  Enlace con el presupuesto base del contrato si aplica
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+
+  liaddendum:
+    _attributes:
+      description:  Addendum de contratos
+    numadd:
+      type: VARCHAR
+      size: 8
+      description:  Número del addendum
+    tipadd:
+      type: VARCHAR
+      size: 8
+      foreignTable: litipadd
+      foreignReference: codtipadd
+      description:  Tipo de addendum
+    numcont:
+      type: VARCHAR
+      size: 20
+      foreignTable: licontrat
+      foreignReference: numcont
+      description:  Número de la valuación
+    detmod:
+      type: VARCHAR
+      size: 1000
+      description:  Detalle de la penalización
+    codtipmod:
+      type: INTEGER
+      foreignTable: litipmod
+      foreignReference: codtipmod
+      description:  Tipo de Modificación
+    codempadm:
+      type: VARCHAR
+      size: 16
+      foreignTable: lidatstedet
+      foreignReference: codemp
+      description:  Código del empleado receptora del acta
+    coduniadm:
+      type: VARCHAR
+      size: 4
+      description:  Código de la unidad administrativa receptora
+    codempeje:
+      type: VARCHAR
+      size: 16
+      foreignTable: lidatstedet
+      foreignReference: codemp
+      description:  Código del empleado emisor del acta
+    coduniste:
+      type: VARCHAR
+      size: 4
+      description:  Código de la unidad emisora del acta
+    fecreg:
+      type: DATE
+      description:  Fecha de Registro del acta
+    dias:
+      type: INTEGER
+      description:  Días de vigencia del acta
+    fecven:
+      type: DATE
+      description:  Fecha de Vencimiento del Acta
+    status:
+      type: VARCHAR
+      size: 1
+      description:  Estado del acta
+    docane1:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 1
+    docane2:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 2
+    docane3:
+      type: VARCHAR
+      size: 100
+      description:  Documento adicional 3
+    prepor:
+      type: VARCHAR
+      size: 100
+      description:  Preparado por
+    preporcar:
+      type: VARCHAR
+      size: 100
+      description:  Cargo del "Preparado por"
+    lisicact_id:
+      type: INTEGER
+      foreignTable: lisicact
+      foreignReference: id
+      description:  Declaratoria de Modalidad
+    fecdecla:
+      type: DATE
+      description:  Fecha Declaratoria de Modalidad
+    detdecmod:
+      type: VARCHAR
+      size: 1000
+      description:  Detalle Declaratoria de Modalidad
+    anapor:
+      type: VARCHAR
+      size: 100
+      description:  Analizado Por
+    anaporcar:
+      type: VARCHAR
+      size: 100
+      description:  Cargo "Analizado Por"
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+
+  litipadd:
+    _attributes:
+      description:  Tipos de addendums de contratos
+    codtipadd:
+      type: VARCHAR
+      size: 8
+      description:  Código del tipo de addendum
+    nomtipadd:
+      type: VARCHAR
+      size: 100
+      description:  Nombre del tipo de addendum
+    dettipadd:
+      type: VARCHAR
+      size: 10000
+      description:  Detalle del tipo de addendum
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+
+  liregaddcondet:
+    _attributes:
+      description:  Detalle de addendum a contratos
+    numadd:
+      type: VARCHAR
+      size: 8
+      foreignTable: liaddendum
+      foreignReference: numadd
+      description:  Número de addendum
+    codart:
+      type: VARCHAR
+      size: 32
+      description:  Código del articulo/partida
+    unimed:
+      type: VARCHAR
+      size: 250
+      description:  Unidad de Medida
+    cantid:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad del presupuesto base (viene de la oferta)
+    preuni:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Precio unitario del presupuesto base (viene de la oferta)
+    monrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Recargo del presupuesto base (viene de la oferta)
+    cantidaum:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad aumentada por "Aumentos"
+    preuniaum:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Precio unitario modificado por "Aumentos"
+    monrecaum:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Monto de Recargo por "Aumentos"
+    cantiddis:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad Disminuida por "Disminuciones"
+    preunidis:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Precio unitario unitario por "Dismuniciones"
+    monrecdis:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Monto de Recargo por "Disminuciones"
+    cantidadd:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad por addendums
+    preuniadd:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Precio Unitario por Addendum
+    monrecadd:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Monto Recargo por Addendum
+    subtot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+
+
+  lidetactmod:
+    _attributes:
+      description:  Detalle de las actas por modificación de contrato
+    nummod:
+      type: VARCHAR
+      size: 8
+      foreignTable: limodcont
+      foreignReference: nummod
+      description:  Código de modificación de contrato
+    numact:
+      type: VARCHAR
+      size: 8
+      foreignTable: liactas
+      foreignReference: numact
+      description:  Código de acta
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+
+  lidetactadd:
+    _attributes:
+      description:  Detalle de la actas por addendum
+    numadd:
+      type: VARCHAR
+      size: 8
+      foreignTable: liaddendum
+      foreignReference: numadd
+      description:  Código del addenddum de contrato
+    numact:
+      type: VARCHAR
+      size: 8
+      foreignTable: liactas
+      foreignReference: numact
+      description:  Código de acta
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+
+
+  lidetcroentmodcont:
+    _attributes:
+      description:  Detalle de cronogramas de entregas de contratos modificados. Aumentos/Disminuciones/Obras Extras
+    nummod:
+      type: VARCHAR
+      size: 8
+      foreignTable: limodcont
+      foreignReference: nummod
+      description:  Numero de la modificación del contrato
+    codart:
+      type: VARCHAR
+      size: 32
+      description:  Código del artículo
+    cantid:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad pedida
+    coduniadm:
+      type: VARCHAR
+      size: 4
+      foreignTable: liuniadm
+      foreignReference: coduniadm
+      description:  Código de la unidad administrativa
+    fecentcont:
+      type: DATE
+      description:  Fecha de Entrega en el contrato
+    fecent:
+      type: DATE
+      description:  Fecha de Entrega por parte del proveedor (modificada)
+    condic:
+      type: VARCHAR
+      size: 1000
+      description:  Condición de la entrega
+    cantidrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad recibida
+    fecrec:
+      type: DATE
+      description:  Fecha de recepción
+    observacion:
+      type: VARCHAR
+      size: 1000
+      description:  Observación sobre la entre del articulo/servicio/obra
+    tipconpub:
+      type: VARCHAR
+      size: 1
+      description:  Tipo de contato (Obra/Articulos)
+    lidetcroentcontob_id:
+      type: VARCHAR
+      size: 4
+      foreignTable: lidetcroentcontob
+      foreignReference: id
+      description:  Cronograma de entrega original del contrato
+    numval:
+      type: INTEGER
+      description:  Numero de valuación
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+
+  liregforpagmodcont:
+    _attributes:
+      description:  Registro de formas de pago por modificacion de contrato
+    nummod:
+      type: VARCHAR
+      size: 8
+      foreignTable: limodcont
+      foreignReference: nummod
+      description:  Código de la modificación del contrato
+    desant:
+      type: VARCHAR
+      size: 1000
+    porant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    montot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    monrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    subtot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    poramoant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    netpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    fecant:
+      type: DATE
+    condic:
+      type: VARCHAR
+      size: 1000
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    numord:
+      type: VARCHAR
+      size: 10
+    numche:
+      type: VARCHAR
+      size: 10
+    feccom:
+      type: DATE
+    feccau:
+      type: DATE
+    fecpag:
+      type: DATE
+    liregforpagcont_id:
+      type: INTEGER
+      foreignTable: liregforpagcont
+      foreignReference: id
+      description:  Código del contrato
+    numval:
+      type: INTEGER
+      description:  Numero de Valuación
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+
+
+  lidetcroentaddcont:
+    _attributes:
+      description:  Detalle de cronogramas de entregas de addendums de contratos.
+    numadd:
+      type: VARCHAR
+      size: 8
+      foreignTable: liaddendum
+      foreignReference: numadd
+      description:  Numero del addendum
+    codart:
+      type: VARCHAR
+      size: 32
+      description:  Código del artículo
+    cantid:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad pedida
+    coduniadm:
+      type: VARCHAR
+      size: 4
+      foreignTable: liuniadm
+      foreignReference: coduniadm
+      description:  Código de la unidad administrativa
+    fecentcont:
+      type: DATE
+      description:  Fecha de Entrega en el contrato
+    fecent:
+      type: DATE
+      description:  Fecha de Entrega por parte del proveedor (modificada)
+    condic:
+      type: VARCHAR
+      size: 1000
+      description:  Condición de la entrega
+    cantidrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Cantidad recibida
+    fecrec:
+      type: DATE
+      description:  Fecha de recepción
+    observacion:
+      type: VARCHAR
+      size: 1000
+      description:  Observación sobre la entre del articulo/servicio/obra
+    tipconpub:
+      type: VARCHAR
+      size: 1
+      description:  Tipo de contato (Obra/Articulos)
+    lidetcroentcont_id:
+      type: VARCHAR
+      size: 4
+      foreignTable: lidetcroentcont
+      foreignReference: id
+      description:  Cronograma de entrega original del contrato
+    numval:
+      type: INTEGER
+      description:  Numero de Valuación
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+
+  liregforpagaddcont:
+    _attributes:
+      description:  Registro de formas de pago por addendum de contratos
+    numadd:
+      type: VARCHAR
+      size: 8
+      foreignTable: liaddendum
+      foreignReference: numadd
+      description:  Código del addendum del contrato
+    desant:
+      type: VARCHAR
+      size: 1000
+    porant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    montot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    monrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    subtot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    poramoant:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    netpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    fecant:
+      type: DATE
+    condic:
+      type: VARCHAR
+      size: 1000
+    tipconpub:
+      type: VARCHAR
+      size: 1
+    numord:
+      type: VARCHAR
+      size: 10
+    numche:
+      type: VARCHAR
+      size: 10
+    feccom:
+      type: DATE
+    feccau:
+      type: DATE
+    fecpag:
+      type: DATE
+    liregforpagcont_id:
+      type: INTEGER
+      foreignTable: liregforpagcont
+      foreignReference: id
+      description:  Código de la forma de pago del contrato original
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true

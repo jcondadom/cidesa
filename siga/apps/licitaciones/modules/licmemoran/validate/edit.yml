@@ -1,0 +1,92 @@
+methods:
+  post:
+   - "limemoran{codempadm}"
+   - "limemoran{codempeje}"
+   - "limemoran{numemo}"
+   - "limemoran{numpre}"
+   - "limemoran{fecreg}"
+   - "limemoran{dias}"
+   - "limemoran{fecven}"
+   - "limemoran{despro}"
+
+names:
+  limemoran{codempadm}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  limemoran{codempeje}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  limemoran{numemo}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numemo
+
+  limemoran{numpre}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numpre
+
+  limemoran{fecreg}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  limemoran{dias}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: MyNumberValidator
+
+  limemoran{fecven}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  limemoran{despro}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_despro
+
+Validator_codemp:
+    class: CidesaExistValidator
+    param:
+        class:        Lidatstedet
+        column:       codemp
+        unique_error: El Empleado no existe
+
+Validator_numemo:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Limemoran
+        column:       numemo
+        unique_error: El numero ya existe no puede repetirse
+
+Validator_numpre:
+    class: CidesaExistValidator
+    param:
+        class:        Liprebas
+        column:       numpre
+        unique_error: El Número de Presupuesto Base no Existe
+
+Validator_despro:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caracteres
+        max:       1000
+        max_error: La descripción no puede pasar mas de 1000 caracteres
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+MyNumberValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]

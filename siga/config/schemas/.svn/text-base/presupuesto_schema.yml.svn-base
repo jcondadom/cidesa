@@ -1,0 +1,3075 @@
+propel:
+  _attributes: { noXsd: false, defaultIdMethod: native, package: lib.model.presupuesto }
+  cpadidis:
+    _attributes:
+      description: Tabla que contiene información referente a las Adiciones y Disminuciones efectuadas a las partidas presupuestarias. 
+    refadi:
+      type: VARCHAR
+      size: 8
+      description: Referencia de la adición o disminución.
+      required: true
+    fecadi:
+      type: DATE
+      description: Fecha en que se realiza la adición o disminución.
+      required: true
+    anoadi:
+      type: VARCHAR
+      size: 4
+      description: Año de adición.
+    desadi:
+      type: VARCHAR
+      size: 1000
+      description: Descripción de la adición o disminución.
+    desanu:
+      type: VARCHAR
+      size: 1000
+      description: Descripción de la anulación, en caso de que el movimiento esté anulado.
+    adidis:
+      type: VARCHAR
+      size: 1
+      description: Indica si el movimiento es de adición o disminución.
+    totadi:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto total de las adiciones o disminuciones.
+    staadi:
+      type: VARCHAR
+      size: 1
+      description: Estatus de las adiciones.
+    numcom:
+      type: VARCHAR
+      size: 8
+      description: Numero del comprobante contable 
+    fecanu:
+      type: DATE
+      description: Fecha en la cual se anulo el movimiento.
+    peradi:
+      type: VARCHAR
+      size: 2
+      description: Fecha en la cual se anulo el movimiento.
+    tipgas:
+      type: VARCHAR
+      size: 250
+      description: Tipo de Gasto
+    loguse:
+      type: VARCHAR
+      size: 50
+      description: 
+    fecreg:
+      type: TIMESTAMP
+      description: Fecha de registro
+      default: now        
+    clasifica:
+      type: VARCHAR
+      size: 1
+      description:   Tipo de Clasificación Crédito ó Reformulación    
+    coddirec:
+      type: VARCHAR
+      size: 32      
+      description:   Código de la Dirección  
+    nrodec:
+      type: VARCHAR
+      size: 8
+      description: Número de Decreto
+    fecdec:
+      type: DATE
+      description: Fecha del Decreto
+    refsoladi:
+      type: VARCHAR
+      size: 8
+      description: Referencia de la Solicitud de adición o disminución.
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpajuste:
+    _attributes:
+      description: Tabla que contiene información referente a los Ajustes realizados durante la ejecución del ejercicio.
+    refaju:
+      type: VARCHAR
+      size: 8
+      description: Referencia del ajuste.
+      required: true
+    tipaju:
+      type: VARCHAR
+      size: 4
+      description: Código del Tipo de ajuste.
+      required: true
+      foreignTable: cpdocaju
+      foreignReference: tipaju
+    fecaju:
+      type: DATE
+      description: Fecha de emisión ó Registro del ajuste.
+      required: true
+    anoaju:
+      type: VARCHAR
+      size: 4
+      description: Año del Ajuste.
+      required: true
+    refere:
+      type: VARCHAR
+      size: 8
+      description: Indica el Número del Movimiento a quien hace referencia el ajuste.
+      required: true
+    desaju:
+      type: VARCHAR
+      size: 1000
+      description: Descripción del Ajuste.
+    desanu:
+      type: VARCHAR
+      size: 1000
+      description: Descripción de la  Anulación.
+    totaju:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Total del Ajuste.
+    staaju:
+      type: VARCHAR
+      size: 1
+      description: Estatus del Ajuste.
+    fecanu:
+      type: DATE
+      description: Fecha en la que se realizó la anulación
+    numcom:
+      type: VARCHAR
+      size: 8
+      description: Número de Comprobante de Anulación de una Orden de Pago Permanente
+    cuoanu:
+      type: NUMERIC
+      size: 6
+      scale: 0
+      description: Número de Cuotas a anular de la Orden de Pago Permanente
+    fecanudes:
+      type: DATE
+      description: Fecha de Anulación Desde
+    fecanuhas:
+      type: DATE
+      description: Fecha de Anulación Hasta
+    ordpag:
+      type: VARCHAR
+      size: 1
+      description: Número de Orden de Pago
+    fecenvcon:
+      type: DATE
+      description: Fecha de Envío a Contraloría
+    fecenvfin:
+      type: DATE
+      description: Fecha de Envío a Finanzas
+    fecreg:
+      type: TIMESTAMP
+      description: Fecha de registro
+      default: now
+    loguse:
+      type: VARCHAR
+      size: 50
+      description: Usuario que realiza el ajuste
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpasiini:
+    _attributes:
+      description: Tabla que contiene información referente a las asignaciones iniciales de cada una de las partidas presupuestarias registradas al inicio del ejercicio.
+    codpre:
+      type: VARCHAR
+      size: 50
+      description: Código de la Partida Presupuestario.
+      required: true
+      foreignTable: cpdeftit
+      foreignReference: codpre
+    nompre:
+      type: VARCHAR
+      size: 500
+      description: Nombre del Título Presupuestario.
+    perpre:
+      type: VARCHAR
+      size: 2
+      description: Periodo Presupuestario.
+      required: true
+    anopre:
+      type: VARCHAR
+      size: 4
+      description: Año Presupuestario.
+      required: true
+    monasi:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Asignado.
+    monprc:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Precomprometido.
+    moncom:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Comprometido.
+    moncau:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Causado.
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Pagado.
+    montra:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Trasladado.
+    montrn:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Trasladado (-).
+    monadi:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Adicional.
+    mondim:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Disminuciones.
+    monaju:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto de Ajustes.
+    mondis:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto de Ajustes.
+    difere:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Corresponde a Diferencia.
+    status:
+      type: VARCHAR
+      size: 1
+      description: Estatus de la Asignación.
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+  cpcompro:
+    _attributes:
+      description: Tabla que contiene información referente a las operaciones que comprometen la disponibilidad de las partidas presupuestarias.
+    refcom:
+      type: VARCHAR
+      size: 8
+      description: Referencia del Compromiso.
+      required: true
+    tipcom:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Compromiso.
+      required: true
+      foreignTable: cpdoccom
+      foreignReference: tipcom
+    feccom:
+      type: DATE
+      description: Fecha de Emisión del Compromiso.
+      required: true
+    anocom:
+      type: VARCHAR
+      size: 4
+      description: Año del Compromiso.
+    refprc:
+      type: VARCHAR
+      size: 8
+      description: Referencia del Precompromiso al cual hace Referencia.
+      #foreignTable: cpprecom
+      #foreignReference: refprc
+    tipprc:
+      type: VARCHAR
+      size: 4
+      description: Tipo Precompromiso.
+    descom:
+      type: VARCHAR
+      size: 1000
+      description: Descripción del Compromiso.
+    desanu:
+      type: VARCHAR
+      size: 1000
+      description: Descripción de Anulado.
+    moncom:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Compromiso.
+    salcau:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Saldo Causado.
+    salpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Saldo Pagado.
+    salaju:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Corresponde a Saldo Ajustado.
+    stacom:
+      type: VARCHAR
+      size: 1
+      description: Estatus del Compromiso.
+    fecanu:
+      type: DATE
+      description: Fecha de Anulación.
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description: Cédula ó Rif. del Beneficiario.
+      #foreignTable: caprovee
+      #foreignReference: codpro
+    tipo:
+      type: VARCHAR
+      size: 1
+      description: Indica si la Orden es de tipo Adjudicación Directa, Licitación, Compra Directa, Compra Eventual
+    aprcom:
+      type: VARCHAR
+      size: 1
+      description: 
+    codubi:
+      type: VARCHAR
+      size: 30
+      description: 
+    motrec:
+      type: VARCHAR
+      size: 1000
+      description: 
+    loguse:
+      type: VARCHAR
+      size: 50
+      description: 
+    sercon:
+      type: BOOLEAN
+    fecser:
+      type: DATE
+      description: 
+    tesore:
+      type: BOOLEAN  
+      description: 
+    fectes:
+      type: DATE
+      description: 
+    admini:
+      type: BOOLEAN
+      description: 
+    fecadm:
+      type: DATE
+      description: 
+    fecreg:
+      type: TIMESTAMP
+      description: Fecha de registro
+      default: now        
+    coddirec:
+      type: VARCHAR
+      size: 32      
+      description:   Código de la Dirección   
+    usuapr:
+      type: VARCHAR
+      size: 50
+      description:  usuario que realizo la aprobación
+    fecapr:
+      type: DATE      
+      description:  fecha en que realizo la aprobación          
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpdefniv:
+    _attributes:
+      description: Tabla que contiene información referente a la definición de niveles presupuestarios.
+    codemp:
+      type: VARCHAR
+      size: 3
+      description:  Código de la Empresa.
+      required: true
+    loncod:
+      type: NUMERIC
+      size: 2
+      scale: 0
+      description:  Longitud del Título Presupuestario.
+      required: true
+    rupcat:
+      type: NUMERIC
+      size: 2
+      scale: 0
+      description:  Cantidad de Rupturas de la categoría.
+      required: true
+    ruppar:
+      type: NUMERIC
+      size: 2
+      scale: 0
+      description:  Cantidad de Rupturas de la partida.
+      required: true
+    nivdis:
+      type: NUMERIC
+      size: 2
+      scale: 0
+      description:  Nivel de Disponibilidad de la Partida Presupuestaria.
+      required: true
+    forpre:
+      type: VARCHAR
+      size: 32
+      description:  Formato de Presupuesto.
+      required: true
+    asiper:
+      type: VARCHAR
+      size: 1
+      description:  Asignación del Periodo.
+      required: true
+    numper:
+      type: NUMERIC
+      size: 2
+      scale: 0
+      description: Numero del Periodo.
+      required: true
+    peract:
+      type: VARCHAR
+      size: 2
+      description: Periodo del Activo.
+      required: true
+    fecper:
+      type: DATE
+      description: Fecha del Periodo.
+    fecini:
+      type: DATE
+      description: Fecha de Inicio.
+    feccie:
+      type: DATE
+      description: Fecha de Inicio.
+    etadef:
+      type: VARCHAR
+      size: 1
+      description: Indica la Etapa de la Definición.
+    staprc:
+      type: VARCHAR
+      size: 1
+      description: Estatus del Precompromiso.
+    coraep:
+      type: INTEGER
+      size: 8
+      description: Numero Inicial del Correlativo para el Registro de la Certificación Presupuestaria.
+    gencom:
+      type: VARCHAR
+      size: 1
+      description: 
+    numcom:
+      type: VARCHAR
+      size: 8
+      description:  
+    caraep:
+      type: VARCHAR
+      size: 8
+      description:  
+    tiptraprc:
+      type: VARCHAR
+      size: 4
+      description:  Correlativo de Precompromiso
+    fueord:
+      type: VARCHAR
+      size: 4
+      description: Fuente de Financiamiento Presupuesto Ordinario
+    fuecre:
+      type: VARCHAR
+      size: 4
+      description: Fuente de Financiamiento Crédito Adicional
+    fuetra:
+      type: VARCHAR
+      size: 4
+      description: Fuente de Financiamiento Traslado
+    nomgob:
+      type: VARCHAR
+      size: 100
+      description: Nombre del Gobernador
+    nomsec:
+      type: VARCHAR
+      size: 100
+      description: Nombre de la Secretaría General de Gobierno
+    unidad:
+      type: VARCHAR
+      size: 100
+      description: Unidad Ejecutora
+    cortrasla:
+      type: INTEGER
+      description: 
+    coradidis:
+      type: INTEGER
+      description: 
+    corprc:
+      type: INTEGER
+      description: 
+    corcom:
+      type: INTEGER
+      description: 
+    corcau:
+      type: INTEGER
+      description: 
+    corpag:
+      type: INTEGER
+      description: 
+    corsoladidis:
+      type: INTEGER
+      description: 
+    corsoltra:
+      type: INTEGER
+      description: 
+    coraju:
+      type: INTEGER
+      description: 
+    corfue:
+      type: INTEGER
+      description: Correlativo Fuente de Financiamiento
+    btnanu:
+      type: BOOLEAN
+      description: 
+      default: true
+    btneli:
+      type: BOOLEAN
+      description: 
+      default: true
+    conpar:
+      type: NUMERIC
+      size: 2
+      scale: 0
+      description: Consecutivo de partidas genericas
+    tipcau:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Causado Anticipo
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description: Cédula o RIF del beneficiario del Compromiso de Nómina
+    tipcom:
+      type: VARCHAR
+      size: 4
+      description: Código tipo de documento del Compromiso de Nómina.
+    repsoladidis1:
+      type: VARCHAR
+      size: 50
+      description: Nombre del Reporte de la Solicitud de CreditosAdiciones
+    repsoladidis2:
+      type: VARCHAR
+      size: 50
+      description: Nombre del Reporte de CreditosAdiciones
+    nomdirpre:
+      type: VARCHAR
+      size: 250
+      description: Nombre del Director de Presupuesto
+    cardirpre:
+      type: VARCHAR
+      size: 250
+      description: Cargo del Director de Presupuesto
+    repsoltrasla1:
+      type: VARCHAR
+      size: 50
+      description: Nombre del Reporte de la Solicitud de Traslados
+    repsoltrasla2:
+      type: VARCHAR
+      size: 50
+      description: Nombre del Reporte de Traslados
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpdeftit:
+    _attributes:
+      description: Tabla que contiene información referente a definición de títulos presupuestarios.
+    codpre:
+      type: VARCHAR
+      size: 50
+      description: Código Presupuestario.
+      required: true
+    nompre:
+      type: VARCHAR
+      size: 500
+      description: Nombre del Código Presupuestario.
+      required: true
+    codcta:
+      type: VARCHAR
+      size: 32
+      description: Código de Cuenta Contable.
+      foreignTable: contabb
+      foreignReference: codcta
+    stacod:
+      type: VARCHAR
+      size: 1
+      description: Estatus del Código Presupuestario.
+    coduni:
+      type: VARCHAR
+      size: 4
+      description: Código Unitario.
+    estatus:
+      type: VARCHAR
+      size: 1
+      description: Tipo de Gasto (Inversión, Funcionamiento, Ninguno)
+    codtip:
+      type: VARCHAR
+      size: 32
+      description: Tipo de Fuente de Financiamiento
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpdiscre:
+    _attributes:
+      description:
+    sector:
+      type: VARCHAR
+      size: 2
+      description: 
+    partida:
+      type: VARCHAR
+      size: 3
+      description: 
+    monto:
+      type: NUMERIC
+      size: 16
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpdisfuefin:
+    _attributes:
+      description:
+    correl:
+      type: VARCHAR
+      size: 10
+      description: 
+    origen:
+      type: VARCHAR
+      size: 250
+      description: 
+    fuefin:
+      type: VARCHAR
+      size: 4
+      description: 
+    fecdis:
+      type: DATE
+      description: 
+    codpre:
+      type: VARCHAR
+      size: 50
+      description: 
+    monasi:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description: 
+    refdis:
+      type: VARCHAR
+      size: 8
+      description: 
+    status:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpdocaju:
+    _attributes:
+      description: Tabla que contiene información referente a los documentos que ajustan.
+    tipaju:
+      type: VARCHAR
+      size: 4
+      description: Código tipo de Documento.
+      required: true
+    nomext:
+      type: VARCHAR
+      size: 100
+      description: Nombre Extendido.
+      required: true
+    nomabr:
+      type: VARCHAR
+      size: 4
+      description: Nombre Abreviado.
+      required: true
+    refier:
+      type: VARCHAR
+      size: 1
+      description: Indica si el Documento que se registra  refiere a un Precompromiso, Compromiso, Causado o Pagado.
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpdoccau:
+    _attributes:
+      description: Tabla que contiene información referente a los documentos que registran un causado.
+    tipcau:
+      type: VARCHAR
+      size: 4
+      description: Código tipo de documento.
+      required: true
+    nomext:
+      type: VARCHAR
+      size: 100
+      description: Nombre extendido.
+      required: true
+    nomabr:
+      type: VARCHAR
+      size: 4
+      description: Nombre abreviado.
+      required: true
+    refier:
+      type: VARCHAR
+      size: 1
+      description: Indica si el Documento que se registra  refiere a un Precompromiso, Compromiso o Ninguno.
+      required: true
+    afeprc:
+      type: VARCHAR
+      size: 1
+      description: Indica si afecta al Precompromiso.
+      required: true
+    afecom:
+      type: VARCHAR
+      size: 1
+      description: Indica si afecta al Compromiso.
+      required: true
+    afecau:
+      type: VARCHAR
+      size: 1
+      description: Indica si afecta al Causado.
+      required: true
+    afedis:
+      type: VARCHAR
+      size: 1
+      description: Indica si afecta la Disponibilidad.
+      required: true
+    codcta:
+      type: VARCHAR
+      size: 32
+      description: Código de Cuenta Contable.   
+    codtiptra:
+      type: VARCHAR
+      size: 3
+      description: Tipo de Transacción.  
+    genlibcom:
+      type: BOOLEAN
+      description: Genera Libro de Compras
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpdoccom:
+    _attributes:
+      description: Tabla que contiene información referente a los documentos que registran un compromiso.
+    tipcom:
+      type: VARCHAR
+      size: 4
+      description: Código tipo de documento.
+      required: true
+    nomext:
+      type: VARCHAR
+      size: 100
+      description: Nombre extendido.
+      required: true
+    nomabr:
+      type: VARCHAR
+      size: 4
+      description: Nombre abreviado.
+      required: true
+    refprc:
+      type: VARCHAR
+      size: 1
+      description: Indica si el documento refiere a un precompromiso.
+      required: true
+    afeprc:
+      type: VARCHAR
+      size: 1
+      description: Indica si afecta al precompromiso.
+      required: true
+    afecom:
+      type: VARCHAR
+      size: 1
+      description: Indica si afecta al compromiso.
+      required: true
+    afedis:
+      type: VARCHAR
+      size: 1
+      description: Indica si afecta la disponibilidad.
+      required: true
+    reqaut:
+      type: VARCHAR
+      size: 1
+      description: Autorizacion
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpdocpag:
+    _attributes:
+      description: Tabla que contiene información referente a los documentos que registran un pagado
+    tippag:
+      type: VARCHAR
+      size: 4
+      description: Código del Tipo de Documento
+      required: true
+    nomext:
+      type: VARCHAR
+      size: 100
+      description: Nombre Extendido
+      required: true
+    nomabr:
+      type: VARCHAR
+      size: 4
+      description: Nombre Abreviado
+      required: true
+    refier:
+      type: VARCHAR
+      size: 1
+      description: Indica si el documento que se registra  refiere a un Precompromiso, Compromiso, Causado ó Ninguno
+      required: true
+    afeprc:
+      type: VARCHAR
+      size: 1
+      description: Indica si afecta al Precompromiso.
+      required: true
+    afecom:
+      type: VARCHAR
+      size: 1
+      description: Indica si afecta al Compromiso.
+      required: true
+    afecau:
+      type: VARCHAR
+      size: 1
+      description: Indica si afecta al Compromiso.
+      required: true
+    afepag:
+      type: VARCHAR
+      size: 1
+      description: Indica si afecta al Pagado
+      required: true
+    afedis:
+      type: VARCHAR
+      size: 1
+      description: Indica si afecta la Disponibilidad.
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpdocprc:
+    _attributes:
+      description: Tabla que contiene información referente a los documentos que registran un precompromiso.
+    tipprc:
+      type: VARCHAR
+      size: 4
+      description: Código Tipo de Documento.
+      required: true
+    nomext:
+      type: VARCHAR
+      size: 100
+      description: Nombre Extendido.
+      required: true
+    nomabr:
+      type: VARCHAR
+      size: 4
+      description: Nombre Abreviado.
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpimpcau:
+    _attributes:
+      description: Tabla que contiene información referente a las imputaciones de causados.
+    refcau:
+      type: VARCHAR
+      size: 8
+      description: Numero de Referencia del Causado.
+      required: true
+      foreignTable: cpcausad
+      foreignReference: refcau
+    codpre:
+      type: VARCHAR
+      size: 50
+      description: Código del Presupuesto.
+      required: true
+    monimp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto de la Imputación.
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Pagado.
+    monaju:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Ajustado.
+    staimp:
+      type: VARCHAR
+      size: 1
+      description: Estatus de la Imputación.
+    refere:
+      type: VARCHAR
+      size: 8
+      description: Movimiento que hace referencia al Causado.
+    refprc:
+      type: VARCHAR
+      size: 8
+      description: Numero de Referencia del Precompromiso.
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpimpcom:
+    _attributes:
+      description: Tabla que contiene información referente a las imputaciones de compromiso.
+    refcom:
+      type: VARCHAR
+      size: 8
+      description: Numero de Referencia del Compromiso.
+      required: true
+      foreignTable: cpcompro
+      foreignReference: refcom
+    codpre:
+      type: VARCHAR
+      size: 50
+      description: Código Presupuestario.
+      required: true
+      foreignTable: cpdeftit
+      foreignReference: codpre
+    monimp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto de la Imputación.
+    moncau:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Causado.
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Causado.
+    monaju:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Ajustado.
+    staimp:
+      type: VARCHAR
+      size: 1
+      description: Estatus de la Imputación.
+    refere:
+      type: VARCHAR
+      size: 8
+      description: Movimiento que hace referencia al Compromiso.
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpimppag:
+    _attributes:
+      description: Tabla que contiene información referente a la imputación de pagados.
+    refpag:
+      type: VARCHAR
+      size: 8
+      description: Número de Referencia del Pagado.
+      required: true
+      foreignTable: cppagos
+      foreignReference: refpag
+    codpre:
+      type: VARCHAR
+      size: 50
+      description: Código Presupuestario.
+      required: true
+    monimp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto de la Imputación.
+    monaju:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Ajuste.
+    staimp:
+      type: VARCHAR
+      size: 1
+      description: Estatus de la Imputación.
+    refere:
+      type: VARCHAR
+      size: 8
+      description: Movimiento que hace Referencia al Pagado.
+    refprc:
+      type: VARCHAR
+      size: 8
+      description: Número de Referencia del Precompromiso.
+    refcom:
+      type: VARCHAR
+      size: 8
+      description: Número de Referencia del Compromiso.
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpimpprc:
+    _attributes:
+      description: Tabla que contiene información referente a la imputación de precompromiso.
+    refprc:
+      type: VARCHAR
+      size: 8
+      description: Corresponde a Referencia Precompromiso (código).
+      required: true
+      foreignTable: cpprecom
+      foreignReference: refprc
+    codpre:
+      type: VARCHAR
+      size: 50
+      description: Código Presupuestario.
+      required: true
+      foreignTable: cpdeftit
+      foreignReference: codpre
+    monimp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto de la Imputación.
+    moncom:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Compromiso.
+    moncau:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Causado.
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Pagado.
+    monaju:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Ajustado.
+    staimp:
+      type: VARCHAR
+      size: 1
+      description: Estatus de la Imputación.
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpmovadi:
+    _attributes:
+      description: Tabla que contiene información referente a los movimientos de las adiciones.
+    refadi:
+      type: VARCHAR
+      size: 8
+      description: Referencia de la Adición
+      required: true
+      foreignTable: cpadidis
+      foreignReference: refadi
+    codpre:
+      type: VARCHAR
+      size: 50
+      description: Código Presupuestario Asociado a la Adición.
+      required: true
+      foreignTable: cpdeftit
+      foreignReference: codpre
+    perpre:
+      type: VARCHAR
+      size: 2
+      description: Periodo Presupuestario Asociado a la Adición.
+      required: true
+    monmov:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Movimiento Asociado a la Adición.
+    stamov:
+      type: VARCHAR
+      size: 1
+      description: Estatus del Movimiento Asociado a la Adición.
+    tipo:
+      type: VARCHAR
+      size: 1
+      description: 
+    monto:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    iva:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpmovaju:
+    _attributes:
+      description: Tabla que contiene información referente a los movimientos de los ajustes.
+    refaju:
+      type: VARCHAR
+      size: 8
+      description: Numero de Referencia del Ajuste.
+      required: true
+      foreignTable: cpajuste
+      foreignReference: refaju
+    codpre:
+      type: VARCHAR
+      size: 50
+      description: Código Presupuestario.
+      required: true
+      foreignTable: cpdeftit
+      foreignReference: codpre
+    monaju:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Ajustado.
+    stamov:
+      type: VARCHAR
+      size: 1
+      description: Estatus del Movimiento.
+    refprc:
+      type: VARCHAR
+      size: 8
+      description: Numero de Referencia del Ajuste.
+      required: true
+    refcom:
+      type: VARCHAR
+      size: 8
+      description: Numero de Referencia del Compromiso.
+      required: true
+    refcau:
+      type: VARCHAR
+      size: 8
+      description: Numero de Referencia del causado.
+      required: true
+    refpag:
+      type: VARCHAR
+      size: 8
+      description: Numero de Referencia del Pagado.
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cppagos:
+    _attributes:
+      description: Tabla que contiene información referente a los pagados.
+    refpag:
+      type: VARCHAR
+      size: 8
+      description: Número de Referencia del Pagado.
+      required: true
+    tippag:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Pagado.
+      required: true
+      foreignTable: cpdocpag
+      foreignReference: tippag
+    fecpag:
+      type: DATE
+      description: Fecha del Pago.
+      required: true
+    anopag:
+      type: VARCHAR
+      size: 4
+      description: Corresponde al año del Pagado.
+    refcau:
+      type: VARCHAR
+      size: 8
+      description: Número de Referencia del causado.
+    tipcau:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Causado.
+    despag:
+      type: VARCHAR
+      size: 1000
+      description: Descripción del Pagado.
+    desanu:
+      type: VARCHAR
+      size: 1000
+      description: Descripción de la Anulación del Pagado.
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Descripción de la Anulación del Pagado.
+    salaju:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Ajuste correspondiente al pagado.
+    stapag:
+      type: VARCHAR
+      size: 1
+      description: Estatus del Pagado.
+    fecanu:
+      type: DATE
+      description: Estatus del Pagado.
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description: Cedula o RIF
+      foreignTable: opbenefi
+      foreignReference: cedrif
+    fecreg:
+      type: TIMESTAMP
+      description: Fecha de registro
+      default: now
+    coddirec:
+      type: VARCHAR
+      size: 32      
+      description:   Código de la Dirección             
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpprecom:
+    _attributes:
+      description: Tabla que contiene información referente a los precompromisos.
+    refprc:
+      type: VARCHAR
+      size: 8
+      description: Numero de Referencia del Precompromiso.
+      required: true
+    tipprc:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Precompromiso.
+      required: true
+      foreignTable: cpdocprc
+      foreignReference: tipprc
+    fecprc:
+      type: DATE
+      description: Fecha del Precompromiso.
+      required: true
+    anoprc:
+      type: VARCHAR
+      size: 4
+      description: Año del Precompromiso.
+    desprc:
+      type: VARCHAR
+      size: 1000
+      description: Descripción del Precompromiso.
+    desanu:
+      type: VARCHAR
+      size: 1000
+      description: Descripción de la Anulación del Precompromiso.
+    monprc:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Precompromiso.
+    salcom:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Saldo del Compromiso.
+    salcau:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Saldo del Causado.
+    salpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Saldo del Pagado.
+    salaju:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Saldo del Ajuste.
+    staprc:
+      type: VARCHAR
+      size: 1
+      description: Estatus del Precompromiso.
+    fecanu:
+      type: DATE
+      description: Fecha en la cual se anulo el Movimiento.
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description: Cédula o RIF.
+      #foreignTable: opbenefi
+      #foreignReference: cedrif
+    refsol:
+      type: VARCHAR
+      size: 8
+      description: Referencia de Solicitud de Traslado que originó el Precompromiso
+    fecreg:
+      type: TIMESTAMP
+      description: Fecha de registro
+      default: now      
+    coddirec:
+      type: VARCHAR
+      size: 32      
+      description:   Código de la Dirección       
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpsoltrasla:
+    _attributes:
+      description:
+    reftra:
+      type: VARCHAR
+      size: 8
+      description: Referencia del Traslado.
+      required: true
+    fectra:
+      type: DATE
+      description: Referencia del Traslado.
+    anotra:
+      type: VARCHAR
+      size: 4
+      description: Año del traslado.
+    pertra:
+      type: VARCHAR
+      size: 2
+      description: Periodo del traslado.
+      required: true
+    destra:
+      type: VARCHAR
+      size: 1000
+      description: Descripción del traslado.
+    desanu:
+      type: VARCHAR
+      size: 1000
+      description: Descripción de la anulación del traslado.
+    tottra:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Total del traslado.
+    statra:
+      type: VARCHAR
+      size: 1
+      description: Status del traslado.
+    codart:
+      type: VARCHAR
+      size: 3
+      description: Corresponde al código del artículo
+      foreignTable: cpartley
+      foreignReference: codart
+    stacon:
+      type: VARCHAR
+      size: 1
+      description: Estatus de Aprobación de contraloría
+    stagob:
+      type: VARCHAR
+      size: 1
+      description: Estatus de Aprobación de Gobernación
+    stapre:
+      type: VARCHAR
+      size: 1
+      description: Estatus de Aprobación de presupuesto
+    staniv4:
+      type: VARCHAR
+      size: 1
+      description: 
+    staniv5:
+      type: VARCHAR
+      size: 1
+      description: 
+    staniv6:
+      type: VARCHAR
+      size: 1
+      description: 
+    fecpre:
+      type: DATE
+      description: Corresponde al código del artículo
+    despre:
+      type: VARCHAR
+      size: 250
+      description: Descripción si no fue aprobado por parte de presupuesto
+    feccon:
+      type: DATE
+      description: Fecha de aprobación de contraloría
+    descon:
+      type: VARCHAR
+      size: 250
+      description: Descripción si no fue aprobado por parte de contraloría
+    fecgob:
+      type: DATE
+      description: Fecha de aprobación de gobernador
+    desgob:
+      type: VARCHAR
+      size: 250
+      description: Descripción si no fue aprobado por parte de Gobernación
+    fecniv4:
+      type: DATE
+      description: 
+    desniv4:
+      type: VARCHAR
+      size: 250
+      description: 
+    fecniv5:
+      type: DATE
+      description: 
+    desniv5:
+      type: VARCHAR
+      size: 250
+      description: 
+    fecniv6:
+      type: DATE
+      description: 
+    desniv6:
+      type: VARCHAR
+      size: 250
+      description: 
+    justificacion:
+      type: VARCHAR
+      size: 4000
+      description: Justificación del Traslado
+    feccont:
+      type: DATE
+      description: 
+    justificacion1:
+      type: VARCHAR
+      size: 4000
+      description: 
+    justificacion2:
+      type: VARCHAR
+      size: 4000
+      description: 
+    justificacion3:
+      type: VARCHAR
+      size: 4000
+      description: 
+    justificacion4:
+      type: VARCHAR
+      size: 4000
+      description: 
+    justificacion5:
+      type: VARCHAR
+      size: 4000
+      description: 
+    justificacion6:
+      type: VARCHAR
+      size: 4000
+      description: 
+    justificacion7:
+      type: VARCHAR
+      size: 4000
+      description: 
+    justificacion8:
+      type: VARCHAR
+      size: 4000
+      description: 
+    justificacion9:
+      type: VARCHAR
+      size: 4000
+      description: 
+    tipo:
+      type: VARCHAR
+      size: 100
+      description: Tipo de Traslado
+    tipgas:
+      type: VARCHAR
+      size: 250
+      description: Tipo de Gasto
+    fecanu:
+      type: DATE
+      description: Fecha en la que se anuló el Movimiento
+    coddirec:
+      type: VARCHAR
+      size: 32      
+      description:   Código de la Dirección
+    bascal:
+      type: VARCHAR
+      size: 4000
+      description: Base de Cálculo
+    iniana:
+      type: VARCHAR
+      size: 4
+      description: Iniciales del analista
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpartley:
+    _attributes:
+      description: Tabla es para niveles de autorización de traslados
+    codart:
+      type: VARCHAR
+      size: 3
+      description: Código del Artículo
+      required: true
+    desart:
+      type: VARCHAR
+      size: 250
+      description: Descripción del Artículo
+    nomabr:
+      type: VARCHAR
+      size: 4
+      description: Nombre Abreviado
+    stacon:
+      type: VARCHAR
+      size: 1
+      description: Estatus para Firmar del Contralor
+    stagob:
+      type: VARCHAR
+      size: 1
+      description: Estatus para Firmar del Gobernador
+    stapre:
+      type: VARCHAR
+      size: 1
+      description: Estatus para Firmar del Director de Presupuesto
+    staniv4:
+      type: VARCHAR
+      size: 1
+      description: 
+    staniv5:
+      type: VARCHAR
+      size: 1
+      description: 
+    staniv6:
+      type: VARCHAR
+      size: 1
+      description: 
+    portra:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+    _uniques:
+      u_cpartley:
+        - codart
+  cpcausad:
+    _attributes:
+      description: Tabla que contiene información referente a los movimientos que causan presupuestariamente.
+    refcau:
+      type: VARCHAR
+      size: 8
+      description: Referencia del causado.
+      required: true
+    tipcau:
+      type: VARCHAR
+      size: 4
+      description: Tipo de causado.
+      required: true
+      foreignTable: cpdoccau
+      foreignReference: tipcau
+    feccau:
+      type: DATE
+      required: true
+      description: Fecha del causado.
+    anocau:
+      type: VARCHAR
+      size: 4
+      description: Año del causado.
+    refcom:
+      type: VARCHAR
+      size: 8
+      description: Referencia del comprometido.
+      foreignTable: cpcompro
+      foreignReference: refcom
+    tipcom:
+      type: VARCHAR
+      size: 4
+      description: Referencia del comprometido.
+    descau:
+      type: VARCHAR
+      size: 1000
+      description: Descripción del causado.
+    desanu:
+      type: VARCHAR
+      size: 1000
+      description: Descripción del causado.
+    moncau:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto causado.
+    salpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Saldo pagado.
+    salaju:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Saldo pagado.
+    stacau:
+      type: VARCHAR
+      size: 1
+      description: Estatus del causado.
+    fecanu:
+      type: DATE
+      description: Cédula ó Rif. del Beneficiario.
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description: Cédula ó Rif. del Beneficiario.
+      foreignTable: opbenefi
+      foreignReference: cedrif
+    fecreg:
+      type: TIMESTAMP
+      description: Fecha de registro
+      default: now     
+    numcom:
+      type: VARCHAR
+      size: 8
+      description: Número de Comprobante
+    coddirec:
+      type: VARCHAR
+      size: 32      
+      description:   Código de la Dirección       
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpsolmovadi:
+    _attributes:
+      description: Tabla que refiere al detalle  solicitud de ejecutar una adición o disminuciones presupuestaria
+    refadi:
+      type: VARCHAR
+      size: 8
+      description: Referencia de la Adición o Disminución.
+      required: true
+      foreignTable: cpsoladidis
+      foreignReference: refadi
+    codpre:
+      type: VARCHAR
+      size: 50
+      description: Código Presupuestario
+    perpre:
+      type: VARCHAR
+      size: 2
+      description: Periodo Presupuestario.
+    monmov:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Movimiento
+    stamov:
+      type: VARCHAR
+      size: 1
+      description: Estatus del Movimiento
+    nrores:
+      type: VARCHAR
+      size: 20
+      description: 
+    fecres:
+      type: DATE
+      description: 
+    tipo:
+      type: VARCHAR
+      size: 1
+      description: 
+    monto:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    iva:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpsolmovtra:
+    _attributes:
+      description: Tabla que refiere al detalle de la solicitud de traslado presupuestario.
+    reftra:
+      type: VARCHAR
+      size: 8
+      description: Corresponde a la Referencia del Traslado
+      required: true
+      foreignTable: cpsoltrasla
+      foreignReference: reftra
+    codori:
+      type: VARCHAR
+      size: 50
+      description: Código Presupuestario Origen
+    coddes:
+      type: VARCHAR
+      size: 50
+      description: Código Presupuestario Destino
+    monmov:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Movimiento
+    stamov:
+      type: VARCHAR
+      size: 1
+      description: Estatus del Movimiento
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpsoladidis:
+    _attributes:
+      description: Tabla que refiere a la  solicitud de ejecutar una adición o disminuciones presupuestaria
+    despre:
+      type: VARCHAR
+      size: 250
+      description: Descripción si no fue aprobado por parte de presupuesto
+    justificacion:
+      type: VARCHAR
+      size: 4000
+      description: Justificación del Crédito adicional
+    enunciado:
+      type: VARCHAR
+      size: 1000
+      description: Justificación del Crédito adicional
+    refadi:
+      type: VARCHAR
+      size: 8
+      description: Referencia de la adición o disminución.
+      required: true
+    fecadi:
+      type: DATE
+      description: Fecha en que se realiza la adición o disminución.
+    anoadi:
+      type: VARCHAR
+      size: 4
+      description: Año de adición.
+    desadi:
+      type: VARCHAR
+      size: 1000
+      description: Descripción de la adición o disminución.
+    desanu:
+      type: VARCHAR
+      size: 1000
+      description: Descripción de la anulación, en caso de que el movimiento esté anulado.
+    fecanu:
+      type: DATE
+      description: Fecha en la cual se anulo el movimiento.
+    totadi:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto total de las adiciones o disminuciones.
+    staadi:
+      type: VARCHAR
+      size: 1
+      description: Estatus de las adiciones.
+    adidis:
+      type: VARCHAR
+      size: 1
+      description: Indica si el movimiento es de adición o disminución.
+    codart:
+      type: VARCHAR
+      size: 3
+      description: Corresponde al código del artículo
+      foreignTable: cpartley
+      foreignReference: codart
+    stacon:
+      type: VARCHAR
+      size: 1
+      description: Estatus de Aprobación de contraloría
+    stagob:
+      type: VARCHAR
+      size: 1
+      description: Estatus de Aprobación de Gobernación
+    stapre:
+      type: VARCHAR
+      size: 1
+      description: Estatus de Aprobación de presupuesto
+    staniv4:
+      type: VARCHAR
+      size: 1
+      description: 
+    staniv5:
+      type: VARCHAR
+      size: 1
+      description: 
+    staniv6:
+      type: VARCHAR
+      size: 1
+      description: 
+    fecpre:
+      type: DATE
+      description: Fecha de aprobación de presupuesto
+    despre:
+      type: VARCHAR
+      size: 250
+      description: 
+    feccon:
+      type: DATE
+      description: Fecha de aprobación de contraloría
+    descon:
+      type: VARCHAR
+      size: 250
+      description: Descripción si no fue aprobado por parte de contraloría
+    fecgob:
+      type: DATE
+      description: Fecha de aprobación de gobernador
+    desgob:
+      type: VARCHAR
+      size: 250
+      description: Fecha de aprobación de gobernador
+    fecniv4:
+      type: DATE
+      description: 
+    desniv4:
+      type: VARCHAR
+      size: 250
+      description: 
+    fecniv5:
+      type: DATE
+      description: 
+    desniv5:
+      type: VARCHAR
+      size: 250
+      description: 
+    fecniv6:
+      type: DATE
+      description: 
+    desniv6:
+      type: VARCHAR
+      size: 250
+      description: 
+    numofi:
+      type: VARCHAR
+      size: 10
+      description: 
+    fecofi:
+      type: DATE
+      description: 
+    coddirec:
+      type: VARCHAR
+      size: 32      
+      description:   Código de la Dirección
+    iniana:
+      type: VARCHAR
+      size: 4
+      description: Iniciales del analista
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpmovfuefin:
+    _attributes:
+      description:
+    correl:
+      type: VARCHAR
+      size: 10
+      description: 
+    refmov:
+      type: VARCHAR
+      size: 8
+      description: 
+    tipmov:
+      type: VARCHAR
+      size: 20
+      description: 
+    monmov:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description: 
+    fecmov:
+      type: DATE
+      description: 
+    codpre:
+      type: VARCHAR
+      size: 50
+      description: 
+    stamov:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpniveles:
+    _attributes:
+      description: Tabla que contiene información referente a el detalle del código presupuestario.
+    catpar:
+      type: VARCHAR
+      size: 1
+      description: Indica si la Ruptura del Código es de Tipo Categoría o Partida.
+      required: true
+    consec:
+      type: NUMERIC
+      size: 2
+      description: Numero Consecutivo del Nivel.
+      required: true
+    nomabr:
+      type: VARCHAR
+      size: 10
+      description: Nombre Abreviado del Nivel Presupuestario
+      required: true
+    nomext:
+      type: VARCHAR
+      size: 50
+      description: Nombre Extendido del Nivel Presupuestario
+      required: true
+    lonniv:
+      type: NUMERIC
+      size: 2
+      description: Longitud del Nivel Presupuestario
+    staniv:
+      type: VARCHAR
+      size: 1
+      description: Estatus del Nivel Presupuestario
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cppereje:
+    _attributes:
+      description: Tabla que contiene información referente al periodo de ejecución.
+    fecini:
+      type: DATE
+      description: Fecha de Inicio del Ejercicio.
+      required: true
+    feccie:
+      type: DATE
+      description: Fecha del Cierre del Ejercicio.
+      required: true
+    pereje:
+      type: VARCHAR
+      size: 2
+      description: Fecha del Cierre del Ejercicio.
+      required: true
+    fecdes:
+      type: DATE
+      description: Fecha de Inicio del Periodo de Ejecución.
+      required: true
+    fechas:
+      type: DATE
+      description: Fecha de Finalización del Periodo de Ejecución.
+      required: true
+    estper:
+      type: VARCHAR
+      size: 1
+      description: Estado del Periodo
+    cerrado:
+      type: VARCHAR
+      size: 1
+      description: indica Si esta cerrado el periodo
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cptrasla:
+    _attributes:
+      description: Tabla que contiene información referente a los traslados.
+    reftra:
+      type: VARCHAR
+      size: 8
+      description: Referencia del traslado.
+      required: true
+    fectra:
+      type: DATE
+      description: Fecha del traslado.
+      required: true
+    anotra:
+      type: VARCHAR
+      size: 4
+      description: Fecha del traslado.
+    pertra:
+      type: VARCHAR
+      size: 2
+      description: Periodo del traslado.
+      required: true
+    destra:
+      type: VARCHAR
+      size: 1000
+      description: Descripción del traslado.
+    desanu:
+      type: VARCHAR
+      size: 1000
+      description: Descripción de la anulación del traslado.
+    tottra:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Total del traslado.
+    statra:
+      type: VARCHAR
+      size: 1
+      description: Status del traslado.
+    fecanu:
+      type: DATE
+      description: Fecha en la cual se anulo el movimiento.
+    nrodec:
+      type: VARCHAR
+      size: 8
+      description: Número de Decreto
+    loguse:
+      type: VARCHAR
+      size: 50
+      description: 
+    fecreg:
+      type: TIMESTAMP
+      description: Fecha de registro
+      default: now        
+    coddirec:
+      type: VARCHAR
+      size: 32      
+      description:   Código de la Dirección   
+    fecdec:
+      type: DATE
+      description: Fecha del Decreto
+    refsoltra:
+      type: VARCHAR
+      size: 8
+      description: Referencia de la Solicitud Traslado.
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpimpapa:
+    _attributes:
+      description:
+    refapa:
+      type: VARCHAR
+      size: 8
+      description: 
+      required: true
+    codpre:
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true
+    monimp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    moncom:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    moncau:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monaju:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    staimp:
+      type: VARCHAR
+      size: 1
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpimprel:
+    _attributes:
+      description:
+    refrel:
+      type: VARCHAR
+      size: 8
+      description: 
+      required: true
+    codpre:
+      type: VARCHAR
+      size: 32
+      description: 
+      required: true
+    monrel:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    monaju:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    starel:
+      type: VARCHAR
+      size: 1
+      description: 
+    refere:
+      type: VARCHAR
+      size: 8
+      description: 
+    refprc:
+      type: VARCHAR
+      size: 8
+      description: 
+    refcom:
+      type: VARCHAR
+      size: 8
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpmovtra:
+    _attributes:
+      description: Tabla que contiene información referente a los movimientos asociados al traslado.
+    reftra:
+      type: VARCHAR
+      size: 8
+      description: Numero de Referencia del  traslado.
+      required: true
+      foreignTable: cptrasla
+      foreignReference: reftra
+    codori:
+      type: VARCHAR
+      size: 50
+      description: Código Presupuestario Origen.
+      required: true
+      foreignTable: cpdeftit
+      foreignReference: codpre
+    coddes:
+      type: VARCHAR
+      size: 50
+      description: Código Presupuestario Destino.
+      required: true
+      foreignTable: cpdeftit
+      foreignReference: codpre
+    monmov:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Movimiento asociado al Traslado.
+    stamov:
+      type: VARCHAR
+      size: 1
+      description: Monto del Movimiento asociado al Traslado.
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpmovadifin:
+    _attributes:
+      description:
+    refadi:
+      type: VARCHAR
+      size: 8
+      description: 
+      required: true
+    codfin:
+      type: VARCHAR
+      size: 4
+      description: 
+    monfin:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cprelapa:
+    _attributes:
+      description:
+    refrel:
+      type: VARCHAR
+      size: 8
+      description: 
+      required: true
+    tiprel:
+      type: VARCHAR
+      size: 4
+      description: 
+      required: true
+    fecrel:
+      type: DATE
+      description: 
+      required: true
+    refapa:
+      type: VARCHAR
+      size: 8
+      description: 
+    desrel:
+      type: VARCHAR
+      size: 250
+      description: 
+    desanu:
+      type: VARCHAR
+      size: 100
+      description: 
+    monrel:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    salaju:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    starel:
+      type: VARCHAR
+      size: 1
+      description: 
+    fecanu:
+      type: DATE
+      description: 
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description: 
+    numcom:
+      type: VARCHAR
+      size: 8
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpdefapr:
+    _attributes:
+      description:
+    stacon:
+      type: VARCHAR
+      size: 50
+      description: 
+    abrstacon:
+      type: VARCHAR
+      size: 5
+      description: 
+    stagob:
+      type: VARCHAR
+      size: 50
+      description: 
+    abrstagob:
+      type: VARCHAR
+      size: 5
+      description: 
+    stapre:
+      type: VARCHAR
+      size: 50
+      description: 
+    abrstapre:
+      type: VARCHAR
+      size: 5
+      description: 
+    staniv4:
+      type: VARCHAR
+      size: 50
+      description: 
+    abrstaniv4:
+      type: VARCHAR
+      size: 5
+      description: 
+    staniv5:
+      type: VARCHAR
+      size: 50
+      description: 
+    abrstaniv5:
+      type: VARCHAR
+      size: 5
+      description: 
+    staniv6:
+      type: VARCHAR
+      size: 50
+      description: 
+    abrstaniv6:
+      type: VARCHAR
+      size: 5
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  hisconb:
+    _attributes:
+      description:
+    codcta:
+      type: VARCHAR
+      size: 18
+      description: 
+      required: true
+    descta:
+      type: VARCHAR
+      size: 40
+      description: 
+      required: true
+    salant:
+      type: NUMERIC
+      size: 12
+      scale: 2
+      description: 
+    debcre:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    cargab:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    fecini:
+      type: DATE
+      description: 
+      required: true
+    feccie:
+      type: DATE
+      description: 
+      required: true
+    salprgper:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    salacuper:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  hisconb1:
+    _attributes:
+      description:
+    codcta:
+      type: VARCHAR
+      size: 18
+      description: 
+      required: true
+    fecini:
+      type: DATE
+      description: 
+      required: true
+    feccie:
+      type: DATE
+      description: 
+      required: true
+    pereje:
+      type: VARCHAR
+      size: 2
+      description: 
+      required: true
+    totdeb:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    totcre:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    salact:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  hisconc:
+    _attributes:
+      description:
+    numcom:
+      type: VARCHAR
+      size: 8
+      description: 
+      required: true
+    feccom:
+      type: DATE
+      description: 
+      required: true
+    descom:
+      type: VARCHAR
+      size: 50
+      description: 
+    moncom:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    stacom:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    tipcom:
+      type: VARCHAR
+      size: 3
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  hisconc1:
+    _attributes:
+      description:
+    numcom:
+      type: VARCHAR
+      size: 8
+      description: 
+      required: true
+    feccom:
+      type: DATE
+      description: 
+      required: true
+    debcre:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true
+    codcta:
+      type: VARCHAR
+      size: 18
+      description: 
+      required: true
+    numasi:
+      type: NUMERIC
+      size: 3
+      scale: 0
+      description: 
+      required: true
+    refasi:
+      type: VARCHAR
+      size: 8
+      description: 
+    desasi:
+      type: VARCHAR
+      size: 30
+      description: 
+    monasi:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: 
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpcontra:
+    _attributes:
+      description:
+    codparma:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    codparde:
+      type: VARCHAR
+      size: 16
+      description: 
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  prepartidas:
+    _attributes:
+      readOnly: true
+      skipSql: true
+      description:
+    codpar:
+      type: VARCHAR
+      size: 16
+      description: 
+    nompar:
+      type: VARCHAR
+      size: 500
+      description: 
+  cpcomext:
+    _attributes:
+      description: Tabla que contiene información referente a las operaciones que comprometen la disponibilidad de las partidas presupuestarias.
+    refcomext:
+      type: VARCHAR
+      size: 8
+      description: Referencia del Compromiso.
+      required: true
+    tipcom:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Compromiso.
+      required: true
+      foreignTable: cpdoccom
+      foreignReference: tipcom
+    feccom:
+      type: DATE
+      description: Fecha de Emisión del Compromiso.
+      required: true
+    anocom:
+      type: VARCHAR
+      size: 4
+      description: Año del Compromiso.
+    refcom:
+      type: VARCHAR
+      size: 8
+      description: Referencia del Compromiso al cual hace Referencia.
+    descom:
+      type: VARCHAR
+      size: 1000
+      description: Descripción del Compromiso.
+    desanu:
+      type: VARCHAR
+      size: 1000
+      description: Descripción de Anulado.
+    moncom:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Compromiso.
+    stacom:
+      type: VARCHAR
+      size: 1
+      description: Estatus del Compromiso.
+    fecanu:
+      type: DATE
+      description: Fecha de Anulación.
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description: Cédula ó Rif. del Beneficiario.
+      foreignTable: opbenefi
+      foreignReference: cedrif
+    loguse:
+      type: VARCHAR
+      size: 50
+      description: 
+    fecreg:
+      type: TIMESTAMP
+      description: Fecha de registro
+      default: now       
+    codmon:
+      type: VARCHAR
+      size: 3
+      required: true
+      foreignTable: tsdefmon
+      foreignReference: codmon
+    valmon:
+      type: NUMERIC
+      size: 14      
+      scale: 6
+      description:  
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpimpcomext:
+    _attributes:
+      description: Tabla que contiene información referente a las imputaciones de compromiso en el extranjero
+    refcomext:
+      type: VARCHAR
+      size: 8
+      description: Numero de Referencia del Compromiso.
+      required: true
+      foreignTable: cpcomext
+      foreignReference: refcomext
+    codpre:
+      type: VARCHAR
+      size: 50
+      description: Código Presupuestario.
+      required: true
+      foreignTable: cpdeftit
+      foreignReference: codpre
+    monimp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto de la Imputación.
+    moncau:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Causado.
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Causado.
+    monaju:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Ajustado.
+    staimp:
+      type: VARCHAR
+      size: 1
+      description: Estatus de la Imputación.
+    refere:
+      type: VARCHAR
+      size: 8
+      description: Movimiento que hace referencia al Compromiso.
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro      
+  cpevepre:
+    _attributes:
+      description:
+    codeve:
+      type: VARCHAR
+      size: 6
+      description: Codigo del Evento
+      required: true
+    deseve:
+      type: VARCHAR
+      size: 1000
+      description: Descripción del Evento
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro      
+  cpdiseve:
+    refdoc:
+      type: VARCHAR
+      size: 8
+      required: true
+    codpre:
+      type: VARCHAR
+      size: 50
+      required: true
+    codeve:
+      type: VARCHAR
+      size: 6
+      required: true
+    moneve:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    tipdoc:
+      type: VARCHAR
+      size: 4
+    tipmov:
+      type: VARCHAR
+      size: 4      
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  cpptocta:
+    _attributes:
+      description: Tabla para registrar los Puntos de Cuenta  
+    numpta:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: Número de Punto de Cuenta  
+    fecpta:
+      type: DATE
+      required: true
+      description: Fecha de Punto de Cuenta 
+    codubiori:
+      type: VARCHAR
+      size: 30
+      required: true
+      description:  Unidad de Origen  
+    codubides:
+      type: VARCHAR
+      size: 30
+      required: true
+      description:  Unidad de Destino     
+    asunto:
+      type: VARCHAR
+      size: 2000
+      description:  Asunto
+    motivo:
+      type: VARCHAR
+      size: 10000
+      description:  Exposición de Motivos
+    reccon:
+      type: VARCHAR
+      size: 2000
+      description:  Recomendación/Conclusiones    
+    loguse:
+      type: VARCHAR
+      size: 50
+      description: Usuario que genero el punto de cuenta.
+    aprpto:
+      type: VARCHAR
+      size: 1
+      description: Estatus de Aprobación del Punto de Cuenta
+    usuapr:
+      type: VARCHAR
+      size: 50
+      description:  usuario que realizo la aprobación
+    fecapr:
+      type: DATE      
+      description:  fecha en que realizo la aprobación
+    coddirec:
+      type: VARCHAR
+      size: 32
+      description:   Código de la Dirección
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  cpdetptocta:
+    _attributes:
+      description: Tabla para registrar el detalle de los Puntos de Cuenta  
+    numpta:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: Número de Punto de Cuenta  
+    codpre:
+      type: VARCHAR
+      size: 50
+      description: Código Presupuestario.
+      required: true
+      foreignTable: cpdeftit
+      foreignReference: codpre
+    moncod:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Código Presupuestario.
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  cpdefparpre:
+    _attributes:
+      description: Tabla que Graba el registro de las Partidas Presupuestarias
+    codparpre:
+      type: VARCHAR
+      size: 32
+      required: true
+      description: Código de la Partida Presupuestaria
+    nomparpre:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Nombre de la Partida Presupuestaria
+    stagen:
+      type: VARCHAR
+      size: 100
+      description: Status que indica si fue generada en Cpdeftit
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  cpsolmovadiper:
+    _attributes:
+      description: Tabla que refiere al detalle por período de la solicitud de adición o disminuciones presupuestaria
+    refadi:
+      type: VARCHAR
+      size: 8
+      description: Referencia de la Adición o Disminución.
+      required: true
+      foreignTable: cpsoladidis
+      foreignReference: refadi
+    codpre:
+      type: VARCHAR
+      size: 50
+      required: true
+      description: Código Presupuestario
+    perpre:
+      type: VARCHAR
+      size: 2
+      required: true
+      description: Periodo Presupuestario.
+    monmov:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Movimiento    
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpmovadiper:
+    _attributes:
+      description: Tabla que contiene información referente al detalle por período de las adiciones.
+    refadi:
+      type: VARCHAR
+      size: 8
+      description: Referencia de la Adición
+      required: true
+      foreignTable: cpadidis
+      foreignReference: refadi
+    codpre:
+      type: VARCHAR
+      size: 50
+      description: Código Presupuestario Asociado a la Adición.
+      required: true
+      foreignTable: cpdeftit
+      foreignReference: codpre
+    perpre:
+      type: VARCHAR
+      size: 2
+      description: Periodo Presupuestario Asociado a la Adición.
+      required: true
+    monmov:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Movimiento Asociado a la Adición.    
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpsolmovtraperori:
+    _attributes:
+      description: Tabla que refiere al detalle por periodo de la solicitud de traslado presupuestario.
+    reftra:
+      type: VARCHAR
+      size: 8
+      description: Corresponde a la Referencia del Traslado
+      required: true
+      foreignTable: cpsoltrasla
+      foreignReference: reftra
+    codori:
+      type: VARCHAR
+      size: 50
+      description: Código Presupuestario Origen
+    perpre:
+      type: VARCHAR
+      size: 2
+      required: true
+      description: Periodo Presupuestario Asociado al Traslado.       
+    monmov:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Movimiento
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro 
+  cpsolmovtraperdes:
+    _attributes:
+      description: Tabla que refiere al detalle por periodo de la solicitud de traslado presupuestario.
+    reftra:
+      type: VARCHAR
+      size: 8
+      description: Corresponde a la Referencia del Traslado
+      required: true
+      foreignTable: cpsoltrasla
+      foreignReference: reftra
+    coddes:
+      type: VARCHAR
+      size: 50
+      required: true
+      description: Código Presupuestario Destino
+    perpre:
+      type: VARCHAR
+      size: 2
+      required: true
+      description: Periodo Presupuestario Asociado al Traslado.              
+    monmov:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Movimiento
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro
+  cpmovtraperori:
+    _attributes:
+      description: Tabla que contiene información referente a los movimientos asociados al traslado.
+    reftra:
+      type: VARCHAR
+      size: 8
+      description: Numero de Referencia del  traslado.
+      required: true
+      foreignTable: cptrasla
+      foreignReference: reftra
+    codori:
+      type: VARCHAR
+      size: 50
+      description: Código Presupuestario Origen.
+      required: true
+      foreignTable: cpdeftit
+      foreignReference: codpre
+    perpre:
+      type: VARCHAR
+      size: 2
+      required: true
+      description: Periodo Presupuestario Asociado al Traslado.        
+    monmov:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Movimiento asociado al Traslado.
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro   
+  cpmovtraperdes:
+    _attributes:
+      description: Tabla que contiene información referente a los movimientos asociados al traslado.
+    reftra:
+      type: VARCHAR
+      size: 8
+      description: Numero de Referencia del  traslado.
+      required: true
+      foreignTable: cptrasla
+      foreignReference: reftra
+    coddes:
+      type: VARCHAR
+      size: 50
+      description: Código Presupuestario Destino.
+      required: true
+      foreignTable: cpdeftit
+      foreignReference: codpre
+    perpre:
+      type: VARCHAR
+      size: 2
+      required: true
+      description: Periodo Presupuestario Asociado al Traslado.        
+    monmov:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Movimiento asociado al Traslado.
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description:  Identificador Único del registro           
+

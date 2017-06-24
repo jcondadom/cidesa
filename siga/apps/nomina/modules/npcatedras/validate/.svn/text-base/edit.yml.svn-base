@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "npdefcate{codcate}"
+   - "npdefcate{descate}"
+
+names:
+  npdefcate{codcate}:
+    required:  Yes
+    required_msg: El Código de la Cátedra no puedo estar en Blanco
+    validators: Validator_codcate
+
+  npdefcate{descate}:
+    required:  Yes
+    required_msg: La Descripción de la Cátedra no puedo estar en Blanco
+    validators: Validator_Descate
+
+Validator_codcate:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Npdefcate
+        column:       codcate
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_Descate:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción de la Cátedra no debe contener  menos de 2 caracteres
+        max:       250
+        max_error: La Descripción de la Cátedra no debe contener mas de 250 caracteres

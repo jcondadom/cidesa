@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/mssql/metadata
+END
+MSSQLDatabaseInfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/mssql/metadata/MSSQLDatabaseInfo.php
+END
+MSSQLTableInfo.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/creole/drivers/mssql/metadata/MSSQLTableInfo.php
+END

@@ -1,0 +1,19 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Tscheemi
+    theme:            cidesaGenerator
+    fields:
+      grid: { name: . }
+      numche: { name: . }
+      fecemi: { name: . }
+      cedrif: { name: . }
+      btnbuscar: { name: . }
+    edit:
+      title:          Cheques para la Firma
+      display:
+        "Filtros":  [_numche, _fecemi, _cedrif, _btnbuscar]
+        "Cheques": [_grid]
+      hide:  [filasord]
+      actions:
+        _save:        ~

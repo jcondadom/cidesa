@@ -1,0 +1,236 @@
+// Estilos específicos del template
+@import "bootstrap/bootstrap.less";
+
+// Variables
+@sidebar-width: 220px;
+@white-space: 20px;
+
+div.header {
+  @top-margin: @white-space * 2;
+  @inset-shadow: inset 0 2px 4px rgba(0,0,0,.40);
+  
+  .container-fluid;
+  .clearfix;
+  padding-left:0;
+  padding-right:0;
+  margin-bottom: @white-space;
+  
+  .gradientBar(darken(@blueDark, 10%), darken(@blueDark, 25%));
+  .box-shadow(@inset-shadow);
+  
+  .brand      { float: left; margin: @white-space; }
+  .pull-right { float: right; margin: @white-space; color: @blueDark;
+    a { color: @grayLight; }
+    .username { color: @grayLighter; }
+  }
+  
+  .main-tabs {
+    .active-tab() {
+      color: darken(@blueDark, 25%);
+      @shadow: 0 -3px 4px rgba(0,0,0,.40);
+      .box-shadow(@shadow);
+      font-weight: bold;
+      background-color: @white;
+    }
+    
+    .tabs;
+    margin-right: 0;
+    margin-bottom: 0;
+    @inset-shadow: inset 0 -3px 4px rgba(0,0,0,.40);
+    .box-shadow(@inset-shadow);
+    > li {
+      top: 0px;
+      &.secondary       { float: right; 
+        .dropdown-menu  { right: 0; border: 0; } 
+      }
+      &.active      { top: 1px }
+      &.first       { margin-left: @white-space; }
+      &.last        { margin-right: @white-space; }
+      &.active > a  { .active-tab; }
+      > a {
+        color: @grayLighter;
+        background-color: darken(@blueDark, 25%);
+        line-height: 32px;
+        &:hover { color: @blueDark; }
+      }
+    }
+    .dropdown-menu { top: 34px; border: 0; }
+    .open {
+      > a { .active-tab; font-weight: normal; }
+      &.dropdown > .dropdown-toggle,
+      &.dropdown > a { border-bottom-color: @white; }
+    }
+  }
+}
+
+.container-fluid .content { margin-left: 0; margin-right: @sidebar-width + @white-space;
+  .page-header {
+    a.new { .btn.success; float: right; margin-left: 7px; }
+    input.primary { .btn.primary; float: right; margin-left: 7px; }
+  }
+  .actions {
+    a.new { .btn.success; float: right; margin-left: 7px; }
+    input.primary { .btn.primary; float: right; margin-left: 7px; }
+  }
+  table { margin-bottom: @baseline/2;
+    th, td { line-height: @basefont; }
+    th.select-all { width: @baseline; }
+    th > input[type="checkbox"], 
+    td > input[type="checkbox"] { margin:0; }
+  }
+  .pagination         { margin: @baseline/2 0 0 0; height: @baseline;
+    > .result-details { float: left; }
+    > ul              { float: right;
+      li > a          { padding: 0 8px; line-height: @baseline; }
+    }
+  }
+  .form-stacked { padding-left:0;
+    fieldset.well { background-color: #f9f9f9; 
+      legend.label { padding: 3px; }
+    }
+    .optional > label { font-weight: normal; }
+    div.row div.clearfix.error { 
+      background-color: transparent; 
+      margin-left: @white-space;
+      margin-bottom: @baseline/2;
+      margin-top: 0;
+      padding:0;
+    }
+  }
+}
+
+.container-fluid .sidebar { float: right; width: @sidebar-width;
+  hr { border-bottom-color: @grayLighter; }
+  .form-stacked { padding-left:0;
+    fieldset    { padding-top: 0;
+      > legend  { font-size: @basefont; font-weight: bold; line-height: @baseline; }
+      p         { margin-left: @baseline/2; line-height: @baseline; font-size: @basefont; }
+      input, textarea, select, .uneditable-input { height: @basefont; }
+      button    { margin-left: @baseline/2; }
+    }
+    .clearfix { margin-left: @baseline/2; }
+  }
+  .logo {
+    position:relative;
+/* Descomentar para agregar sombra */
+/*    @shadow: 3px 3px 6px rgba(0,0,0,.30);*/
+/*    .box-shadow(@shadow);*/
+    float: right;
+    margin-bottom: @baseline;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    .border-radius(3px);
+    background-color: #eee;
+    padding: 4px;
+    height: 74px;
+    img { border: 1px solid rgba(0, 0, 0, 0.05); .border-radius(6px); width: 90px; }
+  }
+
+}
+
+.modal {
+  width: 700px;
+  margin: -300px 0 0 -300px;
+}
+
+.modal table {
+  margin-left: 30px;
+  width: 95%;
+}
+
+.modal .dataTables_wrapper .row {
+  margin-left: 8px;
+}
+
+// Filas del formulario (edit)
+
+#sf_admin_edit_form .form-row table {
+  border: 0;
+  margin-bottom: 0px;
+  border-collapse: 0;
+}
+
+#sf_admin_edit_form .form-row table th {
+  border-bottom: 0;
+  border-right: 0;
+}
+
+#sf_admin_edit_form fieldset .form-row .content input, textarea, select, .uneditable-input {
+  width: auto;
+}
+
+#sf_admin_edit_form .form-row table th .content {
+  margin-right: 5px;
+  width: auto;
+  padding-left: 0;
+}
+
+#sf_admin_edit_form h2 {
+  line-height: 18px;  
+}
+
+#sf_admin_container #sf_admin_edit_form .form-row .content {
+  padding-left: 0;
+  margin-right: 0;
+}
+
+#sf_admin_edit_form .form-row table th, table td {
+  padding: 0;
+}
+
+#sf_admin_edit_form .form-row table th + th, table td + td {
+  border-left: 0;
+}
+
+#sf_admin_edit_form .form-row table th div {
+  width: auto;
+}
+
+
+#sf_admin_edit_form .form-row table th .content input, textarea, select, .uneditable-input {
+  width: auto;
+}
+
+
+// Filtros en el list
+.sf_admin_filters .form-row table th .content input, textarea, select, .uneditable-input {
+  width: auto;
+}
+
+.sf_admin_filters .form-row table th div {
+  width: auto;
+}
+
+.sf_admin_filters input, .sf_admin_filters textarea, .sf_admin_filters select {
+  width: auto;
+}
+
+.sf_admin_filters .form-row .content {
+  padding-left: 12em !important;
+}
+
+.sf_admin_filters .form-row .content {
+  padding-left: 0;
+  margin-right: 0 !important;
+}
+
+
+#sf_admin_container #sf_admin_content {
+  margin-right: 400px !important;
+}
+
+#sf_admin_container #sf_admin_bar {
+  width: auto !important;
+}
+
+// Body
+body {
+  padding: 0 !important;
+}
+
+
+
+// Grid dentro del formulario
+
+.gridout input, .gridout textarea, .gridout select {
+  width: auto;
+}

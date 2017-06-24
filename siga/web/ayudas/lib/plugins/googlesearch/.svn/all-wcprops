@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/16047/web/php/documentacion/dokuwiki/trunk/lib/plugins/googlesearch
+END
+manager.dat
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/16047/web/php/documentacion/dokuwiki/trunk/lib/plugins/googlesearch/manager.dat
+END
+action.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/16047/web/php/documentacion/dokuwiki/trunk/lib/plugins/googlesearch/action.php
+END
+style.css
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/16047/web/php/documentacion/dokuwiki/trunk/lib/plugins/googlesearch/style.css
+END
+nusoap.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/16047/web/php/documentacion/dokuwiki/trunk/lib/plugins/googlesearch/nusoap.php
+END
+GoogleAPI.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/16047/web/php/documentacion/dokuwiki/trunk/lib/plugins/googlesearch/GoogleAPI.php
+END

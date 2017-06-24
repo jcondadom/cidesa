@@ -1,0 +1,28 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   Npdetnucemphor
+  ancho:				           800
+  anchogrid:               900
+  filas:                   0
+  titulo:                  'Empleados'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Empleado
+  tipo:                    t
+  nombrecampo:             codemp
+  html:                    ["size=30 readonly=true"]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nomemp
+  html:                    ["size=50 readonly=true"]
+3:       # Columna 3
+  titulo:                  Cantidad de Horas
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canhor
+  esnumerico:              true
+  html:                    ["size=10"]
+  estotal:                 [true, npnucemphor_tothor]

@@ -1,0 +1,15 @@
+====== Operación Modificar ======
+
+Para la operación de Modificar:
+
+  * Seleccionar de la **Lista** el **Cargo** a modificar. 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompercarmod.jpg|}}"></div><br></html>
+
+  * El sistema muestra los datos del **Cargo** seleccionado.  <html><br><br></html>
+
+  *  Presionamos  {{:btnguardar.jpg|}} para guardar los cambios. <html><br><br></html>
+ 
+  * El sistema emite un **Mensaje de Éxito**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>
+
+  * Para verificar las actualizaciones presione el Botón  {{:btnlista.jpg|}}, el cual nos llevará a la Lista de Cargos registrados

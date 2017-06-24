@@ -1,0 +1,127 @@
+methods:
+  post:
+   - "liordcom{codempadm}"
+   - "liordcom{codempeje}"
+   - "liordcom{numord}"
+   - "liordcom{resolu}"
+   - "liordcom{fecrel}"
+   - "liordcom{numptocuecon}"
+   - "liordcom{fecreg}"
+   - "liordcom{dias}"
+   - "liordcom{fecven}"
+   - "liordcom{objcont}"
+   - "liordcom{sancio}"
+   - "liordcom{garant}"
+   - "liordcom{numofe}"
+   - "liordcom{numexp}"
+
+names:
+  liordcom{codempadm}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  liordcom{codempeje}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  liordcom{numord}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numord
+    
+  liordcom{resolu}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    
+  liordcom{fecrel}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator    
+
+  liordcom{numptocuecon}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numptocuecon
+
+  liordcom{fecreg}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  liordcom{dias}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: MyNumberValidator
+    
+  liordcom{fecven}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  liordcom{numofe}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    
+  liordcom{numexp}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco  
+    
+  liordcom{objcont}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_des
+    
+  liordcom{sancio}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_des
+    
+  liordcom{garant}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_des
+
+Validator_codemp:
+    class: CidesaExistValidator
+    param:
+        class:        Lidatstedet
+        column:       codemp
+        unique_error: El Empleado no existe
+
+Validator_numptocuecon:
+    class: CidesaExistValidator
+    param:
+        class:        Liptocuecon
+        column:       numptocuecon
+        unique_error: El Expediente no Existe
+
+
+Validator_numord:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Liordcom
+        column:       numord
+        unique_error: El numero ya existe no puede repetirse
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+MyNumberValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]
+
+
+Validator_des:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Recomendación no puede tener menos de 2 caracteres
+        max:       1000
+        max_error: La Rliecomendación no puede pasar mas de 1000 caracteres

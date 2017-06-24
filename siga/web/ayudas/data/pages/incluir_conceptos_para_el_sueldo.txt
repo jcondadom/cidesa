@@ -1,0 +1,11 @@
+====== Operación Incluir ======
+
+Para la operación de Registrar debe:  <html><br><br></html>
+
+  * Seleccionar del **Catálogo** el **Tipo de Nómina** a la cual se le asociará el Concepto. <html><br><br></html>
+
+  * Seleccionar del **Catálogo** el **Concepto** a asociar al Tipo de Nómina que se está definiendo. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconsueinc.jpg|}}"></div><br></html>
+
+  * Presionar {{:btnguardar.jpg|}} para almacenar el registro.  <html><br><br></html>

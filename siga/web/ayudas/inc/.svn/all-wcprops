@@ -1,0 +1,293 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc
+END
+JpegMeta.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/JpegMeta.php
+END
+ZipLib.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/ZipLib.class.php
+END
+pageutils.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/pageutils.php
+END
+plugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/plugin.php
+END
+auth.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/auth.php
+END
+cache.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/cache.php
+END
+html.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/html.php
+END
+events.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/events.php
+END
+search.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/search.php
+END
+SafeFN.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/SafeFN.class.php
+END
+JSON.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/JSON.php
+END
+cliopts.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/cliopts.php
+END
+blowfish.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/blowfish.php
+END
+HTTPClient.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/HTTPClient.php
+END
+pluginutils.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/pluginutils.php
+END
+DifferenceEngine.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/DifferenceEngine.php
+END
+FeedParser.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/FeedParser.php
+END
+mail.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/mail.php
+END
+subscription.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/subscription.php
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/.htaccess
+END
+adLDAP.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/adLDAP.php
+END
+IXR_Library.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/IXR_Library.php
+END
+utf8.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/utf8.php
+END
+changelog.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/changelog.php
+END
+SimplePie.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/SimplePie.php
+END
+common.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/common.php
+END
+indexer.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/indexer.php
+END
+geshi.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/geshi.php
+END
+actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/actions.php
+END
+httputils.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/httputils.php
+END
+toolbar.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/toolbar.php
+END
+form.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/form.php
+END
+EmailAddressValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/EmailAddressValidator.php
+END
+init.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/init.php
+END
+confutils.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/confutils.php
+END
+plugincontroller.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/plugincontroller.class.php
+END
+fulltext.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/fulltext.php
+END
+io.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/io.php
+END
+config_cascade.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/config_cascade.php
+END
+Sitemapper.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/Sitemapper.php
+END
+template.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/template.php
+END
+infoutils.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/infoutils.php
+END
+parserutils.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/parserutils.php
+END
+PassHash.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/PassHash.class.php
+END
+load.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/load.php
+END
+media.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/media.php
+END
+TarLib.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/TarLib.class.php
+END
+feedcreator.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/feedcreator.class.php
+END

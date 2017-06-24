@@ -1,0 +1,58 @@
+methods:
+  post:
+   - "litipmod{codtipmod}"
+   - "litipmod{nomtipmod}"
+   - "litipmod{dettipmod}"
+   - "litipmod{tipo}"
+
+names:
+  litipmod{codtipmod}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codtipmod, Validator_codtipmod_string
+
+  litipmod{nomtipmod}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_nomtipmod
+
+  litipmod{dettipmod}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_dettipmod
+
+  litipmod{tipo}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+
+
+Validator_codtipmod:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Litipmod
+        column:       codtipmod
+        unique_error: El código de tipo de moda ya existe, intente con otro
+
+Validator_codtipmod_string:
+    class: sfStringValidator
+    param:
+        min:       1
+        min_error: La descripción no puede tener menos de 1 carmoderes
+        max:       8
+        max_error: La descripción no puede pasar mas de 8 carmoderes
+
+Validator_nomtipmod:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 carmoderes
+        max:       100
+        max_error: La descripción no puede pasar mas de 100 carmoderes
+
+Validator_dettipmod:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 carmoderes
+        max:       10000
+        max_error: La descripción no puede pasar mas de 10000 carmoderes

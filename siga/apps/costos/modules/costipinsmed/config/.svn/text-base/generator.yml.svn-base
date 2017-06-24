@@ -1,0 +1,30 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Costipinsmed
+    theme:            cidesaGenerator
+
+    fields:
+      codinsmed: { name: Código, params: size=20 maxlength=10}
+      desinsmed: { name: Descripción, type: textarea_tag, params: size=100x5 maxlength=500}
+
+    list:
+      fields:
+        codinsmed: { name: Código, params: size=10 maxlength=10}
+      title:          Definición de Tipos de Instrumentos de Medición
+      display:        [=codinsmed, desinsmed]
+      object_actions:
+        _edit:        ~
+        _delete:      NONE
+      filters:        [codinsmed]
+      max_per_page:   10
+      sort:           codinsmed
+
+    edit:
+      title:          Definición de Tipos de Instrumentos de Medición
+      display:
+        "Instrumento": [codinsmed, desinsmed]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      NONE

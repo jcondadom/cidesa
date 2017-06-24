@@ -1,0 +1,1 @@
+<?php echo select_tag('manreghor[tiping]', options_for_select(array('N' => 'Normal', 'C' => 'Cambio'),$manreghor->getTiping()),array()); ?>

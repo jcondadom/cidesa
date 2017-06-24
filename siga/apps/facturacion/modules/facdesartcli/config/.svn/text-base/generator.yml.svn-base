@@ -1,0 +1,14 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Faartdtocte
+    theme:            cidesaGenerator
+    fields:
+      fatipcte_id:  { name: Tipo Cliente}
+      grid: { name: . }
+    edit:
+      title:          Descuentos por Artículo y Tipo de Cliente
+      display:
+        "Datos": [_fatipcte_id, _grid]
+      actions:
+        _save:        ~

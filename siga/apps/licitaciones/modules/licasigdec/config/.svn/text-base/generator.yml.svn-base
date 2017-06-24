@@ -1,0 +1,28 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Liasigdec
+    theme:            cidesaGenerator
+    fields:
+      tabla:          { name: Tipo de Documentos}      
+      numdec:         { name: Declaratoria, params: readonly=true }
+      lisicact_id:    { name: Declaratoria Modalidad, params: include_blank="Seleccione..." }
+      fecdecla:        { name: Fecha Declaratoria, params: readonly=true}
+      detdecmod:      { name: Detalle , type: textarea_tag, params: size="80x10" }
+      anapor:         { name: Analizado Por, params: size=80 }
+      anaporcar:      { name: Cargo, params: size=80 }
+      ptabla:         { name: .}         
+      grid:           { name: .}
+      js:             { name: .}
+    
+    edit:
+      title:          Asignación de Declaratoria de Documentos
+      display:
+        Seleccion de Tipo Documento:  [_ptabla]
+        Documentos:                   [_grid]
+        Declaratoria del Documento:   [lisicact_id, fecdecla, detdecmod, anapor, anaporcar, numdec, _js]
+      actions:
+        _list:        none
+        _save:        ~
+        _create:        ~
+        _delete:      none

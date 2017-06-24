@@ -1,0 +1,29 @@
+methods:
+  post:
+   - "npjorcpt{codjor}"
+   - "npjorcpt{codnom}"
+
+names:
+  npjorcpt{codjor}:
+    required:  Yes
+    required_msg: El Código de la Jornada no puedo estar en Blanco
+    validators: CodJorValidator
+
+  npjorcpt{codnom}:
+    required:  Yes
+    required_msg: El Código de la Nómina no puedo estar en Blanco
+    validators: CodNomValidator    
+
+CodJorValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Npjortur
+        column:   codjor
+        unique_error:   El Código de la Jornada no existe.
+        
+CodNomValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Npnomina
+        column:   codnom
+        unique_error:   El Código de la Nómina no existe.        

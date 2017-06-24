@@ -1,0 +1,82 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npsolayueco
+    theme:            cidesaGenerator
+    fields:
+      numsolayu: { name: N° Solicitud, params: size=10 maxlength=8 onFocus=readonly(this.id) onBlur="event.keyCode=13; enter(event,this.value);"}
+      fecsolayu: { name: Fecha, params: date_format='dd/MM/yyyy' maxlength=10}
+      dessolayu: { name: Descripción, type: textarea_tag, params: size=80x5 maxlength=1000 onkeyup="javascript:return ismaxlength(this)"}
+      tipcom:
+        name: Tipo de Compromiso
+        params: size=10  maxlength=4
+        catalogo:
+          catalogoweb: Cpdoccom_Almordcom
+          clase: Cpdoccom
+          ajax: 1
+          parametros: getprincipal="getTipcom" getsecundario="getNomext" campoprincipal="tipcom" camposecundario="nomext" campobase = "id"
+      esnoemp: { name: Es empleado}
+      codempayu: { name: Ayuda otorgada a}
+      cedrif:
+        name: Beneficiario
+        params: size=20 maxlength=16 
+        catalogo:
+          catalogoweb: Opbenefi_Pagemiord
+          clase: Opbenefi
+          ajax: 3
+          parametros: getprincipal="getCedrif" getsecundario="getNomben" campoprincipal="cedrif" camposecundario="nomben" campobase = "id"
+      numpuncue: { name: N° Punto de Cuenta, params: size=25 maxlength=20}
+      codtipayu:
+        name: Tipo de Ayuda
+        params: size=10 maxlength=3 
+        catalogo:
+          catalogoweb: Nptipayu_Nomsolayueco
+          clase: Nptipayu
+          ajax: 4
+          parametros: getprincipal="getCodtipayu" getsecundario="getDestipayu" campoprincipal="codtipayu" camposecundario="destipayu" campobase = "id"
+      codcat:
+        name: Categoria Presupuestaria
+        params: size=40 maxlength=32 
+        catalogo:
+          catalogoweb: Npcatpre_Categoriaxemp
+          clase: Npcatpre
+          ajax: 5
+          parametros: getprincipal="getCodcat" getsecundario="getNomcat" campoprincipal="codcat" camposecundario="nomcat" campobase = "id"          
+      codeve:
+        name: Evento
+        params: size=10 maxlength=6 
+        catalogo:
+          catalogoweb: Preprecom_Cpevepre
+          clase: Cpevepre
+          ajax: 6
+          parametros: getprincipal="getCodeve" getsecundario="getDeseve" campoprincipal="codeve" camposecundario="deseve" campobase = "id"
+      codniv:
+        name: Unidad Solicitante
+        params: size=20 maxlength=16 
+        catalogo:
+          catalogoweb: Npestorg_Nomreghorprofnuc
+          clase: Npestorg
+          ajax: 7
+          parametros: getprincipal="getCodniv" getsecundario="getDesniv" campoprincipal="codniv" camposecundario="desniv" campobase = "id"                    
+      monayu: { name: Monto Ayuda}
+      refcom: { name: Compromiso, params: style="border-style:none"}
+      grid: { name: .}
+      js: { name: .}
+    list:
+      title:          Solicitudes de Ayuda Económica
+      filters:        [numsolayu, fecsolayu]
+      display:        [=numsolayu, fecsolayu]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           numsolayu
+    edit:
+      title:          Edición de Solicitud de Ayuda Económica
+      display:
+        "Datos": [_js, numsolayu, fecsolayu, dessolayu, tipcom, _esnoemp, _grid, cedrif, numpuncue, codtipayu, codcat, codeve, codniv, monayu, refcom]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

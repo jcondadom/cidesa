@@ -1,0 +1,49 @@
+generator:
+  class:              sfPropelAdminGenerator
+  param:
+    model_class:      Tsmovlib
+    theme:            default
+    fields:
+      numcue: { name: Cuenta del Banco}
+      nomcue: { name: d}
+      reflib: { name: Referencia}
+      feclib: { name: Fecha del Movimiento, params: date_format='dd/MM/yyyy'}
+      tipmov: { name: Tipo}
+      destip: { name: d}
+      deslib: { name: Descripcion}
+      fecing: { name: Fecha del Registro, params: date_format='dd/MM/yyyy'}
+      monmov: { name: Monto}
+      numcom: { name: Numero de Comprobante}
+      feccom: { name: Fecha, params: date_format='dd/MM/yyyy'}
+      status: { name: Estatus}
+      stacon: { name: Estatus Contable}
+      refpag: { name: Referencia del Pagado}
+      cedrif: { name: C.I. o Rif Beneficiario, params: maxlength=15}
+      codmon: { name: Moneda}
+      valmon: { name: Valor}
+      codpro: { name: Proyecto}
+      coddirec: { name: Dirección}
+      grid: { name: .}
+      refrei: { name: Referencia}
+      rifcon: { name: C.I./RIF Contribuyente}
+      codtipgas: { name: Tipo de Gasto}
+
+    list:
+      title:          Movimientos Segun Libros
+      fields:
+        numcue: { name: Cuenta del Banco, type: input_tag, params: size=20}
+      filters:        [numcue, reflib, feclib, tipmov, deslib, cedrif, monmov]
+      display:        [=numcue, reflib, tipmov, deslib, feclib, monmov]
+      sort:           numcue
+      object_actions:
+        _edit:        ~
+      max_per_page:   10
+      options:        [ tipmov, numcue]
+    edit:
+      title:          Movimientos Segun Libros
+      display:       [=numcue, nomcue, reflib, feclib, tipmov, destip, deslib, monmov, fecing, numcom, feccom, debcre, codcta, status, stacon, refpag, cedrif, codmon, valmon, codpro, coddirec, refrei, _rifcon, _codtipgas, _grid]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:        ~
+        _delete:      ~

@@ -1,0 +1,28 @@
+====== Tipos de Contratos Colectivos ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite llevar el control de todos aquellos Tipos de contratos de índole colectivo que una Institución posee a la hora de contratar personal . </html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Prestaciones** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperprest.jpg|}}"></div><br></html> 
+
+  * Seleccione la opción **Definición de Parámetros para las Prestaciones Sociales**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefparpresoc.jpg|}}"></div><br></html>
+
+ * Por último seleccione la opción **Tipos de Contratos Colectivos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompertipconcol.jpg|}}"></div><br></html>
+
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Tipos de Contratos Colectivos** solo podrá realizar las Operaciones Básicas de: 
+
+  * [[Incluir Tipos de Contratos Colectivos |Incluir]]
+
+  * [[Eliminar Tipos de Contratos Colectivos |Eliminar]]
+
+  * [[Consultar Tipos de Contratos Colectivos |Consultar]]

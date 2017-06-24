@@ -1,0 +1,59 @@
+Parametros:
+  modulo: facturacion
+  nomrep: farffactura
+  titulo: FACTURA
+  orientacion: Vertical
+  tipopagina: Carta
+  width:210
+
+Filas:
+  CATALOGO FACTURAS:
+    tipotag:  inputcat_tag
+    label: Código Factura:
+    sql: select min(REFFAC) as codfacdes,max(REFFAC) as codfachas from FAFACTUR
+    nomdes: codfacdes
+    campodes: codfacdes
+    catdes: 0
+    nomhas: codfachas
+    campohas: codfachas
+    cathas: 1
+    nomcat: factura
+    size: 15
+  FECHA:
+    tipotag:   inputfec_tag
+    label: Fecha
+    sql: select to_char(min(fecfac),'dd/mm/yyyy') as fechamin,to_char(max(fecfac),'dd/mm/yyyy') as fechamax from fafactur
+    nomdes: fechamin
+    campodes: fechamin
+    nomhas: fechamax
+    campohas: fechamax
+    size: 15
+
+  combo Factura:
+    tipotag: combof_tag
+    label: Estatus Factura
+    nomdes: factura
+    campodes: [ACTIVAS=>ACTIVAS, ANULADAS=>ANULADAS, AMBAS=>AMBAS]
+    #SI NO LE PASAS EL V1=> POR DEFECTO TOMA PARA EL VALUE EL VALOR QUE TENGA
+    #PARAMETROS
+    #parametros: width=100
+
+  CATALOGO CLIENTES:
+    tipotag:  inputcat_tag
+    label: CI/RIF Cliente:
+    sql: select min(CODCLI) as codclides,max(CODCLI) as codclihas from FAFACTUR
+    nomdes: codclides
+    campodes: codclides
+    catdes: 2
+    nomhas: codclihas
+    campohas: codclihas
+    cathas: 3
+    nomcat: facclientes
+    size: 15
+
+  caja nomal:
+    tipotag:   input_tag
+    label: Plazo Entrega (Dias)
+    nomdes: dias
+    campodes:-1
+    size: 8

@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "mancaudem{codcau}"
+   - "mancaudem{descau}"
+
+names:
+  mancaudem{codcau}:
+    required:  Yes
+    required_msg: Introduzca el Código de la Causa
+    validators: Validator_codcau
+    
+  mancaudem{descau}:
+    required:  Yes
+    required_msg: Introduzca la Descripción de la Causa
+    validators: Validator_descau
+
+Validator_codcau:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Mancaudem
+        column:       codcau
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_descau:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La Descripción no puede tener mas de 250 caracteres 

@@ -1,0 +1,15 @@
+Los campos que conforman la pantalla de **Tipos de Monedas** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbantipmonedinc1.jpg|}}"></div><br></html>
+
+  * **Código:** Se refiere al código que identifica el Tipo de Moneda. <html><br><br></html>
+
+  * **Descripción:** Se refiere al nombre que identifica el Tipo de Moneda. <html><br><br></html>
+
+  * **Fecha:** Seleccione del [[calendario|calendario]] la fecha en que se definió el tipo de moneda. <html><br><br></html>
+
+  * **Monto:** En este campo se indica el monto en Bs al cual equivale la moneda. <html><br><br></html>
+
+  * **Afecta:** Se debe indicar si el tipo de moneda **Aumenta** (Si el valor del monto aumenta al momento de realizar una operación con el Tipo de Moneda definido anteriormente) ó **Disminuye** (Si el valor del monto disminuye al momento de realizar una operación con el Tipo de Moneda definido anteriormente) <html><br><br></html> 
+ 
+  * Una vez que conoce cada uno de los campos de la pantalla de **Tipos de Monedas** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

@@ -1,0 +1,27 @@
+====== Asignación de Cargos y Conceptos a Empleados ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite asignar a un determinado empleado el cargo que ejercerá dentro de la Empresa ó Institución y sus conceptos asociados. </html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Personal** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperper.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Asignación de Cargos y Conceptos a Empleados**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasicaryconemp.jpg|}}"></div><br></html>
+
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Asignación de Cargos y Conceptos a Empleados** solo podrá realizar las Operaciones Básicas de:
+
+  * [[Incluir Asignación de Cargos y Conceptos a Empleados|Incluir]]
+
+  * [[Modificar Asignación de Cargos y Conceptos a Empleados|Modificar]]
+
+  * [[Eliminar Asignación de Cargos y Conceptos a Empleados|Eliminar]]
+
+  * [[Consultar Asignación de Cargos y Conceptos a Empleados|Consultar]]

@@ -1,0 +1,85 @@
+methods:
+  post:
+   - "licomint{codempadm}"
+   - "licomint{codempeje}"
+   - "licomint{numcomint}"
+   - "licomint{codclacomp}"
+   - "licomint{fecreg}"
+   - "licomint{dias}"
+   - "licomint{fecven}"
+   - "licomint{codmon}"
+
+
+names:
+  licomint{codempadm}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  licomint{codempeje}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  licomint{numcomint}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numcomint
+
+  licomint{codclacomp}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codclacomp
+
+  licomint{fecreg}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  licomint{dias}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: MyNumberValidator
+
+  licomint{fecven}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  licomint{codmon}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+
+Validator_codemp:
+    class: CidesaExistValidator
+    param:
+        class:        Lidatstedet
+        column:       codemp
+        unique_error: El Empleado no existe
+
+Validator_numcomint:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Licomint
+        column:       numcomint
+        unique_error: El numero ya existe no puede repetirse
+
+Validator_codclacomp:
+    class: CidesaExistValidator
+    param:
+        class:        Occlacomp
+        column:       codclacomp
+        unique_error: La Solicitud de Contratación no Existe
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+MyNumberValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]
+

@@ -1,0 +1,70 @@
+methods:
+  post:
+   - "tspagele{refpag}"
+   - "tspagele{tipdoc}"
+   - "tspagele{fecpag}"
+   - "tspagele{numcue}"
+   - "tspagele{despag}"
+
+names:
+  tspagele{refpag}:
+    required:  Yes
+    required_msg: La Referencia del Pagado no puedo estar en Blanco
+    validators: UniqueValidator
+
+  tspagele{tipdoc}:
+    required:  Yes
+    required_msg: El Tipo de Documento  no puedo estar en Blanco
+    validators: ExistValidator_tipdoc
+    
+  tspagele{fecpag}:
+    required:  Yes
+    required_msg: La Fecha de Emisión no puedo estar en Blanco
+    validators: Fecha2Validator
+
+  tspagele{numcue}:
+    required:  Yes
+    required_msg: La Cuenta Bancaria  no puedo estar en Blanco
+    validators: ExistValidator_numcue
+    
+  tspagele{despag}:
+    required:  Yes
+    required_msg: La Descripción  no puedo estar en Blanco
+    validators: DescripcionValidator    
+
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Tspagele
+        column:   refpag
+        unique_error:   La Referencia del Pago ya existe. Por Favor, CambiÃ©lo por otro.
+
+Fecha2Validator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+ExistValidator_tipdoc:
+    class: CidesaExistValidator
+    param:
+        class:        Cpdocpag
+        column:       tippag
+        unique_error: El Tipo de Documento no Existe.
+        
+ExistValidator_numcue:
+    class: CidesaExistValidator
+    param:
+        class:        Tsdefban
+        column:       numcue
+        unique_error: La Cuenta Bancaria no Existe.    
+        
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: El Concepto no puede tener menos de 5 caracteres
+        max:       1000
+        max_error: El Concepto no puede tener más de 1000 caracteres        

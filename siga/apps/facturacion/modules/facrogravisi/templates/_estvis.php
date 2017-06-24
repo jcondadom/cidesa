@@ -1,0 +1,1 @@
+ <?php echo select_tag('facrovis[estvis]', options_for_select(Constantes::ListaEstrategia(),$facrovis->getEstvis(),'include_custom=Seleccione'),array()) ?>

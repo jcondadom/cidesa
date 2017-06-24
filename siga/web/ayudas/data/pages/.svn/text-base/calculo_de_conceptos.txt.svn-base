@@ -1,0 +1,16 @@
+======Cálculo de Conceptos - Formulación======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Proceso que permite definir las fórmulas mediante las cuales se realizará el Cálculo de cada Concepto de las Nóminas de la Institución. Estás fórmulas pueden ser definidas de manera sencilla ó utilizando un [[Algoritmo de Programación|Algoritmo de Programación]].
+
+**Para ello:**
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Cálculos de Nómina** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompercalnom.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Cálculo de Conceptos - Formulación**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompercalnomcalconcep.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Cálculo de Conceptos - Formulación** veamos la [[Descripcion_Campos_Calculo_conceptos|Descripción de los Campos]]

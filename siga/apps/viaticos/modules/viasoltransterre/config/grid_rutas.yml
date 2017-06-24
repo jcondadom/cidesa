@@ -1,0 +1,34 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   viarutsoltran
+  anchogrid:               650
+  ancho:                   600
+  filas:                   1
+  titulo:                  ' Transporte Terrestre'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Día
+  tipo:                    t
+  nombrecampo:             dia
+  esgrabable:              true
+  html:                    [size="15" maxlength=2]
+2:       # Columna 2
+  titulo:                  Mes
+  tipo:                    t
+  nombrecampo:             mes
+  esgrabable:              true
+  html:                    [size="15" maxlength=2]
+3:       # Columna 3
+  titulo:                  Hora
+  tipo:                    t
+  nombrecampo:             hora
+  esgrabable:              true
+  html:                    [size="15" maxlength=20]
+4:       # Columna 4
+  titulo:                  Ruta
+  tipo:                    a
+  nombrecampo:             ruta
+  html:                    ["size=30x1 maxlength=200" ]
+  esgrabable:              true  
+

@@ -1,0 +1,8 @@
+methods:
+  post:
+   - "faestven{anoest}"
+
+names:
+  faestven{anoest}:
+    required:  Yes
+    required_msg: No puede salvar sin Introducir el Año de Estimación

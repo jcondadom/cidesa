@@ -1,0 +1,16 @@
+====== Operación Modificar ======
+
+Para la operación de **Modificar** debe:  <html><br><br></html>
+
+  * Seleccionar de la **Lista** el **Tipo de Contrato** para la cual desea modificar el Tipo de Asignación. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperregtipasimod1.jpg|}}"></div><br></html>
+
+  * El sistema muestra el Tipo de Asignación perteneciente al Tipo de Contrato seleccionado. <html><br><br></html>
+
+  * Las modificaciones que podrá realizar es agregar o quitar Asignaciones en la tabla. Recuerde que para **Agregar** Asignaciones debe presionar el **Botón** <html>&nbsp;&nbsp;</html> {{:btnconsultagrid.jpg|}}y seleccionar del catálogo la asignación que desea y para **Quitar** una asignación que se encuentre en la tabla, debe presionar el **Botón** <html>&nbsp;&nbsp;</html> {{:btnquitar.jpg|}} que se encuentre a la izquierda de la asignación que desea quitar. <html><br><br></html>
+
+  * Una ves realizadas las modificaciones debe Presionar {{:btnguardar.jpg|}} para actualizar la información.  <html><br><br></html> 
+
+  * El sistema emite un **Mensaje de Éxito**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

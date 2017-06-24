@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/phpunit2
+END
+SummaryPHPUnit2ResultFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/phpunit2/SummaryPHPUnit2ResultFormatter.php
+END
+PHPUnit2ResultFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/phpunit2/PHPUnit2ResultFormatter.php
+END
+PHPUnit2Task.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/phpunit2/PHPUnit2Task.php
+END
+FormatterElement.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/phpunit2/FormatterElement.php
+END
+XMLPHPUnit2ResultFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/phpunit2/XMLPHPUnit2ResultFormatter.php
+END
+PlainPHPUnit2ResultFormatter.php
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/phpunit2/PlainPHPUnit2ResultFormatter.php
+END
+BatchTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/phpunit2/BatchTest.php
+END
+PHPUnit2TestRunner.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/phpunit2/PHPUnit2TestRunner.php
+END
+PHPUnit2Util.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/phpunit2/PHPUnit2Util.php
+END
+PHPUnit2ReportTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/phpunit2/PHPUnit2ReportTask.php
+END

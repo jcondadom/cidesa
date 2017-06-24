@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/database
+END
+sfDatabaseManager.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/database/sfDatabaseManager.class.php
+END
+sfDatabase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/database/sfDatabase.class.php
+END
+sfPDODatabase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/database/sfPDODatabase.class.php
+END
+sfPostgreSQLDatabase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/database/sfPostgreSQLDatabase.class.php
+END
+sfMySQLDatabase.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/database/sfMySQLDatabase.class.php
+END

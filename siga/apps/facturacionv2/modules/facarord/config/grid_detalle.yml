@@ -1,0 +1,29 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   fadetcar
+  anchogrid:               650
+  ancho:                   600
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Item 
+  tipo:                    t
+  nombrecampo:             codart
+  esgrabable:              true
+  ajaxgrid:                true
+  html:                    ["size=20"]  
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desart
+  html:                    ["size=40 readonly=true "]
+3:       # Columna 3
+  titulo:                  Monto
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monto
+  esnumerico:              true
+  html:                    ["size=10"]
+  estotal:                 [true, facarord_moncar]

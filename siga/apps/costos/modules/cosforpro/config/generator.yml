@@ -1,0 +1,30 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cosforpro
+    theme:            cidesaGenerator
+
+    fields:
+      codforpro: { name: Código, params: size=20 maxlength=10}
+      desforpro: { name: Descripción, type: textarea_tag, params: size=100x5 maxlength=500}
+
+    list:
+      fields:
+        codforpro: { name: Código, params: size=10 maxlength=10}
+      title:          Definición de Forma de Producción
+      display:        [=codforpro, desforpro]
+      object_actions:
+        _edit:        ~
+        _delete:      NONE
+      filters:        [codforpro]
+      max_per_page:   10
+      sort:           codforpro
+
+    edit:
+      title:          Definición de Forma de Producción
+      display:
+        "Produccion": [codforpro, desforpro]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      NONE

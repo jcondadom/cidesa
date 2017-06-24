@@ -1,0 +1,36 @@
+methods:
+  post:
+   - "contaba{forcta}"
+   - "contaba{fecini}"
+   - "contaba{feccie}"
+
+names:
+  contaba{forcta}:
+    required:  Yes
+    required_msg: El Formato de la Cuenta Contable no puede estar en Blanco
+    validators: Validator_forcta
+
+  contaba{fecini}:
+    required:  Yes
+    required_msg: La Fecha de Inicio del período no puede estar en Blanco
+    validators: FechaValidator    
+
+  contaba{feccie}:
+    required:  Yes
+    required_msg: La Fecha de Cierre del período no puede estar en Blanco
+    validators: FechaValidator        
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+Validator_forcta:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: El Formato no puede tener menos de 2 caracteres
+        max:       32
+        min_error: El Formato no puede tener mas de 32 caracteres  

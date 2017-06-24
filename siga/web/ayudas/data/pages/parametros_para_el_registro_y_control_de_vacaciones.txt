@@ -1,0 +1,24 @@
+====== Parámetros para el Registro y Control de Vacaciones ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que se encarga de llevar un control y registro de todos aquellos parámetros ó datos necesarios para el Cálculo y Pago de las vacaciones a los empleados de una Empresa o Institución </html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Vacaciones** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompervac.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Parámetros para el Registro y Control de Vacaciones**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperparpararegycondevac.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Parámetros para el Registro y Control de Vacaciones** solo podrá realizar las Operaciones Básicas de: 
+
+  * [[Incluir Parámetros para el Registro y Control de Vacaciones |Incluir]]
+
+  * [[Modificar Parámetros para el Registro y Control de Vacaciones|Modificar]]
+
+  * [[Consultar Parámetros para el Registro y Control de Vacaciones|Consultar]]

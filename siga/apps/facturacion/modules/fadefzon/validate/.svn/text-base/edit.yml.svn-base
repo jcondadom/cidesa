@@ -1,0 +1,31 @@
+methods:
+  post:
+   - "fadefzon{codzon}"
+   - "fadefzon{deszon}"
+
+names:
+  fadefzon{codzon}:
+    required:  Yes
+    required_msg: El Código de la Zona no puede estar en Blanco
+    validators: Validator_codzon
+
+  fadefzon{deszon}:
+    required:  Yes
+    required_msg: La descripción de la Zona no puede estar en Blanco
+    validators: Validator_deszon
+
+
+Validator_codzon:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Fadefzon
+        column:       codzon
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_deszon:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción de la Zona no puede tener menos de 2 caracteres
+        max:       100
+        max_error: La descripción de la Zona no puede pasar mas de 100 caracteres

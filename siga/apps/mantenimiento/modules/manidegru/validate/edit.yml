@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "manidegru{codide}"
+   - "manidegru{deside}"
+
+names:
+  manidegru{codide}:
+    required:  Yes
+    required_msg: Introduzca el Código del Modelo de Equipo
+    validators: Validator_codide
+    
+  manidegru{deside}:
+    required:  Yes
+    required_msg: Introduzca la Descripción del Modelo de Equipo
+    validators: Validator_deside
+
+Validator_codide:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Manidegru
+        column:       codide
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_deside:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La Descripción no puede tener mas de 250 caracteres

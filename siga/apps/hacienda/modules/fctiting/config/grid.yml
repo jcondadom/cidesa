@@ -1,0 +1,23 @@
+opciones:                  # Opciones generales
+  name:                    b
+  eliminar:                false
+  tabla:                   fcesting
+  anchogrid:               400
+  ancho:                   350
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Períoodo
+  tipo:                    t
+  nombrecampo:             perest2
+  esgrabable:              true
+  html:                    ["size=20 readOnly=true"]
+2:       # Columna 2
+  titulo:                  Monto Estimado
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monto
+  esnumerico:              true
+  html:                    ["size=10"]
+  estotal:                 [true, fcpreing_totalest]

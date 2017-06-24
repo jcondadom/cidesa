@@ -1,0 +1,47 @@
+
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   fcdeclar
+  anchogrid:               800
+  ancho:                   700
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Nroreg
+  tipo:                    t
+  nombrecampo:             numero
+  html:                    [size="5" , readonly=true]
+  oculta:                  false
+  esgrabable:              false
+2:       # Columna 2
+  titulo:                  Vencimiento
+  tipo:                    f
+  nombrecampo:             fecven
+  html:                    [size="10" , readonly=true ]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Descripción de la Cuota
+  tipo:                    t
+  nombrecampo:             nombre
+  html:                    [size="30"]
+  esgrabable:              true
+4:       # Columna 4
+  titulo:                  Tipo
+  tipo:                    t
+  nombrecampo:             tipo
+  html:                    [size="10", readonly=true]
+  esgrabable:              true
+5:       # Columna 5
+  titulo:                  Monto Cuota
+  tipo:                    m
+  nombrecampo:             mondec
+  html:                    [size="10", readonly=true onBlur=validaMontos(this.id,this);]
+  esgrabable:              true
+6:       # Columna 6
+  titulo:                  Estado de la Deuda
+  tipo:                    t
+  nombrecampo:             edodecstatus
+  html:                    [size="20" , readonly=true ]
+  esgrabable:              true

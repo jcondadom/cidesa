@@ -1,0 +1,27 @@
+====== Salidas ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite registrar la salida de un determinado empleado de su jornada laboral </html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Faltas y/o Permisos** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperfalper.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Salidas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompersalidas.jpg|}}"></div><br></html>
+
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Permisos** solo podrá realizar las Operaciones Básicas de:
+
+  * [[Incluir Permisos|Incluir]]
+
+  * [[Modificar Permisos|Modificar]]
+
+  * [[Eliminar Permisos|Eliminar]]
+
+  * [[Consultar Permisos|Consultar]]

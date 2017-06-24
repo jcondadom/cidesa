@@ -1,0 +1,26 @@
+Los campos que conforman la pantalla de **Prestación de Servicios** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalminvfisicoinc1.jpg|}}"></div><br></html>
+
+  * **Fecha Inventario:** Seleccione del [[calendario|Calendario]] la Fecha en que se realiza el conteo físico de los artículos en el almacén. <html><br><br></html>
+
+  * **Artículo Desde:** Indica el Código desde que comenzará el rango de los Artículos que van a hacer tomados en cuenta para el registro de los resultados del conteo. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra la [[Listas|Lista]] de artículos registrados previamente en el sistema en la pantalla [[registro_de_artículos_y/o_servicios|Registro de Artículos y/o Servicios]]. <html><br><br></html>
+
+  * **Artículo Hasta:** Indica el Código hasta donde llegará el rango de los Artículos que van a hacer tomados en cuenta para el registro de los resultados del conteo. <html><br><br></html>
+
+  * **Código del Almacén:** Se refiere al Código y Descripción del Almacén al cual se está realizando el inventario. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra la [[Listas|Lista]] de almacenes registrados previamente en el sistema en la pantalla [[definiciones_generales|Definiciones Generales]].
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalminvfisicoinc2.jpg|}}"></div><br></html>
+
+  * **Articulo por Almacén:**  Aquí se muestra un [[Grid|Grid]]  que le permite visualizar el **Código y Descripción de los artículos** que se encuentran dentro del Rango Desde y Hasta definido anteriormente y por cada uno de ellos la **Unidad de Medida** y la **Unidad Alterna** en las columnas correspondientes.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalminvfisicoinc3.jpg|}}"></div><br></html>
+
+  * Por último a cada uno de los artículos que se muestran en el grid debe presionar el Botón {{:btnlupa.jpg|}} que se encuentra ubicado en la **columna Ubicación** para que el sistema muestre un segundo grid llamado **Existencia por Almacén y Ubicación** con las distintas ubicaciones del almacén y es allí donde debe ingresar la Existencia Actual de dicho artículo en cada una de las ubicaciones en la que se encuentre. <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>En la **columna Existencia Actual** del Grid **Artículos por Almacén** el sistema mostrará el resultado de la suma de las existencias de cada una de las ubicaciones del artículo. <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Si desea que el grid **Existencia por Almacén y Ubicación** se oculte nuevamente solo debe presionar el Botón {{:btnvolver.jpg|}}. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Prestación de Servicios** podrá realizar las siguientes [[operaciones_Basicas|Operaciones Básicas]]
+ 

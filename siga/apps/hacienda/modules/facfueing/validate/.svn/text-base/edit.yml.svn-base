@@ -1,0 +1,42 @@
+methods:
+  post:
+   - "fcfuepre{codfue}"
+   - "fcfuepre{nomfue}"
+   - "fcfuepre{nomabr}"
+   - "fcfuepre{monmor}"
+   - "fcfuepre{monmor}"
+
+names:
+  fcfuepre{codfue}:
+    required:  Yes
+    required_msg: El Código es un campo requerido
+    validators: Validator_codfue
+
+  fcfuepre{nomfue}:
+    required:  Yes
+    required_msg: El Nombre es un campo requerido
+
+  fcfuepre{nomabr}:
+    required:  Yes
+    required_msg: El Nombre Abreviado es un campo requerido
+
+  fcfuepre{monmor}:
+    required:  No
+    validators: Porcen1Validator
+
+  fcfuepre{monmor}:
+    required:  No
+    validators: Porcen1Validator
+
+Validator_codfue:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Fcfuepre
+        column:       codfue
+        unique_error: El registro ya Existe intente con otro.
+
+Porcen1Validator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^(0*100{1,1}\,?((?<=\,)0*)?%?$)|(^0*\d{0,2}\,?((?<=\,)\d*)?%?)$/' ]
+        values_error: Los Porcentajes debe estar entre 0-100

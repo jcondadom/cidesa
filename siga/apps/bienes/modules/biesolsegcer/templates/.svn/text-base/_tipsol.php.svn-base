@@ -1,0 +1,1 @@
+<?php echo select_tag('bnsolpolcer[tipsol]', options_for_select(array('C' => 'Certificado', 'P' => 'Póliza'),$bnsolpolcer->getTipsol(),'include_custom=Seleccione uno ...'),array('onChange' => "mostrar();")) ?>

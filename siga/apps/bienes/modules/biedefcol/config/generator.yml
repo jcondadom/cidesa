@@ -1,0 +1,28 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Bncatcol
+    theme:            cidesaGenerator
+    fields:
+      codcol: { name: Código, params: size=10 maxlength=2 onFocus=readonly(this.id)}
+      descol: { name: Descripción, params: size=80 maxlength=500 }
+    list:
+      title:          Definición de Colores
+      fields:
+        codcol: { name: Código, params: size=10 maxlength=3 }
+        descol: { name: Descripción, params: size=20 maxlength=500  }
+      filters:        [codcol, descol]
+      display:        [=codcol, descol]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:  8
+      sort: codcol
+    edit:
+      title:          Edición de Colores
+      display:        [codcol, descol]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

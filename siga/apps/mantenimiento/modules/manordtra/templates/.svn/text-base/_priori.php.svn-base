@@ -1,0 +1,1 @@
+<?php echo select_tag('manordtra[priori]', options_for_select(array('N' => 'Normal', 'U' => 'Urgente'),$manordtra->getPriori()),array()); ?>

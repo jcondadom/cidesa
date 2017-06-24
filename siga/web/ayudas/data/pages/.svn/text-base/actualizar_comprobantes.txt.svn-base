@@ -1,0 +1,18 @@
+====== Actualizar Comprobantes ======
+
+**Tabla:** CONTABAC, CONTABC1
+
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tiene como función actualizar los comprobantes de manera rápida y expedita, seleccionando los comprobantes diferidos que se desean actualizar y hacerlo en lotes, la ventaja es que el proceso es un poco más rápido pero existe la posibilidad de que se actualice algún comprobante si haber sido revisado.</html>
+
+
+Para ello:
+
+  * Seleccione la opción **Contabilidad Financiera** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/cfindefespins.jpg"></div><br></html>
+
+  * Por último seleccione la opción **Actualizar Comprobantes**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:cfinactcomcon.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Actualizar Comprobantes** veamos la [[Descripcion_Campos_financiera_acutalizar_comprobantes|Descripción de los Campos]]
+

@@ -1,0 +1,29 @@
+methods:
+  post:
+   - "fapreprocan{codart}"
+   - "fapreprocan{codcan}"
+
+names:
+  fapreprocan{codart}:
+    required:  Yes
+    required_msg: No puede salvar sin Introducir el Código del Artículo
+    validators: ArticuloValidator
+
+  fapreprocan{codcan}:
+    required:  Yes
+    required_msg: No puede salvar sin Introducir el Código del Canal
+    validators: CanalValidator
+
+ArticuloValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Caregart
+        column:   codart
+        unique_error:  El Artículo no está Registrado.
+
+CanalValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Fadefcan
+        column:   codcan
+        unique_error:  El Canal no está Registrado.        

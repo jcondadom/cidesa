@@ -1,0 +1,13 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cpdefniv
+    theme:            cidesaGenerator
+    fields:
+      btn:  { name: .}   
+    edit:
+      title:            Cierre de la Etapa de Definición 
+      display:
+        NONE:           [_btn]     
+      actions:
+        _save:        ~ 

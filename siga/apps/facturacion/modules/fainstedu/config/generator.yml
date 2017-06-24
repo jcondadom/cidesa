@@ -1,0 +1,110 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fainstedu
+    theme:            cidesaGenerator
+
+    fields:
+      codinst: { name: Código, params: size=20 maxlength=8}
+      nominst: { name: Nombre, type: textarea_tag, params: size=100x2 maxlength=500}
+      dirinst: { name: Dirección, type: textarea_tag, params: size=100x5 maxlength=500}
+      telinst: { name: Telefono, params: size=20 maxlength=20}
+      faxinst: { name: Fax, params: size=20 maxlength=20}
+      emailinst: { name: e-mail, params: size=100 maxlength=250}
+      codedo:
+        name: Código Estado
+        params: maxlength=4
+        catalogo:
+          catalogoweb: Ocestado
+          clase: Ocestado
+          ajax: 1
+          parametros: getprincipal="getCodedo" getsecundario="getNomedo" campoprincipal="codedo" camposecundario="nomedo" campobase = "id"
+          catalogoparams: /param1/'."0001".'
+
+      codciu:
+        name: Código Ciudad
+        params: maxlength=4
+        catalogo:
+          catalogoweb: Occiudad
+          clase: Occiudad
+          ajax: 2
+          parametros: getprincipal="getCodciu" getsecundario="getNomciu" campoprincipal="codciu" camposecundario="nomciu" campobase = "id"
+          catalogoparams: /param1/'."'+$('fainstedu_codedo').value+'".'/param2/'."0001".'
+          ajaxparams: +'."'".'&estado='."'+$('fainstedu_codedo').value".'
+
+      codmun:
+        name: Código Municipio
+        params: maxlength=4
+        catalogo:
+          catalogoweb: Ocmunici
+          clase: Ocmunici
+          ajax: 3
+          parametros: getprincipal="getCodmun" getsecundario="getNommun" campoprincipal="codmun" camposecundario="nommun" campobase = "id"
+          catalogoparams: /param1/'."'+$('fainstedu_codciu').value+'".'/param2/'."'+$('fainstedu_codedo').value+'".'/param3/'."0001".'
+          ajaxparams: +'."'".'&estado='."'+$('fainstedu_codedo').value".'+'."'".'&ciudad='."'+$('fainstedu_codciu').value".'
+
+      codpar:
+        name: Código Parroquia
+        params: maxlength=4
+        catalogo:
+          catalogoweb: Ocparroq
+          clase: Ocparroq
+          ajax: 4
+          parametros: getprincipal="getCodpar" getsecundario="getNompar" campoprincipal="codpar" camposecundario="nompar" campobase = "id"
+          catalogoparams: /param1/'."'+$('fainstedu_codedo').value+'".'/param2/'."'+$('fainstedu_codmun').value+'".'/param3/'."0001".'
+          ajaxparams: +'."'".'&estado='."'+$('fainstedu_codedo').value".'+'."'".'&municipio='."'+$('fainstedu_codmun').value".'
+
+      matinst: { name: Matricula, params: size=20 maxlength=5}
+      ingesta: { name: Nro de Ingesta, params: size=100 maxlength=250}
+
+      coddep:
+        name: Código Dependencia
+        params: maxlength=5
+        catalogo:
+          catalogoweb: Fadependencia
+          clase: Fadependencia
+          ajax: 5
+          parametros: getprincipal="getCoddep" getsecundario="getNomdep" campoprincipal="coddep" camposecundario="nomdep" campobase = "id"
+          ajaxparams: +'."'".'&dependencia='."'+$('fainstedu_coddep').value".'
+
+      codsub:
+        name: Código Subsistema
+        params: maxlength=5
+        catalogo:
+          catalogoweb: Fasubsistema
+          clase: Fasubsistema
+          ajax: 6
+          parametros: getprincipal="getCodsub" getsecundario="getNomsub" campoprincipal="codsub" camposecundario="nomsub" campobase = "id"
+          ajaxparams: +'."'".'&subsistema='."'+$('fainstedu_codsub').value".'
+
+      persona: { name: Persona Contacto, params: size=100 maxlength=250}
+
+    list:
+      fields:
+        codinst: { name: Código, params: size=20 maxlength=8}
+        nominst: { name: Nombre, params: size=20 maxlength=500}
+        codedo: { name: Cod Estado, params: size=20 maxlength=4}
+        codciu: { name: Cod Ciudad, params: size=20 maxlength=4}
+        codmun: { name: Cod Municipio, params: size=20 maxlength=4}
+        nomedo: { name: Estado}
+        nomciu: { name: Ciudad}
+        nommun: { name: Municipio}
+      title:          Registro de Instituciones Educativas
+      display:        [=codinst, nominst, nomedo, codedo, nomciu, codciu, nommun, codmun]
+      object_actions:
+        _edit:        ~
+        _delete:      NONE
+      filters:        [codinst, nominst, codedo, codciu, codmun]
+      max_per_page:   10
+      sort:           codinst
+
+    edit:
+      title:          Registro de Instituciones Educativas
+      display:
+        "Información General": [codinst, nominst, dirinst, telinst, faxinst, emailinst]
+        "Ubicación": [codedo, codciu, codmun, codpar]
+        "Informacion Extra": [matinst, ingesta, coddep, codsub, persona]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      NONE

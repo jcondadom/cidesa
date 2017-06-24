@@ -1,0 +1,33 @@
+opciones:                  # Opciones generales
+  eliminar:                false
+  name:                    b
+  tabla:                   Caordcom
+  anchogrid:               750
+  ancho:                   600
+  filas:                   0
+  titulo:                  'Ordenes de Compra '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Marque
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:			   true
+  html:                    []
+2:       # Columna 2
+  titulo:                  Nro OC
+  tipo:                    t
+  nombrecampo:             ordcom
+  esgrabable:              true
+  html:                    ["size=15 readonly=true"]
+3:       # Columna 3
+  titulo:                  Fecha
+  tipo:                    f
+  esgrabable:              true
+  nombrecampo:             fecord
+  vacia:                   true
+  html:                    ["size=10 readonly=true ]
+4:       # Columna 4
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             desord
+  html:                    ["size=20x1 readonly=true"]

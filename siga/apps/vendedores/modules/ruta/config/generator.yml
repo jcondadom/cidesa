@@ -1,0 +1,42 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Ruta
+    theme:            cidesaGenerator
+
+    fields:
+      _estado:      {title: Dirección}
+      atestados_id:     { name: Estado }
+      atmunicipios_id:  { name: Municipio }
+      atparroquias_id:  { name: Parroquia }  
+      _status:          { name: Estatus}
+      status:           { name: Estatus} 
+      _dia_visita:      { name: Día de Visita}
+      dia_visita:       { name: Día de Visita}   
+      _dia_despacho:    { name: Día de Despacho}
+      dia_despacho:     { name: Día de Despacho} 
+      zona_limi_desde:  { name: Zona Limitrofre Desde}   
+      zona_limi_hasta:  { name: Zona Limitrofre Hasta} 
+      muestra_dia_visita:  { name: Día de Visita}
+      muestra_dia_despacho:  { name: Día de Despacho}
+      muestra_status:  { name: Estatus}
+    list:      
+      title:          Registro de Rutas
+      display:        [descripcion, _direccion, _muestra_dia_visita, _muestra_dia_despacho, _muestra_status]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [descripcion, atestados_id, zona_limi_desde, zona_limi_hasta]
+      max_per_page:   5
+    edit:
+      title:          Edición de Rutas
+      fields:
+        _atestados_id:      {title: Estado}
+      display:
+        Datos de la Ruta:    [descripcion, _atestados_id, _atmunicipios_id, _atparroquias_id, zona_limi_desde, zona_limi_hasta]
+        Datos de las Fechas: [_dia_visita, _dia_despacho, _status]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

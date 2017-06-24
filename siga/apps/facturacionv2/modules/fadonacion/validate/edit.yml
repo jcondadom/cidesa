@@ -1,0 +1,63 @@
+methods:
+  post:
+   - "fadonacion{nrodon}"
+   - "fadonacion{fecdon}"
+   - "fadonacion{rifpro}"
+   - "fadonacion{desdon}"
+
+names:
+  fadonacion{nrodon}:
+    required:  Yes
+    required_msg: El Número de la Donación no puedo estar en Blanco
+    validators: Validator_nrodon
+
+  fadonacion{fecdon}:
+    required:  Yes
+    required_msg: La Fecha de la Donación no puede estar blanco
+    validators: FechaValidator, FechaValidator1
+
+  fadonacion{rifpro}:
+    required:  Yes
+    required_msg: El rif de cliente no puede estar en blanco
+    validators: Cliente_Validator
+
+  fadonacion{desdon}:
+    required:  No
+    validators: DescripcionValidator 
+
+Validator_nrodon:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Fadonacion
+        column:       nrodon
+        unique_error: El registro ya Existe intente con otro.
+
+Cliente_Validator:
+    class: CidesaExistValidator
+    param:
+        class:    Facliente
+        column:   rifpro
+        unique_error:  El Cliente no Existe.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripición no puede tener menos de 5 caracteres
+        max:       250
+        max_error: La Descripición no puede tener más de 250 caracteres
+        
+FechaValidator1:
+    class:         CidesaDateNow
+    param:
+        compare: 'now'
+        compare_error: La Fecha no puede ser mayor a la Fecha Actual
+        operator: '<='
+        date_error:  La Fecha es Inválida             
+        
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es inválida        

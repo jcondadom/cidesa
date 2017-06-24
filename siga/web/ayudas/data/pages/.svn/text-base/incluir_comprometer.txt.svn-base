@@ -1,0 +1,43 @@
+====== Operación Incluir ======
+
+Para **registrar** un Compromiso que refiere a un precompromiso debe:<html><br><br></html>
+
+  * Ingresar la **Referencia** del Compromiso. <html><br><br></html>
+
+  * Seleccionar del calendario la **Fecha** en la que se realiza el compromiso. <html><br><br></html>
+
+  * Ingresar la **Descripción** que haga referencia al Compromiso.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprecomprometerinc1.jpg|}}"></div><br></html>
+
+  * En la sección **Tipo de Compromiso** seleccionamos el **Código del Tipo de Compromiso** que haga referencia al Precompromiso. <html><br><br></html>
+
+  * En la sección **Saldos** encontraremos **Ajustado** que indica el monto ajustado al Compromiso, en caso de que exista. Una vez que se realiza un ajuste, el Sistema lo determina automáticamente y **Comprometido** que indica el monto pendiente por causar o pagar, con respecto al monto Total Comprometido.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprecomprometerinc2.jpg|}}"></div><br></html>
+
+  * El **Código del Beneficiario** identifica a la persona natural ó jurídica con quien se ha adquirido un Compromiso ó se ha ejecutado un pago. <html><br><br></html>
+
+  * En **Referencia del Precompromiso** Se debe seleccionar el número del precompromiso en dado caso que este movimiento que compromete refiere a un Precompromiso. <html><br><br></html>
+
+  * En caso tal de que el **Monto del Compromiso** sea menor que el Monto Precomprometido se debe ingresar el nuevo monto a comprometer.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprecomprometerinc3.jpg|}}"></div><br></html>
+
+  * Si se compromete un precompromiso; al momento de seleccionar dicho precompromiso automáticamente se cargan las Imputaciones Presupuestarias donde encontramos el **Código Presupuestario** que representa la estructura de los tipos de gastos del presupuesto; el campo **Monto** donde se coloca el monto por el cual se esta realizando el Compromiso; **Causado** que refiere al monto causado del compromiso por código presupuestario; el **Pagado** refiere al monto pagado del compromiso por código presupuestario y el **Total** refiere al total tanto del Monto como de lo causado y lo pagado.  <html><br><br></html>
+
+  * El sistema calcula y muestra el **Monto Total** del Compromiso, los saldos, la disponibilidad de cada Código Presupuestario y en caso de generarse ajuste muestra los saldos correspondientes.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprecomprometerinc4.jpg|}}"></div><br></html>
+
+ * Presione el **Botón Guardar**
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:btnguardar1.jpg|}}"></div><br></html>
+
+  * Presione **OK**
+
+
+  
+
+
+

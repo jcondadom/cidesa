@@ -1,0 +1,24 @@
+Los campos que conforman la pantalla de **Cierre de Período** son los siguientes:
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbanccierreperinc1.jpg|}}"></div><br></html>
+
+  * **Número de Cuenta:** Corresponde al número de cuenta bancaria a cerrar. <html><br><br></html>
+
+  * **Mes a Cerrar:** Indica el mes en el cual se realizara el cierre. <html><br><br></html>
+
+  * **Del Año:** Indica el año en el cual se realizará el cierre. <html><br><br></html>
+
+  * Una vez que se han introducido los campos anteriores ubicamos los botones "CERRAR" y "ABRIR" los cuales tienen la siguiente función: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Al presionar el **Botón** {{:btncerrar.jpg|}} el sistema realizará el cierre del período. Una vez cerrado el período no podrá incluir ningún comprobante y antes de efectuar el Cierre deberá verificar que el Período Contable se haya revisado en su totalidad, debido a que el proceso es irreversible, es decir, no se permitirá Modificar o Eliminar un comprobante perteneciente a un período cerrado, solamente se modificarán los saldos a través del ajuste.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Al presionar el **Botón** {{:btnabrir.jpg|}} el sistema le permitirá dar apertura al período que cerró previamente, siempre y cuando haya tenido movimientos.
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 

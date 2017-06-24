@@ -1,0 +1,41 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npasicaremp
+    theme:            cidesaGenerator
+    fields:      
+      codemp:  { name: Código del Empleado, params: size=20 readOnly=true }
+      codnom: { name: Código de la Nómina, params: size=10 readOnly=true }
+      codcar:  { name: Código del Cargo, params: size=10 readOnly=true }
+      nomemp:   { name: Nombre del Empleado, params: size=60 readOnly=true }
+      nomnom:   { name: Nombre de la Nómina, params: size=60 readOnly=true }
+      nomcar:   { name: Nombre del Cargo, params: size=60 readOnly=true }
+      grid:   { name: .}
+      codtipemp:   { name: Tipo de Empleado}
+    list:
+      title:          Empleados con Conceptos Asignados
+      fields:
+        codemp:  { name: Código del Empleado, params: size=10 }
+        codnom: { name: Código de la Nómina, params: size=10 }
+        codcar:  { name: Código del Cargo, params: size=10 }
+        nomemp:   { name: Nombre del Empleado, params: size=10}
+      filters:        [codemp, codnom, nomemp, codcar, codtipemp]
+      display:        [=codemp, nomemp, codnom, nomnom, codcar, nomcar]
+      object_actions:
+        _edit:        ~
+        _delete:      NONE
+      actions:
+        _create:      NONE
+      max_per_page:   10
+      sort:      codemp            
+    edit:
+      title:          Asignación de Conceptos a Empleado
+      display:
+        "Datos del Empleados":    [codemp, nomemp, codnom, nomnom, codcar, nomcar]
+        "Conceptos":    [_grid]
+      hide:         [filvac, frecal, cedemp]
+      actions:
+        _list:          ~
+        _save:          ~
+        _delete:        NONE
+        _create:        NONE

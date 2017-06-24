@@ -1,0 +1,185 @@
+generator:
+  class:              sfPropelAdminGenerator
+  param:
+    model_class:      Nphojint
+    theme:            default
+    fields:
+      codemp: { name: No. Empleado}
+      nomemp: { name: Apellido(s) y Nombre(s)}
+      cedemp: { name: C.I.}
+      rifemp: { name: Rif}
+      edociv: { name: Estado Civil}
+      numcon: { name: No. Contrato}
+      nacemp: { name: Nacionalidad}
+      sexemp: { name: Sexo}
+      codniv: { name: Nivel Organizacional}
+      codnivedu: { name: Grado de Prima Profesional}
+      fotemp: { name: Foto}
+      fotemp:
+        help: Tamaño de la foto 90x100 (jpg, gif o png)
+        type: admin_input_file_tag
+        name: Foto
+        upload_dir: fotos
+        params: include_link = fotos include_remove=true
+      lugnac: { name: Lugar de Nacimiento}
+      fecnac: { name: Fecha de Nacimiento}
+      edaemp: { name: Edad}
+      obsgen: { name: Observaciones}
+      dirhab: { name: Dirección}
+      codpai: { name: Estado}
+      codest: { name: Municipio}
+      codciu: { name: Parroquia}
+      telhab: { name: Tlf. Hab}
+      telotr: { name: Otro Tlf.}
+      celemp: { name: Celular}
+      dirotr: { name: Dirección}
+      codpa2: { name: Estado}
+      codes2: { name: Municipio}
+      codci2: { name: Parroquia}
+      telha2: { name: Telefono}
+      telot2: { name: Otro Tlf.}
+      emaemp: { name: Email}
+      codpos: { name: Código Postal}
+      fecing: { name: Ingreso}
+      fecret: { name: Egreso}
+      fecrei: { name: Reingreso}
+      codmot: { name: Motivo de Egreso}
+      staemp: { name: Estatus del Empleado}
+      staemp2: { name: Estatus del Empleado}
+      codtippag: { name: Forma de Pago}
+      codban: { name: Banco}
+      numcue: { name: Número de Cuenta}
+      tipcue: { name: Tipo de Cuenta}
+      fecadmpub: { name: Fecha en la Administración Pública}
+      numsso: { name: Numero de S.S.O}
+      numpolseg: { name: Número dde Póliza de Seguro}
+      feccotsso: { name: Fecha de Cotización de S.S.O}
+      anoadmpub: { name: Años de Continuidad en la Administración Pública}
+      tiefid: { name: Fideicomiso}
+      talcam: { name: Talla Camisa}
+      talpan: { name: Talla Pantalón}
+      talcal: { name: No. de Calzado}
+      grusan: { name: Grupo Sanguineo}
+      codregpai: { name: Estado}
+      codregest: { name: Municipio}
+      codregciu: { name: Parroquia}
+      grulab: { name: Grupo Laboral}
+      gruotr: { name: Descripción}
+      traslado: { name: Forma de Translado}
+      traotr: { name: Descripción}
+      numexp: { name: Número}
+      detexp: { name: Contenido}
+      derzur: { name: DerechoZurdo}
+      tipviv: { name: Tipo de Vivienda}
+      vivotr: { name: Descripción}
+      forten: { name: Forma de Tenencia}
+      tenotr: { name: Descripción}
+      sercon: { name: Servicios}
+      temporal: { name: Temporal}
+      incapacidades: { name: Discapacidades}
+      situac: { name: Situación}
+      profes: { name: Profesional}
+      prinom: { name: Primer Nombre}
+      segnom: { name: Segundo Nombre}
+      priape: { name: Primer Apellido}
+      segape: { name: Segundo Apellido}
+      codempant: { name: No. Empleado Anterior}
+      ubifis: { name: Ubicacion Fisica}
+      feccoracu: { name: Fecha de Corte Acumulado}
+      capactacu: { name: Capital Actual Acumulado}
+      intacu: { name: Interes Acumulado}
+      antacu: { name: Anticipos Acumulados}
+      diaacu: { name: Dias Acumulados}
+      diaadiacu: { name: Dias Adicionales Acumulados}
+      diaadiacu: { name: Dias Adicionales Acumulados}
+      codtipemp: { name: Tipo de Empleado}
+      destipemp: { name: Tipo de Empleado}
+      desniv: { name: Descripción}
+      desniv2: { name: Descripción}
+      fecinicon: { name: Fecha Inicio Contrato}
+      fecfincon: { name: Fecha Fin Contrato}
+      obsembret: { name: Datos}
+      fecmat:    { name: Fecha en que se Caso}
+      fecingsso: { name: Fecha Inscripción SSO}
+      posveh:    { name: "¿Posee Vehiculo Propio?" }
+      marveh:    { name: Marca }
+      modveh:    { name: Modelo }
+      colveh:    { name: Color }
+      anoveh:    { name: Año }
+      plaveh:    { name: Placa }
+      nomcar:    { name: Cargo}
+      sueldo:    { name: Sueldo}
+      numpuncue:    { name: n° Punto de Cuenta}
+      emaopc: { name: Email Opcional, params: size=30 maxlength=40}
+      pesemp: { name: Peso}
+      estemp: { name: Estatura}
+      privehmot: { name: Tiene Prima por vehiculo ó Moto?}
+      soshog: { name: Sósten de Hogar?}
+      capbie: { name: Su Matrimonio es por Capitulación?}
+      tipmed: { name: Tipos de Medicamentos que consume, type: textarea_tag, params: size=80x5 maxlength=1000 onkeyup=" return ismaxlength(this)"}
+      esalerg: { name: Es alérgico?}
+      desaler: { name: Describa aque es alérgico, type: textarea_tag, params: size=80x5 maxlength=1000 onkeyup=" return ismaxlength(this)"}
+      monindem: { name: Monto de Indemnización de vida}
+      tipetn: { name: Tipo de Étnia, type: textarea_tag, params: size=80x5 maxlength=1000 onkeyup=" return ismaxlength(this)"}
+      codpainac: { name: País de Nacimiento}
+      numpas:  { name: Número de Pasaporte, params: size=20 maxlength=20}
+      codpro: { name: Proyecto}
+      numcueaho: {name: N° Cuenta}
+      tipcueaho: {name: Tipo de Cuenta}
+      fectitular: {name: Fecha de Titularidad}
+      numcuefid: {name: Cuenta Fideicomiso}
+      tipcuefid: {name: Tipo Cta. Fideicomiso}
+      codbanfid: {name: Banco Fideicomiso}
+      tiefun: {name: Tiene Seguro Funerario?}
+      numtarces: {name: N° Tarjeta Cestatickets}
+      pritra: {name: ¿Tiene Prima Transporte?}
+      cuebanmat: {name: Cuenta Bancaria Matriz}
+      codofi: {name: Oficina}
+      coddep: {name: Dependencia}
+      depen:  {name: Dependencia}
+      coddirec: {name: Estado}
+      codubi: {name: Localidad}
+      coduniads: {name: Unidad de Adscripción}
+      codpagbon: { name: Forma de Pago}
+      codbanbon: { name: Banco}
+      numcuebon: { name: Número de Cuenta}
+      tipcuebon: { name: Tipo de Cuenta}
+    list:
+      title:          Datos Personales
+      filters:        [codemp, nomemp, cedemp, codniv, desniv, codtipemp, staemp]
+      display:        [_fotemp, =codemp, nomemp, codniv, desniv, staemp2, destipemp]
+      fields:
+        fecnac: { params: date_format='dd/MM/yy' }
+        fecing: { params: date_format='dd/MM/yy' }
+        fecret: { params: date_format='dd/MM/yy' }
+        fecrei: { params: date_format='dd/MM/yy' }
+        fecadmpub: { params: date_format='dd/MM/yy' }
+        feccotsso: { params: date_format='dd/MM/yy' }
+        codniv: {name: Unidad Administrativa, params: size=15 maxlength=16}
+        desniv: {name: Descrip. Unidad Administrativa, params: size=15 disabled=false maxlength=100}
+        codtipemp: {name: Tipo de Empleado, params: size=15 maxlength=3}
+      object_actions:
+        _edit:        ~
+      max_per_page:   5
+      sort: codemp
+    edit:
+      title:          Edición de Datos Personales
+      display:       [=codemp, nomemp, cedemp, rifemp, edociv, numcon, nacemp, sexemp, codniv, _fotemp, fotemp, lugnac, fecnac, edaemp, obsgen, dirhab, codpai, codest, codciu, telhab, telotr, celemp, dirotr, codpa2, codes2, codci2, telha2, telot2, emaemp, codpos, fecing, fecret, fecrei, codmot, staemp, codtippag, codban, numcue, tipcue, numcueaho, tipcueaho, fecadmpub, numsso, numpolseg, feccotsso, anoadmpub, tiefid, talcam, talpan, talcal, grusan, codregpai, codregest, codregciu, grulab, gruotr, traslado, traotr, numexp, detexp, derzur, tipviv, vivotr, forten, tenotr, sercon, temporal, incapacidades, situac, profes, codnivedu, prinom, segnom, priape, segape, ubifis, codempant, feccoracu, capactacu, intacu, antacu, diaacu, diaadiacu, codtipemp, desniv, desniv2, fecinicon, fecfincon, obsembret, fecmat, fecingsso, posveh, marveh, modveh, colveh, anoveh, plaveh, nomcar, sueldo, numpuncue, emaopc, privehmot, soshog, capbie, tipmed, esalerg, desaler, monindem, tipetn, _codpainac, numpas, _codpro, pesemp, estemp, fectitular, numcuefid, tipcuefid, codbanfid, tiefun, numtarces, pritra, cuebanmat, codofi, coddep, depen, coddirec, codubi, coduniads, codpagbon, codbanbon, numcuebon, tipcuebon]
+      fields:
+        fecnac: { params: date_format='dd/MM/yy' }
+        fecing: { params: date_format='dd/MM/yy' }
+        fecret: { params: date_format='dd/MM/yy' }
+        fecrei: { params: date_format='dd/MM/yy' }
+        fecadmpub: { params: date_format='dd/MM/yy' }
+        feccotsso: { params: date_format='dd/MM/yy' }
+        incapacidades: { type: admin_double_list, params: through_class=Nphojintinc}
+        #fotemp:
+        #  help: Tamano de la foto 90x100 (jpg,gif o png)
+        #  type: admin_input_file_tag
+        #  upload_dir: fotos
+        #  params: include_link=photos include_remove=true
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

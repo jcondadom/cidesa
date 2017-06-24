@@ -1,0 +1,19 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Faordtra
+    theme:            cidesaGenerator
+    fields:
+      grid:           { name: .}
+      fecdes:           { name: Fecha Desde}
+      fechas:           { name: Fecha Hasta}
+
+    edit:
+      title:          Aprobación de Ordenes de Trabajo
+      display:
+        Filtros:  [_fecdes, _fechas]
+        Lista de Ordenes:  [_grid]
+      actions:
+        _list:        none
+        _save:        ~
+        _delete:      none

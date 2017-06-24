@@ -1,0 +1,39 @@
+====== Operación Incluir ======
+
+Para **Registrar** una determinada Asignación de Conceptos a Empleados: <html><br><br></html>
+
+  * Presione el Botón{{:btnnuevo.jpg|}} <html><br><br></html>
+
+  * Seleccione el **Código del Tipo de Nómina** al cual se le asignarán los Conceptos. <html><br><br></html>
+
+  * Seleccione el **Concepto** que va a ser asociado al grupo de empleados seleccionados en esa nómina.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasiconempinc1.jpg|}}"></div><br></html>
+
+  * En la sección **Asignaciones por Trabajador** podrá **Marcar todo** a través del **Botón** {{:btnmarcartodo.jpg|}} ó **Desmarcar Todo** a través del **Botón** {{:btndesmarcartodo.jpg|}} a la ves todos los trabajadores de la nómina seleccionada para la asignación del concepto elegido ó puede ir maracando uno a uno aquellos trabajadores que serán asignados al Concepto seleccionado.<html><br><br></html>
+
+  * En la sección Asignaciones por Trabajador encontrará los siguientes datos:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Cod. Trabajador:** Se refiere al número de identificación del Empleado en el Sistema de Nómina y Personal.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Descripción del Cargo:** Se refiere al nombre del Cargo especificado.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Fecha de Inicio:** Se refiere a la fecha en la que el sistema comenzará a aplicar esta Asignación. 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Fecha de Expiración:** Indica la fecha de terminación de la aplicación de estos conceptos para el cálculo de la Nómina.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Frecuencia de Pago:** Indica la frecuencia con que se pagará el Concepto seleccionado para esa Nómina.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Tipo de Operación:** Indica si el Concepto es un Asignación o una Deducción.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Concepto Acumulativo:** Indica si el Concepto acumula a Históricos. 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Concepto Calculable:** Indica si el concepto tiene formulas. 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Concepto Activo:** Indica si el Concepto va a ser utilizado para el cálculo de esa Nómina o no.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Acumulado:** Indica el valor acumulado de calculos anterio
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasiconempinc2.jpg|}}"></div><br></html>
+
+  * Presione el **Botón** {{:btnguardar.jpg|}} para registrar la información

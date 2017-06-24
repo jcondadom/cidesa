@@ -1,0 +1,152 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fafactur
+    theme:            cidesaGenerator
+    fields:
+      codcaj:  { name: Clave}
+      reffac:  { name: Número, params: maxlength=8}
+      fecfac:  { name: Fecha Emisión, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      tipref:  { name: Refiere a}
+      tipmon:  { name: Tipo de Moneda}
+      codcli:  { name: Cod. Cliente}
+      rifpro:  { name: C.I/R.I.F Cliente, params: maxlength=8 disabled=false}
+      nompro:  { name: Nombre, params: readonly=true}
+      telpro:  { name: Teléfono(s), params: readonly=true}
+      dirpro:  { name: Dirección, params: readonly=true}
+      tipper:  { name: Tipo de Persona, params: readonly=true}
+      codconpag:  { name: Condición de Pago, params: maxlength=4}
+      desconpag:  { name: Descripción}
+      desfac:  { name: Descripción, params: maxlength=255}
+      monto:   { name: Monto}
+      monrgo:   { name: Recargo}
+      mondesc: { name: Descuento}
+      monfac:  { name: Total}
+      moncan:  { name: Monto Cancelado}
+      monres:  { name: Monto Resto}
+      vuelto:  { name: Monto Vuelto}
+      observ:  { name: Descripción Detallada, type: textarea_tag, params: size=80x5 maxlength=500 onkeyup=" return ismaxlength(this)"}
+      sucursal:  { name: Sucursal, params: maxlength=50}
+      grid_fapeddes:    { name: Pedidos/Despachos}
+      grid_faartfac:    { name: .}
+      grid_fadescart:    { name: .}
+      totdesc:  { name: Total Descuentos}
+      grid_fargoart:    { name: .}
+      totrec:  { name: Total Recargos}
+      grid_faforpag:    { name: .}
+      combo: { name: Combos de Artículos}
+      listaart: { name: Artículos}
+      codtip: { name: Tipo de Movimiento}
+      destip: { name: Descripción}
+      refproform: { name: Refiere Proforma}
+      numcontrol: { name: Nro. Control}
+      proform: { name: Nro. Proforma}
+      marrec: { name: Aplicar Recargo Todos}
+      desrec: { name: Deshacer Recargos}
+      grid_fafaclib:    { name: Libro de Ventas}
+      codubi:    { name: Unidad}
+      tipoven:    { name: Tipo de Venta}
+      obsfac:    { name: Observaciones}
+      codcenaco:    { name: Centro de Acopio}
+      descli: { name: Aplicar Descuento Tipo Cliente}
+      guia: { name: N° de Guía de Trasporte}
+      nronot { name: N° de Entrega}
+      ntoentdig { name: N° de Entrega Digitalizada}
+      contenedores: { name: N° Contenedor}
+      billleading: { name: BL}
+      codcon: { name: Consignatario}
+      ajucal: { name: Aplicar Ajuste de Calidad}
+      btufin: { name: BTU Final}
+      puedph: { name: Puerto Despacho}
+      puedes: { name: Puerto Destino}
+      buque: { name: Buque}
+      codalm: { name: Almacén}
+      porped: { name: Porcentaje}
+      nroordfac: { name: Número de la orden de Transmisión, params: size=20 maxlength=50}
+      codpropat:
+        name: Producto
+        catalogo:
+          catalogoweb: Fapropat_Fafactur
+          clase: Fapropat
+          ajax: 38
+          parametros: getprincipal="getCodpropat" getsecundario="getDespropat" campoprincipal="codpropat" camposecundario="despropat" campobase = "id"
+      codprorad:
+        name: Programa
+        catalogo:
+          catalogoweb: Faprorad_Fafactur
+          clase: Faprorad
+          ajax: 39
+          parametros: getprincipal="getCodprorad" getsecundario="getDesprorad" campoprincipal="codprorad" camposecundario="desprorad" campobase = "id"
+      #rifprod:
+       # name: Productor
+        #catalogo:
+         # catalogoweb: Faproduc_Fafactur
+          #clase: Faproduc
+          #ajax: 37
+          #parametros: getprincipal="getRifprod" getsecundario="getNomprod" campoprincipal="rifprod" camposecundario="nomprod" campobase = "id"
+      version: { name: Version, params: size=20 maxlength=50}
+      fectrades:  { name: Fecha de Trasmisión Desde , params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      fectrahas:  { name: Fecha de Trasmisión Hasta , params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      frectra: { name: Frecuencia, params: size=20 maxlength=50}
+      duracion: { name: Duración, params: size=20 maxlength=50}
+      obstra: { name: Observaciones, params: size=80 maxlength=50}
+      btnprint: {name: .}
+      muelle:  { name: Muelle, params: size=80 maxlength=100}
+      buque2:  { name: Buque, params: size=80 maxlength=250}
+      expedi:  { name: N° de Expediente, params: size=50 maxlength=50}
+      bele:  { name: BL, params: size=80 maxlength=100}
+      factura:  { name: Factura, params: size=50 maxlength=50}
+      embarca:  { name: Embarcador, params: size=80 maxlength=250}
+      descarga:  { name: Descagadora, params: size=80 maxlength=250}
+      canbul:   { name: Cant. Bultos}
+      codprod:
+        name: Rubro
+        params: maxlength=8
+        catalogo:
+          catalogoweb: Fadefpro_Fafacturpro
+          clase: Fadefpro
+          ajax: 41
+          parametros: getprincipal="getCodprod" getsecundario="getDesprod" campoprincipal="codprod" camposecundario="desprod" campobase = "id"
+      tmdesc:   { name: TM Descargadas}
+      fecatra:  { name: Fecha de Atraque, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      fecinidesc:  { name: Fecha Inicio Descargada, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      fecfindesc:  { name: Fecha Fin Descargada, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      valcifs:   { name: Valor CIFS}
+      coddirec:
+        name: Dirección
+        params: maxlength=4
+        catalogo:
+          catalogoweb: Cadefdirec_Almdefdiv
+          clase: Cadefdirec
+          ajax: 42
+          parametros: getprincipal="getCoddirec" getsecundario="getDesdirec" campoprincipal="coddirec" camposecundario="desdirec" campobase = "id"
+    list:
+      title:          Facturas
+      fields:
+        guia: {name: N° de Guía de Trasporte, params: size=20 maxlength=50}
+        nomedo: {name: Estado}
+      display:        [=reffac, fecfac, rifpro, nompro, nomedo]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [reffac, fecfac, numcontrol, codref, codcli, rifpro, nompro, codedo, nomedo, desfac, desforpag, guia, nronot, notentdig, contenedores, billleading, codubi]
+      max_per_page:   25
+      sort:           reffac
+    edit:
+      title: Edición de Factura
+      display:
+        "Datos de la Factura": [_btnprint, codcaj, reffac, fecfac, _tipref, _tipmon, _rifpro, telpro, dirpro, tipper, _codconpag, _codcon, desfac, monto, monrgo, mondesc, monfac, combo, refproform, proform, numcontrol, marrec, desrec, codubi, tipoven, descli, ajucal, btufin, puedph, puedes, buque, codalm, porped, coddirec]
+        "Detalle": [listaart, _grid_fapeddes, _grid_faartfac, _grid_fadescart, totdesc, _grid_fargoart, totrec, _grid_fafaclib]
+        "Forma de Pago": [_codtip, _grid_faforpag, moncan, monres, vuelto]
+        "Descripción Detallada/Sucursal": [observ, sucursal, usuarios, password, obsfac]
+        "Otros Datos": [nroordfac, codpropat, codprorad, version, fectrades, fectrahas, frectra, duracion, obstra, fecper1, fecper2]
+        "Datos Adicionales":  [muelle, buque2, expedi, bele, factura, embarca, descarga, canbul, codprod, tmdesc, fecatra, fecinidesc, fecfindesc, valcifs]
+      hide: [codcli, reapor, status, valmon, numcom, numcomord, numcominv, incluircliente, tipconpag, tipo, apliclades, docrefiera, esretencion, tottotart, totmonrgo, monedaanterior, trajo, porcentajedescto, totcanpreart, totprecio, ctasociada, ctacli, filgenmov, limitecredito, mancatdes, codcenaco, numfilas, filactrec, filactdes, fadescripfac_id, tierecar, manporped, codalmcaj, esprecon, manprecon, nompro, calrecdes]
+      #report:
+        #url:         facturacion/r.php?r=farfacpreimp.php&m=m
+        #params:      { codfacdes: reffac, codfachas: reffac }
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

@@ -1,0 +1,17 @@
+====== Operación Eliminar ======
+
+Para la operación de Eliminar:  <html><br><br></html>
+
+  * Seleccionar de la **Lista** el **Tipo de Nómina** a la cual se desea eliminar el **Concepto de Ahorro Habitacional**.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconahohabmod.jpg|}}"></div><br></html>
+
+  * El sistema muestra los Conceptos de Ahorro Habitacional asociados al Tipo de Nómina seleccionado. <html><br><br></html> 
+
+  * Presionar  {{:btnborrar.jpg|}}   <html><br><br></html> 
+
+  * El sistema emite un **Mensaje de Confirmación** antes de eliminar.
+ <html><br><div> <align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br></html>
+
+  * Presionar **Aceptar**.   <html><br><br></html>
+
+  * Presionar el Botón  {{:btnlista.jpg|}} y el sistema muestra automáticamente la Lista con los Tipos de Nóminas registrados donde podrá verificar que el registro se eliminó con éxito.

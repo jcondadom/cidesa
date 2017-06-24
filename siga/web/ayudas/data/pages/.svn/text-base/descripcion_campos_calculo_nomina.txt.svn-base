@@ -1,0 +1,18 @@
+Los campos que conforman la pantalla de **Cálculo de Nómina** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompercalnomcalnominc1.jpg|}}"></div><br></html>
+
+  * **Código:** Refiere al Código y Descripción del Tipo de Nómina que se va a procesar o calcular.<html><br><br></html>
+
+  * **Este Mes Tiene:** Indica el número de semanas que tiene el mes sobre el cual se va a realizar el cálculo de la nómina. <html><br><br></html>
+
+  * **Fechas de Procesamiento:** Se refiere al período de tiempo **Desde** y **Hasta** que tomará el sistema para realizar los cálculos de la Nómina, establecido de acuerdo a la frecuencia de pago de la misma. <html><br><br></html>
+ 
+  * Seguidamente debe presionar el Botón {{:btncalcularnomina.jpg|}} y el sistema automáticamente calculará la nómina en ejecución y la mostrará en Nóminas en Cálculo asi como el estatus de la misma.
+
+ 
+ 
+ 
+
+
+

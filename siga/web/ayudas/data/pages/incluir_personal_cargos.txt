@@ -1,0 +1,14 @@
+====== Operación Incluir ======
+
+Para **Incluir** un determinado Cargo: <html><br><br></html>
+
+  * Presione el **Botón** {{:btnnuevo.jpg|}}
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontperscargosinc1.jpg|}}"></div><br></html>
+
+  * Ingresar el **Código** que identifique al Cargo. <html><br><br></html>
+
+  * Ingresar la **Descripción** del Cargo. <html><br><br></html>
+
+  * Presione el **Botón** {{:btnguardar.jpg|}} para registrar la información
+

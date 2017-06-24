@@ -1,0 +1,36 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cadefdivi
+    theme:            cidesaGenerator
+    fields:
+      coddivi: { name: Código, params: size=10 maxlength=6 onFocus=readonly(this.id) onBlur="this.value=this.value.pad(6, '0',0);"}
+      desdivi: { name: Descripción, params: size=80 maxlength=500  }
+      coddirec:
+        name: Dirección
+        params: size=4 maxlength=15
+        catalogo:
+          catalogoweb: Cadefdirec_Almdefdiv
+          clase: cadefdirec
+          ajax: 1
+          parametros: getprincipal="getCoddirec" getsecundario="getDesdirec" campoprincipal="coddirec" camposecundario="desdirec" campobase = "id"
+
+    list:
+      title:          Divisiones
+      fields:
+        desdirecc: { name: Dirección}
+      filters:        [coddivi, desdivi, coddirec]
+      display:        [=coddivi, desdivi, desdirecc]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:  8
+      sort: coddivi
+    edit:
+      title:          Edición de División
+      display:        [coddivi, desdivi, coddirec]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

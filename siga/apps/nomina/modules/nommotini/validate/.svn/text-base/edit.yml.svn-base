@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "rhmotini{codmot}"
+   - "rhmotini{desmot}"
+
+names:
+  rhmotini{codmot}:
+    required:  Yes
+    required_msg: El código no puede estar en Blanco
+    validators: Validator_codmot
+
+  rhmotini{desmot}:
+    required:  Yes
+    required_msg: La descripción no puede estar en Blanco
+    validators: Validator_desmot
+
+Validator_codmot:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Rhmotini
+        column:       codmot
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_desmot:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caracteres
+        max:       250
+        max_error: La descripción no puede pasar mas de 250 caracteres

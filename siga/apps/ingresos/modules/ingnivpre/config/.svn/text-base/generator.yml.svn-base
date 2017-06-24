@@ -1,0 +1,77 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cidefniv
+    theme:            cidesaGenerator
+    fields:
+      nomemp:      { name: Nombre de la Empresa, params: size=80 }
+      rupcat:      { name: Clasificador de Categorías }
+      ruppar:      { name: Clasificador de Partidas }
+      nivdis:      { name: Nivel Disponibilidad }
+      forpre:      { name: Formato Código Presupuestario, params: size=40,maxlength=32 }
+      asiper:      { name: Asignación Periódica }
+      numper:      { name: Número de Períodos }
+      fecper:      { name: Período }
+      fecini:      { name: Inicio del Ejercicio }
+      feccie:      { name: Fin del Ejercicio}
+      staprc:      { name: Precompromiso }
+      coraep:      { name: Inicio de Correlativo de AEP, params: maxlength=8,size=10}
+      #periodos:    { name: Períodos }
+      grid:        { name: . }
+      gridper:     { name: . }
+      coring:      { name: Ingreso, params: size=10 }
+      cortras:      { name: Traslado, params: size=10 }
+      coraju:      { name: Ajuste, params: size=10 }
+      coradi:      { name: Adicion, params: size=10 }
+      codctarec:      { name: Cuenta Contable (Recargos) }
+      codctades:      { name: Cuenta Contable (Descuentos) }
+      rifcon:
+        name:  C.I/R.I.F Contribuyente Ingreso
+        params: maxlength=14
+        catalogo:
+          catalogoweb: Ingreging_ciconrep
+          clase: Ciconrep
+          ajax: 3
+          parametros: getprincipal="getRifcon" getsecundario="getNomcon" campoprincipal="rifcon" camposecundario="nomcon" campobase = "id"
+      codtip:
+        name:  Tipo de Ingreso
+        params: maxlength=3
+        catalogo:
+          catalogoweb: Ingreging_citiping
+          clase: Citiping
+          ajax: 4
+          parametros: getprincipal="getCodtip" getsecundario="getDestip" campoprincipal="codtip" camposecundario="destip" campobase = "id"
+      tipmov:
+        name:  Tipo de Movimiento Ingreso
+        params: maxlength=4
+        catalogo:
+          catalogoweb: Ingreging_tstipmov
+          clase: Tstipmov
+          ajax: 5
+          parametros: getprincipal="getTipmov" getsecundario="getDestipmov" campoprincipal="tipmov" camposecundario="destipmov" campobase = "id" 
+      tipmovcom:
+        name:  Tipo de Movimiento Comisión
+        params: maxlength=4
+        catalogo:
+          catalogoweb: Ingreging_tstipmov
+          clase: Tstipmov
+          ajax: 7
+          parametros: getprincipal="getTipmovcom" getsecundario="getDestipmovcom" campoprincipal="tipmovcom" camposecundario="destipmovcom" campobase = "id"                                                                     
+    list:
+      title:          Definición de Niveles Presupuestarios
+      display:        []
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        []
+      max_per_page:   5
+    edit:
+      title:          Edición de Niveles Presupuestarios
+      display:
+        Datos del Código Presupuestario:        [ nomemp, _rupcat, _ruppar, _nivdis ]
+        Detalles del Código Presupuestario:     [ _grid, _forpre]
+        Configuraciones Generales:              [ _asiper, _fecper, _fecini, _feccie, _numper, _staprc, coraep, _codctarec, _codctades, rifcon, codtip, tipmov, tipmovcom]
+        Distribución de los Períodos:           [ _gridper ]
+        Correlativos: [ coring, cortras, coraju, coradi]
+      actions:
+        _save:        ~

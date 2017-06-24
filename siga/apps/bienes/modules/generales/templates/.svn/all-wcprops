@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/35268/web/php/siga/branches/productions/trunk/apps/bienes/modules/generales/templates
+END
+autocompleteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/bienes/modules/generales/templates/autocompleteSuccess.php
+END
+catalogov2Success.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/bienes/modules/generales/templates/catalogov2Success.php
+END
+error404Success.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/bienes/modules/generales/templates/error404Success.php
+END
+nologinSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/bienes/modules/generales/templates/nologinSuccess.php
+END
+disabledSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/35268/web/php/siga/branches/productions/trunk/apps/bienes/modules/generales/templates/disabledSuccess.php
+END
+routingSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/bienes/modules/generales/templates/routingSuccess.php
+END
+errores.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/bienes/modules/generales/templates/errores.php
+END
+loginSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/bienes/modules/generales/templates/loginSuccess.php
+END
+catalogoSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/bienes/modules/generales/templates/catalogoSuccess.php
+END
+nocredentialsSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/bienes/modules/generales/templates/nocredentialsSuccess.php
+END
+_filters.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/bienes/modules/generales/templates/_filters.php
+END

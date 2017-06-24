@@ -1,0 +1,124 @@
+opciones:                  # Opciones generales
+  eliminar:                false
+  tabla:                   Opordpag
+  anchogrid:               1050
+  ancho:                   1050
+  filas:                   0
+  titulo:                  ' Pagos Emitidos '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Marque
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:			   true
+  html:                    []
+2:       # Columna 2
+  titulo:                  Nro. Orden
+  tipo:                    t
+  nombrecampo:             numche
+  esgrabable:			         true
+  html:                    ["size=10 readonly=true"]
+3:       # Columna 3
+  titulo:                  Beneficiario
+  tipo:                    t
+  esgrabable:			         true
+  nombrecampo:             nombeneficiario
+  html:                    ["size=30 readonly=true"]
+4:       # Columna 4
+  titulo:                  Emitido
+  tipo:                    t
+  nombrecampo:             cadfec
+  esgrabable:			         true
+  html:                    ["size=10 readonly=true"]
+5:       # Columna 5
+  titulo:                  Monto Original
+  tipo:                    m
+  nombrecampo:             monori
+  esnumerico:              true
+  esgrabable:			         true
+  html:                    ["size=10 readonly=true"]
+6:       # Columna 6
+  titulo:                  Monto Bs
+  tipo:                    m
+  nombrecampo:             monche
+  esnumerico:              true
+  esgrabable:			         true
+  html:                    ["size=10 readonly=true"]  
+7:       # Columna 7
+  titulo:                  Moneda Original
+  tipo:                    t
+  nombrecampo:             moneda
+  esgrabable:			         true
+  decimal:                 5
+  html:                    ["size=20 readonly=true"]  
+8:       # Columna 8
+  titulo:                  Fecha Ajuste
+  tipo:                    f
+  nombrecampo:             fecaju
+  esgrabable:			         true
+  ajaxfila:                true
+  html:                    [ ]  
+9:       # Columna 9
+  titulo:                  Monto a Ajustar
+  tipo:                    m
+  nombrecampo:             monaju
+  esnumerico:              true
+  esgrabable:			         true
+  ajaxfila:                true
+  html:                    ["size=10 onClick='mensaje(this.id)'"]   
+10:       # Columna 10
+  titulo:                  Diferencia
+  tipo:                    m
+  nombrecampo:             majust
+  esnumerico:              true
+  esgrabable:			         true
+  html:                    ["size=10 readonly=true"]    
+11:       # Columna 11
+  titulo:                  Valor Moneda
+  tipo:                    m
+  nombrecampo:             valmon
+  esnumerico:              true
+  esgrabable:			         true
+  decimal:                 5
+  html:                    ["size=10 readonly=true"]     
+12:       # Columna 12
+  titulo:                  Monto BS Nueva Tasa
+  tipo:                    m
+  nombrecampo:             nuemon
+  esnumerico:              true
+  esgrabable:			         true
+  html:                    ["size=10 readonly=true"]     
+13:       # Columna 13
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             observe
+  esgrabable:			         true
+  html:                    ["size=40 maxlength=50"] 
+14:       # Columna 14
+  titulo:                  Fecha Emision
+  tipo:                    f
+  nombrecampo:             fecemi
+  esgrabable:			         true
+  oculta:			             true
+  html:                    [ ]    
+15:       # Columna 15
+  titulo:                  Referencia Pagado
+  tipo:                    t
+  nombrecampo:             refpag
+  esgrabable:			         true
+  oculta:			             true
+  html:                    ["size=10 readonly=true"]    
+16:       # Columna 16
+  titulo:                  Signo
+  tipo:                    t
+  nombrecampo:             signo
+  esgrabable:			         true
+  oculta:			             true
+  html:                    ["size=10 readonly=true"]    
+17:       # Columna 17
+  titulo:                  Tipo de Movimiento
+  tipo:                    t
+  nombrecampo:             tipmovi
+  esgrabable:              true
+  oculta:                  true
+  html:                    ["size=10 readonly=true"]   

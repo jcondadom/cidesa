@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/pgsql
+END
+foreignkey.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/pgsql/foreignkey.tpl
+END
+drop.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/pgsql/drop.tpl
+END
+unique.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/pgsql/unique.tpl
+END
+index.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/pgsql/index.tpl
+END
+table.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/pgsql/table.tpl
+END
+sequence.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/pgsql/sequence.tpl
+END
+tablefk.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/pgsql/tablefk.tpl
+END
+primarykey.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/pgsql/primarykey.tpl
+END
+columns.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/propel-generator/templates/sql/base/pgsql/columns.tpl
+END

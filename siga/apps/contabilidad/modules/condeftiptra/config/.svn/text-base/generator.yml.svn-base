@@ -1,0 +1,31 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cotiptra
+    theme:            cidesaGenerator
+    fields:
+      codtiptra: { name: Código, params : size=5 maxlength=3  onFocus=readonly(this.id) onBlur="this.value=this.value.pad(3, '0',0);"}
+      destiptra: { name: Descripción, params : size=80 maxlength=1000}
+      modtiptra: { name: Otros Módulos}
+    list:
+      title:          Tipo de Transacciones
+      fields:
+        codtiptra: { name: Código, params : size=5 maxlength=3  }
+        destiptra: { name: Descripción, params : size=15 maxlength=1000}
+        modtiptra: { name: Otros Módulos}
+      filters:        [codtiptra, destiptra]
+      display:        [=codtiptra, destiptra]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codtiptra
+    edit:
+      title:          Edición  de Tipo de Transacción
+      display:
+        "Datos Tipo de Transacciones":   [codtiptra, destiptra, modtiptra]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

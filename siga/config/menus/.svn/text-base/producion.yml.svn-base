@@ -1,0 +1,24 @@
+producion:
+  opciones:
+    activo: true #true/false
+    descripcion: Módulo de Producción
+    imagen: bienes.gif
+    nombre: Producción
+    urls:
+      Cambiar Contraseña:
+        modulo: autenticacion.php
+        modulo_dev: autenticacion_dev.php
+      default:
+        modulo: producion.php
+        modulo_dev: producion_dev.php
+      Reportes:
+        absoluta: reportes/reportes/producion
+    imagenes:
+      default: OperatorClass.png
+  menu:
+    Definiciones:
+    Movimientos:
+      Recepción de Ordenes de Trabajo:                       prorecordtra
+    Reportes:
+    Mantenimiento:
+      Cambiar Contraseña:                                    cambiopasswd

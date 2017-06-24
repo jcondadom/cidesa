@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "mantipgar{codtga}"
+   - "mantipgar{destga}"
+
+names:
+  mantipgar{codtga}:
+    required:  Yes
+    required_msg: Introduzca el Código del Tipo de Garantía
+    validators: Validator_codtga
+    
+  mantipgar{destga}:
+    required:  Yes
+    required_msg: Introduzca la Descripción del Tipo de Garantía
+    validators: Validator_destga
+
+Validator_codtga:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Mantipgar
+        column:       codtga
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_destga:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La Descripción no puede tener mas de 250 caracteres 

@@ -1,0 +1,45 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   caordcom
+  anchogrid:               1000
+  ancho:                   820
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Verificado
+  tipo:                    k
+  nombrecampo:             aprobar
+  html:                    ["size=3"]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Número OC
+  tipo:                    t
+  nombrecampo:             ordcom
+  html:                    ["size=10 readonly=true"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Fecha
+  tipo:                    f
+  nombrecampo:             fecord
+  html:                    ["size=10 readonly=true"]
+  esgrabable:              false  
+4:       # Columna 5
+  titulo:                  Proveedor
+  tipo:                    t
+  nombrecampo:             nomprovee
+  html:                    ["size=50 readonly=true"]
+  esgrabable:              true
+5:       # Columna 5
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             desord
+  html:                    ["size=40x2 readonly=true" ]
+  esgrabable:              false
+6:       # Columna 6
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monord
+  html:                    ["size=10 readonly=true" ]
+  esgrabable:              false

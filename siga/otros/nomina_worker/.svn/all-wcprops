@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repositorio/!svn/ver/60404/web/php/siga/branches/productions/trunk/otros/nomina_worker
+END
+Gemfile.lock
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/60404/web/php/siga/branches/productions/trunk/otros/nomina_worker/Gemfile.lock
+END
+.ruby-gemset
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/60404/web/php/siga/branches/productions/trunk/otros/nomina_worker/.ruby-gemset
+END
+.ruby-version
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/60404/web/php/siga/branches/productions/trunk/otros/nomina_worker/.ruby-version
+END
+cargar_servicios.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/60404/web/php/siga/branches/productions/trunk/otros/nomina_worker/cargar_servicios.txt
+END
+Gemfile
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repositorio/!svn/ver/60404/web/php/siga/branches/productions/trunk/otros/nomina_worker/Gemfile
+END
+worker.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/60404/web/php/siga/branches/productions/trunk/otros/nomina_worker/worker.rb
+END

@@ -1,0 +1,23 @@
+opciones:                  # Opciones generales
+  name:                    d
+  eliminar:                true
+  tabla:                   caartalt
+  anchogrid:               500
+  ancho:                   400
+  filas:                   10
+  titulo:                  'Códigos Alternos'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             codalt
+  esgrabable:              true
+  html:                    ["size=20 maxlength=20"]
+2:       # Columna 2
+  titulo:                  Activo
+  tipo:                    c
+  nombrecampo:             actcod
+  esgrabable:              true
+  html:                    [ ]  
+  oculta:                  true
+

@@ -1,0 +1,24 @@
+======Definición======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Proceso que se encarga de registrar y controlar aquellos conceptos asociados a cada Nómina Especial que se genere dentro de la Institución</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Nóminas Especiales** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompernomesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Conceptos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompernomespconcep.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Conceptos** podrá realizar las Operaciones Básicas de: 
+
+  * [[Incluir Nóminas_Especiales_Conceptos|Incluir]]
+
+  * [[Eliminar Nóminas_Especiales_Conceptos|Eliminar]]
+
+  * [[Consultar Nóminas_Especiales_Conceptos|Consultar]]

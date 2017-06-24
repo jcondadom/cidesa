@@ -1,0 +1,7 @@
+a:2:{s:7:"current";a:7:{s:4:"date";a:2:{s:7:"created";i:1316550241;s:8:"modified";i:1316548925;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:5:"title";s:22:"Descripción de Campos";s:11:"description";a:2:{s:15:"tableofcontents";a:1:{i:0;a:4:{s:3:"hid";s:21:"descripcion_de_campos";s:5:"title";s:22:"Descripción de Campos";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:339:"Descripción de Campos
+
+	*  Ingresar los Datos de la Institución como: Código que identifica la Institución, Nombre de la Institución, Dirección de Ubicación, Teléfono, Fax, Correo Electrónico, Estado, Municipio y Parroquia
+
+
+
+	*  Definir el Formato y Descripción a seguir para el Código de Activo y para el Código de Ubicación";}s:8:"relation";a:2:{s:10:"references";a:1:{s:19:"operaciones_basicas";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:3:{s:4:"date";a:1:{s:7:"created";i:1316550241;}s:4:"user";s:0:"";s:7:"creator";s:0:"";}}

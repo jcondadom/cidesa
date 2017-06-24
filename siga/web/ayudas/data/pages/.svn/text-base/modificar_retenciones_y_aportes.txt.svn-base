@@ -1,0 +1,16 @@
+====== Operación Modificar ======
+
+Para la operación de Modificar debe:  <html><br><br></html>
+
+  * Seleccionar de la **Lista** el **Código de la Retención ó Aporte** a modificar. 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperretapomod.jpg|}}"></div><br></html>
+
+  * El sistema muestra los datos de la **Retención ó Aporte** seleccionado. <html><br><br></html>
+
+  * Realice las modificaciones en base a la **Retención ó Aporte** seleccionado. Es importante destacar que los campos que se pueden modificar es la **Descripción** y el** Porcentaje de Retención y Aporte Patronal**.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/"></div></html>
+
+  * Presionar {{:btnguardar.jpg|}} para actualizar la información.  <html><br><br></html> 
+
+  * El sistema emite un **Mensaje de Éxito**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

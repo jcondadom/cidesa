@@ -1,0 +1,40 @@
+===== Descripción de Campos =====
+
+  * En la **Pestaña Registro** ingresamos todos los datos principales del Mueble:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:bieregmueinc1.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Seleccionar el **Código del Activo** a registrar.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Ingresar en **Código Activo** el Código del bien que haga referencia a dicho activo.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Ingresar un **Código Alterno**.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Seleccionar la **Orden de Compra** a la que refiere la adquisición del mueble
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Ingresar el **Número de la Factura** de la compra del Mueble
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Seleccionar el **Proveedor** del Mueble
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- **Fecha de la Compra** y la **Fecha del Cálculo**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>-Seleccionar el **Código de la Ubicación** del Mueble
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Ingresar lo **valores** correpsondientes a la **Vida Util**. <html><br><br></html>
+
+  * En la **Pestaña Características del Mueble**:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:bieregmueinc2.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Ingresamos las **características generales del Mueble** como: **Marca, Modelo, Año, Color, Capacidad, Tipo, Seriales, Nro. de piezas, Placa, Alto, Uso, Largo, Ancho.**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Seleccionar el **Código de la Disposición** que afecta al Mueble.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>- Indicar** Observaciones Generales** sobre el artículo en caso de haberlas.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:bieregmueinc3.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Costo** ingresamos los **Montos** pertenecientes a: **Valor Inicial**, **Valor Rescate**, **Depreciación Mensual** y **Acumulada**, **Valor Libros**, **Valor Adición**, **Valor Reexpresado**, **Costo Reposición** y **Valor Actual**. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Registro Muebles** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+

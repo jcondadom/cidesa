@@ -1,0 +1,48 @@
+====== Descripción de Campos ======
+
+En la pantalla **Metas a Proyectos y Acciones Específicas** encontramos una serie de secciones que la conforman y cada una con los campos correspondientes, dichas secciones son las siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefespmetproyaccespinc1.jpg}}"></div><br></html>
+
+   * En la sección **Proyecto ó Acción Centralizada** se encuentran los campos: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Código:** Indica el número que identifica al proyecto ó acción centralizada. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema emite una [[listas|Lista]] con los proyectos ó acciones centralizadas que fueron registradas en la pantalla [[|Proyectos y Acciones Centralizadas]]
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Proyecto ó Acción Centralizada:** Indica el nombre al que hace referencia el proyecto ó acción centralizada que está registrando. <html><br><br></html>
+
+  * En la sección **Acción Específica** se encuentran los campos: <html><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Código:** Indica el número que identifica a la acción específica. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema emite una [[listas|Lista]] con las acciones específicas que fueron registradas en la pantalla [[formulacion_acciones_especificas|Acciones Específicas]]
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Acción Específica:** Indica el nombre al que hace referencia la acción específica que está registrando.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefespmetproyaccespinc2.jpg|}}"></div><br></html>
+
+  * Seguidamente podemos observar un [[grid|Grid]] llamado **Metas** donde ubicamo en las columnas correspondientes los siguientes campos: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Código:** Indica el número que identifica a la meta asociada al proyecto y acción específica.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Descripción:** Indica el nombre que hace referencia a la meta que está registrando.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Unidad de Medida:** Indica la unidad de medida de cada meta. Al hacer click en el ícono {{:btnflecha.jpg}} se desplaza un listado con las unidades de medidas que fueron registradas previamente en el sistema en la pantalla [[formulacion_unidades_medidas|Unidades de Medidas]]
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Cantidad:** Indica por cada meta la cantidad de la misma de acuerdo a la unidad de medida. Para ingresar la cantidad debe presionar el Botón {{:btnlupa.jpg}} para que el sistema automáticamente muestre otro grid llamado **Distribución de la Meta Física** donde se visualizará los 12 **Períodos** del año y por cada uno deberá ingresar la **Cantidad Prog. Anual**. <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Una vez ingresadas las cantidades correspondientes a cada período deberá presionar el Botón {{:btnvolver.jpg}} para que el sistema oculte este último grig y proceda a colocar el **Total** de la **cantidad programada anual** en la columna **Cantidad** que se encuentra ubicada en el grid **Metas** <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla **Metas a Proyectos y Acciones Específicas** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+

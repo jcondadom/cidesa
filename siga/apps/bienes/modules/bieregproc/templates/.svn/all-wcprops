@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/57652/web/php/siga/branches/productions/trunk/apps/bienes/modules/bieregproc/templates
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/51505/web/php/siga/branches/productions/trunk/apps/bienes/modules/bieregproc/templates/ajaxSuccess.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/57652/web/php/siga/branches/productions/trunk/apps/bienes/modules/bieregproc/templates/editSuccess.php
+END
+listSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/57652/web/php/siga/branches/productions/trunk/apps/bienes/modules/bieregproc/templates/listSuccess.php
+END

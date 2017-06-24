@@ -1,0 +1,45 @@
+====== Operación Incluir ======
+
+Para **Incluir** la Inspección de un determinado Contrato: <html><br><br></html>
+
+  * Presione el **Botón** {{:btnnuevo.jpg|}} <html><br><br></html>
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontinspecreginc1.jpg|}}"></div><br></html>
+
+  * En el campo **Número de Contrato** presione el **Botón** {{:btncuadrocatalogo.jpg|}} para que el sistema muestre los contratos previamente definidos en el sistema donde debe seleccionar el Contrato para el cual desea registrar la inspección. <html><br><br></html>
+
+  * El sistema muestra la **Obra** y el **Contratista** asociado al contrato.<html><br><br></html>
+
+  * Ingresar el **Número** de Inspección.<html><br><br></html>
+
+  * Seleccionar del calendario {{:btncalendario.jpg|}} la **Fecha Inicio** y **Fecha Fin** de la Inspección.<html><br><br></html>
+
+  * El sistema calula y muestra el **Porcentaje de Tiempo Transcurrido** entre la Fecha Inicio y Fecha Fin de la Inspección. <html><br><br></html>
+
+  * En la tabla **Datos de Partidas Inspeccionadas**:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontinspecreginc2.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** En la columna **Código Partida** presione el Botón {{:btnconsultagrid.jpg|}} y seleccione del catálogo de partidas previamente definidas pra ese contrato aquellas partidas que fueron inspeccionadas.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** El sistema muestra para cada una de las partidas seleccionadas la Unidad de Medida y la Cantidad Contratada.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Por último ingrese para cada una de las partidas seleccionadas lo **Ejecutado** y alguna **Observación** en caso de existir.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** El sistema muestra el **Total Ejecutado** <html><br><br></html>
+
+**Nota:** Si desea **Quitar** elementos de la Tabla Datos de Partidas Inspeccionadas solo debe presionar el Botón {{:btnquitar.jpg|}} que se encuentra a la izquierda del Código de la Partida que desee quitar. <html><br><br></html>
+
+  * Presione el **Botón** {{:btnguardar.jpg|}}
+
+
+
+
+
+
+
+
+
+
+
+

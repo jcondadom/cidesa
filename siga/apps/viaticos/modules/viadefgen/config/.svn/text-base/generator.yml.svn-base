@@ -1,0 +1,71 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Viadefgen
+    theme:            cidesaGenerator
+    fields:
+      numsolvia:      { name: Nro. Solicitud de Viaticos}
+      numcalvianac:   { name: Nro. Calculo de Viatico Nacional}
+      numcalviaint:   { name: Nro. Calculo de Viatico Internacional}
+      valunitri:      { name: Valor Unidad Tributaria}
+      valdolar:       { name: Tasa del Dolar}
+      numrelgasadi:   { name: Nro. Relacion de Gastos Adicionales de Viaticos}
+      codpar:
+        name: Partida Viaticos Internacional
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Nppartidas_Almregart
+          clase: Nppartidas
+          ajax: 0
+          parametros: getprincipal="getCodpar" getsecundario="getNompar" campoprincipal="codpar" camposecundario="nompar" campobase = "id"
+      rubint:
+        name: Rubro de Viático Diario Internacional
+        msj_error: El Rubro de Viático Diario Internacional no puede estar en Blanco
+        catalogo:
+          catalogoweb: Viadefrub_Internacional
+          clase: Viadefrub
+          ajax: 1
+          parametros: getprincipal="getRubint" getsecundario="getDesrub" campoprincipal="rubint" camposecundario="desrub" campobase = "id"
+      codprisup:
+        name: Prima Suplementaria
+        catalogo:
+          catalogoweb: Viadefpri_codpri
+          clase: Viadefpri
+          ajax: 2
+          parametros: getprincipal="getCodprisup" getsecundario="getDespri" campoprincipal="codprisup" camposecundario="despri" campobase = "id"          
+      codpriadi:
+        name: Prima Adicional
+        catalogo:
+          catalogoweb: Viadefpri_codpri
+          clase: Viadefpri
+          ajax: 3
+          parametros: getprincipal="getCodpriadi" getsecundario="getDespriadi" campoprincipal="codpriadi" camposecundario="despriadi" campobase = "id"                
+      codprigas:
+        name: Prima Gastos de Representación
+        catalogo:
+          catalogoweb: Viadefpri_codpri
+          clase: Viadefpri
+          ajax: 4
+          parametros: getprincipal="getCodprigas" getsecundario="getDesprigas" campoprincipal="codprigas" camposecundario="desprigas" campobase = "id"
+      corsolbol:      { name: Solicitud de Boleto Áereo}
+      corsoltra:      { name: Solicitud de Transporte Terrestre}
+      reppreimpsol:   { name: Forma Preimpresa Solicitud de Viático}
+      reppreimpcal:   { name: Forma Preimpresa Cálculo de Viático}
+      corrensol:      { name: Rendición de Viáticos}
+      tipcom:
+        name: Compromiso Calculo de Viaticos
+        catalogo:
+          catalogoweb: Cpdoccom_Predoccom
+          clase: Cpdoccom
+          ajax: 0
+          parametros: getprincipal="getTipcom" getsecundario="getNomext" campoprincipal="tipcom" camposecundario="nomext" campobase = "id"
+
+    edit:
+      title: Definiciones Generales
+      display:
+        Correlativos:    [numsolvia, numcalvianac, numcalviaint, numrelgasadi, corsolbol, corsoltra, corrensol]
+        Datos Generales: [valunitri, valdolar, codpar, rubint, codprisup, codpriadi, codprigas, reppreimpsol, reppreimpcal, tipcom]
+      actions:
+        _list:        none
+        _save:        ~
+        _delete:      none

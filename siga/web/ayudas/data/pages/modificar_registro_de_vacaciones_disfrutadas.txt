@@ -1,0 +1,14 @@
+====== Operación Modificar ======
+
+Para la operación de **Modificar** debe:  <html><br><br></html>
+
+  * Seleccionar de la **Lista** el **Empleado** para la cual desea modificar el registro de vacaciones disfrutadas. <html><br><br></html>
+
+  * El sistema muestra los datos del empleado seleccionado. <html><br><br></html>
+
+  * Las modificaciones que podrá realizar es en cuanto a los **Dias Disfrutados** en caso de ser necesario.
+
+  * Una ves realizadas las modificaciones debe Presionar {{:btnguardar.jpg|}} para actualizar la información.  <html><br><br></html> 
+
+  * El sistema emite un **Mensaje de Éxito**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

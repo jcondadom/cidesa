@@ -1,0 +1,15 @@
+====== Operación Eliminar ======
+
+Para eliminar una determinada **Guardería** debe:  <html><br><br></html>
+
+  * Seleccionar de la **Lista** el **Concepto** para el cual desea eliminar la Guardería. 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperguamod.jpg|}}"></div><br></html>
+
+  * Presionar  {{:btnborrar.jpg|}}  <html><br><br></html>
+
+  * El sistema emite un mensaje de confirmación antes de eliminar.  
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br></html>
+ 
+  * Presionar **Aceptar**.   <html><br><br></html>
+ 
+  * El sistema nos lleva automáticamente a la lista con las Guarderías por Conceptos donde podemos verificar que el registro fué eliminado

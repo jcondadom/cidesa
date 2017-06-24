@@ -1,0 +1,31 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Catdivgeo
+    theme:            cidesaGenerator
+
+    fields:
+      coddivgeo:    { name: Código, params: size=40}
+      desdivgeo:    { name: Descripción, params: size=40}
+
+    list:
+      title:     Definición de División Territorial
+      fields:
+        coddivgeo:    { name: Código, params: size=15}
+        desdivgeo:    { name: Descripción, params: size=15}
+      display:   [ =coddivgeo, desdivgeo]
+      sort:      coddivgeo
+      filters:   [ coddivgeo, desdivgeo]
+      max_per_page: 10
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+
+    edit:
+      title: Edición de División Territorial
+      display:  [ _coddivgeo, desdivgeo]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

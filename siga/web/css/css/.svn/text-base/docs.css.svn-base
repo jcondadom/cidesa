@@ -1,0 +1,762 @@
+/* Add additional stylesheets below
+-------------------------------------------------- */
+/*
+  Bootstrap's documentation styles
+  Special styles for presenting Bootstrap's documentation and examples
+*/
+
+
+
+/* Body and structure
+-------------------------------------------------- */
+@font-face{
+    font-family: "stylo";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/AGENCYB.TTF");
+    
+}
+/*
+-------------------------------------------------- */
+@font-face{
+    font-family: "stylo2";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/AGENCYR.TTF");
+    
+}
+
+
+body {
+  font-family: "stylo2";
+  position: relative;
+  padding-top: 0px;
+}
+
+/* Code in headings */
+h3 code {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+
+
+
+.container{
+    width: 1000px;
+}
+
+.navbar {      
+    padding: 0;
+}
+.navbar ul {
+    position: relative;
+    padding: 0; 
+    
+    height: 50px;
+    margin: 0;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+.navbar ul li    {   
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    margin: 0 0;
+}
+
+.navbar ul li a.begin{
+    color: #fff;
+    text-align: center;
+    padding: 11px;
+/*    height: 20%;*/
+    margin: 0;
+    display: block;
+    width: 98px;
+    height: 30px;
+    background: transparent url("/images/menu/btbegin.png") no-repeat right bottom;
+    text-decoration: none;
+    font-family: stylo2;
+    font-size: 20px;
+}
+
+.navbar ul li a.begin:hover{
+     background: transparent url("/images/menu/btbeginh.png") no-repeat right bottom;
+}
+.navbar ul li a.begin:active{
+     background: transparent url("/images/menu/btbegina.png") no-repeat right bottom;
+}
+.navbar ul li a.history{
+    color: #fff;
+    text-align: center;
+    padding: 11px;
+/*    height: 20%;*/
+    margin: 0;
+    display: block;
+    width: 96px;
+    height: 30px;
+    background: transparent url("/images/menu/bh.png") no-repeat right bottom;
+    margin-left: -15px;
+    text-decoration: none;
+    font-family: stylo2;
+    font-size: 20px;
+}
+.navbar ul li a.history:hover   {  
+    background: transparent url("/images/menu/bhh.png") no-repeat right bottom;    
+}
+.navbar ul li a.history:active  {  
+    background: transparent url("/images/menu/bha.png") no-repeat right bottom;    
+}
+.navbar ul li a.acomp{
+    color: #fff;
+    text-align: center;
+    padding: 11px;
+/*    height: 20%;*/
+    margin: 0;
+    display: block;
+    width: 147px;
+    height: 30px;
+    background: transparent url("/images/menu/ba.png") no-repeat right bottom;
+    margin-left: -15px;
+    text-decoration: none;
+    font-family: stylo2;
+    font-size: 20px;
+}
+
+.navbar ul li a.acomp:hover   {  
+    background: transparent url("/images/menu/bah.png") no-repeat right bottom;    
+}
+.navbar ul li a.acomp:active  {  
+    background: transparent url("/images/menu/bap.png") no-repeat right bottom;    
+}
+
+.navbar ul li a.tarifas{
+    color: #fff;
+    text-align: center;
+    padding: 11px;
+/*    height: 20%;*/
+    margin: 0;
+    display: block;
+    width: 98px;
+    height: 30px;
+    background: transparent url("/images/menu/bt.png") no-repeat right bottom;
+    margin-left: -15px;
+    text-decoration: none;
+    font-family: stylo2;
+    font-size: 20px;
+}
+.navbar ul li a.tarifas:hover   {  
+    background: transparent url("/images/menu/bhh.png") no-repeat right bottom;    
+}
+.navbar ul li a.tarifas:active  {  
+    background: transparent url("/images/menu/bha.png") no-repeat right bottom;    
+}
+
+.navbar ul li a.rr{
+    color: #fff;
+    text-align: center;
+    padding: 11px;
+/*    height: 20%;*/
+    margin: 0;
+    display: block;
+    width: 147px;
+    height: 30px;
+    background: transparent url("/images/menu/ba.png") no-repeat right bottom;
+    margin-left: -15px;
+    text-decoration: none;
+    font-family: stylo2;
+    font-size: 20px;
+}
+.navbar ul li a.rr:hover   {  
+    background: transparent url("/images/menu/bah.png") no-repeat right bottom;    
+}
+.navbar ul li a.rr:active  {  
+    background: transparent url("/images/menu/bap.png") no-repeat right bottom;    
+}
+
+.navbar ul li a.soluc{
+    color: #fff;
+    text-align: center;
+    padding: 11px;
+/*    height: 20%;*/
+    margin: 0;
+    display: block;
+    width: 147px;
+    height: 30px;
+    background: transparent url("/images/menu/ba.png") no-repeat right bottom;
+    margin-left: -15px;
+    text-decoration: none;
+    font-family: stylo2;
+    font-size: 20px;
+
+}
+.navbar ul li a.soluc:hover   {  
+    background: transparent url("/images/menu/bah.png") no-repeat right bottom;    
+}
+.navbar ul li a.soluc:active  {  
+    background: transparent url("/images/menu/bap.png") no-repeat right bottom;    
+}
+
+
+.navbar ul li a.cc{
+    color: #fff;
+    text-align: center;
+    padding: 11px;
+/*    height: 20%;*/
+    margin: 0;
+    display: block;
+    width: 200px;
+    height: 30px;
+    background: transparent url("/images/menu/cc.png") no-repeat right bottom;
+    margin-left: -15px;
+    text-decoration: none;
+    font-family: stylo2;
+    font-size: 20px;
+}
+.navbar ul li a.cc:hover   {  
+    background: transparent url("/images/menu/cch.png") no-repeat right bottom;    
+}
+.navbar ul li a.cc:active  {  
+    background: transparent url("/images/menu/ccp.png") no-repeat right bottom;    
+}
+
+.ingSistema {
+    background-image: url("/images/cajaregistro/cajaregistro2.png");
+    
+    width: 270px;
+    height: 300px;
+    text-align: center;
+    
+/*    background: #3a3a3a;
+    background: -moz-linear-gradient(100% 100% 90deg, #0000FF, #252525); 
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0000FF), to(#252525)); 
+    box-shadow: 0px 5px 15px #5a5a5a;*/
+}
+
+.ingSistema > .ingHeader  p {
+ color: #fff;
+ padding: 10px 10px;    
+ font-family: stylo2;
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.ingSistema2 {
+    background-image: url("/images/cajaregistro/cajaregistro3.png");
+    
+    width: 270px;
+    height: ;
+    text-align: center;
+    font-size: 16px;
+    
+/*    background: #3a3a3a;
+    background: -moz-linear-gradient(100% 100% 90deg, #0000FF, #252525); 
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0000FF), to(#252525)); 
+    box-shadow: 0px 5px 15px #5a5a5a;*/
+}
+
+.ingSistema3 {
+    background-image: url("/images/cajaregistro/autenticado.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 150px;
+    color: #fff;
+    padding-top: 5px;
+    
+/*    background: #3a3a3a;
+    background: -moz-linear-gradient(100% 100% 90deg, #0000FF, #252525); 
+    background: -webki-gradient(linear, 0% 0%, 0% 100%, from(#0000FF), to(#252525)); 
+    box-shadow: 0px 5px 15px #5a5a5a;*/
+}
+
+.ingSistema3 button{
+    margin-left: 15px;
+}
+
+.ingSistema3 h4,h6,button{
+ padding: 5px 10px;   
+ opacity: 1;
+ color: #fff;
+ z-index: 100;
+}
+
+div.div {
+/*    background: #000;*/
+    background-color: rgba(255,255,255, 0.3);
+    letter-spacing: 2px;
+}
+.btn {
+    margin-top: 5px;
+background: -webkit-linear-gradient(#919191, #b9b9b9);
+background: -moz-linear-gradient(#919191, #b9b9b9);
+background: -o-linear-gradient(#919191, #b9b9b9);
+border-bottom: 2px solid #7a7a7a;
+box-shadow: 0px 2px 0px #2a546a;
+color: #fff;
+}
+
+.btn:hover {
+color: #fff;
+}
+
+.dropdown-menu:hover li a{
+text-align: left;
+}
+a.dropdown-toggle{
+padding: 5px 15px;
+}
+
+.content-img-top {
+margin-top: -130px;
+margin-bottom: 0px;
+height: 78px;
+z-index: 1000;
+padding: 25px 25px;
+}
+.content-img-top p {
+text-align: center;
+font-size: 25px;
+letter-spacing: 1px;
+line-height: 25px;
+word-spacing: 10px;
+color: #002365;
+font-family: stylo2;
+}
+.content-img-top2{
+margin-top: -130px;
+margin-bottom: 0px;
+height: 78px;
+z-index: 1000;
+padding: 25px 25px;
+}
+
+.content-img-top2 p {
+text-align: center;
+font-size: 18px;
+letter-spacing: 1px;
+line-height: 22px;
+word-spacing: 3px;
+color: #002365;
+font-family: stylo2;
+}
+
+
+.btn2 {
+    color: #fff;
+    padding: 10px 10px;    
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tablaCont {
+    margin-top: 10px;
+    background-image: url("/images/cajaregistro/ftc.png");
+   
+    height: 50px;
+    width: 270px;
+    margin-bottom: 5px;
+    
+}
+
+.tablaCont  p {
+ color: #fff;
+font-family: stylo2;
+font-size: 20px;
+ padding: 12px 10px;   
+ text-align: center;
+ font-weight: bold;
+}
+
+.contenidos {
+    height: 350px;
+    width: 100%;
+    background-image: url("/images/cajaregistro/fbmv.png");
+/*    background-position: center bottom;*/
+  
+}
+
+
+/* slider menu vertical */
+
+#slider {
+ /*    background: rgb(0,153,153);  Old browsers 
+    background: -moz-linear-gradient(left,  rgb(0,153,153) 0%, rgb(74,153,153) 66%, rgb(106,183,182) 86%, rgb(0,153,153) 99%);  FF3.6+ 
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgb(0,153,153)), color-stop(80%,rgb(74,153,153)), color-stop(86%,rgb(106,183,182)), color-stop(99%,rgb(0,153,153)));  Chrome,Safari4+ 
+    background: -webkit-linear-gradient(left,  rgb(0,153,153) 0%,rgb(74,153,153) 66%,rgb(106,183,182) 86%,rgb(0,153,153) 99%); Chrome10+,Safari5.1+ 
+    background: -o-linear-gradient(left,  rgb(0,153,153) 0%,rgb(74,153,153) 66%,rgb(106,183,182) 86%,rgb(0,153,153) 99%);  Opera 11.10+ 
+    background: -ms-linear-gradient(left,  rgb(0,153,153) 0%,rgb(74,153,153) 66%,rgb(106,183,182) 86%,rgb(0,153,153) 99%);  IE10+ 
+    background: linear-gradient(to right,  rgb(0,153,153) 0%,rgb(74,153,153) 66%,rgb(106,183,182) 86%,rgb(0,153,153) 99%);  W3C 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=’#009999’, endColorstr=’#009999’,GradientType=1 );  IE6-8 */
+ 
+   /*border-radius: 30px 0 0 30px;*/
+   
+/*    background-image: url("images/cajaregistro/fbmv.png");
+    background-position: bottom center;
+    background: no-repeat;*/
+     background: transparent url("/images/cajaregistro/fbmv.png") no-repeat bottom right;
+/*    box-shadow: 0px 5px 15px #5a5a5a;*/
+   
+    margin-top: 0px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 100%;
+    z-index: 100;
+    padding-bottom: 0;
+    
+}
+#slider ul:before {
+
+}
+#slider ul {
+    list-style: none outside none;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding: 10px 0px;
+    position: relative;
+    width: 270px;
+}
+#slider ul li {
+    height: 40px;
+    width: 270px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+ 
+#slider ul li a{
+/*    border-bottom: 1px solid #00CFCA;*/
+    background-image: url("/images/cajaregistro/bmv.png");
+    background-repeat: no-repeat;
+    color: white;
+/*    display: block;*/
+    font-family: stylo2;
+    font-size: 20px;
+   
+    letter-spacing: -1px;
+    padding-left: 33px;
+    position: absolute;
+    text-decoration: none;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    width: 240px;
+    z-index: 200;
+    height: 30px;
+    padding-top: 5px;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+#slider ul li a:hover {
+    background-image: url("/images/cajaregistro/bmhp.png");
+}
+
+#slider ul li a:active{
+    background-image: url("/images/cajaregistro/bmhh.png");
+}
+
+#slider2 {
+ /*    background: rgb(0,153,153);  Old browsers 
+    background: -moz-linear-gradient(left,  rgb(0,153,153) 0%, rgb(74,153,153) 66%, rgb(106,183,182) 86%, rgb(0,153,153) 99%);  FF3.6+ 
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgb(0,153,153)), color-stop(80%,rgb(74,153,153)), color-stop(86%,rgb(106,183,182)), color-stop(99%,rgb(0,153,153)));  Chrome,Safari4+ 
+    background: -webkit-linear-gradient(left,  rgb(0,153,153) 0%,rgb(74,153,153) 66%,rgb(106,183,182) 86%,rgb(0,153,153) 99%); Chrome10+,Safari5.1+ 
+    background: -o-linear-gradient(left,  rgb(0,153,153) 0%,rgb(74,153,153) 66%,rgb(106,183,182) 86%,rgb(0,153,153) 99%);  Opera 11.10+ 
+    background: -ms-linear-gradient(left,  rgb(0,153,153) 0%,rgb(74,153,153) 66%,rgb(106,183,182) 86%,rgb(0,153,153) 99%);  IE10+ 
+    background: linear-gradient(to right,  rgb(0,153,153) 0%,rgb(74,153,153) 66%,rgb(106,183,182) 86%,rgb(0,153,153) 99%);  W3C 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=’#009999’, endColorstr=’#009999’,GradientType=1 );  IE6-8 */
+ 
+   /*border-radius: 30px 0 0 30px;*/
+   
+/*    background-image: url("images/cajaregistro/fbmv.png");
+    background-position: bottom center;
+    background: no-repeat;*/
+     background: transparent url("/images/cajaregistro/fbmv.png") no-repeat bottom right;
+/*    box-shadow: 0px 5px 15px #5a5a5a;*/
+   
+    margin-top: 0px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 100%;
+    z-index: 100;
+    padding-bottom: 0;
+    
+}
+#slider2 ul:before {
+
+}
+#slider2 ul {
+    list-style: none outside none;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding: 10px 0px;
+    position: relative;
+    width: 270px;
+}
+#slider2 ul li {
+    height: 40px;
+    width: 270px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+ 
+#slider2 ul li a{
+/*    border-bottom: 1px solid #00CFCA;*/
+    background-image: url("/images/cajaregistro/bmv.png");
+    background-repeat: no-repeat;
+    color: white;
+/*    display: block;*/
+    font-family: stylo2;
+    font-size: 20px;
+   
+    letter-spacing: -1px;
+    padding-left: 33px;
+    position: absolute;
+    text-decoration: none;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    width: 240px;
+    z-index: 200;
+    height: 30px;
+    padding-top: 5px;
+    margin-bottom: 0px;
+     text-shadow: 1px 1px 1px #000;
+}
+
+#slider2 ul li a:hover {
+    background-image: url("/images/cajaregistro/bmhp.png");
+}
+
+#slider2 ul li a:active{
+    background-image: url("/images/cajaregistro/bmhh.png");
+}
+
+/* slider menu vertical 2 */
+
+
+/* div contacto */
+
+.contacto {
+    text-align: center; 
+    color:#0e68ca;
+    width: 270px;
+    background-image: url("/images/cajaregistro/fbmv.png");
+    background-position: bottom right;
+    float: left;
+    position: relative;
+    margin-top: 0px;
+    height: 120px;
+    padding: 10px 0px;
+    font-family: stylo2;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.contacto div {
+    width: 33%;
+    float: left;
+}
+
+div.pie {
+    margin-top: -26px;
+    margin-left: -30px;
+}
+
+
+div.page-head {
+    background-image: url("/images/fph.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 80px;
+    margin: 0 0;
+    color: white;
+    width: 420px;
+    float: left;
+    display: block;
+}
+
+div.page-head h1{
+    font-weight: normal;
+    margin: 0 0;
+    font-size: 30px;
+    padding: 15px 15px;
+}
+
+div.span3 {
+    width: 270px;
+}
+div.span7 {
+    margin-left: 5px;
+    width: 725px;
+    
+}
+div.pie {
+    width: 1000px;
+    height: 250px;
+    background: transparent url("/images/bloq-pie.png") no-repeat left top;
+    position: relative;
+}
+
+
+div.pie .head-pie { 
+    padding-top: 2px;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #0000FF;
+    font-family: stylo2;
+    font-size: 20px;
+}
+
+div.pie .head-pie p{
+    margin-top: 12px;
+}
+
+div.pie .intereses {
+    margin-top: -10px;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    padding: 10px 15px;
+}
+
+div.pie .intereses .item-interes {
+    float: left;
+    width: 22%;   
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+div.pie .intereses .item-interes img{
+    /*width: 25%;*/
+    float: left;
+}
+div.pie .intereses .item-interes .infor {
+    width: 69%;
+    height: 60px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+    background: transparent url("/images/bii.png") no-repeat center center;
+    
+
+}
+div.pie .intereses .item-interes .infor:hover{
+    background: transparent url("/images/biih.png") no-repeat center center;
+}
+
+div.pie .intereses .item-interes .infor a {
+    text-decoration: none;
+}
+div.pie .intereses .item-interes .infor p{
+    margin: 20px 10px;
+    color: #0000ff;
+    font-size: 12px;
+    font-family: stylo2;
+    font-size: 16px;
+}
+
+/*COLAPSE*/
+div.accordion-group{
+     border: none;
+}
+div.accordion-heading{
+     border: none;
+}
+div.accordion-inner{
+    border: none;
+}
+
+a.accordion-toggle {
+    background: transparent url("/images/fndtitulo.png") no-repeat left center;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    font-family: stylo2;
+    font-size: 18px;
+}
+
+a.accordion-toggle2 {
+    background: transparent url("/images/fndtitulo.png") no-repeat right bottom;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    font-family: stylo2;
+    font-size: 18px;
+}
+
+.tooltip {
+   /* background-color: #ececec*/
+}
+.tooltip.in {
+    
+}
+
+.popover-content ul { padding: 0 0; margin: 0 0;}
+.popover-content ul li{
+    list-style: none;
+    margin: 0 0;
+    padding: 10px 10px;
+    width: 100%;
+    margin-left: -10px;
+}
+.popover-content ul li a { padding: 0 0; margin: 0 0;}
+.popover-content ul li:hover{
+    background: #ececec;
+}
+
+img.roraima {
+    margin-top: -80px;
+}
+img.roraima2 {
+    margin-top: -80px;
+    width: 100%;
+}
+
+div.page-head2 {
+    background-image: url("/images/fph2.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 80px;
+    margin: 0 0;
+    color: white;
+    width: 560px;
+    float: left;
+    display: block;
+}
+
+div.page-head2 h1{
+    font-weight: normal;
+    margin: 0 0;
+    font-size: 30px;
+    padding: 15px 15px;
+}
+
+div.page-sub-head {
+    background-image: url("/images/fshh.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    height: 80px;
+    margin: 0 0;
+    color: white;
+    width: 344px;
+    float: left;
+    display: block;
+    margin-left: -48px;
+}
+div.page-sub-head h1{
+    font-weight: normal;
+    margin: 0 0;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top:  15px;
+}
+.span21{ text-shadow: 1px 1px 1px #000;color: #fff;font-family: stylo2;font-size: 18px;width:120px; background: transparent url("/images/cajaregistro/bmv.png") no-repeat right bottom;}
+.span21:hover{color: rgb(255, 255, 255); width:120px; background: transparent url("/images/cajaregistro/bmhp.png") no-repeat right bottom ;}
+.span21:active{text-shadow: 1px 1px 1px #000;color: #fff;font-family: stylo2;font-size: 18px; width:120px; background: transparent url("/images/cajaregistro/bmhp.png") no-repeat right bottom ;}
+.span21:before{color: white;}
+.span22{font-family: stylo2; font-size: 18px;}
+.span23{font-size: 14px;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}

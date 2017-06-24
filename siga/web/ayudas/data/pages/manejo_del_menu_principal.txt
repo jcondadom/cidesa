@@ -1,0 +1,17 @@
+====== Componentes del Menú Principal ======
+
+<html> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Una vez ubicados en el Menú Principal de SIGA podrá observar en la barra superior Derecha el logo de Cidesa y las opciones de:</html>
+
+    * **Menú Principal:** El cual retorna al usuario al Menú Principal de SIGA.<html><br><br></html>
+
+    * **Ayuda en Línea:** Retorna al usuario a la Ayuda en Linea de los sistemas de CIDESA donde el usuario contará con la información necesaria y paso a paso sobre la funcionalidad del sistema entre otras cosas.<html><br><br></html>
+
+    * **Comunidad:** Direcciona al Usuario al Wiki de Cidesa. <html><br><br></html>
+
+    * **Cerrar Sesión:**Permite cerrar la sesióin personalizada de un determinado usuario.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/barrasuperiormenu.jpg"></div> <br></html>
+
+<html> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En el centro de la pantalla se muestra el nombre del sistema y una serie de opciones que direccionan al usuario a los distintos Sub-Sistemas que conforman SIGA según la permisología. </html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:menuprincipalsiga1.jpg|}}"></div> <br></html>

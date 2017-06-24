@@ -1,0 +1,15 @@
+====== Operación Eliminar ======
+
+Para eliminar una determinada **Retención y Aporte**:  <html><br><br></html>
+
+  * Seleccionar de la **Lista** la **Retención y Aporte** a eliminar. 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperretapomod.jpg|}}"></div><br></html>
+
+  * Presionar  {{:btnborrar.jpg|}}  <html><br><br></html>
+
+  * El sistema emite un Mensaje de Confirmación antes de eliminar.  
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br></html>
+ 
+  * Presionar **Aceptar**.   <html><br><br></html>
+ 
+  * El sistema nos lleva automáticamente a la lista con las Retenciones y Aportes registrados donde podemos verificar que el registro fué eliminado

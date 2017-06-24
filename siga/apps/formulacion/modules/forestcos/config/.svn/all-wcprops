@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/47157/web/php/siga/branches/productions/trunk/apps/formulacion/modules/forestcos/config
+END
+grid_costos.yml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/47157/web/php/siga/branches/productions/trunk/apps/formulacion/modules/forestcos/config/grid_costos.yml
+END
+generator.yml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/40955/web/php/siga/branches/productions/trunk/apps/formulacion/modules/forestcos/config/generator.yml
+END
+grid_fuentefin.yml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/40955/web/php/siga/branches/productions/trunk/apps/formulacion/modules/forestcos/config/grid_fuentefin.yml
+END
+grid_periodos.yml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/40955/web/php/siga/branches/productions/trunk/apps/formulacion/modules/forestcos/config/grid_periodos.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/40955/web/php/siga/branches/productions/trunk/apps/formulacion/modules/forestcos/config/view.yml
+END

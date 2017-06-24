@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/build
+END
+assertions.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/build/assertions.php
+END
+travis-ci.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/build/travis-ci.xml
+END
+phpmd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/build/phpmd.xml
+END
+phar-autoload.php.in
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/build/phar-autoload.php.in
+END

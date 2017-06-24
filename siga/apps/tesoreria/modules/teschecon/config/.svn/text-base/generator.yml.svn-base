@@ -1,0 +1,53 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Tscheemi
+    theme:            cidesaGenerator
+    fields:
+      numche: { name: Nro. Cheque, params : readOnly=true}
+      fecemi: { name: Fecha de Emisión, params: date_format='dd/MM/yyyy' readOnly=true}
+      monche: { name: Monto , params : readOnly=true}
+      cedrif:
+        name: Beneficiario
+        catalogo:
+          catalogoweb: Opbenefi_Pagemiord
+          clase: Opbenefi
+          ajax: 0
+          parametros: getprincipal="getCedrif" getsecundario="getNomben" campoprincipal="cedrif" camposecundario="nomben" campobase = "id"
+      nombensus: { name: Cesionario Autorizado, params : size=80 readOnly=true}
+      numcue:
+        name: Cuenta Bancaria
+        params: maxlength=20
+        catalogo:
+          catalogoweb: Ingreging_tsdefban
+          clase: Tsdefban
+          ajax: 0
+          parametros: getprincipal="getNumcue" getsecundario="getNomcue" campoprincipal="numcue" camposecundario="nomcue" campobase = "id"
+      conformado: { name: Conformado}
+      nomfuncon:  { name: Nombre del Funcionario, params : maxlength=500 size=80 }
+      agenban:  { name: Agencia Bancaria, params : maxlength=500 size=80 }
+      fecconfor: { name: Fecha, params: date_format='dd/MM/yyyy' size=15 maxlength=10}
+      horconfor: { name: Hora, params : maxlength=50 size=20 }
+      nomben: { name: Beneficiario}
+      codseg: { name: Código de Seguridad, params : maxlength=32 size=35 }
+      codcon: { name: Código de Conformación, params : maxlength=32 size=35 }
+    list:
+      title:          Cheques por Conformación
+      fields:
+        numche: { name: Nro. Cheque}
+        codseg: { name: Código de Seguridad, params : maxlength=32}
+      filters:        [numche, numcue, cedrif, codseg]
+      display:        [=numche, numcue, fecemi, nomben, monche]
+      sort:           numche
+      object_actions:
+        _edit:        ~
+      max_per_page:   10
+    edit:
+      title:          Cheques por Conformación
+      display:        
+        "Datos del Cheque":  [_codseg, _codcon, numche, fecemi, monche, cedrif, nombensus]
+        "Datos del Banco":  [numcue]
+        "Datos de la Conformación":  [_conformado, nomfuncon, agenban, fecconfor, horconfor]
+      actions:
+        _list:        ~
+        _save:        ~

@@ -1,0 +1,41 @@
+methods:
+  post:
+   - "manreghor{numequ}"
+   - "manreghor{fecreg}"
+   - "manreghor{codume}"
+
+names:
+  manreghor{numequ}:
+    required:  Yes
+    required_msg: Introduzca el Número del Equipo
+    validators: Validator_numequ
+    
+  manreghor{codume}:
+    required:  No
+    validators: Validator_codume
+
+  manreghor{fecreg}:
+    required:  Yes
+    required_msg: No puede salvar sin introducir la Fecha
+    validators: FechaValidator
+
+Validator_numequ:
+    class: CidesaExistValidator
+    param:
+        class:        Manregequ
+        column:       numequ
+        unique_error: El Código de Equipo debe Existir.
+
+Validator_codume:
+    class: CidesaExistValidator
+    param:
+        class:        Manunimed
+        column:       codume
+        unique_error: La Unidad de Medida debe Existir.
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es inválida        

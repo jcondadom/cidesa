@@ -1,0 +1,53 @@
+opciones:                  # Opciones generales
+  name:                    c
+  eliminar:                false
+  tabla:                   fcdetconfue
+  ancho:                   730
+  anchogrid:               750
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Fecha Venc.
+  tipo:                    f
+  nombrecampo:             fecven
+  esgrabable:			   true
+  html:                    [size="8" readOnly="true"]
+2:       # Columna 2
+  titulo:                  Rubro
+  tipo:                    t
+  nombrecampo:             nomfue
+  esgrabable:			   true
+  html:                    [size="15" readOnly="true"]
+3:       # Columna 3
+  titulo:                  Descripción Cuota
+  tipo:                    t
+  nombrecampo:             descuo
+  esgrabable:			   true
+  html:                    [size="15" readOnly="true"]
+4:       # Columna 4
+  titulo:                  Observaciones
+  tipo:                    t
+  nombrecampo:             obscuo
+  esgrabable:			   true
+  html:                    [size="15" readOnly="true"]
+5:       # Columna 5
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             moncuo
+  esgrabable:			   true
+  html:                    [size="8" readOnly="true"]
+6:       # Columna 6
+  titulo:                  Fuente
+  tipo:                    t
+  nombrecampo:             fuente
+  esgrabable:			   true
+  oculta:            true
+  html:                    [size="15"]
+7:       # Columna 7
+  titulo:                  Cuota
+  tipo:                    t
+  nombrecampo:             numcuo
+  esgrabable:			   true
+  oculta:            true
+  html:                    [size="10"]

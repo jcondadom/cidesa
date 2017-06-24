@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/50867/web/php/siga/branches/productions/trunk/apps/formulacion/modules/prenivprefor/config
+END
+grid_cpniveles_create.yml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repositorio/!svn/ver/39729/web/php/siga/branches/productions/trunk/apps/formulacion/modules/prenivprefor/config/grid_cpniveles_create.yml
+END
+grid_cpniveles_edit.yml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repositorio/!svn/ver/39729/web/php/siga/branches/productions/trunk/apps/formulacion/modules/prenivprefor/config/grid_cpniveles_edit.yml
+END
+generator.yml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/50863/web/php/siga/branches/productions/trunk/apps/formulacion/modules/prenivprefor/config/generator.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/50867/web/php/siga/branches/productions/trunk/apps/formulacion/modules/prenivprefor/config/view.yml
+END
+gridper.yml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/50867/web/php/siga/branches/productions/trunk/apps/formulacion/modules/prenivprefor/config/gridper.yml
+END

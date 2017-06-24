@@ -1,0 +1,41 @@
+opciones:                  # Opciones generales
+  eliminar:                false
+  name:                    c
+  tabla:                   Fapedido
+  anchogrid:               750
+  ancho:                   600
+  filas:                   0
+  titulo:                  ' Pedidos asociados a la Carta Orden'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Número
+  tipo:                    t
+  nombrecampo:             nroped
+  esgrabable:              true
+  html:                    ["size=15 readonly=true "]
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desped
+  html:                    ["size=20 readonly=true "]
+3:       # Columna 3
+  titulo:                  Fecha
+  tipo:                    f
+  esgrabable:              true
+  nombrecampo:             fecped
+  vacia:                   true
+  html:                    ["size=10 readonly=true "]
+4:       # Columna 4
+  titulo:                  Monto
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monped
+  esnumerico:              true
+  html:                    ["size=10 readonly=true"]
+  estotal:                 [true, facarord_totped]
+5:       # Columna 4
+  titulo:                  Estado
+  tipo:                    t
+  esgrabable:              true
+  nombrecampo:             estatus
+  html:                    ["size=10 readonly=true"]

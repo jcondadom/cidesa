@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/45379/web/php/siga/branches/productions/trunk/apps/catastro/modules/catreginm/config
+END
+grid_catusoespinm.yml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/32850/web/php/siga/branches/productions/trunk/apps/catastro/modules/catreginm/config/grid_catusoespinm.yml
+END
+grid_catcarterinm.yml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/32376/web/php/siga/branches/productions/trunk/apps/catastro/modules/catreginm/config/grid_catcarterinm.yml
+END
+generator.yml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/45379/web/php/siga/branches/productions/trunk/apps/catastro/modules/catreginm/config/generator.yml
+END
+grid_catcarconinm.yml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/32376/web/php/siga/branches/productions/trunk/apps/catastro/modules/catreginm/config/grid_catcarconinm.yml
+END
+grid_catperinm.yml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/32376/web/php/siga/branches/productions/trunk/apps/catastro/modules/catreginm/config/grid_catperinm.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/32376/web/php/siga/branches/productions/trunk/apps/catastro/modules/catreginm/config/view.yml
+END

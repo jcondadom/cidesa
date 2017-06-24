@@ -1,0 +1,16 @@
+====== Ajustes a Ordenes de Compra ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite registrar los ajustes que requiera realizar sobre las cantidades ordenadas en una orden de Compra o Servicios, registradas en el módulo de Ordenes de Compra.</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Compras** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcomp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Ajustes a Ordenes de Compra**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompajuordcomp.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Ajustes a Ordenes de Compra** veamos la [[Descripcion_Campos_Ajustes_Ordenes_Compra|Descripción de los Campos]]

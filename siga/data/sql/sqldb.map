@@ -1,0 +1,22 @@
+# Sqlfile -> Database map
+lib.model.compras.schema.sql=propel
+lib.model.papiro.schema.sql=propel
+lib.model.schema.sql=propel
+lib.model.licitaciones.schema.sql=propel
+lib.model.gestionindicadores.schema.sql=propel
+lib.model.presupuesto.schema.sql=propel
+lib.model.creditos.schema.sql=propel
+lib.model.catastro.schema.sql=propel
+lib.model.costos.schema.sql=propel
+lib.model.facturacion.schema.sql=propel
+lib.model.ingresos.schema.sql=propel
+lib.model.mantenimiento.schema.sql=propel
+lib.model.rutavendedor.schema.sql=propel
+lib.model.hcm.schema.sql=propel
+lib.model.contabilidad.schema.sql=propel
+lib.model.documentos.schema.sql=propel
+lib.model.ciudadanos.schema.sql=propel
+lib.model.nomina.schema.sql=propel
+lib.model.hacienda.schema.sql=propel
+lib.model.sima_user.schema.sql=sima_user
+plugins.sfGuardPlugin.lib.model.schema.sql=sima_user

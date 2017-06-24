@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/62013/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates
+END
+_codcli.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/49120/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/_codcli.php
+END
+_grid_notcre.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/54514/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/_grid_notcre.php
+END
+_grid_detche.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/56309/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/_grid_detche.php
+END
+_fatipmov_id.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/_fatipmov_id.php
+END
+_edit_footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/62013/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/_edit_footer.php
+END
+ajaxcomprobanteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repositorio/!svn/ver/27029/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/ajaxcomprobanteSuccess.php
+END
+_formasdepago.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/56309/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/_formasdepago.php
+END
+_filters.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/62013/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/_filters.php
+END
+_comprobante.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/45926/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/_comprobante.php
+END
+_botones.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/27029/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/_botones.php
+END
+_grid_recargos.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/54514/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/_grid_recargos.php
+END
+anularSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/27029/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/anularSuccess.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/54514/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/ajaxSuccess.php
+END
+_btnrec.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/51667/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/_btnrec.php
+END
+_btndes.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/51667/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/_btndes.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/51924/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/editSuccess.php
+END
+_estado.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/49120/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/_estado.php
+END
+_documentos.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/_documentos.php
+END
+_grid_descuentos.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repositorio/!svn/ver/54514/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/_grid_descuentos.php
+END
+_eti.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/54319/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/_eti.php
+END
+_codtip.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/27029/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/_codtip.php
+END
+salvaranuSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repositorio/!svn/ver/27843/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/salvaranuSuccess.php
+END
+_fecdes.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/48417/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/_fecdes.php
+END
+_fechas.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/48417/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/_fechas.php
+END
+_list_footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/62013/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/templates/_list_footer.php
+END

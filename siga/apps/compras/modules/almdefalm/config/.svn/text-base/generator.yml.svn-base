@@ -1,0 +1,59 @@
+generator:
+  class:              sfPropelAdminGenerator
+  param:
+    model_class:      Cadefalm
+    theme:            default
+
+    fields:
+      codalm:      { name : Código }
+      nomalm:      { name : Descripción }
+      codcat:      { name : Cod. Unidad Asociada }
+      codtip:      { name : Tipo }
+      codedo:      { name : Estado }
+      diralm:      { name : Direccion de Localidad }
+      nomcat:      { name : Unidad Asociada }
+      esptoven:
+        name : ¿Es Punto de Venta?
+      codtippv:    { name : Tipo de Punto de Venta}
+      codcta:
+        name: Codigo Contable
+        catalogo:
+          catalogoweb: Contabb_Almregart
+          clase: Contabb
+          ajax: 4
+          parametros: getprincipal="getCodcta" getsecundario="getDescta" campoprincipal="codcta" camposecundario="descta" campobase = "id"
+      codemp:      { name : Responsable de la Localidad }
+      codalmsap:   { name : Código SAP }
+      codzon:
+        name: Zona
+        catalogo:
+          catalogoweb: Cadefalm_Fadefzon
+          clase: Fadefzon
+          ajax: 6
+          parametros: getprincipal="getCodzon" getsecundario="getDeszon" campoprincipal="codzon" camposecundario="deszon" campobase = "id"
+      unicor:      
+          name : ¿Correlativo Único para Factura? 
+      corfac:      
+          name : Correlativo de Factura   
+      cornumctr:      
+          name : Correlativo Nº de Control    
+    list:
+      title:          Almacenes
+      display:        [=codalm, nomalm, codcat, nomcat]
+      filters:		  [codalm, nomalm, codcat]
+      max_per_page:	  10
+      sort:           codalm
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+
+    edit:
+      title:          Edición de Almacen
+      display:        [codalm, nomalm, codcat, codtip, diralm, codedo, esptoven, codtippv, codcta, codemp, codalmsap, codzon, _unicor, corfac, cornumctr]
+      fields:
+        codalm:       { params : maxlength=6}
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

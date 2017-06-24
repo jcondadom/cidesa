@@ -1,0 +1,27 @@
+====== Listas ======
+
+Permite mostrar la información registrada por el usuario previamente en el sistema en un determinado momento. Para conocer los elementos que conforman una lista tomaremos la siguiente figura como ejemplo: 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:listas1.jpg|}}"></div><br></html>
+
+  * En un primer lugar observamos el **Título** de la pantalla.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:listas2.jpg|}}"></div><br></html>
+
+  * Seguidamente se muestra la lista de los registros existentes ordenados por columnas, donde cada columna representa un campo del registro. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:listas3.jpg|}}"></div><br></html>
+
+  * Luego en la Columna Acciones encontraremos los siguientes botones: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> El **Botón** {{:btneditar.jpg|}}, el cual permite editar registros.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> El **Botón** {{:btnaccioneseliminar.jpg|}}, el cual permite eliminar registros. <html><br><br></html>
+
+  * En la presente Lista podemos observar que en la barra inferior izquierda se encuentra el **Número de Registros existentes**. Para pasearse por cada uno de los registros hasta encontrar el que desea modificar podrá realizarlo a través de los botones {{:btnatrasoadelante.jpg|}} que se encuentran ubicados en la barra inferior derecha ó realizando un [[filtros|Filtro]] de los mismos.
+
+
+
+
+
+

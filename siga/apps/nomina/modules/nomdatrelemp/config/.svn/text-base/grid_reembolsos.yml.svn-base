@@ -1,0 +1,34 @@
+opciones:                  # Opciones generales
+  name:                    e
+  eliminar:                true
+  tabla:                   npinfrem
+  anchogrid:               700
+  ancho:                   650
+  filas:                   1
+  titulo:                  'Reembolsos Tramitados'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Fecha
+  tipo:                    f
+  nombrecampo:             fecrem
+  esgrabable:              true
+  html:                    [size="15" maxlength=10]
+2:       # Columna 2
+  titulo:                  Tipo de Reembolso
+  tipo:                    t
+  nombrecampo:             tiprem
+  html:                    ["size=40 maxlength=500"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Monto Pagado
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monpag
+  esnumerico:              true
+  html:                    ["size=10"]
+4:       # Columna 4
+  titulo:                  Modalidad en que se efectúo el Pago
+  tipo:                    c
+  nombrecampo:             modpag
+  html:                    [ ]
+  esgrabable:              true

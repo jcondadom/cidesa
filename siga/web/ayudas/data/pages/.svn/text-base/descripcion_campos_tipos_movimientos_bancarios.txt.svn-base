@@ -1,0 +1,11 @@
+Los campos que conforman la pantalla de **Tipos de Movimientos Bancarios** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbantipmovbaninc1.jpg|}}"></div><br></html>
+ 
+  * **Código:** Se refiere al Código que identifica el Tipo de Movimiento.<html><br><br></html>
+
+  * **Descripción:** Se refiere al nombre del Movimiento. <html><br><br></html>
+
+  * **Tipo:** Debe indicar si el movimiento es de tipo **Débito** (Señala que el Movimiento aumenta el Saldo en Bancos de la Institución) ó **Crédito** (Señala que el Movimiento disminuye el Saldo en Bancos de la Institución). <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Tipos de Movimientos Bancarios** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

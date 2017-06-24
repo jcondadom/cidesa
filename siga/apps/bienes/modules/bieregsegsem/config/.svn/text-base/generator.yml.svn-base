@@ -1,0 +1,41 @@
+generator:
+  class:              sfPropelAdminGenerator
+  param:
+    model_class:      Bnsegsem
+    theme:            default
+
+    fields:
+      codact:        { name : Cód. Catálogo Bien}
+      codsem:        { name : Código Semoviente}
+      nrosegsem:     { name : Número}
+      fecsegsem:     { name : Fecha}
+      nomsegsem:     { name : Compañia Aseguradora}   
+      cobsegsem:     { name : Cobertura}   
+      monsegsem:     { name : Monto}
+      fecsegven:     { name : Fecha Vencimiento}
+      prosegsem:     { name : Promotor}
+      obssegsem:     { name : Observaciones}
+      dessem:        { name : Descripción}
+      #codani:        { name : Tipo de Animal}
+      #codpro:        { name : Propósito}
+      #codpai:      { name: País}
+      #codest:      { name: Estado}
+      #codmun:      { name: Municipio}
+      #codpar:      { name: Parroquia}
+      #codciu:      { name: Ciudad}
+              
+    list:
+      title:         Registro de Seguro [Semovientes]
+      filters:       [codact, codsem]
+      display:       [=codact, codsem, dessem]      
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:   codact
+    edit:
+      title:          Edición de Seguro [Semovientes]    
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~

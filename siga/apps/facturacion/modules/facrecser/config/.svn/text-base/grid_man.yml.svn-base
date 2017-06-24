@@ -1,0 +1,36 @@
+opciones:                  # Opciones generales
+  name:                    c
+  eliminar:                true
+  tabla:                   farecmanart
+  anchogrid:               700
+  ancho:                   700
+  filas:                   1
+  titulo:                  ' Mano de Obra '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             codman
+  html:                    ["size=10 maxlength=16"]
+  esgrabable:              true
+  ajaxgrid:                true  
+  catalogo:                [Npcargos, sf_admin_edit_form, {Codman: 1, Desman: 2}, Viadettabcar_Npcargos ]
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desman
+  html:                    ["size=30 readOnly=true"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Unidad Medida
+  tipo:                    t
+  nombrecampo:             uniman
+  esgrabable:              true
+  html:                    ["size=20 maxlength=50" ]  
+4:      # Columna 4
+  titulo:                  Cantidad
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canman
+  esnumerico:              true  
+  html:                    ["size=10"] 

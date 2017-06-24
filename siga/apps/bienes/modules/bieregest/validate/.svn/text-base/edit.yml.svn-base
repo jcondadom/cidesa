@@ -1,0 +1,40 @@
+methods:
+  post:
+   - "bncatest{cedest}"
+   - "bncatest{nomapeest}"
+   - "bncatest{cedrep}"   
+   - "bncatest{nomaperep}"
+
+names:
+  bncatest{cedest}:
+    required:  Yes
+    required_msg: La Cédula del Estudiante no puede estar en Blanco.
+    validators: UniqueValidator
+
+  bncatest{nomapeest}:
+    required:  Yes
+    required_msg: Los Nombres y Apellidos no puede estar en Blanco.
+    validators: NombreValidator
+
+  bncatest{cedrep}:
+    required:  Yes
+    required_msg: La Cédula del Representante no puede estar en Blanco.
+
+  bncatest{nomaperep}:
+    required:  Yes
+    required_msg: Los Nombres y Apellidos no puede estar en Blanco.
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Bncatest
+        column:   cedest
+        unique_error:   La Cédula del Estudiante ya existe. Por Favor, Cambiélo por otro.
+
+NombreValidator:
+    class: sfStringValidator
+    param:
+        min:       10
+        min_error: Los Nombres y Apellidos no puede tener menos de 2 carácteres
+        max:       150
+        max_error: Los Nombres y Apellidos no puede tener más de 150 carácteres

@@ -1,0 +1,70 @@
+opciones:                  # Opciones generales
+  name:                    c
+  eliminar:                false
+  tabla:                   caartsol
+  anchogrid:               1000
+  ancho:                   1200
+  filas:                   0
+  titulo:                  'Detalle'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Artículo
+  tipo:                    t
+  nombrecampo:             codart
+  html:                    [size="20" readOnly=true]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             desart
+  html:                    [size="40x2" readOnly=true]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Categoria
+  tipo:                    t
+  nombrecampo:             codcat
+  html:                    [size="15" readOnly=true]
+  esgrabable:              true
+4:       # Columna 4
+  titulo:                  Cant. Requerida
+  tipo:                    m
+  nombrecampo:             canreq
+  html:                    [size="10" readOnly=true]
+  esgrabable:              true
+5:       # Columna 5
+  titulo:                  Cant. Recibida
+  tipo:                    m
+  nombrecampo:             canord
+  html:                    [size="10" readOnly=true]
+  esgrabable:              false
+6:       # Columna 6
+  titulo:                  Costo
+  tipo:                    m
+  nombrecampo:             costo
+  html:                    [size="10" readOnly=true]
+  esgrabable:              true
+7:       # Columna 7
+  titulo:                  Recargo
+  tipo:                    m
+  nombrecampo:             monrgo
+  html:                    [size="10" readOnly=true]
+  esgrabable:              true
+8:       # Columna 8
+  titulo:                  Total
+  tipo:                    m
+  nombrecampo:             montot
+  html:                    [size="10" readOnly=true]
+  esgrabable:              true
+9:       # Columna 9
+  titulo:                  Código Presupuestario
+  tipo:                    t
+  nombrecampo:             codigopre
+  html:                    [size="20" readOnly=true]
+  esgrabable:              true
+10:       # Columna 10
+  titulo:                  Número de Requisición Original
+  tipo:                    t
+  nombrecampo:             numreqori
+  html:                    [size="20" readOnly=true]
+  esgrabable:              true  
+  oculta:                  true  

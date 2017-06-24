@@ -1,0 +1,26 @@
+methods:
+  post:
+   - "fcdeclar{anodesde}"
+   - "fcdeclar{anohasta}"
+   - "fcdeclar{usodesde}"
+   - "fcdeclar{usohasta}"
+
+
+names:
+  fcdeclar{anodesde}:
+    required:  Yes
+    required_msg: El Año Desde no puede estar en Blanco
+
+  fcdeclar{anohasta}:
+    required:  Yes
+    required_msg: El Año Hasta no puede estar en Blanco
+
+  fcdeclar{usodesde}:
+    required:  Yes
+    required_msg: El Uso Desde no puede estar en Blanco
+
+
+  fcdeclar{usohasta}:
+    required:  No
+    required_msg: El Uso Hasta no puede estar en Blanco
+

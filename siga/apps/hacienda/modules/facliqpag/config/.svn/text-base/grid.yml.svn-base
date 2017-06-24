@@ -1,0 +1,51 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   fcdetliq
+  ancho:                   850
+  anchogrid:               950
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Marque
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:			         true
+  html:                    []
+2:       # Columna 2
+  titulo:                  Nro. Referencia
+  tipo:                    t
+  nombrecampo:             numpag
+  esgrabable:			         true
+  html:                    [size="10", readonly=true ]
+3:       # Columna 3
+  titulo:                  Fecha de pago
+  tipo:                    f
+  nombrecampo:             fecpag
+  esgrabable:              true
+  html:                    [size="10", readonly=true ]
+4:       # Columna 4
+  titulo:                  Rif
+  tipo:                    t
+  nombrecampo:             rifcon
+  esgrabable:              true
+  html:                    [size="20", readonly=true ]
+5:       # Columna 5
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nomcon
+  esgrabable:              true
+  html:                    [size="20", readonly=true ]
+6:       # Columna 6
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             despag
+  esgrabable:              true
+  html:                    [size="30", readonly=true ]
+7:       # Columna 7
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monpag
+  esgrabable:			         true
+  html:                    [size="10" , readonly=true]

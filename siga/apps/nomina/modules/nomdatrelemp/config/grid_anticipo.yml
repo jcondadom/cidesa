@@ -1,0 +1,22 @@
+opciones:                  # Opciones generales
+  name:                    r
+  eliminar:                false
+  tabla:                   npantpre
+  anchogrid:               500
+  ancho:                   400
+  filas:                   0
+  titulo:                  'Anticipos de Prestaciones Sociales'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Fecha del Anticipo
+  tipo:                    f
+  nombrecampo:             fecant
+  html:                    ["size=20 readOnly=true"]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Monto del Anticipo
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monant
+  esnumerico:              true
+  html:                    ["size=20 readOnly=true"]

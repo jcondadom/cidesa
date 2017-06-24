@@ -1,0 +1,63 @@
+====== Operación Incluir ======
+
+Para Registrar una determinada Obra solicitada:<html><br><br></html>
+
+  * Presione el **Botón** {{:btnnuevo.jpg|}} <html><br><br></html>
+
+  * En la **sección Datos de la Obra**:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontobrasreginc1.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Ingresar el **Código** que identifique la obra.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** En el campo **Tipo** presione el **Botón** {{:btncuadrocatalogo.jpg|}} para que seleccione del catálogo el Tipo de Obra que está registrando.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Ingrese la **Descripción** que de la Obra.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Seleccione del calendario {{:btncalendario.jpg|}} la **Fecha de Inicio** de la Obra.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Seleccione del calendario {{:btncalendario.jpg|}} la **Fecha de Culminación** de la Obra.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontobrasreginc2.jpg|}}"></div><br></html>
+
+  * En la Pestaña **Datos de Ubicación** debe seleccionar el País, Estado, Municipio, Parroquia, Sector y Dirección de Ubicación de la Obra.<html><br><br></html>
+
+  * En la **Pestaña Presupuesto**:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontobrasreginc3.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Ingrese el **Porcentaje de IVA** a aplicar al Contrato de la Obra a realizar.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Seguidamente debe ubicarse en la tabla, específicamente en la columna **Cod. Partida**; presione el Botón {{:btnconsultagrid.jpg|}} y seleccione del catálogo las partidas presupuestarias relacionadas con la obra.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Para cada una de las partidas seleccionadas anteriormente el sistema muestra la **Unidad de Medida** de la misma.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Luego Ingrese para cada una de las partidas la **Cantidad** y el **Costo**.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** El sistema muestra la **Cantidad Contratada** una ves que se defina el contrato en el sistema y el Monto Presupuestado el cual es el resultado de la siguiente multiplicación: <html><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **Monto Presupuestado = Cantidad * Costo**  
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Una ves ingresados los datos en la tabla el sistema automáticamente muestra el **SubTotal** el cual es el resultado de la suma de la columna Monto Presupuestado y el Total Presupuestado que es el resultado de la siguiente suma:<html><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **Total Presupuestado = SubTotal + IVA * Costo**  <html><br><br></html>
+
+  * En la **Pestaña Asignación** :
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontobrasreginc4.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** En el campo **Código Presupuestario** presione el Botón {{:btncuadrocatalogo.jpg|}} y seleccione el código presuestario a utilizar para precomprometer el monto de la obra.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** En el campo **Código Presupuestario IVA** presione el Botón {{:btncuadrocatalogo.jpg|}} y seleccione el código presuestario a asignar para el IVA.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontobrasreginc5.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Inspectores** encontrará una tabla donde debe presionar en la columna **Cédula** el Botón {{:btnconsultagrid.jpg|}} para que posteriormente seleccione del catálogo que mostrará el sistema las personas encargadas de inspeccionar la obra; seguidamente debe ingresar para cada inspector el **Número de C.I.V**   <html><br><br></html>
+
+  * Presione el **Botón** {{:btnguardar.jpg|}} para registrar la Obra.
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+all:
+  mailer:            smtp
+  domain:            gmail.com
+  hostname:          smtp.gmail.com
+  port:              465
+  username:          'noreply@cidesa.com.ve'
+  password:          'cide8899noreplysa'  
+  smtpauth:          true
+  smtpsecure:        ssl
+
+

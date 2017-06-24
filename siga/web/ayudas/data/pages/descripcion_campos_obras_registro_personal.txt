@@ -1,0 +1,20 @@
+====== Descripción de Campos ======
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontpersreginc1.jpg|}}"></div><br></html>
+
+  * Ingresar el Número de **Cédula** del empleado. <html><br><br></html>
+
+  * Ingresar **Nombre** y **Apellido** del empleado. <html><br><br></html>
+
+  * Ingrese el **Teléfono** de contacto del empleado que está registrando. <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontpersreginc2.jpg|}}"></div><br></html>
+
+  * En el campo **Tipo** presione el **Botón** {{:btncuadrocatalogo.jpg|}} para que el sistema muestre un catálogo con los diferentes Tipos de Personal definidos previamente en el sistema donde debe seleccionar el que está registrando. <html><br><br></html>
+
+  * En el campo **Cargo** presione el **Botón** {{:btncuadrocatalogo.jpg|}} para que el sistema muestre un catálogo con los diferentes Cargos definidos previamente en el sistema donde debe seleccionar el cargo que posee el empleado que está registrando. <html><br><br></html>
+
+  * En el campo **Profesión** presione el **Botón** {{:btncuadrocatalogo.jpg|}} para que el sistema muestre un catálogo con las diferentes Profesiones definidas previamente en el sistema donde debe seleccionar la profesión del empleado. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Registro** ahora podrá realizar determinadas [[operaciones_basicas|Operaciones Básicas]]
+ 

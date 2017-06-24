@@ -1,0 +1,20 @@
+Los campos que conforman la pantalla de **Definición de Recaudos** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmprovdefrecinc1.jpg|}}"></div><br></html>
+
+  * El **Código** que identifica al Recaudo. <html><br><br></html>
+
+  * La **Descripción** del Recaudo. <html><br><br></html>
+
+  * En el campo **Grupo** al seleccionar el **Botón** {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[Listas|Lista]] con los [[definicion_de_grupos_de_recaudos|Grupos de Recaudos]] registrados previamente en el sistema donde debe seleccionar el Grupo al que pertenece el Recaudo que está registrando.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmprovdefrecinc2.jpg|}}"></div><br></html>
+ 
+  * En el campo **Limitante**  al indicar la opción “**SI**” el Sistema no permitirá la generación de la orden de compra/servicio a aquel proveedor que no tenga consignado (entregado a la institución) ese recaudo; además de que el recaudo puede ser limitante **A Partir de la cantidad de Unidades Tributarias** comparadas con el monto de una orden de compra/servicio, si se desea que la orden este limitada sin importar la cantidad de unidades tributarias no se coloca ningún valor en la casilla. <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Si por el contrario se indica la opción “**NO**” el Sistema no impedirá la generación de una orden de compra/servicio así el proveedor haya o no consignado el recaudo. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Definición de Recaudos** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+ 
+
+

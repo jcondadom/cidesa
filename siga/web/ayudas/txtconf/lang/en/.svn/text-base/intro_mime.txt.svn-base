@@ -1,0 +1,9 @@
+====== Text Config Manager: MimeTypes ======
+
+Use this page to Manage the MimeType List of your Dokuwiki installation.\\
+This list is also take to check if a file is allowed to be uploaded or not.\\
+What are MimeTypes? refer to [[doku>wiki:mime]].\\
+
+For more details about this plugin see [[doku>plugin:txtconf]].
+
+Remember to press the **SAVE** button before leaving this page otherwise your changes will be lost.

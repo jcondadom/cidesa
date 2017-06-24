@@ -1,0 +1,42 @@
+====== Datos de la Licitación ======
+
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontlicitreginc2.jpg|}}"></div><br></html>
+
+  * Ingrese el **Número** qu identifique a la Licitación. <html><br><br></html>
+
+  * Seleccione el **Tipo** de Licitación que está registrando, la cual puede ser: Directa, Concurso Cerrado, Concurso Abierto ó Concurso de Precios. <html><br><br></html>
+
+  * Ingrese el **Ente** al que pertenece la Licitación. <html><br><br></html>
+
+  * Seleccione del Calendario: {{:btncalendario.jpg|}} la **Fecha de Registro** de la Licitación. <html><br><br></html>
+
+  * Seleccione del Calendario: {{:btncalendario.jpg|}} la **Fecha de Edición** de la Licitación.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontlicitreginc2.1.jpg|}}"></div><br></html>
+
+  * Ingrese la **Situación Actual** de la Obra a licitar. <html><br><br></html>
+
+  * Ingrese la **Descripción** de la Licitación. <html><br><br></html>
+
+  * Ingresar los **Decretos** a utilizar para llevar a cabo la Licitación
+
+  * En el campo **Código de la Obra** presione el Botón {{:btncuadrocatalogo.jpg|}} y seleccione la Obra para la cual se esta realizando la Licitación.
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+====== Text Config Manager: Interwiki  ======
+
+Use this page to Manage the Interwiki List of your Dokuwiki installation.\\
+What are Interwiki? refer to [[doku>wiki:interwiki]].
+
+Each URL may contain one of the placeholders {URL} or {NAME}
+  * ''{URL}'' is replaced by the URL encoded representation of the wikiname this is the right thing to do in most cases
+  * ''{NAME}'' this is replaced by the wikiname as given in the document no further encoding is done
+If no placeholder is defined the urlencoded name is appended to the URL
+
+Please note that you may specify an image to use with interwiki links in your dokuwiki's ''images/interwiki'' directory. Unfortunately, this plugin does not upload image files.
+
+For more details about this plugin see [[doku>plugin:txtconf]].
+
+Remember to press the **SAVE** button before leaving this page otherwise your changes will be lost.
+
+
+

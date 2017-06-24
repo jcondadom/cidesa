@@ -1,0 +1,15 @@
+===== Descripción de Campos =====
+
+  * Ingresar el **Número** y **Descripción** del Comprobante 
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:cfincomconinc.jpg|}}"></div><br> </html>
+
+  * Ingresar **la Fecha** en la que se está generando el comprobante.<html><br><br></html>
+
+  * Generar los **asientos**, los cuales son movimientos del comprobante donde se detalla la afectación contable.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:cfincomconinc1.jpg|}}"></div><br> </html>
+
+  * Pulsar el **Botón Guardar** para registrar los datos.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:btnguardar1.jpg|}}"></div><br> </html>
+
+  * Una vez registrado el comprobante, éste se coloca en estatus DIFERIDO

@@ -1,0 +1,25 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cpevepre
+    theme:            cidesaGenerator
+    fields:
+      codeve: { name: Código, params : size=6 maxlength=6  onFocus=readonly(this.id) onBlur="this.value=this.value.pad(6, '0',0);"}
+      deseve: { name: Descripción, params: size=60 maxlength=1000}      
+    list:
+      title:          Listado de Eventos    
+      display:        [=codeve, deseve]
+      filters:        [codeve, deseve]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort: codeve
+    edit:
+      title:          Edición de Evento
+      display:       [codeve, deseve]
+      actions:
+        _list:                 ~
+        _save:                 ~
+        _create:               ~
+        _delete:               ~

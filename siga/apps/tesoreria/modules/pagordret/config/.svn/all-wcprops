@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/60925/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/pagordret/config
+END
+grid_ret.yml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/60769/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/pagordret/config/grid_ret.yml
+END
+grid_imputaciones.yml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/60525/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/pagordret/config/grid_imputaciones.yml
+END
+generator.yml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/60769/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/pagordret/config/generator.yml
+END
+grid_fac.yml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/60925/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/pagordret/config/grid_fac.yml
+END

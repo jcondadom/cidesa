@@ -1,0 +1,23 @@
+Los campos que conforman la pantalla de **Salidas de Almacén** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmsalalminc1.jpg|}}"></div><br></html>
+
+  * **Número:** Se refiere al número que identifica la Salida de los Artículos del Almacén.<html><br><br></html>
+
+  * **Fecha:** Seleccione del [[calendario|Calendario]] refiere a la fecha en que se registran las salidas de los artículos en el almacén. <html><br><br></html>
+
+  * **Código del Almacén:** Se refiere al código y Descripción que identifica al Almacén en el que van a salir los artículos. <html><br><br></html>
+
+  * **Código de la Ubicación:** Refiere al Código y Descripción de la Ubicación del artículo dentro del almacén. <html><br><br></html>
+
+  * **Cédula ó Rif del proveedor** de los artículos. <html><br><br></html>
+
+  * **Descripción** de la Salida del Almacén. <html><br><br></html>
+
+  * **Tipo de Movimiento:** Se refiere al tipo de salida de los artículos al almacén.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmsalalminc2.jpg|}}"></div><br></html>
+
+  * **Detalle de la Salida:** Permite seleccionar en un [[Grid|Grid]] la información referente al detalle de la salida como: **Código y Descripción del Artículo**, **Cantidad**, **Costo** y **Total** (lo genera el sistema).<html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Salidas de Almacén** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

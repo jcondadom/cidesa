@@ -1,0 +1,42 @@
+methods:
+  post:
+   - "mantiplub{codtlu}"
+   - "mantiplub{destlu}"
+   - "mantiplub{codume}"
+
+names:
+  mantiplub{codtlu}:
+    required:  Yes
+    required_msg: Introduzca el Código del Tipo
+    validators: Validator_codtlu
+    
+  mantiplub{destlu}:
+    required:  Yes
+    required_msg: Introduzca la Descripción del Tipo
+    validators: Validator_destlu
+
+  mantiplub{codume}:
+    required:  No
+    validators: Validator_codume    
+
+Validator_codtlu:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Mantiplub
+        column:       codtlu
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_destlu:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La Descripción no puede tener mas de 250 caracteres 
+
+Validator_codume:
+    class: CidesaExistValidator
+    param:
+        class:        Manunimed
+        column:       codume
+        unique_error: La Unidad de Medida debe Existir.        

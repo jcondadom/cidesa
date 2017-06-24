@@ -1,0 +1,68 @@
+methods:
+  post:
+   - "contadettit{codtit}"
+   - "contadettit{codtitdet}"
+   - "contadettit{destitdet}"
+   - "contadettit{ordtitdet}"
+
+names:
+  contadettit{codtit}:
+    required:  Yes
+    required_msg: El Título no puede estar en Blanco
+    validators: TituloValidator
+
+  contadettit{codtitdet}:
+    required:  Yes
+    required_msg: El Código no puede estar en Blanco
+    validators: UniqueValidator
+
+  contadettit{destitdet}:
+    required:  Yes
+    required_msg: La Descripción no puede estar en Blanco
+    validators: DescripcionValidator
+
+  contadettit{ordtitdet}:
+    required:  Yes
+    required_msg: La Orden no puede estar en Blanco
+    validators: MyNumberValidator, OrdenValidator
+
+TituloValidator:
+    class: sfStringValidator
+    param:
+        min:       3
+        min_error: El Título debe ser de 3 caracteres
+        max:       3
+        max_error: El Título debe ser de 3 caracteres
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Contadettit
+        column:   codtitdet
+        unique_error:   El Código ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción no puede tener menos de 3 caracteres
+        max:       500
+        max_error: La Descripción no puede tener más de 500 caracteres 
+
+MyNumberValidator:
+    class: sfNumberValidator
+    param:
+        type:         integer
+        type_error:   Por favor, Introduzca Números Enteros
+        nan_error:    Por Favor, introduzca un Número Entero
+        min:          0
+        min_error:    El valor tiene que ser mayor que cero
+        max:          99
+        max_error:    El valor debe contener maximo 99
+
+OrdenValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Contadettit
+        column:   ordtitdet
+        unique_error:   El Número de Orden ya existe. Por Favor, Cambiélo por otro.

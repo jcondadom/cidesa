@@ -1,0 +1,43 @@
+Parametros:
+  modulo: cuentasxcobrar
+  nomrep: cobrresxcob
+  titulo: FORMATO RESUMEN DE CUENTAS POR COBRAR
+  orientacion: Vertical
+  tipopagina: Carta
+  width: 210
+  jasper: S
+
+Filas:
+  1:
+    tipotag:  inputcat_tag
+    label: "Codigo Cliente:"
+    sql: "select min(codpro) as coddes,max(codpro) as codhas from facliente"
+    nomdes: coddes
+    campodes: coddes
+    catdes: 0
+    nomhas: codhas
+    campohas: codhas
+    cathas: 1
+    nomcat: facliente
+    size: 15
+  # 2:
+  #   tipotag:   inputfec_tag
+  #   label: "Fecha:"
+  #   sql: "select '01/01/'||to_char(current_date,'yyyy') as fechamin,'31/12/'||to_char(current_date,'yyyy') as fechamax"
+  #   nomdes: fechamin
+  #   campodes: fechamin
+  #   nomhas: fechamax
+  #   campohas: fechamax
+  #   size: 15
+  2:
+    tipotag:  inputcat_tag
+    label: "Codigo Cliente:"
+    sql: "select min(id) as idmin, max(id) as idmax from fatipcte"
+    nomdes: idmin
+    campodes: idmin
+    catdes: 2
+    nomhas: idmax
+    campohas: idmax
+    cathas: 3
+    nomcat: tipoclientesid
+    size: 15

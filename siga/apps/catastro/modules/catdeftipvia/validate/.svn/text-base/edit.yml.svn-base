@@ -1,0 +1,16 @@
+methods:
+  post:
+   - "cattipvia{desvia}"
+
+names:
+  cattipvia{desvia}:
+    required:  Yes
+    required_msg: La descripción es un campo requerido
+    validators: Validator_desvia
+
+Validator_desvia:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Cattipvia
+        column:       desvia
+        unique_error: El registro ya Existe intente con otro.

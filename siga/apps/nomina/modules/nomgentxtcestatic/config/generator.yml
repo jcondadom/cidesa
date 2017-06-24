@@ -1,0 +1,38 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Empresa
+    theme:            cidesaGenerator
+    fields:
+      tiptxt: { name: Tipo de TXT}
+      codpla: { name: Código del Plan, params : size=10 maxlength=8 disabled=false onBlur="completarlote()"}
+      numlot: { name: Número de Lote, params : size=20 maxlength=15 "}
+      fecefe: { name: Fecha Efectiva del Pago, params: date_format='dd/MM/yyyy' maxlength=10 disabled=false}
+      montot: { name: Monto Total, params : disabled=false}
+      tipnom: { name: Tipo de Nómina}
+      fecnom: { name: Fecha Nómina }
+      opciontel: { name: Opciones Grid}
+      opcionemp: { name: Seleccionar Trabajadores}
+      codnom:
+        name: Nómina Especial
+        params: size=10 maxlength=3 
+        catalogo:
+          catalogoweb: Npnomesptipos_nomespconceptos
+          clase: Npnomesptipos
+          ajax: 1
+          parametros: getprincipal="getCodnomesp" getsecundario="getDesnomesp" campoprincipal="codnomesp" camposecundario="desnomesp" campobase = "id"
+          divupdate: divgrid
+          ajaxparams: +'."'".'&tiptxt='."'+$('empresa_tiptxt').value+'".'&fecnom='."'+$('empresa_fecnom').value".'
+      canreg: { name: Cantidad de Registros, params : disabled=false}
+      grid: { name: .}  
+      descarga:    { name: .}
+    edit:
+      title:          Generar TXT de Cestatickets
+      display:
+        "NONE":   [_tiptxt, codpla, numlot, _fecefe, montot, _tipnom, _fecnom, codnom, _opciontel, _opcionemp, _grid, canreg, _descarga]
+      actions:
+        _list:        NONE
+        _save:        ~
+          name: Generar TXT
+        _delete:      NONE
+        _create:      NONE

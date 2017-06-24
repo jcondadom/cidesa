@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/61259/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fapresup/config
+END
+grid_fadetpre.yml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/61259/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fapresup/config/grid_fadetpre.yml
+END
+grid_equ.yml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/59568/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fapresup/config/grid_equ.yml
+END
+grid_man.yml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/59568/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fapresup/config/grid_man.yml
+END
+grid_con.yml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/52294/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fapresup/config/grid_con.yml
+END
+generator.yml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/61259/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fapresup/config/generator.yml
+END
+grid_mat.yml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/59568/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fapresup/config/grid_mat.yml
+END
+grid_clau.yml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/59206/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fapresup/config/grid_clau.yml
+END
+grid_fargopre.yml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/53920/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fapresup/config/grid_fargopre.yml
+END
+grid_ser.yml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/60386/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fapresup/config/grid_ser.yml
+END

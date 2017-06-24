@@ -1,0 +1,16 @@
+======Definición de Cuentas Contables para Rendición de Gastos======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite asociar las Cuentas Contables referentes a los Gastos por Pagar y Ordenes de Pago para la emisión automática de comprobantes contables.
+
+**Para ello:**
+
+  * Seleccione la opción **Tesorería ó Banco** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesban.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbandefesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Definición de Cuentas Contables para Rendición de Gastos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Definición de Cuentas Contables para Rendición de Gastos** veamos la [[Descripcion_Campos_definicion_cuentas_contables_rendicion_gastos|Descripción de los Campos]]

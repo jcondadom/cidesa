@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/58559/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fafactur/config
+END
+grid_fapeddes.yml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/45118/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fafactur/config/grid_fapeddes.yml
+END
+grid_fadescart.yml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/44870/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fafactur/config/grid_fadescart.yml
+END
+grid_faartfacv2.yml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/58559/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fafactur/config/grid_faartfacv2.yml
+END
+generator.yml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/55585/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fafactur/config/generator.yml
+END
+grid_faforpag.yml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/44870/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fafactur/config/grid_faforpag.yml
+END
+grid_fargoart.yml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/49644/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fafactur/config/grid_fargoart.yml
+END
+grid_faartfac.yml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/50451/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fafactur/config/grid_faartfac.yml
+END
+grid_fafaclib.yml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/40430/web/php/siga/branches/productions/trunk/apps/facturacion/modules/fafactur/config/grid_fafaclib.yml
+END

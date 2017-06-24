@@ -1,0 +1,30 @@
+---
+propel: 
+  _attributes: 
+    package: lib.model  
+  rutavendedor: 
+    _attributes: 
+      idMethod: native    
+    atestados_id: 
+      type: INTEGER
+      foreignTable: atestados
+      foreignReference: id
+      onDelete: 
+      onUpdate: 
+    atmunicipios_id: 
+      type: INTEGER
+      foreignTable: atmunicipios
+      foreignReference: id
+      onDelete: 
+      onUpdate: 
+    atparroquias_id: 
+      type: INTEGER
+      foreignTable: atparroquias
+      foreignReference: id
+      onDelete: 
+      onUpdate:     
+    id: 
+      type: INTEGER
+      required: true
+      autoIncrement: true
+      primaryKey: true    

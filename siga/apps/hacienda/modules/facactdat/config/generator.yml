@@ -1,0 +1,32 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcdeclar
+    theme:            cidesaGenerator
+    fields:
+      rifcon:
+        name: C.I/R.I.F
+        params: maxlength=20
+        catalogo:
+          catalogoweb: Facpicsollic_Rifcon
+          clase: Fcconrep
+          ajax: 1
+          parametros: getprincipal="getRifcon" getsecundario="getNomcon" campoprincipal="rifcon" camposecundario="nomcon" campobase = "id"
+          divupdate: divgrid
+      grid:   { name: .}
+      tottot:   { name: Total, params: readOnly=true}
+      totmon:   { name: = Total Monto, params: readOnly=true}
+      totmor:   { name: + Total Mora, params: readOnly=true}
+    edit:
+      title:          Actualización de Datos
+      display:
+        "Datos del Contribuyente":         [rifcon]
+        "NONE":    [_grid, tottot, totmon, totmor]      
+      actions:
+        _list:          NONE
+        _save:          ~
+        _delete:        NONE
+        _create:        NONE
+        _anular:
+          name: Eliminar
+          params: id=elimi class="sf_admin_action_delete" onClick="eliminar()"

@@ -1,0 +1,39 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Mangrutra
+    theme:            cidesaGenerator
+    fields:
+      codgru: { name:  Código, params : size=5 maxlength=4 onFocus=readonly(this.id)}
+      desgru: { name:  Descripción, params : size=80 maxlength=250}
+      codniv:
+        name: Ubicación Administrativa
+        catalogo:
+          catalogoweb: Npestorg_Nomhojint
+          clase: Npestorg
+          ajax: 1
+          parametros: getprincipal="getCodniv" getsecundario="getDesniv" campoprincipal="codniv" camposecundario="desniv" campobase = "id"
+          catalogoparams: /param1/'."'+$('mangrutra_longitud').value+'".'
+          ajaxparams: +'."'".'&longitud='."'+$('mangrutra_longitud').value".'
+    list:
+      title:          Grupos de Trabajo
+      display:        [=codgru, desgru]
+      fields:
+        codgru: { name:  Código, params : size=5 maxlength=4}
+        desgru: { name:  Descripción, params : size=15 maxlength=250}
+      filters:        [codgru, desgru, codniv]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           codgru
+    edit:
+      title:          Edición del Grupo de Trabajo
+      display:
+        "NONE": [codgru, desgru, codniv]
+      hide:   [longitud]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/build
+END
+travis-ci.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/build/travis-ci.xml
+END
+phpmd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/build/phpmd.xml
+END

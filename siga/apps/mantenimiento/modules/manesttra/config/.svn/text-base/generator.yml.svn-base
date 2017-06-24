@@ -1,0 +1,47 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Manesttra
+    theme:            cidesaGenerator
+    fields:
+      codest: { name:  Código, params : size=10 maxlength=8 onFocus=readonly(this.id)}
+      desest: { name:  Descripción, params : size=80 maxlength=250}     
+      codgru:
+        name: Grupo de Trabajo
+        catalogo:
+          catalogoweb: Mantenimiento_Mangrutra
+          clase: Mangrutra
+          ajax: 0
+          parametros: getprincipal="getCodgru" getsecundario="getDesgru" campoprincipal="codgru" camposecundario="desgru" campobase = "id"
+      numsec: { name: Número de Secuencia}
+      codsis:
+        name: Sistema de Operación
+        catalogo:
+          catalogoweb: Mantenimiento_Mansisope
+          clase: Mansisope
+          ajax: 0
+          parametros: getprincipal="getCodsis" getsecundario="getDessis" campoprincipal="codsis" camposecundario="dessis" campobase = "id"          
+      feccre: { name: Fecha de Creación, params: date_format='dd/MM/yyyy' maxlength=10}
+      grid: { name: .}
+    list:
+      title:          Lista de Repuestos por Estándar de Trabajo
+      display:        [=codest, desest]
+      fields:
+        codest: { name:  Código, params : size=10 maxlength=8 }
+        desest: { name:  Descripción, params : size=10 maxlength=250}
+      filters:        [codest, desest]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           codest
+    edit:
+      title:          Edición de Lista de Repuestos por Estándar de Trabajo
+      display:
+        "Datos": [codest, desest, codgru, numsec, codsis, feccre]
+        "Detalle": [_grid]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

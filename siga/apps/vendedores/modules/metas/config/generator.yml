@@ -1,0 +1,31 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Metas
+    theme:            cidesaGenerator
+
+    fields:
+      _vendedor:      {title: Vendedor}
+      _producto:      {title: Producto}
+      catproductos_id:  { name: Producto }
+      vendedores_id:  { name: Nombre y Apellidos del Vendedor }
+      muestra_mes_asignacion: { name: Mes Asig}
+      muestra_status: { name: Estatus}
+      anio_asignacion: {name: Año de Asig}
+      status: { name: Estatus}
+    list:      
+      title:          Registro de Metas
+      display:        [_vendedor, _producto, cantidad, _muestra_mes_asignacion, anio_asignacion, _muestra_status]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [vendedores_id, catproductos_id]
+      max_per_page:   5
+    edit:
+      title:          Edición de Metas 
+      display:	      [vendedores_id, catproductos_id, cantidad, _mes_asignacion, _anio_asignacion, _status]  
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

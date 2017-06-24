@@ -1,0 +1,30 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Costipcos
+    theme:            cidesaGenerator
+
+    fields:
+      codcos: { name: Código, params: size=20 maxlength=10}
+      descos: { name: Descripción, type: textarea_tag, params: size=100x5 maxlength=500}
+
+    list:
+      fields:
+        codcos: { name: Código, params: size=10 maxlength=10}
+      title:          Definición de Tipos de Costo
+      display:        [=codcos, descos]
+      object_actions:
+        _edit:        ~
+        _delete:      NONE
+      filters:        [codcos]
+      max_per_page:   10
+      sort:           codcos
+
+    edit:
+      title:          Definición de Tipos de Costo
+      display:
+        "Turno": [codcos, descos]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      NONE

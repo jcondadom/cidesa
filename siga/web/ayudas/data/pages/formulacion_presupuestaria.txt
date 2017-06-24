@@ -1,0 +1,100 @@
+====== Formulación Presupuestaria ======
+
+===== Definiciones Generales =====
+ 
+  * [[formulacion_definicion_empresa|Definición de Empresa]]
+
+  * [[formulacion_niveles_presupuestarios|Niveles Presupuestarios]]
+
+  * [[formulacion_definiciones_generales|Definiciones Generales]]
+
+  * [[formulacion_unidades_medidas|Unidades de Medidas]]
+
+  * [[formulacion_definiciones_estatus|Definiciones de Estatus]]
+
+  * [[formulacion_definición_situacion_presupuestaria|Definición de Situaciones Presupuestarias]]
+ 
+  * [[formulacion_Definicion_objetivos_estrategicos_nueva_etapa|Definición de Objetivos Estratégicos Nueva  Etapa]]
+
+  * [[formulacion_organismos_publicos|Organismos Públicos]]
+
+  * [[formulacion_tipos_contribuyentes_conexiones_organismos_publicos|Tipos de contribuyentes / Conexiones a Organismos Públicos]]
+
+  * [[formulacion_sectores|Sectores]]
+
+  * [[formulacion_subsectores|Subsectores]]
+
+==== Ubicación Geográfica ====
+
+  * [[formulacion_estados|Estados]]
+
+  * [[formulacion_municipios|Municipios]]
+
+  * [[formulacion_parroquias|Parroquias]]
+
+==== Áreas Estratégicas ====
+
+  * [[formulacion_directrices|Directrices]]
+
+  * [[formulacion_estrategias|Estrategias]]
+
+  * [[formulacion_politicas|Políticas]]
+
+====== Ingresos ======
+
+===== Definiciones Específicas =====
+
+  * [[formulacion_clasificador_presupuestario|Clasificador Presupuestario (Recursos)]]
+
+  * [[formulacion_tipos_financiamiento|Tipos de Financiamiento]]
+
+===== Formulación =====
+
+  * [[formulacion_presupuesto_ingresos_directa|Formulación Presupuesto de Ingresos Directa]]
+
+  * [[formulacion_totales_fuentes_ingresos_ordinarios_extraordinarios|Totales por Fuentes de Ingreso Ordinarios y Extraordinarios]]
+
+====== Egresos ======
+
+===== Definiciones Específicas =====
+
+  * [[formulacion_tipos_creditos_presupuestarios|Tipos de Créditos Presupuestarios (Funcionamiento / Inversión)]]
+
+  * [[formulacion_clasificador_presupuestario_gastos|Clasificador Presupuestario (Gastos)]]
+
+  * [[formulacion_registro_programas|Registro de Programas]]
+
+  * [[formulacion_proyectos_acciones_centralizadas|Proyectos y Acciones Centralizadas]]
+
+  * [[formulacion_acciones_específicas|Acciones Específicas]]
+
+  * [[formulacion_metas_proyectos_acciones_especificas|Metas a Proyectos y Acciones Específicas]]
+
+  * [[formulacion_unidades_ejecutoras|Unidades Ejecutoras]]
+
+===== Formulación =====
+
+  * [[formulacion_formulacion_poa|Formulación POA]]
+
+  * [[formulacion_formulacion_poa_unidad_ejecutora|Formulación POA por Unidad Ejecutora]]
+
+  * [[formulacion_formulacion_crear_asignacion_inicial|Crear Asignaciòn Inicial]]
+
+  * [[formulacion_formulacion_seguimientos_metas_formuladas_poa|Seguimiento Metas Formuladas en POA]]
+
+====== Mantenimiento ======
+
+  * [[formulacion_formulacion_cambiar_contraseña|Cambiar Contraseña]]
+
+  * [[formulacion_formulacion_migrar_proyectos_acciones_especificas|Migrar Proyectos y Acciones Especìficas]]
+
+
+
+
+
+
+
+
+
+
+

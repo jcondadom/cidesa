@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/57689/web/php/siga/branches/productions/trunk/apps/compras/modules/almordmul/config
+END
+grid_detalle.yml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/57689/web/php/siga/branches/productions/trunk/apps/compras/modules/almordmul/config/grid_detalle.yml
+END
+grid_fecha_entrega.yml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/49934/web/php/siga/branches/productions/trunk/apps/compras/modules/almordmul/config/grid_fecha_entrega.yml
+END
+grid_resumen.yml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/57689/web/php/siga/branches/productions/trunk/apps/compras/modules/almordmul/config/grid_resumen.yml
+END
+generator.yml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/56359/web/php/siga/branches/productions/trunk/apps/compras/modules/almordmul/config/generator.yml
+END
+grid_resumen_partida.yml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/49934/web/php/siga/branches/productions/trunk/apps/compras/modules/almordmul/config/grid_resumen_partida.yml
+END
+grid_recargos.yml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/57689/web/php/siga/branches/productions/trunk/apps/compras/modules/almordmul/config/grid_recargos.yml
+END
+grid_sc.yml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/49934/web/php/siga/branches/productions/trunk/apps/compras/modules/almordmul/config/grid_sc.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/49934/web/php/siga/branches/productions/trunk/apps/compras/modules/almordmul/config/view.yml
+END
+grid_forma_entrega.yml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/51628/web/php/siga/branches/productions/trunk/apps/compras/modules/almordmul/config/grid_forma_entrega.yml
+END

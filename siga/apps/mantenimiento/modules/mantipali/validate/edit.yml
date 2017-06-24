@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "mantipali{codtal}"
+   - "mantipali{destal}"
+
+names:
+  mantipali{codtal}:
+    required:  Yes
+    required_msg: Introduzca el Código del Tipo de Alimentación
+    validators: Validator_codtal
+    
+  mantipali{destal}:
+    required:  Yes
+    required_msg: Introduzca la Descripción del Tipo de Alimentación
+    validators: Validator_destal
+
+Validator_codtal:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Mantipali
+        column:       codtal
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_destal:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La Descripción no puede tener mas de 250 caracteres 

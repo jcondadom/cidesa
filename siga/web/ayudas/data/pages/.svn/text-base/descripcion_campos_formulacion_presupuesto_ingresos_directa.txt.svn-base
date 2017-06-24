@@ -1,0 +1,26 @@
+====== Descripción de Campos ======
+
+Los campos que conforman la pantalla **Formulación Presupuesto de Ingresos Directa** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreingforpreingdirinc1.jpg}}"></div><br></html>
+
+  * **Código:** Indica el número y nombre que identifica a la Partida de Ingreso. Al presionar el Botón {{:btncuadrocatalogo.jpg}} el sistema muestra una  [[listas|Lista]] conlas Partidas Presupuestarias de Ingreso. <html><br><br></html>
+
+  * **Monto:** Indica el monto de la Partida de Ingreso. <html><br><br></html>
+
+  * ** Tipo de Financiamiento:** Indica el tipo de financiamiento recibido por la Partida de Ingreso.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreingforpreingdirinc2.jpg}}"></div><br></html>
+
+  * En caso de que desee que el monto de la partida sea distribuido mensualemente solo debe presionar el Botón {{:btndistribuir.jpg}} y automáticamente el sistema mostrará una tabla ó Grid llamada **Distribución Mensual** donde estará distribuido el monto anteriormente ingresado en los 12 meses del año. <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>En la tabla podemos observar en las columnas correspondientes el **Período** ó Mes, el **Monto** de la distribución (resultado de dividir el monto ingresado anteriormente entre los 12 meses del año) y el **Porcentaje**. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Formulación Presupuesto de Ingresos Directa** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+
+
+
+
+
+
+ 

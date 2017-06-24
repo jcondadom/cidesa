@@ -1,0 +1,39 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Viaasoempaut
+    theme:            cidesaGenerator
+    fields:
+      codemp:         { name: Empleado}
+      codempaut:
+        name: Empleado que Autoriza
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Nphojint
+          clase: Nphojint
+          ajax: 1
+          parametros: getprincipal="getCodempaut" getsecundario="getNomempaut" campoprincipal="codempaut" camposecundario="nomempaut" campobase = "id"
+      
+    list:
+      title:          Asociaciones de Empleados a Personal Autorizado
+      display:        [=codemp, nomemp, codempaut, nomempaut]
+      fields:
+        nomemp:
+          name:       Nombre
+        nomempaut:
+          name:       Nombre
+      filters:        [codemp, codempaut]
+      sort:           codemp
+      object_actions:
+        _edit:          ~
+        _delete:        ~
+        
+    edit:
+      title:          Asociación de Empleados a Personal Autorizado
+      display:
+        Datos: [_codemp, codempaut]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

@@ -1,0 +1,78 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcpagos
+    theme:            cidesaGenerator
+    fields:
+      numpag:      { name: Número, params: onBlur="this.value=this.value.pad(10, '0',0);"}
+      fecpag:      { name: Fecha, params: date_format='dd/mm/yyyy' size=11 }
+      feccor:      { name: Fecha de Corte, params: date_format='dd/mm/yyyy' size=10}
+      fechahora:  { name: ., params: readOnly=true}
+      funval:      { name: . }
+      despag:      { name: Descripción, params: size=80}
+      totalmonto:  { name: Total Monto}
+      saldo:       { name: Saldo}
+      rifcon:      { name: C.I. /R.I.F., params: readOnly=true}
+      dircon:      { name: Dirección, params: readOnly=true}
+      naccon:      { name: Nacionalidad, params: readOnly=true}
+      tipcon:      { name: Tipo, params: readOnly=true}
+      griddetalles:     { name: .}
+      gridformpag:      { name: .}
+      gridrecargdescto: { name: .}
+      totales: { name: .}
+      pagcon:  { name: Pagado Contribuyente, params: hidden=true }
+      monrec:  { name: Recargos}
+      pagdes:  { name: Descuentos}
+      totpag:  { name: Total a Pagar}
+      combocriterio:  { name: .}
+      totalmon: { name: Total a Pagar}
+      seleccion: {name: .}
+      botones: {name: .}
+      numreg: { name: .}
+      totalgeneral: { name: .}
+      vienededeclaracion: {name: .}
+      deudafrac: {name: .}
+      totalrecargo: {name: .}
+      totalformpag: {name: .}
+      opciones: {name: .}
+      mensaje: {name: .}
+      edopag: {name: .}
+      recaudo: {name: .}
+      funpag:      { name: Funcionario Receptor, params: readOnly=true}
+      fecrec:      { name: Fecha, params: date_format='dd/MM/yyyy' size=10 }
+
+    list:
+      fields:
+        despag:      { name: Descripción, params: size=20}
+        edopag: {name: Estatus}
+      title:          Recaudación - Pagos
+      display:        [=numpag, despag]
+      filters:        [numpag, despag, fecpag, edopag]
+      object_actions:
+        _edit:        ~
+        _delete:      NONE
+      sort:  numpag
+      max_per_page:   10
+    edit:
+      title:          Recaudación - Pagos
+      display:
+        NONE: [_numpag, fecpag, _feccor, despag, _mensaje]
+        "Operaciones": [ _opciones]
+        "Contribuyente":  [ _combocriterio, _rifcon, dircon, _naccon, _tipcon]
+        "Detalles": [ _botones, _griddetalles ]
+        "Total General" : [ _totalgeneral ]
+        "Totales": [ _totales ]
+        "Descuentos":  [ _totalrecargo, _gridrecargdescto ]
+        "Forma de Pagos":  [ _totalformpag, _gridformpag ]
+        "Recepción-Valida":  [ funpag, fecrec , _funval, _fechahora]
+      hide: [ seleccion, numreg, vienededeclaracion, porcentaje , deudafrac, recaudo]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      NONE
+        _create:      ~
+        _eliminarreg:
+          name: Eliminar
+          only_for: edit
+          params: class="sf_admin_action_delete" onClick="verificarEliminar()"
+

@@ -1,0 +1,21 @@
+methods:
+  post:
+    - "costipinsmed{codinsmed}"
+    - "costipinsmed{desinsmed}"
+
+names:
+  costipinsmed{codinsmed}:
+    required:  Yes
+    required_msg: Introduzca valor
+    validators: Validator_codinsmed
+
+  costipinsmed{desinsmed}:
+    required:  Yes
+    required_msg: Introduzca valor
+
+Validator_codinsmed:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Costipinsmed
+        column:       codinsmed
+        unique_error: El Código ya Existe intente con otro.

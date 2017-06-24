@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/32376/web/php/siga/branches/productions/trunk/apps/catastro/modules/catregper/templates
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/32376/web/php/siga/branches/productions/trunk/apps/catastro/modules/catregper/templates/ajaxSuccess.php
+END
+_catdivgeo_id.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/32376/web/php/siga/branches/productions/trunk/apps/catastro/modules/catregper/templates/_catdivgeo_id.php
+END
+_tipper.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/32376/web/php/siga/branches/productions/trunk/apps/catastro/modules/catregper/templates/_tipper.php
+END
+_relemp.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/32376/web/php/siga/branches/productions/trunk/apps/catastro/modules/catregper/templates/_relemp.php
+END
+_nacper.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/32376/web/php/siga/branches/productions/trunk/apps/catastro/modules/catregper/templates/_nacper.php
+END

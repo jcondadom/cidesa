@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/scripts
+END
+auto_append.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/scripts/auto_append.php
+END
+auto_prepend.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/scripts/auto_prepend.php
+END

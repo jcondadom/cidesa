@@ -1,0 +1,27 @@
+opciones:                  # Opciones generales
+  name:                    h
+  eliminar:                true
+  tabla:                   npinfeva
+  anchogrid:               700
+  ancho:                   650
+  filas:                   1
+  titulo:                  'Evaluación del Desempeño'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Fecha
+  tipo:                    f
+  nombrecampo:             feceva
+  esgrabable:              true
+  html:                    [size="15" maxlength=10]
+2:       # Columna 2
+  titulo:                  Resultados
+  tipo:                    a
+  nombrecampo:             reseva
+  html:                    ["size=40x1 maxlength=2000 onkeyup='return ismaxlength(this)'"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Observaciones
+  tipo:                    a
+  nombrecampo:             observ
+  html:                    ["size=40x1 maxlength=2000 onkeyup='return ismaxlength(this)'"]
+  esgrabable:              true

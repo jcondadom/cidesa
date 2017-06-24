@@ -1,0 +1,21 @@
+methods:
+  post:
+    - "cosforpro{codforpro}"
+    - "cosforpro{desforpro}"
+
+names:
+  cosforpro{codforpro}:
+    required:  Yes
+    required_msg: Introduzca valor
+    validators: Validator_codforpro
+
+  cosforpro{desforpro}:
+    required:  Yes
+    required_msg: Introduzca valor
+
+Validator_codforpro:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Cosforpro
+        column:       codforpro
+        unique_error: El Código ya Existe intente con otro.

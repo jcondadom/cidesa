@@ -1,0 +1,24 @@
+====== Conceptos para las Primas ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite definir todos los conceptos asociados a las Primas, por cada nómina existente en la Institución. </html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el **Menú Principal** de **SIGA**.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefesp.jpg|}}"></div><br></html>
+
+  * Por último seleccione la opción **Conceptos para las Primas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconpri.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Conceptos para las Primas** podrá realizar las Operaciones Básicas de:
+
+  * [[Incluir Conceptos para las Primas|Incluir]]
+
+  * [[Eliminar Conceptos para las Primas|Eliminar]]
+
+  * [[Consultar Conceptos para las Primas|Consultar]]

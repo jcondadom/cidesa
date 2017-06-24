@@ -1,0 +1,21 @@
+====== Operación Incluir ======
+
+Para la operación de Registrar debe:
+
+  * Presionar el Botón {{:btnnuevo.jpg|}}  <html><br><br></html>
+
+  * Seleccionar del **Código del Empleado** para el cual se registrará la llegada.<html><br><br></html>
+
+  * Seleccionar el **Código del Motivo** de la llegada.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperllegadasinc1.jpg|}}"></div<br><br</html>
+
+  * Indicar el **Número de Días** que el empleado estuvo ausente por el permiso. <html><br><br></html>
+
+  * Indicar de ser necesario alguna **Observación** sobre el permiso
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperllegadasinc2.jpg|}}"></div<br><br</html>
+
+  * Seleccionar del calendario la **Fecha de Salida** y ** Fecha de Llegada** del permiso.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperllegadasinc3.jpg|}}"></div<br><br</html>
+
+
+  * Presionar {{:btnguardar.jpg|}} para almacenar el registro.

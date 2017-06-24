@@ -1,0 +1,40 @@
+opciones:                  # Opciones generales
+  eliminar:                true
+  tabla:                   fadetord
+  anchogrid:               900
+  ancho:                   900
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Cod. Artículo
+  tipo:                    t
+  nombrecampo:             codart
+  esgrabable:              true
+  ajaxgrid:                true
+  html:                    ["size=10"]  
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desart
+  html:                    ["size=40 maxlength=2000"]
+  esgrabable:              true
+3:
+  titulo:                  Tiempo de Duración
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             tiedur
+  esnumerico:              true
+  html:                    ["size=10"]
+4:
+  titulo:                  Ejecutado por
+  tipo:                    c
+  esgrabable:              true
+  nombrecampo:             ejepor
+  html:                    [ ]  
+5:       # Columna 5
+  titulo:                  N° Partida
+  tipo:                    t
+  nombrecampo:             nuitem
+  esgrabable:              true  
+  html:                    ["size=1 maxlength=5"]

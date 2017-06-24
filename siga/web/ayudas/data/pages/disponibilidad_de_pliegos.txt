@@ -1,0 +1,22 @@
+====== Disponibilidad de Pliegos ======
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontlicitreginc3.jpg|}}"></div><br></html>
+
+  * Seleccione del calendario {{:btncalendario.jpg|}} la **Fecha Desde** para la entrega de pliegos.<html><br><br></html>
+
+  * Seleccione del calendario {{:btncalendario.jpg|}} la **Fecha Hasta** para la entrega de pliegos.<html><br><br></html>
+
+  * Ingrese el **Costo** del Pliego.<html><br><br></html>
+
+  * Especifique la **Forma de Pago** del pliego.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontlicitreginc3.1.jpg|}}"></div><br></html>
+
+  * Ingrese el **Horario de Retiro** del Pliego. <html><br><br></html>
+
+  * Ingrese la **Dirección de Retiro** del pliego. <html><br><br></html>
+
+  * Por último especifique los **Teléfonos** de la **Persona Contacto**.
+
+
+

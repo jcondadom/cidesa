@@ -1,0 +1,16 @@
+====== Cotizaciones ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite registrar en forma detallada y mantener actualizada las diferentes cotizaciones que ofrece un proveedor.</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Compras** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcomp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Cotizaciones**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompcot.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Cotizaciones** veamos la [[Descripcion_Campos_Cotizaciones|Descripción de los Campos]]

@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "npdefttrab{codttrab}"
+   - "npdefttrab{desttrab}"
+
+names:
+  npdefttrab{codttrab}:
+    required:  Yes
+    required_msg: El Código del Tipo de Trabajador no puedo estar en Blanco
+    validators: Validator_codttrab
+
+  npdefttrab{desttrab}:
+    required:  Yes
+    required_msg: La Descripción del Tipo de Trabajador no puedo estar en Blanco
+    validators: Validator_desttrab
+
+Validator_codttrab:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Npdefttrab
+        column:       codttrab
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_desttrab:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción del Tipo de Trabajador no debe contener  menos de 2 caracteres
+        max:       250
+        max_error: La Descripción del Tipo de Trabajador no debe contener mas de 250 caracteres

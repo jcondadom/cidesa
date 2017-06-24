@@ -1,0 +1,13 @@
+methods:
+  post:
+   - "hccieree{fecdes}"
+   - "hccieree{fechas}"
+
+names:
+ hccieree{fecdes}:
+    required:  Yes
+    required_msg: Introduzca la Fecha
+
+ hccieree{fechas}:
+    required:  Yes
+    required_msg: Introduzca la Fecha

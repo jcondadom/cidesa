@@ -1,0 +1,17 @@
+Los campos que conforman la pantalla de **Requisiciones de Servicios** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmreqservinc1.jpg|}}"></div><br></html>
+
+  * **Número:** Se refiere al identificador de la Requisición de servicio que se esta realizando.<html><br><br></html>
+ 
+  * **Fecha:** Seleccione del [[calendario|Calendario]] la fecha en la cual se está realizando la Requisición de Servicio.<html><br><br></html>
+
+  * **Descripción** de la Requisición de Servicio que se esta realizando.<html><br><br></html>
+
+  * **Unidad** a la cual está asociada la Requisición de Servicio
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmreqservinc2.jpg|}}"></div><br></html>
+
+  * **Detalle de la Orden de Requisición:** Se muestra un [[Grid|Grid]] , con toda la información correspondiente a los Servicios que requiere la unidad, señalando el **Código** y **Descripción** del **Servicio**, **Código** y **Descripción** de la **Unidad** que lo requiere y la **Fecha en la que fué realizado** <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Requisiciones de Servicios** podrá realizar las siguientes [[operaciones_basicas|Operaciones_Basicas]]

@@ -1,0 +1,38 @@
+====== Operación Consultar ======
+
+**Para consultar los Movimientos de un determinado empleado utilizando el Botón Lista:**   <html><br><br></html>
+
+  * Presione el **Botón**  {{:btnlista.jpg|}}    <html><br><br></html>
+
+  * Al haber Movimientos por empleados registrados automáticamente observará una **Lista** con todos los registros, a través del cual podrá elegir el registro que desa consultar.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompermovempmod.jpg|}}"></div><br></html>
+
+  * Es la presente Lista podemos observar que en la barra inferior izquierda se encuentra el **Número de Registros existentes**. Para pasearse por cada uno de los registros hasta encontrar el que desea consultar podrá realizarlo a través de los botones {{:btnatrasoadelante.jpg|}} que se encuentran ubicados en la barra inferior derecha <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:filtromovemp.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>También puede pasearse por los registros realizando un **Filtro** de los mismos ya sea por **Código de la Nómian** ó **Código del Empleado**. Solo debe ingresar para cualquiera que sea el caso el dato por el cual desea filtrar y seguidamente presionar el Botón {{:btnfiltrar.jpg|}}, si desea volver a la lista del principio solo debe presionar el Botón {{:btnlimpiar.jpg|}} <html><br><br></html>
+
+  * Seleccione de la **Lista** el **Código de la Nómina** a la cual pertenece el empleado para el cual desea consultar los Movimientos. <html><br><br></html>. <html><br><br></html>
+
+  * El sistema muestra Los Movimientos del empleado. <html><br><br></html>
+
+  * Si desea consultar los Movimientos de un nuevo empleado debe presionar nuevamente el** Botón** {{:btnlista.jpg|}}  y repetir los pasos anteriores. <html><br><br></html>
+
+
+**Para consultar datos desde el Inicio de la pantalla Movimientos por Empleado:**  <html><br><br></html>
+
+  * Al haber Movimientos por empleados registrados automáticamente observará una **Lista** con todos los registros, a través del cual podrá elegir el registro que desa consultar.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompermovempmod.jpg|}}"></div><br></html>
+
+  * Es la presente Lista podemos observar que en la barra inferior izquierda se encuentra el **Número de Registros existentes**. Para pasearse por cada uno de los registros hasta encontrar el que desea consultar podrá realizarlo a través de los botones {{:btnatrasoadelante.jpg|}} que se encuentran ubicados en la barra inferior derecha <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:filtromovemp.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>También puede pasearse por los registros realizando un **Filtro** de los mismos ya sea por **Código de la Nómina** ó **Código del Empleado** . Solo debe ingresar para cualquiera que sea el caso el dato por el cual desea filtrar y seguidamente presionar el Botón {{:btnfiltrar.jpg|}}, si desea volver a la lista del principio solo debe presionar el Botón {{:btnlimpiar.jpg|}} <html><br><br></html>
+
+  * Seleccione de la **Lista** el **Código de la Nómina** a la cual pertenece el empleado para el cual desea consultar los Movimientos. <html><br><br></html>.
+
+  * El sistema automáticamente muestra los Movimientos del Empleado.

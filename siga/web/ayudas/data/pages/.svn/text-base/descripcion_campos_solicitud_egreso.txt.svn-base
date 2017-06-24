@@ -1,0 +1,43 @@
+Los campos que conforman la pantalla de **Requisiciones por Departamento (Solicitud de Egreso)** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmsolegreinc1.jpg|}}"></div><br></html>
+
+  * **Número** que identifica a la Solicitud de Egreso.<html><br><br></html>
+
+  * **Fecha:** Seleccione del [[calendario|Calendario]] la fecha en que se realizó la solicitud o requisición. <html><br><br></html>
+
+  * **Moneda:** Corresponde al tipo de moneda con la que se va arealizar la compra.<html><br><br></html>
+
+  * **Descripción** de la solicitud que se esta registrando.<html><br><br></html>
+
+  * **Monto Total** de la requisición.<html><br><br></html>
+
+  * **Unidad Responsable** de la solicitud.<html><br><br></html>
+
+  * **Tipo:** Corresponde al tipo de solicitud, de compras, de servicio o mixta.<html><br><br></html>
+
+  * El **Tipo de Financiamiento** de la Solicitud.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmsolegreinc2.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Detalle de la Solicitud** debe seleccionar del [[Grid|Grid]] el Código de los artículos que forman parte de la solicitud y automáticamente el sistema muestra por cada uno la Descripción correspondiente y la Unidad de Medida.<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Seguidamente debe seleccionar la **Unidad Asociada**, ingresar la **Cantidad Requerida**, **Cantidad Recibida**, **Costo** y **Descuento**. la **Columna Total** se llena automáticamente con el resultado del producto de la cantidad requerida del Artículo por su costo más los Recargos.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Para registrar los recargos primero debe marcar los artículos que manejen recargos y seguidamente presionar el Botón {{:btnlupa.jpg|}}; automáticamente el sistema mostrará un [[Grid|Grid]] donde podrá seleccionar aquellos recargos a aplicar a un artículo determinado. En caso de que todos los artículos manejen los mismos tipos de recargos solo debe presionar el Botón {{:btnmarcar.jpg|}} y luego en el grid que muestre el sistema seleccionar aquellos recargos aplicables a ese lote de artículos. Para desmarcar todos los artículos solo debe presionar el Botón {{:btndesmarcar.jpg|}}
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Una ves registrados los recargos de un determinado artículo y dese ocultar el Grid de Recargos debe presionar el Botón {{:btnvolver.jpg|}}
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmsolegreinc4.jpg|}}"></div><br></html>
+
+  * **Pestaña Motivo:** Se refiere al motivo que tiene el Departamento para realizar dicha Solicitud.<html><br><br></html>
+
+  * **Pestaña Beneficio:** Se refiere a los Beneficio que se obtienen mediante esta Solicitud.<html><br><br></html>
+
+  * **Pestaña Observaciones:** En esta pestaña se colocan las observaciones necesarias relacionadas con la solicitud.<html><br><br></html>
+
+  * **Pestaña Razón de Compra:** Se indica en un [[Grid|Grid]] las distintas razones de la compra.<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**Nota:** Es importante destacar que las pestañas Motivo, Beneficio y Observaciones poseen el mismo diseño. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Requisiciones por Departamento (Solicitud de Egreso)** podrá realizar las siguientes [[operaciones_basicas|Operaciones_Basicas]]

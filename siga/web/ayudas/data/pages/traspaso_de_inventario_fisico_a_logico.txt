@@ -1,0 +1,16 @@
+====== Traspaso de Inventario Físico a Lógico======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite ajustar o asignar las existencias de los artículos en los diversos almacenes, estableciéndolas según el valor real (Inventario Físico), en caso que se hayan determinado diferencias con respecto a los registros que tiene el sistema (Inventario Lógico). </html>
+
+**Para ello:**
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Mantenimiento** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmmant.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Traspaso de Inventario**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmmanttrasinvfislog.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Traspaso de Inventario Físico a Lógico** veamos la [[Descripcion_Campos_Traspaso_Inventario|Descripción de los Campos]]

@@ -1,0 +1,56 @@
+methods:
+  post:
+   - "npemphor{codemp}"
+   - "npemphor{codcar}"
+   - "npemphor{codcon}"
+   - "npemphor{fecreg}"
+
+
+names:
+  npemphor{codemp}:
+    required:  Yes
+    required_msg: El Código del Empleado no puedo estar en Blanco.
+    validators: EmpleadoValidator
+
+  npemphor{codcar}:
+    required:  Yes
+    required_msg: El Código del Cargo no puedo estar en Blanco.
+    validators: CargoValidator
+
+  npemphor{codcon}:
+    required:  Yes
+    required_msg: El Código del Concepto no puedo estar en Blanco.
+    validators: ConceptoValidator 
+
+  npemphor{fecreg}:
+    required:  Yes
+    required_msg: La Fecha de Registro no puedo estar en Blanco.
+    validators: FechaValidator    
+
+EmpleadoValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Nphojint
+        column:   codemp
+        unique_error:   El Código del Empleado no existe.
+
+CargoValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Npcargos
+        column:   codcar
+        unique_error:   El Código del Cargo no existe.
+
+ConceptoValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Npdefcpt
+        column:   codcon
+        unique_error:   El Código del Concepto no existe.
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha de Registro es inválida        

@@ -1,0 +1,10 @@
+Los campos que conforman la pantalla Conceptos Variables son los siguientes:<html><br><br></html>
+
+  * **Código:** Refiere al Código y Descripción del Tipo de Nómina. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[Listas|Lista]] con los tipos de nóminas definidos previamente en el sistema. <html><br><br></html>
+
+  * Al seleccionar el **Tipo de Nómina** el sistema automáticamente cargará en un grid todos los conceptos asociados a dicho Tipo de Nómina. <html><br><br></html>
+
+  * Luego se debe indicar si el concepto es de **Tipo Monto**, **Cantidad** ó ambos y solo se debe tildar en el recuadro correspondiente. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefconvarinc.jpg|}}"></div><br></html>
+

@@ -1,0 +1,50 @@
+methods:
+  post:
+   - "viarensolvia{numren}"
+   - "viarensolvia{fecren}"
+   - "viarensolvia{numsol}"
+
+names:
+  viarensolvia{numren}:
+    required:  Yes
+    required_msg: El Número de Rendición no puedo estar en Blanco
+    validators: UniqueValidator
+
+  viarensolvia{fecren}:
+    required:  Yes
+    required_msg: La Fecha no puedo estar en Blanco
+    validators: FechaValidator, FechaValidator1
+
+  viarensolvia{numsol}:
+    required:  Yes
+    required_msg: El Número de Solicitud no puedo estar en Blanco
+    validators: Validator_numsol
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Viarensolvia
+        column:   numren
+        unique_error:   El Número de Rendición ya existe. Por Favor, Cambiélo por otro.
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+FechaValidator1:
+    class:         CidesaDateNow
+    param:
+        compare: 'now'
+        compare_error: La Fecha no puede ser menor a la Fecha Actual
+        operator: '>='
+        date_error:  Fecha Inválida
+
+Validator_numsol:
+    class: CidesaExistValidator
+    param:
+        class:    Viasolviatra
+        column:   numsol
+        unique_error:  El N° de Solicitud no existe.

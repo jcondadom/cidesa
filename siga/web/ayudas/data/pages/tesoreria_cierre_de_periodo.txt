@@ -1,0 +1,18 @@
+======Cierre de Período======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pantalla que permite generar el cierre de un determinado Período del Ejercicio Contable actualmente abierto, el módulo cerrará solo los períodos que hayan sido conciliados previamente. 
+ 
+</html> 
+
+**Para ello:**
+
+  * Seleccione la opción **Tesorería ó Banco** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesban.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Banco** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbanc.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Cierre de Período**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbanccierreper.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Cierre de Período** veamos la [[Descripcion_Campos_cierre_periodo|Descripción de los Campos]]

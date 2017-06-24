@@ -1,0 +1,449 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro
+END
+CatestPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatestPeer.php
+END
+Catpai.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catpai.php
+END
+Catinmcar.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catinmcar.php
+END
+CatsubprcPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatsubprcPeer.php
+END
+Catproter.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catproter.php
+END
+CatdefavalPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatdefavalPeer.php
+END
+Catdirvia.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catdirvia.php
+END
+Catreginm.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catreginm.php
+END
+Catpar.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catpar.php
+END
+Catusoespinm.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catusoespinm.php
+END
+Catnivcat.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catnivcat.php
+END
+Catcarterinm.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catcarterinm.php
+END
+CatrutPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatrutPeer.php
+END
+CatbarurbPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatbarurbPeer.php
+END
+CatusoespPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatusoespPeer.php
+END
+Catest.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catest.php
+END
+CatdetavalPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatdetavalPeer.php
+END
+Catsubprc.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catsubprc.php
+END
+CatregperPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatregperPeer.php
+END
+CatprcPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatprcPeer.php
+END
+Catdefaval.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catdefaval.php
+END
+CatcosavalPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatcosavalPeer.php
+END
+Catrut.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catrut.php
+END
+Catbarurb.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catbarurb.php
+END
+Catusoesp.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catusoesp.php
+END
+Catdetaval.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catdetaval.php
+END
+Catregper.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catregper.php
+END
+Catprc.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catprc.php
+END
+CatcarinmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatcarinmPeer.php
+END
+CatsecPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatsecPeer.php
+END
+CatmanPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatmanPeer.php
+END
+Catcosaval.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catcosaval.php
+END
+CatdivgeoPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatdivgeoPeer.php
+END
+CatciuPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatciuPeer.php
+END
+CatconinmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatconinmPeer.php
+END
+CatconentPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatconentPeer.php
+END
+CattipviaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CattipviaPeer.php
+END
+Catcarinm.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catcarinm.php
+END
+Catsec.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catsec.php
+END
+CatmunPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatmunPeer.php
+END
+Catman.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catman.php
+END
+Catdivgeo.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catdivgeo.php
+END
+Catciu.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catciu.php
+END
+CatcarconPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatcarconPeer.php
+END
+Catconinm.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catconinm.php
+END
+CatcarconinmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatcarconinmPeer.php
+END
+Catconent.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catconent.php
+END
+CatcarterPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatcarterPeer.php
+END
+Cattipvia.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Cattipvia.php
+END
+CattipvivPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CattipvivPeer.php
+END
+CattramoPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CattramoPeer.php
+END
+Catmun.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catmun.php
+END
+CatconsocPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatconsocPeer.php
+END
+CatsenviaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatsenviaPeer.php
+END
+CatcodposPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatcodposPeer.php
+END
+Catcarcon.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catcarcon.php
+END
+CatperinmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatperinmPeer.php
+END
+Catcarconinm.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catcarconinm.php
+END
+Catcarter.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catcarter.php
+END
+Cattipviv.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Cattipviv.php
+END
+Cattramo.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Cattramo.php
+END
+Catconsoc.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catconsoc.php
+END
+CatpaiPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatpaiPeer.php
+END
+Catsenvia.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catsenvia.php
+END
+CatinmcarPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatinmcarPeer.php
+END
+CatproterPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatproterPeer.php
+END
+Catcodpos.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catcodpos.php
+END
+Catperinm.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/Catperinm.php
+END
+CatdirviaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatdirviaPeer.php
+END
+CatreginmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatreginmPeer.php
+END
+CatparPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatparPeer.php
+END
+CatusoespinmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatusoespinmPeer.php
+END
+CatnivcatPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatnivcatPeer.php
+END
+CatcarterinmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/model/catastro/CatcarterinmPeer.php
+END

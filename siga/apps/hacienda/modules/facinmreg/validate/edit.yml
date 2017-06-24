@@ -1,0 +1,72 @@
+
+methods:
+  post:
+   - "fcreginm{nroinm}"
+   - "fcreginm{rifcon}"
+   - "fcreginm{codusoinm}"
+   - "fcreginm{codsitinm}"
+   - "fcreginm{codcarinm}"
+   - "fcreginm{codcatfis}"
+   - "fcreginm{fecreg}"
+   - "fcreginm{fecrec}"
+   - "fcreginm{fecpag}"
+   - "fcreginm{feccal}"
+
+names:
+  fcreginm{nroinm}:
+    required:  Yes
+    required_msg: Número de inscripción es un campo requerido
+
+  fcreginm{rifcon}:
+    required:  Yes
+    required_msg: La C.I. / RIF no puede estar en Blanco
+
+  fcreginm{codusoinm}:
+    required:  Yes
+    required_msg: El código de uso no puede estar en Blanco
+
+  fcreginm{codsitinm}:
+    required:  Yes
+    required_msg: El código de la situación jurídica no puede estar en Blanco
+
+  fcreginm{codcarinm}:
+    required:  Yes
+    required_msg: El código de la característica no puede estar en Blanco
+
+  fcreginm{codcatfis}:
+    required:  Yes
+    required_msg: El código de catastro con fines fiscales no puede estar en Blanco
+
+  fcreginm{fecreg}:
+    required:  Yes
+    required_msg: La fecha del registro no puede estar en Blanco
+    validators: Fecha2Validator
+
+  fcreginm{fecrec}:
+    required:  Yes
+    required_msg: La fecha de recepción no puede estar en Blanco
+    validators: Fecha2Validator
+
+  fcreginm{fecpag}:
+    required:  Yes
+    required_msg: La fecha del último pago no puede estar en Blanco
+    validators: Fecha2Validator
+
+  fcreginm{feccal}:
+    required:  Yes
+    required_msg: La fecha del último cálculo no puede estar en Blanco
+    validators: Fecha2Validator
+
+Validator_rifcon:
+    class: sfPropelUniqueValidator
+    param:
+        class:        fcreginm
+        column:       nroinm
+        unique_error: El registro ya Existe intente con otro.
+
+Fecha2Validator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida

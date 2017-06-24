@@ -1,0 +1,11 @@
+====== Descripción de Campos ======
+
+  * Ingresamos la **Referencia** del Crédito Adicional/Disminución.<html><br><br></html>
+
+  * El sistema automáticamente carga toda la información correspondiente a la Solicitud de Crédito Adicional/Disminución la cual pasa a ser definida como un Crédito Adicional/Disminución.<html><br><br></html>
+
+  * El sistema carga los **Datos de la Adición/Disminución**, los** Movimientos** y la **Justificación**.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprecreadidisinc1.jpg|}}"></div><br></html> 
+ 
+  * Una vez que conoce cada uno de los campos de la pantalla de **Créditos Adicionales / Disminuciones** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

@@ -1,0 +1,12 @@
+====== Operación Modificar ======
+
+Para **Modificar** los Datos de Institución ya definidos: <html><br><br></html>
+
+  * Al seleccionar la opción **Institución** el sistema muestra los datos básicos de la misma que se encuentran registrados. <html><br><br></html>
+
+  * Los campos modificables serán los únicos que se encontrarán editables en la pantalla  <html><br><br></html>
+
+  * Una ves realizadas las modificaciones presione {{:btnguardar.jpg|}} para que sean registradas. <html><br><br></html>
+
+  * El sistema muestra un **Mensaje de Éxito**.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

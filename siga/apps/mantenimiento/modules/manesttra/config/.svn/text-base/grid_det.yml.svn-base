@@ -1,0 +1,38 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   mandetesttra
+  anchogrid:               710
+  ancho:                   700
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:
+  titulo:                  Código Artículo
+  tipo:                    t
+  nombrecampo:             codart
+  esgrabable:              true
+  html:                    ["size=15"]
+  ajaxgrid:                true
+2:
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desart
+  esgrabable:              true
+  html:                    ["size=30 readonly=true"]  
+3:
+  titulo:                  Cantidad Instalada
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canins
+  esnumerico:              true
+  default:                 '0,00'  
+  html:                    ["size=10"]
+4:
+  titulo:                  Cantidad Requerida
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canreq
+  esnumerico:              true
+  default:                 '0,00'  
+  html:                    ["size=10"]

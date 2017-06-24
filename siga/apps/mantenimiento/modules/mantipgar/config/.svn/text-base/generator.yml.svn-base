@@ -1,0 +1,29 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Mantipgar
+    theme:            cidesaGenerator
+    fields:
+      codtga: { name:  Código, params : size=5 maxlength=4 onFocus=readonly(this.id)}
+      destga: { name:  Descripción, params : size=80 maxlength=250}
+    list:
+      title:          Tipos de Garantía
+      display:        [=codtga, destga]
+      fields:
+        codtga: { name:  Código, params : size=5 maxlength=4}
+        destga: { name:  Descripción, params : size=15 maxlength=250}
+      filters:        [codtga, destga]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           codtga
+    edit:
+      title:          Edición del Tipo de Garantía
+      display:
+        "NONE": [codtga, destga]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

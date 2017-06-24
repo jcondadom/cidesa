@@ -1,0 +1,25 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fadefcla
+    theme:            cidesaGenerator
+    fields:
+      codcla: { name: Código, params: size=10 maxlength=4 onFocus=readonly(this.id) onBlur="this.value=this.value.pad(4, '0',0);"}
+      descla: { name: Descripción, type: textarea_tag, params: size=80x5 maxlength=2000 onkeyup=" return ismaxlength(this)"}
+    list:
+      title:          Condiciones
+      filters:        [codcla, descla ]
+      display:        [=codcla, descla]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:  10
+      sort: codcla
+    edit:
+      title:          Edición de Condición
+      display:        [codcla, descla]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

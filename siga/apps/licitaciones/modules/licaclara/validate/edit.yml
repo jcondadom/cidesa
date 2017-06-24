@@ -1,0 +1,123 @@
+methods:
+  post:
+   - "liaclara{codempadm}"
+   - "liaclara{codempeje}"
+   - "liaclara{numacla}"
+   - "liaclara{numexp}"
+   - "liaclara{fecreg}"
+   - "liaclara{dias}"
+   - "liaclara{fecven}"
+   - "liaclara{codpro}"
+   - "liaclara{detpre}"
+   - "liaclara{fecpre}"
+   - "liaclara{detres}"
+   - "liaclara{fecres}"
+
+names:
+  liaclara{codempadm}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  liaclara{codempeje}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  liaclara{numacla}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numacla
+
+  liaclara{numexp}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numexp
+
+  liaclara{fecreg}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  liaclara{dias}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: MyNumberValidator
+
+  liaclara{fecven}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  liaclara{codpro}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codpro
+
+  liaclara{detpre}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_det
+
+  liaclara{fecpre}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  liaclara{detres}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_det
+
+  liaclara{fecres}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+Validator_codemp:
+    class: CidesaExistValidator
+    param:
+        class:        Lidatstedet
+        column:       codemp
+        unique_error: El Empleado no existe
+
+Validator_numacla:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Liaclara
+        column:       numacla
+        unique_error: El numero ya existe no puede repetirse
+
+Validator_numexp:
+    class: CidesaExistValidator
+    param:
+        class:        Liplieesp
+        column:       numexp
+        unique_error: El Número de Expediente no Existe
+
+Validator_codpro:
+    class: CidesaExistValidator
+    param:
+        class:        Liemppar
+        column:       codpro
+        unique_error: El Proveedor no Existe
+
+Validator_det:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: Este Campo no puede tener menos de 2 caracteres
+        max:       1000
+        max_error: Este Campo no puede pasar mas de 1000 caracteres
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+MyNumberValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]

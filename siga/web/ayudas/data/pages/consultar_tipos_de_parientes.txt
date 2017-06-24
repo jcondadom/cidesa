@@ -1,0 +1,24 @@
+====== Operación Consultar ======
+
+**Para consultar un Tipo de Pariente registrado utilizando el Botón Lista:**   <html><br><br></html>
+
+  * Presione el **Botón**  {{:btnlista.jpg|}}    <html><br><br></html>
+
+  * Seleccione de la **Lista** el **Tipo de Pariente** a consultar.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompertipparmod.jpg|}}"></div><br></html>
+
+  * El sistema automáticamente muestra los datos del **Tipo de Pariente** seleccionado.
+
+  * Si desea consultar una nuevo Tipo de Pariente debe presionar nuevamente el** Botón** {{:btnlista.jpg|}}  y repetir los pasos anteriores.
+ 
+<html><br><br></html>
+
+
+**Para consultar datos desde el Inicio de la pantalla de Tipos de Parientes:**  <html><br><br></html>
+
+  * El sistema muestra la **Lista** de los **Tipos de Parientes** registrados.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompertipparmod.jpg|}}"></div><br></html>
+
+  * Seleccione de la Lista el **Tipo de Pariente** a consultar.  <html><br><br></html>
+
+  * El sistema automáticamente muestra los datos del Tipo de Pariente seleccionado.

@@ -1,0 +1,15 @@
+====== Operación Incluir ======
+
+Para **Incluir** el **Registro de Vacaciones Disfrutadas en Lote**:  <html><br><br></html>
+
+   * Una ves ingresado en la pantalla de Registro de Vacaciones Disfrutadas en lote, el sistema automáticamente muestra el **Período Desde y Hasta** en el cual se definirán las vacaciones disfrutadas en lote así como a todos los empleados de la Institución
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompervacdisloteinc1.jpg|}}"></div><br></html>
+
+  * Seguidamente debe ingresar los **Dias a Disfrutar** y los **Dias Disfrutados** de vacaciones por cada uno de los empleados. <html><br><br></html>
+
+  * El sistema con la información de los Dias a Difrutar y los Días Disfrutados realizará automáticamente los **Dias por Disfrutar**
+ 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompervacdisloteinc2.jpg|}}"></div><br></html>
+
+  * Presione el Botón {{:btnguardar.jpg|}} para almacenar la información

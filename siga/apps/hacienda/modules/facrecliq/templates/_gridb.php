@@ -1,0 +1,40 @@
+<?php
+/**
+ * Funciones de la vista.
+ *
+ * @package    Roraima
+ * @subpackage vistas
+ * @author     $Author: dmartinez $ <desarrollo@cidesa.com.ve>
+ * @version    SVN: $Id: _gridb.php 43788 2011-04-15 19:09:27Z dmartinez $
+ */
+// date: 2007/04/09 17:27:37
+?>
+<?php use_helper('Object', 'Validation', 'Javascript', 'Grid', 'SubmitClick') ?>
+<?
+	echo grid_tag_v2($fcdefrecint->getGridb());
+?>
+
+<script type="text/javascript" language="Javascript">
+if ($('id').value!="")
+{
+    var modo=$('fcdefrecint_modo').value;
+  if (modo=='P')
+  {
+  	$('divperiodo').hide();
+  	$('divpromedio').hide();
+  	$('gridout').show();
+  }
+  else if (modo=='M')
+  {
+  	$('divperiodo').hide();
+  	$('divpromedio').hide();
+  	$('gridout').show();
+  }
+  else if (modo=='T')
+  {
+  	$('divperiodo').show();
+  	$('divpromedio').show();
+  	$('gridout').hide();
+  }
+}
+</script>

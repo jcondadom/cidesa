@@ -1,0 +1,86 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   cpsolmovadi
+  ancho:                   900
+  anchogrid:               1000
+  filas:                   5
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Presupuestario
+  tipo:                    t
+  nombrecampo:             codpre
+  html:                    [size=50]
+  oculta:                  false
+  esgrabable:              true
+  #ajaxfila:                true
+  #catalogo:                [cpasiini, sf_admin_edit_form, { codpre: 1, mondis: 5 }, Cpasiini_Presoladidis]
+2:       # Columna 2
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monmov
+  html:                    [size=15 onBlur="ValidarMontoGridv2(this.id); CalcularMtoadic($(this.id).up().previous(0).descendants()[0].value,this.id,$(this.id).up().next(0).descendants()[0].value,$(this.id).up().next(2).descendants()[0].id,$(this.id).up().next(2).descendants()[0].value,this.value,$(this.id).up().next(1).descendants()[0].id); "]
+  oculta:                  false
+  esgrabable:              true
+  estotal:                 [true, cpsoladidis_totadi]
+
+3:       # Columna 3
+  titulo:                  IVA
+  tipo:                    m
+  nombrecampo:             iva
+  html:                    [size="10"]
+  ajaxfila:                true
+  ajaxadicionales:         {0: id, 1: cpsoladidis_adidis_D, 2: cpsoladidis_fecadi}
+  oculta:                  false
+  esgrabable:              true
+4:       # Columna 4
+  titulo:                  Monto Total
+  tipo:                    m
+  nombrecampo:             monto
+  html:                    [size="15" readonly="false" onBlur="ValidarMontoGridv2(this.id);]
+  oculta:                  false
+  esgrabable:              true  
+5:       # Columna 5
+  titulo:                  Monto Disponible
+  tipo:                    m
+  nombrecampo:             mondis
+  html:                    [size="15" readonly="true" onBlur="ValidarMontoGridv2(this.id);]
+  oculta:                  false
+  esgrabable:              true
+  estotal:                 [true, cpsoladidis_totaldisponible]
+6:       # Columna 6
+  titulo:                  Nro. Reserva
+  tipo:                    t
+  nombrecampo:             nrores
+  html:                    [size="15"]
+  oculta:                  false
+  esgrabable:              true
+7:       # Columna 7
+  titulo:                  Fecha Reserva
+  tipo:                    f
+  nombrecampo:             fecres
+  html:                    [size="10"]
+  oculta:                  false
+  esgrabable:              true
+8:       # Columna 8
+  titulo:                  Tipo
+  tipo:                    c
+  nombrecampo:             tipo
+  oculta:                  false
+  esgrabable:              true
+  html:                    []
+9:       # Columna 9
+  titulo:                  Distribución Período
+  tipo:                    t
+  nombrecampo:             anadir
+  esgrabable:              false
+  oculta:                  true
+  html:                    ["type='text' size='1' style='border:none' class='imagenalmacen' onClick='mostrargridperiodos(this.id)'"]  
+10:       # Columna 10
+  titulo:                  Datos periodos
+  tipo:                    t
+  nombrecampo:             datosperiodos
+  esgrabable:              true
+  oculta:                  true
+  html:                    ["size=25"]  

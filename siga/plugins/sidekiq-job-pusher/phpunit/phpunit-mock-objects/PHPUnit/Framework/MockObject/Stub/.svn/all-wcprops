@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub
+END
+ReturnSelf.php
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/ReturnSelf.php
+END
+ReturnValueMap.php
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/ReturnValueMap.php
+END
+ReturnCallback.php
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/ReturnCallback.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/Exception.php
+END
+MatcherCollection.php
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/MatcherCollection.php
+END
+Return.php
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/Return.php
+END
+ReturnArgument.php
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/ReturnArgument.php
+END
+ConsecutiveCalls.php
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/PHPUnit/Framework/MockObject/Stub/ConsecutiveCalls.php
+END

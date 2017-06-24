@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/41959/web/php/siga/branches/productions/trunk/apps/autenticacion/modules/logindev/templates
+END
+errorautenticacionSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositorio/!svn/ver/41959/web/php/siga/branches/productions/trunk/apps/autenticacion/modules/logindev/templates/errorautenticacionSuccess.php
+END
+indexSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/41959/web/php/siga/branches/productions/trunk/apps/autenticacion/modules/logindev/templates/indexSuccess.php
+END
+empresaSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/41959/web/php/siga/branches/productions/trunk/apps/autenticacion/modules/logindev/templates/empresaSuccess.php
+END

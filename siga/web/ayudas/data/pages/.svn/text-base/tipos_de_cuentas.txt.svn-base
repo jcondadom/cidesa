@@ -1,0 +1,28 @@
+====== Tipos de Cuentas ======
+
+**Tabla:** CONTABA, CONTABA1
+
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Este proceso se encarga de definir los dígitos por los cuales comenzaran los grupos de cuentas contables, esto con el fin de parametrizar las operaciones aritméticas que elabora el Sistema, por lo que hay que hablar de las naturalezas de las cuentas: </html>
+
+
+  * Las **Cuentas Deudoras** son las que aumentan al registrarles asientos por el debe.
+
+  * Las **Cuentas Acreedoras** aumentan al registrarles asientos por el haber.
+
+<html><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dicho proceso tiene una sola función importantísima, definir la cuenta contable donde se registrará el resultado corriente del ejercicio actual así como el resultado de ejercicios de años anteriores, esta definición es vital para la elaboración correcta de los estados financieros.&nbsp;&nbsp;También es importante tener en cuenta la ecuación patrimonial ampliada:</html>
+
+
+<html><center><b>activo=pasivo+capital+ingresos-gastos</b></center><br></html>
+
+**Para ello:**
+
+  * Seleccione la opción Contabilidad Financiera ubicada en el Menú Principal de SIGA.
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/cfindefespins.jpg"></div><br></html>
+
+  * Por último seleccione la opción **Tipos de Cuentas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:cfintipcue.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Tipos de Cuentas** veamos la [[Descripcion_Campos_financiera_tipos_cuentas|Descripción de los Campos]]
+

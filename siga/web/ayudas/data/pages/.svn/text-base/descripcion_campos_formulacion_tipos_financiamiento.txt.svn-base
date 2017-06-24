@@ -1,0 +1,23 @@
+====== Descripción de Campos ======
+
+Los campos que conforman la pantalla **Tipos de Financiamiento** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreingdefesptipfininc1.jpg}}"></div><br></html>
+
+  * **Código:** Indica el número que identifica al tipo de financiamiento que está registrando. <html><br><br></html>
+
+  * **Nombre Extendido:** Indica el nombre que hará referencia al tipo de financiamiento que está registrando. <html><br><br></html>
+
+  * **Nombre Abreviado:** Indica el nombre abreviado correspondiente al nombre extendido del tipo de financiamiento que está registrando. <html><br><br></html>
+
+  * **Tipo de Financiamiento:** Debe seleccionar en el círculo correspondiente si el tipo de financiamiento que está registrando es "Ordinario" ó "Extraordinario". <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Tipos de Financiamiento** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+
+
+
+
+
+
+
+

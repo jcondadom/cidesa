@@ -1,0 +1,1 @@
+ <?php echo select_tag('npasicaremp[codtipded]', options_for_select(NptipdedPeer::getDedicaciones(),$npasicaremp->getCodtipded(), 'include_custom=Seleccione uno ...'),array()) ?>

@@ -1,0 +1,8 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Tsconcil
+    theme:            cidesaGenerator
+
+    edit:
+      title:          Conciliación Bancaria

@@ -1,0 +1,45 @@
+====== Bienvenido a la Ayuda en Línea de CIDESA ======
+
+<html> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El presente Dokuwiki tiene la finalidad de proporcionarle al usuario la información necesaria sobre la funcionalidad del sistema <b>SIGA</b> a través de una Ayuda en Línea en donde se realiza un recorrido por todos los procesos que conforman cada uno de los Sub-Sistemas del sistema</html>
+
+
+====== Introducción a SIGA ======
+==== Definición ====
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se indica una breve definición del Sistema SIGA </html>   [[Introducción|(Ver)]]
+
+==== Módulos que conforman SIGA ====
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se indica una breve definición de cada uno de los Módulos ó Sub-Sistemas que conforman SIGA </html>   [[Módulos de SIGA|(Ver)]]
+
+====== Seguridad Funcional======
+
+==== ¿ Quienes pueden ingresar a SIGA ? ====
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se indica que tipo de usuarios pueden ingresar a SIGA </html> [[Usuarios de SIGA|(Ver)]]
+
+==== ¿ Cómo ingresar a SIGA ? ====
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se indican breves pasos para ingresar a SIGA a través del navegador.</html>  [[Ingreso a SIGA|(Ver)]]
+
+==== ¿ Cómo iniciar una Sesión de Usuario ? ====
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Indica los pasos a seguir para que un determinado usuario ingrese al sistema en su sesión correspondiente</html> [[Sesión de Usuario|(Ver)]]
+
+==== Cambiar Contraseña de Usuario ====
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le indica al usuario como realizar el cambio de contraseña para iniciar sesión</html> [[Cambio de Contraseña|(Ver)]]
+
+==== ¿ Cómo salir de una Sesión iniciada en SIGA ? ====
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Indica los pasos a seguir para salir de una determinada Sesión de Usuario</html> [[Finalizar Sesión|(Ver)]]
+
+====== Manejo del Menú ======
+==== Componentes del Menú Principal====
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se realiza un breve paseo por la lista de Opcines que ofrece el Menú Principal de SIGA</html>  [[Manejo del Menú Principal|(Ver)]]
+
+====== Manejo de Pantallas ======
+
+==== Operatividad de las Pantallas ====
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Le proporciona al usuario la información necesaria sobre la operatividad de cada uno de los elementos que conforman las pantallas, el manejo de los distintos catálogos, calendarios, listas, entre otros, que le permitirán llevar a cabo las operaciones de Incluir, Modificar, Eliminar y Concsultar.</html> [[Operatividad de las Pantallas|(Ver)]]
+
+==== Funcionamiento Interno de las Pantallas de SIGA ====
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le proporciona al Usuario la capacitación paso a paso sobre el uso de cada una de las pantallas organizado por Sub-Sistemas.</html> [[Funcionalidad|(Ver)]]
+
+
+
+

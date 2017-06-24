@@ -1,0 +1,13 @@
+====== Operación Modificar ======
+
+Para **Modificar** la  **Tabla de Sueldos por Grado y Paso** de un determinado Tipo de Cargo: <html><br><br></html>
+
+  * Seleccionar de la ** Lista** el **Tipo de Cargo** para el cual desea modificar la Tabla de Sueldos por Grado y Paso.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompertabsueporgrapasomod.jpg|}}"></div><br></html>
+
+  * Realice las modificaciones en cuanto a la tabla de sueldos por grado y paso del **Tipo de Cargo** seleccionado. Es importante destacar que podrá modificar: **el Número de Pasos, la Modalidad de cálculo del sueldo por Grado y Paso, el Incremento por Pasos y los datos del Grid de Cargos**. <html><br><br></html>
+
+  * Una vez realizadas las modificaciones debe presionar el Botón  {{:btnguardar.jpg|}} para actualizar la información. <html><br><br></html>
+ 
+  * El sistema emite un **Mensaje de Èxito**.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

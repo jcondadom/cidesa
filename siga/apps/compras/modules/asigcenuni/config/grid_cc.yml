@@ -1,0 +1,23 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   caunicen
+  anchogrid:               750
+  ancho:                   600
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             codcen
+  html:                    ["size=15 maxlength=32 "]
+  esgrabable:              true
+  ajaxgrid:                true
+  catalogo:                [Cadefcen, sf_admin_edit_form, {Codcen: 1, Descen: 2}, Cadefcen_Almsolegr ]
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             descen
+  html:                    ["size=60 readonly=true"]
+  esgrabable:              true

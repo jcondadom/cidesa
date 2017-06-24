@@ -1,0 +1,16 @@
+======Movimientos Según Libros Años Anteriores======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso utilizado para transcribir los documentos que quedaron en tránsito al cierre del ejercicio de años anteriores; las transacciones efectuadas por la Institución que fueron incluidas en Libros de años previos y que no están registrados en el sistema. Aca se valida que la fecha de movimiento sea menor a la fecha del ejercicio actual.
+
+**Para ello:**
+
+  * Seleccione la opción **Tesorería ó Banco** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesban.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Banco** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbanc.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Movimientos según Libros Años Anteriores**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbancmovseglibanosant.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Movimientos según Libros Años Anteriores** veamos la [[Descripcion_Campos_movimientos_segun_libros_años_anteriores|Descripción de los Campos]]

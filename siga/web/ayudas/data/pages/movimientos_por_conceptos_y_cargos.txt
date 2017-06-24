@@ -1,0 +1,24 @@
+======Movimientos por Conceptos y Cargos======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite actualizar el monto o cantidad del Concepto asignado a cada empleado que ocupa un Cargo determinado en la Institución y pertenece a una Nómina en particular.</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Movimientos de Nómina** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompermovnom.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Movimientos por Conceptos y Cargos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Movimientos por Conceptos y Cargos** podrá realizar las Operaciones Básicas de: 
+
+  * [[Incluir Movimientos por Conceptos y Cargos|Incluir]]
+
+  * [[Eliminar Movimientos por Conceptos y Cargos|Eliminar]]
+
+  * [[Consultar Movimientos por Conceptos y Cargos|Consultar]]

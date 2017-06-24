@@ -1,0 +1,27 @@
+====== Operación Eliminar ======
+
+Para **Eliminar** una Respuesta: <html><br><br></html>
+
+  * Al haber Respuestas registradas automáticamente observará una **Lista** con todas ellas.<html><br><br></html>
+
+  * En la presente Lista podemos observar que en la barra inferior izquierda se encuentra el **Número de Registros existentes**. Para pasearse por cada uno de los registros hasta encontrar el que desea eliminar podrá realizarlo a través de los botones {{:btnatrasoadelante.jpg|}} que se encuentran ubicados en la barra inferior derecha <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:filtro.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>También puede pasearse por los registros realizando un **Filtro** de los mismos ya sea por **Código, Descripción ó Grupo**. Solo debe ingresar para cualquiera que sea el caso el dato por el cual desea filtrar y seguidamente presionar el Botón {{:btnfiltrar.jpg|}}, si desea volver a la lista del principio solo debe presionar el Botón {{:btnlimpiar.jpg|}} <html><br><br></html>
+ 
+  * Seleccione de la **Lista** el **Código de la Respuesta** a eliminar. <html><br><br></html>
+
+  * El sistema muestra la Respuesta seleccionada donde podrá verificar si es el documento que desea eliminar. <html><br><br></html>
+
+  * Presione el Botón {{:btnborrar.jpg|}}    <html><br><br></html>
+
+  * Otra forma de eliminar el registro que desea es presionando el Botón {{:btnaccioneseliminar.jpg|}} que se encuentra ubicado en la **columna Acciones**. Es importante destacar que esta opción para eliminar a diferencia de la anterior sólo se debe utilizar si se encuentra seguro de que el registro seleccionado es el que verdaderamente desea eliminar ya que el sistema no le mostrará la información del mismo. <html><br><br></html>
+
+   *  Independientemente de la opción que escoja igualmente el sistema emite un **Mensaje de Confirmación** antes de eliminar
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br></html>
+
+  * Presione **Aceptar** <html><br><br></html>
+
+  * El sistema automáticamente muestra la **Lista** con las **Respuestas** registradas, donde podrá verificar que el registro fué eliminado con éxito.

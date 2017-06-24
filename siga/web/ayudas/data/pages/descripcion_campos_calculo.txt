@@ -1,0 +1,16 @@
+
+Los campos que conforman la pantalla de **Cálculo** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompercalnomespcalinc1.jpg|}}"></div><br></html>
+
+  * **Código Especial:** Refiere al Código y Descripción de la Nómina Especial que se va a procesar o calcular.<html><br><br></html>
+
+  * **Código Nómina:** Refiere al Código y Descripción del Tipo de Nómina que se va a procesar o calcular.<html><br><br></html>
+
+  * **Este Mes Tiene:** Indica el número de semanas que tiene el mes sobre el cual se va a realizar el cálculo de la nómina. <html><br><br></html>
+
+  * **Fechas de Procesamiento:** Se refiere al período de tiempo **Desde** y **Hasta** que tomará el sistema para realizar los cálculos de la Nómina, establecido de acuerdo a la frecuencia de pago de la misma. <html><br><br></html>
+
+  * Automáticamente el sistema mostrará el Estatus de las Nóminas que se están procesando. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Cálculo** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

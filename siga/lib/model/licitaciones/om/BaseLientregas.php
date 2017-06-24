@@ -1,0 +1,1472 @@
+<?php
+
+
+abstract class BaseLientregas extends BaseObject  implements Persistent {
+
+
+	
+	protected static $peer;
+
+
+	
+	protected $nument;
+
+
+	
+	protected $numcont;
+
+
+	
+	protected $desent;
+
+
+	
+	protected $codempadm;
+
+
+	
+	protected $coduniadm;
+
+
+	
+	protected $codempeje;
+
+
+	
+	protected $coduniste;
+
+
+	
+	protected $fecreg;
+
+
+	
+	protected $dias;
+
+
+	
+	protected $fecven;
+
+
+	
+	protected $status;
+
+
+	
+	protected $docane1;
+
+
+	
+	protected $docane2;
+
+
+	
+	protected $docane3;
+
+
+	
+	protected $prepor;
+
+
+	
+	protected $preporcar;
+
+
+	
+	protected $lisicact_id;
+
+
+	
+	protected $fecdecla;
+
+
+	
+	protected $detdecmod;
+
+
+	
+	protected $anapor;
+
+
+	
+	protected $anaporcar;
+
+
+	
+	protected $id;
+
+	
+	protected $aLicontrat;
+
+	
+	protected $aLidatstedetRelatedByCodempadm;
+
+	
+	protected $aLidatstedetRelatedByCodempeje;
+
+	
+	protected $aLisicact;
+
+	
+	protected $collLidetcroentconts;
+
+	
+	protected $lastLidetcroentcontCriteria = null;
+
+	
+	protected $alreadyInSave = false;
+
+	
+	protected $alreadyInValidation = false;
+
+  
+  public function getNument()
+  {
+
+    return trim($this->nument);
+
+  }
+  
+  public function getNumcont()
+  {
+
+    return trim($this->numcont);
+
+  }
+  
+  public function getDesent()
+  {
+
+    return trim($this->desent);
+
+  }
+  
+  public function getCodempadm()
+  {
+
+    return trim($this->codempadm);
+
+  }
+  
+  public function getCoduniadm()
+  {
+
+    return trim($this->coduniadm);
+
+  }
+  
+  public function getCodempeje()
+  {
+
+    return trim($this->codempeje);
+
+  }
+  
+  public function getCoduniste()
+  {
+
+    return trim($this->coduniste);
+
+  }
+  
+  public function getFecreg($format = 'Y-m-d')
+  {
+
+    if ($this->fecreg === null || $this->fecreg === '') {
+      return null;
+    } elseif (!is_int($this->fecreg)) {
+            $ts = adodb_strtotime($this->fecreg);
+      if ($ts === -1 || $ts === false) {         throw new PropelException("Unable to parse value of [fecreg] as date/time value: " . var_export($this->fecreg, true));
+      }
+    } else {
+      $ts = $this->fecreg;
+    }
+    if ($format === null) {
+      return $ts;
+    } elseif (strpos($format, '%') !== false) {
+      return adodb_strftime($format, $ts);
+    } else {
+      return @adodb_date($format, $ts);
+    }
+  }
+
+  
+  public function getDias()
+  {
+
+    return $this->dias;
+
+  }
+  
+  public function getFecven($format = 'Y-m-d')
+  {
+
+    if ($this->fecven === null || $this->fecven === '') {
+      return null;
+    } elseif (!is_int($this->fecven)) {
+            $ts = adodb_strtotime($this->fecven);
+      if ($ts === -1 || $ts === false) {         throw new PropelException("Unable to parse value of [fecven] as date/time value: " . var_export($this->fecven, true));
+      }
+    } else {
+      $ts = $this->fecven;
+    }
+    if ($format === null) {
+      return $ts;
+    } elseif (strpos($format, '%') !== false) {
+      return adodb_strftime($format, $ts);
+    } else {
+      return @adodb_date($format, $ts);
+    }
+  }
+
+  
+  public function getStatus()
+  {
+
+    return trim($this->status);
+
+  }
+  
+  public function getDocane1()
+  {
+
+    return trim($this->docane1);
+
+  }
+  
+  public function getDocane2()
+  {
+
+    return trim($this->docane2);
+
+  }
+  
+  public function getDocane3()
+  {
+
+    return trim($this->docane3);
+
+  }
+  
+  public function getPrepor()
+  {
+
+    return trim($this->prepor);
+
+  }
+  
+  public function getPreporcar()
+  {
+
+    return trim($this->preporcar);
+
+  }
+  
+  public function getLisicactId()
+  {
+
+    return $this->lisicact_id;
+
+  }
+  
+  public function getFecdecla($format = 'Y-m-d')
+  {
+
+    if ($this->fecdecla === null || $this->fecdecla === '') {
+      return null;
+    } elseif (!is_int($this->fecdecla)) {
+            $ts = adodb_strtotime($this->fecdecla);
+      if ($ts === -1 || $ts === false) {         throw new PropelException("Unable to parse value of [fecdecla] as date/time value: " . var_export($this->fecdecla, true));
+      }
+    } else {
+      $ts = $this->fecdecla;
+    }
+    if ($format === null) {
+      return $ts;
+    } elseif (strpos($format, '%') !== false) {
+      return adodb_strftime($format, $ts);
+    } else {
+      return @adodb_date($format, $ts);
+    }
+  }
+
+  
+  public function getDetdecmod()
+  {
+
+    return trim($this->detdecmod);
+
+  }
+  
+  public function getAnapor()
+  {
+
+    return trim($this->anapor);
+
+  }
+  
+  public function getAnaporcar()
+  {
+
+    return trim($this->anaporcar);
+
+  }
+  
+  public function getId()
+  {
+
+    return $this->id;
+
+  }
+	
+	public function setNument($v)
+	{
+
+    if ($this->nument !== $v) {
+        $this->nument = $v;
+        $this->modifiedColumns[] = LientregasPeer::NUMENT;
+      }
+  
+	} 
+	
+	public function setNumcont($v)
+	{
+
+    if ($this->numcont !== $v) {
+        $this->numcont = $v;
+        $this->modifiedColumns[] = LientregasPeer::NUMCONT;
+      }
+  
+		if ($this->aLicontrat !== null && $this->aLicontrat->getNumcont() !== $v) {
+			$this->aLicontrat = null;
+		}
+
+	} 
+	
+	public function setDesent($v)
+	{
+
+    if ($this->desent !== $v) {
+        $this->desent = $v;
+        $this->modifiedColumns[] = LientregasPeer::DESENT;
+      }
+  
+	} 
+	
+	public function setCodempadm($v)
+	{
+
+    if ($this->codempadm !== $v) {
+        $this->codempadm = $v;
+        $this->modifiedColumns[] = LientregasPeer::CODEMPADM;
+      }
+  
+		if ($this->aLidatstedetRelatedByCodempadm !== null && $this->aLidatstedetRelatedByCodempadm->getCodemp() !== $v) {
+			$this->aLidatstedetRelatedByCodempadm = null;
+		}
+
+	} 
+	
+	public function setCoduniadm($v)
+	{
+
+    if ($this->coduniadm !== $v) {
+        $this->coduniadm = $v;
+        $this->modifiedColumns[] = LientregasPeer::CODUNIADM;
+      }
+  
+	} 
+	
+	public function setCodempeje($v)
+	{
+
+    if ($this->codempeje !== $v) {
+        $this->codempeje = $v;
+        $this->modifiedColumns[] = LientregasPeer::CODEMPEJE;
+      }
+  
+		if ($this->aLidatstedetRelatedByCodempeje !== null && $this->aLidatstedetRelatedByCodempeje->getCodemp() !== $v) {
+			$this->aLidatstedetRelatedByCodempeje = null;
+		}
+
+	} 
+	
+	public function setCoduniste($v)
+	{
+
+    if ($this->coduniste !== $v) {
+        $this->coduniste = $v;
+        $this->modifiedColumns[] = LientregasPeer::CODUNISTE;
+      }
+  
+	} 
+	
+	public function setFecreg($v)
+	{
+
+    if ($v !== null && !is_int($v)) {
+      $ts = adodb_strtotime($v);
+      if ($ts === -1 || $ts === false) {         throw new PropelException("Unable to parse date/time value for [fecreg] from input: " . var_export($v, true));
+      }
+    } else {
+      $ts = $v;
+    }
+    if ($this->fecreg !== $ts) {
+      $this->fecreg = $ts;
+      $this->modifiedColumns[] = LientregasPeer::FECREG;
+    }
+
+	} 
+	
+	public function setDias($v)
+	{
+
+    if ($this->dias !== $v) {
+        $this->dias = $v;
+        $this->modifiedColumns[] = LientregasPeer::DIAS;
+      }
+  
+	} 
+	
+	public function setFecven($v)
+	{
+
+    if ($v !== null && !is_int($v)) {
+      $ts = adodb_strtotime($v);
+      if ($ts === -1 || $ts === false) {         throw new PropelException("Unable to parse date/time value for [fecven] from input: " . var_export($v, true));
+      }
+    } else {
+      $ts = $v;
+    }
+    if ($this->fecven !== $ts) {
+      $this->fecven = $ts;
+      $this->modifiedColumns[] = LientregasPeer::FECVEN;
+    }
+
+	} 
+	
+	public function setStatus($v)
+	{
+
+    if ($this->status !== $v) {
+        $this->status = $v;
+        $this->modifiedColumns[] = LientregasPeer::STATUS;
+      }
+  
+	} 
+	
+	public function setDocane1($v)
+	{
+
+    if ($this->docane1 !== $v) {
+        $this->docane1 = $v;
+        $this->modifiedColumns[] = LientregasPeer::DOCANE1;
+      }
+  
+	} 
+	
+	public function setDocane2($v)
+	{
+
+    if ($this->docane2 !== $v) {
+        $this->docane2 = $v;
+        $this->modifiedColumns[] = LientregasPeer::DOCANE2;
+      }
+  
+	} 
+	
+	public function setDocane3($v)
+	{
+
+    if ($this->docane3 !== $v) {
+        $this->docane3 = $v;
+        $this->modifiedColumns[] = LientregasPeer::DOCANE3;
+      }
+  
+	} 
+	
+	public function setPrepor($v)
+	{
+
+    if ($this->prepor !== $v) {
+        $this->prepor = $v;
+        $this->modifiedColumns[] = LientregasPeer::PREPOR;
+      }
+  
+	} 
+	
+	public function setPreporcar($v)
+	{
+
+    if ($this->preporcar !== $v) {
+        $this->preporcar = $v;
+        $this->modifiedColumns[] = LientregasPeer::PREPORCAR;
+      }
+  
+	} 
+	
+	public function setLisicactId($v)
+	{
+
+    if ($this->lisicact_id !== $v) {
+        $this->lisicact_id = $v;
+        $this->modifiedColumns[] = LientregasPeer::LISICACT_ID;
+      }
+  
+		if ($this->aLisicact !== null && $this->aLisicact->getId() !== $v) {
+			$this->aLisicact = null;
+		}
+
+	} 
+	
+	public function setFecdecla($v)
+	{
+
+    if ($v !== null && !is_int($v)) {
+      $ts = adodb_strtotime($v);
+      if ($ts === -1 || $ts === false) {         throw new PropelException("Unable to parse date/time value for [fecdecla] from input: " . var_export($v, true));
+      }
+    } else {
+      $ts = $v;
+    }
+    if ($this->fecdecla !== $ts) {
+      $this->fecdecla = $ts;
+      $this->modifiedColumns[] = LientregasPeer::FECDECLA;
+    }
+
+	} 
+	
+	public function setDetdecmod($v)
+	{
+
+    if ($this->detdecmod !== $v) {
+        $this->detdecmod = $v;
+        $this->modifiedColumns[] = LientregasPeer::DETDECMOD;
+      }
+  
+	} 
+	
+	public function setAnapor($v)
+	{
+
+    if ($this->anapor !== $v) {
+        $this->anapor = $v;
+        $this->modifiedColumns[] = LientregasPeer::ANAPOR;
+      }
+  
+	} 
+	
+	public function setAnaporcar($v)
+	{
+
+    if ($this->anaporcar !== $v) {
+        $this->anaporcar = $v;
+        $this->modifiedColumns[] = LientregasPeer::ANAPORCAR;
+      }
+  
+	} 
+	
+	public function setId($v)
+	{
+
+    if ($this->id !== $v) {
+        $this->id = $v;
+        $this->modifiedColumns[] = LientregasPeer::ID;
+      }
+  
+	} 
+  
+  public function hydrate(ResultSet $rs, $startcol = 1)
+  {
+    try {
+
+      $this->nument = $rs->getString($startcol + 0);
+
+      $this->numcont = $rs->getString($startcol + 1);
+
+      $this->desent = $rs->getString($startcol + 2);
+
+      $this->codempadm = $rs->getString($startcol + 3);
+
+      $this->coduniadm = $rs->getString($startcol + 4);
+
+      $this->codempeje = $rs->getString($startcol + 5);
+
+      $this->coduniste = $rs->getString($startcol + 6);
+
+      $this->fecreg = $rs->getDate($startcol + 7, null);
+
+      $this->dias = $rs->getInt($startcol + 8);
+
+      $this->fecven = $rs->getDate($startcol + 9, null);
+
+      $this->status = $rs->getString($startcol + 10);
+
+      $this->docane1 = $rs->getString($startcol + 11);
+
+      $this->docane2 = $rs->getString($startcol + 12);
+
+      $this->docane3 = $rs->getString($startcol + 13);
+
+      $this->prepor = $rs->getString($startcol + 14);
+
+      $this->preporcar = $rs->getString($startcol + 15);
+
+      $this->lisicact_id = $rs->getInt($startcol + 16);
+
+      $this->fecdecla = $rs->getDate($startcol + 17, null);
+
+      $this->detdecmod = $rs->getString($startcol + 18);
+
+      $this->anapor = $rs->getString($startcol + 19);
+
+      $this->anaporcar = $rs->getString($startcol + 20);
+
+      $this->id = $rs->getInt($startcol + 21);
+
+      $this->resetModified();
+
+      $this->setNew(false);
+
+      $this->afterHydrate();
+
+            return $startcol + 22; 
+    } catch (Exception $e) {
+      throw new PropelException("Error populating Lientregas object", $e);
+    }
+  }
+
+
+  protected function afterHydrate()
+  {
+
+  }
+    
+  
+  public function __call($m, $a)
+    {
+      $prefijo = substr($m,0,3);
+    $metodo = strtolower(substr($m,3));
+        if($prefijo=='get'){
+      if(isset($this->$metodo)) return $this->$metodo;
+      else return '';
+    }elseif($prefijo=='set'){
+      if(isset($this->$metodo)) $this->$metodo = $a[0];
+    }else call_user_func_array($m, $a);
+
+    }
+
+  
+  public function get($m, $a)
+    {
+
+      if(method_exists($this,$m)){
+        $obj_fk = $this->$m();
+        if($obj_fk) return $obj_fk->$a();
+      } return '';
+    }
+
+	
+	public function delete($con = null)
+	{
+		if ($this->isDeleted()) {
+			throw new PropelException("This object has already been deleted.");
+		}
+
+		if ($con === null) {
+			$con = Propel::getConnection(LientregasPeer::DATABASE_NAME);
+		}
+
+		try {
+			$con->begin();
+			LientregasPeer::doDelete($this, $con);
+			$this->setDeleted(true);
+			$con->commit();
+		} catch (PropelException $e) {
+			$con->rollback();
+			throw $e;
+		}
+	}
+
+	
+	public function save($con = null)
+	{
+		if ($this->isDeleted()) {
+			throw new PropelException("You cannot save an object that has been deleted.");
+		}
+
+		if ($con === null) {
+			$con = Propel::getConnection(LientregasPeer::DATABASE_NAME);
+		}
+
+		try {
+			$con->begin();
+			$affectedRows = $this->doSave($con);
+			$con->commit();
+			return $affectedRows;
+		} catch (PropelException $e) {
+			$con->rollback();
+			throw $e;
+		}
+	}
+
+	
+	protected function doSave($con)
+	{
+		$affectedRows = 0; 		if (!$this->alreadyInSave) {
+			$this->alreadyInSave = true;
+
+
+												
+			if ($this->aLicontrat !== null) {
+				if ($this->aLicontrat->isModified()) {
+					$affectedRows += $this->aLicontrat->save($con);
+				}
+				$this->setLicontrat($this->aLicontrat);
+			}
+
+			if ($this->aLidatstedetRelatedByCodempadm !== null) {
+				if ($this->aLidatstedetRelatedByCodempadm->isModified()) {
+					$affectedRows += $this->aLidatstedetRelatedByCodempadm->save($con);
+				}
+				$this->setLidatstedetRelatedByCodempadm($this->aLidatstedetRelatedByCodempadm);
+			}
+
+			if ($this->aLidatstedetRelatedByCodempeje !== null) {
+				if ($this->aLidatstedetRelatedByCodempeje->isModified()) {
+					$affectedRows += $this->aLidatstedetRelatedByCodempeje->save($con);
+				}
+				$this->setLidatstedetRelatedByCodempeje($this->aLidatstedetRelatedByCodempeje);
+			}
+
+			if ($this->aLisicact !== null) {
+				if ($this->aLisicact->isModified()) {
+					$affectedRows += $this->aLisicact->save($con);
+				}
+				$this->setLisicact($this->aLisicact);
+			}
+
+
+						if ($this->isModified()) {
+				if ($this->isNew()) {
+					$pk = LientregasPeer::doInsert($this, $con);
+					$affectedRows += 1; 										 										 
+					$this->setId($pk);  
+					$this->setNew(false);
+				} else {
+					$affectedRows += LientregasPeer::doUpdate($this, $con);
+				}
+				$this->resetModified(); 			}
+
+			if ($this->collLidetcroentconts !== null) {
+				foreach($this->collLidetcroentconts as $referrerFK) {
+					if (!$referrerFK->isDeleted()) {
+						$affectedRows += $referrerFK->save($con);
+					}
+				}
+			}
+
+			$this->alreadyInSave = false;
+		}
+		return $affectedRows;
+	} 
+	
+	protected $validationFailures = array();
+
+	
+	public function getValidationFailures()
+	{
+		return $this->validationFailures;
+	}
+
+	
+	public function validate($columns = null)
+	{
+		$res = $this->doValidate($columns);
+		if ($res === true) {
+			$this->validationFailures = array();
+			return true;
+		} else {
+			$this->validationFailures = $res;
+			return false;
+		}
+	}
+
+	
+	protected function doValidate($columns = null)
+	{
+		if (!$this->alreadyInValidation) {
+			$this->alreadyInValidation = true;
+			$retval = null;
+
+			$failureMap = array();
+
+
+												
+			if ($this->aLicontrat !== null) {
+				if (!$this->aLicontrat->validate($columns)) {
+					$failureMap = array_merge($failureMap, $this->aLicontrat->getValidationFailures());
+				}
+			}
+
+			if ($this->aLidatstedetRelatedByCodempadm !== null) {
+				if (!$this->aLidatstedetRelatedByCodempadm->validate($columns)) {
+					$failureMap = array_merge($failureMap, $this->aLidatstedetRelatedByCodempadm->getValidationFailures());
+				}
+			}
+
+			if ($this->aLidatstedetRelatedByCodempeje !== null) {
+				if (!$this->aLidatstedetRelatedByCodempeje->validate($columns)) {
+					$failureMap = array_merge($failureMap, $this->aLidatstedetRelatedByCodempeje->getValidationFailures());
+				}
+			}
+
+			if ($this->aLisicact !== null) {
+				if (!$this->aLisicact->validate($columns)) {
+					$failureMap = array_merge($failureMap, $this->aLisicact->getValidationFailures());
+				}
+			}
+
+
+			if (($retval = LientregasPeer::doValidate($this, $columns)) !== true) {
+				$failureMap = array_merge($failureMap, $retval);
+			}
+
+
+				if ($this->collLidetcroentconts !== null) {
+					foreach($this->collLidetcroentconts as $referrerFK) {
+						if (!$referrerFK->validate($columns)) {
+							$failureMap = array_merge($failureMap, $referrerFK->getValidationFailures());
+						}
+					}
+				}
+
+
+			$this->alreadyInValidation = false;
+		}
+
+		return (!empty($failureMap) ? $failureMap : true);
+	}
+
+	
+	public function getByName($name, $type = BasePeer::TYPE_PHPNAME)
+	{
+		$pos = LientregasPeer::translateFieldName($name, $type, BasePeer::TYPE_NUM);
+		return $this->getByPosition($pos);
+	}
+
+	
+	public function getByPosition($pos)
+	{
+		switch($pos) {
+			case 0:
+				return $this->getNument();
+				break;
+			case 1:
+				return $this->getNumcont();
+				break;
+			case 2:
+				return $this->getDesent();
+				break;
+			case 3:
+				return $this->getCodempadm();
+				break;
+			case 4:
+				return $this->getCoduniadm();
+				break;
+			case 5:
+				return $this->getCodempeje();
+				break;
+			case 6:
+				return $this->getCoduniste();
+				break;
+			case 7:
+				return $this->getFecreg();
+				break;
+			case 8:
+				return $this->getDias();
+				break;
+			case 9:
+				return $this->getFecven();
+				break;
+			case 10:
+				return $this->getStatus();
+				break;
+			case 11:
+				return $this->getDocane1();
+				break;
+			case 12:
+				return $this->getDocane2();
+				break;
+			case 13:
+				return $this->getDocane3();
+				break;
+			case 14:
+				return $this->getPrepor();
+				break;
+			case 15:
+				return $this->getPreporcar();
+				break;
+			case 16:
+				return $this->getLisicactId();
+				break;
+			case 17:
+				return $this->getFecdecla();
+				break;
+			case 18:
+				return $this->getDetdecmod();
+				break;
+			case 19:
+				return $this->getAnapor();
+				break;
+			case 20:
+				return $this->getAnaporcar();
+				break;
+			case 21:
+				return $this->getId();
+				break;
+			default:
+				return null;
+				break;
+		} 	}
+
+	
+	public function toArray($keyType = BasePeer::TYPE_PHPNAME)
+	{
+		$keys = LientregasPeer::getFieldNames($keyType);
+		$result = array(
+			$keys[0] => $this->getNument(),
+			$keys[1] => $this->getNumcont(),
+			$keys[2] => $this->getDesent(),
+			$keys[3] => $this->getCodempadm(),
+			$keys[4] => $this->getCoduniadm(),
+			$keys[5] => $this->getCodempeje(),
+			$keys[6] => $this->getCoduniste(),
+			$keys[7] => $this->getFecreg(),
+			$keys[8] => $this->getDias(),
+			$keys[9] => $this->getFecven(),
+			$keys[10] => $this->getStatus(),
+			$keys[11] => $this->getDocane1(),
+			$keys[12] => $this->getDocane2(),
+			$keys[13] => $this->getDocane3(),
+			$keys[14] => $this->getPrepor(),
+			$keys[15] => $this->getPreporcar(),
+			$keys[16] => $this->getLisicactId(),
+			$keys[17] => $this->getFecdecla(),
+			$keys[18] => $this->getDetdecmod(),
+			$keys[19] => $this->getAnapor(),
+			$keys[20] => $this->getAnaporcar(),
+			$keys[21] => $this->getId(),
+		);
+		return $result;
+	}
+
+	
+	public function setByName($name, $value, $type = BasePeer::TYPE_PHPNAME)
+	{
+		$pos = LientregasPeer::translateFieldName($name, $type, BasePeer::TYPE_NUM);
+		return $this->setByPosition($pos, $value);
+	}
+
+	
+	public function setByPosition($pos, $value)
+	{
+		switch($pos) {
+			case 0:
+				$this->setNument($value);
+				break;
+			case 1:
+				$this->setNumcont($value);
+				break;
+			case 2:
+				$this->setDesent($value);
+				break;
+			case 3:
+				$this->setCodempadm($value);
+				break;
+			case 4:
+				$this->setCoduniadm($value);
+				break;
+			case 5:
+				$this->setCodempeje($value);
+				break;
+			case 6:
+				$this->setCoduniste($value);
+				break;
+			case 7:
+				$this->setFecreg($value);
+				break;
+			case 8:
+				$this->setDias($value);
+				break;
+			case 9:
+				$this->setFecven($value);
+				break;
+			case 10:
+				$this->setStatus($value);
+				break;
+			case 11:
+				$this->setDocane1($value);
+				break;
+			case 12:
+				$this->setDocane2($value);
+				break;
+			case 13:
+				$this->setDocane3($value);
+				break;
+			case 14:
+				$this->setPrepor($value);
+				break;
+			case 15:
+				$this->setPreporcar($value);
+				break;
+			case 16:
+				$this->setLisicactId($value);
+				break;
+			case 17:
+				$this->setFecdecla($value);
+				break;
+			case 18:
+				$this->setDetdecmod($value);
+				break;
+			case 19:
+				$this->setAnapor($value);
+				break;
+			case 20:
+				$this->setAnaporcar($value);
+				break;
+			case 21:
+				$this->setId($value);
+				break;
+		} 	}
+
+	
+	public function fromArray($arr, $keyType = BasePeer::TYPE_PHPNAME)
+	{
+		$keys = LientregasPeer::getFieldNames($keyType);
+
+		if (array_key_exists($keys[0], $arr)) $this->setNument($arr[$keys[0]]);
+		if (array_key_exists($keys[1], $arr)) $this->setNumcont($arr[$keys[1]]);
+		if (array_key_exists($keys[2], $arr)) $this->setDesent($arr[$keys[2]]);
+		if (array_key_exists($keys[3], $arr)) $this->setCodempadm($arr[$keys[3]]);
+		if (array_key_exists($keys[4], $arr)) $this->setCoduniadm($arr[$keys[4]]);
+		if (array_key_exists($keys[5], $arr)) $this->setCodempeje($arr[$keys[5]]);
+		if (array_key_exists($keys[6], $arr)) $this->setCoduniste($arr[$keys[6]]);
+		if (array_key_exists($keys[7], $arr)) $this->setFecreg($arr[$keys[7]]);
+		if (array_key_exists($keys[8], $arr)) $this->setDias($arr[$keys[8]]);
+		if (array_key_exists($keys[9], $arr)) $this->setFecven($arr[$keys[9]]);
+		if (array_key_exists($keys[10], $arr)) $this->setStatus($arr[$keys[10]]);
+		if (array_key_exists($keys[11], $arr)) $this->setDocane1($arr[$keys[11]]);
+		if (array_key_exists($keys[12], $arr)) $this->setDocane2($arr[$keys[12]]);
+		if (array_key_exists($keys[13], $arr)) $this->setDocane3($arr[$keys[13]]);
+		if (array_key_exists($keys[14], $arr)) $this->setPrepor($arr[$keys[14]]);
+		if (array_key_exists($keys[15], $arr)) $this->setPreporcar($arr[$keys[15]]);
+		if (array_key_exists($keys[16], $arr)) $this->setLisicactId($arr[$keys[16]]);
+		if (array_key_exists($keys[17], $arr)) $this->setFecdecla($arr[$keys[17]]);
+		if (array_key_exists($keys[18], $arr)) $this->setDetdecmod($arr[$keys[18]]);
+		if (array_key_exists($keys[19], $arr)) $this->setAnapor($arr[$keys[19]]);
+		if (array_key_exists($keys[20], $arr)) $this->setAnaporcar($arr[$keys[20]]);
+		if (array_key_exists($keys[21], $arr)) $this->setId($arr[$keys[21]]);
+	}
+
+	
+	public function buildCriteria()
+	{
+		$criteria = new Criteria(LientregasPeer::DATABASE_NAME);
+
+		if ($this->isColumnModified(LientregasPeer::NUMENT)) $criteria->add(LientregasPeer::NUMENT, $this->nument);
+		if ($this->isColumnModified(LientregasPeer::NUMCONT)) $criteria->add(LientregasPeer::NUMCONT, $this->numcont);
+		if ($this->isColumnModified(LientregasPeer::DESENT)) $criteria->add(LientregasPeer::DESENT, $this->desent);
+		if ($this->isColumnModified(LientregasPeer::CODEMPADM)) $criteria->add(LientregasPeer::CODEMPADM, $this->codempadm);
+		if ($this->isColumnModified(LientregasPeer::CODUNIADM)) $criteria->add(LientregasPeer::CODUNIADM, $this->coduniadm);
+		if ($this->isColumnModified(LientregasPeer::CODEMPEJE)) $criteria->add(LientregasPeer::CODEMPEJE, $this->codempeje);
+		if ($this->isColumnModified(LientregasPeer::CODUNISTE)) $criteria->add(LientregasPeer::CODUNISTE, $this->coduniste);
+		if ($this->isColumnModified(LientregasPeer::FECREG)) $criteria->add(LientregasPeer::FECREG, $this->fecreg);
+		if ($this->isColumnModified(LientregasPeer::DIAS)) $criteria->add(LientregasPeer::DIAS, $this->dias);
+		if ($this->isColumnModified(LientregasPeer::FECVEN)) $criteria->add(LientregasPeer::FECVEN, $this->fecven);
+		if ($this->isColumnModified(LientregasPeer::STATUS)) $criteria->add(LientregasPeer::STATUS, $this->status);
+		if ($this->isColumnModified(LientregasPeer::DOCANE1)) $criteria->add(LientregasPeer::DOCANE1, $this->docane1);
+		if ($this->isColumnModified(LientregasPeer::DOCANE2)) $criteria->add(LientregasPeer::DOCANE2, $this->docane2);
+		if ($this->isColumnModified(LientregasPeer::DOCANE3)) $criteria->add(LientregasPeer::DOCANE3, $this->docane3);
+		if ($this->isColumnModified(LientregasPeer::PREPOR)) $criteria->add(LientregasPeer::PREPOR, $this->prepor);
+		if ($this->isColumnModified(LientregasPeer::PREPORCAR)) $criteria->add(LientregasPeer::PREPORCAR, $this->preporcar);
+		if ($this->isColumnModified(LientregasPeer::LISICACT_ID)) $criteria->add(LientregasPeer::LISICACT_ID, $this->lisicact_id);
+		if ($this->isColumnModified(LientregasPeer::FECDECLA)) $criteria->add(LientregasPeer::FECDECLA, $this->fecdecla);
+		if ($this->isColumnModified(LientregasPeer::DETDECMOD)) $criteria->add(LientregasPeer::DETDECMOD, $this->detdecmod);
+		if ($this->isColumnModified(LientregasPeer::ANAPOR)) $criteria->add(LientregasPeer::ANAPOR, $this->anapor);
+		if ($this->isColumnModified(LientregasPeer::ANAPORCAR)) $criteria->add(LientregasPeer::ANAPORCAR, $this->anaporcar);
+		if ($this->isColumnModified(LientregasPeer::ID)) $criteria->add(LientregasPeer::ID, $this->id);
+
+		return $criteria;
+	}
+
+	
+	public function buildPkeyCriteria()
+	{
+		$criteria = new Criteria(LientregasPeer::DATABASE_NAME);
+
+		$criteria->add(LientregasPeer::ID, $this->id);
+
+		return $criteria;
+	}
+
+	
+	public function getPrimaryKey()
+	{
+		return $this->getId();
+	}
+
+	
+	public function setPrimaryKey($key)
+	{
+		$this->setId($key);
+	}
+
+	
+	public function copyInto($copyObj, $deepCopy = false)
+	{
+
+		$copyObj->setNument($this->nument);
+
+		$copyObj->setNumcont($this->numcont);
+
+		$copyObj->setDesent($this->desent);
+
+		$copyObj->setCodempadm($this->codempadm);
+
+		$copyObj->setCoduniadm($this->coduniadm);
+
+		$copyObj->setCodempeje($this->codempeje);
+
+		$copyObj->setCoduniste($this->coduniste);
+
+		$copyObj->setFecreg($this->fecreg);
+
+		$copyObj->setDias($this->dias);
+
+		$copyObj->setFecven($this->fecven);
+
+		$copyObj->setStatus($this->status);
+
+		$copyObj->setDocane1($this->docane1);
+
+		$copyObj->setDocane2($this->docane2);
+
+		$copyObj->setDocane3($this->docane3);
+
+		$copyObj->setPrepor($this->prepor);
+
+		$copyObj->setPreporcar($this->preporcar);
+
+		$copyObj->setLisicactId($this->lisicact_id);
+
+		$copyObj->setFecdecla($this->fecdecla);
+
+		$copyObj->setDetdecmod($this->detdecmod);
+
+		$copyObj->setAnapor($this->anapor);
+
+		$copyObj->setAnaporcar($this->anaporcar);
+
+
+		if ($deepCopy) {
+									$copyObj->setNew(false);
+
+			foreach($this->getLidetcroentconts() as $relObj) {
+				$copyObj->addLidetcroentcont($relObj->copy($deepCopy));
+			}
+
+		} 
+
+		$copyObj->setNew(true);
+
+		$copyObj->setId(NULL); 
+	}
+
+	
+	public function copy($deepCopy = false)
+	{
+				$clazz = get_class($this);
+		$copyObj = new $clazz();
+		$this->copyInto($copyObj, $deepCopy);
+		return $copyObj;
+	}
+
+	
+	public function getPeer()
+	{
+		if (self::$peer === null) {
+			self::$peer = new LientregasPeer();
+		}
+		return self::$peer;
+	}
+
+	
+	public function setLicontrat($v)
+	{
+
+
+		if ($v === null) {
+			$this->setNumcont(NULL);
+		} else {
+			$this->setNumcont($v->getNumcont());
+		}
+
+
+		$this->aLicontrat = $v;
+	}
+
+
+	
+	public function getLicontrat($con = null)
+	{
+		if ($this->aLicontrat === null && (($this->numcont !== "" && $this->numcont !== null))) {
+						include_once 'lib/model/licitaciones/om/BaseLicontratPeer.php';
+
+      $c = new Criteria();
+      $c->add(LicontratPeer::NUMCONT,$this->numcont);
+      
+			$this->aLicontrat = LicontratPeer::doSelectOne($c, $con);
+
+			
+		}
+		return $this->aLicontrat;
+	}
+
+	
+	public function setLidatstedetRelatedByCodempadm($v)
+	{
+
+
+		if ($v === null) {
+			$this->setCodempadm(NULL);
+		} else {
+			$this->setCodempadm($v->getCodemp());
+		}
+
+
+		$this->aLidatstedetRelatedByCodempadm = $v;
+	}
+
+
+	
+	public function getLidatstedetRelatedByCodempadm($con = null)
+	{
+		if ($this->aLidatstedetRelatedByCodempadm === null && (($this->codempadm !== "" && $this->codempadm !== null))) {
+						include_once 'lib/model/licitaciones/om/BaseLidatstedetPeer.php';
+
+      $c = new Criteria();
+      $c->add(LidatstedetPeer::CODEMP,$this->codempadm);
+      
+			$this->aLidatstedetRelatedByCodempadm = LidatstedetPeer::doSelectOne($c, $con);
+
+			
+		}
+		return $this->aLidatstedetRelatedByCodempadm;
+	}
+
+	
+	public function setLidatstedetRelatedByCodempeje($v)
+	{
+
+
+		if ($v === null) {
+			$this->setCodempeje(NULL);
+		} else {
+			$this->setCodempeje($v->getCodemp());
+		}
+
+
+		$this->aLidatstedetRelatedByCodempeje = $v;
+	}
+
+
+	
+	public function getLidatstedetRelatedByCodempeje($con = null)
+	{
+		if ($this->aLidatstedetRelatedByCodempeje === null && (($this->codempeje !== "" && $this->codempeje !== null))) {
+						include_once 'lib/model/licitaciones/om/BaseLidatstedetPeer.php';
+
+      $c = new Criteria();
+      $c->add(LidatstedetPeer::CODEMP,$this->codempeje);
+      
+			$this->aLidatstedetRelatedByCodempeje = LidatstedetPeer::doSelectOne($c, $con);
+
+			
+		}
+		return $this->aLidatstedetRelatedByCodempeje;
+	}
+
+	
+	public function setLisicact($v)
+	{
+
+
+		if ($v === null) {
+			$this->setLisicactId(NULL);
+		} else {
+			$this->setLisicactId($v->getId());
+		}
+
+
+		$this->aLisicact = $v;
+	}
+
+
+	
+	public function getLisicact($con = null)
+	{
+		if ($this->aLisicact === null && ($this->lisicact_id !== null)) {
+						include_once 'lib/model/licitaciones/om/BaseLisicactPeer.php';
+
+      $c = new Criteria();
+      $c->add(LisicactPeer::ID,$this->lisicact_id);
+      
+			$this->aLisicact = LisicactPeer::doSelectOne($c, $con);
+
+			
+		}
+		return $this->aLisicact;
+	}
+
+	
+	public function initLidetcroentconts()
+	{
+		if ($this->collLidetcroentconts === null) {
+			$this->collLidetcroentconts = array();
+		}
+	}
+
+	
+	public function getLidetcroentconts($criteria = null, $con = null)
+	{
+				include_once 'lib/model/licitaciones/om/BaseLidetcroentcontPeer.php';
+		if ($criteria === null) {
+			$criteria = new Criteria();
+		}
+		elseif ($criteria instanceof Criteria)
+		{
+			$criteria = clone $criteria;
+		}
+
+		if ($this->collLidetcroentconts === null) {
+			if ($this->isNew()) {
+			   $this->collLidetcroentconts = array();
+			} else {
+
+				$criteria->add(LidetcroentcontPeer::NUMENT, $this->getNument());
+
+				LidetcroentcontPeer::addSelectColumns($criteria);
+				$this->collLidetcroentconts = LidetcroentcontPeer::doSelect($criteria, $con);
+			}
+		} else {
+						if (!$this->isNew()) {
+												
+
+				$criteria->add(LidetcroentcontPeer::NUMENT, $this->getNument());
+
+				LidetcroentcontPeer::addSelectColumns($criteria);
+				if (!isset($this->lastLidetcroentcontCriteria) || !$this->lastLidetcroentcontCriteria->equals($criteria)) {
+					$this->collLidetcroentconts = LidetcroentcontPeer::doSelect($criteria, $con);
+				}
+			}
+		}
+		$this->lastLidetcroentcontCriteria = $criteria;
+		return $this->collLidetcroentconts;
+	}
+
+	
+	public function countLidetcroentconts($criteria = null, $distinct = false, $con = null)
+	{
+				include_once 'lib/model/licitaciones/om/BaseLidetcroentcontPeer.php';
+		if ($criteria === null) {
+			$criteria = new Criteria();
+		}
+		elseif ($criteria instanceof Criteria)
+		{
+			$criteria = clone $criteria;
+		}
+
+		$criteria->add(LidetcroentcontPeer::NUMENT, $this->getNument());
+
+		return LidetcroentcontPeer::doCount($criteria, $distinct, $con);
+	}
+
+	
+	public function addLidetcroentcont(Lidetcroentcont $l)
+	{
+		$this->collLidetcroentconts[] = $l;
+		$l->setLientregas($this);
+	}
+
+
+	
+	public function getLidetcroentcontsJoinLiuniadm($criteria = null, $con = null)
+	{
+				include_once 'lib/model/licitaciones/om/BaseLidetcroentcontPeer.php';
+		if ($criteria === null) {
+			$criteria = new Criteria();
+		}
+		elseif ($criteria instanceof Criteria)
+		{
+			$criteria = clone $criteria;
+		}
+
+		if ($this->collLidetcroentconts === null) {
+			if ($this->isNew()) {
+				$this->collLidetcroentconts = array();
+			} else {
+
+				$criteria->add(LidetcroentcontPeer::NUMENT, $this->getNument());
+
+				$this->collLidetcroentconts = LidetcroentcontPeer::doSelectJoinLiuniadm($criteria, $con);
+			}
+		} else {
+									
+			$criteria->add(LidetcroentcontPeer::NUMENT, $this->getNument());
+
+			if (!isset($this->lastLidetcroentcontCriteria) || !$this->lastLidetcroentcontCriteria->equals($criteria)) {
+				$this->collLidetcroentconts = LidetcroentcontPeer::doSelectJoinLiuniadm($criteria, $con);
+			}
+		}
+		$this->lastLidetcroentcontCriteria = $criteria;
+
+		return $this->collLidetcroentconts;
+	}
+
+
+	
+	public function getLidetcroentcontsJoinLicroent($criteria = null, $con = null)
+	{
+				include_once 'lib/model/licitaciones/om/BaseLidetcroentcontPeer.php';
+		if ($criteria === null) {
+			$criteria = new Criteria();
+		}
+		elseif ($criteria instanceof Criteria)
+		{
+			$criteria = clone $criteria;
+		}
+
+		if ($this->collLidetcroentconts === null) {
+			if ($this->isNew()) {
+				$this->collLidetcroentconts = array();
+			} else {
+
+				$criteria->add(LidetcroentcontPeer::NUMENT, $this->getNument());
+
+				$this->collLidetcroentconts = LidetcroentcontPeer::doSelectJoinLicroent($criteria, $con);
+			}
+		} else {
+									
+			$criteria->add(LidetcroentcontPeer::NUMENT, $this->getNument());
+
+			if (!isset($this->lastLidetcroentcontCriteria) || !$this->lastLidetcroentcontCriteria->equals($criteria)) {
+				$this->collLidetcroentconts = LidetcroentcontPeer::doSelectJoinLicroent($criteria, $con);
+			}
+		}
+		$this->lastLidetcroentcontCriteria = $criteria;
+
+		return $this->collLidetcroentconts;
+	}
+
+} 

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/52811/web/php/siga/branches/productions/trunk/apps/facturacion/modules/faactpre/templates
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/52811/web/php/siga/branches/productions/trunk/apps/facturacion/modules/faactpre/templates/ajaxSuccess.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/facturacion/modules/faactpre/templates/editSuccess.php
+END
+gridSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/52811/web/php/siga/branches/productions/trunk/apps/facturacion/modules/faactpre/templates/gridSuccess.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/facturacion/modules/faactpre/templates/_edit_form.php
+END

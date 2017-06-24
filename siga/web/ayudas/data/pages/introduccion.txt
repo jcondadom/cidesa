@@ -1,0 +1,8 @@
+====== Introducción al Sistema======
+
+
+<wysiwyg name >>>>>33008AD8-D1B7-4739-A27F-FB64353077D1<p>&nbsp;En primer lugar lo definiremos como <b>Sistema de Informaci&oacute;n Automatizado para la Integraci&oacute;n de la Gesti&oacute;n Administrativa.</b></p><p><b>El&nbsp;Sistema&nbsp;</b>abarca el desarrollo de Sistemas de Base de Datos que integren procedimientos administrativos, manuales y automatizados, para asegurar, un flujo de informaci&oacute;n adecuado, actualizado y oportuno que sirva de soporte en la toma de decisiones de cada uno de los niveles de la organizaci&oacute;n con el fin de mejorar la gesti&oacute;n administrativa, financiera y no financiera de Institutos o Entes Aut&oacute;nomos.</p>33008AD8-D1B7-4739-A27F-FB64353077D1<<<<< />
+
+**El Sistema** está conformado por distintos Sub-Sistemas que conforman el siguiente Menú:
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/menuprincipalsiga1.jpg"></div></html>

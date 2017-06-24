@@ -1,0 +1,16 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Caordcom
+    theme:            cidesaGenerator
+    fields:
+      enviad: { name: Operación}
+      fecrec: { name: Fecha, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      grid: { name: .}
+    edit:
+      title:          Recepción y Envío de Ordenes de Compras 
+      display:
+        "NONE": [_enviad, fecrec]
+        "Ordenes de Compra": [_grid]
+      actions:
+        _save:        ~

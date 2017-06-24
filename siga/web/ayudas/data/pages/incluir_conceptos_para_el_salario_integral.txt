@@ -1,0 +1,15 @@
+====== Operación Incluir ======
+
+Para la operación de Registrar debe:  <html><br><br></html>
+
+  * Seleccionar de la  **Lista** el **Tipo de Nómina** a la cual se le asociará el **Concepto** para el **Salario Integral**. 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconsalintmod.jpg|}}"></div><br><br></html>
+
+  * El sistema mostrará por el **Tipo de Nómina** seleccionado y los **Conceptos asignados** a ella.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconsalintinc.jpg|}}"></div><br><br></html>
+
+  * Seleccionar de los Conceptos Por Asignar aquellos que formarán parte de los conceptos Asignados por Nómina para el Salario Integral.   <html><br><br></html>
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconsalintmod1.jpg|}}"></div><br><br></html>
+
+
+  * Presionar {{:btnguardar.jpg|}} para almacenar el registro. 

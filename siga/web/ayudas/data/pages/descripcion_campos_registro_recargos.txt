@@ -1,0 +1,23 @@
+Los campos que conforman la pantalla de **Registro de Recargos** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmartregrecinc1.jpg|}}"></div><br></html>
+
+  * En la **Sección Datos del Recargo** tenemos: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** El **Código** que identificará al Recargo.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** La **Descripción** del Recargo.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** **Tipo de Recargo:** Debe indicar si es de Tipo **Puntual** (si tiene un monto fijo) ó si es **Porcentual** (un porcentaje del costo del artículo o servicio al que se le este asociando al momento de hacer la orden de compra/servicio). 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** **Valor:** Refiere al valor del recargo que se esta definiendo. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmartregrecinc2.jpg|}}"></div><br></html>
+
+  * En la **Sección Datos del Título Presupuestario** al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema mostrará una [[Listas|Lista]] con los Títulos Presupuestarios registrados previamente en el sistema donde debe seleccionar el Título que se le asociará al Recargo y de acuerdo a como sea la definición de la Imputación del mismo hecha en la pantalla “**Definición de Artículos**”.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmartregrecinc3.jpg|}}"></div><br></html>
+
+  * En la **Sección Datos de la Cuenta Contable** al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema mostrará una [[Listas|Lista]] con las Cuentas Contables registradas previamente en el sistema donde debe seleccionar aquella que será la cuenta por pagar de la retención aplicada al recargo al momento de hacer la orden de pago de la orden de compra. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Registro de Recargos** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

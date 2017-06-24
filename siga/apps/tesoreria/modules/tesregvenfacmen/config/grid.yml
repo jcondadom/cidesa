@@ -1,0 +1,43 @@
+opciones:                  # Opciones generales
+  eliminar:                false
+  tabla:                   Opvenfacmen
+  anchogrid:               750
+  ancho:                   700
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Mes
+  tipo:                    t
+  nombrecampo:             mes
+  esgrabable:              true
+  oculta:                  true
+  html:                    [size="10" readonly=true]
+2:       # Columna 2
+  titulo:                  Mes
+  tipo:                    t
+  nombrecampo:             nommes
+  html:                    [size="10" readonly=true]  
+3:       # Columna 3
+  titulo:                  Monto Gravadas
+  tipo:                    m
+  nombrecampo:             mongra
+  esnumerico:              true
+  ajaxfila:                true
+  esgrabable:              true
+  html:                    [size="10"]
+4:       # Columna 4
+  titulo:                  Monto sin Gravadas
+  tipo:                    m
+  nombrecampo:             mosgra
+  esnumerico:              true
+  ajaxfila:                true
+  esgrabable:              true
+  html:                    [size="10"]
+5:       # Columna 5
+  titulo:                  Total
+  tipo:                    m
+  nombrecampo:             totmes
+  esnumerico:              true
+  esgrabable:              true
+  html:                    [size="10"  readonly=true]

@@ -1,0 +1,15 @@
+====== Operación Modificar ======
+
+Para la operación de Modificar debe:
+
+  * Seleccionar de la **Lista** el **Concepto** a modificar. 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefconmod.jpg|}}"></div><br></html>
+
+  * El sistema muestra los datos del **Concepto** seleccionado.  <html><br><br></html>
+
+  * Realice las modificaciones del Concepto seleccionado **(todos los datos son modificables menos el Código del Concepto)**   <html><br><br></html>
+
+  *  Presionamos  {{:btnguardar.jpg|}} para actualizar los datos. <html><br><br></html>
+ 
+  * El sistema emite un **Mensaje de Éxito**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

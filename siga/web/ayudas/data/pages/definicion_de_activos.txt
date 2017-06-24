@@ -1,0 +1,18 @@
+====== Definición de Activos ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite definir los Bienes Nacionales (Activos Fijos) o derechos en que se encuentran invertidos, los recursos de la empresa la cual se encuentran registradas en el Sub-Sistema. </html>
+
+Para ello:
+
+  * Seleccione la opción **Bienes Nacionales** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:bienac.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedef.jpg|}}"></div><br></html>
+ 
+  * Por último seleccione **Definición de Activos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedefact.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Definición de Activos** veamos la [[Descripcion_Campos_bienes_definicion_activos|Descripción de los Campos]]
+
+

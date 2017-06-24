@@ -1,0 +1,11 @@
+<?php use_helper('Object', 'Validation', 'ObjectAdmin', 'I18N', 'Date', 'Grid') ?>
+
+<?
+	echo grid_tag_v2($fapresup->getObj());
+?>
+
+<script type="text/javascript">
+if ($('id').value=='')
+ColocarNumeracionItem();
+
+</script>

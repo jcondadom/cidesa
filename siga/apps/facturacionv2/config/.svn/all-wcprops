@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repositorio/!svn/ver/49002/web/php/siga/branches/productions/trunk/apps/facturacionv2/config
+END
+factories.yml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/config/factories.yml
+END
+i18n.yml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/config/i18n.yml
+END
+app.yml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/config/app.yml
+END
+settings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/config/settings.yml
+END
+cache.yml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/config/cache.yml
+END
+config_handlers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/config/config_handlers.yml
+END
+logging.yml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/config/logging.yml
+END
+routing.yml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/config/routing.yml
+END
+security.yml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/config/security.yml
+END
+filters.yml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/config/filters.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/49002/web/php/siga/branches/productions/trunk/apps/facturacionv2/config/view.yml
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/config/config.php
+END

@@ -1,0 +1,66 @@
+===== Descripción de los Campos =====
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedefproinc1.jpg|}}"></div><br><br></html>
+
+  * Ingresar el **Código del Proveedor**, el cual dede ser un código alfanumérico único para cada proveedor, se recomienda usar el mismo número del RIF ya q este es único por cada proveedor. <html><br><br></html>
+
+  * Ingresar el **Nombre del Proveedor**. <html><br><br></html>
+
+  * En la Pestaña **Datos Personales** debe definir los siguientes datos:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- C.I.**  ó  **R.I.F.** del Proveedor: 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- N.I.T.** del proveedor.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Nacionalidad** del proveedor; si es Nacional ó Internacional
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Actividad Profesional**; en la cual se debe seleccionar si la actividad es de tipo Proveedor ó Contratista.
+
+ 
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Direccion de ubicación** del proveedor
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Teléfono de contacto **
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Número de Fax **
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Número de RNC **
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- E-mail** 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Ramo al que provee **
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Limite de Crédito** que posee el proveedor.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Cuenta Contable Asociada**; en la cual se indica la cuenta por pagar al proveedor, este dato es importante y siempre debe ser ingresado cada vez que se registre un proveedor. Esto es necesario ya que un proveedor al que se le haga una orden de compra pasa luego a ser un beneficiario al que se le generara una deuda. Al emitir la orden de pago de ese proveedor el Sistema genera un comprobante contable en el que ve reflejada la cuenta por pagar previamente asociada al proveedor contra las cuentas de gasto. Es indispensable crear la cuenta contable en el módulo de contabilidad previamente de forma tal que al momento de registrar un proveedor, poder seleccionar del catalogo la cuenta asociada a este.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Cuenta de Orden Asociada**; las cuales son asociaciones contables que se le pueden dar a un proveedor en el caso de que se desee llevar información contable de las ordenes de compra/servicio, se usan las cuentas “4” y la inclusión de estas cuentas no es algo obligatorio. En la parte superior derecha del formulario existe un botón con una letra “C” haciendo clic en este se vera que existe un opción en la cal se puede asociar cuentas contables a los movimientos de inventario.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Cuenta PerContra asociada**.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Fecha de Inscripción** como proveedor a la institución.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedefproinc2.jpg|}}"></div><br><br></html>
+
+  * Seguidamente en la Pestaña **Datos del Registro** se deben definir los siguientes datos:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Circunscripción Judicial**.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Fecha del registro**.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Número de Registro Mercantil**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Folio del registro**.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Tomo**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Capital Pagado**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Capital Suscrito**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Datos Persona Contacto** a la cual se contacta, para suministrar información de los artículos o servicios solicitados; se registra la **Cédula, Nombre y Dirección de la persona de contacto**
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedefproinc3.jpg|}}"></div><br><br></html>
+
+  * En la pestaña **Recaudos** debe seleccionar del catálogo el grupo de recaudos al cual pertenece el proveedor y el sistema automáticamente mostrará los posibles grupos de recaudos solicitados de acuerdo al grupo seleccionado previamente, los cuales se podrán actualizar como consignados cada vez que el proveedor lo haya hecho.<html>&nbsp;&nbsp;</html>Para esto simplemente seleccionamos el recaudo y hacemos clic al **botón** {{:btnagregar1.jpg|}}. Si se selecciono el recaudo equivocado, se selecciona nuevamente y se hace clic en el botón {{:btnagregar2.jpg|}}. <html><br><br></html> 
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Definición de Empresa** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

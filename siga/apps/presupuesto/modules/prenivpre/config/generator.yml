@@ -1,0 +1,57 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cpdefniv
+    theme:            cidesaGenerator
+    fields:
+      nomemp:  { name: ., params: size=50 readOnly=true, help: Nombre de la empresa}
+      rupcat:  { name: Clasifi. de Categorías, help: a}
+      ruppar:  { name: Clasifi. de Partidas, help: a}
+      nivdis:  { name: Nivel Disponibilidad, help: a}
+      forpre:  { name: Formato Código Presupuestario, params: readOnly=true, help: a}
+      fecini:  { name: Inicio de Ejercicio, params: onBlur=validarFecini(), help: a}
+      feccie:  { name: Fin de Ejercicio, params: onBlur=validarFeccie(), help: a}
+      fecper:  { name: Período, help: a}
+      asiper:  { name: Asignación Periodica, help: a}
+      numper:  { name: Número de Períodos, help: a}
+      grid:    { name: .}
+      gridper: { name: . }
+      repsoltrasla1: { name: Nombre Reporte Solicitud de Traslados, params: size=40 maxlength=50 }
+      repsoltrasla2: { name: Nombre Reporte Traslados, params: size=40 maxlength=50 }
+      repsoladidis1: { name: Nombre Reporte Solicitud de Créditos/Adiciones, params: size=40 maxlength=50 }
+      repsoladidis2: { name: Nombre Reporte Créditos/Adiciones, params: size=40 maxlength=50 }
+      tipcom:
+        name: Tipo Compromiso Cierre de Nómina
+        catalogo:
+          catalogoweb: Cpdoccom_Almordcom
+          clase: Cpdoccom
+          ajax: 3
+          parametros: getprincipal="getTipcom" getsecundario="getNomdoc" campoprincipal="tipcom" camposecundario="nomdoc" campobase = "id"
+      cedrif:
+        name: Cedula/Rif Cierre de Nómina
+        catalogo:
+          catalogoweb: Preprecom_Opbenefi
+          clase: Opbenefi
+          ajax: 4
+          parametros: getprincipal="getCedrif" getsecundario="getNomben" campoprincipal="cedrif" camposecundario="nomben" campobase = "id"
+      tipcau:
+        name: Tipo Causado Fondo de Anticipo
+        catalogo:
+          catalogoweb: Precausar_Cpdoccau
+          clase: Cpdoccau
+          ajax: 2
+          parametros: getprincipal="getTipcau" getsecundario="getNomext" campoprincipal="tipcau" camposecundario="nomext" campobase = "id"
+      nomdirpre: { name: Nombre Director Presupuesto, params : size=80 maxlength=250  }
+      cardirpre: { name: Cargo Director Presupuesto, params : size=80 maxlength=250  }
+    edit:
+      title:                                 Niveles Presupuestarios
+      display:
+        Nombre Empresa:                      [nomemp]
+        Datos del Código Presupuestario:     [_rupcat, _ruppar, _nivdis]
+        NONE:                                [_grid, forpre]
+        Configuraciones Generales:           [fecini, feccie, fecper, _asiper, _numper, tipcom, cedrif, tipcau]
+        Distribución de los Períodos:        [_gridper]
+        Datos Reportes:                      [repsoladidis1, repsoladidis2, nomdirpre, cardirpre]
+      hide:  [defcod]
+      actions:
+        _save:        ~

@@ -1,0 +1,27 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   facliper
+  anchogrid:               790
+  ancho:                   790
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nomper
+  esgrabable:              true
+  html:                    [size="25" maxlength=200]
+2:       # Columna 2
+  titulo:                  Direccion
+  tipo:                    t
+  nombrecampo:             dirper
+  esgrabable:              true
+  html:                    [size="40" maxlength=500]
+3:       # Columna 3
+  titulo:                  Telefono
+  tipo:                    t
+  nombrecampo:             telper
+  esgrabable:              true
+  html:                    [size="15" maxlength=50]

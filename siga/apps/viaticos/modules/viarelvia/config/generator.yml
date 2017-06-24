@@ -1,0 +1,50 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Viarelvia
+    theme:            cidesaGenerator
+    fields:
+      numrel:         { name: Nro. de Relación, params: maxlength=10 size=10  onBlur="rellenarcorr(this.id)"  }
+      fecrel:         { name: Fecha Relación }
+      tipcom:
+        name: Compromiso
+        msj_error: El Código es necesario
+        catalogo:
+          catalogoweb: Cpdoccom_Predoccom
+          clase: Cpdoccom
+          ajax: 0
+          parametros: getprincipal="getTipcom" getsecundario="getNomext" campoprincipal="tipcom" camposecundario="nomext" campobase = "id"
+      desrel:         { name: Descripción }
+      grid:           { name: .}
+      js:             { name: .}
+      compromiso:     { name: ., params: size=100 style="border:none;text-align:center;color:red;font-size:medium;font-weight:bold"}
+      monbol:         { name: Monto Bolsa}
+      totfac:         { name: Total Facturas, params: readonly=true}
+      codmon:         { name: Moneda}
+      valmon:         { name: Valor}
+      mondif:         { name: Diferencia}
+      intemb:      { name: ., params: style="border:none"}
+      codemp:
+        name: Empleado
+        msj_error: El Código del Empleado es necesario
+        catalogo:
+          catalogoweb: Nominctratxt_Nphojint
+          clase: Nphojint
+          ajax: 2
+          parametros: getprincipal="getCodemp" getsecundario="getNomemp" campoprincipal="codemp" camposecundario="nomemp" campobase = "id"
+    list:
+      title:          Listado de Relaciones de Gastos Adicionales
+      display:        [=numrel, fecrel, tipcom]
+      filters:        [numrel, fecrel, tipcom]
+      sort:           numrel
+
+    edit:
+      title:          Edición de Relaciones de Gastos Adicionales
+      display:
+        Datos Generales de la Relación:     [compromiso, numrel, fecrel, _codmon, valmon, tipcom, desrel]
+        Detalle de la Relación:             [monbol, totfac, mondif, intemb, _grid, _js]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

@@ -1,0 +1,46 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Mancarlub
+    theme:            cidesaGenerator
+    fields:
+      numequ:
+        name: Código de Equipo
+        catalogo:
+          catalogoweb: Mantenimiento_Manregequ
+          clase: Manregequ
+          ajax: 1
+          parametros: getprincipal="getNumequ" getsecundario="getNomequ" campoprincipal="numequ" camposecundario="nomequ" campobase = "id"          
+      centro: { name: Centro de Costo, params: style="border:none" size=80}
+      estatus: { name: Estatus, params: style="border:none" size=80}
+      tipequ: { name: Tipo del Equipo, params: style="border:none" size=80}
+      fecreg: { name: Fecha, params: date_format='dd/MM/yyyy' maxlength=10}  
+      nomequ: { name: Descripción}   
+      codtlu:
+        name: Tipo de Lubricante
+        catalogo:
+          catalogoweb: Mantenimiento_Mantiplub
+          clase: Mantiplub
+          ajax: 2
+          parametros: getprincipal="getCodtlu" getsecundario="getDestlu" campoprincipal="codtlu" camposecundario="destlu" campobase = "id"          
+      lubric: { name: Es, params: style="border:none" size=40}
+      unidad: { name: Unidad de medida, params: style="border:none" size=60}
+      cancar: { name: Cantidad}
+    list:
+      title:          Carga de Lubricantes o Cumbustible
+      display:        [=numequ, nomequ, fecreg]
+      filters:        [numequ]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           numequ
+    edit:
+      title:          Edición de Carga de Lubricantes o Cumbustible
+      display:
+        "NONE": [numequ, centro, estatus, tipequ, fecreg, codtlu, lubric, unidad, cancar]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

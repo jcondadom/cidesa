@@ -1,0 +1,35 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Bncatest
+    theme:            cidesaGenerator
+    fields:
+      cedest: { name: Cédula, params: size=15 maxlength=10 onFocus=readonly(this.id)}
+      nomapeest: { name: Nombres y Apellidos, params: maxlength=150 size=80}
+      direst: { name: Dirección, params: maxlength=500 size=80}
+      telest: { name: Teléfono, params: maxlength=30 size=40}
+      cedrep: { name: Cédula, params: size=15 maxlength=10}
+      nomaperep: { name: Nombres y Apellidos, params: maxlength=150 size=80}
+    list:
+      title:          Estudiantes
+      filters:        [cedest]
+      fields:
+        cedest: { name: Cédula, params: size=15 maxlength=10}
+        nomapeest: { name: Nombres y Apellidos, params: maxlength=150 size=15}
+        nomaperep: { name: Representante, params: maxlength=150 size=15}
+      display:        [=cedest, nomapeest, nomaperep]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           cedest
+    edit:
+      title:          Edición de Estudiante
+      display:
+        "Datos del Estudiante": [cedest, nomapeest, direst, telest]
+        "Datos del Representante": [cedrep, nomaperep]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

@@ -1,0 +1,56 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Casolart
+    theme:            cidesaGenerator
+    fields:
+      reqart: { name: Referencia, params: size=10 maxlength=8 onFocus=readonly(this.id) onBlur="enter(this.value);"}
+      fecreq: { name: Fecha, params: date_format='dd/MM/yyyy' maxlength=10}
+      desreq: { name: Descripción, type: textarea_tag, params: size=80x5 maxlength=1000 onkeyup="javascript:return ismaxlength(this)"}
+      unires:
+        name: Unidad Solicitante
+        catalogo:
+          catalogoweb: Npcatpre_Almsolegr
+          clase: Npcatpre
+          ajax: 1
+          parametros: getprincipal="getUnires" getsecundario="getNomcat" campoprincipal="unires" camposecundario="nomcat" campobase = "id"
+          catalogoparams: /param1/'."'+$('casolart_loncat').value+'".'
+      tipfin:
+        name: Tipo de Financiamiento
+        params: size=10 maxlength=4
+        catalogo:
+          catalogoweb: Fortipfin_Almordcom
+          clase: Fortipfin
+          ajax: 2
+          parametros: getprincipal="getTipfin" getsecundario="getNomext" campoprincipal="tipfin" camposecundario="nomext" campobase = "id"
+      monreq: { name: Monto Total}
+      tipmon: { name: Moneda}
+      valmon: { name: Valor}
+      tipreq: { name: Tipo}
+      grid: { name: . }
+      grid2: { name: . }
+      grid3: { name: . }
+      js: { name: . }
+      fecdes:           { name: Fecha Desde}
+      fechas:           { name: Fecha Hasta}
+    list:
+      title:          Consolidación de Requisiciones
+      filters:        [reqart, fecreq]
+      display:        [=reqart, fecreq]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           reqart
+    edit:
+      title:          Edición de Consolidación de Requisiciones
+      display:
+        "Datos Generales": [reqart, fecreq, _tipmon, valmon, _tipreq, unires, tipfin, desreq, monreq]
+        "Solicitudes": [_fecdes, _fechas, _grid2, _grid]
+        "NONE": [_grid3, _js]
+      hide: [loncat, filtotdet, actualfila]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

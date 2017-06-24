@@ -1,0 +1,29 @@
+opciones:                  # Opciones generales
+  name:                    g
+  eliminar:                true
+  tabla:                   caparfabart
+  anchogrid:               600
+  ancho:                   550
+  filas:                   1
+  titulo:                  'N° Partes por Fabricante'
+  htmltotalfilas:          ' '
+1:
+  titulo:                  Número de Partes
+  tipo:                    t
+  nombrecampo:             numpar
+  esgrabable:              true
+  html:                    ["size=20 maxlength=30"]
+2:
+  titulo:                  Fabricante
+  tipo:                    t
+  nombrecampo:             codfab
+  esgrabable:              true
+  html:                    ["size=10 maxlength=4"]
+  ajaxgrid:                true
+  catalogo:                [mandeffab, sf_admin_edit_form, {Codfab: 2, Desfab: 3}, Mantenimiento_Mandeffab ]
+3:
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desfab
+  esgrabable:              true
+  html:                    ["size=30 readonly=true"]    

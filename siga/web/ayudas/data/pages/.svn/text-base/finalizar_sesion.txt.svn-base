@@ -1,0 +1,12 @@
+====== ¿ Cómo salir de una Sesión iniciada en SIGA ? ======
+<wysiwyg name >>>>>33008AD8-D1B7-4739-A27F-FB64353077D1<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cuando un Usuario determinado ingresa al sistema SIGA autom&aacute;ticamente se inicia una sesi&oacute;n personalizada para &eacute;ste. Una vez que el usuario termine de ejecutar procesos dentro del sistema, lo m&aacute;s conveniente es que cierre la sesi&oacute;n para evitar que personas ajenas al sistema o sin previa autorizaci&oacute;n puedan operarlo.</p>33008AD8-D1B7-4739-A27F-FB64353077D1<<<<< />
+
+Para iniciar una sesión iniciada en SIGA el usuario debe:
+
+  * Hacer click en la opción **Cerrar Sesión** que se encuentra en la esquina superior derecha del Menú Principal del usuario.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/cerrarsesion.jpg"></div><br><br></html>
+
+
+  * Una vez cerrada la sesión el sistema lleva al usuario a la Página Principal de SIGA
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/paginainicialsiga.jpg"></div><br></html>
+

@@ -1,0 +1,64 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Viasolbolaer
+    theme:            cidesaGenerator
+    fields:
+      numsol: { name: N° Solicitud, params: size=10 maxlength=8 onBlur="event.keyCode=13; enter(event,this.value);"}
+      fecsol: { name: Fecha, params: date_format='dd/MM/yyyy' maxlength=10}
+      coddirec:
+        name: Dirección
+        params: size=3 maxlength=15
+        catalogo:
+          catalogoweb: Cadefdirec_Almdefdiv
+          clase: cadefdirec
+          ajax: 1
+          parametros: getprincipal="getCoddirec" getsecundario="getDesdirec" campoprincipal="coddirec" camposecundario="desdirec" campobase = "id"
+      codeve:
+        name: Evento
+        params: size=10 maxlength=6 
+        catalogo:
+          catalogoweb: Preprecom_Cpevepre
+          clase: Cpevepre
+          ajax: 2
+          parametros: getprincipal="getCodeve" getsecundario="getDeseve" campoprincipal="codeve" camposecundario="deseve" campobase = "id"
+      codniv:
+        name: Unidad Solicitante/Núcleo
+        params: size=20 maxlength=16 
+        catalogo:
+          catalogoweb: Npestorg_Nomreghorprofnuc
+          clase: Npestorg
+          ajax: 3
+          parametros: getprincipal="getCodniv" getsecundario="getDesniv" campoprincipal="codniv" camposecundario="desniv" campobase = "id"                    
+      apeperpas: { name: Apellidos, params: maxlength=50 size=55}
+      nomperpas: { name: nombres, params: maxlength=50 size=55}
+      fecsal: { name: Fecha Salida, params: date_format='dd/MM/yyyy' maxlength=10}
+      horsal: { name: Hora de Salida}
+      fecreg: { name: Fecha Regreso, params: date_format='dd/MM/yyyy' maxlength=10}
+      horreg: { name: Hora de Regreso}
+      rutbolaer: { name: Ruta, type: textarea_tag, params: size=80x3 maxlength=200 onkeyup="javascript:return ismaxlength(this)"}
+      motviabol: { name: Motivo, type: textarea_tag, params: size=80x3 maxlength=500 onkeyup="javascript:return ismaxlength(this)"}
+      js: { name: .}
+      tippas: { name: Tipo de Pasaje}
+      numsolvi: { name: N° Solicitud de Viáticos}
+      grid: { name: .}
+      idavue: { name: .}
+      btnrep: { name: .}
+    list:
+      title:          Solicitudes de Boleto Áereo
+      filters:        [numsol, fecsol, numsolvi]
+      display:        [=numsol, fecsol, numsolvi]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           numsol
+    edit:
+      title:          Edición de Solicitud de Boleto Áereo
+      display:
+        "Datos": [_btnrep, numsol, fecsol, coddirec, codeve, codniv, _grid, _tippas, _idavue, fecsal, horsal, fecreg, horreg, rutbolaer, motviabol, numsolvi, _js]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

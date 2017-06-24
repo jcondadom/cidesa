@@ -1,0 +1,36 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   Npdettur
+  anchogrid:               900
+  ancho:                   800
+  filas:                   1
+  titulo:                  ' Jornadas '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Cod. Jornada
+  tipo:                    t
+  nombrecampo:             codjor
+  html:                    ["size=10 maxlength=2 "]
+  esgrabable:              true
+  catalogo:                [Npjortur, sf_admin_edit_form, {Codjor: 1, Desjor: 2}, Npjortur_Nomasocptjor ]
+  ajaxgrid:                true
+  ajaxadicionales:         {0: npturnos_codtur}
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desjor
+  html:                    ["size=40 readonly=true"]
+  esgrabable:              true  
+3:       # Columna 3
+  titulo:                  Cant. Días
+  tipo:                    t
+  nombrecampo:             dia
+  html:                    ["size=10 "]
+  esgrabable:              true
+4:       # Columna 4
+  titulo:                  Orden
+  tipo:                    t
+  nombrecampo:             orden
+  html:                    ["size=10 readonly=true"]
+  esgrabable:              true  

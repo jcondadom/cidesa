@@ -1,0 +1,28 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Catraalm
+    theme:            cidesaGenerator
+    fields:
+     fectra:  {  name: Fecha, params: date_format='dd/MM/yyyy'}
+     grid:  { name: .}
+     codalm:
+        name: Almacen Destino
+        params: size=20 maxlength=20
+        catalogo:
+          catalogoweb:  Cadefalm_Almtraspaso
+          clase: Cadefalm
+          ajax: 1
+          parametros: getprincipal="getCodalm" getsecundario="getNomalm" campoprincipal="codalm" camposecundario="nomalm" campobase = "id"
+          divupdate: divgrid
+          ajaxparams: +'."'".'&fecha='."'+$('catraalm_fectra').value".'
+     
+    edit:
+      title:          Aprobación de Traspasos con Diferencias
+      display:
+        "Datos de Consulta":   [ _fectra, codalm ]
+        NONE : [ _grid]
+      actions:
+        _list:        NONE
+        _save:        ~
+        _delete:      NONE

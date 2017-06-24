@@ -1,0 +1,30 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Bnparroq
+    theme:            cidesaGenerator
+    fields:
+      bnmunicip_codmun: { name: Municipio}
+      nommun: { name: Municipio}
+      codpar: { name: Código, params: size=10 maxlength=6 onFocus=readonly(this.id) onBlur="this.value=this.value.pad(6, '0',0);"}
+      nompar: { name: Descripción, params: size=80 maxlength=500 onBlur="cadena=this.value;cadena=cadena.toUpperCase(); $(this.id).value=cadena"}
+    list:
+      title:          Parroquias
+      fields:
+        codpar: { name: Código, params: size=10 maxlength=6 }
+        nompar: { name: Descripción, params: size=20 maxlength=500  }
+      filters:        [bnmunicip_codmun, codpar, nompar]
+      display:        [=codpar, nompar, nommun]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:  10
+      sort: codpar
+    edit:
+      title:          Edición de Parroquia
+      display:        [bnmunicip_codmun, codpar, nompar]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

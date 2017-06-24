@@ -1,0 +1,81 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   viadetrelvia
+  anchogrid:               1000
+  ancho:                   900
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 2
+  titulo:                  Código Artículo
+  tipo:                    t
+  nombrecampo:             codart
+  esgrabable:              true  
+  ajaxgrid:                true
+  html:                    [ size=10 ]
+2:       # Columna 3
+  titulo:                  Descripcion
+  tipo:                    t
+  nombrecampo:             desart
+  esgrabable:              false
+  html:                    [ readonly=true size=30 ]
+3:       # Columna 4
+  titulo:                  Numero de Factura
+  tipo:                    t
+  nombrecampo:             numfac
+  esgrabable:              true
+  html:                    [size=15 maxlength=50]
+4:       # Columna 5
+  titulo:                  Fecha de Factura
+  tipo:                    f
+  nombrecampo:             fecfac
+  esgrabable:              true
+  html:                    [size=15 maxlength=10]
+5:       # Columna 5
+  titulo:                  Monto Neto
+  tipo:                    m
+  nombrecampo:             montonet
+  esgrabable:              true
+  html:                    [size=15 onBlur='ValidarMontoGridv2(this); totalizar(); calculardif(this.id);']
+  #estotal:                 [true, viarelvia_totfac]
+6:       # Columna 6
+  titulo:                  Monto Recargo
+  tipo:                    m
+  nombrecampo:             montorec
+  esgrabable:              true
+  html:                    [ size=15 onBlur='ValidarMontoGridv2(this); totalizar(); calculardif(this.id);']
+7:       # Columna 7
+  titulo:                  Cod. Unidad
+  tipo:                    t
+  nombrecampo:             codcat
+  esgrabable:              true
+  ajaxgrid:                true
+  html:                    [ size=20]
+8:       # Columna 8
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nomcat
+  esgrabable:              false
+  html:                    [ size=30 readonly=true]
+9:       # Columna 9
+  titulo:                  Partida
+  tipo:                    t
+  nombrecampo:             codpar
+  esgrabable:              true
+  #catalogo:                [nppartidas, sf_admin_edit_form, {Codpar: 9, Nompar: 10}, Nppartidas_Almregart ]
+  html:                    [ size=20 readonly=true]
+10:       # Columna 10
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nompar
+  esgrabable:              false
+  html:                    [ size=25 readonly=true ]
+11:       # Columna 11
+  titulo:                  Referencia Solicitud
+  tipo:                    t
+  nombrecampo:             refsol
+  esgrabable:              true
+  ajaxgrid:                true
+  catalogo:                [viasolviatra, sf_admin_edit_form, {Numsol: 11}, Viacalviatra_numsolvia ]
+  html:                    [ size=15 maxlength=10]

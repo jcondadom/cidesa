@@ -1,0 +1,13 @@
+Los campos que conforman la pantalla de **Aprobación de Solicitud de Egresos** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmaprobsolegreinc1.jpg|}}"></div><br></html>
+
+  * Al ingresar en la pantalla **Aprobación de Solicitud de Egresos** podrá visualizar en una tabla todas las [[Requisiciones_por_Departamento_Solicitud_de_Egreso|Solicitudes de Egreso]]  que fueron registradas anteriormente en el sistema y que a su vez no hallan sido aprobadas. <html><br><br></html>
+
+  * En la **Columna Actualizar** debe marcar aquellas Requisiciones que desea sean aprobadas, como lo muestra la figura anterior. <html><br><br></html>
+
+  * Luego de seleccionar las Solicitudes que desea aprobar presione el **Botón** {{:btnguardar.jpg|}} 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>
+
+  * Automáticamente el sistema emite un mensaje de Éxito y mostrará sólo las Solicitudes de Egreso que falten por aprobar. A partir de este momento se puede proceder a elaborar la [[Ordenes_de_Compra_y/o_Servicios|Orden de Compra]] en el sistema.

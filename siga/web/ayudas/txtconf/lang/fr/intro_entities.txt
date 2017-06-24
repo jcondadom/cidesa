@@ -1,0 +1,11 @@
+====== Genstionaire des Config Texte: Entities ======
+
+Utiliser cette page pour gerer la liste des //Entites// de votre intallation de Dokuwiki.\\
+
+Use this page to Manage the Entites List of your Dokuwiki installation.\\
+Que sont les Entites? Voir [[doku>wiki:entities]].\\
+Et egalement [[wp>List_of_XML_and_HTML_character_entity_references|Wikipedia list of entities]]
+
+Pour plus de details a propos de ce plugin, voir [[doku>plugin:txtconf]].
+
+Assurez-vous d'appuyer le bouton **Sauver** avant de quitter cette page, sinon vos modifications seront perdues.

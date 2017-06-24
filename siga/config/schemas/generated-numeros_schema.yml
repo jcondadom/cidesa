@@ -1,0 +1,40 @@
+---
+propel: 
+  _attributes: 
+    noXsd: false
+    defaultIdMethod: native
+    package: lib.model
+  numeros: 
+    num: 
+      type: NUMERIC
+      size: 3
+      required: true
+    pos: 
+      type: NUMERIC
+      size: 3
+      required: true
+    nomnum: 
+      type: VARCHAR
+      size: 20
+    id: 
+      type: integer
+      required: true
+      primaryKey: true
+      autoincrement: true
+  numerosnew: 
+    num: 
+      type: NUMERIC
+      size: 3
+      required: true
+    pos: 
+      type: NUMERIC
+      size: 3
+      required: true
+    nomnum: 
+      type: VARCHAR
+      size: 20
+    id: 
+      type: integer
+      required: true
+      primaryKey: true
+      autoincrement: true

@@ -1,0 +1,35 @@
+opciones:                  # Opciones generales
+  name:                    f
+  eliminar:                true
+  tabla:                   caunialart
+  anchogrid:               700
+  ancho:                   500
+  filas:                   1
+  titulo:                  'Unidades Alternas'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             codunimed
+  esgrabable:              true
+  ajaxgrid:                true
+  html:                    ["size=10 maxlength=6"]
+  catalogo:                [cadefunimed, sf_admin_edit_form, { Codunimed: 1, Desunimed: 2}, Cadefunimed_Almregart ]
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desunimed
+  html:                    ["size=40 readonly=true "]  
+3:       # Columna 3
+  titulo:                  Relación
+  tipo:                    t
+  nombrecampo:             relart
+  esgrabable:              true
+  html:                    ["size=20 maxlength=15"]
+4:       # Columna 4
+  titulo:                  Unidad
+  tipo:                    t
+  nombrecampo:             unialt
+  esgrabable:              true
+  oculta:                  true
+  html:                    ["size=20 maxlength=15"]  

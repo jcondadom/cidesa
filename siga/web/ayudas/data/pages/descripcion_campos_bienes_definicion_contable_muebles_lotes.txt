@@ -1,0 +1,33 @@
+===== Descripción de Campos =====
+
+  * Seleccione en **Código de Nivel** el código del Bien ó Activo Mueble **Desde y Hasta** definido por la Contraloría General de la República que conformará el lote de muebles para el cual realizará la definición contable. <html><br><br></html>
+
+  * En la sección **Incorporación/Desincorporación**: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seleccione en **Cuenta a cargar** el número de identificación de la cuenta que se vaya a cargar del Bien (Activos Fijos).
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seleccione en **Cuenta a Abonar** Cuenta a abonar el número de identificación de la cuenta que se vaya a abonar del Bien (Activos Fijos).
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedefcontmueenlotesinc1.jpg|}}"></div><br></html>
+
+  * En la **sección Depreciación Mensual**:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-**Seleccione en **Cuenta a cargar** el número de identificación de la cuenta que se vaya a cargar del Bien (Activos Fijos).
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seleccione en **Cuenta a abonar** el número de identificación de la cuenta que se vaya a abonar del Bien (Activos Fijos).<html><br><br></html>
+
+  * En la **sección Depreciación Acumulada**:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-**Seleccione en **Cuenta a cargar** el número de identificación de la cuenta que se vaya a cargar del Bien (Activos Fijos).
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seleccione en **Cuenta a abonar** el número de identificación de la cuenta que se vaya a abonar del Bien (Activos Fijos).
+
+  * En la **sección Pérdida por Desincorporación**:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-**Seleccione en **Cuenta a cargar** el número de identificación de la cuenta que se vaya a cargar del Bien (Activos Fijos).
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seleccione en **Cuenta a abonar** el número de identificación de la cuenta que se vaya a abonar del Bien (Activos Fijos).
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedefcontmueenlotesinc2.jpg|}}"></div><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Definición Contable de Muebles por Lotes** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

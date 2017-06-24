@@ -1,0 +1,18 @@
+====== Operación Incluir ======
+
+Para **Registrar** la **Tabla para los Dias de Disfrute**:  <html><br><br></html>
+
+  * Presione el Botón {{:btnnuevo.jpg|}}  <html><br><br></html>
+
+  * Seleccione la **Nómina** para la cual se registrarán los dias de disfrute de vacaciones que le corresponden a todos los empleados que pertenecen a ella.<html><br><br></html>
+
+  * Indicar en **Rango Desde** los Años de Antiguedad Desde que se definirán los Dias de Disfrute para la Nómina seleccionada.
+ 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompertabdiasdisinc1.jpg|}}"></div><br></html>
+
+  * Indicar en **Rango Hasta** los Años de Antiguedad Hasta que se definirán los Dias de Disfrute para la Nómina seleccionada.<html><br><br></html>
+  
+  * Indicar los **Dias de Disfrute** según los Años de Antiguedad de la nómina seleccionada.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompertabdiasdisinc2.jpg|}}"></div><br></html>
+
+  * Presionar {{:btnguardar.jpg|}} para almacenar el registro.  <html><br><br></html>

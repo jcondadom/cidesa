@@ -1,0 +1,16 @@
+======Tipos de Retenciones======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite registrar la información relacionada con los diferentes movimientos aplicados en una orden de pago, los cuales retienen parte del monto del recargo aplicado por un beneficiario a la institución </html>
+
+**Para ello:**
+
+  * Seleccione la opción **Tesorería ó Banco** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesban.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbandefesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Tipos de Retenciones**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbantipret.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Tipos de Retenciones** veamos la [[Descripcion_Campos_tipos_retenciones|Descripción de los Campos]]

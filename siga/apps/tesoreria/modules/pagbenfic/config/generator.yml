@@ -1,0 +1,64 @@
+generator:
+  class:              sfPropelAdminGenerator
+  param:
+    model_class:      Opbenefi
+    theme:            default
+
+    fields:
+      cedrif:        { name: C.I o R.I.F }
+      nomben:        { name: Nombre o Razon Social }
+      nitben:        { name: N.I.T }
+      tipper:        { name: Tipo de Persona }
+      nacionalidad:  { name: Nacionalidad }
+      residente:     { name: Residente }
+      constituida:   { name: Constituida }
+      dirben:        { name: Direccion }
+      telben:        { name: Telefono }
+      codcta:        { name: Codigo Contable }
+      codord:        { name: Cuenta de Orden }
+      codpercon:     { name: Cuenta Percontra }
+      codtipben:     { name: Tipo de Beneficiario }
+      tipobene:      { name: Tipo de Beneficiario }
+      codctasec:     { name: Cuenta Contable }
+      codordadi:     { name: Cuenta de Orden }
+      codperconadi:  { name: Cuenta Percontra }
+      codctacajchi:  { name: Cta. Caja Chica }
+      numcue:  { name: Cuenta Bancaria }
+      codctaant:     { name: Cuenta x Cobrar Fondos de Anticipo }
+      numcueb:  { name: N° de Cuenta }
+      banint:  { name: Banco , type: textarea_tag, params: size=80x2 maxlength=100 onkeyup="javascript:return ismaxlength(this)"}
+      numcueint:  { name: N° de Cuenta, params: size=25 maxlength=20}
+      dirbanint:  { name: Dirección del Banco, type: textarea_tag, params: size=80x2 maxlength=200 onkeyup="javascript:return ismaxlength(this)"}
+      codswiint:  { name: Código Swift, params: size=25 maxlength=20}
+      numabaint:  { name: N° ABA , params: size=25 maxlength=20}
+      numibaint:  { name: N° IBAN, params: size=25 maxlength=20}
+      numrouint:  { name: N° ROUTING, params: size=25 maxlength=20}
+      banben:  { name: Banco, type: textarea_tag, params: size=80x2 maxlength=100 onkeyup="javascript:return ismaxlength(this)"}
+      numcueben:  { name: N° de Cuenta, params: size=25 maxlength=20}
+      dirbanben:  { name: Dirección del Banco, type: textarea_tag, params: size=80x2 maxlength=200 onkeyup="javascript:return ismaxlength(this)"}
+      codswiben:  { name: Código Swift, params: size=25 maxlength=20}
+      numababen:  { name: N° ABA, params: size=25 maxlength=20}
+      numibaben:  { name: N° IBAN, params: size=25 maxlength=20}
+      numrouben:  { name: N° ROUTING, params: size=25 maxlength=20}    
+      codcopant:  { name: Cuenta Contable OP de Anticipo }  
+      cedben:        { name: C.I}
+      codtipban:        { name: Tipo de Cuenta}
+      codban:        { name: Banco}
+      email:        { name: Correo Electrónico}
+    list:
+      title:          Beneficiarios
+      display:        [=cedrif, nomben, dirben, telben, tipobene, tipper, nacionalidad, codcta]
+      filters:        [cedrif, nomben]
+      sort:           cedrif
+      max_per_page:   10
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+
+    edit:
+      title:          Edición de Beneficiarios
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

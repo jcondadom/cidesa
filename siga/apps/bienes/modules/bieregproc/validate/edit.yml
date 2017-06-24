@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "bndefpro{codproc}"
+   - "bndefpro{desproc}"
+
+names:
+  bndefpro{codproc}:
+    required:  Yes
+    required_msg: El Código no puedo estar en Blanco
+    validators: Validator_codproc
+
+  bndefpro{desproc}:
+    required:  Yes
+    required_msg: La Descripción no puedo estar en Blanco
+    validators: Validator_desproc
+
+Validator_codproc:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Bndefpro
+        column:       codproc
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_desproc:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caracteres
+        max:       250
+        max_error: La descripción no puede pasar mas de 250 caracteres

@@ -1,0 +1,24 @@
+====== Operación Consultar ======
+
+**Para consultar una Concepto para el Salario Integral utilizando el Botón Lista:**   <html><br><br></html>
+
+  * Presione el **Botón**  {{:btnlista.jpg|}}    <html><br><br></html>
+
+  * Seleccione de la **Lista** el **Tipo de Nómina** para la cual desea consultar el **Concepto asignado para el Salario Integral.**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconsalintmod.jpg|}}"></div><br></html>
+
+  * El sistema automáticamente muestra los **Conceptos para el Salario Integral** asociados al **Tipo de Nómina** seleccionado.
+
+  * Si desea consultar un nuevo Concepto debe presionar nuevamente el** Botón** {{:btnlista.jpg|}}  y repetir los pasos anteriores.
+ 
+<html><br><br></html>
+
+
+**Para consultar datos desde el Inicio de la pantalla de Conceptos para el Salario Integral:**  <html><br><br></html>
+
+  * El sistema muestra la **Lista** de los **Tipos de Nóminas** a los cuales se les asocia un grupo de **Conceptos para el Salario Integral.**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconsalintmod.jpg|}}"></div><br></html>
+
+  * Seleccione de la Lista el **Tipo de Nómina** para la cual desea consultar el Concepto asignado para el Salario Integral.  <html><br><br></html>
+
+  * El sistema automáticamente muestra los Conceptos para el Salario Integral asociados al Tipo de Nómina seleccionado.

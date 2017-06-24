@@ -1,0 +1,48 @@
+opciones:                  # Opciones generales
+  name:                    b
+  eliminar:                false
+  tabla:                   caartsol
+  anchogrid:               850
+  ancho:                   800
+  filas:                   0
+  titulo:                  ' Detalle de la Solicitud de Egreso'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Artículo
+  tipo:                    t
+  nombrecampo:             codart
+  esgrabable:              true
+  html:                    ["size=25 readOnly=true"]
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             desart
+  esgrabable:              true
+  html:                    ["size=30x1 readOnly=true"]
+3:       # Columna 3
+  titulo:                  Unidad de Medida
+  tipo:                    t
+  nombrecampo:             unimed
+  esgrabable:              true
+  html:                    ["size=25 readOnly=true"]
+4:      # Columna 4
+  titulo:                  Cant. Requerida
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canreq
+  esnumerico:              true
+  html:                    ["size=10 readOnly=true"]
+5:      # Columna 5
+  titulo:                  Costo
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             costo
+  esnumerico:              true
+  html:                    ["size=10 readOnly=true"]
+6:      # Columna 6
+  titulo:                  Total
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             montot
+  esnumerico:              true
+  html:                    ["size=10 readOnly=true"]

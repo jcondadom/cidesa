@@ -1,0 +1,70 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Hcliqree
+    theme:            cidesaGenerator
+
+    fields:
+      codliq: { name: Código, params : size=20 onBlur="enter(this.value)" readonly=true}
+      codemp : { name: Codigo, params : readonly=true}
+      cedemp:
+        name: Cedula
+        params: maxlength=15
+        catalogo:
+          catalogoweb: Nphojint_codtit
+          clase: Nphojint
+          ajax: 1
+          parametros: getprincipal="getCedemp" getsecundario="getNomemp" campoprincipal="cedemp" camposecundario="nomemp" campobase = "id"
+          divupdate: divgrid
+      nomnom: { name: Nomina, params : size=50 readonly=true}
+      codttrab: { name: Tipo de Trabajador, params : size=20 readonly=true}
+      cedfam:
+        name: Cedula
+        params: maxlength=15
+        catalogo:
+          catalogoweb: Npinffam_codben
+          clase: Npinffam
+          ajax: 2
+          parametros: getprincipal="getCedfam" getsecundario="getNomfam" campoprincipal="cedfam" camposecundario="nomfam" campobase = "id"
+          catalogoparams: /param1/'."'+$('hcliqree_codemp').value+'".'
+          ajaxparams: +'."'".'&cedemp='."'+$('hcliqree_cedemp').value+'".'&codemp='."'+$('hcliqree_codemp').value+'".'&misben='."'+$('hcliqree_misben').checked".'
+      parfam: { name: Parentesco, params : size=20 readonly=true}
+      tipliq: { name: Tipo}
+      fecliq: { name: Fecha, params: date_format='dd/MM/yyyy' withtime=false size=12 maxlength=10}
+      monsol: { name: Monto Solicitado, params : size=20}
+      monliq: { name: Monto Aprobado, params : size=20}
+      obsliq: { name: Observación, type: textarea_tag, params: size=100x5 maxlength=500}
+      misben: { name: ¿Mismo Beneficiario?, type: checkbox_tag, params: onClick='colocarDatosBen()'}
+      grid:  {name: .}
+      btn: {name: . }
+      loguse: { name: Código, params : readonly=true}
+      nomuse: { name: Nombre}
+    list:
+      fields:
+        codliq: { name: Codigo , params : readonly=false}
+        codemp: { name: Titular, params : readonly=false}
+        cedfam: { name: Beneficiario}
+        tipliq: { name: Tipo}
+        fecliq: { name: Fecha,  params: date_format='dd/MM/yyyy' withtime=false size=12 maxlength=10}
+      title:          Registro de la Liquidación del Reembolso
+      display:        [=codliq, codemp, cedfam, fecliq, tipliq]
+      object_actions:
+        _edit:        ~
+        _delete:      NONE
+      filters:        [codliq, codemp, cedfam, fecliq, tipliq]
+      max_per_page:   10
+      sort:           codemp
+
+    edit:
+      title:          Registro de la Liquidación del Reembolso
+      display:
+        "Información del Titular": [cedemp, nomnom, codttrab, misben, _grid]
+        "Información del Beneficiario": [cedfam, parfam]
+        "Informacion de la Liquidación": [_btn, codliq, _tipliq, _fecliq, monsol, monliq, obsliq]
+        "Reembolso realizado por:": [loguse, nomuse]
+      hide: [codemp]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

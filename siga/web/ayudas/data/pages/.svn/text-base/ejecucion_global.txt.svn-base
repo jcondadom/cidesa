@@ -1,0 +1,20 @@
+====== Ejecución Global ======
+
+**Tabla:** CPASIINI
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite consultar la Ejecución Presupuestaria para un período específico ó global.<br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Permite realizar un análisis rápido de la Ejecución de una partida presupuestaria en un determinado período </html>
+
+**Para ello:**
+
+  * Seleccione la opción **Contabilidad Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpre.jpg|}}"></div><br></html>
+
+   * Seguidamente despliegue la opción **Ejecución Presupuestaria**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreejepre.jpg|}}"></div><br></html>
+
+  * Por último seleccione **Ejecución Global**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreejeglo.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Ejecución Global** veamos la [[Descripcion_Campos_presupuesto_ejecucion_global|Descripción de los Campos]]
+
+

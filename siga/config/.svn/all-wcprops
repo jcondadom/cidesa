@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repositorio/!svn/ver/62011/web/php/siga/branches/productions/trunk/config
+END
+propel.ini
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repositorio/!svn/ver/49211/web/php/siga/branches/productions/trunk/config/propel.ini
+END
+errores.yml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repositorio/!svn/ver/61919/web/php/siga/branches/productions/trunk/config/errores.yml
+END
+config_handlers.yml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/38004/web/php/siga/branches/productions/trunk/config/config_handlers.yml
+END
+rsync_exclude.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/config/rsync_exclude.txt
+END
+databases.yml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repositorio/!svn/ver/25578/web/php/siga/branches/productions/trunk/config/databases.yml
+END
+properties.ini
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/40646/web/php/siga/branches/productions/trunk/config/properties.ini
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/config/config.php
+END

@@ -1,0 +1,413 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files
+END
+TestIterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/TestIterator.php
+END
+foo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/foo.xml
+END
+expectedFileFormat.txt
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/expectedFileFormat.txt
+END
+StackTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/StackTest.php
+END
+structureWrongNumberOfNodes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/structureWrongNumberOfNodes.xml
+END
+ChangeCurrentWorkingDirectoryTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/ChangeCurrentWorkingDirectoryTest.php
+END
+SelectorAssertionsFixture.html
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/SelectorAssertionsFixture.html
+END
+ConcreteTest.my.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/ConcreteTest.my.php
+END
+Failure.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/Failure.php
+END
+Book.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/Book.php
+END
+structureIsSameButDataIsNot.xml
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/structureIsSameButDataIsNot.xml
+END
+ExceptionTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/ExceptionTest.php
+END
+Author.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/Author.php
+END
+NothingTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/NothingTest.php
+END
+SampleClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/SampleClass.php
+END
+InheritedTestCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/InheritedTestCase.php
+END
+Success.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/Success.php
+END
+OverrideTestCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/OverrideTestCase.php
+END
+bar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/bar.xml
+END
+WasRun.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/WasRun.php
+END
+ExceptionInTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/ExceptionInTest.php
+END
+DependencyFailureTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/DependencyFailureTest.php
+END
+DependencyTestSuite.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/DependencyTestSuite.php
+END
+BankAccountTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/BankAccountTest.php
+END
+Calculator.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/Calculator.php
+END
+NotPublicTestCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/NotPublicTestCase.php
+END
+NoTestCases.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/NoTestCases.php
+END
+structureExpected.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/structureExpected.xml
+END
+structureWrongNumberOfAttributes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/structureWrongNumberOfAttributes.xml
+END
+OutputTestCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/OutputTestCase.php
+END
+TemplateMethodsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/TemplateMethodsTest.php
+END
+NonStatic.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/NonStatic.php
+END
+ConcreteTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/ConcreteTest.php
+END
+AbstractTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/AbstractTest.php
+END
+DependencySuccessTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/DependencySuccessTest.php
+END
+ExceptionInAssertPreConditionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/ExceptionInAssertPreConditionsTest.php
+END
+RequirementsClassDocBlockTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/RequirementsClassDocBlockTest.php
+END
+structureIgnoreTextNodes.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/structureIgnoreTextNodes.xml
+END
+OneTestCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/OneTestCase.php
+END
+ThrowExceptionTestCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/ThrowExceptionTestCase.php
+END
+MockRunner.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/MockRunner.php
+END
+DataProviderTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/DataProviderTest.php
+END
+ExceptionStack.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/ExceptionStack.php
+END
+FailureTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/FailureTest.php
+END
+FatalTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/FatalTest.php
+END
+MultiDependencyTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/MultiDependencyTest.php
+END
+Error.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/Error.php
+END
+ExceptionInTearDownTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/ExceptionInTearDownTest.php
+END
+EmptyTestCaseTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/EmptyTestCaseTest.php
+END
+ClassWithToString.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/ClassWithToString.php
+END
+NoTestCaseClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/NoTestCaseClass.php
+END
+IncompleteTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/IncompleteTest.php
+END
+Singleton.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/Singleton.php
+END
+NoArgTestCaseTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/NoArgTestCaseTest.php
+END
+BankAccountTest.test.php
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/BankAccountTest.test.php
+END
+DoubleTestCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/DoubleTestCase.php
+END
+ExceptionInSetUpTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/ExceptionInSetUpTest.php
+END
+ExceptionInAssertPostConditionsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/ExceptionInAssertPostConditionsTest.php
+END
+configuration_xinclude.xml
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/configuration_xinclude.xml
+END
+ThrowNoExceptionTestCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/ThrowNoExceptionTestCase.php
+END
+ExceptionNamespaceTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/ExceptionNamespaceTest.php
+END
+NotVoidTestCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/NotVoidTestCase.php
+END
+configuration.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/configuration.xml
+END
+structureAttributesAreSameButValuesAreNot.xml
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/structureAttributesAreSameButValuesAreNot.xml
+END
+ClassWithNonPublicAttributes.php
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/ClassWithNonPublicAttributes.php
+END
+RequirementsTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/RequirementsTest.php
+END
+Struct.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/Struct.php
+END
+BankAccount.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit/Tests/_files/BankAccount.php
+END

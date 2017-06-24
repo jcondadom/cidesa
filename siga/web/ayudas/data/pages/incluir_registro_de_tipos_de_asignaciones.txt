@@ -1,0 +1,13 @@
+====== Operación Incluir ======
+
+Para **Registrar** un determinado **Tipo de Asignación**: <html><br><br></html>
+
+  * Seleccione el **Tipo de Contrato Colectivo** al cual se van a asociar las asignaciones.<html><br><br></html>
+
+  * Seleccione el** Código del Grupo**.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperregtipasiinc1.jpg|}}"></div><br><br></html>
+
+  * Seguidamente observará una tabla en la cual debe seleccionar en la columna **Código** cada una de las **Asignaciones** que se le asociará al Tipo de Contrato Colectivo a través del **Botón de Consulta** <html>&nbsp;&nbsp;</html> {{:btnconsultagrid.jpg|}} el cual mostrará un catálogo de Asignaciones; al seleccionar la Asignación del catálogo el sistema mostrará la Descripción de la misma en la columna **Descripción**. <html>&nbsp;&nbsp;</html>Para eliminar un elemento de la tabla debe presionar el **Botón** <html>&nbsp;&nbsp;</html> {{:btnquitar.jpg|}} ubicado a la izquierda de la asignación que desea eliminar.<html><br><br></html>
+
+  * Por Último presione el Botón <html>&nbsp;&nbsp;</html>{{:btnguardar.jpg|}} para almacenar la información.

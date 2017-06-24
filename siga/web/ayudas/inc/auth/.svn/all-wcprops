@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/auth
+END
+mysql.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/auth/mysql.class.php
+END
+pgsql.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/auth/pgsql.class.php
+END
+punbb.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/16047/web/php/documentacion/dokuwiki/trunk/inc/auth/punbb.class.php
+END
+ldap.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/auth/ldap.class.php
+END
+basic.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/auth/basic.class.php
+END
+plain.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/auth/plain.class.php
+END
+ad.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repositorio/!svn/ver/46002/web/php/documentacion/dokuwiki/trunk/inc/auth/ad.class.php
+END

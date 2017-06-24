@@ -1,0 +1,39 @@
+opciones:                  # Opciones generales
+  eliminar:                true
+  name:                    b
+  tabla:                   fadetcon
+  anchogrid:               900
+  ancho:                   800
+  filas:                   0
+  titulo:                  'Detalle del Contrato por Período '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Fecha Inicio
+  tipo:                    f
+  esgrabable:              true
+  nombrecampo:             fecini
+  vacia:                   true
+  html:                    ["size=10 readonly=true"]
+2:       # Columna 2
+  titulo:                  Fecha Fin
+  tipo:                    f
+  esgrabable:              true
+  nombrecampo:             fecfin
+  vacia:                   true
+  html:                    ["size=10 readonly=true"]
+3:       # Columna 3
+  titulo:                  Cantidad
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             cancon
+  esnumerico:              true
+  ajaxgrid:                true
+  html:                    ["size=10"]
+4:       # Columna 4
+  titulo:                  Cantidad Original
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             cansol
+  esnumerico:              true
+  oculta:                  true
+  html:                    ["size=10 readonly=true"]

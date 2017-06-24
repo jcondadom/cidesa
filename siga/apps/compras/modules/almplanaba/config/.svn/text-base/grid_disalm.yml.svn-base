@@ -1,0 +1,46 @@
+opciones:                  # Opciones generales
+  eliminar:                true
+  name:                    c
+  tabla:                   Caalmpda
+  anchogrid:               750
+  ancho:                   600
+  filas:                   1
+  titulo:                  'Distribución entre almacenes'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código del Almacén
+  tipo:                    t
+  nombrecampo:             codalm
+  html:                    ["size=8 maxlength=6"]
+  esgrabable:              true
+  ajaxgrid:                true
+  catalogo:                [cadefalm, sf_admin_edit_form, {Codalm: 1, Nomalm: 2}, Cadelfalm_Almordrec ]
+2:       # Columna 2
+  titulo:                  Nombre Almacén
+  tipo:                    a
+  nombrecampo:             nomalm
+  html:                    ["size=25x1  readonly=true"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Código de Ubicación
+  tipo:                    t
+  nombrecampo:             codubi
+  html:                    ["size=10"]
+  ajaxgrid:                true
+  ajaxadicionales:         {0: capdaoc_codartact, 1: capdaoc_canartact}
+  esgrabable:              true  
+4:       # Columna 4
+  titulo:                  Nombre Ubicación
+  tipo:                    a
+  nombrecampo:             nomubi
+  html:                    ["size=25x1  readonly=true"]
+  esgrabable:              true
+5:       # Columna 5
+  titulo:                  Cantidad
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             candis
+  esnumerico:              true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: capdaoc_codartact, 1: capdaoc_canartact}
+  html:                    ["size=10"]  

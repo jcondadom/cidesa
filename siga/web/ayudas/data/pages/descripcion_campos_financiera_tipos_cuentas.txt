@@ -1,0 +1,9 @@
+===== Descripción de Campos =====
+
+  * Definir para cada **Tipo de Cuenta** (Activo, Pasivo, Ingreso, Egreso, Resultado, Capital) el **Número** por el cual iniciarán según lo establecido por la ley.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:cfintipcueinc.jpg|}}"></div><br> </html>
+
+  * Seleccionar la **Cuenta Contable** en la que se alojará el resultado acumulado de los **Ejercicios Anteriores** y del **Ejercicio Actual**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:cfintipcueinc1.jpg|}}"></div><br> </html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Tipos de Cuentas** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

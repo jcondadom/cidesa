@@ -1,0 +1,22 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   fapreprocan
+  anchogrid:               450
+  ancho:                   400
+  filas:                   1
+  titulo:                  ' Precios'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Frecuencia
+  tipo:                    c
+  nombrecampo:             frecuen
+  esgrabable:              true
+  html:                    []
+2:       # Columna 2
+  titulo:                  Precio
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             precio
+  esnumerico:              true
+  html:                    ["size=10"]

@@ -1,0 +1,15 @@
+====== Operación Modificar ======
+
+Si desea **Modificar** un determinado **Municipio** debe:  <html><br><br></html>
+
+  * Seleccionar de la **Lista** el **Código del Municipio** que desea modificar. 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompermunicipiosmod.jpg|}}"></div><br></html>
+
+  * El sistema muestra el **Código** y **Descripción** del Municipio seleccionado. <html><br><br></html>
+
+  * Realice las modificaciones en base al Municipio seleccionado. El único dato que se puede modificar es la **Descripción del MUnicipio**  <html><br><br></html> 
+
+  * Presionar {{:btnguardar.jpg|}} para actualizar la información.  <html><br><br></html> 
+
+  * El sistema emite un **Mensaje de Éxito**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

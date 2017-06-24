@@ -1,0 +1,29 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   cadetsolcot
+  anchogrid:               750
+  ancho:                   700
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Proveedor
+  tipo:                    t
+  nombrecampo:             codpro
+  html:                    ["size=20 maxlength=15"]
+  esgrabable:              true
+  ajaxgrid:                true
+  catalogo:                [caprovee, sf_admin_edit_form, {Codpro: 1, Rifpro: 2, Nompro: 3}, Caprovee_Almsolcot ]
+2:       # Columna 2
+  titulo:                  Rif Proveedor
+  tipo:                    t
+  nombrecampo:             rifpro
+  html:                    ["size=20 readonly=true"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nompro
+  html:                    ["size=60 readonly=true"]
+  esgrabable:              true  

@@ -1,0 +1,6 @@
+====== Gestionaire des configurations texte ======
+
+Utiliser cette page pour gerer les fichiers de configuration textuels (conf/*.conf) de votre installation Dokuwiki.
+
+Pour plus de details a propos de ce plugin, voir [[doku>plugin:txtconf]].
+

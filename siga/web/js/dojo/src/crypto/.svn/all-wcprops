@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/web/js/dojo/src/crypto
+END
+MD5.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/web/js/dojo/src/crypto/MD5.js
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/web/js/dojo/src/crypto/LICENSE
+END
+__package__.js
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/web/js/dojo/src/crypto/__package__.js
+END
+Rijndael.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/web/js/dojo/src/crypto/Rijndael.js
+END
+SHA256.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/web/js/dojo/src/crypto/SHA256.js
+END
+SHA1.js
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/web/js/dojo/src/crypto/SHA1.js
+END
+Blowfish.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/web/js/dojo/src/crypto/Blowfish.js
+END

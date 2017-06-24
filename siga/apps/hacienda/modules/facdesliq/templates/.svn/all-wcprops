@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/43788/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdesliq/templates
+END
+_tipo.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdesliq/templates/_tipo.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdesliq/templates/ajaxSuccess.php
+END
+_modo.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdesliq/templates/_modo.php
+END
+_limita.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdesliq/templates/_limita.php
+END
+_anoact.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdesliq/templates/_anoact.php
+END
+_grid.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdesliq/templates/_grid.php
+END
+_gridb.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdesliq/templates/_gridb.php
+END
+_auto.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdesliq/templates/_auto.php
+END

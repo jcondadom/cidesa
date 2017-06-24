@@ -1,0 +1,16 @@
+======Definición de Tipos de Entrada======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso en el que se definen todos los posibles tipos de entrada de artículos al almacén que no sean una RECEPCIÓN normal de estos (donación a la institución, etc.).</html>
+
+**Para ello:***
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Proveedores** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmprov.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Definición de Tipos de Entrada**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmprovtipent.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Definición de Tipos de Entrada** veamos la [[Descripcion_Campos_Definicion_Tipos_Entrada|Descripción de los Campos]]

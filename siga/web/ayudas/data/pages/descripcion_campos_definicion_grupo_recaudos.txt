@@ -1,0 +1,12 @@
+Los campos que conforman la pantalla de **Definición de Grupos de Recaudos** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmprovgruprecinc1.jpg|}}"></div><br></html>
+
+  * El **Código** que identifica al Grupo de Recaudo. <html><br><br></html>
+
+  * La **Descripción** del Grupo de Recaudo. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Definición de Grupos de Recaudos** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+ 
+
+

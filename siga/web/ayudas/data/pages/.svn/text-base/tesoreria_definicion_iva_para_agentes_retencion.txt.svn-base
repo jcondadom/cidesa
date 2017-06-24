@@ -1,0 +1,15 @@
+======Definición de IVA para Agentes de Retención======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite asociar a las retenciones del IVA al recargo, de manera que al emitir la Orden de Pago aparezca automáticamente calculado el monto base a retener mediante la asociación de la partida.
+**Para ello:**
+
+  * Seleccione la opción **Tesorería ó Banco** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesban.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbandefesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Definición de IVA para Agentes de Retención**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbandefivaageret.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Definición de IVA para Agentes de Retención** veamos la [[Descripcion_Campos_definicion_iva_agentes_retencion|Descripción de los Campos]]

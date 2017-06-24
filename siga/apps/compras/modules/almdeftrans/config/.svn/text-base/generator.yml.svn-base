@@ -1,0 +1,25 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Catiptrans
+    theme:            cidesaGenerator
+    fields:
+      codtrans: { name: Código, params: maxlength=3 onFocus=readonly(this.id) onBlur="this.value=this.value.pad(3, '0',0);"}
+      destrans: { name: Descripción, params: size=50 maxlength=250}
+    list:
+      title:          Definiciones de Tipos de Transporte
+      filters:        [codtrans, destrans]
+      display:        [=codtrans, destrans]
+      max_per_page:   10
+      sort:  codtrans
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+    edit:
+      title:          Edición de Tipo de Transporte
+      display:        [codtrans, destrans]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "viaasoempaut{codemp}"
+   - "viaasoempaut{codempaut}"
+
+names:
+  viaasoempaut{codemp}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp, UniqueValidator
+  
+  viaasoempaut{codempaut}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+
+Validator_codemp:
+    class: CidesaExistValidator
+    param:
+        class:    Nphojint
+        column:   codemp
+        unique_error:   El Código del Empleado no existe
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Viaasoempaut
+        column:       codemp        
+        unique_error: La Asociación ya esta registrada.

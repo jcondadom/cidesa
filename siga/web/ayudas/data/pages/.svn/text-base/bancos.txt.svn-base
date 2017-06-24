@@ -1,0 +1,24 @@
+====== Bancos ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite registrar y actualizar toda la información de los Bancos con los cuales la Institución mantiene relaciones comerciales y donde mantiene cuentas bancarias vinculadas a la Nómina.</html>
+
+   * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+   * Seguidamente despliegue la opción **Definiciones Específicas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefesp.jpg|}}"></div><br></html>
+
+  * Por último seleccione la opción **Bancos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefban.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Bancos** podrá realizar las Operaciones Básicas de:
+ 
+  * [[Incluir Bancos|Incluir]]
+
+  * [[Modificar Bancos|Modificar]]
+
+  * [[Eliminar Bancos|Eliminar]]
+
+  * [[Consultar Bancos|Consultar]]

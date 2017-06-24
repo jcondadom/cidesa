@@ -1,0 +1,16 @@
+======Cálculo de  Nómina======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite realizar el procesamiento de cada una de las Nóminas que se manejan en la Institución, tomando en cuenta los datos de todos los empleados que pertenecen a cada una de ellas. Es decir, con esta opción, Usted puede calcular todos los Conceptos asignados al Personal perteneciente a una nómina en particular. Esta opción representa la Prenómina de la empresa.</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Cálculos de Nómina** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompercalnom.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Cálculo de Nómina**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompercalnomcalnom.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Cálculo de Nómina** veamos la [[Descripcion_Campos_Calculo_Nomina|Descripción de los Campos]]

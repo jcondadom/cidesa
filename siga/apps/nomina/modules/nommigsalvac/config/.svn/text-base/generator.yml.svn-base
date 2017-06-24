@@ -1,0 +1,36 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npvacsalidas
+    theme:            cidesaGenerator
+    fields:
+      archixls:
+        name:  Seleccione el archivo XLS a adjuntar
+        type:  admin_input_file_tag
+        params:  include_link=assets include_text="Descargar BD" include_remove=true
+        upload_dir:  assets
+        help:       Favor cargar solo archivos .xls
+      js:          { name: .}  
+      griddatos:   { name: .}
+
+    edit:
+      title:          Migrar Registro de Vacaciones
+      display:
+        Datos del Archivo:      [archixls, _js]
+        Datos Vacaciones: [_griddatos]
+      actions:
+        _list:        NONE
+        _delete:      NONE
+        _save:        NONE           
+        _cargar:      
+          name:       Cargar Archivo
+          only_for:   create
+          params: id="cargar" class="sf_admin_action_save" onClick="cargararchivo('npvacsalidas_archixls')" 
+        _leer:      
+          name:       Leer Archivo
+          only_for:   create
+          params: id="leer" class="sf_admin_action_save" onClick="leerarchivo()"           
+        _salvar:      
+          name:       Guardar
+          only_for:   create
+          params: id="salvar" class="sf_admin_action_save" onClick="document.sf_admin_edit_form.submit();" style="display:none"          

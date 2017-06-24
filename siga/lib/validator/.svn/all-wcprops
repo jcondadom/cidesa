@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repositorio/!svn/ver/52813/web/php/siga/branches/productions/trunk/lib/validator
+END
+CidesaStringValidator.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/52813/web/php/siga/branches/productions/trunk/lib/validator/CidesaStringValidator.class.php
+END
+CidesaValidaDate.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/validator/CidesaValidaDate.class.php
+END
+CidesaDateNow.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/validator/CidesaDateNow.class.php
+END
+CidesaMaskValidator.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/validator/CidesaMaskValidator.class.php
+END
+CidesaExistValidator.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/validator/CidesaExistValidator.class.php
+END
+DateMenorEjercicio.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/validator/DateMenorEjercicio.class.php
+END
+CidesaDateValidator.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/validator/CidesaDateValidator.class.php
+END
+CidesaStringFormatValidator.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/validator/CidesaStringFormatValidator.class.php
+END
+UniqueValidator2.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/validator/UniqueValidator2.class.php
+END
+UniqueValidator3.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/validator/UniqueValidator3.class.php
+END
+CidesaDateCompareValidator.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/validator/CidesaDateCompareValidator.class.php
+END

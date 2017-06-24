@@ -1,0 +1,21 @@
+methods:
+  post:
+   - "fadependencia{coddep}"
+   - "fadependencia{nomdep}"
+
+names:
+  fadependencia{coddep}:
+    required:  Yes
+    required_msg: Introduzca el Código de la Dependencia
+    validators: Validator_coddep
+
+  fadependencia{nomdep}:
+    required:  Yes
+    required_msg: Introduzca el Nombre de la Dependencia
+
+Validator_coddep:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Fadependencia
+        column:       coddep
+        unique_error: El Código ya Existe intente con otro.

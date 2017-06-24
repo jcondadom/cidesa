@@ -1,0 +1,34 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   liplieart
+  anchogrid:               900
+  ancho:                   850
+  filas:                   0
+  titulo:                  ' Partidas de Obras '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Partida de Obra
+  tipo:                    t
+  nombrecampo:             codart
+  html:                    [ readonly=true ]
+  esgrabable:              true
+2:
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desart
+  html:                    [ readonly=true ]
+  esgrabable:              false
+3:
+  titulo:                  Cantidad
+  tipo:                    m
+  nombrecampo:             cantid
+  html:                    [ readonly=true ]
+  esgrabable:              true
+4:
+  titulo:                  Tipconpub
+  tipo:                    t
+  nombrecampo:             tipconpub
+  html:                    [ readonly=true value='O' ]
+  esgrabable:              true  
+  oculta:                  true  

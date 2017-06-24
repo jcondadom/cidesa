@@ -1,0 +1,21 @@
+====== Operación Incluir ======
+
+Para **Incluir** un Tipo de de Partida de Construcción: <html><br><br></html>
+
+  * Presione el **Botón** {{:btnnuevo.jpg|}}
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontpartconsttipoinc1.jpg|}}"></div><br></html>
+
+  * Ingrese el **Código** que identifique al Tipo de Partida de Construcción. <html><br><br></html>
+
+  * Ingrese la **Descripción** del Tipo de Partida de Construcción. <html><br><br></html>
+
+  * Presione el **Botón** {{:btnguardar.jpg|}} para registrar el Tipo de Partida de Construcción. 
+
+
+
+
+
+
+
+

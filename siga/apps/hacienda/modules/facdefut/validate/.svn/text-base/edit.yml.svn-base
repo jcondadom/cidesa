@@ -1,0 +1,31 @@
+methods:
+  post:
+   - "fcdefut{fecini}"
+   - "fcdefut{fecfin}"
+   - "fcdefut{valorut}"
+
+
+names:
+  fcdefut{fecini}:
+    required:  Yes
+    required_msg: La Fecha de Inicio no puede estar en Blanco
+    validators: Fecha2Validator
+
+  fcdefut{fecfin}:
+    required:  Yes
+    required_msg: La Fecha Fin no puede estar en Blanco
+    validators: Fecha2Validator
+
+  fcdefut{valorut}:
+    required:  Yes
+    required_msg: La Unidad Tributaria no puede estar en Blanco
+
+
+Fecha2Validator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+

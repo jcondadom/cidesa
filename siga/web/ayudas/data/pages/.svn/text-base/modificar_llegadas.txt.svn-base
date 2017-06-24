@@ -1,0 +1,12 @@
+====== Operación Modificar ======
+
+Para **Modificar** una determinada **Llegada**: <html><br><br></html>
+
+  * Seleccionar de la ** Lista** el **Código del Empleado** para el cual desea modificar los datos de la llegada. <html><br><br></html>
+
+  * Realice las modificaciones necesarias. Es importante destacar que solo podrá modificar el **Número de Días** y la **Observación**. <html><br><br></html>
+
+  * Una vez realizadas las modificaciones debe presionar el Botón  {{:btnguardar.jpg|}} para actualizar la información. <html><br><br></html>
+ 
+  * El sistema emite un **Mensaje de Èxito**.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

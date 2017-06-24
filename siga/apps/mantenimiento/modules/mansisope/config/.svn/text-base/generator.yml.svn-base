@@ -1,0 +1,29 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Mansisope
+    theme:            cidesaGenerator
+    fields:
+      codsis: { name:  Código, params : size=5 maxlength=4 onFocus=readonly(this.id)}
+      dessis: { name:  Descripción, params : size=80 maxlength=250}
+    list:
+      title:          Sistemas de Operación
+      display:        [=codsis, dessis]
+      fields:
+        codsis: { name:  Código, params : size=5 maxlength=4}
+        dessis: { name:  Descripción, params : size=15 maxlength=250}
+      filters:        [codsis, dessis]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           codsis
+    edit:
+      title:          Edición del Sistema de Operación
+      display:
+        "NONE": [codsis, dessis]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

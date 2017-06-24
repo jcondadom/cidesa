@@ -1,0 +1,3160 @@
+# TODO: Hacer que los validator que validen información del negocio,
+# lo errores deben estar en el archivo errores.yml
+0:
+  cod: 0
+  msj: Error Interno de la aplicación. Contacte al administrador del sistema 
+1:
+  cod: 1
+  msj: El Código No Se Puede Modificar
+2:
+  cod: 2
+  msj: El numero inicial del Correlativo no ha sido definido
+3:
+  cod: 3
+  msj: No se Encuentra este Documento
+4:
+  cod: 4
+  msj: Debe tener al menos un Registro en el Grid
+5:
+  cod: 5
+  msj: Por que Existen Datos que Depende de Este
+6:
+  cod: 6
+  msj: No se pudo borrar la registro seleccionado. Asegúrese de que no tiene ningún tipo de registros asociados.
+20:
+  cod: 20
+  msj: El proveedor tiene recaudos Vencidos.
+21:
+  cod: 21
+  msj: El proveedor No tiene Recaudos.
+22:
+  cod: 22
+  msj: Verifique que esten definidos los siguientes Documentos de Ajuste -> AJCO AJCA y AJPA
+23:
+  cod: 23
+  msj: La Fecha del Ajuste no puede ser menor a la Fecha del Movimiento.
+99:
+  cod: 99
+  msj: La Partida asociada al articulo no existe.
+100:
+  cod: 100
+  msj: Nivel Anterior No Existe
+101:
+  cod: 101
+  msj: El Codigo no puede estar en Blanco ó longitud del código invalida
+102:
+  cod: 102
+  msj: Ya existe una Orden de Compra con ese Correlativo
+103:
+  cod: 103
+  msj: Ya existe una Orden de Servicio con ese Correlativo
+109:
+  cod: 109
+  msj: No se ha podido modificar esta Orden de Compra por que ya fue Comprometida, causada y/o pagada.
+
+# Rangos de Cotizaciones (Almdefcot)
+110:
+  cod: 110
+  msj: La cantidad "Desde" debe ser mayor al útimo renglón insertado
+# Rangos de Cotizaciones (Almdefcot)
+111:
+  cod: 111
+  msj: La cantidad "Hasta" debe ser mayor a la "Desde"
+112:
+  cod: 112
+  msj: El Código Presupuestario asociado al articulo generado a traves de la unidad no existe.
+113:
+  cod: 113
+  msj: No Existe Disponibilidad de Dinero para efectuar la Operación. Se le Recomienda disminuir la cantidad Solicitada.
+114:
+  cod: 114
+  msj: No Existe Disponibilidad de Dinero para efectuar la Operación. Se le Recomienda disminuir el monto del Recargo.
+115:
+  cod: 115
+  msj: No puede salvar con Artículos o unidades en Blanco
+116:
+  cod: 116
+  msj: No se encontró el artículo a ajustar
+117:
+  cod: 117
+  msj: No puede salvar sin Introducir el Código de Partida
+118:
+  cod: 118
+  msj: No hay disponibilidad en el siguiente Código presupuestario
+119:
+  cod: 119
+  msj: No hay disponibilidad para los Recargos
+120:
+  cod: 120
+  msj: No se puede Anular la Orden ya que el Comprobante de Orden asociado está actualizado
+121:
+  cod: 121
+  msj: No se puede Anular la Orden ya que tiene un Causado asociado
+122:
+  cod: 122
+  msj: No se puede Anular la Orden ya que tiene una Recepcion asociada
+123:
+  cod: 123
+  msj: No se puede Anular la Orden ya que tiene un Ajuste asociado. Debe eliminar el Ajuste por Presupuesto
+124:
+  cod: 124
+  msj: El Comprobante fué Anulado
+125:
+  cod: 125
+  msj: La existencia del artículo no es suficiente para hacer el traspaso del artículo
+126:
+  cod: 126
+  msj: No se pudo Grabar el PreCompromiso, ya que la Referencia ya Existe
+127:
+  cod: 127
+  msj: El Código de la Unidad Solicitante no existe.
+128:
+  cod: 128
+  msj: No puede Grabar, sin llenar el Detalle de la Solicitud.
+129:
+  cod: 129
+  msj: Ese artículo no ha sido definido en el Almacén epecificado.
+130:
+  cod: 130
+  msj: Fecha de Registro o Fecha de Vencimiento invalidas
+131:
+  cod: 131
+  msj: La fecha de Vencimiento no puede ser menor que la fecha de Registro
+132:
+  cod: 132
+  msj: Este Tipo de Nomina ya tiene asignaciones en otro contrato
+133:
+  cod: 133
+  msj: La Asignación a Prioridad no Fue Grabada ya que el costo es un Dato Inválido.
+134:
+  cod: 134
+  msj: La Asignación a Prioridad no Fue Grabada ya que el Costo del Articulo debe ser mayor a cero.
+135:
+  cod: 135
+  msj: La Asignación a Prioridad no Fue Grabada ya que no existe Disponibilidad Presupuestaria.
+136:
+  cod: 136
+  msj: El Porcentaje debe estar distribuido entre las partidas en su 100%
+137:
+  cod: 137
+  msj: Hay Codigos de Partidas que son invalidos
+138:
+  cod: 138
+  msj: No puede grabar si no ha salvado los recargos.Presione el botón salir.
+139:
+  cod: 139
+  msj: No se puede eliminar la transferencia. Un Articulo no puede tener existencia negativa.
+140:
+  cod: 140
+  msj: Debe seleccionar al menos un Artículos a Programar.
+141:
+  cod: 141
+  msj:  Ya existe una Programación de Artículos para esta Fecha y este Código de Unidad
+142:
+  cod: 142
+  msj:  La Fecha se encuentra dentro un Período Cerrado Presupuestariamente
+143:
+  cod: 143
+  msj:  La Fecha no se encuentra del Período Fiscal
+144:
+  cod: 144
+  msj:  La Fecha de Anulacion no puede ser menor a la fecha de la Orden de Compra
+145:
+  cod: 145
+  msj:  Error al Asignar un Codigo al Proveedor, Verifique su Correlativo.
+146:
+  cod: 146
+  msj:  Se ha guardado solamente la Descripcion ya que la solicitud tiene asociada una Orden de Compra.
+147:
+  cod: 147
+  msj:  Las Solicitudes Precompromenten puede aprobar solo una.
+
+####### Ajuste OC ##########
+148:
+  cod: 148
+  msj: El Compromiso asociado a la Orden de Compra no puede ser menor al Causado
+149:
+  cod: 149
+  msj: No se puede Grabar el Ajuste a compromiso ya que la referencia se encuentra Registrada
+152:
+  cod: 152
+  msj: No existe disponibilidad presupuestaria para efectuar la Operación
+153:
+  cod: 153
+  msj: El Compromiso asociado a la Orden de Compra no puede ser mayor al Precompromiso
+
+######   orden de compra ######
+
+150:
+  cod: 150
+  msj: La Fecha no se encuentra del Período Fiscal
+151:
+  cod: 151
+  msj: La Fecha se encuentra dentro un Período Cerrado
+154:
+  cod: 154
+  msj: No se puede Anular la Orden ya que tiene un Causado asociado
+155:
+  cod: 155
+  msj: No se puede Anular la Orden ya que tiene una Recepcion asociada
+156:
+  cod: 156
+  msj: No se puede Anular la Orden ya que tiene una Recepcion asociada
+157:
+  cod: 157
+  msj: No se puede Anular la Orden ya que tiene un Ajuste asociado. Debe eliminar el Ajuste por Presupuesto
+158:
+  cod: 158
+  msj: La Orden fue Anulada Satisfactoriamente
+159:
+  cod: 159
+  msj: La Orden ya fue Anulada
+160:
+  cod: 160
+  msj: Al menos uno de los artículos del detalle debe tener cantidad a despachar mayor que cero (0).
+161:
+  cod: 161
+  msj: Debe crear un Comprobante Contable
+162:
+  cod: 162
+  msj: Al menos uno de los artículos del detalle debe tener cantidad a recibir mayor que cero (0).
+163:
+  cod: 163
+  msj: No se puede realizar una Cotización para una misma Contratistas de Bienes o Servicio y Cooperativas a una misma solicitud.
+164:
+  cod: 164
+  msj: Debe haber al menos una Contratistas de Bienes o Servicio y Cooperativas con Prioridad 1.
+165:
+  cod: 165
+  msj: No se puede haber dos Contratistas de Bienes o Servicio y Cooperativas con Prioridad 1.
+166:
+  cod: 166
+  msj: Orden fue Anulada no se puede eliminar.
+167:
+  cod: 167
+  msj: No se puede Anular la Orden ya que el Comprobante de Orden asociado está actualizado
+168:
+  cod: 168
+  msj: El código de ubicación no existe para el almacen seleccionado.
+169:
+  cod: 169
+  msj: La Orden ya Fue Anulada.
+170:
+  cod: 170
+  msj: La Orden no se puede Eliminar porque ya Fue Anulada.
+171:
+  cod: 171
+  msj: La Orden No Puede ser eliminada ya que el Compromiso Asociado a la Orden fue Causado.
+172:
+  cod: 172
+  msj: La Orden no puede ser eliminada ya que existe un Ajuste de la misma, por lo tanto se recomienda borrar en primer lugar el Ajuste y luego ejecutar la operación con la Orden.
+173:
+  cod: 173
+  msj: No se puede eliminar la orden ya que existe una recepción asociada a la misma.
+174:
+  cod: 174
+  msj: No se puede modificar la cotizacion ya que tiene Analis de Cotización realizado
+175:
+  cod: 175
+  msj: No se puede eliminar la cotizacion ya que tiene Analis de Cotización realizado
+176:
+  cod: 176
+  msj:  Debe introducir al menos un Servicio.
+177:
+  cod: 177
+  msj: Debe introducir el Código de la Unidad  del Servicio seleccionado.
+178:
+  cod: 178
+  msj:  Debe introducir al menos un Artículo.
+179:
+  cod: 179
+  msj: Debe introducir el Código de la Unidad  del Artículo seleccionado.
+180:
+  cod: 180
+  msj: Los rangos establecidos son incorrectos. Verifique!
+181:
+  cod: 181
+  msj: Las fechas establecidas son incorrectas. Verifique!
+190:
+  cod: 190
+  msj: Debe seleccionar la ubicación del articulo dentro de cada uno de los almacenes.
+191:
+  cod: 191
+  msj: No pueden existir almacenes repetidos, por favor revifique.
+192:
+  cod: 192
+  msj: Fecha de Emisión  o Fecha de Entrega invalidas
+193:
+  cod: 193
+  msj: La fecha de Entrega no puede ser menor que la Fecha de Emisión del Cheque
+194:
+  cod: 194
+  msj: La cuenta bancaria origen no puede ser igual a la cuenta bancaria destino
+195:
+  cod: 195
+  msj: No Existe Disponibilidad Financiera en la cuenta de banco
+196:
+  cod: 196
+  msj: El número de comprobante ya existe. Imposible guardar el comprobante !
+197:
+  cod: 197
+  msj: No se puede ajustar la Orden de Compra debido a que el compromiso ya esta Totalmente causado.
+198:
+  cod: 198
+  msj: La Cuenta Contable No puede estar en Blanco.
+199:
+  cod: 199
+  msj: La Cuenta Contable No existe.
+
+2100:
+  cod: 2100
+  msj: No se puede eliminar la Requisición debido a que existe un despacho (compra o servicio)
+2101:
+  cod: 2101
+  msj: Existen artículos repetidos con la misma categoria
+2102:
+  cod: 2102
+  msj: LA Justificación No puede estar en Blanco.
+2103:
+  cod: 2103
+  msj: El Titulo Presupuestario no Existe.  
+2104:
+  cod: 2104
+  msj: C.I./R.I.F Contratistas de Bienes o Servicio y Cooperativas no Existe.    
+2105:
+  cod: 2105
+  msj: Debe insertar un código de barras
+2106:
+  cod: 2106
+  msj: La Fecha de la Solicitud es menor a la fecha de la última solicitud registrada.
+2107:
+  cod: 2107
+  msj: La Fecha de la Orden es menor a la fecha de la última Orden de Compra registrada.  
+2108:
+  cod: 2108
+  msj: El Código del Evento no puede estar en Blanco.
+2109:
+  cod: 2109
+  msj: No se puede anular la orden ya que está aprobada en presupuesto.
+2110:
+  cod: 2110
+  msj: "El código del proveedor no es válido, sólo acepta números y letras"
+2111:
+  cod: 2111
+  msj: "El código del proveedor no puede ser mayor a 9 caracteres"
+2112:
+  cod: 2112
+  msj: No se puede Modificar el Bien Mueble porque ya ha sido Depreciado.
+2113:
+  cod: 2113
+  msj: El Titulo Presupuestario asociado al Recargo no Existe.   
+2114:
+  cod: 2114
+  msj: El Titulo Presupuestario asociado al Recargo no tiene Asignación Inicial.  
+################### NOMINA ####################
+4400:
+  cod: 4400
+  msj: No tiene Frecuencia de Pago asociada, en el grid de los Asociados
+4401:
+  cod: 4401
+  msj: No tiene Frecuencia de Pago asociada, en el grid de los No Asociados
+4402:
+  cod: 4402
+  msj: La Hora Inicio o la Hora Fin no cumplen con el formato HH:MM
+4403:
+  cod: 4403
+  msj: Debe indicar si la hora es "am" ó "pm"  
+4404:
+  cod: 4404
+  msj: La Hora Inicio No puede estar en Blanco.
+4405:
+  cod: 4405
+  msj: La Hora Fin No puede estar en Blanco.
+4406:
+  cod: 4406
+  msj: La Cantidad de Horas debe ser mayor a cero. 
+4407:
+  cod: 4407
+  msj: El Detalle del Curso debe estar completo.
+4408:
+  cod: 4408
+  msj: El Detalle del Turno debe estar completo
+4409:
+  cod: 4409
+  msj: Debe cargar al menos un Concepto.
+4410:
+  cod: 4410
+  msj: El Empleado ya esta registrado en otro Grupo.
+4411:
+  cod: 4411
+  msj: Para salvar incluya el rango de fechas de Contrato o simplemente no incluya ninguna de las dos Fechas.
+4412:
+  cod: 4412
+  msj: Código de Acumulador de Conceptos Repetido. Intente con otro
+4413:
+  cod: 4413
+  msj: El Empleado ya esta registrado y esta vigente con otra nomina y cargo.
+4414:
+  cod: 4414
+  msj: El Registro de Conceptos Variables ya existe.  
+4415:
+  cod: 4415
+  msj: El Empleado ya tiene una Salida registrada en ese rango de fecha.
+4416:
+  cod: 4416
+  msj: Los montos para los conceptos deben ser mayor a cero.  
+4417:
+  cod: 4417
+  msj: Los Siguientes Empleados ya tienen Asignado este Concepto en otra Nómina
+4418:
+  cod: 4418
+  msj: El Cargo y la Ubicación Administrativa ya tienen funciones asociadas.
+4419:
+  cod: 4419
+  msj: El Cargo y la Ubicación Administrativa estan asociados a un Punto de Cuenta.  
+4420:
+  cod: 4420
+  msj: La Categoría Presupuestaria no puede estar en Blanco
+4421:
+  cod: 4421
+  msj: La Ubicación Física no puede estar en Blanco
+4422:
+  cod: 4422
+  msj: Ingresos- La Situación del Empleado no puede estar en Blanco  
+4423:
+  cod: 4423
+  msj: Información Bancaria- La Forma de Pago no puedo estar en Blanco             
+500:
+  cod: 500
+  msj: El Código Presupuestario no Existe
+501:
+  cod: 501
+  msj: Existe un Código Presupuestario Repetido
+502:
+  cod: 502
+  msj: No puede salvar sin introducir la C.I. o Rif del Beneficiario
+# Emisión de Cheques (TesMovEmiChe)
+503:
+  cod: 503
+  msj: Debe introducir al menos un Código Presupuestario
+# Emisión de Cheques (TesMovEmiChe)
+504:
+  cod: 504
+  msj: El Correlativo a Generar ya Existe.
+505:
+  cod: 505
+  msj: Debe seleccionar al menos una Orden de Pago
+  # Emisión de Cheques (TesMovEmiChe)
+506:
+  cod: 506
+  msj: Debe seleccionar al menos un Compromiso
+  # Emisión de Cheques (TesMovEmiChe)
+507:
+  cod: 507
+  msj: Debe seleccionar al menos un Precompromiso
+  # Emisión de Cheques (TesMovEmiChe)
+508:
+  cod: 508
+  msj: No puede salvar sin generar el comprobante contable. Por favor haga click en el botón Generar Comprobante
+509:
+  cod: 509
+  msj: La Asociación se encuentra registrada. Por favor, cambiela por otra.
+510:
+  cod: 510
+  msj: No puede Grabar sin llenar el Detalle de la Orden de Pago.
+511:
+  cod: 511
+  msj: Monto Introducido debe ser menor al Monto Disponible.
+512:
+  cod: 512
+  msj: El Titulo Presupuestario no tiene Asignación Inicial.
+513:
+  cod: 513
+  msj: Los Datos de la Orden no se pueder grabar, debido a que no existe Disponibilidad.
+514:
+  cod: 514
+  msj: Deben salvar las retenciones. Presione el botón Salir.
+515:
+  cod: 515
+  msj: No puede salvar si hay montos en Blanco.
+516:
+  cod: 516
+  msj: No puede grabar si no ha agregado y salvado las Retenciones. Agregue las Retenciones y luego presione el botón Salir.
+517:
+  cod: 517
+  msj: Debe haber al menos una Chequera Activa.
+518:
+  cod: 518
+  msj: No puede haber mas de dos Chequeras activa solo una.
+519:
+  cod: 519
+  msj: No puede grabar, los montos de Débito y Crédito no coinciden en el Comprobante.
+520:
+  cod: 520
+  msj: No puede salvar sin registrar Asientos Contables.
+521:
+  cod: 521
+  msj: La Fecha debe estar dentro del Período Contable
+522:
+  cod: 522
+  msj: La Fecha debe ser menor a la Fecha de Inicio del Período Contable Actual.
+523:
+  cod: 523
+  msj: La Fecha del Movimiento debe ser menor a la Fecha de Registro.
+524:
+  cod: 524
+  msj: Éste cheque ya fue emitido.
+525:
+  cod: 525
+  msj: No puede salvar sin introducir  al menos un articulo
+526:
+  cod: 526
+  msj: No se Puede Eliminar la Orden ya que el Comprobante Contable asociado esta actualizado.
+527:
+  cod: 527
+  msj: La Orden ya fue pagada en el Módulo de Bancos.
+528:
+  cod: 528
+  msj: No puede salvar si tener al menos una imputación Presupuestaria.
+529:
+  cod: 529
+  msj: La Fecha no se encuentra dentro de un Perido Contable Abierto.
+530:
+  cod: 530
+  msj: La Fecha de Devolución debe ser menor a la Fecha de Registro.
+531:
+  cod: 531
+  msj: No se puede salvar sin introducir las Retenciones
+532:
+  cod: 532
+  msj: El Proveedor ya tiene asociado ese mismo N° de Factura en una Orden anterior.
+533:
+  cod: 533
+  msj: Debe definir el valor de la Unidad Tributaria. Tesoreria -> Empresa
+534:
+  cod: 534
+  msj: El Monto Total de la Orden sobrepasa el limite de Unidades Tributarias asociadas para el Usuario (Niveles de Aprobación).
+535:
+  cod: 535
+  msj: El Monto Neto de la Orden debe ser mayor a cero.
+536:
+  cod: 536
+  msj: El Monto Debito y Credito debe ser mayor a cero.
+537:
+  cod: 537
+  msj: La Cuenta Bancaria se encuentran Conciliada para ese Periodo .
+538:
+  cod: 538
+  msj: Ya existe un Movimiento según Libro con ese mismo N° de Cuenta, referencia y tipo de documento.
+539:
+  cod: 539
+  msj: El Archivo ya fue Migrado
+540:
+  cod: 540
+  msj: Su migración fue un exito Total
+541:
+  cod: 541
+  msj: Debe Introducir el Archivo a Migrar.
+542:
+  cod: 542
+  msj: Se Rechazaron tantos registros de un total de tanto registros.
+543:
+  cod: 543
+  msj: Fecha Fuera del Período.
+544:
+  cod: 544
+  msj: El Mes ya se encuentra cerrado, por lo que no se podrá registrar Movimiento en esta Fecha.
+545:
+  cod: 545
+  msj: La Fecha de Inicio no puede ser mayor a la Fecha Retorno del mismo.
+546:
+  cod: 546
+  msj: La fecha no puede estar vacia
+547:
+  cod: 547
+  msj: El numero de Cheque debe estar en el rango de la chequera que se encuentre activa
+548:
+  cod: 548
+  msj: Debe seleccionar al menos una orden de Pago
+549:
+  cod: 549
+  msj: Existe una Cuenta Contable no registrada en contabilidad
+550:
+  cod: 550
+  msj: Debe Cargar las Cuentas
+551:
+  cod: 551
+  msj: Los Montos de Debitos y Creditos deben definirse correctamente
+552:
+  cod: 552
+  msj: Existe una Chequera Repetida. No debe existir Chequeras iguales, Por favor Cambielas.
+553:
+  cod: 553
+  msj: El Monto Total del Cheque sobrepasa el Límite definido para Cheques.
+554:
+  cod: 554
+  msj: Faltan datos en el grid de Experiencia Laboral Fuera de la Institución.
+555:
+  cod: 555
+  msj: La Condicion de Pago de la Orden no puedo estar en Blanco.
+556:
+  cod: 556
+  msj: El Código de Almacén no posee definición de configuración del TXT.
+557:
+  cod: 557
+  msj: No se puede realizar la Migración existe un artículo que no posee Cuenta de Ingreso.
+558:
+  cod: 558
+  msj: No puede Eliminar el Semoviente debido a que existen Disposiciones asociadas.
+559:
+  cod: 559
+  msj: No puede Eliminar el Semoviente debido a que existen Seguros asociados.
+560:
+  cod: 560
+  msj: No puede Eliminar el Semoviente debido a que existen Cuentas Contables asociadas.
+561:
+  cod: 561
+  msj: El Activo Semoviente ya esta registrado. Por Favor, Cambiélo por otro.
+562:
+  cod: 562
+  msj: No puede salvar sin introducir el Código de Ubicación Destino.
+563:
+  cod: 563
+  msj: El Activo Semoviente no esta registrado.
+564:
+  cod: 564
+  msj: La Fecha de Emisión no puede ser mayor a la fecha de hoy.
+565:
+  cod: 565
+  msj: La Fecha de Anulación del Movimiento no puede ser mayor a la fecha de hoy.
+566:
+  cod: 566
+  msj: La Fecha del Movimiento según Libro no puede ser mayor a la fecha de hoy.
+567:
+  cod: 567
+  msj: El Tipo de Unidad no puedo estar en Blanco
+568:
+  cod: 568
+  msj: El Tipo de Unidad debe Existir.
+569:
+  cod: 569
+  msj: La Unidad Ejecutora Local no puedo estar en Blanco
+570:
+  cod: 570
+  msj: La Unidad Ejecutora Local debe Existir.
+571:
+  cod: 571
+  msj: La Fecha de Anulación del Movimiento no puede ser menor a la fecha del Movimiento.
+572:
+  cod: 572
+  msj: No se puede modificar la moneda porque tiene movimientos asociados
+573:
+  cod: 573
+  msj: La Entrada no puede ser eliminada ya que existe una Devolución, se recomienda borrar en primer lugar la Devolución y luego ejecutar la operación.
+574:
+  cod: 574
+  msj:  Debe indicar el Código del Almacén, la Ubicación y el Nro. del Lote de todos los Artículos de la Entradas en el Almacen
+575:
+  cod: 575
+  msj:  Debe indicar el Código del Almacén y la Ubicación todos los Artículos de la Entradas en el Almacen
+576:
+  cod: 576
+  msj: Existe un artículo del detalle con cantidad a transferir menor o igual a cero (0).
+577:
+  cod: 577
+  msj: Existe un artículo del detalle que no posee Número de Lote.
+578:
+  cod: 578
+  msj: Debe indicar el Código del Almacén, la Ubicación y el Nro. del Lote de todos los Artículos del Detalle de la Salida.
+579:
+  cod: 579
+  msj:  Debe indicar el Código del Almacén, la Ubicación de todos los Artículos del Detalle de la Salida.
+580:
+  cod: 580
+  msj:  La cantidad a registrar para la salida del artículo debe ser mayor que cero...
+581:
+  cod: 581
+  msj:  Solo debe asociar Cuenta Contable cuando el Código Presupuestario sea de Último Nivel.
+582:
+  cod: 582
+  msj:  La Unidad Ejecutora del Fondo en Anticipo no Existe.
+583:
+  cod: 583
+  msj:  La Unidad Administrativa del Fondo en Anticipo no Existe.
+584:
+  cod: 584
+  msj:  La Unidad Solicitante y El Prefijo ya se encuentran registrados.
+585:
+  cod: 585
+  msj:  Existe un Código Presupuestario en el Contrato que no tiene Disponibilidad.
+586:
+  cod: 586
+  msj:  No se puede guardar ya que existe un código de cargo repetido
+587:
+  cod: 587
+  msj:  No puede salvar debido a que la referencia de la transferencia ya existe como número de cheque.
+588:
+  cod: 588
+  msj:  El Monto del Ajuste debe ser distinto de cero.
+589:
+  cod: 589
+  msj: El monto del Compromiso asociado a la Orden de Compra no puede ser menor al monto del Causado.
+590:
+  cod: 590
+  msj: No Existe Disponibilidad Presupuestaria para realizar este Movimiento, El Ajuste no sera Guardado.
+591:
+  cod: 591
+  msj:   No se puede Grabar el Ajuste a Precompromiso ya que la referencia se encuentra Registrada.
+592:
+  cod: 592
+  msj: Este Actividad Comercial tiene Actividades Comerciales dependientes a el, debe eliminarlos primero.
+593:
+  cod: 593
+  msj: Existe un Precompromiso donde la fecha es mayor a la de la Orden.
+594:
+  cod: 594
+  msj: Existe un Compromiso donde la fecha es mayor a la de la Orden.
+595:
+  cod: 595
+  msj: No se puede guardar la Orden debido a que existe un Código Prespuestario que no posee Cuenta Contable o esta Descuadrado.
+596:
+  cod: 596
+  msj: El Valor de la Moneda debe ser distinto de 0.
+597:
+  cod: 597
+  msj: Existen diferencias entre la Cantidad Despachada y la Recibida Ingrese el Motivo Faltante.
+598:
+  cod: 598
+  msj: La Observación no puede estar en Blanco
+599:
+  cod: 599
+  msj: No se puede grabar la factura debido a que algunos campos estan en blanco(Fecha, numero de control, factura o nota débito o crédito)
+3:
+  cod: 3
+  msj: La contraseña es diferente.
+4:
+  cod: 4
+  msj: Error numero 4
+5:
+  cod: 5
+  msj: Ya existe ese Recargo Asociado a esa Retención. Por favor, Cambiélo por otro.
+
+################### BIENES ####################
+200:
+  cod: 200
+  msj: El Número la Póliza ya se encuentra asociado a ese Código de Nivel.Por favor, Cambiélo por otro.
+
+201:
+  cod: 201
+  msj: El Número la Póliza ya se encuentra asociado a ese Código de Nivel.Por favor, Cambiélo por otro.
+
+202:
+  cod: 202
+  msj: El Código del mueble ya se encuentra asociado a ese Código de Nivel.Por favor, Cambiélo por otro.
+
+203:
+  cod: 203
+  msj: El Código del Activo ya existe para este Catalogo. Por favor, Cambiélo por otro.
+
+204:
+  cod: 204
+  msj: El Activo de esta Disposicion genera un Movimiento contable, pero este no puede ser realizado ya que dicho Activo no tiene Definicion Contable
+
+205:
+  cod: 205
+  msj: No esta definido El Codigo de la Incorporacion, Verifique en el modulo de Definicion de Empresa.
+
+206:
+  cod: 206
+  msj: El Nivel de aprobación ya se encuentra registrado con ese rango.
+207:
+  cod: 207
+  msj: Estos Muebles no se encuentra Registrado
+208:
+  cod: 208
+  msj: El Valor Inicial del Mueble debe ser mayor a cero.
+209:
+  cod: 209
+  msj: La Cédula del empleado no puedo estar en Blanco.
+210:
+  cod: 210
+  msj: Por favor, cheque que todos los articulos poseean Cuenta Contable Definitiva.
+211:
+  cod: 211
+  msj: Por favor, cheque que todos los articulos poseean Cuenta Contable Transitoria.
+212:
+  cod: 212
+  msj: Por favor, cheque que todos los articulos poseean Cuenta Contable de Gastos.
+213:
+  cod: 213
+  msj: El Monto de la Requisición debe se mayor a cero, debido a que se genera un Comprobante al momento del Despacho.
+214:
+  cod: 214
+  msj: La Fecha de Cálculo no puede ser menor la último mes cerrado en contabilidad.
+215:
+  cod: 215
+  msj: Debe seleccionar al menos un Comprobante.
+216:
+  cod: 216
+  msj: La Moneda de la Caotización debe ser igual a la de Solicitud de Egreso.
+217:
+  cod: 217
+  msj: La Fecha de Cálculo debe ser mayor o igual a la Fecha de la Factura.
+218:
+  cod: 218
+  msj: La Fecha de la Factura debe ser mayor o igual a la Fecha de Compra.  
+219:
+  cod: 219
+  msj: La Fecha del Acta de Control Perceptivo debe ser mayor o igual a la Fecha de Compra.   
+220:
+  cod: 220
+  msj: El Bien Mueble se encuentra Desincorporado.    
+221:
+  cod: 221
+  msj: El Bien Imueble se encuentra Desincorporado.   
+222:
+  cod: 222
+  msj: Debe indicar el numero de solicitud
+223:
+  cod: 223
+  msj: La Orden no puede ser eliminada ya que existe un Ajuste del Compromiso.
+224:
+  cod: 224
+  msj: La Solicitud de Póliza/Certificado no puede ser eliminada ya que está asociada a un Registro de Póliza/Certificado
+225:
+  cod: 225
+  msj: El Número de Identificación del Bien Mueble no puede estar en Blanco.
+226:
+  cod: 226
+  msj: El Rango para Muebles Nacionales ya se ha utilizado por completo. 
+227:
+  cod: 227
+  msj: El Rango para Muebles Regionales ya se ha utilizado por completo.    
+228:
+  cod: 228
+  msj: El Registro de Bien Mueble ya esta Registrado.
+229:
+  cod: 229
+  msj: La Fecha de Asignación de Activos no puede estar en blanco.
+230:
+  cod: 230
+  msj: La Fecha de Desasignación de Activos no puede estar en blanco.
+231:
+  cod: 231
+  msj: No puede salvar sin generar el comprobante contable de la Incorporación. Por favor haga click en el botón Generar Comprobante Incorporación.  
+################### FORMULACION ####################
+# Definiciones Generales (Fordefgen)
+300:
+  cod: 300
+  msj: Esa Política ya esta asociada a esa Directriz y Estrategia.
+301:
+  cod: 301
+  msj: Esa Estrategia ya esta asociada a esa Directriz.
+302:
+  cod: 302
+  msj: Debe introducir al menos una acción especifica
+303:
+  cod: 303
+  msj: No se puede grabar sin introducir la descripción de las acciones especificas introducidas
+304:
+  cod: 304
+  msj: No se guardo el encabezado de la Fomulacion, Debe colocar los Detalles del Plan Operativo.
+  # Definicion de Proyecto (Forpoa - Grabar_ForEncPryAccEspMet)
+310:
+  cod: 310
+  msj: La partida del IVA no existe
+305:
+  cod: 305
+  msj: Etapa de Definicion Cerrada, Para Crear Asignaciones Iniciales la Etapa de Definicion debe Estar Abierta...
+  # Pasar Montos Formulados a Asignacion Inicial ( forcreaasiini :: Migracion )
+306:
+  cod: 306
+  msj: Error en el establecimiento de su rango. Verifique!
+307:
+  cod: 307
+  msj: Error en el establecimiento de su rango. Verifique!
+308:
+  cod: 308
+  msj: Error en el establecimiento de su rango. Verifique!
+309:
+  cod: 309
+  msj: Error en el establecimiento de su rango. Verifique!
+311:
+  cod: 311
+  msj: Error en el establecimiento de su rango. Verifique!
+312:
+  cod: 312
+  msj: El Codigo de Reporte ya existe
+313:
+  cod: 313
+  msj: Hay un Registro sin tipo de cuenta asociada
+314:
+  cod: 314
+  msj: Hay un Registro sin cuenta asociada
+315:
+  cod: 315
+  msj: Hay un Registro sin Orden asociado
+316:
+  cod: 316
+  msj: Existe un Monto de Asignación Presupuestaria igual a cero, este debe ser mayor.
+317:
+  cod: 317
+  msj: Existe un cantidad igual a cero, esta debe ser mayor.
+  msj: Existe un Monto de Asignación Presupuestaria igual a cero, este debe ser mayor.
+318:
+  cod: 318
+  msj: El Monto Total de la Formulación realizada al Proyecto debe ser Menor o Igual al Monto del Proyecto .
+319:
+  cod: 319
+  msj: La Meta y el Producto se encuentran asociados a una Actividad.
+320:
+  cod: 320
+  msj: No puede salvar sin introducir al menos una Unidad Ejecutora.
+321:
+  cod: 321
+  msj: No puede salvar la Categoria Programática ya tiene Unidades Ejecutoras Asignadas.
+322:
+  cod: 322
+  msj: No puede salvar ya se ha realizado una asociación igual.
+323:
+  cod: 323
+  msj: No puede salvar sin introducir al menos una Acción.
+324:
+  cod: 324
+  msj: No puede salvar El Objetivo ya tiene Acciones Asignadas.
+325:
+  cod: 325
+  msj: No puede salvar La Categoria Programática ya tiene Acciones Asignadas.
+326:
+  cod: 326
+  msj: No puede salvar sin introducir al menos una Meta.
+327:
+  cod: 327
+  msj: No puede salvar La Acción y Unidad de Medida ya posee metas asignadas.
+328:
+  cod: 328
+  msj: No puede salvar sin introducir la Cantidad solicitada del Articulo correspondiente a la Actividad
+329:
+  cod: 329
+  msj: No puede salvar sin introducir el Monto del Articulo correspondiente a la Actividad
+330:
+  cod: 330
+  msj: No puede salvar sin introducir la Fuente de Financiamiento de la Actividad
+331:
+  cod: 331
+  msj: No puede salvar sin introducir el Tipo de Gasto de la Actividad
+332:
+  cod: 332
+  msj: No se puede Modificar la Definición de Niveles de Ingresos debido a que ya existen Movimientos
+333:
+  cod: 333
+  msj: No puede salvar sin seleccionar al menos un ingreso.
+################# Control de Documentos #################
+# docpen
+1210:
+  cod: 1210
+  msj: Error al procesar el documento. El documento no fue importado correctamente
+1211:
+  cod: 1211
+  msj: El documento no puede ser atendido; ya culminó la ruta
+1212:
+  cod: 1212
+  msj: El usuario no existe
+1213:
+  cod: 1213
+  msj: El usuario no existe
+1215:
+  cod: 1215
+  msj: El usuario actual no pertenece a la unidad que puede atender este documento
+1216:
+  cod: 1216
+  msj: El usuario actual no pertenece a ninguna unidad y no puede atender ningún documento
+1402:
+  cod: 1402
+  msj: Los precios o cantidades aprobadas en los items no pueden ser cero (0.0)
+1403:
+  cod: 1403
+  msj: Debe ingresar todos los datos de la fila para agregar una ruta.
+1404:
+  cod: 1404
+  msj: Debe seleccionar el documento.
+1405:
+  cod: 1405
+  msj: Debe existir al menos una ruta para guardar.
+###############NOMINA################
+400:
+  cod: 400
+  msj: No puede salvar sin introducir tantos campos como columnas existan
+401:
+  cod: 401
+  msj: No puede salvar sin introducir tantos operadores como columnas existan
+402:
+  cod: 402
+  msj: No puede salvar sin introducir tantos valores como columnas existan
+403:
+  cod: 403
+  msj: No puede salvar sin introducir tantos conectores/formulas como columnas existan
+404:
+  cod: 404
+  msj: No puede salvar sino se introduce tantas formulas como nidos de condicionales existan
+405:
+  cod: 405
+  msj: Debe introducir por lo menos una formula
+406:
+  cod: 406
+  msj: El concepto ya esta asociado a esa Nómina.
+407:
+  cod: 407
+  msj: Existe una Nómina que ya esta asociada a los tipos de Conceptos.Por Favor, Cambielo por otro.
+408:
+  cod: 408
+  msj: El Tipo de aporte ya ha sido Registrado.
+409:
+  cod: 409
+  msj: El Registro ya existe. Intente con otro.
+410:
+  cod: 410
+  msj: Hay conceptos que ya estan asociados a una Nómina en el Grid.
+411:
+  cod: 411
+  msj: Faltan Datos en el Grid.
+412:
+  cod: 412
+  msj: Datos Repetidos en el Grid.
+413:
+  cod: 413
+  msj: Periodo De Fechas O Rango De Años de Antiguedad estan Incorrectos.
+414:
+  cod: 414
+  msj: Rango De Años de Antiguedad estan Incorrectos.
+415:
+  cod: 415
+  msj: El Empleado posee una Liquidación de Prestaciones. No puede solicitar Vacaciones.
+416:
+  cod: 416
+  msj: Fecha de Devolucion es incorrecta.
+417:
+  cod: 417
+  msj: El trabajador no tiene asociado este tipo de préstamo.
+418:
+  cod: 418
+  msj: El monto de la cuota periódica no puede ser mayor al monto del prestamo
+419:
+  cod: 419
+  msj: El monto del saldo no puede ser mayor al monto del prestamo
+420:
+  cod: 420
+  msj: El titulo no puede estar vacio
+421:
+  cod: 421
+  msj: La cedula del empleado no puede estar vacia
+422:
+  cod: 422
+  msj: La duración no puede estar vacia
+423:
+  cod: 423
+  msj: El nombre del instituto donde realizo estudios no puede estar vacio
+424:
+  cod: 424
+  msj: La fecha  ya  se  encuentra en un rango registrado
+425:
+  cod: 425
+  msj: Empleado no encontrado
+426:
+  cod: 426
+  msj: Hay rangos incorrectos. Verifique
+427:
+  cod: 427
+  msj: Una nomina no puede estar duplicada. Verifique
+428:
+  cod: 428
+  msj: Las asignaciones no pueden estar duplicadas. Verifique
+429:
+  cod: 429
+  msj: Las Partidas no pueden estar duplicadas. Verifique
+430:
+  cod: 430
+  msj: El empleado no puede estar duplicado. Verifique
+431:
+  cod: 431
+  msj: Las fechas son incorrectas, la fecha de inicio no puede ser mayor a la fecha final. Verifique
+432:
+  cod: 432
+  msj: Las tasas de interes no pueden estar en blanco. Verifique
+433:
+  cod: 433
+  msj: El empleado no puede tener más de un anticipo en la misma fecha. Verifique
+434:
+  cod: 434
+  msj: El empleado ya tiene asignado el Cargos y su Conceptos.
+435:
+  cod: 435
+  msj: Debe asociar por lo menos una nomina
+436:
+  cod: 436
+  msj: Debe definir alicuotas para el contrato
+437:
+  cod: 437
+  msj: Debe estar cargada la informacion del grid
+438:
+  cod: 438
+  msj: Los dias disfrutados no pueden ser mayores a los dias a disfrutar
+439:
+  cod: 439
+  msj: La fecha de solicitud no puede ser mayor que la fecha de salida
+440:
+  cod: 440
+  msj: La fecha de solicitud debe ser mayor a la ultima fecha de incorporacion
+441:
+  cod: 441
+  msj: El Empleado posee liquidacion de prestaciones, por lo tanto no se puede Calcular Liquidacion de Vacaciones
+442:
+  cod: 442
+  msj: Los datos del empleado son incorrectos
+443:
+  cod: 443
+  msj: La nomina nueva no existe
+444:
+  cod: 444
+  msj: El cargo nuevo no existe
+445:
+  cod: 445
+  msj: Debe informar el cargo nuevo a asignar
+446:
+  cod: 446
+  msj: La categoría nueva no existe
+447:
+  cod: 447
+  msj: El empleado ya existe para esa nomina con ese cargo
+448:
+  cod: 448
+  msj: Esta Nómina Especial ya ha sido definida
+449:
+  cod: 449
+  msj: Información Bancaria. Para el Tipo de Pago Deposito se deben llenar el Banco, Nro de Cuenta y Tipo de Cuenta.
+450:
+  cod: 450
+  msj: No puede haber un registro con el campo Concepto Prestaciones en blanco en el grid Asignaciones
+451:
+  cod: 451
+  msj: No puede haber un registro con el Monto en blanco en el grid Asignaciones
+452:
+  cod: 452
+  msj: No puede haber un registro con el Codigo Presupuestario en blanco  en el grid Asignaciones
+453:
+  cod: 453
+  msj: No puede haber un registro con el Tipo de Concepto en blanco  en el grid Asignaciones
+454:
+  cod: 454
+  msj: No puede haber un registro con el Numero de Dias en blanco en el grid Asignaciones
+455:
+  cod: 455
+  msj: No puede haber un registro con el campo Concepto Prestaciones en blanco en el grid Deducciones
+456:
+  cod: 456
+  msj: No puede haber un registro con el Monto en blanco en el grid Deducciones
+457:
+  cod: 457
+  msj: No puede haber un registro con el Codigo Presupuestario en blanco  en el grid Deducciones
+458:
+  cod: 458
+  msj: No puede haber un registro con el Tipo de Concepto en blanco  en el grid Deducciones
+459:
+  cod: 459
+  msj: No puede haber un registro con el Numero de Dias en blanco en el grid Deducciones
+460:
+  cod: 460
+  msj: Liquidaciones ya pagadas no se pueden modificar
+461:
+  cod: 461
+  msj: Los dias a disfrutar no pueden menor o igual a cero.
+462:
+  cod: 462
+  msj: No se puede Guardar sin Calcular su Prestaciones
+466:
+  cod: 466
+  msj: Grid Prima por  Hijos Incompleto, faltan datos
+467:
+  cod: 467
+  msj: Grid Prima Profesionalización Incompleto, faltan datos
+468:
+  cod: 468
+  msj: Grid Prima Cargo Calateral Incompleto, faltan datos
+469:
+  cod: 469
+  msj: La fecha de Solicitud no puede ser mayor que la fecha de Salida
+470:
+  cod: 470
+  msj: Grid no puede estar en blanco
+471:
+  cod: 471
+  msj: EL Monto no Puede ser cero
+472:
+  cod: 472
+  msj: EL Monto del adelanto no Puede ser mayor que el monto de intereses acumulado
+473:
+  cod: 473
+  msj: Los Apellido(s) y Nombre(s) no puedo estar en Blanco
+474:
+  cod: 474
+  msj: Nose pudo borrar el Registro
+475:
+  cod: 475
+  msj: Faltan datos en el grid de información curricular.
+476:
+  cod: 476
+  msj: Si el tipo de Distribucion es Monto Fijo, el Tipo de Calculo no puede ser Porcentual
+477:
+  cod: 477
+  msj: Si el Tipo de Cálculo es porcentual el monto embargo debe ser igual a 0
+478:
+  cod: 478
+  msj: Faltan Datos en el Grid de Conceptos
+479:
+  cod: 479
+  msj: El porcentaje no Puede tener valores negativos
+480:
+  cod: 480
+  msj: El grid de conceptos no puede estar vacio si ha elegido tipo de cálculo Porcentual
+481:
+  cod: 481
+  msj: El grid de conceptos no debe tener datos si ha elegido el tipo de cálculo Monto fijo
+482:
+  cod: 482
+  msj: Si el Tipo de Cálculo es Monto Fijo el monto embargo no puede ser igual a 0
+483:
+  cod: 483
+  msj: Debe Elegir un Tipo de Cálculo
+484:
+  cod: 484
+  msj: Faltan Datos en el Grid de Beneficiarios
+485:
+  cod: 485
+  msj: Hay datos Herrados en el Grid
+486:
+  cod: 486
+  msj: Debe Elegir un Tipo de Distribución
+487:
+  cod: 487
+  msj: La distribución del Embargo entre sus Beneficiarios debe sumar 100%
+488:
+  cod: 488
+  msj: La distribución del Embargo entre sus Beneficiarios debe ser igual al Monto del Embargo
+489:
+  cod: 489
+  msj: Faltan Datos en el Grid
+490:
+  cod: 490
+  msj: Hay Errores en el Grid
+491:
+  cod: 491
+  msj: La Nómina y el concepto ya fueron registrados, revise la lista
+492:
+  cod: 492
+  msj: El Concepto no Pertenece a la Nómina
+493:
+  cod: 493
+  msj: Si selecciona la opción Seguro HCM debe ingresar el porcentaje
+494:
+  cod: 494
+  msj: Debe ingresar un valor entre 1 y 100 en el porcentaje del Seguro HCM
+495:
+  cod: 495
+  msj: El Grid no puede estar Vacio
+496:
+  cod: 496
+  msj: Faltan Datos en el Grid
+497:
+  cod: 497
+  msj: Al momento de Cerrar la Nómina Calculada posiblemente no tenga Disponibilidad Presupuestaria
+498:
+  cod: 498
+  msj: Ya existe un registro con los Datos Cargos, verifquelos
+499:
+  cod: 499
+  msj:  El Código del Titulo/Categoria/Partida Presupuestaria no existe.
+2400:
+  cod: 2400
+  msj: Faltan datos en el grid de información familiar.
+2401:
+  cod: 2401
+  msj: Ya se encuentra registrada una Tabla de cargos y Pasos con el mismo Tipo de Cargo y Fecha de Vigencia.
+2402:
+  cod: 2402
+  msj: Ya existe un registro con los Datos Cargados en el grid, verifique por favor.
+2403:
+  cod: 2403
+  msj: No puede salvar si agrega el Formato  del RIF pero no su Desripción o Viceversa.
+2404:
+  cod: 2404
+  msj: El Número de Rupturas del Formato y Descripción del RIF no son iguales.
+2405:
+  cod: 2405
+  msj: La Longitud del Formato y Descripción del RIF no son iguales.  
+2406:
+  cod: 2406
+  msj: El Empleado ya esta registrado con ese mismo Cargo y Concepto
+2407:
+  cod: 2407
+  msj: No puede salvar debido a que ya esta registrado ese núcleo con ese concepto.
+2408:
+  cod: 2408
+  msj: El Grid de  Beca por Nivel de Instrucción esta Incompleto, Faltan Datos
+###############OBRAS################
+1000:
+    cod: 1000
+    msj: El Tipo de Solicitud no puede ser eliminado ya que ha sido asignado a una Solicitud
+1001:
+    cod: 1001
+    msj: Esta Solicitud no puede ser eliminada ya que Tiene una Respuesta
+1002:
+    cod: 1002
+    msj: Este Solicitante no puede ser eliminado ya que tiene posee una Solicitud
+1003:
+    cod: 1003
+    msj: La  Ciudad ya se Encuentra asociada a ese Pais y Estado.
+1004:
+    cod: 1004
+    msj: No puede salvar sin introducir el plazo de inicio en el módulo de Definición de Institución.
+1005:
+    cod: 1005
+    msj: No puede salvar sin introducir las Partidas COVENIN Asociadas a la Obra.
+1006:
+    cod: 1006
+    msj: No puede salvar sin introducir al menos un Inspector Asociado a la Obra.
+1007:
+    cod: 1007
+    msj: La Obra no puede ser Adjudicada a la Empresa Ofertante debido a que no existe Disponibilidad para su Presupuesto.
+1008:
+    cod: 1008
+    msj: El Código de Contrato, el Tipo de Valuación y N° de Valuación ya existe como valuación, por favor cambiélo por otro.
+1009:
+    cod: 1009
+    msj: Debe Introducir al menos un registro en oferta de servicio del contrato.
+1010:
+    cod: 1010
+    msj: No se debe valuar la totalidad de las horas en una Valuacion Parcial.
+1011:
+    cod: 1011
+    msj: Debe Introducir una cantidad mayor que cero.
+1012:
+    cod: 1012
+    msj: Debe Introducir una cantidad diferente de vacio.
+1013:
+    cod: 1013
+    msj: Debe Introducir al menos una Partida para el contrato.
+1014:
+    cod: 1014
+    msj: No se debe valuar la totalidad de las partidas en una Valuacion Parcial.
+1015:
+    cod: 1015
+    msj: No puede salvar sin introducir la Fecha de Inicio de Valuación.
+1016:
+    cod: 1016
+    msj: No puede salvar sin introducir la Fecha de Culminación de Valuación.
+1017:
+    cod: 1017
+    msj: Debe Introducir al menos un Tipo de Retenciones para el contrato.
+1018:
+    cod: 1018
+    msj: Debe Introducir un monto mayor que cero en la deducción.
+1019:
+    cod: 1019
+    msj: Debe Introducir el al menos una Partida para esta Inspeccion
+1020:
+    cod: 1020
+    msj: Tipee la Cantidad Inspeccionada de la Partida mayor a cero.
+1021:
+    cod: 1021
+    msj: El Número de Inspección ya existe para ese Contrato.
+1022:
+    cod: 1022
+    msj: Debe tener al menos una empresa participante
+1023:
+    cod: 1023
+    msj: El Monto Total debe ser mayor a cero
+1024:
+    cod: 1024
+    msj: Selecciones el Tipo de Precompromiso
+1025:
+    cod: 1025
+    msj: Selecciones el Tipo de Compromiso
+1026:
+    cod: 1026
+    msj: El Municipio ya se Encuentra asociada a ese Pais, Estado y Ciudad.
+1027:
+    cod: 1027
+    msj: La Parroquia ya se Encuentra asociada a ese Pais, Estado y Municipio.
+1028:
+    cod: 1028
+    msj: El Sector ya se Encuentra asociada a ese Pais, Estado, Municipio y Parroquia.
+1029:
+    cod: 1029
+    msj: El Estado ya se Encuentra asociada a ese Pais.
+
+###############FACTURACION################
+1100:
+    cod: 1100
+    msj: Debe introducir al menos un Precio.
+1101:
+    cod: 1101
+    msj: Debe seleccionar el Código del Recargo
+1103:
+    cod: 1103
+    msj: Debe seleccionar el Código del Artículo
+1104:
+    cod: 1104
+    msj: No puede salvar sin introducir el Número de Referencia del Presupuesto.
+1105:
+    cod: 1105
+    msj: No puede salvar sin introducir los Artículos del Pedido.
+1106:
+    cod: 1106
+    msj: No puede salvar sin introducir la Cantidad Solicitada.
+1107:
+    cod: 1107
+    msj: No puede salvar sin introducir el Precio del Artículo.
+1108:
+    cod: 1108
+    msj: No puede salvar sin introducir al menos un Artículo.
+1109:
+    cod: 1109
+    msj: No puede salvar sin introducir las fechas de los Artículos.
+1110:
+    cod: 1110
+    msj: No puede salvar sin Introducir la Fecha de Entrega del Artículo
+1111:
+    cod: 1111
+    msj: No puede salvar sin introducir el Rif del cliente
+1112:
+    cod: 1112
+    msj: No puede eliminar el pedido ya que se encuentra Anulado.
+1113:
+    cod: 1113
+    msj: No puede modificar un presupuesto.
+1114:
+    cod: 1114
+    msj: No puede hacer una Nota de Entrega de un Pedido Anulado.
+1115:
+    cod: 1115
+    msj: No puede hacer una Nota de Entrega de una Factura Anulada.
+1116:
+    cod: 1116
+    msj: No puede hacer una Nota de Entrega de una Factura que hace Referencia a un Despacho.
+1117:
+    cod: 1117
+    msj: El almacén no está asociado para el o los Artículos de la Nota de Entrega.
+1118:
+    cod: 1118
+    msj: El almacén no posee existencia suficiente para cubrir la Nota de Entrega.
+1119:
+    cod: 1119
+    msj: El Almacén no posee existencia suficiente para cubrir el Artículo
+1120:
+    cod: 1120
+    msj: El Almacén no está asociado para el artículo el Artículo.
+1121:
+    cod: 1121
+    msj: El Artículo ha sido entregado en su totalidad.
+1122:
+    cod: 1122
+    msj: La Cantidad a Entregar de Artículo debe ser revisada, ya que se han entregado.
+1123:
+    cod: 1123
+    msj: La Nota de Entrega ya ha sido autorizada.
+1124:
+    cod: 1124
+    msj: La Nota de Entrega se encuentra Anulada.
+1125:
+    cod: 1125
+    msj: No hay Existencia o los datos asociados no estan asociados correctamente
+1126:
+    cod: 1126
+    msj: La(s) Cantidad(s) a Devolver debe(n) ser mayor a cero (0.00)
+1127:
+    cod: 1127
+    msj: El almacén seleccionado no está asociado al(los) artículo(s) a devolver.
+1128:
+    cod: 1128
+    msj: El Cliente no tiene asociada una Cuenta Percontra para Mercancía a Consignación válida asociada.
+1129:
+    cod: 1129
+    msj: El Cliente no tiene asociada una Cuenta de Orden para Mercancía a Consignación válida asociada.
+1130:
+    cod: 1130
+    msj: El Proveedor de la Mercancía a Consignación no tiene asociada una Cuenta Percontra para Mercancía a Consignación válida asociada.
+1131:
+    cod: 1131
+    msj: El Proveedor de la Mercancía a Consignación no tiene asociada una Cuenta de Orden para Mercancía a Consignación válida asociada.
+1132:
+    cod: 1132
+    msj: Los Artículos no tiene Costo Promedio... El comprobante de Inventario no será generado.
+1133:
+    cod: 1133
+    msj: La(s) Cantidad(s) a Ajustar debe(n) ser mayor a cero (0.00)
+1134:
+    cod: 1134
+    msj: La(s) Cantidad(s) a Despachar debe(n) ser mayor a cero (0.00) en al menos un Artículo
+1135:
+    cod: 1135
+    msj: La(s) Cantidad(s) a Entregar debe(n) ser mayor a cero (0.00) en al menos un Artículo
+1136:
+    cod: 1136
+    msj: No puede salvar, debido que existen Precios diferentes para un mismo Artículo.
+1137:
+    cod: 1137
+    msj: No puede salvar debido a que existen Artículos sin Cuenta de Venta asociada.
+1138:
+    cod: 1138
+    msj: No puede salvar sin introducir el Código del Pedido
+1139:
+    cod: 1139
+    msj: No puede salvar sin introducir los Artículos asociados a la Factura
+1140:
+    cod: 1140
+    msj: No puede salvar sin introducir la Cantidad a Solicitar
+1141:
+    cod: 1141
+    msj: No puede salvar sin introducir el Precio del Artículo a Solicitar
+1142:
+    cod: 1142
+    msj: No puede salvar sin introducir la Cantidad a Entregar
+1143:
+    cod: 1143
+    msj: No puede salvar sin introducir el Monto a Cancelar
+1144:
+    cod: 1144
+    msj: No puede salvar sin introducir el Tipo de Pago para Cancelar la Factura
+1145:
+    cod: 1145
+    msj: El Cliente Ya Sobrepaso el Límite de Credito
+1146:
+    cod: 1146
+    msj: La Condición de Pago no corresponde con la Forma de Pago.
+1147:
+    cod: 1147
+    msj: El Cliente no Posee Cuenta Contable. No se puede generar el Comprobante.
+1148:
+    cod: 1148
+    msj: La Forma de Pago Genera Movimiento Según libro y El Número de Cuenta Bancaria no existe. No se puede generar el Comprobante.
+1149:
+    cod: 1149
+    msj: La Cuenta Bancaria asociada a la Forma de Pago no posee Cuenta Contable. No se puede generar el Comprobante.
+1150:
+    cod: 1150
+    msj: La Cuenta de Venta al Contado no esta Definida(Artículo). No se puede generar el Comprobante.
+1151:
+    cod: 1151
+    msj: Verifique que los Descuentos aplicados tengan asociada Cuenta Contable. No se puede generar el Comprobante.
+1152:
+    cod: 1152
+    msj: Verifique que los Recargos aplicados tengan asociada Cuenta Contable. No se puede generar el Comprobante.
+1153:
+    cod: 1153
+    msj: Verifique que los Artículos posean Cuenta de Venta asociada. No se puede generar el Comprobante.
+1154:
+    cod: 1154
+    msj: El Proveedor no posee Cuenta de Contable asociada. No se puede generar el Comprobante.
+1155:
+    cod: 1155
+    msj: El Monto del Pedido debe ser mayor a cero.
+1156:
+    cod: 1156
+    msj: No puede salvar sin introducir al menos un Artículo a Ajustar.
+1157:
+    cod: 1157
+    msj: No puede salvar sin introducir la Cantidad a Ajustar.
+1158:
+    cod: 1158
+    msj: No puede salvar sin introducir el Número del Lote.
+1159:
+    cod: 1159
+    msj: Verifique que los Artículos posean Cuenta de Contable asociada. No se puede generar el Comprobante.
+1160:
+    cod: 1160
+    msj: La venta debe contener al menos un recargo
+1161:
+    cod: 1161
+    msj: El recargo para la venta no existe
+1162:
+    cod: 1162
+    msj: La Factura a ajustar ya tiene un ajuste.
+1163:
+    cod: 1163
+    msj: La Fecha de la factura se encuentra dentro de un período cerrado.
+1164:
+    cod: 1164
+    msj: La Fecha del ajuste se encuentra dentro de un período cerrado.    
+1165:
+    cod: 1165
+    msj: El Numero de registros a grabar no puede ser mayor al número de filas predeterminadas.
+1166:
+    cod: 1166
+    msj: Existe un Código Presupuestario que ya tiene asignada esa Fuente de Financiamiento.  
+1167:
+    cod: 1167
+    msj: El Monto de la Carta Orden debe ser mayor a cero.    
+1168:
+    cod: 1168
+    msj: No puede salvar sin introducir al menos un Artículo en el Desglose.  
+1169:
+    cod: 1169
+    msj: El Monto Acumulado en el Desglose de Artículos sobrepasa al definido en el Detalle de Familia de Artículos.
+1170:
+    cod: 1170
+    msj: El Monto Total del Desglose de Artículos no es igual al Monto Total de la Carta Orden.
+1171:
+    cod: 1171
+    msj: El Monto Total supera el Limite de Crédito del Cliente.
+1172:
+    cod: 1172
+    msj: La caja que trata de abrir ya se encuentra aperturada.
+1173:
+    cod: 1173
+    msj: El monto en efectivo en la caja no cuadra con el monto registrado.
+1174:
+    cod: 1174
+    msj: El monto de movimientos en la caja no cuadra con el monto registrado.
+1175:
+    cod: 1175
+    msj: No se puede generar un correlativo para el código del cliente.
+1176:
+    cod: 1176
+    msj: El Monto Acumulado en el Desglose de Artículos sobrepasa el total definido.
+1177:
+    cod: 1177
+    msj: Debe ingresar una fecha de vigencia para los artículos de la lista.
+1178:
+    cod: 1178
+    msj: No se puede eliminar el pedido ya que tiene factura asociada
+1179:
+    cod: 1179
+    msj: No se puede eliminar la carta orden ya que tiene al menos un pedido facturado
+1180:
+    cod: 1180
+    msj: La combinación de usuario/clave no tiene permiso para realizar este proceso. Verifique la clave
+1181:
+    cod: 1181
+    msj: Existe un despacho asociado a una factura reciente.   
+1182:
+    cod: 1182
+    msj: La Factura ya ha sido Despachada.       
+1183:
+    cod: 1183
+    msj: La Factura ya ha sido Ajustada.    
+1184:
+    cod: 1184
+    msj: La Factura ya ha sido Anulada.    
+1185:
+    cod: 1185
+    msj: No puede eliminar el pedido ya que tiene Despachos asociados.
+1186:
+    cod: 1186
+    msj: La Cantidad de Artículos a Despachar supero la Cantidad Máxima configurada.
+1187:
+    cod: 1187
+    msj: No puede salvar la Institución Educativa no puede estar en blanco.
+1188:
+    cod: 1188
+    msj: No puede salvar la Cantidad a Devolver supera al monto Despachado Disponible(Cantidad Despachada menos lo Devuelto) 
+1189:
+    cod: 1189
+    msj: No puede salvar sin cargar la factura.
+1190:
+    cod: 1190
+    msj: No puede salvar la caja asociada a la factura no tiene rango activo.  
+1191:
+    cod: 1191
+    msj: No puede salvar hay artículos sin existencia.
+1192:
+    cod: 1192
+    msj: Monto Total factura debe ser igual al Monto Total de la Orden.
+1193:
+    cod: 1193
+    msj: La Fecha de la Orden no puede ser menor a la fecha de la Orden de Amortización.
+1194:
+    cod: 1194
+    msj: No puede Salvar debido a que existe un Artículo que no tiene Distribución de Contrato.
+1195:
+    cod: 1195
+    msj: No se puede eliminar el Presupuesto ya que tiene factura asociada.
+1196:
+    cod: 1196
+    msj: No se puede eliminar la Factura debido a que ya está Pagada.      
+1197:
+    cod: 1197
+    msj: No se puede anular la Devolución no hay existencia para algún Articulo
+1198:
+    cod: 1198
+    msj: Existe un Artículo que no tiene asociado el Código de la Partida Presupuestaria de Ingreso.
+1199:
+    cod: 1199
+    msj: El Número de Cotización a la cual refiere no puede estar en blanco.
+1200:
+    cod: 1200
+    msj: El Número de Cotización generado sobrepasa la longitud Permitida.
+1201:
+    cod: 1201
+    msj: No se puede Eliminar la Factura el Comprobante esta Actualizado. 
+1202:
+  cod: 1202
+  msj:  No se puede eliminar debido a que el Movimiento según Libro esta conciliado.     
+########## Licitaciones ########
+901:
+    cod: 901
+    msj: El monto Total de la Empresa seleccionada como oferente debe ser mayor a cero (0.00)
+902:
+    cod: 902
+    msj: Debe seleccionar al menos una empresa como oferente de la Licitación seleccionada
+903:
+    cod: 903
+    msj: Debe seleccionar al menos un Recaudo
+904:
+    cod: 904
+    msj: El puntaje del recaudo seleccionado  debe ser mayor a cero (0.00)
+905:
+    cod: 905
+    msj: La empresa no es oferente para la Licitación Seleccionada
+906:
+    cod: 906
+    msj: El puntaje del Criterio de Evaluación debe ser mayor a cero (0.00)
+907:
+    cod: 907
+    msj: Debe seleccionar al menos un Criterio de Selección
+908:
+    cod: 908
+    msj: Debe seleccionar al menos un Empleado a formar parte de la Comisión de Licitación
+909:
+    cod: 909
+    msj: Debe seleccionar al menos una partida
+910:
+    cod: 910
+    msj: El monto total de la partida debe ser mayor a cero (0.00)
+########## Ingresos ########
+1500:
+    cod: 1500
+    msj: Código Presupuestario inválido, no se ha definido el nivel anterior
+
+1501:
+    cod: 1501
+    msj: No se puede eliminar el Código Presupuestario porque tiene movimientos asociados
+
+1502:
+    cod: 1502
+    msj: No se puede eliminar el ajuste
+
+1503:
+    cod: 1503
+    msj: No se puede eliminar el Título Presupuestario es Padre.
+
+1504:
+    cod: 1504
+    msj: No se puede realizar el ajuste. Movimientos del ajuste no pueden estar vacíos
+
+1505:
+    cod: 1505
+    msj: El Movimiento en Libros no puede ser Eliminado porque No Existe
+
+1506:
+    cod: 1506
+    msj: El Movimiento en Libros no pudo ser Eliminado
+
+1507:
+    cod: 1507
+    msj: Este movimiento se encuentra Anulado
+
+1508:
+    cod: 1508
+    msj: La referencia no puede estar en Blanco
+1509:
+    cod: 1509
+    msj: EL Codigo Presupuestario no existe o no Tiene Asignacion Inicial
+1510:
+    cod: 1510
+    msj: EL Movimiento Según Libro no existe
+1511:
+    cod: 1511
+    msj: EL Movimiento Según Libro no está Anulado
+1512:
+    cod: 1512
+    msj: La Fecha del Deposito no puede ser mayor a la Fecha del Ingreso
+1513:
+    cod: 1513
+    msj: Existe un Monto de Ingreso para el periodo determinado excede el Estimado Devengado en la Asignación Inicial.
+1514:
+    cod: 1514
+    msj: El Monto Máximo no puede ser menor o igual al Monto Mínino.
+1515:
+    cod: 1515
+    msj: La cuenta contable debe ser cargable.
+1516:
+    cod: 1516
+    msj: El Monto total de los Depositos debe ser igual al Monto Total del Ingreso
+1517:
+    cod: 1517
+    msj: Existe una Cuenta Contable que no es Cargable.  
+1518:
+    cod: 1518
+    msj: La Cuenta Bancaria no puede estar en blanco.
+1519:
+    cod: 1519
+    msj: El Tipo de Movimiento no puede estar en blanco.
+1520:
+    cod: 1520
+    msj: El Número de Depósito no puede estar en blanco.    
+1521:
+    cod: 1521
+    msj: Debe defenir el Contribuyente - Tipo de Ingreso - Tipo de Movimiento para Migrar los Ingresos
+1522:
+    cod: 1522
+    msj: El Ingreso no puede ser eliminado. Tiene un movimiento en Bancos.
+1523:
+    cod: 1523
+    msj: El Porcentaje de la Comisión debe ser mayor a cero.
+1524:
+    cod: 1524
+    msj: La Cuenta Contable de la Comisión no puede estar en blanco.
+########## Atencion al Ciudadano ########
+1400:
+    cod: 1400
+    msj: Debe existir al menos un item a donar.
+1401:
+    cod: 1401
+    msj: No se puede guardar la solicitud si existen recaudos no consignados.
+1402:
+  cod: 1402
+  msj: Los precios o cantidades aprobadas en los items no pueden ser cero (0.0)
+
+  ########## Viaticos ########
+1600:
+    cod: 1600
+    msj: Error al Guardar el Plan de Trabajo
+1601:
+    cod: 1601
+    msj: Error al Guardar el Gastos Globales
+1602:
+    cod: 1602
+    msj: Error al Eliminar los Gastos
+1603:
+    cod: 1603
+    msj: Error al Eliminar el Plan de Trabajo
+1604:
+    cod: 1604
+    msj: Se encuentra Causado este Viatico
+1605:
+    cod: 1605
+    msj: No se puede eliminar la Extensión del Viático debido a que el compromiso ya esta causado.   
+1606:
+    cod: 1606
+    msj: El Nivel del Trabajador no puede estar en Blanco
+1607:
+    cod: 1607
+    msj: El Número de Pasaporte no puede estar en Blanco   
+1608:
+    cod: 1608
+    msj: El Número de Visa no puede estar en Blanco       
+1609:
+    cod: 1609
+    msj: El Número de Teléfono Celular no puede estar en Blanco  
+1610:
+    cod: 1610
+    msj: El Número de Extensión del Teléfono no puede estar en Blanco   
+1611:
+    cod: 1611
+    msj: El Apellido de la Persona Contacto no puede estar en Blanco  
+1612:
+    cod: 1612
+    msj: El Nombre de la Persona Contacto no puede estar en Blanco
+1613:
+    cod: 1613
+    msj: El Parentesco de la Persona Contacto no puede estar en Blanco 
+1614:
+    cod: 1614
+    msj: El Número de Habitación de la Persona Contacto no puede estar en Blanco  
+1615:
+    cod: 1615
+    msj: El Número de Celular de la Persona Contacto no puede estar en Blanco
+1616:
+    cod: 1616
+    msj: Ya hay una Extensión con esa misma Fecha.
+1617:
+    cod: 1617
+    msj: La Fecha de Extensión Desde-Hasta debe ser mayor a la La Fecha del Cálculo Desde-Hasta.
+1618:
+    cod: 1618
+    msj: La Fecha de Extensión Hasta no puede ser menor a la Fecha de Extensión Desde o viceversa.
+1619:
+    cod: 1619
+    msj: La Fecha de Extensión no puede ser menor a la Fecha del Cálculo. 
+1620:
+    cod: 1620
+    msj: La Solicitud de Boleto Áereo no se puede eliminar esta asociada a una Solicitud de Viáticos.
+1621:
+    cod: 1621
+    msj: La Solicitud de Transporte Terrestre no se puede eliminar esta asociada a una Solicitud de Viáticos.    
+1622:
+    cod: 1622
+    msj: La solicitud de Viaticos ya fue calculada
+1623:
+    cod: 1623
+    msj: El Cálculo de Viáticos no puede ser aprobado. El Compromiso no tiene Beneficiario Asociado.  
+1624:
+    cod: 1624
+    msj: La Fecha de Extensión debe ser mayor a la Fecha de Extensión Desde y Hasta. 
+1625:
+    cod: 1625
+    msj: La Fecha de Regreso no debe estar en Blanco         
+1626:
+    cod: 1626
+    msj: La Fecha de Salida debe ser menor o igual a la fecha de Regreso
+1627:
+    cod: 1627
+    msj: El Itinerario no puede estar en Blanco  
+1628:
+    cod: 1628
+    msj: El Estado no puede estar en Blanco  
+1629:
+    cod: 1629
+    msj: La Ciudad no puede estar en Blanco       
+1630:
+    cod: 1630
+    msj: El Solicitante del Viático tiene otro Viático entre ese rango de Fechas
+1631:
+    cod: 1631
+    msj: La Dirección no puedo estar en Blanco
+1632:
+    cod: 1632
+    msj: El Evento no puedo estar en Blanco
+1633:
+    cod: 1633
+    msj: La Dirección no puede estar en Blanco    
+########### Autenticacion ##############
+30:
+  cod: 30
+  msj: La contraseña actual es erronea
+31:
+  cod: 31
+  msj: La contraseña es Inadecuada.
+
+########### Presupuesto ##############
+1300:
+  cod: 1300
+  msj: El Monto del Financiamiento no puede ser Mayor al Disponible
+1301:
+  cod: 1301
+  msj: El Monto del Financiamiento no puede ser Mayor que el Comprometido de la Partida
+1302:
+  cod: 1302
+  msj: El Monto del Financiamiento no puede ser Mayor a la Asignacion Inicial.
+1303:
+  cod: 1303
+  msj: El numero inicial del Correlativo no ha sido definido.
+1304:
+  cod: 1304
+  msj: El Monto Total del Financiamiento no puede ser Menor al Movimiento del Documento.
+1305:
+  cod: 1305
+  msj: El Monto del Financiamiento no puede ser Menor a la Asignacion Inicial.
+1306:
+  cod: 1306
+  msj: La Definición Presupuestaria no ha sido grabada.
+1307:
+  cod: 1307
+  msj: Nivel Anterior no existe.
+1308:
+  cod: 1308
+  msj: El nivel de Disponibilidad debe ser menor o igual a la suma de categorias y partidas.
+1309:
+  cod: 1309
+  msj: La Cuenta Contable que ud asoció NO EXISTE.
+1310:
+  cod: 1310
+  msj: No Esta Definido El Formato Presupuestario.
+1311:
+  cod: 1311
+  msj: Código Presupuestario ya tiene Asociado un Traslado.
+1312:
+  cod: 1312
+  msj: Código Presupuestario ya tiene Asociado una Adicion/Disminución.
+1313:
+  cod: 1313
+  msj: Código Presupuestario ya tiene Asociado un Ajuste.
+1314:
+  cod: 1314
+  msj: Código Presupuestario ya tiene Pagado Asociados.
+1315:
+  cod: 1315
+  msj: Código Presupuestario ya tiene Causado Asociados.
+1316:
+  cod: 1316
+  msj: Código Presupuestario ya tiene Compromisos Asociados.
+1317:
+  cod: 1317
+  msj: Código Presupuestario ya tiene Precompromisos Asociados.
+1318:
+  cod: 1318
+  msj: Código Presupuestario ya tiene Asignación Presupuestaria.
+1319:
+  cod: 1319
+  msj: La Fecha de Cierre debe ser mayor que la Fecha de Inicio.
+1320:
+  cod: 1320
+  msj: La Fecha de Inicio debe estar dentro del Periodo.
+1321:
+  cod: 1321
+  msj: La Fecha de Cierre esta fuera del Periodo.
+1322:
+  cod: 1322
+  msj: No se puede eliminar titulo presupuestario padre.
+1323:
+  cod: 1323
+  msj: El números de categorías debe igual a la clasificación de categorías.
+1324:
+  cod: 1324
+  msj: El números de partidas debe igual a la clasificación de partidas.
+1325:
+  cod: 1325
+  msj: Categoría Presupuestaria Inválida
+1326:
+  cod: 1326
+  msj: No se puede eliminar ese Pago por que esta siendo referenciado en CPPAGOS.
+1327:
+  cod: 1327
+  msj: No se puede eliminar ese Ajuste por que esta siendo referenciado en CPMOVAJU.
+1328:
+  cod: 1328
+  msj: El Precompromiso ya esta Anulado.
+1329:
+  cod: 1329
+  msj: El Precompromiso No Puede ser Eliminado Ni Anulado, Tiene un Ajuste.
+1330:
+  cod: 1330
+  msj: El Precompromiso No Puede ser Eliminado Ni Anulado, Tiene Movimiento.
+1331:
+  cod: 1331
+  msj: El Compromiso ya esta Anulado.
+1332:
+  cod: 1332
+  msj: El Compromiso No Puede ser Eliminado Ni Anulado, Tiene Movimiento.
+1333:
+  cod: 1333
+  msj: Fecha fuera del Ejercicio Fiscal.
+1334:
+  cod: 1334
+  msj: El Periodo en Presupuesto fue Cerrado.
+1335:
+  cod: 1335
+  msj: El Compromiso No Puede ser Eliminado Ni Anulado, Tiene un Ajuste.
+1336:
+  cod: 1336
+  msj: El Compromiso NO Puede Ser Eliminado,Porque Fue Generado Desde Otro Modulo.
+1337:
+  cod: 1337
+  msj: El codigo presupuestario no puede estar repetido.
+1338:
+  cod: 1338
+  msj: El monto a imputar es mayor al monto disponible.
+1339:
+  cod: 1339
+  msj: No se puede eliminar, el Documento esta siendo usado por uno o mas movimientos.
+1340:
+  cod: 1340
+  msj: El código presupuestario no existe.
+1341:
+  cod: 1341
+  msj: Este Compromiso no se puede Aprobar por que esta Anulado.
+1342:
+  cod: 1342
+  msj: No se puede guardar sin imputaciones presupuestarias.
+1343:
+  cod: 1343
+  msj: El Pagado ya esta Anulado.
+1344:
+  cod: 1344
+  msj: El Pagado No Puede ser Anulado, Tiene un Ajuste.
+1345:
+  cod: 1345
+  msj: El Pagado no puede ser Eliminado porque se Originó en Otro Módulo.
+1346:
+  cod: 1346
+  msj: El Causado ya esta Anulado.
+1347:
+  cod: 1347
+  msj: El Causado No Puede ser Eliminado Ni Anulado, Tiene un Ajuste.
+1348:
+  cod: 1348
+  msj: El Causado No Puede ser Eliminado Ni Anulado, Tiene Movimiento.
+1349:
+  cod: 1349
+  msj: Año se encuentra fuera del Periodo Actual.El Monto a Asignar no puede ser menor al monto ejecutado
+1350:
+  cod: 1350
+  msj: El Monto a Asignar no puede ser menor al monto ejecutado.
+1351:
+  cod: 1351
+  msj: Solo puede grabar la asignación con monto igual a cero, debido a que la Etapa de Definición esta Cerrada.
+1352:
+  cod: 1352
+  msj: El Codigo introducido no cumple con el Formato Presupuestario.
+1353:
+  cod: 1353
+  msj: La referencia no existe
+1354:
+  cod: 1354
+  msj: La Fecha del Traslado debe ser mayor o igual a la Fecha de la Solicitud
+1355:
+  cod: 1355
+  msj: La Fecha de la Adición/Disminución debe ser mayor o igual a la Fecha de la Solicitud
+1356:
+  cod: 1356
+  msj: Debe marcar la Primera Opción Servicios Contables antes de la Segunda Opción Administración.
+1357:
+  cod: 1357
+  msj: No puede Salvar si la Fecha de Envío a Servicios contables esta en blanco
+1358:
+  cod: 1358
+  msj: La Fecha de Envío de Administración no puede ser menor a la Fecha de Envío de Servicios Contables.
+1359:
+  cod: 1359
+  msj: No puede Salvar si la Fecha de Envío a Administración esta en blanco
+1360:
+  cod: 1358
+  msj: La Fecha de Envío de Tesoreria no puede ser menor a la Fecha de Envío de Administración.  
+1361:
+  cod: 1359
+  msj: No puede Salvar si la Fecha de Envío a Tesoreria esta en blanco   
+1362:
+  cod: 1362
+  msj: Debe marcar la Segunda Opción Administración antes de la Tercera Opción Tesoreria.
+1363:
+  cod: 1363
+  msj: La Fecha de Envío a Servicios Contables no puede ser menor a la Fecha del Compromiso.
+1364:
+  cod: 1364
+  msj: No se puede salvar sin introducir el Monto del Traspaso.
+1365:
+  cod: 1365
+  msj:  La referencia ya Existe intente con otra.
+1366:
+  cod: 1366
+  msj:  El Traslado no se puede anular debido a que Existe un movimiento asociado con el titulo presupuestario.
+1367:
+  cod: 1367
+  msj:  El Movimiento de la Solicitud de Crédito Adición/Disminución esta en blanco.
+1368:
+  cod: 1368
+  msj: No se puede guardar sin el Desglose de Evento de las Imputaciones Presupuestarias.
+1369:
+  cod: 1369
+  msj: Este Compromiso no se puede Eliminar por que esta Causado.  
+1370:
+  cod: 1370
+  msj: El Monto Total Distribuido en Eventos de ser igual Monto Total del Precompromiso. 
+1371:
+  cod: 1371
+  msj: El Monto Total Distribuido en Eventos de ser igual Monto Total del Causado.
+1372:
+  cod: 1372
+  msj: El Monto Total Distribuido en Eventos de ser igual Monto Total del Pagado.  
+1373:
+  cod: 1373
+  msj: El Monto Total Distribuido en Eventos de ser igual Monto Total del Traslado.  
+1374:
+  cod: 1374
+  msj: El Monto Total Distribuido en Eventos de ser igual Monto Total del Compromiso.
+1375:
+  cod: 1375
+  msj: El Monto Total Distribuido en Eventos de ser igual Monto Total del Adición/Disminución.      
+1376:
+  cod: 1376
+  msj: El Código Presupuestario ya tiene Asignación Inicial
+1377:
+  cod: 1377
+  msj: El Código Presupuestario ya posee Movimientos.
+1378:
+  cod: 1378
+  msj: La partida del Código Presupuestario no cumple con la partida definida para Deudas Anteriores.  
+1379:
+  cod: 1379
+  msj: El Crédito/Adicion está Anulado.
+1380:
+  cod: 1380
+  msj: No se puede Eliminar el Crédito/Adicion. No hay disponibilidad. 
+1381:
+  cod: 1381
+  msj: No se puede Salvar la Orden de Pago debido a que ya existe un Causado con el mismo Número.
+1382:
+  cod: 1382
+  msj: La Dirección no tiene Prefijo Asociado.
+1383:
+  cod: 1383
+  msj: La Fecha de la Referencia es mayor a la del Pagado.
+1384:
+  cod: 1384
+  msj: La Fecha de la Referencia es mayor a la del Causado.  
+1385:
+  cod: 1385
+  msj: La Fecha de la Referencia es mayor a la del Compromiso.  
+1386:
+  cod: 1386
+  msj: No se puede eliminar el Movimiento Según Libros porque tiene asociado un pago Electrónico.
+1387:
+  cod: 1387
+  msj: No se puede Anular/Eliminar el Movimiento Según Libros porque está asociado una Transferencia Bancaria.
+1388:
+  cod: 1388
+  msj: No se puede Eliminar el Cierre de Caja Chica porque esta asociado a un Causado.
+1389:
+  cod: 1389
+  msj: Los montos para los códigos presupuestario deben ser mayor a cero.
+1390:
+  cod: 1390
+  msj: Fecha fuera del Ejercicio Fiscal.
+1391:
+  cod: 1391
+  msj: El Periodo en Ingresos fue Cerrado.  
+1392:
+  cod: 1392
+  msj: No se puede eliminar el PreCompromiso porque ya está asociado a un Compromiso.
+1393:
+  cod: 1393
+  msj: No se puede eliminar el Compromiso porque ya está asociado a un Causado.  
+1394:
+  cod: 1394
+  msj: No se puede eliminar el Causado porque ya está asociado a un Pagado.   
+1395:
+  cod: 1395
+  msj: El Código introducido no cumple con el Formato Presupuestario.   
+1396:
+  cod: 1396
+  msj: No puede salvar, Existen Artículo(s) que no tiene asociada la Categoria.
+1397:
+  cod: 1397
+  msj: No puede salvar, Existen Artículo(s) con monto cero.  
+1398:
+  cod: 1398
+  msj: No se puede Eliminar el PreCompromiso esta asociado a un Traslado.
+1399:
+  cod: 1399
+  msj: El Monto Total del  Ajuste debe ser mayor a cero.
+
+########### Hacienda ##############
+
+701:
+  cod: 701
+  msj: Código y Año ya Existe, Intente con otro.
+702:
+  cod: 702
+  msj: Id no Encontrado, fallo al borrar Detalle.
+703:
+  cod: 703
+  msj: Complete todos los campos de Autorización.
+704:
+  cod: 704
+  msj: Complete todos los campos de Negación de Licencia.
+705:
+  cod: 705
+  msj: Complete todos los campos de la Suspención de la Licencia.
+706:
+  cod: 706
+  msj: Complete todos los campos de la Cancelación de la Licencia.
+707:
+  cod: 707
+  msj: Existen Código de Actividad en la Declaración que no pertenecen al Año de la misma
+708:
+  cod: 708
+  msj: Ya existe una declaracion para la Propaganda en el Periodo.
+709:
+  cod: 709
+  msj: Ya existe una declaracion para el Espectáculo en el Periodo.
+710:
+  cod: 710
+  msj: Ya existe una declaracion para la Apuestas Lícitas
+711:
+  cod: 711
+  msj: El Número de Traspaso no puede estar en Blanco
+712:
+  cod: 712
+  msj: La fecha de Traspaso no puede estar en Blanco
+713:
+  cod: 713
+  msj: El funcionario receptor del Traspaso no puede estar en Blanco
+714:
+  cod: 714
+  msj: El constribuyente anterior no puede estar en Blanco
+715:
+  cod: 715
+  msj: Ya existe un traspaso para otro inmueble
+716:
+  cod: 716
+  msj: No puede salvar sin introducir al menos la Parroquia.
+717:
+  cod: 717
+  msj: La Partida ya se encuentra asociada a un Código Catastral.
+718:
+  cod: 718
+  msj: No puede salvar sin introducir tantos Nombres Extendidos Como Niveles Existan.
+719:
+  cod: 719
+  msj: La Longitud de todos los Nombres Abreviados deben coincidir con el Tamaño del Nivel.
+720:
+  cod: 720
+  msj: No puede salvar sin introducir tantos Tamaños Como Niveles Existan.
+721:
+  cod: 721
+  msj: No puede salvar sin introducir tantos Nombres Abreviados Como Niveles Existan.
+722:
+  cod: 722
+  msj: El Nivel del Inmueble deber ser menor o igual al Número de Niveles.
+723:
+  cod: 723
+  msj: Este Catastro tiene catastros dependientes a él, debe eliminarlos primero.
+724:
+  cod: 724
+  msj: La Zona y Año ya Existe, Intente con otro.
+725:
+  cod: 725
+  msj: Este código de vehículos tiene dependientes a el, debe eliminarlos primero.
+726:
+  cod: 726
+  msj: Año no válido.
+727:
+  cod: 727
+  msj: Año no puede estar en blanco.
+728:
+  cod: 728
+  msj: El Código de Estado ya esta registrado con este País. Por Favor, Cambiélo por otro.
+729:
+  cod: 729
+  msj: El Código de Municipio ya esta registrado con este País y Estado. Por Favor, Cambiélo por otro.
+730:
+  cod: 730
+  msj: El Código de Parroquia ya esta registrado con este País, Estado y Municipio. Por Favor, Cambiélo por otro.
+731:
+  cod: 731
+  msj: No puede salvar sin introducir al menos la fecha de modificación del vehículo.
+732:
+  cod: 732
+  msj: No puede salvar sin introducir al menos el funcionario receptor de la modificación.
+733:
+  cod: 733
+  msj: No se Puede Borrar un Vehiculo Que Posea Declaración.
+734:
+  cod: 734
+  msj: Ya existe el Número de referencia para otro Vehiculo.
+735:
+  cod: 735
+  msj: No puede salvar sin introducir al menos la Referencia de la modificación.
+736:
+  cod: 736
+  msj: La Distribución de la declaración no ha sido calculada.
+737:
+  cod: 737
+  msj: No es Posible eliminar una declaración con un Pago Previo.
+738:
+  cod: 738
+  msj: No puede salvar sin introducir al menos el funcionario receptor de negación de licencia.
+739:
+  cod: 739
+  msj: No puede salvar sin introducir al menos el motivo de negación de licencia.
+740:
+  cod: 740
+  msj: No puede salvar sin introducir al menos la fecha de negación de licencia.
+741:
+  cod: 741
+  msj: No puede salvar sin introducir al menos la Referencia de la modificación.
+742:
+  cod: 742
+  msj: No puede salvar sin introducir al menos el funcionario receptor de la modificación.
+743:
+  cod: 743
+  msj: No puede salvar sin introducir al menos la fecha de modificación.
+745:
+  cod: 745
+  msj: El Número de Control ya pertenece a un Pago.
+746:
+  cod: 746
+  msj: El Número de Control ya pertenece a una Declaración.
+747:
+  cod: 747
+  msj: No se puede eliminar la declaracion porque al menos una de las deudas Tiene Pago Asociado.
+748:
+  cod: 748
+  msj: No puede salvar ya que el saldo de la forma de pago debe ser 0.
+749:
+  cod: 749
+  msj: No puede salvar sin introducir todos los tipos de pago en la forma de pago.
+750:
+  cod: 750
+  msj: No puede salvar sin introducir todos los Números de pago en la forma de pago.
+751:
+  cod: 751
+  msj: No puede salvar sin introducir todos los Códigos de Recargos ó Descuentos.
+752:
+  cod: 752
+  msj: Todos los Montos de los Recargos ó Descuentos deben ser Mayores a Cero (0.00).
+753:
+  cod: 753
+  msj: No se puede Eliminar un pago Validado.
+754:
+  cod: 754
+  msj: No se puede Salvar sin seleccionar al menos un Pago.
+755:
+  cod: 755
+  msj: El Nro. de Depósito ya esta Registrado para otra Liquidación .
+756:
+  cod: 756
+  msj: La Referencia de Liquidación ya esta Registrada para otra Liquidación
+757:
+  cod: 757
+  msj: Ya Existe una Unidad Tributaria para el Rango de Fecha Especificado
+758:
+  cod: 758
+  msj: No se Puede Generar la Solvencia ya que el Contribuyente tiene Deudas Vencida
+759:
+  cod: 759
+  msj: La(s) Cuenta(s) Contable(s) asociada(s) a Los Código(s) Presupuestario(s)  no existen
+760:
+  cod: 760
+  msj: La(s) Cuenta(s) Contable(s) asociada(s) a Las Cuenta(s) Bancaria(s) no existen
+761:
+  cod: 761
+  msj: Los Código(s) Presupuestario(s)  no existen
+762:
+  cod: 762
+  msj: No se puede Eliminar un pago Liquidado.
+763:
+  cod: 763
+  msj: La Fuente de Ingresos no existe
+764:
+  cod: 764
+  msj: Existen diferencia en montos al momento de Generar el Comprobante
+765:
+  cod: 765
+  msj: El Contribuyente ya posee una Declaración Complementaria con ese mismo número.
+766:
+  cod: 766
+  msj: NO se Puede Reversar un Convenio, si este tiene alguna de sus Cuotas Canceladas
+767:
+  cod: 767
+  msj: Tanto La placa nueva como la antigua deben ser valores no nulos
+768:
+  cod: 768
+  msj: El Número de la Placa Nueva ya se encuentra Registrado.
+769:
+  cod: 769
+  msj: La Referencia de Solvencia no puede estar en Blanco.  
+770:
+  cod: 770
+  msj: Tanto El N° Inmueble nuevo como el antiguo deben ser valores no nulos  
+771:
+  cod: 771
+  msj: El N° Inmueble Nuevo ya se encuentra Registrado.  
+772:
+  cod: 772
+  msj: Tanto El N° Licencia nuevo como el antiguo deben ser valores no nulos  
+773:
+  cod: 773
+  msj: El N° Licencia Nuevo ya se encuentra Registrado.    
+############Cuentas x Cobrar#########
+1800:
+  cod: 1800
+  msj: No Puede Salvar sin haber seleccionado un Documento a Pagar
+1801:
+  cod: 1801
+  msj: No Puede Salvar sin haber Registrado un Pago
+1802:
+  cod: 1802
+  msj: No Puede Salvar sin haber Seleccionar el Banco y Num. de Referencia
+1803:
+  cod: 1803
+  msj: No Puede Salvar porque este Cliente no esta como Beneficiario para realizar el Ingreso
+1804:
+  cod: 1804
+  msj:  No se puede eliminar debido a que el Movimiento según Libro esta conciliado o el Comprobante esta actualizado.
+1805:
+  cod: 1805
+  msj:  No se puede generar el Movimiento según Libro, ya que existe uno con la Misma Cuenta Bancaria, Referencia y Tipo de Movimiento.
+1806:
+  cod: 1806
+  msj:  El Empleado no esta registrado.
+1807:
+  cod: 1807
+  msj:  No Puede Salvar debe indicar el Tipo de Movimiento de la Forma de Pago
+1809:
+  cod: 1809
+  msj:  No se Puede Trasladar los Documentos Pendientes, el último periodo contable debe estar cerrado.
+1810:
+  cod: 1810
+  msj:  Monto del Documento no puede ser Mayor al Monto del Documento Afectado.
+1811:
+  cod: 1811
+  msj:  No se puede eliminar el Documento ya tiene una Transaccion Asociada. 
+1812:
+  cod: 1812
+  msj:  No se puede eliminar el Documento ya que Refiere a una Factura.    
+############ Catastro #########
+8881:
+  cod: 8881
+  msj:  Error al Grabar las Personas
+8882:
+  cod: 8882
+  msj:  Error al Grabar las Construcciones
+8883:
+  cod: 8883
+  msj:  Error al Grabar los Terrenos
+8884:
+  cod: 8884
+  msj:  Error al Grabar los Uso Especificos
+8885:
+  cod: 8885
+  msj:  Avalúo ya Existe, intento con otro.
+
+############ Contabilidad #########
+600:
+  cod: 600
+  msj:  No se puede definir esta cuenta como cargable ya que la misma tiene cuentas Hijas
+601:
+  cod: 601
+  msj:  La Cuenta de Resultado Acumulado de los Ejercicios Anteriores No es Cargable
+602:
+  cod: 602
+  msj:  La Cuenta de Resultado Acumulado de Restar los Ingresos menos los Egresos del Ejercicio en Curso No es Cargable
+603:
+  cod: 603
+  msj:  Hay Períodos Anteriores a este que están Abiertos, Ciérrelos Primero
+604:
+  cod: 604
+  msj:  No se puede cerrar el periodo ya que contiene Comprobante DIFERIDOS
+605:
+  cod: 605
+  msj:  Todavia existen comprobantes diferidos en el Ejercicio.
+606:
+  cod: 606
+  msj:  Debe cerrar todos los Periodos antes de hacer el Cierre de Ejercicio.
+607:
+  cod: 607
+  msj:  No se puede abrir el periodo ya que contiene Comprobante DIFERIDOS
+608:
+  cod: 608
+  msj:  Verifique en Tipos de Cuentas y en Cuentas Contables que los datos esten completos.
+609:
+  cod: 609
+  msj:  Ya se Realizo el Cierre
+610:
+  cod: 610
+  msj:  Debe configurar las Definiciones Específicas de la Institución para poder cargar Cuentas Nuevas
+611:
+  cod: 611
+  msj:  Existen Comprobantes contables para este código de cuenta
+612:
+  cod: 612
+  msj:  Existen Proveedores con este código contable asociado
+613:
+  cod: 613
+  msj:  Existen Titulos Presupuestarios con este código contable asociado
+614:
+  cod: 614
+  msj:  El periodo ya esta abierto
+615:
+  cod: 615
+  msj:  El periodo ya esta cerrado
+616:
+  cod: 616
+  msj:  Este Comprobante esta Nulo, no se puede Eliminar
+617:
+  cod: 617
+  msj:  La cuenta no tiene padre y no es de primer nivel.
+618:
+  cod: 618
+  msj:  Error Generando Comprobantes, Ya se realizó el cierre.
+619:
+  cod: 619
+  msj:  La Etapa de Definición esta cerrada, no podrá actualizar la Cuenta.
+620:
+  cod: 620
+  msj:  La Etapa de Definicion no se ha Cerrado.
+621:
+  cod: 621
+  msj: La Fecha del Comprobante pertenece a un periodo Cerrado.
+622:
+  cod: 622
+  msj: La Fecha del Comprobante esta fuera del Período del Ejercicio Fiscal.
+623:
+  cod: 623
+  msj: No se puede eliminar el Comprobante porque tiene Ordenes de Pago.
+624:
+  cod: 624
+  msj: No se puede eliminar el Comprobante porque tiene Movimientos según Libro.
+625:
+  cod: 625
+  msj: El Código Padre de esta Cuenta ya es Cargable, no puede tener mas hijos.
+626:
+  cod: 626
+  msj: El Total de Monto Centro de Costo sobrepasa el Monto asignado a la cuenta contable.
+627:
+  cod: 627
+  msj: Existen Cuentas hijas para esta Cuenta.
+628:
+  cod: 628
+  msj: La cuenta a crear no puede tener Tipo de Saldo Distinto a la cuenta madre.
+629:
+  cod: 629
+  msj: Período no Definido.
+630:
+  cod: 630
+  msj: El Período se encuenta cerrado en Contabilidad.
+631:
+  cod: 631
+  msj: La Fecha debe estar entre la Fecha de Inicio y la Fecha Final del Ejercicio.
+632:
+  cod: 632
+  msj: La Nómina no puede ser Cerrada.
+633:
+  cod: 633
+  msj: La Fecha del Comprobante Reverso debe ser Mayor o igual a la Fecha del Comprobante Original.
+634:
+  cod: 634
+  msj: Existen Detalles asociados a este Flujo de Efectivo.
+635:
+  cod: 635
+  msj:  La Etapa de Definición esta cerrada.
+636:
+  cod: 636
+  msj:  No se puede eliminar la Cuenta Contable tiene Movimientos.
+637:
+  cod: 637
+  msj:  Debe realizar el Proceso de Distribución antes de Grabar. 
+638:
+  cod: 638
+  msj:  La Fecha de Inicio del Período no Puede ser mayor a la Fecha de Cierre.
+639:
+  cod: 639
+  msj: No se puede salvar los Comprobantes de Cierre estan Incompletos.
+640:
+  cod: 640
+  msj: Ya se Realizo el Cierre de Período.
+641:
+  cod: 641
+  msj: No se pudo realizar la operacion del Comprobante. 
+642:
+  cod: 642
+  msj: El Periodo se Encuentra Cerrado no se puede realizar la operación. 
+643:
+  cod: 643
+  msj: Comprobante fuera del Periodo Fiscal.
+644:
+  cod: 644
+  msj: El Comprobante no se puede eliminar porque es de Otro Módulo.
+645:
+  cod: 645
+  msj: El Código Padre de esta Cuenta ya es Cargable, no puede tener mas hijas.
+646:
+  cod: 646
+  msj: La Cuenta Contable ya está asociada a un Comprobante Contable.
+647:
+  cod: 647
+  msj: Existe una Cuenta Contable que está asociada a una Cuenta Bancaria que se encuentran cerrada para ese Periodo.  
+648:
+  cod: 648
+  msj:  La Cuenta Contable tienes Cuentas hijas no puede ser eliminada.
+649:
+  cod: 649
+  msj: Existe una Cuenta Contable que está asociada a una Cuenta Bancaria que se encuentran Conciliado para ese Periodo.    
+ #MODULO DE GESTION DE INDICADORES
+11101:
+  cod: 11101
+  msj:  La Programacion esta cerrada para la Revision y el Año seleccionado
+11102:
+  cod: 11102
+  msj:  Lo ejecutado no puede ser mayor a lo programado
+11103:
+  cod: 11103
+  msj:  Debe cerrar primero la Programacion para este Año y Revision
+11104:
+  cod: 11104
+  msj:  No puede borrar la Programacion de una Revision y Año ya cerrados
+#####################EVALUACION Y DESEMPEÑO#############################
+801:
+  cod: 801
+  msj: Debe cargar informacion de la Clases del Curso
+802:
+  cod: 802
+  msj: Debe ingresar la informacion de las Clases del Curso
+803:
+  cod: 803
+  msj: Informacion de Clases del Curso, horas no cumplen con el formato HH:MM
+804:
+  cod: 804
+  msj: Informacion de Clases del Curso, debe indicar si la hora es "am" ó "pm"
+805:
+  cod: 805
+  msj: Debe ingresar la informacion de Instructores del Curso
+806:
+  cod: 806
+  msj: Debe cargar informacion de los Instructores del Curso
+807:
+  cod: 807
+  msj: Falta Informacion del Personal a Inscribir en el Curso
+808:
+  cod: 808
+  msj: Debe cargar informacion del Personal a Inscribir en el Curso
+809:
+  cod: 809
+  msj: No se puede eliminar el Registro porque tiene asociado Asistencias
+810:
+  cod: 810
+  msj: Debe seleccionar por lo menos una persona
+811:
+  cod: 811
+  msj: El Grid debe Cargar informacion de Personal Inscrito
+812:
+  cod: 812
+  msj: Debe cargar las notas del personal inscrito
+813:
+  cod: 813
+  msj: Debe cargar información de los rangos
+814:
+  cod: 814
+  msj: Falta Información en el Grid
+815:
+  cod: 815
+  msj: Debe cargar información de los Valores
+816:
+  cod: 816
+  msj: Faltan Datos en el Grid de Valores
+817:
+  cod: 817
+  msj: Los Valores de Porcentaje deben estar comprendidos entre 1 y 100
+818:
+  cod: 818
+  msj: Debe cargar datos en el grid de valores
+819:
+  cod: 819
+  msj: Faltan Datos en el Grid  de Valores
+820:
+  cod: 820
+  msj: Faltan Datos en el Grid de Indicadores
+821:
+  cod: 821
+  msj: Debe cargar información de los Indicadores
+822:
+  cod: 822
+  msj: Faltan Datos en el Grid de Objetivos
+823:
+  cod: 823
+  msj: Debe cargar Datos en el Grid Objetivos
+824:
+  cod: 824
+  msj: Faltan Datos en el Grid de Objetivos Planificados
+825:
+  cod: 825
+  msj: Debe cargar Datos en el Grid Objetivos Planificados
+826:
+  cod: 826
+  msj: No puede Salvar debido a que existe un Artículo con cantidad igual a cero.
+827:
+  cod: 827
+  msj: No se puede Salvar debido a que existe un artículo con partida diferente a los demás.
+828:
+  cod: 828
+  msj: No se puede modificar la Solicitud de Egresos debido a que ya tiene cotizaciones.
+829:
+  cod: 829
+  msj: No puede Salvar debido a que existe un Artículo+Descripción+Categoría Repetido.
+830:
+  cod: 830
+  msj: No se puede eliminar el Registro porque tiene asociado Inscripciones  
+9000:
+  cod: 9000
+  msj: Debe cargar informacion en el grid
+99999999:
+  cod: 99999999
+  msj: Número de Orden de Pago ya Existe, intento con otro.
+#VIATICOS V2
+V001:
+  cod: V001
+  msj: Debe seleccionar al menos un rubro
+V002:
+  cod: V002
+  msj: No hay disponibilidad presupuestaria para la Categoria
+V003:
+  cod: V003
+  msj: No se puede Eliminar una Solicitud Aprobada
+V004:
+  cod: V004
+  msj: No se puede Eliminar un Proceso de Calculo ya  Aprobado
+V005:
+  cod: V005
+  msj: Debe Ingresar Datos de Proveedores y Facturas
+V006:
+  cod: V006
+  msj: Faltan datos en el Grid
+V007:
+  cod: V007
+  msj: Hay errores al formar el codigo de la imputacion, verifique la categoria del empleado o las partidas de los rubros
+V008:
+  cod: V008
+  msj: No se puede Guardar se Perdio la Secuencia del Correlativo Actualice en Definiciones Generales
+V009:
+  cod: V009
+  msj: No se puede Eliminar la Solicitud debido a que ya tiene un cálculo asociado.  
+V010:
+  cod: V010
+  msj: No se puede Eliminar el cálculo de viático debido a que su compromiso ya esta causado.    
+F001:
+  cod: F001
+  msj: No se puede borrar la Proforma porque ya esta relacionada con una Factura
+#OTROS FACTURAS
+F002:
+  cod: F002
+  msj: Debe ingresar formatos de hora validos hh:mmAM ó hh:mmPM
+F003:
+  cod: F003
+  msj: La Fecha de Salida debe ser menor o igual a la Fecha de Descarga.
+F004:
+  cod: F004
+  msj: La Fecha de Llegada CA debe ser mayor o igual a la Fecha de Salida.  
+F005:
+  cod: F005
+  msj: La Fecha de Descarga debe ser mayor o igual a la Fecha de Llegada CA.    
+#NOMINA
+N0001:
+  cod: N0001
+  msj: Debe escribir una Fecha de Ingresos
+N0002:
+  cod: N0002
+  msj: Ingresos- La Fecha de Ingresos no puede ser mayor a la Fecha Actual
+N0003:
+  cod: N0003
+  msj: No existen cargos Vacantes
+N0004:
+  cod: N0004
+  msj: Datos Personales- La Cédula del Empleado ya existe. Por Favor, Cambiélo por otro.
+N0005:
+  cod: N0005
+  msj: El Suplente ya tiene un Suplencia dentro de ese rango de Fechas.
+N0006:
+  cod: N0006
+  msj: El Empleado a Suplir ya tiene un Suplencia dentro de ese rango de Fechas.
+N0007:
+  cod: N0007
+  msj: Debe indicar adicional a la nómina los conceptos para porcentaje y monto retenido. 
+N0008:
+  cod: N0008
+  msj: El empleado ya tiene asociado esa Jornada.
+FR001:
+  cod: FR001
+  msj: El Grid de Conceptos no puede estar Vacio
+LI001:
+  cod: LI001
+  msj: No se puede guardar la Compra Integral ya fue aprobada
+LI002:
+  cod: LI002
+  msj: EL Monto Total No puede ser 0
+LI003:
+  cod: LI003
+  msj: Debe Cargar al menos un Registro en el Grid
+LI004:
+  cod: LI004
+  msj: Debe Registrar Todas la Columnas necesarias del Grid
+LI005:
+  cod: LI005
+  msj: Los montos del Grid de Otros Recargos Generales no Pueden estar en Cero
+LI006:
+  cod: LI006
+  msj: Si el Grid Tiene Otros Recargos Generales tiene Registro el Monto Total de Recargos no Puede ser Cero
+LI007:
+  cod: LI007
+  msj: El Grid Articulos no Puede Estar Vacio
+LI008:
+  cod: LI007
+  msj: El Grid Direccion de Lugar y Entrega no Puede Estar Vacio
+LI009:
+  cod: LI009
+  msj: Debe Cargar las Sede Administradora en el Grid Direccion de Lugar y Entrega
+LI010:
+  cod: LI010
+  msj: El Grid No Puede Estar Vacio
+LI011:
+  cod: LI011
+  msj: Debe Seleccionar Almenos una Requisición
+LI012:
+  cod: LI012
+  msj: No deben haber Grid Vacios
+LI013:
+  cod: LI013
+  msj: Debe Ingresar una cuenta en el Grid Información de Depositos
+LI014:
+  cod: LI014
+  msj: Faltan Datos en el Grid de Mecanismo
+LI015:
+  cod: LI015
+  msj: Faltan Datos en el Grid de Actividades
+LI016:
+  cod: LI016
+  msj: Faltan Datos en el Grid de Medios de Publicación
+LI017:
+  cod: LI017
+  msj: La distribución de Porcentaje del Pliego debe ser igual a 100
+LI018:
+  cod: LI018
+  msj: Faltan Datos en los Grid de Criterios
+LI019:
+  cod: LI019
+  msj: La Sumatoria de Porcentaje y Puntuacion de los Grid de Criterios debe dar 100
+LI020:
+  cod: LI020
+  msj: Faltan Datos en el Grid
+LI021:
+  cod: LI021
+  msj: Debe Seleccionar Almenos una Empresa
+LI022:
+  cod: LI022
+  msj: Debe Seleccionar un Documento
+LI080:
+  cod: LI080
+  msj: No puede eliminar las fianzas que contiene la oferta inicial
+LI081:
+  cod: LI081
+  msj: Faltan datos en la información de las fianzas del grid
+LI082:
+  cod: LI082
+  msj: La cantidad de la valuación debe ser menor a la total de la partida
+LI083:
+  cod: LI083
+  msj: La partida no forma parte del contrato
+#####################  HCM  #############################
+2000:
+  cod: 2000
+  msj: Monto de la Cobertura por Hospitalización Excedido
+2001:
+  cod: 2001
+  msj: Monto de la Cobertura por Maternidad Excedido
+2002:
+  cod: 2002
+  msj: Monto de la Cobertura por Servicios Funerarios Excedido
+2003:
+  cod: 2003
+  msj: El Beneficiario Ya Posee Registro Funerario
+2004:
+  cod: 2004
+  msj: Monto de la Cobertura por Odontologia Excedido
+2005:
+  cod: 2005
+  msj: El Empleado no se encuentra asociado al concepto de la liquidación. 
+2006:
+  cod: 2006
+  msj: El Consumo de HCM ya tiene una Orden de Pago Asociada.  
+2007:
+  cod: 2007
+  msj: La Fecha de Liquidación debe ser menor o igual a la Fecha de Vigencia Definida.
+2008:
+  cod: 2008
+  msj: La Fecha del Gasto debe ser menor o igual a la Fecha de Vigencia Definida.  
+2009:
+  cod: 2009
+  msj: La Fecha del Consumo debe ser menor o igual a la Fecha de Vigencia Definida. 
+2010:
+  cod: 2010
+  msj: Debe definir los Códigos de Reembolsos
+2011:
+  cod: 2011
+  msj: Los Siguientes Trabajadores no tienen asociado Código de Reembolso
+#####################  Compras Nuevos #############################
+3000:
+  cod: 3000
+  msj: La Fecha de la Cotización no puede ser menor a la Fecha de la Solicitud.
+3001:
+  cod: 3001
+  msj: El Código SNC del Artículo no puede estar en Blanco
+3002:
+  cod: 3002
+  msj: El Proveedor le falta consignar recaudos límitantes.
+3003:
+  cod: 3003
+  msj: No se puede grabar la Solicitud, debido a que existe un Precompromiso con la misma referencia
+3004:
+  cod: 3004
+  msj: No se puede grabar la Orden de Compra, debido a que existe un Compromiso con la misma referencia  
+3005:
+  cod: 3005
+  msj: No se puede grabar la Entrada sin indicar el código SADA.
+3006:
+  cod: 3006
+  msj: El Código SADA ya fue utilizado en otra Entrada.
+3007:
+  cod: 3007
+  msj: Las Unidades Tributarias ya fueron configuradas para ese Estado y con esa Fecha de Vigencia.  
+3008:
+  cod: 3008
+  msj: El Monto Total Sobrepasa el Monto Máximo Permitido por Estado.
+3009:
+  cod: 3009
+  msj:  Las Ordenes Compromenten puede aprobar solo una.  
+3010:
+  cod: 3010
+  msj: La Orden de Compra presenta detalles en su Correlativo.
+3011:
+  cod: 3011
+  msj: El Código de la Unidad Solicitante no puede estar en Blanco.  
+3012:
+  cod: 3012
+  msj: El Proyecto no puede estar en Blanco.   
+3013:
+  cod: 3013
+  msj: La Dirección no puede estar en Blanco.   
+3014:
+  cod: 3014
+  msj: El Estado no puede estar en Blanco.  
+3015:
+  cod: 3015
+  msj: No puede salvar la devolución sin tener al menos un artículo a devolver.
+3016:
+    cod: 3016
+    msj: No se puede eliminar la Entrada a almacén no hay existencia para algún Articulo  
+3017:
+  cod: 3017
+  msj: No se puede eliminar la transferencia esta Anulada    
+3018:
+  cod: 3018
+  msj: El Cód. de Almacén no puede estar en Blanco.   
+3019:
+  cod: 3019
+  msj: El Cód. de la Ubicación no puede estar en Blanco.    
+3020:
+  cod: 3020
+  msj: Debe tener al menos un articulo a ajustar
+3021:
+  cod: 3021
+  msj: El Artículo no esta asociada a ese Almacén y Ubicación
+3022:
+  cod: 3022
+  msj: La cantidad a Transferir no puede ser mayor a la Cantidad Disponible 
+3023:
+  cod: 3023
+  msj: No puede Eliminar el Traspado.Existen Articulos con cantidad a Transferir mayor a la Cantidad Disponible    
+3024:
+  cod: 3024
+  msj: No puede Eliminar el Traspado. Existen Artículos no estan asociados a ese Almacén y Ubicación.  
+3025:
+  cod: 3025
+  msj: No se puede grabar la Entrada sin indicar el N° de Nota de Entrega/Despacho. 
+3026:
+  cod: 3026
+  msj: No se puede grabar la Entrada sin indicar el N° de Contenedor.  
+3027:
+  cod: 3027
+  msj: El Concepto de Pago no puede estar en Blanco.  
+3028:
+  cod: 3028
+  msj: La Unidad de Origen no puede estar en Blanco.  
+3029:
+  cod: 3029
+  msj: El Financiamiento no puede estar en Blanco.   
+3030:
+  cod: 3030
+  msj: El código SADA debe contener 8 caracteres.
+#####################  Presupuesto Nuevos #############################
+4000:
+  cod: 4000
+  msj: Debe eliminar el Primero el Ajuste del PreCompromiso.
+4001:
+  cod: 4001
+  msj: Debe eliminar el Primero el Ajuste del Compromiso.  
+4003:
+  cod: 4003
+  msj: No se puede eliminar el Ajuste no existe disponibilidad.
+4004:
+  cod: 4004
+  msj: Debe eliminar el Primero el Ajuste del Causado. 
+4005:
+  cod: 4005
+  msj: Debe eliminar el Primero el Ajuste del Pagado. 
+4006:
+  cod: 4006
+  msj: Debe ir a Configuraciones Generales y Definir el Tipo de Documento o Beneficiario del Compromiso.
+4007:
+  cod: 4007
+  msj: Debe ir a Configuraciones Generales y Definir el Tipo de Documento o Beneficiario del Compromiso.      
+4008:
+  cod: 4008
+  msj: El Compromiso para esta Nómina ya fue Generado.   
+4009:
+  cod: 4009
+  msj: El Causado Refiere a Compromiso debe indicar la Referencia del Compromiso.
+4010:
+  cod: 4010
+  msj: Uno de los Montos a imputar es mayor el monto restante por Imputar.
+4011:
+  cod: 4011
+  msj: No se puede eliminar el PreCompromiso porque está asociado a un Ajuste.   
+4012:
+  cod: 4012
+  msj: No se puede eliminar el Compromiso porque tiene asociado a un Ajuste.
+4013:
+  cod: 4013
+  msj: No se puede eliminar el Causado porque tiene asociado a un Ajuste.    
+4014:
+  cod: 4014
+  msj: No se puede eliminar la Solicitud ya que tiene un Traslado asociado.  
+4015:
+  cod: 4015
+  msj: No se puede Anular la Solicitud ya que está aprobada.    
+4016:
+  cod: 4016
+  msj: Existe un nivel donde la longitud del Nombre Abreviado no corresponde a la Longitud.
+4017:
+  cod: 4017
+  msj: La Fecha de Anulación debe ser mayor o igual a la Fecha de la Solicitud  
+4018:
+  cod: 4018
+  msj: No se puede eliminar la Solicitud ya que tiene una Adición asociada.   
+#####################  Tesoreria Nuevos #############################
+5000:
+  cod: 5000
+  msj: La Cuenta Bancaria no Puede estar en Blanco.
+5001:
+  cod: 5001
+  msj: La Fecha no puede ser mayor a la Fecha Actual .
+5002:
+  cod: 5002
+  msj: La Hora no puede ser mayor a la Hora Actual .
+5003:
+  cod: 5003
+  msj: Existe un Número de Comprobante que sobrepasa los 8 caracteres. Por favor, el N° de Comprobantes emitidos al corriente mes.
+5004:
+  cod: 5004
+  msj: El pago electronico no puese ser eliminado ya que el TXT aparece como generado.
+5005:
+  cod: 5005
+  msj: La Cuenta Bancaria Origen se encuentran Conciliada para ese Periodo. 
+5006:
+  cod: 5006
+  msj: La Cuenta Bancaria Destino se encuentran Conciliada para ese Periodo.
+5007:
+  cod: 5007
+  msj: La Cuenta Bancaria se encuentran Bloqueada para esa Fecha.
+5008:
+  cod: 5008
+  msj: La Cuenta Bancaria Origen se encuentran Bloqueada para esa Fecha. 
+5009:
+  cod: 5009
+  msj: La Cuenta Bancaria Destino se encuentran Bloqueada para esa Fecha.
+5010:
+  cod: 5010
+  msj: La Cédula del Beneficiario está asociada a otro Beneficiario.
+5011:
+  cod: 5011
+  msj: El Beneficiario ya tiene asociado ese Número de Factura.  
+5012:
+  cod: 5012
+  msj: El Número de Comprobante de Egreso ya está asociado a un Cheque. 
+5013:
+  cod: 5013
+  msj: La Referencia del Reintegro ya está asociado a un Movimiento en Libros.     
+#####################  Módulo Mantenimiento ############################# 
+6000:
+  cod: 6000
+  msj: El Grupo de Trabajado ya esta programado para esa fecha.
+

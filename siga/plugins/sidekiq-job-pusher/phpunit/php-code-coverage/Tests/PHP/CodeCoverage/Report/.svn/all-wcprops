@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/PHP/CodeCoverage/Report
+END
+CloverTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/PHP/CodeCoverage/Report/CloverTest.php
+END
+FactoryTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-code-coverage/Tests/PHP/CodeCoverage/Report/FactoryTest.php
+END

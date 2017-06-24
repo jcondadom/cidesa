@@ -1,0 +1,39 @@
+generator:
+  class:              sfPropelAdminGenerator
+  param:
+    model_class:      Bnsegmue
+    theme:            default
+
+    fields:
+      codact:        { name : Cód. Catálogo Bien}
+      codmue:        { name : Código Mueble}
+      nrosegmue:     { name : Número}
+      fecsegmue:     { name : Fecha}
+      nomsegmue:     { name : Compañia Aseguradora}
+      cobsegmue:     { name : Cobertura}
+      monsegmue:     { name : Monto}
+      fecsegven:     { name : Fecha Vencimiento}
+      prosegmue:     { name : Promotor}
+      obssegmue:     { name : Observaciones}
+      desmue:        { name : Descripción}
+      fecvigdes:        { name : Fecha Vig. Desde}
+      fecvighas:        { name : Fecha Vig. Hasta}
+      numdeppol:        { name : N° de Recibo}
+      codalt:      { name : Cód. Alterno}
+    list:
+      title:         Registro de Seguro [Muebles]
+      filters:       [codact, codmue, codalt]
+      display:       [=codact, codmue, desmue, codalt]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:   codact
+    edit:
+      title:          Edición de Seguro [Muebles]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~
+

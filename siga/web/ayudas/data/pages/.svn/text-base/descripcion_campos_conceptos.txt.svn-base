@@ -1,0 +1,19 @@
+Los campos que conforman la pantalla Conceptos son los siguientes: <html><br><br></html>
+
+   * **Código:** Número que identifica al Concepto. <html><br><br></html>
+
+   * **Descripción** que haga referencia al Concepto.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefconinc.jpg|}}"></div><br></html>
+
+  * **Código de la Partida** a la cual se le asociará el concepto. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[Listas|Lista]] con las partidas que fueron registradas previamente en el sistema.<html><br><br></html>
+
+  * En **Operación Contable** definir si el concepto pertenece a una Asignación, Deducción ó Aporte Patronal.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefconinc1.jpg|}}"></div><br></html>
+
+  * Indicar “Sí o No” el Concepto va a estar **Activo**, va a **Inicializarce**, **Genera Orden de Pago**, **Es Imprimible**, **Acumula Histórico**, **Afecta Presupuesto**. <html><br><br></html>
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefconinc2.jpg|}}"></div><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Definición de Grupos de Recaudos** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+ 

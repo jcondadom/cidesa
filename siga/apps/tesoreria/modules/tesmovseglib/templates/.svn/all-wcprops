@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/61933/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesmovseglib/templates
+END
+autocompleteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesmovseglib/templates/autocompleteSuccess.php
+END
+anularSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/46881/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesmovseglib/templates/anularSuccess.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesmovseglib/templates/ajaxSuccess.php
+END
+_codtipgas.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/61772/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesmovseglib/templates/_codtipgas.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/61807/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesmovseglib/templates/editSuccess.php
+END
+_rifcon.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/61933/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesmovseglib/templates/_rifcon.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/61772/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesmovseglib/templates/_edit_actions.php
+END
+_grid.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/61807/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesmovseglib/templates/_grid.php
+END
+salvaranuSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/51972/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesmovseglib/templates/salvaranuSuccess.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/61807/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesmovseglib/templates/_edit_form.php
+END
+_filters.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/58843/web/php/siga/branches/productions/trunk/apps/tesoreria/modules/tesmovseglib/templates/_filters.php
+END

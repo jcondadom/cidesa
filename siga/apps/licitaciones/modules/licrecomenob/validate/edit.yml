@@ -1,0 +1,94 @@
+methods:
+  post:
+   - "lirecomen{codempadm}"
+   - "lirecomen{codempeje}"
+   - "lirecomen{numrecofe}"
+   - "lirecomen{numexp}"
+   - "lirecomen{fecreg}"
+   - "lirecomen{dias}"
+   - "lirecomen{fecven}"
+   - "lirecomen{recomen}"
+
+
+names:
+  lirecomen{codempadm}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  lirecomen{codempeje}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  lirecomen{numrecofe}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numrecofe
+
+  lirecomen{numexp}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numexp
+
+  lirecomen{fecreg}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  lirecomen{dias}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: MyNumberValidator
+
+  lirecomen{fecven}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  lirecomen{recomen}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_recomen
+
+Validator_codemp:
+    class: CidesaExistValidator
+    param:
+        class:        Lidatste
+        column:       codemp
+        unique_error: El Empleado no existe
+
+Validator_numexp:
+    class: CidesaExistValidator
+    param:
+        class:        Liplieesp
+        column:       numexp
+        unique_error: El Expediente no Existe
+
+
+Validator_numrecofe:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Lirecomen
+        column:       numrecofe
+        unique_error: El numero ya existe no puede repetirse
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+MyNumberValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]
+
+Validator_recomen:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Recomendación no puede tener menos de 2 caracteres
+        max:       1000
+        max_error: La Recomendación no puede pasar mas de 1000 caracteres

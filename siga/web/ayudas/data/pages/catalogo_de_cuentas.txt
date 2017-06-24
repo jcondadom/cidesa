@@ -1,0 +1,18 @@
+====== Catálogo de Cuentas ======
+
+**Tabla:** CONTABB, CONTABB1
+
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En este proceso se crean todas y cada unas de cuentas contables, respetando la estructura lógica, que hemos denominado teoría de la escalera donde no podemos crear cuentas de movimientos sin crear su respectiva cuenta totalizadora y decretarla como tal, para esto se hacen ejemplos de la teoría de la escalera y conversamos acerca de la relación de las cuentas padres y sus hijos. Una vez explicado esto entramos en materia con este módulo. </html>
+
+Para ello:
+
+  * Seleccione la opción **Contabilidad Financiera** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/cfindefespins.jpg"></div><br></html>
+
+  * Por último seleccione la opción **Catálogo de Cuentas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/cfincatcue.jpg"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Catálogo de Cuentas** veamos la [[Descripcion_Campos_financiera_catalogo_cuentas|Descripción de los Campos]]
+
+

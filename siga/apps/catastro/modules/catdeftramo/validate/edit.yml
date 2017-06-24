@@ -1,0 +1,8 @@
+methods:
+  post:
+   - "cattramo{nomtramo}"
+
+names:
+  cattramo{nomtramo}:
+    required:  Yes
+    required_msg: La Descripción no puede estar en Blanco

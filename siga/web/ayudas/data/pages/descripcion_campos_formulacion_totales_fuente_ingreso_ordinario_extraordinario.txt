@@ -1,0 +1,19 @@
+====== Descripción de Campos ======
+
+Los campos que conforman la pantalla **Totales por Fuentes de Ingreso Ordinario y Extraordinario** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreingdefesptotfueingordextinc1.jpg}}"></div><br></html>
+
+  * **Total Ingreso Estimado:** Indica el resultado del ingreso estimado de todas las fuentes de financiamiento. <html><br><br></html>
+
+  * **Total Ingreso Disponible:** Indica el resultado del ingreso disponible de todas las fuentes de financiamiento.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreingdefesptotfueingordextinc2.jpg}}"></div><br></html>
+
+  * Seguidamente observaremos una tabla donde el sistema muestra en las columnas correspondientes las **Fuentes de Financiamiento** y por cada una de ellas: el **Tipo de Fuente**, **Monto de Ingreso Estimado**, el **Monto Formulado** y el **Monto de Ingreso Disponible** <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Totales por Fuentes de Ingreso Ordinario y Extraordinario** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+
+
+
+

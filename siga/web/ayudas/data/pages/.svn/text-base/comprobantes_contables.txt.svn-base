@@ -1,0 +1,21 @@
+====== Comprobantes ======
+
+**Tabla:** CONTABC, CONTABC1
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desde este módulo se elaboran todos los comprobantes contables que no se generan automáticamente desde los otros módulos, y es aquí también donde se revisan y editan (de ser necesarios) todos los comprobantes contables que muestran información de la empresa.</html> 
+
+Para ello:
+
+  * Seleccione la opción **Contabilidad Financiera** ubicada en el Menú Principal de SIGA.
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/cfindefespins.jpg"></div><br></html>
+
+  * Por último seleccione la opción **Comprobantes**
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:cfincomcon.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Comprobantes Contables** veamos la [[Descripcion_Campos_financiera_comprobantes_contables|Descripción de los Campos]]
+
+
+
+

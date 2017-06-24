@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/52157/web/php/siga/branches/productions/trunk/apps/compras/modules/almpriori/templates
+END
+_list_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/compras/modules/almpriori/templates/_list_actions.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/37668/web/php/siga/branches/productions/trunk/apps/compras/modules/almpriori/templates/ajaxSuccess.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/52157/web/php/siga/branches/productions/trunk/apps/compras/modules/almpriori/templates/editSuccess.php
+END
+gridSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/52157/web/php/siga/branches/productions/trunk/apps/compras/modules/almpriori/templates/gridSuccess.php
+END
+_list_messages.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/compras/modules/almpriori/templates/_list_messages.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/compras/modules/almpriori/templates/_edit_actions.php
+END
+listSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/32821/web/php/siga/branches/productions/trunk/apps/compras/modules/almpriori/templates/listSuccess.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/51291/web/php/siga/branches/productions/trunk/apps/compras/modules/almpriori/templates/_edit_form.php
+END

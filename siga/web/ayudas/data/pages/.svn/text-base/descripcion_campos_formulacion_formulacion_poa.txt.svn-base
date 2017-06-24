@@ -1,0 +1,22 @@
+====== Descripción de Campos ======
+
+La pantalla **Formulación POA** está conformada por las siguientes secciones:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrforforpoainc1.jpg|}}"></div><br></html>
+
+  * **Proyecto ó Acción centralizada:** <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Código:** Al presionar el Botón el sistema muestra una [[listas|Lista]] con los proyectos ó acciones centralizadas que fueron definidas previamente en el sistema en la pantalla [[formulacion_proyectos_acciones_centralizadas|Proyectos y Acciones Centralizadas]] de donde debe seleccionar el proyecto ó acción centralizada para el cual desea formular el POA. <html><br><br></html>
+
+  * **Acción Específica:** Está conformada por los siguientes campos: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Código:** Al presionar el Botón el sistema muestra una [[listas|Lista]] con las acciones específicas asociadas al proyecto ó acción centralizada seleccionada anteriormente y que fueron definidas previamente en el sistema en la pantalla [[formulacion_acciones_especificas|Acciones Específicas]] , en dicha lista deberá seleccionar el registro que desee. 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Meta:** Al presionar el Botón el sistema muestra una [[listas|Lista]] con las metas asociadas al proyecto y acción específica seleccionada anteriormente y que fueron definidas previamente en el sistema en la pantalla [[formulacion_metas_proyectos_acciones_especificas|Metas a Proyectos y Acciones Específicas]], en dicha lista deberá seleccionar el registro que desee.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Cantidad Prog. Anual:** Indica la cantidad programada anual del proyecto y acción específica seleccionada, este campo es mostrado por el sistema automáticamente una vez seleccionado el proyecto y acción específica. <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrforforpoainc2.jpg|}}"></div><br><br></html>
+
+  * Por último tenemos el [[grid|Grid]] llamado **Detalle del Plan Operativo** en el cual deberà seleccionar en una primera instancia las Unidades Ejecutoras y por cada una de ellas las **Partidas** asociadas, la **Distribuciòn de los Montos**, la **Asignaciòn Presupuestaria**, las **Fuentes de Financiamiento**, el **Tipo de Gasto**, el **Insumo**, la **Cantidad**, **Observaciones** en caso de existir y el **Còdigo Presupuestario**
+

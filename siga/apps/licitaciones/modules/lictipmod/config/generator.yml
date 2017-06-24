@@ -1,0 +1,26 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Litipmod
+    theme:            cidesaGenerator
+    fields:
+      codtipmod: { name: Código, params: size=20}
+      nomtipmod: { name: Nombre, params: size=40}
+      dettipmod: { name: Detalle, params: size=60}
+
+
+    list:
+      title:           Tipos de modificaciones de contratos
+      display:         [=codtipmod, nomtipmod ]
+      object_modions:
+        _edit:          ~
+        _delete:        ~
+      max_per_page:    10
+
+    edit:
+      title:           Tipos de modificaciones de contratos
+      display:         [codtipmod, nomtipmod, dettipmod, _tipo ]
+      modions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~

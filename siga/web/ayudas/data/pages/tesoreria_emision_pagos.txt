@@ -1,0 +1,16 @@
+======Emisión de Pagos======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite registrar información relacionada, con los Cheques que la Institución emite para el pago de sus deudas. Aqui se hace referencia a una orden de pago, la que avala la Emisión de Cheque.
+
+**Para ello:**
+
+  * Seleccione la opción **Tesorería ó Banco** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesban.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Banco** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbanc.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Emisión de Pagos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbancemipag.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Emisión de Pagos** veamos la [[Descripcion_Campos_emision_pago|Descripción de los Campos]]

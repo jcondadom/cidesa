@@ -1,0 +1,30 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Costippro
+    theme:            cidesaGenerator
+
+    fields:
+      codpro: { name: Código, params: size=20 maxlength=10}
+      despro: { name: Descripción, type: textarea_tag, params: size=100x5 maxlength=500}
+
+    list:
+      fields:
+        codpro: { name: Código, params: size=10 maxlength=10}
+      title:          Definición de Tipos de Producto
+      display:        [=codpro, despro]
+      object_actions:
+        _edit:        ~
+        _delete:      NONE
+      filters:        [codpro]
+      max_per_page:   10
+      sort:           codpro
+
+    edit:
+      title:          Definición de Tipos de Costo
+      display:
+        "Producto": [codpro, despro]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      NONE

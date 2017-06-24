@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/apps/ingresos/modules/ingadidis/templates
+END
+_refadi.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/26960/web/php/siga/branches/productions/trunk/apps/ingresos/modules/ingadidis/templates/_refadi.php
+END
+_fecadi.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/26960/web/php/siga/branches/productions/trunk/apps/ingresos/modules/ingadidis/templates/_fecadi.php
+END
+anularSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/26960/web/php/siga/branches/productions/trunk/apps/ingresos/modules/ingadidis/templates/anularSuccess.php
+END
+_adidis.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/ingresos/modules/ingadidis/templates/_adidis.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/ingresos/modules/ingadidis/templates/ajaxSuccess.php
+END
+_grid.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/35154/web/php/siga/branches/productions/trunk/apps/ingresos/modules/ingadidis/templates/_grid.php
+END
+salvaranuSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/26960/web/php/siga/branches/productions/trunk/apps/ingresos/modules/ingadidis/templates/salvaranuSuccess.php
+END
+_estatus.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/26960/web/php/siga/branches/productions/trunk/apps/ingresos/modules/ingadidis/templates/_estatus.php
+END

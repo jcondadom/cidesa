@@ -1,0 +1,39 @@
+opciones:                  # Opciones generales
+  name:                    l
+  eliminar:                true
+  tabla:                   npinfcap
+  anchogrid:               700
+  ancho:                   650
+  filas:                   1
+  titulo:                  'Capacitación Recibida'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Entidad Didáctica
+  tipo:                    t
+  nombrecampo:             entdid
+  html:                    ["size=25 maxlength=100"]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Nombre de la Actividad
+  tipo:                    t
+  nombrecampo:             nomact
+  html:                    ["size=40 maxlength=2000"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Fecha
+  tipo:                    f
+  nombrecampo:             fecact
+  esgrabable:              true
+  html:                    [size="15" maxlength=10]
+4:       # Columna 4
+  titulo:                  Nro. Horas
+  tipo:                    t
+  nombrecampo:             nrohor
+  html:                    ["size=10 maxlength=2"]
+  esgrabable:              true
+5:       # Columna 5
+  titulo:                  Curso Afín
+  tipo:                    c
+  nombrecampo:             nivcur
+  html:                    [ ]
+  esgrabable:              true

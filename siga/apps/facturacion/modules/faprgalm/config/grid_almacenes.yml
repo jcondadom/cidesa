@@ -1,0 +1,26 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   faprgalm
+  anchogrid:               750
+  ancho:                   600
+  filas:                   0
+  titulo:                  ' Almacenes '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Seleccione
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:			         true
+  html:                    []  
+2:       # Columna 2
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             codalm
+  html:                    ["size=20 maxlength=20 readOnly=true"]
+  esgrabable:              true  
+3:       # Columna 3
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nomalm
+  html:                    ["size=60 readonly=true"] 

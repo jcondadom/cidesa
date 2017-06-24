@@ -1,0 +1,17 @@
+Los campos que conforman la pantalla de **Prestación de Servicios** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmprestservinc1.jpg|}}"></div><br></html>
+
+  * **Número** que identifica el Servicio. <html><br><br></html>
+
+  * **Refiere a Requisición:** Indica el nro de la Requisición o Solicitud de Servicio. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[Listas|Lista]] con las [[requisiciones_de_servicios|Requisiciones de Servicio]] registradas previamente en el sistema donde puede seleccionar la que desee. <html><br><br></html> 
+
+  *  **Fecha:** Seleccione del [[calendario|Calendario]] la fecha en la cual se está realizando la Prestación de Servicio. <html><br><br></html>
+
+  * **Descripción** de la Prestación de Servicio que está registrando.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmprestservinc2.jpg|}}"></div><br></html>
+ 
+  * **Detalle del Servicio:** Aquí se muestra un grid que le permite visualizar la información referente al detalle del servicio, mostrando el **Código** y **Descripción del Servicio**, **Código de la Unidad**, **Fecha de Entrega**, **Nombre Empleado** y **Observaciones**. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Prestación de Servicios** podrá realizar las siguientes [[operaciones_Basicas|Operaciones Básicas]]

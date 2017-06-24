@@ -1,0 +1,81 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcotring
+    theme:            cidesaGenerator
+    fields:
+      nrocon: { name: Número de Control, params: size=15 maxlength=8 onFocus=readonly(this.id) onBlur="enter(this.id)"}
+      fecreg: { name: Fecha de Registro, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      codfue2:
+        name: Rubro
+        params: maxlength=2 disabled=false
+        catalogo:
+          catalogoweb: Facdefsol_fcfuepre
+          clase: Fcfuepre
+          ajax: 5
+          parametros: getprincipal="getCodfue2" getsecundario="getNomfue" campoprincipal="codfue2" camposecundario="nomfue" campobase = "id"      
+      codpla:
+        name: Tipo de Planilla
+        params: maxlength=4 disabled=false
+        catalogo:
+          catalogoweb: Fcdefpla_Facdefpla2
+          clase: Fcdefpla
+          ajax: 1
+          parametros: getprincipal="getCodpla" getsecundario="getDespla" campoprincipal="codpla" camposecundario="despla" campobase = "id"
+          catalogoparams: /param1/'."'+$('fcotring_codfue2').value+'".'
+          ajaxparams: +'."'".'&rubro='."'+$('fcotring_codfue2').value".'
+      rifcon:
+        name: C.I/RIF
+        params: size= 15 maxlength=14
+        catalogo:
+         catalogoweb: Facpicsollic_Rifrep
+         clase: Fcconrep
+         ajax: 2
+         parametros: getprincipal="getRifcon" getsecundario="getNomcon" campoprincipal="rifcon" camposecundario="nomcon" campobase = "id"
+      dircon:  { name: Dirección, params: size=80 maxlength=255 readonly=false}
+      naccon:  { name: Nacionalidad}
+      tipcon:  { name: Tipo}
+      rifrep:
+        name: C.I/RIF
+        params: size= 15 maxlength=14
+        catalogo:
+          catalogoweb: Facpicsollic_Rifrep
+          clase: Fcconrep
+          ajax: 3
+          parametros: getprincipal="getRifrep" getsecundario="getNomconr" campoprincipal="rifrep" camposecundario="nomconr" campobase = "id"
+      dirconr:  { name: Dirección, params: size=80 maxlength=255 readonly=false}
+      nacconr:  { name: Nacionalidad}
+      tipconr:  { name: Tipo}      
+      desing:  { name: Descripción, type: textarea_tag, params: size=60x5 maxlength=250 onkeyup=" return ismaxlength(this)"}
+      monimp: { name: Monto del Impuesto a Pagar}
+      funrec: { name: Funcionario Receptor, params: size=80 maxlength=50}
+      fecrec: { name: Fecha, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      grid: { name: .}
+      buscar: { name: .}
+    list:
+      title:  Declaración de Planillas
+      fields:
+        rifcon: { name: Contribuyente, params: size=15 maxlength=20}
+        nomcon: { name: Contribuyente, params: size=60}
+      display: [=nrocon, fecreg, nomcon]
+      filters: [nrocon, fecreg, rifcon]
+      object_actions:
+       _edit:        ~
+       _delete:      ~
+      max_per_page:	  10
+      sort:    nrocon
+    edit:
+      title:          Edición de Declaración de Planillas
+      display:
+        "NONE":  [nrocon, fecreg, codfue2, codpla]
+        "Datos del Contribuyente": [rifcon, dircon, _naccon, _tipcon]
+        "Datos del Representante": [rifrep, dirconr, _nacconr, _tipconr]
+        "Datos del Registro": [desing, _monimp]
+        "Recepción": [funrec, fecrec, _buscar]
+        "Distribución de la Deuda": [_grid]
+      hide:       [rubros, incluircontribuyente, incluirrepresentante]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

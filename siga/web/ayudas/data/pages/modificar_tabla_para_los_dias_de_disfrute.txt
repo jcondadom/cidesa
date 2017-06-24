@@ -1,0 +1,16 @@
+====== Operación Modificar ======
+
+Para la operación de **Modificar** debe:  <html><br><br></html>
+
+  * Seleccionar de la **Lista** la **Nómina** para la cual desea modificar la tabla para los dias de disfrute. <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompertabdiasdismod1.jpg|}}"></div><br></html>
+
+  * El sistema muestra la Tabla de la Nómina seleccionada. <html><br><br></html>
+
+  * Las modificaciones que podrá realizar es "Agregar" elementos a la tabla. En caso contrario si desea "Quitar" elementos de la tabla que ya esten asociados a la  Nómina seleccionada lo debe realizar a través del Botón {{:btnquitar.jpg|}}.<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/"></div><br></html>
+
+  * Presionar {{:btnguardar.jpg|}} para actualizar la información.  <html><br><br></html> 
+
+  * El sistema emite un **Mensaje de Éxito**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

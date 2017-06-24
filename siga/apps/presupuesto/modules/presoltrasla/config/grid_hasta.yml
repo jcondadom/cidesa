@@ -1,0 +1,47 @@
+opciones:                  # Opciones generales
+  name:                    b
+  eliminar:                true
+  tabla:                   cpasiini
+  anchogrid:               500
+  ancho:                   450
+  filas:                   5
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Destino
+  tipo:                    t
+  nombrecampo:             codpre
+  html:                    [size=50]
+  oculta:                  false
+  esgrabable:              true
+  ajaxfila:                true
+  #catalogo:                [cpasiini, sf_admin_edit_form, { codpre: 1 }, Presoltrasla_Cpasiini2]
+2:       # Columna 2
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monasi
+  html:                    [size=8 onBlur="ValidarMontoGridv2(this.id);CalcularTotalDist();"]
+  oculta:                  false
+  esgrabable:              true
+  ajaxfila:                true
+  estotal:                 [true, cpsoltrasla_totalhasta]
+3:       # Columna 3
+  titulo:                  Distribución Período
+  tipo:                    t
+  nombrecampo:             anadir2
+  esgrabable:              false
+  oculta:                  true
+  html:                    ["type='text' size='1' style='border:none' class='imagenalmacen' onClick='mostrargridperiodos2(this.id)'"]
+4:       # Columna 4
+  titulo:                  Datos periodos
+  tipo:                    t
+  nombrecampo:             datosperiodos2
+  esgrabable:              true
+  oculta:                  true
+  html:                    ["size=25"]
+#3:       # Columna 3
+#  titulo:                  Disponibilidad
+#  tipo:                    m
+#  nombrecampo:             mondis
+#  html:                    [size="8" readonly="true"]
+#  esgrabable:              false

@@ -1,0 +1,36 @@
+methods:
+  post:
+   - "fadefveh{plaveh}"
+   - "fadefveh{marca}"
+   - "fadefveh{tipo}"
+   - "fadefveh{color}"
+   - "fadefveh{codemptra}"
+
+names:
+  fadefveh{plaveh}:
+    required:  Yes
+    required_msg: La Placa del vehiculo no puede estar en Blanco
+    validators: Validator_plaveh
+
+  fadefveh{marca}:
+    required:  Yes
+    required_msg: La Marca del vehiculo no puede estar en Blanco
+
+  fadefveh{tipo}:
+    required:  Yes
+    required_msg: El Tipo del vehiculo no puede estar en Blanco
+
+  fadefveh{color}:
+    required:  Yes
+    required_msg: El Color del vehiculo no puede estar en Blanco
+
+  fadefveh{codemptra}:
+    required:  Yes
+    required_msg: El Codigo de la empresa transportista no puede estar en Blanco
+
+Validator_plaveh:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Fadefveh
+        column:       plaveh
+        unique_error: El registro ya Existe intente con otro.

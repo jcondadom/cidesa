@@ -1,0 +1,52 @@
+opciones:                  # Opciones generales
+  name:                    b
+  eliminar:                true
+  tabla:                   viadetsolacoemp
+  anchogrid:               900
+  ancho:                   850
+  filas:                   1
+  titulo:                  ' Empleados Acompañantes'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Empleado
+  tipo:                    t
+  nombrecampo:             codempaco
+  html:                    ["size=15 readonly=true" ]
+  ajaxgrid:                true
+  esgrabable:              true
+2:       # Columna 2 
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nomempaco
+  html:                    ["size=30 readonly=true"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Cédula
+  tipo:                    t
+  nombrecampo:             cedempaco
+  html:                    ["size=15 readonly=true" ]
+  esgrabable:              true  
+4:       # Columna 4
+  titulo:                  Cargo
+  tipo:                    t
+  nombrecampo:             cargoaco
+  html:                    ["size=15 readonly=true"]
+  esgrabable:              true
+5:       # Columna 5
+  titulo:                  Nivel Organizacional
+  tipo:                    t
+  nombrecampo:             nivelaco
+  html:                    ["size=15 readonly=true"]
+  esgrabable:              true
+6:       # Columna 6
+  titulo:                  Nivel del Empleado
+  tipo:                    t
+  nombrecampo:             codnivaco
+  html:                    ["size=15 readonly=true"]
+  esgrabable:              true  
+7:       # Columna 7
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desnivaco
+  html:                    ["size=20 readonly=true"]
+  esgrabable:              true    

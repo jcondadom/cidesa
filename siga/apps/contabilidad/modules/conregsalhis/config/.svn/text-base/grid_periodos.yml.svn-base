@@ -1,0 +1,47 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   contabb1his
+  anchogrid:               850
+  ancho:                   850
+  filas:                   0
+  titulo:                  ' Detalle de la Cuenta '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Período
+  tipo:                    t
+  nombrecampo:             pereje
+  html:                    ["size=3 maxlength=3 readonly=true"]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Débito
+  tipo:                    m
+  nombrecampo:             totdeb
+  html:                    ["size=20"]
+  esgrabable:			         true
+  ajaxgrid: 			         true
+  ajaxadicionales:         {0: contabbhis_salant, 1: contabbhis_codcta}
+  esnumerico:			         true
+3:       # Columna 3
+  titulo:                  Crédito
+  tipo:                    m
+  nombrecampo:             totcre
+  html:                    ["size=20"]
+  esgrabable:			         true
+  ajaxgrid: 			         true
+  ajaxadicionales:         {0: contabbhis_salant, 1: contabbhis_codcta }
+  esnumerico:			         true
+4:       # Columna 4
+  titulo:                  Saldo del Período
+  tipo:                    m
+  nombrecampo:             salprgper
+  html:                    ["size=20 readonly=true"]
+  esgrabable:              true
+  esnumerico:              true
+5:       # Columna 5
+  titulo:                  Saldo Actual
+  tipo:                    m
+  nombrecampo:             salact
+  html:                    ["size=20 readonly=true" ]
+  esgrabable:              true
+  esnumerico:              true

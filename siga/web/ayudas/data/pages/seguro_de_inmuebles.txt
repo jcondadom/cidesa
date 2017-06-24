@@ -1,0 +1,19 @@
+====== Seguro de Inmuebles ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Proceso que permite definir y actualizar todas las polizas de seguros; además de proporcionarle al usuario la información  oportuna y confiable para la administración de los bienes Inmuebles.
+ </html>
+
+**Para ello:**
+
+  * Seleccione la opción **Bienes Nacionales** ubicada en el Menú Principal de **SIGA**
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:bienac.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Registro de Seguros**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:bieregseg.jpg|}}"></div><br></html>
+ 
+  * Por último seleccione **Seguros de Inmuebles**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:bieregseginm.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Seguro de Inmuebles** veamos la [[Descripcion_Campos_bienes_seguro_inmuebles|Descripción de los Campos]]
+

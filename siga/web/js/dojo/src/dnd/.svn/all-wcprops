@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/web/js/dojo/src/dnd
+END
+DragAndDrop.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/web/js/dojo/src/dnd/DragAndDrop.js
+END
+TreeDragAndDrop.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/web/js/dojo/src/dnd/TreeDragAndDrop.js
+END
+__package__.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/web/js/dojo/src/dnd/__package__.js
+END
+HtmlDragMove.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/web/js/dojo/src/dnd/HtmlDragMove.js
+END
+HtmlDragAndDrop.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/web/js/dojo/src/dnd/HtmlDragAndDrop.js
+END
+Sortable.js
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/web/js/dojo/src/dnd/Sortable.js
+END
+HtmlDragCopy.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/web/js/dojo/src/dnd/HtmlDragCopy.js
+END
+HtmlDragManager.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/web/js/dojo/src/dnd/HtmlDragManager.js
+END
+TreeDragAndDropV3.js
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/web/js/dojo/src/dnd/TreeDragAndDropV3.js
+END

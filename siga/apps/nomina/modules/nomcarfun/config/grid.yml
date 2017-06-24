@@ -1,0 +1,15 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   npasocarfun
+  anchogrid:               800
+  ancho:                   500
+  filas:                   1
+  titulo:                  ' Funciones'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             desfun
+  html:                    ["size=40x1 maxlength=1000 onkeyup='return ismaxlength(this)'"]
+  esgrabable:              true

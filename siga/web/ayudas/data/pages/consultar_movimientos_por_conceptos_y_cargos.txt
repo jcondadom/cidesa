@@ -1,0 +1,23 @@
+====== Operación Consultar ======
+
+**Para consultar un determinado Movimiento por Conceptos y Cargos:**   <html><br><br></html>
+
+  * Presione el **Botón**  {{:btnlista.jpg|}}    <html><br><br></html>
+
+  * Seleccione de la **Lista** el **Código del Tipo de Nómina** para el cual desea consultar el Movimiento por Concepto y Cargo.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompermovconycarmod.jpg|}}"></div><br></html>
+
+  * El sistema automáticamente muestra el Movimiento por Conceptos y Cargos del Tipo de Nómina seleccionada.<html><br><br></html>
+
+  * Si desea consultar el Movimiento de un nuevo Concepto y Cargo debe presionar nuevamente el** Botón** {{:btnlista.jpg|}}  y repetir los pasos anteriores. <html><br><br></html>
+
+**Para consultar datos desde el Inicio de la pantalla Movimiento por Conceptos y Cargos:**  <html><br><br></html>
+
+  * El sistema muestra la **Lista** con los Movimientos por Conceptos y Cargos registrados.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompermovconycarmod.jpg|}}"></div><br><br></html>
+
+  * Seleccione de la **Lista** el **Código del Tipo de Nómina** . <html><br><br></html>
+
+  * El sistema automáticamente muestra los Movimientos por Conceptos y Cargos del Tipo de Nómina seleccionada.<html><br><br></html>

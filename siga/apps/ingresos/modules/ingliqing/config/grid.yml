@@ -1,0 +1,51 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   cidetliq
+  ancho:                   1220
+  anchogrid:               1000
+  filas:                   0
+  titulo:                  ' Ingresos '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Marcar
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:			   true
+  html:                    []
+2:       # Columna 2
+  titulo:                  Referencia
+  tipo:                    t
+  nombrecampo:             refing
+  esgrabable:			   true
+  html:                    [size="10" readonly=true]
+3:       # Columna 3
+  titulo:                  Fecha
+  tipo:                    t
+  nombrecampo:             fecing
+  esgrabable:			   true
+  html:                    [size="10" readonly=true]  
+4:       # Columna 4
+  titulo:                  Tipo
+  tipo:                    t
+  nombrecampo:             destip
+  esgrabable:			   true
+  html:                    [size="10" readonly=true]    
+5:       # Columna 5
+  titulo:                  Contribuyente
+  tipo:                    t
+  nombrecampo:             nomcon
+  esgrabable:			   true
+  html:                    [size="30" readonly=true]      
+6:       # Columna 6
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             desing
+  esgrabable:			   true
+  html:                    [size="20x2" readonly=true]     
+7:       # Columna 7
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             moning
+  esgrabable:			         true
+  html:                    []

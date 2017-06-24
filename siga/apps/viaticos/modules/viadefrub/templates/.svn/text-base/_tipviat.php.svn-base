@@ -1,0 +1,1 @@
+  <?php echo select_tag('viadefrub[tipviat]', options_for_select(array('N'=>'NACIONAL','I'=>'INTERNACIONAL'),$viadefrub->getTipviat())); ?>

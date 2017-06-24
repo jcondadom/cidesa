@@ -1,0 +1,26 @@
+====== Guarderías ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que se encarga de definir los diferentes Conceptos de la Nómina que estarán asociados al calculo de la retencion provocada por el uso de los empleados de Guarderias.</html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el **Menú Principal** de **SIGA**.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Guarderías**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompergua.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Guarderías** podrá realizar la Operaciones Básicas de:
+
+  * [[Incluir Guarderías|Incluir]]
+
+  * [[Modificar Guarderías|Modificar]]
+
+  * [[Eliminar Guarderías|Eliminar]]
+
+  * [[Consultar Guarderías|Consultar]]

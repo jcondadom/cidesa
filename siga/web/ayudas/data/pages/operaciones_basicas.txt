@@ -1,0 +1,83 @@
+====== Operaciones Básicas ======
+
+Son aquellas que permiten el funcionamiento de cada una de las pantallas de SIGA. Dichas operaciones son las siguientes: <html><br></html>
+
+===== Incluir Registro =====
+
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Para **Incluir** un registro debe seguir los siguientes pasos: <html><br><br></html>
+
+  * Presione el **Botón** {{:btnnuevo.jpg|}} <html><br><br></html>
+
+  * Introducir el **Código** ó **Número** que identificará al registro, y en caso que no exista el sistema le permite ingresar cada uno de los campos solicitados por la pantalla. <html><br><br></html>
+
+  * Presione el **Botón** {{:btnguardar.jpg|}} para registrar la información. <html><br><br></html>
+
+===== Modificar Registro =====
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Para **Modificar** un determinado registro debe seguir los siguientes pasos: <html><br><br></html>
+
+  * Si existen registros automáticamente observará una [[listas|Lista]] con todos ellos, en la cual podrá elegir el registro que desea modificar. <html><br><br></html>
+
+  *   Seleccione de la [[listas|Lista]] el Código del registro que desea modificar. <html><br><br></html>
+
+  * Para seleccionar el Registro que desea modificar puede realizarlo a través de dos opciones:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **1 - ** Seleccionando de la **Lista** el **Código del Documento** a modificar.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **2 -** Seleccionando el registro que desea modificar presionando el Botón {{:btneditar.jpg|}} que se encuentra en la [[listas|Lista]]<html><br><br></html>
+ 
+  * Es importante señalar que en este nivel el sistema solo le permitirá modificar datos ya existentes y que dichos datos modificables serán los únicos que se encontrarán activos en el sistema <html><br><br></html>
+
+  * Una ves realizadas las modificaciones presione el **Botón** {{:btnguardar.jpg|}} para registrar los cambios.<html><br><br></html>
+
+  * El sistema muestra un **Mensaje de Éxito**.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>
+
+===== Eliminar Registro =====
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Para **Eliminar** un determinado registro debe seguir los siguientes pasos: <html><br><br></html>
+
+  * Si existen registros automáticamente observará una [[listas|Lista]] con todos ellos, en la cual podrá elegir el registro que desea eliminar. <html><br><br></html>
+
+  * Seleccione de la [[listas|Lista]] el **Registro** a eliminar. <html><br><br></html>
+
+  * El sistema muestra el registro seleccionado donde podrá verificar si es el documento que desea eliminar. <html><br><br></html>
+
+  * Presione el Botón {{:btnborrar.jpg|}}    <html><br><br></html>
+
+  * Otra forma de eliminar el registro que desea es presionando el Botón {{:btnaccioneseliminar.jpg|}} que se encuentra ubicado en la **columna Acciones**. Es importante destacar que esta opción para eliminar a diferencia de la anterior sólo se debe utilizar si se encuentra seguro de que el registro seleccionado es el que verdaderamente desea eliminar ya que el sistema no le mostrará la información del mismo. <html><br><br></html>
+
+  *  Independientemente de la opción que escoja igualmente el sistema emite un **Mensaje de Confirmación** antes de eliminar
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br></html>
+
+  * Presione **Aceptar** <html><br><br></html>
+
+  * El sistema automáticamente muestra la [[listas|Lista]] con los **Registros** donde podrá verificar que el registro fué eliminado con éxito.
+  
+
+===== Consultar Registro =====
+
+**Para consultar un registro utilizando el **Botón** Lista:**   <html><br><br></html>
+
+  * Presione el **Botón**  {{:btnlista.jpg|}}    <html><br><br></html>
+
+  * Si existen registros automáticamente observará una [[listas|Lista]] con todos ellos, en la cual podrá elegir el registro que desea modificar. <html><br><br></html>
+
+  * Seleccione de la **Lista** el **Registro** a consultar.
+
+  * El sistema automáticamente muestra los datos del **Registro** seleccionado.<html><br><br></html>
+
+  * Si desea consultar un nuevo Registro debe presionar nuevamente el** Botón** {{:btnlista.jpg|}}  y repetir los pasos anteriores.
+ 
+<html><br><br></html>
+
+
+**Para consultar datos desde el Inicio de una determinada pantalla:**  <html><br><br></html>
+
+  * Si existen registros automáticamente observará una **Lista** con todos ellos, a través del cual podrá elegir el registro que desa modificar.
+
+  * Seleccione de la Lista el **Registro** a consultar.  <html><br><br></html>
+
+  * El sistema automáticamente muestra los datos del Registro seleccionado.

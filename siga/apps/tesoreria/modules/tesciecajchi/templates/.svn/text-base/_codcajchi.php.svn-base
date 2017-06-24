@@ -1,0 +1,1 @@
+ <?php echo select_tag('opciecaj[codcajchi]', options_for_select(TsdefcajchiPeer::getCajas(),$opciecaj->getCodcajchi()),array()) ?>

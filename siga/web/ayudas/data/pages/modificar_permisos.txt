@@ -1,0 +1,15 @@
+====== Operación Modificar ======
+
+Si desea **Modificar** una determinada **Salida** debe:
+
+  * Seleccionar de la **Lista** la **salida** que desea modificar. 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/"></div><br></html>
+
+  * El sistema muestra los datos de la salida seleccionada. <html><br><br></html>
+
+  * Realice las modificaciones en base a la salida seleccionada. El único dato que se puede modificar es la **Descripción del Estado**  <html><br><br></html> 
+
+  * Presionar {{:btnguardar.jpg|}} para actualizar la información.  <html><br><br></html> 
+
+  * El sistema emite un **Mensaje de Éxito**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

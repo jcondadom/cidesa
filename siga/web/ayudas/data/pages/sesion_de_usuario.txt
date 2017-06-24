@@ -1,0 +1,21 @@
+====== ¿ Cómo iniciar una Sesión de Usuario ? ======
+
+Una vez que halla ingresado en la Página Principal de **SIGA**:<html><br><br></html>
+
+  * Ingrese en el Campo **Nombre de Usuario** el Usuario que está ingresando al sistema y que previamente fué definido en el Módulo de Seguridad ó Aplicación Maestra
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/iniciarsesionnomusu.jpg"></div><br><br></html>
+
+  * Seguidamente ingrese en el campo **Contraseña** la clave asignada al usuario que está ingresando al sistema
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/iniciarsesioncont.jpg"></div><br></html>
+
+  * En **Empresa** por defecto el sistema muestra la información que posteriormente fue definida. <html><br><br></html>
+
+  * Por último presione en el **Botón** {{:btnlogin.jpg|}} para que pueda ingresar al **Meńu Principal** de **SIGA**. <html><br><br></html>
+
+  * Si el usuario ingresado es válido dentro de la Base de Datos del sistema automáticamente podrá visualizar el Menú Principal de SIGA, de lo contrario, si el Nombre de usuario ó Contraseña es inválido el sistema emite un mensaje de seguridad.
+
+
+
+

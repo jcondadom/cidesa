@@ -1,0 +1,23 @@
+====== Operación Incluir ======
+
+Para **Registrar** un Documento de tipo Pagos: <html><br><br></html>
+
+  * Ingresar el **Tipo de Documento** <html><br><br></html>
+
+  * Asignar el **Nombre Extendido** y **Abreviado** que identificará al Pagado.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprepagosinc1.jpg|}}"></div><br></html>
+
+  * Se debe indicar si **refiere** a algún otro documento (precompromiso, compromiso, causado) o no refiere a ninguno y si **afecta** o no el monto de los documentos anteriores y de la disponibilidad.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprepagosinc2.jpg|}}"></div><br></html>
+
+  * Presione el **Botón Guardar**
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:btnguardar1.jpg|}}"></div><br></html>
+
+  * El sistema verifica si se desea guardar los cambios realizados
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:mnsconfirmacionguardar.jpg|}}"></div><br></html>
+
+  * Presione **OK**

@@ -1,0 +1,154 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Manordtra
+    theme:            cidesaGenerator
+    fields:
+      numord: { name:  Referencia, params : size=10 maxlength=8 onFocus=readonly(this.id)}      
+      numequ:
+        name: Equipo
+        catalogo:
+          catalogoweb: Mantenimiento_Manregequ
+          clase: Manregequ
+          ajax: 1
+          parametros: getprincipal="getNumequ" getsecundario="getNomequ" campoprincipal="numequ" camposecundario="nomequ" campobase = "id"
+      centro: { name: Centro de Costo, params: style="border:none" size=80}
+      estatus: { name: Estatus, params: style="border:none" size=80}
+      tipequ: { name: Tipo del Equipo, params: style="border:none" size=80}
+      refest: { name: Refiere a Estándar}
+      fecemi: { name: Fecha, params: date_format='dd/MM/yyyy' maxlength=10}
+      codact:
+        name: Estándar de Trabajo
+        catalogo:
+          catalogoweb: Mantenimiento_Manactest
+          clase: Manactest
+          ajax: 2
+          parametros: getprincipal="getCodact" getsecundario="getDesact" campoprincipal="codact" camposecundario="desact" campobase = "id"      
+      priori: { name: Prioridad}
+      cedemp:
+        name: Usuario Crea la Orden
+        catalogo:
+          catalogoweb: Nphojint_Nomjorlabind
+          clase: Nphojint
+          ajax: 0
+          parametros: getprincipal="getCedemp" getsecundario="getNomemp" campoprincipal="cedemp" camposecundario="nomemp" campobase = "id"
+      cedres:
+        name: Usuario Responsable
+        catalogo:
+          catalogoweb: Nphojint_Nomjorlabind
+          clase: Nphojint
+          ajax: 0
+          parametros: getprincipal="getCedres" getsecundario="getNomempp" campoprincipal="cedres" camposecundario="nomempp" campobase = "id"
+      codtma:
+        name: Tipo de Mantenimiento
+        catalogo:
+          catalogoweb: Mantenimiento_Mantipman
+          clase: Mantipman
+          ajax: 0
+          parametros: getprincipal="getCodtma" getsecundario="getDestma" campoprincipal="codtma" camposecundario="destma" campobase = "id"
+      desord: { name:  Descripción, params : size=80 maxlength=500}
+      tipord: { name: Tipo de Orden}
+      codart:
+        name: Número ART
+        catalogo:
+          catalogoweb: Mantenimiento_Mannumart
+          clase: Mannumart
+          ajax: 0
+          parametros: getprincipal="getCodart" getsecundario="getDesart" campoprincipal="codart" camposecundario="desart" campobase = "id"
+      incree: { name: Incluye Reemplazo}
+      codsor:
+        name: Estatus
+        catalogo:
+          catalogoweb: Mantenimiento_Manestord
+          clase: Manestord
+          ajax: 0
+          parametros: getprincipal="getCodsor" getsecundario="getDessor" campoprincipal="codsor" camposecundario="dessor" campobase = "id"
+      codgrr:
+        name: Grupo Responsable de ejecución del trabajo
+        catalogo:
+          catalogoweb: Mantenimiento_Mangrutre
+          clase: Mangrutre
+          ajax: 0
+          parametros: getprincipal="getCodgrr" getsecundario="getDesgrr" campoprincipal="codgrr" camposecundario="desgrr" campobase = "id"
+      grid: { name: .}
+      grid1: { name: .}
+      grid2: { name: .}
+      grid3: { name: .}
+      codsis:
+        name: Sistema de Operación
+        catalogo:
+          catalogoweb: Mantenimiento_Mansisope
+          clase: Mansisope
+          ajax: 0
+          parametros: getprincipal="getCodsis" getsecundario="getDessis" campoprincipal="codsis" camposecundario="dessis" campobase = "id"     
+      codsfa:
+        name: Síntoma de la Falla
+        catalogo:
+          catalogoweb: Mantenimiento_Mansinfal2
+          clase: Mansinfal
+          ajax: 3
+          parametros: getprincipal="getCodsfa" getsecundario="getDessfa" campoprincipal="codsfa" camposecundario="dessfa" campobase = "id"     
+          ajaxparams: +'."'".'&codsis='."'+$('manordtra_codsis').value".'
+          catalogoparams: /param1/'."'+$('manordtra_codsis').value+'".'
+      coddfa:
+        name: Defecto de la Falla
+        catalogo:
+          catalogoweb: Mantenimiento_Mandeffal2
+          clase: Mandeffal
+          ajax: 4
+          parametros: getprincipal="getCoddfa" getsecundario="getDesdfa" campoprincipal="coddfa" camposecundario="desdfa" campobase = "id"     
+          ajaxparams: +'."'".'&codsfa='."'+$('manordtra_codsfa').value".'
+          catalogoparams: /param1/'."'+$('manordtra_codsfa').value+'".'
+      codcfa:
+        name: Causa de la Falla
+        catalogo:
+          catalogoweb: Mantenimiento_Mancaufal2
+          clase: Mancaufal
+          ajax: 5
+          parametros: getprincipal="getCodcfa" getsecundario="getDescfa" campoprincipal="codcfa" camposecundario="descfa" campobase = "id"     
+          ajaxparams: +'."'".'&coddfa='."'+$('manordtra_coddfa').value".'
+          catalogoparams: /param1/'."'+$('manordtra_coddfa').value+'".'
+      parfal: { name:  Parte del Fallo, type: textarea_tag, params: size=80x3 maxlength=1000 onkeyup="ismaxlength(this)"}
+      fecici: { name: Fecha Inicio, params: date_format='dd/MM/yyyy' maxlength=10}
+      feccci: { name: Fecha Culminación, params: date_format='dd/MM/yyyy' maxlength=10}
+      cedrec:
+        name: Responsable
+        catalogo:
+          catalogoweb: Nphojint_Nomjorlabind
+          clase: Nphojint
+          ajax: 0
+          parametros: getprincipal="getCedrec" getsecundario="getNomempc" campoprincipal="cedrec" camposecundario="nomempc" campobase = "id"
+      valhci: { name: Horometro/KM/Dias/TM}
+      grid4: { name: .}
+      grid5: { name: .}
+      demcie: { name: Demora}
+      codcfc:
+        name: Causa de la Demora
+        catalogo:
+          catalogoweb: Mantenimiento_Mancaufal
+          clase: Mancaufal
+          ajax: 0
+          parametros: getprincipal="getCodcfc" getsecundario="getDescfc" campoprincipal="codcfc" camposecundario="descfc" campobase = "id"     
+      obscie: { name:  Observaciones, type: textarea_tag, params: size=80x3 maxlength=1000 onkeyup="ismaxlength(this)"}
+      js: { name: .}
+    list:
+      title:          Ordenes de Trabajo
+      display:        [=numord, numequ, desord]
+      filters:        [numord, numequ]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           numord
+    edit:
+      title:          Edición de Orden de Trabajo
+      display:
+        "NONE": [_numord, numequ, centro, estatus, tipequ, fecemi, _refest, codact, _priori, cedemp, cedres, codtma, desord, _tipord, codart, _incree, codsor, codgrr]
+        "Detalles": [_grid, _grid1, _grid2, _grid3]
+        "Características de la Falla": [codsis, codsfa, coddfa, codcfa, parfal]
+        "Cierre": [fecici, feccci, cedrec, valhci, _grid4, _grid5, _demcie, codcfc, obscie, _js]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

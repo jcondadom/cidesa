@@ -1,0 +1,1515 @@
+propel:
+  _attributes:
+    package: lib.model    
+  viadefgen:
+    _attributes:
+      description:  Tabla que almacena las definiciones generales del sistema
+    numsolvia:
+      type: INTEGER
+      description: Numero de Solicitud de Viáticos
+    numcalvianac:
+      type: INTEGER
+      description: Numero de Calculo de Viáticos Nacional
+    numcalviaint:
+      type: INTEGER
+      description: Numero de Calculo de Viáticos Internacional
+    valunitri:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Valor Unidad Tributaria
+    valdolar:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Tasa de cambio del dolar Oficial
+    numrelgasadi:
+      type: INTEGER
+      description: Numero de Relación de Gastos Adicionales
+    codpar:
+      type: VARCHAR
+      size: 32
+      description: Partida de Viático
+    rubint:
+      type: VARCHAR
+      size: 2
+      description: Código de Rubro   
+    corsolbol:
+      type: INTEGER
+      description: Numero de Solicitud de Boletos Áereos
+    corsoltra:
+      type: INTEGER
+      description: Numero de Solicitud de Transporte Terrestre
+    reppreimpsol:
+      type: VARCHAR
+      size: 32
+      description: Nombre de la Forma Preimpresa de la Solicitud de Viáticos
+    reppreimpcal:
+      type: VARCHAR
+      size: 32
+      description: Nombre de la Forma Preimpresa del Cálculo de Viáticos    
+    codprisup:
+      type: VARCHAR
+      size: 2
+      description: Código de Prima Suplementaria
+    codpriadi:
+      type: VARCHAR
+      size: 2
+      description: Código de Prima Adicional
+    codprigas:
+      type: VARCHAR
+      size: 2
+      description: Código de Prima de Gastos de Representación   
+    corrensol:
+      type: INTEGER
+      description: Número de Rendición de Viáticos
+    tipcom:
+      type: VARCHAR
+      size: 4
+      description: tipo de Compromiso del Calculo de Viático.
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viadefrub:
+    _attributes:
+      description: Tabla que contiene información referente a la definición de los rubros
+    codrub:
+      type: VARCHAR
+      size: 2
+      description: Código de Rubro
+    desrub:
+      type: VARCHAR
+      size: 250
+      description: Descripción del Rubro
+    tipo:
+      type: VARCHAR
+      size: 1
+      description: Tipo de Calculo del rubro(Por tabla o manual)
+    tiprub:
+      type: VARCHAR
+      size: 1
+      description: Tipo de Rubro(1.- Alimentación y Hospedaje, 2.- Traslado, 3.- Otros)
+    codpar:
+      type: VARCHAR
+      size: 32
+      description: Partida de Viático
+    tipdia:
+      type: VARCHAR
+      size: 1
+      description: Tipo de pago del Rubro (Completo, Menos un Día)
+    porcal:
+      type: VARCHAR
+      size: 1
+      description:  Porcentajes en el tipo de cálculo del rubro.
+    diadef:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Numero de Dias Por Defecto
+    tipviat:
+      type: VARCHAR
+      size: 1
+      description: Tipo de Viatico(N.- Nacional, I.- Internacional)
+    horsal:
+      type: TIMESTAMP
+      description: Hora de Salida
+    horlle:
+      type: TIMESTAMP
+      description: Hora de Llegada
+    cancal:
+      type: VARCHAR
+      size: 1
+      description: Cantidad del Calculo en (D.- Días, R.- Rubros)    
+    sumres:
+      type: VARCHAR
+      size: 1
+      description: Si es rubro suma o resta
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viadefniv:
+    _attributes:
+      description: Tabla que almacena información referente a la niveles o rangos del empleado para la solicitud de viáticos
+    codniv:
+      type: VARCHAR
+      size: 2
+      description: Código del Nivel o Rango
+    desniv:
+      type: VARCHAR
+      size: 250
+      description: Descripción del Nivel o Rango
+    catniv:
+      type: VARCHAR
+      size: 1
+      description: Categoria de A-E
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viadeftiptra:
+    _attributes:
+      description: Tabla que almacena información referente a los tipos de traslados (interurbano, extraurbano o residencia-aeropuerto)
+    codtiptra:
+      type: VARCHAR
+      size: 2
+      description: Código del Tipo de Traslado
+    destiptra:
+      type: VARCHAR
+      size: 250
+      description: Descripción
+    tipo:
+      type: VARCHAR
+      size: 1
+      description: Tipo de Traslado (interurbano o Residencia aeropuerto)
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viadeffortra:
+    _attributes:
+      description: Tabla que almacena información de las formas de traslado
+    codfortra:
+      type: VARCHAR
+      size: 2
+      description: Código de la forma de traslado
+    desfortra:
+      type: VARCHAR
+      size: 250
+      description: Descripción de la forma de traslado
+    codtiptra:
+      type: VARCHAR
+      size: 2
+      foreingTable: viadeftiptra
+      foreingReference: codtiptra
+      description: Código del Tipo de Traslado
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viadefnivapr:
+    _attributes:
+      description: Tabla que contiene información referente a los los niveles de aprobación que pueden requerir los viáticos
+    codnivapr:
+      type: VARCHAR
+      size: 2
+      description: Código del nivel de aprobación
+    desnivapr:
+      type: VARCHAR
+      size: 250
+      description: Descripción de los niveles de aprobación
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viadefproced:
+    _attributes:
+      description: Tabla que contiene información referente las procedencias de los viáticos
+    codproced:
+      type: VARCHAR
+      size: 2
+      description: Código de las procedencias de los viáticos
+    desproced:
+      type: VARCHAR
+      size: 250
+      description: Descripción de las procedencias de los viáticos
+    aprobacion:
+      type: VARCHAR
+      size: 1
+      description: Aprobación de la procedencia de los viáticos
+    codnivapr:
+      type: VARCHAR
+      size: 2
+      description: Código del Nivel de Aprobacion
+    prioriapr:
+      type: INTEGER
+      description: Prioridad aprobación
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viaasoproniv:
+    _attributes:
+      description: Tabla que contiene información referente a la relación de los niveles de aprobación con las procedencias
+    codproced:
+      type: VARCHAR
+      size: 2
+      foreingTable: viadefproced
+      foreingReference: codproced
+      description: Código de las procedencias de los viáticos
+    codnivapr:
+      type: VARCHAR
+      size: 2
+      foreingTable: viadefnivapr
+      foreingReference: codnivapr
+      description: Código Nivel de Aprobación
+    prioriapr:
+      type: INTEGER
+      description: Prioridad para establecer el orden jerárquico de los niveles de aprobación
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viacalrub:
+    _attributes:
+      description: Tabla que contiene información referente donde a las estructura o valores como se calculan los viáticos
+    codrub:
+      type: VARCHAR
+      size: 2
+      foreingTable: viadefrub
+      foreingReference: codrub
+      description: Código de Rubro
+    codnivtra:
+      type: VARCHAR
+      size: 2
+      foreingTable: viadeftiptra
+      foreingReference: codtiptra
+      description: Código Nivel del Trabajador  o Código de Tipo de Traslado
+    canunitri:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Cantidad de Unidades Tributarias
+    valunitri:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Valor de la Unidad Tributaria
+    monto:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Viáticos Diario
+    codpai:
+      type: VARCHAR
+      size: 4
+      description: Código de país      
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viasolviatra:
+    _attributes:
+      description: Tabla que contiene información referente a los solicitud de viáticos
+    numsol:
+      type: VARCHAR
+      size: 10
+      description: Numero de solicitud
+    fecsol:
+      type: DATE
+      description: Fecha de solicitud
+    tipvia:
+      type: VARCHAR
+      size: 1
+      description: Tipo de Viáticos (Nacional o Internacional)
+    codeve:
+      type: VARCHAR
+      size: 6
+      description: Código del Evento
+    codemp:
+      type: VARCHAR
+      size: 16
+      description: Código del empleado solicitante
+    codcat:
+      type: VARCHAR
+      size: 32
+      description: no va
+    codniv:
+      type: VARCHAR
+      size: 2
+      #foreingTable: viadefniv
+      #foreingReference: codniv
+      description: Código del Nivel o Rango
+    codempaco:
+      type: VARCHAR
+      size: 16
+      description: Empleado Acompañante
+    codnivaco:
+      type: VARCHAR
+      size: 2
+      description: Nivel o rango del empleado Acompañante
+    dessol:
+      type: VARCHAR
+      size: 1000
+      description: Descripción de la Solicitud
+    codciu:
+      type: VARCHAR
+      size: 4
+      description: Ciudad Destino
+    codnivapr:
+      type: VARCHAR
+      size: 2
+      description: Nivel de aprobación en que se encuentra la solicitud
+    codproced:
+      type: VARCHAR
+      size: 2
+      description: Código de las procedencias de los viáticos
+    status:
+      type: VARCHAR
+      size: 1
+      description: Estatus de la Solicitud
+    fecdes:
+      type: DATE
+      description: Fecha Salida del Viaje
+    fechas:
+      type: DATE
+      description: Fecha Llegado del Viaje
+    numdia:
+      type: INTEGER
+      description: Duración viaje
+    codfortra:
+      type: VARCHAR
+      size: 2
+      description:
+    codempaut:
+      type: VARCHAR
+      size: 16
+      foreingTable: viadeffortra
+      foreingReference: codfortra
+      description: Código de la forma de traslado
+    codcen:
+      type: VARCHAR
+      size: 4
+      description: Código de la Unidad Ejecutora
+    codubi:
+      type: VARCHAR
+      size: 30
+      description: Código de la Unidad Solicitante
+    nomempe:
+      type: VARCHAR
+      size: 250
+    tipbol:
+      type: VARCHAR
+      size: 1
+      description: Tiene o no asignada la Bolsa Trabajo
+    monbol:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Monto de la Bolsa Trabajo
+    fecanu:
+      type: DATE
+      description: Fecha de Anulación de la Solicitud de Viático      
+    desanu:
+      type: VARCHAR
+      size: 50
+      description: Motivo de Anulación  
+    coddirec:
+      type: VARCHAR
+      size: 32
+      description:   Código de la Dirección
+    esnoemp:
+      type: BOOLEAN                   
+      description: Es o No Empleado
+    numpas:
+      type: VARCHAR
+      size: 15
+      description: Número de Pasaporte
+    numvis:
+      type: VARCHAR
+      size: 15
+      description: Número de Visa
+    numcel:
+      type: VARCHAR
+      size: 15
+      description: Número de Teléfono Celular            
+    numext:
+      type: VARCHAR
+      size: 15
+      description: Número de Extensión del Teléfono
+    apepercon:
+      type: VARCHAR
+      size: 50
+      description: Apellido de la Persona Contacto
+    nompercon:
+      type: VARCHAR
+      size: 50
+      description: Nombre de la Persona Contacto      
+    parpercon:
+      type: VARCHAR
+      size: 3
+      description: Parentesco de la Persona Contacto      
+    numhabpercon:
+      type: VARCHAR
+      size: 15
+      description: Número de Habitación de la Persona Contacto
+    numcelpercon:
+      type: VARCHAR
+      size: 15
+      description: Número de Celular de la Persona Contacto
+    reqbolaer:
+      type: VARCHAR
+      size: 1
+      description: Requiere Boleto Aéreo S ó N
+    reqhospe:
+      type: VARCHAR
+      size: 1
+      description: Requiere Hospedaje S ó N
+    reqtrater:
+      type: VARCHAR
+      size: 1
+      description: Requiere Transporte Terrestre S ó N      
+    horsal:
+      type: TIMESTAMP
+      description: Hora de Salida
+    horlle:
+      type: TIMESTAMP
+      description: Hora de Llegada
+    rutbolaer:
+      type: VARCHAR
+      size: 200
+      description: Ruta del boleto Áereo
+    motviabol:
+      type: VARCHAR
+      size: 500
+      description: Motivo del Viaje Áereo
+    tipserv:
+      type: VARCHAR
+      size: 50
+      description: Tipo de Servicio
+    canvehi:
+      type: VARCHAR
+      size: 50
+      description: Cantidad de Vehiculos
+    tipvehi:
+      type: VARCHAR
+      size: 50
+      description: Tipo de Vehiculos 
+    candias:
+      type: VARCHAR
+      size: 50
+      description: Cantidad de Dias
+    canpasaj:
+      type: VARCHAR
+      size: 50
+      description: Cantidad de Pasajeros                 
+    equipaj:
+      type: BOOLEAN                   
+      description: Equipaje
+    instrum:
+      type: BOOLEAN                   
+      description: Instrumentos
+    bultos:
+      type: BOOLEAN                   
+      description: Bultos 
+    conesper:
+      type: BOOLEAN                   
+      description: Con Espera
+    adisposi:
+      type: BOOLEAN                   
+      description: A Disposición
+    codempusu:
+      type: VARCHAR
+      size: 16
+      description: Empleado Usuario
+    celemp:
+      type: VARCHAR
+      size: 20
+      description: Celular del Usuario
+    tippas:
+      type: VARCHAR
+      size: 1
+      description: Tipo de Pasaje  (P)rimera Clase o Clase (T)urística
+    fecsal:
+      type: DATE
+      description: Fecha Salida
+    horsalb:
+      type: VARCHAR
+      size: 10
+      description: Hora de Salida      
+    fecreg:
+      type: DATE
+      description: Fecha Regreso
+    horreg:
+      type: VARCHAR
+      size: 10
+      description: Hora de Regreso
+    itinerario:
+      type: VARCHAR
+      size: 500
+      description: Itinerario
+    codnivorg:
+      type: VARCHAR
+      size: 16    
+      description: Nivel Organizacional 
+    codmun:
+      type: VARCHAR
+      size: 6
+      description: Código del Municipio
+    statusdir:
+      type: VARCHAR
+      size: 1
+      description: Estatus de la Solicitud Dirección Superior
+    lugsal:
+      type: VARCHAR
+      size: 100
+      description: Lugar de Salida
+    codpai:
+      type: VARCHAR
+      size: 4
+      description: Código de país  
+    staren:
+      type: VARCHAR
+      size: 1
+      default: N
+      description: Estatus de Rendición
+    hosped:
+      type: VARCHAR
+      size: 1
+      description: Hospedaje H-otel A-rreglo Propio
+    obshos:
+      type: VARCHAR
+      size: 1000
+      description: Observaciones sobre el Hospedaje
+    usuapr:
+      type: VARCHAR
+      size: 50
+      description:  usuario que realizo la aprobación
+    fecapr:
+      type: DATE      
+      description:  fecha en que realizo la aprobación
+    logusu:
+      type: VARCHAR
+      size: 50
+      description:  usuario que realizo la solicitud
+    codpro:
+      type: VARCHAR
+      size: 20
+      description: Código del Proyecto     
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viacalviatra:
+    _attributes:
+      description: Tabla que contiene información referente al maestro del calculo de la solicitud del viático.
+    numcal:
+      type: VARCHAR
+      size: 10
+      description: Numero de Calculo  de Viático
+    feccal:
+      type: DATE
+      description: Fecha  Calculo de Viático
+    tipcom:
+      type: VARCHAR
+      size: 4
+      description: Documento de Compromiso
+    refsol:
+      type: VARCHAR
+      size: 10
+      description: Referencia de la Solicitud de Viático
+    codcat:
+      type: VARCHAR
+      size: 32
+      description: no va
+    diaconper:
+      type: INTEGER
+      description: Días con Pernocta
+    diasinper:
+      type: INTEGER
+      description: Días sin Pernocta
+    status:
+      type: VARCHAR
+      size: 1
+      description: Estatus de Calculo de Viáticos
+    observaciones:
+      type: VARCHAR
+      size: 250
+      description: Observaciones
+    refcom:
+      type: VARCHAR
+      size: 8
+      description: Referencia de compromiso una vez aprobada la solicitud
+    fecanu:
+      type: DATE
+      description: Fecha de Anulación de  Calculo de Viático      
+    desanu:
+      type: VARCHAR
+      size: 50
+      description: Motivo de Anulación
+    verificado:
+      type: VARCHAR
+      size: 1
+      description: Estatus de Verificación del Calculo de Viáticos
+    stainf:
+      type: VARCHAR
+      size: 1
+      description: Estatus de Calculo de Viáticos con informe
+    refcomvar:
+      type: VARCHAR
+      size: 2000
+      description: Cadena Referencia de compromiso una vez aprobada el calculo      
+    usuapr:
+      type: VARCHAR
+      size: 50
+      description:  usuario que realizo la aprobación
+    fecapr:
+      type: DATE      
+      description:  fecha en que realizo la aprobación
+    logusu:
+      type: VARCHAR
+      size: 50
+      description:  usuario que realizo el calculo       
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viadetcalviatra:
+    _attributes:
+      description: Tabla que contiene información referente al detalle del calculo del viático
+    numcal:
+      type: VARCHAR
+      size: 10
+      foreingTable: viacalviatra
+      foreingReference: numcal
+      description: Numero de Calculo  de Viático
+    feccal:
+      type: DATE
+      foreingTable: viacalviatra
+      foreingReference: feccal
+      description: Fecha  Calculo de Viático
+    codrub:
+      type: VARCHAR
+      size: 2
+      #foreingTable: viadefrub
+      #foreingReference: codrub
+      description: Código de Rubro
+    numdia:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Numero de días a pagar
+    mondia:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto a pagar diario
+    montot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto total por rubro
+    tipo:
+      type: VARCHAR
+      size: 2
+      description: Determina si el rubro se calculo por la tabla que se define en (viacalrub) o se coloca el monto manual
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viarelvia:
+    _attributes:
+      description: Tabla que contiene información referente al maestro de las  relaciones  de gastos adicionales
+    numrel:
+      type: VARCHAR
+      size: 10
+      description: Numero de Relación
+    fecrel:
+      type: DATE
+      description: Fecha de relación
+    tipcom:
+      type: VARCHAR
+      size: 4
+      description: Documento de Compromiso
+    desrel:
+      type: VARCHAR
+      size: 250
+      description: Descripción de la relación
+    refcom:
+      type: VARCHAR
+      size: 8
+      description: Referencia de Compromiso
+    codmon:
+      type: VARCHAR
+      size: 3
+      description: Código de la Moneda
+    valmon:
+      type: NUMERIC
+      size: 14      
+      scale: 6
+      description: Valor de la Moneda  
+    codemp:
+      type: VARCHAR
+      size: 16
+      description: Código del empleado solicitante      
+    monbol:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto de la Bolsa
+    totfac:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Total Factura    
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viadetrelvia:
+    _attributes:
+      description: Tabla que contiene información referente a el detalle de las  relaciones  de gastos adicionales
+    numrel:
+      type: VARCHAR
+      size: 10
+      foreingTable: viarelvia
+      foreingReference: numrel
+      description: Numero de Relación
+    fecrel:
+      type: DATE
+      foreingTable: viarelvia
+      foreingReference: fecrel
+      description: Fecha de relación
+    numfac:
+      type: VARCHAR
+      size: 50
+      description: Numero de factura
+    fecfac:
+      type: DATE
+      description: Fecha factura
+    montonet:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto neto de la factura
+    montorec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Recargo de la Factura
+    codcat:
+      type: VARCHAR
+      size: 32
+      description: no va
+    codpar:
+      type: VARCHAR
+      size: 32
+      description: Partida Asociada
+    refsol:
+      type: VARCHAR
+      size: 10
+      foreingTable: viasolviatra
+      foreingReference: numsol
+      description: Referencia solicitud de Viáticos
+    codart:
+      type: VARCHAR
+      size: 20
+      required: true      
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viapais:
+    _attributes:
+      description: Tabla que contiene  la definición de los países para los viáticos internacionales
+    codpai:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: Código de país
+    nompai:
+      type: VARCHAR
+      size: 100
+      required: true
+      description: Nombre del país
+    monto:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del viático diario en dolares según gaceta
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viaestado:
+    _attributes:
+     description: Tabla que contiene  la definición de los estados de los países  para los viáticos
+    codest:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: Código del estado
+    nomest:
+      type: VARCHAR
+      size: 100
+      required: true
+      description: Nombre de la estado
+    codpai:
+      type: VARCHAR
+      size: 4
+      required: true
+      foreingTable: viapais
+      foreingReference: codpai
+      description: Código de país
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+    _uniques:
+      un_viaestado:
+        - codest      
+  viaciudad:
+    _attributes:
+      description: Tabla que contiene  la definición de las ciudades para los viáticos
+    codciu:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: Código de la ciudad
+    nomciu:
+      type: VARCHAR
+      size: 100
+      required: true
+      description: Nombre de la ciudad
+    codest:
+      type: VARCHAR
+      size: 4
+      required: true
+      foreingTable: viaestado
+      foreingReference: codedo
+      description: Código del estado al que pertenece
+    codpai:
+      type: VARCHAR
+      size: 4
+      required: true
+      foreingTable: viapais
+      foreingReference: codpai
+      description: Código de país
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viaextviatra:
+    _attributes:
+      description: Tabla que contiene el maestro de  las extensiones de los viáticos
+    numext:
+      type: VARCHAR
+      size: 10
+      description: Numero de extensión
+    fecext:
+      type: DATE
+      description: Fecha de extension
+    refcal:
+      type: VARCHAR
+      size: 10
+      description: Numero de calculo al que hace referencia
+    codcat:
+      type: VARCHAR
+      size: 32
+      description: no va
+    diaconper:
+      type: INTEGER
+      description: Días con Pernocta
+    diasinper:
+      type: INTEGER
+      description: Días sin Pernocta
+    status:
+      type: VARCHAR
+      size: 1
+      description: estatus
+    observaciones:
+      type: VARCHAR
+      size: 250
+      description: Observaciones
+    refcom:
+      type: VARCHAR
+      size: 8
+      description: Referencia de compromiso una vez aprobada la solicitud
+    fecextdes:
+      type: DATE
+      description: Fecha de extension Desde
+    fecexthas:
+      type: DATE
+      description: Fecha de extension Hasta    
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viadetextviatra:
+    _attributes:
+      description: Tabla que contiene el detalle de  las extensiones de los viáticos
+    numext:
+      type: VARCHAR
+      size: 10
+      foreingTable: viaextviatra
+      foreingReference: numext
+      description: Numero de extensiones de los cálculos de los viáticos
+    fecext:
+      type: DATE
+      foreingTable: viaextviatra
+      foreingReference: fecext
+      description: Fecha de extensión
+    codrub:
+      type: VARCHAR
+      size: 2
+      #foreingTable: viadefrub
+      #foreingReference: codrub
+      description: Código de Rubro
+    numdia:
+      type: INTEGER
+      description: Numero de días a pagar
+    mondia:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto a pagar diario
+    montot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto total por rubro
+    tipo:
+      type: VARCHAR
+      size: 2
+      foreingTable: viadefrub
+      foreingReference: codpai
+      description: Determina si el rubro se calculo por la tabla que se define en (viacalrub) o se coloca el monto manual.
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viadefpri:
+    _attributes:
+      description: Tabla que contiene información referente a la Definición de las Primas
+    codpri:
+      type: VARCHAR
+      size: 2
+      description: Código de Prima
+    despri:
+      type: VARCHAR
+      size: 500
+      description: Descripción del Prima
+    forcal:
+      type: VARCHAR
+      size: 1
+      description: Forma de Calculo de la Prima(Por Monto Diario o Total)
+    sumres:
+      type: VARCHAR
+      size: 1
+      description: Si es rubro suma o resta
+    monfij:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Fijo diario            
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro    
+  vianivpri:
+    _attributes:
+      description: Tabla que contiene información referente a la Asignación de Niveles a Primas
+    codpri:
+      type: VARCHAR
+      size: 2
+      description: Código de Prima
+    codniv:
+      type: VARCHAR
+      size: 2
+      description: Código del Nivel o Rango
+    monpor:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto en porcentaje
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  vianoemp:
+    _attributes:
+      description: Contiene los registros del personal que son empleado propio
+    rifnemp:
+      type: VARCHAR
+      size: 15
+      description: Cédula o RIF del personal
+      required: true
+    nomnemp:
+      type: VARCHAR
+      size: 250
+      description: Nombre del personal
+      required: true
+    dirnemp:
+      type: VARCHAR
+      size: 100
+      description: Dirección del personal
+    telnemp:
+      type: VARCHAR
+      size: 20
+      description: Teléfono del personal
+    emanemp:
+      type: VARCHAR
+      size: 50
+      description: Email del personal
+    codban:
+      type: VARCHAR
+      size: 4
+    numcueb:
+      type: VARCHAR
+      size: 20     
+    codniv:
+      type: VARCHAR
+      size: 16    
+      description: Nivel Organizacional
+    codnivnemp:
+      type: VARCHAR
+      size: 2
+      description: Código del Nivel o Rango    
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viadetsolacoemp:
+    _attributes:
+      description: Tabla que contiene información referente a los acompañantes de Solicitud
+    numsol:
+      type: VARCHAR
+      size: 10
+      description: Numero de solicitud
+    codempaco:
+      type: VARCHAR
+      size: 16
+      description: Empleado Acompañante
+    codnivaco:
+      type: VARCHAR
+      size: 2
+      description: Nivel o rango del empleado Acompañante 
+    refcom:
+      type: VARCHAR
+      size: 8
+      description: Referencia de compromiso una vez aprobada la solicitud         
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viasolviabol:
+    _attributes:
+      description: Tabla que contiene información referente a los Boletos Áereos de la solicitud de viáticos
+    numsol:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Numero de solicitud de Viáticos
+    apepercon:
+      type: VARCHAR
+      size: 50
+      description: Apellido de la Persona
+    nompercon:
+      type: VARCHAR
+      size: 50
+      description: Nombre de la Persona   
+    cedpercon:
+      type: VARCHAR
+      size: 15
+      description: Cédula de la Persona            
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viasolbolaer:
+    _attributes:
+      description: Tabla que contiene información de la Solicitud de Boletos Áereos
+    numsol:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Numero de solicitud de Boleto Áereo
+    fecsol:
+      type: DATE
+      description: Fecha de solicitud
+    coddirec:
+      type: VARCHAR
+      size: 32
+      description:   Código de la Dirección      
+    codeve:
+      type: VARCHAR
+      size: 6
+      description: Código del Evento 
+    codniv:
+      type: VARCHAR
+      size: 16
+      description: Código de la Unidad Solicitante
+    fecsal:
+      type: DATE
+      description: Fecha Salida
+    horsal:
+      type: VARCHAR
+      size: 10
+      description: Hora de Salida  
+    fecreg:
+      type: DATE
+      description: Fecha Regreso
+    horreg:
+      type: VARCHAR
+      size: 10
+      description: Hora de Salida  
+    rutbolaer:
+      type: VARCHAR
+      size: 200
+      description: Ruta del boleto Áereo
+    motviabol:
+      type: VARCHAR
+      size: 500
+      description: Motivo del Viaje Áereo  
+    tippas:
+      type: VARCHAR
+      size: 1
+      description: Tipo de Pasaje  (P)rimera Clase o Clase (T)urística
+    numsolvi:
+      type: VARCHAR
+      size: 10
+      description: Numero de solicitud de Viatico
+    staapr:
+      type: VARCHAR
+      size: 1
+      description: Status de Aprobación
+    idavue:
+      type: VARCHAR
+      size: 1
+      description: Tipo de Boleto es IdayVuelta (V) o Solo Ida (I)
+    usuapr:
+      type: VARCHAR
+      size: 50
+      description:  usuario que realizo la aprobación
+    fecapr:
+      type: DATE      
+      description:  fecha en que realizo la aprobación    
+    logusu:
+      type: VARCHAR
+      size: 50
+      description:  usuario que realizo la solicitud     
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viasolviatran:
+    _attributes:
+      description: Tabla que contiene información referente al Transporte Terrestre de la solicitud de viáticos
+    numsol:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Numero de solicitud de Viáticos
+    fecha:
+      type: DATE
+      description: Fecha 
+    hora:
+      type: VARCHAR
+      size: 10
+      description: Hora   
+    ruta:
+      type: VARCHAR
+      size: 200
+      description: Ruta
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viasoltraterre:
+    _attributes:
+      description: Tabla que contiene información referente a la Solicitud de  Transporte Terrestre
+    numsol:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Numero de solicitud de Viáticos
+    fecsol:
+      type: DATE
+      description: Fecha de solicitud
+    coddirec:
+      type: VARCHAR
+      size: 32
+      description:   Código de la Dirección      
+    codeve:
+      type: VARCHAR
+      size: 6
+      description: Código del Evento 
+    codniv:
+      type: VARCHAR
+      size: 16
+      description: Código de la Unidad Solicitante      
+    esnoemp:
+      type: BOOLEAN                   
+      description: Es o No Empleado
+    codempusu:
+      type: VARCHAR
+      size: 16
+      description: Empleado Usuario
+    tipserv:
+      type: VARCHAR
+      size: 50
+      description: Tipo de Servicio
+    canvehi:
+      type: VARCHAR
+      size: 50
+      description: Cantidad de Vehiculos
+    tipvehi:
+      type: VARCHAR
+      size: 50
+      description: Tipo de Vehiculos 
+    candias:
+      type: VARCHAR
+      size: 50
+      description: Cantidad de Dias
+    canpasaj:
+      type: VARCHAR
+      size: 50
+      description: Cantidad de Pasajeros                 
+    equipaj:
+      type: BOOLEAN                   
+      description: Equipaje
+    instrum:
+      type: BOOLEAN                   
+      description: Instrumentos
+    bultos:
+      type: BOOLEAN                   
+      description: Bultos 
+    conesper:
+      type: BOOLEAN                   
+      description: Con Espera
+    adisposi:
+      type: BOOLEAN                   
+      description: A Disposición
+    telemp:
+      type: VARCHAR
+      size: 15
+      description: Número de Celular del Empleado 
+    nompercon:
+      type: VARCHAR
+      size: 50
+      description: Nombres de la Persona Contacto      
+    apepercon:
+      type: VARCHAR
+      size: 50
+      description: Apellidos de la Persona Contacto      
+    numcelpercon:
+      type: VARCHAR
+      size: 15
+      description: Número de Celular de la Persona Contacto
+    numsolvi:
+      type: VARCHAR
+      size: 10
+      description: Numero de solicitud de Viatico
+    ordesp:
+      type: VARCHAR
+      size: 500
+      description: Ordenes especiales del transporte terrestre
+    staapr:
+      type: VARCHAR
+      size: 1
+      description: Status de Aprobación  
+    usuapr:
+      type: VARCHAR
+      size: 50
+      description:  usuario que realizo la aprobación
+    fecapr:
+      type: DATE      
+      description:  fecha en que realizo la aprobación 
+    logusu:
+      type: VARCHAR
+      size: 50
+      description:  usuario que realizo la solicitud           
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro         
+  viarutsoltran:
+    _attributes:
+      description: Tabla que contiene información referente a las Rutas de la Solicitud de Transporte Terrestre
+    numsol:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Numero de Solicitud de Transporte Terrestre
+    dia:
+      type: VARCHAR
+      size: 10
+      description: Día
+    mes:
+      type: VARCHAR
+      size: 10
+      description: Mes      
+    hora:
+      type: VARCHAR
+      size: 10
+      description: Hora   
+    ruta:
+      type: VARCHAR
+      size: 200
+      description: Ruta
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viadetsolbolaer:
+    _attributes:
+      description: Tabla que contiene información de las personas asociadas a la Solicitud de Boletos Áereos
+    numsol:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Numero de solicitud de Boleto Áereo
+    cedperpas:
+      type: VARCHAR
+      size: 15
+      description: Cédula de la Persona      
+    apeperpas:
+      type: VARCHAR
+      size: 50
+      description: Apellido de la Persona
+    nomperpas:
+      type: VARCHAR
+      size: 50
+      description: Nombre de la Persona    
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro  
+  viamunicip:
+    _attributes:
+      description:  Tabla que almacena los Municipios
+    codmun:
+      type: VARCHAR
+      size: 6
+      required: true
+      description: Código del Municipio
+    nommun:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Nombre del Municipio
+    viaestado_codest:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: Código del Estado
+      foreignTable: viaestado
+      foreignReference: codest
+      onDelete: RESTRICT
+      onUpdate: RESTRICT      
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro 
+    _uniques:
+      un_viamunicip:
+        - codmun
+  viarensolvia:
+    _attributes:
+      description: Tabla que contiene información referente a la Rendición de Solicitud de Viáticos
+    numren:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Número de la Rendición
+    fecren:
+      type: DATE
+      description: Fecha de la Rendición
+    numsol:
+      type: VARCHAR
+      size: 10
+      description: Numero de solicitud      
+    lugvis:
+      type: VARCHAR
+      size: 1000
+      description: Lugares Visitados
+    actrea:
+      type: VARCHAR
+      size: 1000
+      description: Actividades Realizadas
+    resobt:
+      type: VARCHAR
+      size: 1000
+      description: Resultados Obtenidos
+    benins:
+      type: VARCHAR
+      size: 1000
+      description: Beneficios a la Institución
+    conrec:
+      type: VARCHAR
+      size: 1000
+      description: Conclusiones y Recomendaciones  
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  viaasoempaut:
+    _attributes:
+      description: Tabla que contiene información referente los Empleados que autorizan viaticos
+    codemp:
+      type: VARCHAR
+      size: 16
+      description: Código del empleado solicitante
+    codempaut:
+      type: VARCHAR
+      size: 16
+      description: Código de la forma de traslado
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro

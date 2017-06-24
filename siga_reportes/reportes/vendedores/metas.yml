@@ -1,0 +1,35 @@
+Parametros:
+  modulo: vendedores
+  nomrep: metas
+  titulo: DEFINICION DE METAS
+  orientacion: Horizontal
+  tipopagina: Carta
+  width:210
+
+Filas:
+  CATALOGO METAS:
+    tipotag:  inputcat_tag
+    label: Codigo de la Metas:
+    sql: select min(id) as coddes,max(id) as codhas from metas
+    nomdes: coddes
+    campodes: coddes
+    catdes: 0
+    nomhas: codhas
+    campohas: codhas
+    cathas: 1
+    nomcat: metas
+    size: 15
+
+  combo primero mesasignacion:
+    tipotag:   combof_tag
+    label:Mes Asignación
+    nomdes: mesasignacion
+    campodes: [0=>TODOS, 1 => Enero, 2 => Febrero, 3 => Marzo, 4 => Abril, 5 => Mayo, 6 => Junio, 7 => Julio, 8 => Agosto, 9 => Septiembre, 10 => Octubre, 11 => Noviembre, 12 => Diciembre]    
+    #parametros: width=100
+
+  combo primero status:
+    tipotag:   combof_tag
+    label:Estatus Meta
+    nomdes: status
+    campodes: [0=>AMBAS, 1=>ACTIVAS, 2=>INACTIVAS]    
+    #parametros: width=100

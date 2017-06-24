@@ -1,0 +1,31 @@
+====== Perfiles ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite definir todos los posibles Perfiles de los empleados que conforman la Nómina de la Empresa.</html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el **Menú Principal** de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+   * Seguidamente despliegue la opción **Definiciones Específicas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefesp.jpg|}}"></div><br></html>
+
+  * Por último seleccione la opción **Perfiles**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefper.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Perfiles** podrá realizar las Operaciones Básicas de:
+
+  * [[Incluir Perfiles|Incluir]]
+   
+  * [[Modificar Perfiles|Modificar]]
+
+  * [[Eliminar Perfiles|Eliminar]]
+
+  * [[Consultar Perfiles|Consultar]]
+
+
+
+
+

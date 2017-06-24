@@ -1,0 +1,11 @@
+====== Text Config Manager: Smileys ======
+
+Use this page to Manage the Smileys List of your Dokuwiki installation.\\
+What are Smileys? refer to [[doku>wiki:smileys]].\\
+You can alos refer to the [[wp>Smiley|Wikipedia list of Smiley]]
+
+Please note that you need to specify a smiley image file that does exist in your dokuwiki's ''images/smileys'' directory. Unfortunately, this plugin does not upload image files.
+
+For more details about this plugin see [[doku>plugin:txtconf]].
+
+Remember to press the **SAVE** button before leaving this page otherwise your changes will be lost.

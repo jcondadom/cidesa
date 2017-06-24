@@ -1,0 +1,2 @@
+default:
+  javascripts:    [ %SF_PROTOTYPE_WEB_DIR%/js/prototype, %SF_PROTOTYPE_WEB_DIR%/js/scriptaculous , tools, ajax, observer, catalogov2, facturacion/facarord]

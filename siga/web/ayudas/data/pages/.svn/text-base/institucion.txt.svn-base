@@ -1,0 +1,21 @@
+====== Institución ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Este módulo permite definir las caracteristicas de la Institución y el Formato de Códigos de Cargo, Empleado, Nivel Organizacional y Unidad Ejecutora que utilizará el Sub – sistema para el calculo de la Nómina. </html> Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+   * Seguidamente despliegue la opción **Definiciones Específicas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefesp.jpg|}}"></div><br></html>
+
+  * Por último seleccione la opción **Institución**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefespins.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Institución** veamos la [[Descripcion_Campos_Definicion_Institucion|Descripción de los Campos]]
+
+
+
+
+
+
+

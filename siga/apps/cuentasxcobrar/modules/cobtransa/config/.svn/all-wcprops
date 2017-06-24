@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/62011/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/config
+END
+grid_notcre.yml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/54514/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/config/grid_notcre.yml
+END
+grid_formapago.yml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/59815/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/config/grid_formapago.yml
+END
+grid_descuentos.yml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/56740/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/config/grid_descuentos.yml
+END
+grid_detche.yml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/56742/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/config/grid_detche.yml
+END
+grid_documentos.yml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/54234/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/config/grid_documentos.yml
+END
+generator.yml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/62011/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/config/generator.yml
+END
+grid_documentos2.yml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/54319/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/config/grid_documentos2.yml
+END
+grid_recargos.yml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/55760/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/config/grid_recargos.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/27029/web/php/siga/branches/productions/trunk/apps/cuentasxcobrar/modules/cobtransa/config/view.yml
+END

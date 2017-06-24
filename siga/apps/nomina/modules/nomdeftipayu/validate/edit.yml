@@ -1,0 +1,44 @@
+methods:
+  post:
+   - "nptipayu{codtipayu}"
+   - "nptipayu{destipayu}"
+   - "nptipayu{codpar}"   
+
+names:
+  nptipayu{codtipayu}:
+    required:  Yes
+    required_msg: El código no puede estar en Blanco
+    validators: Validator_codtipayu
+
+  nptipayu{destipayu}:
+    required:  Yes
+    required_msg: La descripción no puede estar en Blanco
+    validators: Validator_destipayu
+
+  nptipayu{codpar}:
+    required:  Yes
+    required_msg: La Partida no puede estar en Blanco
+    validators: Validator_codpar
+
+
+Validator_codtipayu:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Nptipayu
+        column:       codtipayu
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_destipayu:
+    class: sfStringValidator
+    param:
+        min:       3
+        min_error: La descripción no puede tener menos de 3 caracteres
+        max:       250
+        max_error: La descripción no puede pasar mas de 250 caracteres        
+
+Validator_codpar:
+    class: CidesaExistValidator
+    param:
+        class:    Nppartidas
+        column:   codpar
+        unique_error:   La Partida Presupuestaria no existe            

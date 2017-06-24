@@ -1,0 +1,31 @@
+methods:
+  post:
+   - "bnestcon{codest}"
+   - "bnestcon{desest}"
+
+names:
+  bnestcon{codest}:
+    required:  Yes
+    required_msg: El Código del Conservación del Estado no puede estar en Blanco
+    validators: Validator_codest
+
+  bnestcon{desest}:
+    required:  Yes
+    required_msg: La Descripción de la Conservación del Estado no puede estar en Blanco
+    validators: Validator_desest
+
+
+Validator_codest:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Bnestcon
+        column:       codest
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_desest:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La descripción no puede tener menos de 5 caracteres
+        max:       100
+        max_error: La descripción no puede pasar más de 100 caracteres

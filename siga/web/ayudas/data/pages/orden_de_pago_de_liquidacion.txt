@@ -1,0 +1,34 @@
+Cuando la **Orden de Pago** es de **Liquidación**:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanordpagordpagoinc14.jpg|}}"></div><br></html>
+
+  * **Referencia:** Código Ó correlativo del Documento al que se asocia la Orden de Pago. <html><br><br></html>
+
+  * **Fecha** en la que se está realizando la Orden. <html><br><br></html>
+ 
+  * **Tipo:** En este campo el tipo de orden de pago a seleccionar es la Orden de Pago de Liquidación. <html><br><br></html>
+
+  * **Por favor, seleccione la Liquidación Pendiente por Pagar:** Dicho campo indica la Nómina a la que refiere la Orden de Pago. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[Listas|Lista]] con las Nóminas que se encuentren por pagar.<html><br><br></html>
+
+  * **Concepto:** Refiere a el Concepto por el cual se está realizando dicha orden de pago. <html><br><br></html>
+ 
+  * **C.I / RIF:** Se coloca la C.I / R.I.F de la persona o empresa que se le va realizar el pago. <html><br><br></html>
+
+  * **Beneficiario:** Persona a quién se le hará entrega de la Orden de Pago.
+
+  * **Código Contable:**  Representa el identificador de la cuenta contable según el formato establecido en la Definición Contable, que se asocia a la operación o documento que se esta emitiendo. <html><br><br></html>
+ 
+  * **Unidad Origen:** Se refiere a la Codificación del Departamento que emite la Orden de Pago. <html><br><br></html>
+
+  * **Financiamiento:** Refiere a la fuente de financiamiento. <html><br><br></html>
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanordpagordpagoinc12.jpg|}}"></div><br></html>
+
+  * Al seleccionar la Nómina a la que refiere el sistema muestra en la pestaña **Imputaciones Presupuestarias** un [[Grid|Grid]] con los siguientes campos en las columnas correspondientes: <html><br><br></html> 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Código Presupuestario:** Refiere a los códigos presupuestarios asociados a la nómina seleccionada
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Monto a Causar:** Debe ingresar el monto base de la Orden de Pago sin incluir las retenciones ni el descuento. <html><br><br></html> 
+
+**Nota:** Para este tipo de Orden de Pago no se aplica Retenciones ni Amortización.
+

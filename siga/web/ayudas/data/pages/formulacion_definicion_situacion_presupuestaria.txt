@@ -1,0 +1,16 @@
+====== Definición de Situaciones Presupuestarias ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite definir las distintas situaciones actuales en la que se puede encontrar un proyecto.
+
+**Para ello:**
+
+  * Seleccione la opción **Formulación Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpre.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones Generales**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpredefesp.jpg|}}"></div><br></html>
+ 
+  * Por último seleccione **Definición de Situaciones Presupuestarias**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpredefsitprep.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Definición de Situaciones Presupuestarias** veamos la [[Descripcion_Campos_formulacion_definicion_situaciones_presupuestarias|Descripción de los Campos]]

@@ -1,0 +1,13 @@
+====== Operación Modificar ======
+
+Para **Modificar** un determinado **Tipo de Dedicación**: <html><br><br></html>
+
+  * Seleccionar de la ** Lista** el **Código de la Dedicación** que desea modificar.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompertipdedmod.jpg|}}"></div><br></html>
+
+  * Realice las modificaciones en el **Tipo de Dedicación** seleccionada. Es importante destacar que solo podrá modificar la **Descripción** del Tipo de Dedicación. <html><br><br></html>
+
+  * Una vez realizadas las modificaciones debe presionar el Botón  {{:btnguardar.jpg|}} para actualizar la información. <html><br><br></html>
+ 
+  * El sistema emite un **Mensaje de Èxito**.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

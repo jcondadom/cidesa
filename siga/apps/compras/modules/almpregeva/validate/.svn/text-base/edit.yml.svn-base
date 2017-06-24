@@ -1,0 +1,35 @@
+methods:
+  post:
+   - "cadepreg{codprg}"
+   - "cadepreg{desprg}"
+   - "cadepreg{tipprg}"
+
+names:
+  cadepreg{codprg}:
+    required:  Yes
+    required_msg: El código de la Pregunta no puede estar en Blanco
+    validators: Validator_codprg
+
+  cadepreg{desprg}:
+    required:  Yes
+    required_msg: La Descripción de la Pregunta no puede estar en Blanco
+    validators: Validator_desprg
+
+  cadepreg{tipprg}:
+    required:  Yes
+    required_msg: El Tipo de la Pregunta no puede estar en Blanco
+
+Validator_codprg:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Cadepreg
+        column:       codprg
+        unique_error: El código de la Pregunta ya Existe intente con otro.
+
+Validator_desprg:
+  class: sfStringValidator
+  param:
+    min:       2
+    min_error: La Descripción de la Pregunta no puede tener menos de 2 caracteres
+    max:       2000
+    max_error: La Descripción de la Pregunta no puede pasar mas de 2000 caracteres

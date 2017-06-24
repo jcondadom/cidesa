@@ -1,0 +1,26 @@
+====== Operación Consultar ======
+
+**Para consultar un determinado **Tipo de Contrato Colectivo** desde el Botón Lista:**   <html><br><br></html>
+
+  * Presione el **Botón**  {{:btnlista.jpg|}}    <html><br><br></html>
+
+  * Seleccione de la **Lista** el **Código del Tipo de Contrato Colectivo** para la cual desea consultar el registro de vacaciones. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpretipconcoleli1.jpg|}}"></div><br><br></html>
+
+  * El sistema automáticamente muestra los **Tipos de Contratos Colectivos** registrados.<html><br><br></html>
+
+  * Si desea consultar un nuevo Tipo de Contrato Colectivo debe presionar nuevamente el** Botón** {{:btnlista.jpg|}}  y repetir los pasos anteriores.
+ 
+<html><br><br></html>
+
+
+**Para consultar datos desde el Inicio de la pantalla de Tipos de Contratos Colectivos:**  <html><br><br></html>
+
+  * El sistema muestra la **Lista** de los **Tipos de Contratos** registrados.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpretipconcoleli1.jpg|}}"></div><br><br></html>
+
+  * Seleccione de la **Lista** el **Tipo de Contrato** a consultar. <html><br><br></html>
+
+  * El sistema automáticamente muestra el Tipo de Contrato seleccionado

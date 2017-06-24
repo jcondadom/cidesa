@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repositorio/!svn/ver/42252/web/php/siga/branches/productions/trunk/apps/autenticacion/templates
+END
+layout.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/autenticacion/templates/layout.php
+END
+layout_generales.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/autenticacion/templates/layout_generales.php
+END
+layout_seguridad.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/autenticacion/templates/layout_seguridad.php
+END
+layout_cidesa.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/42252/web/php/siga/branches/productions/trunk/apps/autenticacion/templates/layout_cidesa.php
+END

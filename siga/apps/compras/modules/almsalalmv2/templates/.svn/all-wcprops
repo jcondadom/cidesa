@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/49030/web/php/siga/branches/productions/trunk/apps/compras/modules/almsalalmv2/templates
+END
+autocompleteSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/49002/web/php/siga/branches/productions/trunk/apps/compras/modules/almsalalmv2/templates/autocompleteSuccess.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/49002/web/php/siga/branches/productions/trunk/apps/compras/modules/almsalalmv2/templates/ajaxSuccess.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/49002/web/php/siga/branches/productions/trunk/apps/compras/modules/almsalalmv2/templates/editSuccess.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/49017/web/php/siga/branches/productions/trunk/apps/compras/modules/almsalalmv2/templates/_edit_actions.php
+END
+_edit_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/49030/web/php/siga/branches/productions/trunk/apps/compras/modules/almsalalmv2/templates/_edit_form.php
+END
+_filters.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/49002/web/php/siga/branches/productions/trunk/apps/compras/modules/almsalalmv2/templates/_filters.php
+END
+ajaxfilaSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/49002/web/php/siga/branches/productions/trunk/apps/compras/modules/almsalalmv2/templates/ajaxfilaSuccess.php
+END

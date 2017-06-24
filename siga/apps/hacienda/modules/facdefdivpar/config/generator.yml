@@ -1,0 +1,35 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcparroq
+    theme:            cidesaGenerator
+    fields:
+      codpai: { name: País, params : size=5 maxlength=4 }
+      nompai: { name: Paí­s}
+      codedo: { name: Estado, params : size=5 maxlength=4 }
+      nomedo: { name: Estado}
+      codmun: { name: Municipio, params : size=5 maxlength=4 }
+      nommun: { name: Municipio}
+      codpar: { name: Código, params : size=5 maxlength=4  onFocus=readonly(this.id) onBlur="this.value=this.value.pad(4, '0',0);"  }
+      nompar: { name: Nombre, params : size=60 maxlength=30 onBlur="cadena=this.value;cadena=cadena.toUpperCase(); $(this.id).value=cadena"}
+    list:
+      title:          Definiciones de Parroquias
+      filters:        [codpai, codedo, codmun, codpar]
+      display:        [=codpar, nompar, nompai, nomedo, nommun]
+      fields:
+        codpar:
+          name: Parroquia
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codpar
+    edit:
+      title:          Edición  de Parroquia
+      display:
+        "Datos del Parroquia":   [_codpai, _codedo, _codmun, codpar, nompar]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

@@ -1,0 +1,92 @@
+methods:
+  post:
+   - "bnsolpolcer{numsol}"
+   - "bnsolpolcer{tipsol}"
+   - "bnsolpolcer{fecsol}"
+   - "bnsolpolcer{dessol}"
+   - "bnsolpolcer{fecini}"
+   - "bnsolpolcer{fecven}"
+   - "bnsolpolcer{codcom}"
+   - "bnsolpolcer{codubi}"
+
+names:
+  bnsolpolcer{numsol}:
+    required:  Yes
+    required_msg: El Número de Solicitud no puedo estar en Blanco
+    validators: UniqueValidator
+
+  bnsolpolcer{fecsol}:
+    required:  Yes
+    required_msg: La Fecha de la Solicitud no puedo estar en Blanco
+    validators: FechaValidator, FechaValidator1
+
+  bnsolpolcer{dessol}:
+    required:  Yes
+    required_msg: El Descrición no puedo estar en Blanco
+    validators: DescripcionValidator
+
+  bnsolpolcer{tipsol}:
+    required:  Yes
+    required_msg: El Tipo de Solicitud no puedo estar en Blanco
+
+  bnsolpolcer{fecini}:
+    required:  No
+    validators: FechaValidator
+
+  bnsolpolcer{fecven}:
+    required:  No
+    validators: FechaValidator   
+
+  bnsolpolcer{codcom}:
+    required:  Yes
+    required_msg: La Compañia Aseguradora no puedo estar en Blanco
+    validators: CompaniaValidator
+
+  bnsolpolcer{codubi}:
+    required:  Yes
+    required_msg: La Ubicación Física no puedo estar en Blanco
+    validators: UbicacionValidator         
+
+FechaValidator1:
+    class:         CidesaDateNow
+    param:
+        compare: 'now'
+        compare_error: La Fecha no puede ser mayor a la Fecha Actual
+        operator: '<='
+        date_error:  Fecha Inválida
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción no puede tener menos de 5 caracteres
+        max:       1000
+        max_error: La Descripción no puede tener más de 1000 caracteres
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Bnsolpolcer
+        column:   numsol
+        unique_error:   El Número de Solicitud ya existe. Por Favor, Cambiélo por otro.
+
+CompaniaValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Bncatcomseg
+        column:   codcom
+        unique_error:  La Compañia Aseguradora no existe.
+
+UbicacionValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Bnubibie
+        column:   codubi
+        unique_error:  La Ubicación Física no existe.        
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es inválida

@@ -1,0 +1,31 @@
+opciones:                  # Opciones generales
+  name:                    f
+  eliminar:                true
+  tabla:                   manrhcord
+  anchogrid:               800
+  ancho:                   550
+  filas:                   1
+  titulo:                  ' RRHH (Reales)'
+  htmltotalfilas:          ' '
+1:
+  titulo:                  Cédula Empleado
+  tipo:                    t
+  nombrecampo:             cedrec
+  esgrabable:              true
+  html:                    ["size=15 maxlength=16"]
+  ajaxgrid:                true
+  catalogo:                [nphojint, sf_admin_edit_form, {Cedrec: 1, Nomempc: 2}, Nphojint_Nomjorlabind ]
+2:
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nomempc
+  esgrabable:              true
+  html:                    ["size=30 readonly=true"]  
+3:
+  titulo:                  Cantidad de Horas Trabajadas
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canhor
+  esnumerico:              true
+  default:                 '0,00'  
+  html:                    ["size=10"]

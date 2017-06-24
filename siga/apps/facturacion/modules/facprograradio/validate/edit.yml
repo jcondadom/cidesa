@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "faprorad{codprorad}"
+   - "faprorad{desprorad}"
+
+names:
+  faprorad{codprorad}:
+    required:  Yes
+    required_msg: El Código del Programa no puedo estar en Blanco
+    validators: UniqueValidator
+
+  faprorad{desprorad}:
+    required:  Yes
+    required_msg: La Descripción del Programa no puedo estar en Blanco
+    validators: DescripcionValidator
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Faprorad
+        column:   codprorad
+        unique_error:   El Código del Programa ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción del Programa no puede tener menos de 5 caracteres
+        max:       250
+        max_error: La Descripción del Programa no puede tener más de 250 caracteres

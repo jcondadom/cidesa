@@ -1,0 +1,48 @@
+methods:
+  post:
+   - "fcdeftasas{codtas}"
+   - "fcdeftasas{destas}"
+   - "fcdeftasas{valtas}"
+   - "fcdeftasas{codfue}"
+
+names:
+  fcdeftasas{codtas}:
+    required:  Yes
+    required_msg: No puede salvar sin Introducir el Código de la Tasa
+    validators: UniqueValidator
+
+  fcdeftasas{destas}:
+    required:  Yes
+    required_msg: No puede salvar sin Introducir la  Descripción de la Tasa
+    validators: DescripcionValidator
+
+  fcdeftasas{valtas}:
+    required:  Yes
+    required_msg: No puede salvar sin Introducir el Valor de la Tasa
+
+  fcdeftasas{codfue}:
+    required:  Yes
+    required_msg: No puede salvar sin Introducir el Rubro
+    validators: RubroValidator
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción no puede tener menos de 5 caracteres
+        max:       500
+        max_error: La Descripción no puede tener más de 500 caracteres
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Fcdeftasas
+        column:   codtas
+        unique_error:   EL Código de la Tasa ya existe. Por Favor, Cambiélo por otro.
+
+RubroValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Fcfuepre
+        column:   codfue
+        unique_error:  El Rubro no Existe.

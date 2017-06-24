@@ -1,0 +1,1 @@
+<?php echo select_tag('mantiplub[lubric]', options_for_select(array('C' => 'Combustible', 'L' => 'Lubricante', 'G' => 'Grasa', 'R' => 'Refrigerante'),$mantiplub->getLubric()),array()); ?>

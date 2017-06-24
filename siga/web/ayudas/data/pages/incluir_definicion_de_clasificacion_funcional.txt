@@ -1,0 +1,13 @@
+====== Operación Incluir ======
+
+Para **Registrar** una determinada Clasificación Funcional:<html><br><br></html> 
+
+  * Presione el **Botón** {{:btnnuevo.jpg|}} <html><br><br></html> 
+
+  * Ingresar el **Código** que identifique la Clasificación Funcional.<html><br><br></html> 
+
+  * Ingresar el **Nombre de la Clasificación**.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedefclafuninc.jpg|}}"></div><br></html>
+
+  * Presionar el** Botón** {{:btnguardar.jpg|}} para registrar la información.

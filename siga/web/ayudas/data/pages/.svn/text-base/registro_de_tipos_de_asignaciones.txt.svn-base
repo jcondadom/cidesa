@@ -1,0 +1,30 @@
+====== Registro de Tipos de Asignaciones ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite llevar a cabo la definición de los Tipos de Asignaciones de Nómina, que van a tomarse en cuenta para el Cálculo de Prestaciones Sociales, asociando los Conceptos de Asignación de Nómina, con cada Contrato Colectivo.</html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Prestaciones** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperprest.jpg|}}"></div><br></html> 
+
+  * Seleccione la opción **Definición de Parámetros para las Prestaciones Sociales**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefparpresoc.jpg|}}"></div><br></html>
+
+ * Por último seleccione la opción **Registro de Tipos de Asignaciones**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperregtipasi.jpg|}}"></div><br></html>
+
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Registro de Tipos de Asignaciones** solo podrá realizar las Operaciones Básicas de: 
+
+  * [[Incluir Registro de Tipos de Asignaciones |Incluir]]
+
+  * [[Modificar Registro de Tipos de Asignaciones |Modificar]]
+
+  * [[Eliminar Registro de Tipos de Asignaciones |Eliminar]]
+
+  * [[Consultar Registro de Tipos de Asignaciones |Consultar]]

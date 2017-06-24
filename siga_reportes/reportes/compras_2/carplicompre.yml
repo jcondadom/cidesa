@@ -1,0 +1,72 @@
+Parametros:
+  modulo: compras
+  nomrep: carplicompre
+  titulo: Solicitud de Cotización
+  orientacion: Vertical
+  tipopagina: CARTA
+  width:250
+
+Filas:
+  CATALOGO SOLICITUD:
+    tipotag:   inputcat_tag
+    label: Solicitud de Cotización:
+    sql:   SELECT min(reqart) as reqmin, max(reqart) as reqmax FROM CASOLART
+    nomdes: codreqdes
+    campodes: reqmin
+    catdes: 0
+    nomhas:
+    campohas:
+    cathas: 1
+    nomcat: casolart
+    size: 30
+
+  CATALOGO PROVEEDOR:
+    tipotag:   inputcat_tag
+    label: Rif del Proveedor:
+    sql:   select min(rifpro) as rifmin from caprovee
+    nomdes: rifpro
+    campodes: rifmin
+    catdes: 2
+    nomhas:
+    campohas:
+    cathas: 3
+    nomcat: caprovee
+    size: 30
+
+  CAJA NUMERO PROC:
+    tipotag:   input_tag
+    label: Procedimiento Nro:
+    nomdes: proc
+    campodes:
+    size: 30
+
+  CAJA CONDICIONES DE ENTREGA POR:
+    tipotag:   input_tag
+    label: Condiciones de Entrega:
+    nomdes: conent
+    campodes:
+    size: 30
+
+  CAJA Validez POR:
+    tipotag:   input_tag
+    label: Validez de la Oferta:
+    nomdes: valofe
+    campodes:
+    size: 30
+
+  CAJA ACLARATORIAS POR:
+    tipotag:   input_tag
+    label: Fecha Aclaratorias
+    nomdes: fecacl
+    campodes:
+    catdes: 4
+    size: 30
+  
+  CAJA FECHA ENTREGA
+    tipotag: input_tag
+    label: Fecha de Entrega:
+    nomdes: fecacl2
+    campodes:
+    catdes: 5
+    size: 30
+

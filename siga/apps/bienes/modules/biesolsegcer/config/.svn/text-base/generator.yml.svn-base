@@ -1,0 +1,60 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Bnsolpolcer
+    theme:            cidesaGenerator
+    fields:
+      numsol: { name: N° Solicitud, params: size=20 maxlength=20 onFocus=readonly(this.id) onBlur="event.keyCode=13; enter(event,this.value);"}
+      tipsol: { name: Tipo de Solicitud}
+      fecsol: { name: Fecha, params: date_format='dd/MM/yyyy' maxlength=10}
+      dessol: { name: Descripción, type: textarea_tag, params: size=80x3 maxlength=1000 onkeyup="javascript:return ismaxlength(this)"}
+      fecini: { name: Fecha Inicio, params: date_format='dd/MM/yyyy' maxlength=10}
+      fecven: { name: Fecha Vencimiento, params: date_format='dd/MM/yyyy' maxlength=10}
+      numref: { name: Número de referencia, params: size=30 maxlength=20}
+      codcob:
+        name: Tipo de Cobertura
+        params: size=10 maxlength=3
+        catalogo:
+          catalogoweb: Bntipcob_Biesolsegcer
+          clase: Bntipcob
+          ajax: 3
+          parametros: getprincipal="getCodcob" getsecundario="getDescob" campoprincipal="codcob" camposecundario="descob" campobase = "id"
+      codcom:
+        name: Compañia Aseguradora
+        params: size=15 maxlength=10
+        catalogo:
+          catalogoweb: Bncatcomseg_Bieregmue
+          clase: Bncatcomseg
+          ajax: 1
+          parametros: getprincipal="getCodcom" getsecundario="getNomcom" campoprincipal="codcom" camposecundario="nomcom" campobase = "id"
+      codubi:
+        name: Ubicación Física
+        params: size=10 maxlength=6 
+        catalogo:
+          catalogoweb: Bnubibie_Bieregactmued
+          clase: Bnubibie
+          ajax: 2
+          parametros: getprincipal="getCodubi" getsecundario="getDesubi" campoprincipal="codubi" camposecundario="desubi" campobase = "id"
+      grid: {name: .}
+      totmue: {name: Total Muebles}
+      totpri: {name: Total Primas}
+      totdep: {name: Total Depósitos}
+    list:
+      title:          Solicitudes de Pólizas/Certificados
+      filters:        [numsol, fecsol]
+      display:        [=numsol, fecsol]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           numsol
+    edit:
+      title:          Edición de Solicitud de Póliza/Certificado
+      display:
+        "Datos": [numsol, _tipsol, fecsol, dessol, fecini, fecven, numref, codcom, codcob, codubi]
+        "Detalle": [_grid, totmue, totpri, totdep]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

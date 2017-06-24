@@ -1,0 +1,19 @@
+====== Unidades Ejecutoras ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite definir las distintas unidades involucradas en la ejecución de proyectos.
+
+**Para ello:**
+
+  * Seleccione la opción **Formulación Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpre.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Egresos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegr.jpg}}"></div><br></html>
+ 
+  * Por último seleccione **Definiciones Específicas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefesp.jpg}}"></div><br></html>
+
+  * Por último seleccione **Unidades Ejecutoras**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefespunideje.jpg}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Unidades Ejecutoras** veamos la [[Descripcion_Campos_formulacion_unidades_ejecutoras|Descripción de los Campos]]

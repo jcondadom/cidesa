@@ -1,0 +1,40 @@
+====== Descripción de Campos ======
+
+Los campos que conforman la pantalla **Niveles Presupuestarios** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formprenivpreinc1.jpg|}}"></div><br></html>
+
+  * **Nombre Empresa:** Refiere al nombre que identifica a la empresa. El nombre de la empresa es mostrada por el sistema luego de ser definida previamente en la pantalla [[formulacion_definicion_empresa|Definición de Empresa]] <html><br><br></html>
+
+  * Seleccionamos en el **Clasificador de Categorías** el **Número de Rupturas** que tendrá el **Centro de Gastos**. <html><br><br></html>
+
+  * Seleccionamos en el **Clasificador de Partidas** el **Número de Rupturas** que tendrá la **Partida**. <html><br><br></html> 
+
+  * Seleccionamos en el **Nivel de Disponibilidad** el nivel donde se le dará la Asignación al Título Presupuestario. Los niveles presupuestarios serán definidos una sola vez.<html><br><br></html>
+ 
+  * Luego de definir los Datos del Código Presupuestario procedemos a llenar la tabla que sigue a continuación basándose en los datos definidos previamente: <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formprenivpreinc2.jpg|}}"></div><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** En la **columna Tipo** seleccione tantas categorías como fueron definidas en el Clasificador de Categorías; el sistema automáticamente validará que no se ingrese un número mayor al definido.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Una ves ingresadas todas las Categorías, el procedimiento anterior debe ser repetido pero ahora con las **Partidas**
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Por último para cada una de las Categorías y Partidas debe ingresar la **Longuitud**,** Nombre Abreviado** y **Nombre Extendido** en las columnas correspondientes.  <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Formato Código Presupuestario:** El sistema muestra el formato del código presupuestarios formado luego de haber sido definido. <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/formprenivpreinc3.jpg"></div><br><br></html>
+
+  * En la sección **Fechas**: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Inicio y Fin de Ejercicio:** Seleccione del [[calendario|Calendario]] el años mes y día de Inicio y Fin del ejercicio presupuestario. <html><br><br></html>
+
+  * Se nos presenta la opción de **Asignación Periódica (Si ó No)** que se tildará dependiendo del título presupuestario al que se le vaya a dar asignación inicial. Se recomienda que se comience con las periódicas. <html><br><br></html>
+
+  * Ingresar el **Número de Períodos** del Mes el cual va a depender de si la Asignación es Periódica ó No. Si la Asignación es Periódica generalmente debe seleccionar los 12 meses del año pero si no es Periódica seleccionará el número de meses correspondiente.
+
+
+
+
+

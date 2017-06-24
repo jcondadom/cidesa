@@ -1,0 +1,21 @@
+Los campos que conforman la pantalla de **Tipos de Retenciones** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbantipretinc1.jpg|}}"></div><br></html>
+
+  * **Datos Tipo de Retención:** <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Código:** Se refiere al código que identifica el Tipo de Retención.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Descripción:** Se refiere al nombre que identifica el Tipo de Retención.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Maneja Sustraendo:** Si selecciona que no maneja sustraendo debe indicar el porcentaje que tendra la retencion sobre el monto total de lo contrario si maneja sustraendo debera calcular la formula basada en las unidades tributarias por el factor por el porcentaje sustraendo.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbantipretinc2.jpg|}}"></div><br></html>
+
+  * **Datos Contables:** <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Código:** Representa el identificador de la cuenta contable según el formato establecido en la Definición Contable, que se asocia a la operación o documento que se esta emitiendo.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Descripción:** Se refiere a la Descripción de los Datos Contables.<html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Tipos de Retenciones** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

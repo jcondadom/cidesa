@@ -1,0 +1,62 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   fcactpic
+  anchogrid:               900
+  ancho:                   850
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             codact
+  html:                    ["size=15 readonly=true"]
+  esgrabable:              true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: id, 1: fcdeclar_anodec, 2: fcdeclar_modo_D, 3: fcdeclar_primeravez, 4: fcdeclar_fecini, 5: fcdeclar_feccie, 6: fcdeclar_numref, 7: fcdeclar_fecdec}
+  catalogo:                [fcactcom, sf_admin_edit_form, {Codact: 1, Desact: 2}, Facpicsollic_Fcactcom ]
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desact
+  html:                    ["size=30"]
+  esgrabable:              false
+3:       # Columna 3
+  titulo:                  Ingresos Brutos
+  tipo:                    m
+  nombrecampo:             monact
+  html:                    ["size=10"]
+  ajaxgrid:                true
+  ajaxadicionales:         {0: id, 1: fcdeclar_anodec, 2: fcdeclar_modo_D, 3: fcdeclar_primeravez, 4: fcdeclar_fecini, 5: fcdeclar_feccie, 6: fcdeclar_numref, 7: fcdeclar_fecdec}
+  esgrabable:              true
+4:       # Columna 4
+  titulo:                  Impuesto Bruto
+  tipo:                    m
+  nombrecampo:             monbru
+  html:                    ["size=10 onBlur=validaMontos(this.id,this); readonly=true"]
+  esgrabable:              true
+  estotal:                 [true, fcdeclar_montoimp]
+5:       # Columna 5
+  titulo:                  Monto Exonerado
+  tipo:                    m
+  nombrecampo:             monexo
+  html:                    ["size=10 onBlur=validaMontos(this.id,this); readonly=true"]
+  esgrabable:              true
+  estotal:                 [true, fcdeclar_montoexo]
+6:       # Columna 6
+  titulo:                  Monto Rebajado
+  tipo:                    m
+  nombrecampo:             monreb
+  html:                    ["size=10"]
+  esgrabable:              true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: id, 1: fcdeclar_anodec, 2: fcdeclar_modo_D, 3: fcdeclar_primeravez, 4: fcdeclar_fecini, 5: fcdeclar_feccie, 6: fcdeclar_numref, 7: fcdeclar_fecdec}
+  estotal:                 [true, fcdeclar_montoreb]
+7:       # Columna 7
+  titulo:                  Impuesto a Pagar
+  tipo:                    m
+  nombrecampo:             imppag
+  html:                    ["size=10 onBlur=validaMontos(this.id,this); readonly=true"]
+  esgrabable:              true
+  #estotal:                 [true, fcdeclar_montodcl]

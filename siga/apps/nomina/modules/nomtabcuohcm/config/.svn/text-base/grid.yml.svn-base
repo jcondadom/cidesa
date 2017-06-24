@@ -1,0 +1,42 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   Nptabhcm
+  ancho:				           500
+  anchogrid:               600
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Parentesco
+  tipo:                    c
+  nombrecampo:             parent
+  html:                    [ ]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Sexo
+  tipo:                    c
+  nombrecampo:             sexo
+  html:                    [ ]
+  esgrabable:              true  
+3:       # Columna 3
+  titulo:                  Edad Desde
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             edades
+  esnumerico:              true
+  html:                    ["size=10"]
+4:       # Columna 4
+  titulo:                  Edad Hasta
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             edahas
+  esnumerico:              true
+  html:                    ["size=10"]
+5:       # Columna 5
+  titulo:                  Monto
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             moncuo
+  esnumerico:              true
+  html:                    ["size=10"]

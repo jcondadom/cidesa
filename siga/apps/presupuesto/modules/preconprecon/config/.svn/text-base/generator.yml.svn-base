@@ -1,0 +1,35 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cpdeftit
+    theme:            cidesaGenerator
+    fields:
+      codpre:    {name: Código Presupuestario, params: size=32 readonly=true}
+      nompre:    {name: Nombre, params: size=60 readonly=true}
+      codcta:    {name: Codigo contable, type: input_tag, params: size=32 readonly=true}
+      descta:    {name: Descripción, params: size=60 readonly=true}     
+      grid1:  {name: .}
+      grid2:  {name: .}
+      grid3:  {name: .}
+      grid4:  {name: .}
+    list:
+      title: Conciliación Código Presupuestario/Cuenta Contable a nivel de Causado
+      fields:
+        codpre: {params: size=17}
+        codcta: {params: size=17}
+      filters: [codpre, codcta]
+      object_actions:
+        _edit:        ~
+      display:
+        NONE:  [=codpre, nompre, codcta, descta]
+      sort:  codpre
+    edit:
+      title: Conciliación Código Presupuestario/Cuenta Contable a nivel de Causado
+      display:
+        "Datos": [ codpre, nompre, codcta, descta]
+        "Movimientos Conciliados (OP/Comprobantes contables)": [_grid1]
+        "Movimientos con Diferencias (OP/Comprobantes contables)": [_grid2]
+        "Movimientos Presupuestario sin Contable": [_grid3]
+        "Movimientos Contable sin Presupuesto": [_grid4]
+      actions:
+        _list:        ~

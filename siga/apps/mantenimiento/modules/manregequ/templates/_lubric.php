@@ -1,0 +1,1 @@
+<?php echo select_tag('manregequ[lubric]', options_for_select(array('A' => 'ACEITE', 'G' => 'GRASA', 'M' => 'AMBOS'),$manregequ->getLubric()),array()); ?>

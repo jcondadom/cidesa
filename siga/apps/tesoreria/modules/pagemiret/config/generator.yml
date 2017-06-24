@@ -1,0 +1,50 @@
+generator:
+  class:              sfPropelAdminGenerator
+  param:
+    model_class:      Opordpag
+    theme:            default
+    fields:
+      numord: { name: Referencia, params: maxlength = 8}
+      fecemi: { name: Fecha, params: date_format=dd/MM/yyyy}
+      tipcau: { name: Tipo, params: maxlength = 4}
+      nomext: { name: Nombre}
+      desord: { name: Concepto}
+      cedrif: { name: C.I o R.I.F}
+      nomben: { name: Beneficiario}
+      ctapag: { name: Código Contable}
+      descta: { name: Descripción}
+      tipfin: { name: Financiamiento}
+      nomext2: { name: Nombre2}
+      codtip2: { name: Retención Desde}
+      codtip: { name: Retención Hasta}
+      destip: { name: Descripción}
+      coduni: { name: Unidad Origen}
+      monord: { name: Total Seleccionados}
+      status: { name: Estatus}
+      aproba: { name: aproba}
+      fecven: { name: Fecha2}
+      numsigecof: { name: Número}
+      fecsigecof: { name: Fecha}
+      expsigecof: { name: Expediente}
+      fecdes: { name: Desde }
+      fechas: { name: Hasta }
+      codmon: { name: Moneda}
+      valmon: { name: valor}
+      coddirec: { name: Dirección}
+      coddirechas: { name: Dirección}
+
+    list:
+      title:          Fondos a Terceros
+      display:        [=numord, fecemi, tipcau, desord, cedrif, coddirec]
+      filters:        [numord, fecemi, tipcau]
+      sort:           numord
+      max_per_page:   5
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+
+    edit:
+      title:          Fondos a Terceros
+      display:        [=numord, fecemi, tipcau, nomext, desord, cedrif, nomben, ctapag, descta, tipfin, nomext2, codtip, destip, coduni, monord, status, aproba, fecven, numsigecof, fecsigecof, expsigecof, fecdes, fechas, codmon, valmon, codtip2, coddirec, coddirechas]
+      actions:
+        _save:        ~

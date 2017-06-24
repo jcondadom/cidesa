@@ -1,0 +1,83 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   Lirecomendet
+  anchogrid:               900
+  ancho:                   850
+  filas:                   0
+  titulo:                  ' Resultado de Analisis'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Codigo
+  tipo:                    t
+  nombrecampo:             codpro
+  html:                    [ size=10 readonly=true ]
+  oculta:                  true
+  esgrabable:              true
+2:
+  titulo:                  Empresa
+  tipo:                    t
+  nombrecampo:             nompro
+  html:                    [ size=20 readonly=true ]
+  esgrabable:              false
+3:
+  titulo:                  Rif
+  tipo:                    t
+  nombrecampo:             rifpro
+  html:                    [ readonly=true size=10 ]
+  esgrabable:              false
+4:
+  titulo:                  Tipo Empresa
+  tipo:                    t
+  nombrecampo:             destipemp
+  html:                    [ readonly=true size=20 ]
+  esgrabable:              false
+5:
+  titulo:                  Porcentaje Legal
+  tipo:                    m
+  nombrecampo:             punleg
+  html:                    [ size=10 readonly=true]
+  esgrabable:              true
+6:
+  titulo:                  Porcentaje Tecnica
+  tipo:                    m
+  nombrecampo:             puntec
+  html:                    [ size=10 readonly=true]
+  esgrabable:              true
+7:
+  titulo:                  Porcentaje Financiera
+  tipo:                    m
+  nombrecampo:             punfin
+  html:                    [ size=10 readonly=true]
+  esgrabable:              true
+8:
+  titulo:                  Porcentaje Fianzas
+  tipo:                    m
+  nombrecampo:             punfia
+  html:                    [ size=10 readonly=true]
+  esgrabable:              true
+9:
+  titulo:                  Porcentaje Van
+  tipo:                    m
+  nombrecampo:             punvan
+  html:                    [ size=10 readonly=true]
+  esgrabable:              true
+10:
+  titulo:                  Porcentaje Tipo Empresa
+  tipo:                    m
+  nombrecampo:             puntipemp
+  html:                    [ size=10 readonly=true]
+  esgrabable:              true
+11:
+  titulo:                  Minimo Requerido
+  tipo:                    m
+  nombrecampo:             punmin
+  html:                    [ size=10 readonly=true]
+  oculta:                  true
+  esgrabable:              true
+12:
+  titulo:                  Porcentaje Alcanzado
+  tipo:                    m
+  nombrecampo:             puntot
+  html:                    [ size=10 readonly=true]
+  esgrabable:              true  

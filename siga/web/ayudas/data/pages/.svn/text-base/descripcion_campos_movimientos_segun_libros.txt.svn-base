@@ -1,0 +1,71 @@
+Los campos que conforman la pantalla **Movimientos según Libros** son los siguientes: <html><br><br></html>
+
+  * En **Datos del Movimiento**: <html><br><br></html>
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbancmovseglibinc1.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Cuenta del Banco:** Refiere al Código y Descripción de la cuenta bancaria. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[listas|Lista]] con las cuentas bancarias definidas previamente en la pantalla [[tesoreria_banco|Banco]]
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Referencia:** Número que identifica al movimiento según Libro y es generado automáticamente por el sistema.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Fecha del Movimiento:** Seleccione del [[calendario|Calendario]] el día, mes y año en que se realiza una operación ó transacción en la Institución.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Tipo:** Refiere a los movimientos bancarios. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una lista con los movimientos bancarios definidos previamente en la pantalla [[tesoreria_tipos_de_movimientos_bancarios|Tipos de Movimientos Bancarios]]
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Descripción:** Refiere a la descripcion del Movimiento realizado.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Monto:** Monto por el cual se genera la operación.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Fecha del Registro:** Seleccione del calendario la fecha en la que se registra el movimiento. <html><br><br></html>
+
+  * En **Comprobante Contable**: 
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbancmovseglibinc2.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Número de Comprobante:** Se refiere al número que identifica al Comprobante Contable y es generado por el sistema.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Fecha:** Seleccione delc alendario la fecha en la cual se genera el comprobante contable.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Descripción:** En este campo aparece la misma descripción del movimiento según libro. <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Una vez definido todos los campos es necesario que se genere el Comprobante Contable, para ello: <html><br><br></html>
+
+  * Presione el Botón {{:btngenerarcompcont.jpg|}}
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanordpagordpagoinc9.jpg|}}"></div><br></html>
+
+  * Automáticamente el sistema genera y muestra el **Comprobante Contable** correspondiente a la Orden de Pago. Dicho Comprobante contempla los siguientes campos: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Número:** Refiere al código que identifica al comprobante contable.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Referencia:** Indica el Número de referencia del Movimiento según libro.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-Fecha** en la que se generó la Orden de Pago.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-Descripción** de la Orden de Pago.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seguidamente se muestra en el [[Grid|Grid]] llamado **Asientos Contables** el **Código** y **Descripción** de las **Cuentas Contables**, la **Referencia** (Número de la Cuenta Contable), la **Fecha** en la que se realizó la Orden de Pago y los Montos correspondientes a **Débito** y **Crédito** en las columnas correspondientes.<html><br><br></html>
+ 
+  * Una vez que conoce cada uno de los campos de la pantalla de **Ordenes de Pago** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]] <html><br><br></html>
+
+
+
+
+
+
+ 
+  
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+ 

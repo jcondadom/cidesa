@@ -1,0 +1,16 @@
+methods:
+  post:
+   - "tsdefban{numcue}"
+
+names:
+  tsdefban{numcue}:
+    required:  Yes
+    required_msg: La Cuenta Bancaria no puedo estar en Blanco
+    validators: CtaBanValidator
+
+CtaBanValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Tsdefban
+        column:   numcue
+        unique_error:   La Cuenta Bancaria no existe.

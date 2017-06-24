@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/svn
+END
+SvnExportTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/svn/SvnExportTask.php
+END
+SvnLastRevisionTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/svn/SvnLastRevisionTask.php
+END
+SvnBaseTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/tasks/ext/svn/SvnBaseTask.php
+END

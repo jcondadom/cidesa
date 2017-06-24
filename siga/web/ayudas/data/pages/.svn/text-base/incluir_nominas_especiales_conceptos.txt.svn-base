@@ -1,0 +1,35 @@
+====== Operación Incluir ======
+
+Para **Registrar** Los Conceptos asociados a una Nómina Especial: <html><br><br></html>
+
+  * Presione el Botón {{:btnnuevo.jpg|}}
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompernomespconcepinc1.jpg|}}"></div><br></html>
+
+  * En el campo **Cod. Nómina Especial** presione el **Botón** {{:btncuadrocatalogo.jpg|}}. <html><br><br></html>
+
+  * El sistema muestra un catálogo con todas las Nóminas Especiales que fueron registradas previamente en el sistema. <html><br><br></html>
+
+  * Seleccione del catálogo la **Nómina Especial** a la cual se le asociarán los Conceptos. <html><br><br></html>
+
+  * Repita los pasos anteriores pero en este caso con el campo **Código de Nómina** donde debe seleccionar del catálogo la Nómina Regular a la que se le asociará la Nómina Especial.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompernomespconcepinc2.jpg|}}"></div><br></html>
+
+  * Seguidamente en la **tabla Conceptos** presione el **Botón** {{:btnconsultagrid.jpg|}} que se encuentra ubicado en la **columna Código de Concepto**. <html><br><br></html>
+
+  * El sistema muestra un catálogo con los Conceptos que fueron registrados previamente en el sistema. <html><br><br></html>
+
+  * Seleccione los **Códigos** de cada uno de los Conceptos que desea asociar a la Nómina Especial seleccionada.  <html><br><br></html>
+
+  * una ves seleccionados los Códigos el sistema muestra la **Descripción** de cada uno de los Conceptos seleccionados. <html><br><br></html>
+
+  * Presione el **Botón** {{:btnguardar.jpg|}} para registrar la información.
+
+
+
+
+
+
+
+

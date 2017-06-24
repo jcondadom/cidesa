@@ -1,0 +1,41 @@
+Los campos que conforman la pantalla **Transferencias Bancarias** están contemplados en diferentes secciones las cuales son: <html><br><br></html>
+
+  * **Datos de la Transferencia:** 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbanctransbancinc1.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Referencia:** Número que identifica la transferencia bancaria que desea realizar.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Fecha:** Seleccione del [[calendario|Calendario]] la fecha en la que se crea la transferencia.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Descripción:** Se refiere a la descripción de la transferencia.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>** - Monto:** En este campo se coloca el monto por el cual se va a realizar la transferencia. <html><br><br></html>
+
+  * **Códigos Bancarios:** 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbanctransbancinc2.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Código Desde:** Se refiere al Número de Cuenta Bancaria desde la que se desea realizar la operación. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[listas|Lista]] con las cuentas bancarias que fueron definidas previamente en el sistema en la pantalla [[bancos|Bancos]].
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Código Hasta:** Se refiere al Número de Cuenta Bancaria hacia donde se desea realizar la transferencia.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Movimiento Débito:** Corresponde al código del documento que debita. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[listas|Lista]] con los tipos de movimientos bancarios que fueron definidos previamente en el sistema en la pantalla [[tesoreria_tipos_de_movimientos_bancarios|Tipos de Movimientos Bancarios]].
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Movimiento Crédito:** Corresponde al código del documento que acredita. <html><br><br></html>
+
+  * **Comprobante Contable:**
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbanctransbancinc3.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Número:** Se refiere al identificador del documento que respalda un movimiento u operación.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Fecha:** Se refiere al día en el que se genero el comprobante contable.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Descripción:** En este campo se coloca la descripción del comprobante contable. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Transferencias Bancarias** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+
+
+
+

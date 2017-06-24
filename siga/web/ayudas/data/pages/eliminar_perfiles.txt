@@ -1,0 +1,16 @@
+====== Operación Eliminar ======
+
+Para eliminar un determinado Perfil debe:  <html><br><br></html>
+
+  * Seleccionar de la **Lista** el **Perfil** a eliminar. 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefpermod.jpg|}}"></div><br></html>
+
+  * Presionar  {{:btnborrar.jpg|}}  <html><br><br></html>
+
+  * El sistema emite un mensaje de confirmación antes de eliminar.  
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br></html>
+ 
+  * Presionar **Aceptar**.   <html><br><br></html>
+ 
+  * El sistema nos lleva automáticamente a la lista con los Perfiles donde podemos observar que el registro fué eliminado
+

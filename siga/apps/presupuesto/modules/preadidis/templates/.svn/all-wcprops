@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/61919/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preadidis/templates
+END
+_refadi.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/61919/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preadidis/templates/_refadi.php
+END
+_grid_per.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/58943/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preadidis/templates/_grid_per.php
+END
+anularSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/45478/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preadidis/templates/anularSuccess.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/58943/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preadidis/templates/ajaxSuccess.php
+END
+_adidis.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/51386/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preadidis/templates/_adidis.php
+END
+_etiqueta.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/45478/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preadidis/templates/_etiqueta.php
+END
+_edit_footer.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/61919/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preadidis/templates/_edit_footer.php
+END
+_btn.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/61792/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preadidis/templates/_btn.php
+END
+_movimiento.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/45478/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preadidis/templates/_movimiento.php
+END
+salvaranuSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/45478/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/preadidis/templates/salvaranuSuccess.php
+END

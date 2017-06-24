@@ -1,0 +1,21 @@
+opciones:                  # Opciones generales
+  eliminar:                true
+  tabla:                   Caregest
+  anchogrid:               700
+  ancho:                   500
+  filas:                   1
+  titulo:                  ' Estados'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             codedo
+  html:                    ["size=10 maxlength=4"]
+  esgrabable:              true
+  catalogo:                [ocestado, sf_admin_edit_form, {Codedo: 1, Nomedo: 2}, Catipalm_codedo ]
+  ajaxgrid:                true
+2:       # Columna 2
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nomedo
+  html:                    ["size=30 readOnly=true"]  

@@ -1,0 +1,27 @@
+opciones:                  # Opciones generales
+  name:                    m
+  eliminar:                true
+  tabla:                   npinfrec
+  anchogrid:               700
+  ancho:                   650
+  filas:                   1
+  titulo:                  'Reconocimientos y Condecoraciones'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Instituto/Ente Otorgante
+  tipo:                    t
+  nombrecampo:             entrec
+  html:                    ["size=40 maxlength=500"]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Reconocimiento/Condecoración
+  tipo:                    t
+  nombrecampo:             nomrec
+  html:                    ["size=50 maxlength=2000"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Fecha
+  tipo:                    t
+  nombrecampo:             fecrec
+  esgrabable:              true
+  html:                    [size="20" maxlength=200]

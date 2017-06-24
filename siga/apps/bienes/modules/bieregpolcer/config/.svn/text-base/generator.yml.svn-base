@@ -1,0 +1,43 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Bnregpolcer
+    theme:            cidesaGenerator
+    fields:
+      numpol: { name: N° Póliza, params: size=20 maxlength=20 onFocus=readonly(this.id)}
+      fecpol: { name: Fecha, params: date_format='dd/MM/yyyy' maxlength=10}
+      numrec: { name: Número de recibo, params: size=30 maxlength=20}
+      fecini: { name: Fecha Inicio, params: date_format='dd/MM/yyyy' maxlength=10}
+      fecven: { name: Fecha Vencimiento, params: date_format='dd/MM/yyyy' maxlength=10}
+      numsolpag: { name: Número de solicitud de Pago, params: size=30 maxlength=20}
+      numsol:
+        name: Número de Solicitud de Póliza
+        params: size=10 maxlength=6 
+        catalogo:
+          catalogoweb: Bnsolpolcer_Bieregpolcer
+          clase: Bnsolpolcer
+          ajax: 1
+          parametros: getprincipal="getNumsol" getsecundario="getTipsol2" campoprincipal="numsol" camposecundario="tipsol2" campobase = "id"
+          divupdate: divgrid
+      grid: {name: .}
+      totmue: {name: Total Muebles}
+      totpri: {name: Total Primas}
+    list:
+      title:          Registros de Pólizas/Certificados
+      filters:        [numpol, fecpol]
+      display:        [=numpol, fecpol]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           numpol
+    edit:
+      title:          Edición de Registro de Póliza/Certificado
+      display:
+        "Datos": [numpol, fecpol, numrec, fecini, fecven, numsolpag, numsol]
+        "Detalle": [_grid, totmue, totpri]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

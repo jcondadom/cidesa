@@ -1,0 +1,90 @@
+methods:
+  post:
+   - "manactest{codact}"
+   - "manactest{desact}"
+   - "manactest{cedemp}"
+   - "manactest{codgru}"
+   - "manactest{cedres}"
+   - "manactest{codtma}"
+   - "manactest{codgrr}"
+
+names:
+  manactest{codact}:
+    required:  Yes
+    required_msg: Introduzca el Número del Estándar
+    validators: Validator_codact
+    
+  manactest{desact}:
+    required:  Yes
+    required_msg: Introduzca la Descripción del Estándar
+    validators: Validator_desact
+
+  manactest{cedemp}:
+    required:  No
+    validators: Validator_cedemp
+
+  manactest{codgru}:
+    required:  No
+    validators: Validator_codgru
+      
+  manactest{cedres}:
+    required:  No
+    validators: Validator_cedres 
+
+  manactest{codtma}:
+    required:  No
+    validators: Validator_codtma
+
+  manactest{codgrr}:
+    required:  No
+    validators: Validator_codgrr
+
+Validator_codact:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Manactest
+        column:       codact
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_desact:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caracteres
+        max:       500
+        min_error: La descripción no puede tener mas de 500 caracteres
+
+Validator_cedemp:
+    class: CidesaExistValidator
+    param:
+        class:        Nphojint
+        column:       cedemp
+        unique_error: La Cédula de Usuario Crea la Orden debe Existir.
+
+Validator_codgru:
+    class: CidesaExistValidator
+    param:
+        class:        Mangrutra
+        column:       codgru
+        unique_error: El Grupo de Trabajo debe Existir.
+
+Validator_cedres:
+    class: CidesaExistValidator
+    param:
+        class:        Nphojint
+        column:       cedemp
+        unique_error: La Cédula del Usuario Responsable debe Existir. 
+
+Validator_codtma:
+    class: CidesaExistValidator
+    param:
+        class:        Mantipman
+        column:       codtma
+        unique_error: El Tipo de Mantenimiento debe Existir.
+
+Validator_codgrr:
+    class: CidesaExistValidator
+    param:
+        class:        Mangrutre
+        column:       codgrr
+        unique_error: El Grupo Responsable del Trabajo debe Existir.

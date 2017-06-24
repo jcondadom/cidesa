@@ -1,0 +1,21 @@
+====== Ajustes a Ejecución ======
+
+**Tabla:** CPAJUSTE , CPMOVAJU
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite registrar los Ajustes efectuados a los Compromisos, Causados o Pagados (reconsideraciones, ajustes a contratos, etc.) durante la ejecución del presupuesto.<br><br> </html>
+
+
+**Para ello:**
+
+  * Seleccione la opción **Contabilidad Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpre.jpg|}}"></div><br></html>
+
+   * Seguidamente despliegue la opción **Ejecución Presupuestaria**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreejepre.jpg|}}"></div><br></html>
+
+  * Por último seleccione **Ajustes Ejecución**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreajueje.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Ajustes a Ejecución** veamos la [[Descripcion_Campos_presupuesto_ajustes_ejecucion|Descripción de los Campos]]
+
+

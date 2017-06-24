@@ -1,0 +1,30 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Opdetbenop
+    theme:            cidesaGenerator
+    fields:
+      numord:
+        name: Orden de Pago
+        params: maxlength=8
+        catalogo:
+          catalogoweb: Opordpag_Pagdetbenop
+          clase: Opordpag
+          ajax: 1
+          parametros: getprincipal="getNumord" getsecundario="getFecemi" campoprincipal="numord" camposecundario="fecemi" campobase = "id"    
+          divupdate: divgrid
+      fecemi: { name: Fecha de Emisión, params: readOnly=true}
+      desord: { name: Descripción, params : size=80 readOnly=true }
+      monord: { name: Monto Orden, params : size=15 readOnly=true }
+      montot: { name: Monto Total, params : size=15 readOnly=true }
+      grid: { name: .}  
+    edit:
+      title:          Desglose OP a varios Beneficiarios
+      display:
+        "Datos de la Orden de Pago":   [numord, desord, monord]
+        "Beneficiarios":   [_grid, montot]
+      actions:
+        _list:        NONE
+        _save:        ~
+        _delete:      NONE
+        _create:      NONE

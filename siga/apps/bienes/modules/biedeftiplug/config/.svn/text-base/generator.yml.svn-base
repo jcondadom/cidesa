@@ -1,0 +1,28 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Bntiplug
+    theme:            cidesaGenerator
+    fields:
+      codtlu: { name: Código, params: size=10 maxlength=1 onFocus=readonly(this.id) }
+      destlu: { name: Descripción, params: size=80 maxlength=500 }
+    list:
+      title:          Definición de Tipo de Lugares
+      fields:
+        codtlu: { name: Código, params: size=10 maxlength=3 }
+        destlu: { name: Descripción, params: size=20 maxlength=500  }
+      filters:        [codtlu, destlu]
+      display:        [=codtlu, destlu]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:  8
+      sort: codtlu
+    edit:
+      title:          Edición de Tipo de Lugares
+      display:        [codtlu, destlu]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

@@ -1,0 +1,112 @@
+methods:
+  post:
+   - "liinspecciones{numins}"
+   - "liinspecciones{numval}"
+
+   - "liinspecciones{codempadm}"
+   - "liinspecciones{codempeje}"
+   - "liinspecciones{fecreg}"
+   - "liinspecciones{dias}"
+   - "liinspecciones{fecven}"
+
+   - "liinspecciones{detins}"
+   - "liinspecciones{fecdes}"
+   - "liinspecciones{fechas}"
+
+
+names:
+
+  liinspecciones{numins}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numins
+
+  liinspecciones{numval}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numval
+
+  liinspecciones{detins}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+
+  liinspecciones{codempadm}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+  liinspecciones{codempeje}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_codemp
+
+    
+  liinspecciones{fecreg}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  liinspecciones{dias}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: MyNumberValidator
+    
+  liinspecciones{fecven}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  liinspecciones{fecdes}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+  liinspecciones{fechas}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: FechaValidator
+
+Validator_numins:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Liinspecciones
+        column:       numins
+        unique_error: El número de inspección ya existe, intente con otra
+
+Validator_numval:
+    class: CidesaExistValidator
+    param:
+        class:        Livaluaciones
+        column:       numval
+        unique_error: La valuación no existe
+
+
+Validator_codemp:
+    class: CidesaExistValidator
+    param:
+        class:        Lidatste
+        column:       codemp
+        unique_error: El Empleado no existe
+
+
+
+FechaValidator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida
+
+MyNumberValidator:
+    class: CidesaStringValidator
+    param:
+        values:    [ '/^[0-9]*$/' ]
+
+
+Validator_detact:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: El detalle del acta no puede tener menos de 2 caracteres
+        max:       1000
+        max_error: El detalle del acta no puede pasar mas de 1000 caracteres

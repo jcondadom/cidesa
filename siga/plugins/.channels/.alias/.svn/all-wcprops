@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/plugins/.channels/.alias
+END
+pecl.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/plugins/.channels/.alias/pecl.txt
+END
+symfony.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/plugins/.channels/.alias/symfony.txt
+END
+pear.txt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/plugins/.channels/.alias/pear.txt
+END

@@ -1,0 +1,53 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Opregfac
+    theme:            cidesaGenerator
+    fields:
+      cedrif:
+        name: Beneficiario
+        params: maxlength=15
+        catalogo:
+          catalogoweb: Opbenefi_Pagemiord
+          clase: Opbenefi
+          ajax: 0
+          parametros: getprincipal="getCedrif" getsecundario="getNomben" campoprincipal="cedrif" camposecundario="nomben" campobase = "id"    
+      numfac: { name: N° Factura, params : size=60 maxlength=50  onFocus=readonly(this.id)}
+      fecfac: { name: Fecha, params: date_format='dd/MM/yyyy' maxlength=10}
+      basimp: { name: Base Imponible}
+      moniva: { name: Monto IVA}
+      fecrec: { name: Fecha de Recepción, params: date_format='dd/MM/yyyy' maxlength=10}
+      obsfac:  { name: Observaciones, type: textarea_tag, params: size=80x5 maxlength=1000 onkeyup=" return ismaxlength(this)"}
+      record: {name: Recibido en Ordenamiento de Pago}
+      codubi:
+        name: Unidad Administrativa
+        params: maxlength=30
+        catalogo:
+          catalogoweb: Bnubica_Pagemiord
+          clase: Bnubica
+          ajax: 0
+          parametros: getprincipal="getCodubi" getsecundario="getDesubi" campoprincipal="codubi" camposecundario="desubi" campobase = "id"
+          catalogoparams: param1/'."'+$('opregfac_longitud').value.replace('/','*')+'".'
+    list:
+      title:          Facturas (Sin Expediente)
+      fields:
+        cedrif: { name: Cód. Beneficiario, params : size=15 maxlength=15}
+        nomben: { name: Nombre}
+        numfac: { name: N° Factura, params : size=15 maxlength=50}
+      filters:        [cedrif, numfac, fecfac, codubi]
+      display:        [=cedrif, nomben, numfac, fecfac]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      numfac
+    edit:
+      title:          Edición de Factura (Sin Expediente)
+      display:
+        "Datos de la Factura":   [cedrif, codubi, numfac, fecfac, basimp, moniva, fecrec, obsfac, _record]
+      hide:    [longitud]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

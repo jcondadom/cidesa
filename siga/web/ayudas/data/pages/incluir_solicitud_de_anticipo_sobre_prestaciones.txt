@@ -1,0 +1,17 @@
+====== Operación Incluir ======
+
+Para **Registrar** una **Solicitud de Anticipo sobre Prestaciones**:<html><br><br></html>
+
+  * Seleccione el **Código del Trabajador** que está realizando la solicitud de anticipo de prestaciones.<html><br><br></html>
+
+  * Ingrese el Monto de la **Antiguedad Acumulada**
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompersolantsobrepreinc1.jpg|}}"></div><br><br></html>
+
+  * Seleccione la **Fecha** en la cual el trabajador solicitó el anticipo.<html><br><br></html>
+
+  * Ingrese el **Monto del Anticipo** que el trabajador está solicitando.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompersolantsobrepreinc2.jpg|}}"></div><br><br></html>
+
+  * Presione el Botón {{:btnguardar.jpg|}} para almacenar la información.

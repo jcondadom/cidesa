@@ -1,0 +1,34 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Caunitridir
+    theme:            cidesaGenerator
+    fields:
+      coddirec:
+        name: Estado
+        params: size=3 maxlength=15
+        catalogo:
+          catalogoweb: Cadefdirec_Almdefdiv
+          clase: cadefdirec
+          ajax: 1
+          parametros: getprincipal="getCoddirec" getsecundario="getDesdirec" campoprincipal="coddirec" camposecundario="desdirec" campobase = "id"
+      fecvig:   { name: Fecha de Vigencia, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      canunitri:   { name: Cantidad de UT}
+      js:    { name: .}
+    list:
+      title:        Parametrizar el Monto Máximo de las Compras en Unidades Tributarios
+      display:      [=coddirec, desdirec, fecvig]
+      filters:      [coddirec, fecvig]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      sort:         coddirec      
+    edit:
+      title:        Parametrizar el Monto Máximo de las Compras en Unidades Tributarios
+      display:
+        "NONE":   [coddirec, fecvig, canunitri, _js]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

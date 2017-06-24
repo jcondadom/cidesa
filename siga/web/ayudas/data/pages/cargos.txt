@@ -1,0 +1,26 @@
+====== Cargos ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite definir los posibles cargos que puede ocupar un empleado dentro de la Institución.</html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Cargos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefcar.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Cargos** veamos la [[Descripcion_Campos_Cargos|Descripción de los Campos]]
+ 
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+methods:
+  post:
+   - "cadefdirec{coddirec}"
+   - "cadefdirec{desdirec}"
+   - "cadefdirec{codcat}"
+
+names:
+  cadefdirec{coddirec}:
+    required:  Yes
+    required_msg: El Código no puedo estar en Blanco
+    validators: UniqueValidator
+
+  cadefdirec{desdirec}:
+    required:  Yes
+    required_msg: La Descripción no puedo estar en Blanco
+    validators: DescripcionValidator
+
+  cadefdirec{codcat}:
+    required:  No
+    validators: ExistValidator_codcat    
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Cadefdirec
+        column:   coddirec
+        unique_error:   El Código ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       3
+        min_error: La Descripción no puede tener menos de 5 caracteres
+        max:       500
+        max_error: La Descripción no puede tener más de 500 caracteres
+
+ExistValidator_codcat:
+    class: CidesaExistValidator
+    param:
+        class:        Npcatpre
+        column:       codcat
+        unique_error: El Código de la Categoria debe estar Registrado.         

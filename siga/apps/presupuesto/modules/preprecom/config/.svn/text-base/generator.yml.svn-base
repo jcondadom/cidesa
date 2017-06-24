@@ -1,0 +1,66 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cpprecom
+    theme:            cidesaGenerator
+
+    fields:
+      refprc: { name: Referencia, params: onblur=rellenar() maxlength=8 onFocus=readonly(this.id) }
+      fecprc: { name: Fecha, params: date_format='dd/MM/yy' }
+      desprc: { name: Descripción, type: textarea_tag, params: size=80x5 }
+      monprc: { name: Total, params: size=10 readonly=true  }
+      salaju: { name: Ajustado, params: size=10 readonly=true }
+      salcau: { name: Causado, params: size=10 readonly=true }
+      salpag: { name: Pagado, params: size=10 readonly=true }
+      salcom: { name: Comprometido, params: size=10 readonly=true }
+      salpre: { name: Precompromiso, params: size=10 readonly=true }
+      mensaje: {name: .}
+      tipprc:
+        name: Código
+        catalogo:
+          catalogoweb: Preprecom_Cpdocprc
+          clase: Cpdocprc
+          ajax: 0
+          parametros: getprincipal="getTipprc" getsecundario="getNomext" campoprincipal="tipprc" camposecundario="nomext" campobase = "id"
+      cedrif:
+        name: Cedula/Rif
+        catalogo:
+          catalogoweb: Cpprecom_Opbenefi
+          clase: Opbenefi
+          ajax: 0
+          parametros: getprincipal="getCedrif" getsecundario="getNomben" campoprincipal="cedrif" camposecundario="nomben" campobase = "id"
+      grid: {name: . }
+      grid2: {name: . }
+      toteve: {name: Total Eventos, params: size=10 disabled=false readonly=true}
+      btn: {name: . }
+      coddirec:
+        name: Dirección
+        params: size=3 maxlength=15
+        catalogo:
+          catalogoweb: Cadefdirec_Almdefdiv
+          clase: cadefdirec
+          ajax: 2
+          parametros: getprincipal="getCoddirec" getsecundario="getDesdirec" campoprincipal="coddirec" camposecundario="desdirec" campobase = "id"
+    list:
+      title:  Precompromisos
+      display:        [ =refprc, desprc, fecprc ]
+      filters:        [refprc, fecprc, desprc]
+
+    edit:
+      title:  Edición de Precompromisos
+      display:
+        Datos del documento:   [_mensaje, _btn, _refprc, fecprc, desprc, coddirec ]
+        Tipo Precompromiso:  [ tipprc ]
+        Datos del Beneficiario: [cedrif]
+        Imputaciones Presupuestarias: [_grid, _grid2]
+        Saldos:                [salaju, _salpre, salcom, salcau, salpag, monprc, toteve]
+      hide: [staprc]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~
+        _anular:
+          name: Anular
+          only_for: edit
+          params: class="sf_admin_action_delete" onClick="anular()"

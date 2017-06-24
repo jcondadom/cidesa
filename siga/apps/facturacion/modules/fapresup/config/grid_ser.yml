@@ -1,0 +1,52 @@
+opciones:                  # Opciones generales
+  name:                    k
+  eliminar:                true
+  tabla:                   fapreserart
+  anchogrid:               850
+  ancho:                   700
+  filas:                   1
+  titulo:                  ' Servicos Externos '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             codser
+  html:                    ["size=10 maxlength=20"]
+  esgrabable:              true
+  ajaxgrid:                true  
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             desser
+  html:                    ["size=40x1 readOnly=true"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Unidad Medida
+  tipo:                    t
+  nombrecampo:             uniser
+  esgrabable:              true
+  html:                    ["size=15 readOnly=true" ]  
+4:      # Columna 4
+  titulo:                  Cantidad
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canser
+  esnumerico:              true  
+  ajaxgrid:                true
+  html:                    ["size=10"] 
+5:      # Columna 5
+  titulo:                  Costo
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             cosser
+  esnumerico:              true  
+  ajaxgrid:                true
+  html:                    ["size=10"] 
+6:      # Columna 6
+  titulo:                  Total
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             totser
+  esnumerico:              true  
+  html:                    ["size=10 readOnly=true"] 
+  estotal:                 [true, fapresup_totser]

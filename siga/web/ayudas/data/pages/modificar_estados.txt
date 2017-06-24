@@ -1,0 +1,15 @@
+====== Operación Modificar ======
+
+Si desea **Modificar** un determinado **Estado** debe:
+
+  * Seleccionar de la **Lista** el **Código del Estado** que desea modificar. 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperestadosmod.jpg|}}"></div><br></html>
+
+  * El sistema muestra el **Código** y **Descripción** del Estado seleccionado. <html><br><br></html>
+
+  * Realice las modificaciones en base al Estado seleccionado. El único dato que se puede modificar es la **Descripción del Estado**  <html><br><br></html> 
+
+  * Presionar {{:btnguardar.jpg|}} para actualizar la información.  <html><br><br></html> 
+
+  * El sistema emite un **Mensaje de Éxito**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

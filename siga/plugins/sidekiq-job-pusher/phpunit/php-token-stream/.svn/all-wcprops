@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-token-stream
+END
+composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-token-stream/composer.json
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-token-stream/LICENSE
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-token-stream/.gitignore
+END
+.gitattributes
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-token-stream/.gitattributes
+END
+ChangeLog.markdown
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-token-stream/ChangeLog.markdown
+END
+package-composer.json
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-token-stream/package-composer.json
+END
+phpunit.xml.dist
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-token-stream/phpunit.xml.dist
+END
+package.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-token-stream/package.xml
+END
+README.markdown
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-token-stream/README.markdown
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/php-token-stream/build.xml
+END

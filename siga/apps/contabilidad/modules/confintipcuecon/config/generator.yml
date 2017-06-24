@@ -1,0 +1,22 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Contaba
+    theme:            cidesaGenerator
+    fields:
+      codtesact:  { name: Cuenta de Activos, params: size=30 maxlength=32}
+      codtespas:  { name: Cuenta de Pasivos, params: size=30 maxlength=32}
+      codind:  { name: Cuenta de Ingresos, params: size=30 maxlength=32}  
+      codegd:  { name: Cuenta de Egresos, params: size=30 maxlength=32}  
+      codctd:  { name: Cuenta de Resultado, params: size=30 maxlength=32}  
+      codcta:  { name: Cuenta de Capital, params: size=30 maxlength=32}  
+      codord:  { name: Cuenta de Orden, params: size=30 maxlength=32} 
+      codresant:  { name: ., params: size=30 maxlength=32}   
+      codres:  { name: ., params: size=30 maxlength=32}  
+    edit:
+      title:                     Tipos de Cuentas
+      display:
+        Tipos de Cuentas:           [codtesact, codtespas, codind, codegd, codctd, codcta, codord]
+        Cuentas Contables:          [_codresant, _codres]
+      actions:
+        _save:        ~

@@ -1,0 +1,18 @@
+======Cierre de Nómina======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Proceso que tiene tiene como finalidad actualizar el Histórico de Conceptos de cada empleado de una nómina en particular, eliminar aquéllas asignaciones cuya fecha de expiración sea mayor que la fecha del Sistema, actualizar la última fecha de los cálculos y actualizar los saldos de los conceptos. 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>El Cierre de Nómina debe realizarse después del pago de la nómina, para dar inicio al siguiente período, así mismo, se recomienda respaldar la información antes de ejecutar el Cierre de Nómina.
+
+**Para ello:**
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Cálculos de Nómina** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompercalnom.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Cálculo de Nómina por Empleado**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompercalnomporemp.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Cierre de Nómina** veamos la [[Descripcion_Campos_Cierre_Nomina|Descripción de los Campos]]

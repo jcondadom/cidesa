@@ -1,0 +1,16 @@
+====== Retenciones ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Proceso que permite definir la información correspondiente a las Retenciones que luego serán aplicadas a las Valuaciones de las obras.
+**Para ello:**
+
+  * Seleccione la opción **Obras y Contratos** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascont.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones Generales**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontdefgen.jpg|}}"></div><br></html>
+ 
+  * Por último seleccione **Retenciones**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontret.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Retenciones** veamos la [[Descripcion_Campos_obras_retenciones|Descripción de los Campos]]
+

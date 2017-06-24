@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/40794/web/php/siga/branches/productions/trunk/apps/nomina/modules/presnomliquidacion/templates
+END
+_vacaciones.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/27790/web/php/siga/branches/productions/trunk/apps/nomina/modules/presnomliquidacion/templates/_vacaciones.php
+END
+_salarios.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/40794/web/php/siga/branches/productions/trunk/apps/nomina/modules/presnomliquidacion/templates/_salarios.php
+END
+_tiempo.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/33677/web/php/siga/branches/productions/trunk/apps/nomina/modules/presnomliquidacion/templates/_tiempo.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/35541/web/php/siga/branches/productions/trunk/apps/nomina/modules/presnomliquidacion/templates/ajaxSuccess.php
+END
+_asignaciones.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/33712/web/php/siga/branches/productions/trunk/apps/nomina/modules/presnomliquidacion/templates/_asignaciones.php
+END
+_retiro.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/33712/web/php/siga/branches/productions/trunk/apps/nomina/modules/presnomliquidacion/templates/_retiro.php
+END
+_deducciones.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/29775/web/php/siga/branches/productions/trunk/apps/nomina/modules/presnomliquidacion/templates/_deducciones.php
+END
+_fechas.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/33677/web/php/siga/branches/productions/trunk/apps/nomina/modules/presnomliquidacion/templates/_fechas.php
+END

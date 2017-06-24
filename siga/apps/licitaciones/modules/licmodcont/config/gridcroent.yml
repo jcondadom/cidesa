@@ -1,0 +1,54 @@
+opciones:                  # Opciones generales
+  name:                    d
+  eliminar:                true
+  tabla:                   Lidetcroentmodcont
+  anchogrid:               900
+  ancho:                   850
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 3
+  titulo:                  Valuación
+  tipo:                    c
+  nombrecampo:             numval
+  esgrabable:              true
+  html:                    [size=1 ]
+  combo:                   {1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9, 10: 10}
+2:       # Columna 2
+  titulo:                  Partida de Obra
+  tipo:                    t
+  nombrecampo:             codart
+  esgrabable:              true
+  html:                    [size=10 readonly=true ]
+  catalogo:                [ocdefpar, sf_admin_edit_form, {Codpar: 2, Despar: 3 }, Ocdefpar_codpar ]
+3:       # Columna 3
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desart
+  esgrabable:              true
+  html:                    [size=20 readonly=true ]
+4:       # Columna 5
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             cantid
+  esgrabable:              true
+  html:                    [ size=8 ]
+5:       # Columna 5
+  titulo:                  Cantidad
+  tipo:                    m
+  nombrecampo:             cantid
+  esgrabable:              true
+  html:                    [ size=8 ]
+6:       # Columna 5
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             cantid
+  esgrabable:              true
+  html:                    [ size=8 ]
+7:       # Columna 3
+  titulo:                  liregcroentcontob
+  tipo:                    t
+  nombrecampo:             liregcroentcontob_id
+  esgrabable:              true
+  oculta:                  true
+  html:                    [size=2  ]

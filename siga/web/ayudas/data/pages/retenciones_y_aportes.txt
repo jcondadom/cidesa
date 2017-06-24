@@ -1,0 +1,29 @@
+====== Retenciones y Aportes ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite definir las Retenciones y Aportes que maneja la Institución, para posteriormente generar automáticamente información concerniente a las retenciones.</html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el **Menú Principal** de **SIGA**.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefesp.jpg|}}"></div><br></html> 
+
+  * Seguidamente despliegue la opción de **Definición de Retenciones y Aportes** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefretapo.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Retenciones y Aportes**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperretapo.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Retenciones y Aportes** podrá realizar las Operaciones Básicas de:
+
+  * [[Incluir Retenciones y Aportes|Incluir]]
+
+  * [[Modificar Retenciones y Aportes|Modificar]]
+
+  * [[Eliminar Retenciones y Aportes|Eliminar]]
+
+  * [[Consultar Retenciones y Aportes|Consultar]]

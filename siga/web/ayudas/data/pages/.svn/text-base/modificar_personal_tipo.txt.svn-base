@@ -1,0 +1,26 @@
+====== Operación Modificar ====== 
+
+  * Al haber Tipos de Persoanl registrados automáticamente observará una **Lista** con todos ellos, a través del cual podrá elegir el registro que desa modificar.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontpertipomod.jpg|}}"></div><br></html>
+
+  * En la presente Lista podemos observar que en la barra inferior izquierda se encuentra el **Número de Registros existentes**. Para pasearse por cada uno de los registros hasta encontrar el que desea modificar podrá realizarlo a través de los botones {{:btnatrasoadelante.jpg|}} que se encuentran ubicados en la barra inferior derecha <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/filtrotipoadj.jpg"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>También puede pasearse por los registros realizando un **Filtro** de los mismos por **Código** ó **Descripción**. Solo debe ingresar para cualquiera que sea el caso el dato por el cual desea filtrar y seguidamente presionar el Botón {{:btnfiltrar.jpg|}}, si desea volver a la lista del principio solo debe presionar el Botón {{:btnlimpiar.jpg|}} <html><br><br></html>
+ 
+  * Para seleccionar el Registro que desea modificar puede realizarlo a través de dos opciones:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **1 - ** Seleccionando de la **Lista** el **Código del Tipo de Personal** a modificar.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **2 -** Seleccionando el registro que desea modificar presionando el Botón {{:btneditar.jpg|}} que se encuentra ubicado en la **columna Acciones**. <html><br><br></html>
+
+  * Para cualquiera de las dos opciones que escoja, el sistema muestra la información del Tipo de Personal seleccionado.<html><br><br></html>
+
+  * Es importante señalar que los datos modificables serán los únicos que se encontrarán activos en el sistema <html><br><br></html>
+
+   * Una ves realizadas las modificaciones presione el **Botón** {{:btnguardar.jpg|}} para registrar los cambios.<html><br><br></html>
+
+  * El sistema muestra un **Mensaje de Éxito**. 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

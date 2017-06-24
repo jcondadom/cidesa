@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/build
+END
+travis-ci.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/build/travis-ci.xml
+END
+phpmd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/build/phpmd.xml
+END

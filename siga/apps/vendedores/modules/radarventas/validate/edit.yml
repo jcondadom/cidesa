@@ -1,0 +1,28 @@
+methods:
+  post:
+   - "radarventas{ruta_id}"
+   - "radarventas{facliente_id}"
+   - "radarventas{vendedores_id}"
+   - "radarventas{fecha}"
+   - "radarventas{status}"
+
+names:
+  radarventas{ruta_id}:
+    required:  Yes
+    required_msg: La ruta no puedo estar en Blanco
+    
+  radarventas{facliente_id}:
+    required:  Yes
+    required_msg: El cliente no puede estar blanco
+
+  radarventas{vendedores_id}:
+    required:  Yes
+    required_msg: El vendedor no puede estar en blanco
+    
+  radarventas{fecha}:
+    required:  Yes
+    required_msg: La fecha no puede estar blanco   
+
+  radarventas{status}:
+    required:  Yes
+    required_msg: El estatus no puede estar blanco     

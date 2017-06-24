@@ -1,0 +1,29 @@
+======Registro======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Proceso que permite registrar los datos personales, de ubicación y del representante de la persona u organismo que solicitó la obra.
+
+**Para ello:**
+
+  * Seleccione la opción **Obras y Contratos** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascont.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Atención del Ciudadano**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontatealciu.jpg}}"></div><br></html>
+ 
+  * Seleccione **Solicitante**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontsol.jpg|}}"></div><br></html>
+
+  * Por último seleccione **Registro**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontregsol.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Registro** solo podrá realizar las Operaciones Básicas de: 
+
+  * [[Incluir Registro_Solicitante|Incluir]]
+
+  * [[Modificar Registro_Solicitante |Modificar]]
+
+  * [[Eliminar Registro_Solicitante|Eliminar]]
+
+  * [[Consultar Registro_Solicitante|Consultar]]

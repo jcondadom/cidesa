@@ -1,0 +1,17 @@
+====== Presupuesto ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite llevar un registro y control del presupuesto ofertado por cada una de las contratistas para la construcción de una determinada obra.
+
+**Para ello:**
+
+  * Seleccione la opción **Obras y Contratos** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascont.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Oferta**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontofert.jpg|}}"></div><br></html>
+ 
+  * Por último seleccione la opción **Presupuesto**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontofertpresup.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Presupuesto** ahora veamos la [[Descripcion_Campos_obras_presupuesto|Descripción de los Campos]]
+

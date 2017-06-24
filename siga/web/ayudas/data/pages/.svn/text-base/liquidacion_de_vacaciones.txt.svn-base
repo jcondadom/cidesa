@@ -1,0 +1,24 @@
+====== Liquidación de Vacaciones por Egreso ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite realizar el Registro de la liquidación de las vacaciones de un determinado trabajador que ha egresado de la institución. </html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Vacaciones** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompervac.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Liquidación de Vacaciones por Egreso**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperlivacporegre.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Liquidación de Vacaciones por Egreso** solo podrá realizar las Operaciones Básicas de: 
+
+  * [[Incluir Liquidación de Vacaciones por Egreso|Incluir]]
+
+  * [[Eliminar Liquidación de Vacaciones por Egreso|Eliminar]]
+
+  * [[Consultar Liquidación de Vacaciones por Egreso|Consultar]]

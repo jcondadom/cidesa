@@ -1,0 +1,35 @@
+====== HACIENDA MUNICIPAL====== 
+ 
+Las opciones que conforman el **Menú** de **Hacienda Municipal** son las siguientes: 
+
+===== Definiciones Generales=====
+
+    *  [[Definición de la Alcaldia|Definición de la Alcaldia]]
+
+    *  [[Catalogo de Fuente de Ingresos|Catalogo de Fuente de Ingresos]]
+
+    *  [[Catalogo de Presupuesto de Ingresos|Catalogo de Presupuesto de Ingresos]]
+ 
+    *  [[Definición de Tipos de Solvencias|Definición de Tipos de Solvencias]]
+
+    *  [[Definición de Rutas|Definición de Rutas]]
+
+    *  [[Definición de Tipos de Pagos|Definición de Tipos de Pagos]]
+
+    *  [[Definición de Tasas de Intereses Bancarios|Definición de Tasas de Intereses Bancarios]]
+
+    *  [[Definición de Descuentos|Definición de Descuentos]]
+
+    *  [[Definición de Recargos|Definición de Recargos]]
+
+    *  [[Definición de Multas en Declaracion|Definición de Multas en Declaracion]]
+
+==== Actividades Económicas ====
+
+    *  [[Definición de Tipos de Licencias|Definición de Tipos de Licencias]]
+
+    *  [[Definición de Actividades Comeciales|Definición de Actividades Comeciales]]
+
+    *  [[Rango en Bs. para el Pago de Impuesto|Rango en Bs. para el Pago de Impuesto]]
+
+==== Inmuebles ====

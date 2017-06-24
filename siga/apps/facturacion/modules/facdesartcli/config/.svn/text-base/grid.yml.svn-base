@@ -1,0 +1,34 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   Faartdtocte
+  anchogrid:               850
+  ancho:                   650
+  filas:                   1
+  titulo:                  ' Descuentos asociados por Artículo '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Articulo
+  tipo:                    t
+  nombrecampo:             codart
+  html:                    ["size=20"]
+  esgrabable:              true
+  ajaxgrid:                true
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             desart
+  esgrabable:              true
+  html:                    [size="30x1"]
+3:       # Columna 3
+  titulo:                  Código Descuento
+  tipo:                    t
+  nombrecampo:             coddesc
+  html:                    ["size=10 maxlength=10 onBlur='toAjax(2,getUrlModuloAjax(),this.value,0,'&cajtexmos='+$(this.id).up().next(0).descendants()[0].id+'&cajtexcom='+this.id)'"]
+  esgrabable:              true
+  catalogo:                [fadescto, sf_admin_edit_form, {Coddesc: 3, Desdesc: 4}, Fadescto_Fadtocte ]
+4:       # Columna 4
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desdesc
+  html:                    ["size=40 readOnly=true"]  

@@ -1,0 +1,16 @@
+====== Operación Incluir ======
+
+Para **Registrar** la Tabla de IPC del año en curso:
+
+  * Presione el Botón {{:btnnuevo.jpg|}} <html><br><br></html>
+
+  * Especifique los porcentajes para cada mes, para que la tabla calcule, todos los cargos de los valores porcentuales + el valor acentuado en el revalor del bien de la empresa.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:bietabipcinc.jpg|}}"></div><br></html>
+
+  * Presione el Botón {{:btnguardar.jpg|}}
+
+
+
+
+

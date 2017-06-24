@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repositorio/!svn/ver/61600/web/php/siga/branches/productions/trunk/lib/model/contabilidad/map
+END
+CotiptraMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/48499/web/php/siga/branches/productions/trunk/lib/model/contabilidad/map/CotiptraMapBuilder.php
+END
+ContatitMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/53889/web/php/siga/branches/productions/trunk/lib/model/contabilidad/map/ContatitMapBuilder.php
+END
+ContabcmMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/43317/web/php/siga/branches/productions/trunk/lib/model/contabilidad/map/ContabcmMapBuilder.php
+END
+Contaba1MapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/35160/web/php/siga/branches/productions/trunk/lib/model/contabilidad/map/Contaba1MapBuilder.php
+END
+Contabb1MapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/35160/web/php/siga/branches/productions/trunk/lib/model/contabilidad/map/Contabb1MapBuilder.php
+END
+CodetcencosMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/39141/web/php/siga/branches/productions/trunk/lib/model/contabilidad/map/CodetcencosMapBuilder.php
+END
+Contabc1MapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/55527/web/php/siga/branches/productions/trunk/lib/model/contabilidad/map/Contabc1MapBuilder.php
+END
+Contabb1hisMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/49800/web/php/siga/branches/productions/trunk/lib/model/contabilidad/map/Contabb1hisMapBuilder.php
+END
+ContabaMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/35160/web/php/siga/branches/productions/trunk/lib/model/contabilidad/map/ContabaMapBuilder.php
+END
+Contabc1mMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/repositorio/!svn/ver/43317/web/php/siga/branches/productions/trunk/lib/model/contabilidad/map/Contabc1mMapBuilder.php
+END
+ContabbMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/35160/web/php/siga/branches/productions/trunk/lib/model/contabilidad/map/ContabbMapBuilder.php
+END
+ContabcMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/61600/web/php/siga/branches/productions/trunk/lib/model/contabilidad/map/ContabcMapBuilder.php
+END
+CodefcencosMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/39141/web/php/siga/branches/productions/trunk/lib/model/contabilidad/map/CodefcencosMapBuilder.php
+END
+CodeftiplotMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/54580/web/php/siga/branches/productions/trunk/lib/model/contabilidad/map/CodeftiplotMapBuilder.php
+END
+ContabbhisMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/49800/web/php/siga/branches/productions/trunk/lib/model/contabilidad/map/ContabbhisMapBuilder.php
+END
+ContadettitMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/53889/web/php/siga/branches/productions/trunk/lib/model/contabilidad/map/ContadettitMapBuilder.php
+END
+ContacuetitMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/53889/web/php/siga/branches/productions/trunk/lib/model/contabilidad/map/ContacuetitMapBuilder.php
+END

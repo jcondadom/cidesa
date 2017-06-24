@@ -1,0 +1,18 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcsollic
+    theme:            cidesaGenerator
+    fields:
+      numlic:  { name: N° Licencia, params: size=10 maxlength=12 }
+      rifcon:  { name: C.I. / RIF., params: size=14 readOnly=true }
+      nomcon:  { name: Nombre / Razón Social, params: size=80 readOnly=true }
+      numlicnew:  { name: Nuevo n° Licencia, params: size=10 maxlength=12 disabled=false}
+    edit:
+      title: Actualización de N° de Licencia
+      display:
+        NONE: [ _numlic, rifcon, nomcon, numlicnew]
+      actions:
+        _list:        NONE
+        _save:        ~
+        _delete:      NONE

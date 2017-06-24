@@ -1,0 +1,26 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Bnestcon
+    theme:            cidesaGenerator
+    fields:
+      codest: { name: Código, params : size=5 maxlength=1  onFocus=readonly(this.id) }
+      desest: { name: Descripción, params : size=80 maxlength=100}
+    list:
+      title:          Estados de Conservación de los Bienes
+      filters:        [codest]
+      display:        [=codest, desest]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codest
+    edit:
+      title:          Edición  de Estados de Conservación
+      display:
+        "Datos":   [codest, desest]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

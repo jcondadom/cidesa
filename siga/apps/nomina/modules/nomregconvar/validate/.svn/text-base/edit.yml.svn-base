@@ -1,0 +1,49 @@
+methods:
+  post:
+   - "npregconvar{codcon}"
+   - "npregconvar{codnom}"
+   - "npregconvar{fecnom}"
+   - "npregconvar{codemp}"
+
+names:
+  npregconvar{codcon}:
+    required:  Yes
+    required_msg: El Código del Concepto no puede estar en Blanco
+    validators: Validator_codcon
+
+  npregconvar{codnom}:
+    required:  Yes
+    required_msg: La Código de la Nómina no puede estar en Blanco
+    validators: Validator_codnom
+
+  npregconvar{fecnom}:
+    required:  Yes
+    required_msg: La Fecha de la Nómina no puede estar en Blanco
+
+  npregconvar{codemp}:
+    required:  Yes
+    required_msg: El Código del Empleado no puede estar en Blanco
+    validators: Validator_codemp
+      
+
+Validator_codemp:
+    class: CidesaExistValidator
+    param:
+        class:    Nphojint
+        column:   codemp
+        unique_error:   El Código del Empleado no existe        
+        
+Validator_codcon:
+    class: CidesaExistValidator
+    param:
+        class:    Npdefcpt
+        column:   codcon
+        unique_error:   El Código del Concepto no existe       
+
+Validator_codnom:
+    class: CidesaExistValidator
+    param:
+        class:    Npnomina
+        column:   codnom
+        unique_error:   El Código del Empleado no existe                  
+        

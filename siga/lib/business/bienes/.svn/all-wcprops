@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repositorio/!svn/ver/59533/web/php/siga/branches/productions/trunk/lib/business/bienes
+END
+Bienes.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/59533/web/php/siga/branches/productions/trunk/lib/business/bienes/Bienes.class.php
+END
+Muebles.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/59089/web/php/siga/branches/productions/trunk/lib/business/bienes/Muebles.class.php
+END
+Semovientes.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/32790/web/php/siga/branches/productions/trunk/lib/business/bienes/Semovientes.class.php
+END
+Inmuebles.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/54037/web/php/siga/branches/productions/trunk/lib/business/bienes/Inmuebles.class.php
+END

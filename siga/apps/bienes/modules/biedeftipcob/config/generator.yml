@@ -1,0 +1,28 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Bntipcob
+    theme:            cidesaGenerator
+    fields:
+      codcob: { name: Código, params: size=10 maxlength=1 onFocus=readonly(this.id) }
+      descob: { name: Descripción, params: size=80 maxlength=500 }
+    list:
+      title:          Definición de Tipos de Cobertura
+      fields:
+        codcob: { name: Código, params: size=10 maxlength=3 }
+        descob: { name: Descripción, params: size=20 maxlength=500  }
+      filters:        [codcob, descob]
+      display:        [=codcob, descob]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:  8
+      sort: codcob
+    edit:
+      title:          Edición de Tipo de Cobertura
+      display:        [codcob, descob]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

@@ -1,0 +1,55 @@
+opciones:                  # Opciones generales
+  name:                    d
+  eliminar:                true
+  tabla:                   cadisrgo
+  anchogrid:               800
+  ancho:                   700
+  filas:                   10
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Recargo
+  tipo:                    t
+  nombrecampo:             codrgo
+  html:                    ["size=10 maxlength=4"]
+  esgrabable:              true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: caordcom_totartsinrec}
+  catalogo:                [carecarg, sf_admin_edit_form, {Codrgo: 1, Nomrgo: 2, Monrgo: 3, Tiprgo: 4}, Optipret_Carecarg ]
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nomrgo
+  html:                    ["size=40 readOnly=true"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Monto x Recargo
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monrgoc
+  esnumerico:              true
+  html:                    ["size=10 readonly=true"]
+  oculta:                  true
+4:       # Columna 4
+  titulo:                  Tipo Recargo
+  tipo:                    t
+  nombrecampo:             tiprgo
+  html:                    ["size=30 readOnly=true"]
+  esgrabable:              true
+  oculta:                  true
+5:       # Columna 5
+  titulo:                  Monto Recargo
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monrgo
+  esnumerico:              true
+  default:                 '0,0000'
+  html:                    ["size=10 onBlur='ValidarMontoGridv2(this,4);'"]
+  estotal:                 [true, caordcon_totrecar]
+6:       # Columna 6
+  titulo:                  Partida
+  tipo:                    t
+  nombrecampo:             codpar
+  html:                    ["size=30 readOnly=true"]
+  esgrabable:              true
+  oculta:                  true

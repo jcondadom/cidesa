@@ -1,0 +1,14 @@
+database:
+  name:     SIMA
+SIMA3:
+  host:     localhost
+  usuario:  postgres
+  password: postgres
+  bd:       SIMA
+  schema:   SIMA017
+  port:     5432
+  empresa:  002
+  reportes:
+    logo:       "../../img/logo_1.jpg"
+    nropagina:  true
+ 

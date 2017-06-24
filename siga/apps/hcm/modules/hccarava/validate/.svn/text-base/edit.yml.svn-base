@@ -1,0 +1,59 @@
+methods:
+  post:
+   - "hccarava{codemp}"
+   - "hccarava{cedfam}"
+   - "hccarava{rifpro}"
+   - "hccarava{numpre}"
+   - "hccarava{fecpre}"
+   - "hccarava{numcar}"
+   - "hccarava{feccar}"
+   - "hccarava{concar}"
+   - "hccarava{moncar}"
+
+names:
+  hccarava{codemp}:
+    required:  Yes
+    required_msg: Introduzca el código del Titular
+
+  hccarava{cedfam}:
+    required:  Yes
+    required_msg: Introduzca la cedula del Beneficiario
+
+  hccarava{rifpro}:
+    required:  Yes
+    required_msg: Introduzca el Rif de la Clinica
+
+  hccarava{numpre}:
+    required:  Yes
+    required_msg: Introduzca el numero de Presupuesto
+
+  hccarava{fecpre}:
+    required:  Yes
+    required_msg: La Fecha no puede estar en Blanco
+
+  hccarava{numcar}:
+    required:  Yes
+    required_msg: Introduzca el numero de Carta Aval
+
+  hccarava{feccar}:
+    required:  Yes
+    required_msg: La Fecha no puede estar en Blanco
+
+  hccarava{concar}:
+    required:  Yes
+    required_msg: Introduzca el Concepto de la Carta Aval
+
+  hccarava{moncar}:
+    required:  Yes
+    required_msg: Introduzca el monto del Consumo
+    validators: MyNumberValidator
+
+MyNumberValidator:
+    class: sfNumberValidator
+    param:
+        type:         decimal
+        type_error:   Por favor, Introduzca Números Decimales
+        nan_error:    Por Favor, introduzca un Número Decimal
+        min:          000000000001,00
+        min_error:    El valor tiene que ser mayor que cero
+        max:          999999999999,99

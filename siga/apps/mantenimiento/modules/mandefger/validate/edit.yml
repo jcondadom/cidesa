@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "mandefger{codger}"
+   - "mandefger{desger}"
+
+names:
+  mandefger{codger}:
+    required:  Yes
+    required_msg: Introduzca el Código de la Gerencia
+    validators: Validator_codger
+    
+  mandefger{desger}:
+    required:  Yes
+    required_msg: Introduzca la Descripción de la Gerencia
+    validators: Validator_desger
+
+Validator_codger:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Mandefger
+        column:       codger
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_desger:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La Descripción no puede tener mas de 250 caracteres

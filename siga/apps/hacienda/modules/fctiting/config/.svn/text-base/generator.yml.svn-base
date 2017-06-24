@@ -1,0 +1,36 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcpreing
+    theme:            cidesaGenerator
+    fields:
+      codpar:  {name: Código}
+      nompar:  {name: Descripción, params: size=80 maxlength=250}
+      estima:  {name: Estimación de Ingresos}
+      acum:  {name: Visible en Reporte}
+      grid:  {name: .}
+      anno:  {name: Año, params: size=10 maxlength=4 disabled=false}
+      totalest:  {name: Total Estimado}
+      btndis:  {name: .}
+    list:
+      title:          Plan Unico de Cuentas (Recursos)
+      display:        [=codpar, nompar]     
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      filters:        [codpar, nompar] 
+      max_per_page:   5
+      sort:  codpar
+    edit:
+      title:          Plan Unico de Cuentas (Recursos)
+      display:
+        "Datos de la Partida": [ _codpar, nompar, _estima, _acum]
+        "Estimaciones": [ _anno, _totalest, _btndis, _grid]
+      hide: [ mascara, estcie]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~
+ 
+    

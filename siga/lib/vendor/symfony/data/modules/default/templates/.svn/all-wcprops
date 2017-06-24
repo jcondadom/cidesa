@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/modules/default/templates
+END
+error404Success.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/modules/default/templates/error404Success.php
+END
+unavailableSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/modules/default/templates/unavailableSuccess.php
+END
+moduleSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/modules/default/templates/moduleSuccess.php
+END
+secureSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/modules/default/templates/secureSuccess.php
+END
+disabledSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/modules/default/templates/disabledSuccess.php
+END
+indexSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/modules/default/templates/indexSuccess.php
+END
+loginSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/modules/default/templates/loginSuccess.php
+END
+defaultLayout.php
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/data/modules/default/templates/defaultLayout.php
+END

@@ -1,0 +1,31 @@
+methods:
+  post:
+   - "npuniads{coduniads}"
+   - "npuniads{desuniads}"
+
+names:
+  npuniads{coduniads}:
+    required:  Yes
+    required_msg: El código no puede estar en Blanco
+    validators: Validator_coduniads
+
+  npuniads{desuniads}:
+    required:  Yes
+    required_msg: La descripción no puede estar en Blanco
+    validators: Validator_desuniads
+
+
+Validator_coduniads:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Npuniads
+        column:       coduniads
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_desuniads:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caracteres
+        max:       500
+        max_error: La descripción no puede pasar mas de 500 caracteres

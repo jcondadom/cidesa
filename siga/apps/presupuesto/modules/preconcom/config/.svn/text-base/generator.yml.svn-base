@@ -1,0 +1,25 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cpcompro
+    theme:            cidesaGenerator
+    fields:
+      cedrif:
+        name: Beneficiario
+        params: maxlength=16
+        catalogo:
+          catalogoweb: Opbenefi_Pagemiord
+          clase: Opbenefi
+          ajax: 1
+          parametros: getprincipal="getCedrif" getsecundario="getNomben" campoprincipal="cedrif" camposecundario="nomben" campobase = "id"
+          divupdate: divgrid
+      fecdes: { name: Fecha Desde }
+      fechas: { name: Fecha Hasta }
+      grid: { name: . }
+    edit:
+      title:          Consulta de Compromisos
+      display:
+        "NONE": [cedrif, _fecdes, _fechas]
+        "Compromisos": [_grid]
+      actions:
+        _save:        

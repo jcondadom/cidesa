@@ -1,0 +1,82 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   fcregveh
+  ancho:                   1000
+  anchogrid:               900
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+
+1:       # Columna 1
+  titulo:                  Marque
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:			   true
+  html:                    [size="5", readonly=false]
+2:       # Columna 2
+  titulo:                  C.I./R.I.F
+  tipo:                    t
+  nombrecampo:             rifcon
+  esgrabable:			   true
+  html:                    [size="15", readonly=true]
+3:       # Columna 3
+  titulo:                  Placa
+  tipo:                    t
+  nombrecampo:             plaveh
+  esgrabable:			   true
+  html:                    [size="15", readonly=true]
+4:       # Columna 4
+  titulo:                  Marca
+  tipo:                    t
+  nombrecampo:             marveh
+  esgrabable:			   true
+  html:                    [size="15", readonly=true]
+5:       # Columna 5
+  titulo:                  Modelo
+  tipo:                    t
+  nombrecampo:             modveh
+  esgrabable:			   true
+  html:                    [size="15", readonly=true]
+6:       # Columna 6
+  titulo:                  Uso del Vehiculo
+  tipo:                    t
+  nombrecampo:             coduso
+  esgrabable:			   true
+  html:                    [size="15", readonly=true]
+7:       # Columna 7
+  titulo:                  Monto del Aforo
+  tipo:                    m
+  nombrecampo:             monafo
+  esgrabable:			   true
+  html:                    [size="15", readonly=true]
+8:       # Columna 8
+  titulo:                  porali
+  tipo:                    m
+  nombrecampo:             porali
+  oculta:            true
+  esgrabable:			   true
+  html:                    [size="15", readonly=true]
+9:       # Columna 9
+  titulo:                  anolim
+  tipo:                    t
+  nombrecampo:             anolim
+  esgrabable:			   true
+  oculta:            true
+  html:                    [size="15", readonly=true]
+9:       # Columna 9
+  titulo:                  anoveh
+  tipo:                    t
+  nombrecampo:             anoveh
+  esgrabable:			   true
+  oculta:            true
+  html:                    [size="15", readonly=true]
+10:       # Columna 10
+  titulo:                  valori
+  tipo:                    m
+  nombrecampo:             valori
+  esgrabable:			   true
+  oculta:            true
+  html:                    [size="15", readonly=true]
+
+

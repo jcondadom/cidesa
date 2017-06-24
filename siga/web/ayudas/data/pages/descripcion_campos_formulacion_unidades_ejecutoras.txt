@@ -1,0 +1,36 @@
+====== Descripción de Campos ======
+
+Los campos que conforman la pantalla **Unidades Ejecutoras** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefespunidejeinc1.jpg|}}"></div><br></html>
+
+   * **Total Ingreso Disponible:** Indica el resultado del ingreso disponible de todas las fuentes de financiamiento. <html><br><br></html>
+
+  * **Código:** Indica el número que identifica a la unidad ejecutora que está registrando. <html><br><br></html>
+
+  * **Nombre:** Indica el nombre que hace referencia a la unidad ejecutora que está registrando. <html><br><br></html>
+
+  * **Descripción:** Indica la descripción a la que refiere la unidad ejecutora que está registrando. <html><br><br></html>
+
+  * **Objetivo de la Unidad:** Indica el obetivo que persigue la unidad ejecutora. <html><br><br></html>
+
+  * **Empleado Responsable:** Indica el empleado de la institución que es responsable de la unidad ejecutora que está registrando. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla **Unidad Ejecutora** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cppereje
+    theme:            cidesaGenerator
+    fields:
+      pereje:  { name: Período}   
+      fecdes:  { name: Fecha Desde, params: size=10 readonly=true}   
+      fechas:  { name: Fecha Hasta, params: size=10 readonly=true}   
+      btn:  { name: .}   
+    edit:
+      title:            Cierre de Período
+      display:
+        NONE:           [_pereje, fecdes, fechas, _btn]     
+      hide:  [cerrado]
+      actions:
+        _save:        ~ 

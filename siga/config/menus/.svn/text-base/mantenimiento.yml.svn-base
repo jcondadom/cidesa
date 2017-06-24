@@ -1,0 +1,35 @@
+mantenimiento:
+  opciones:
+    activo: true #true/false
+    descripcion: Módulo de Mantenimiento
+    imagen: mantenimiento.gif
+    nombre: Mantenimiento
+    urls:
+      Cambiar Contraseña:
+        modulo: autenticacion.php
+        modulo_dev: autenticacion_dev.php
+      Tipos de Incorporación:
+        modulo: bienes.php
+        modulo_dev: bienes_dev.php
+      default:
+        modulo: mantenimiento.php
+        modulo_dev: mantenimiento_dev.php
+    imagenes:
+      default: OperatorClass.png
+  menu:
+    Definiciones:
+      Fabricantes:                                           mandeffab
+      Tipos de Equipo:                                       mantipequ
+      Tipos de Alimentación:                                 mantipali
+      Gerencias:                                             mandefger
+      Tipos de Incorporación:                                biedefdis
+      Unidades Productivas:                                  manunipro
+      Identificador del Grupo:                               manidegru
+      Tipos de Garantía:                                     mantipgar
+      Clasificación del Equipo:                              manclaequ
+      Fuente de Potencia:                                    manfuepot
+      Tipo de Transmisión:                                   mantiptra
+      Sistema de Operación:                                  mansisope
+      Grupo de Trabajo:                                      mangrutra
+    Seguridad:
+      Cambiar Contraseña:                                    cambiopasswd

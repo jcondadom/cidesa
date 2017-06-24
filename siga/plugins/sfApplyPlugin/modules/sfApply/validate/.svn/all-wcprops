@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/50513/web/php/siga/branches/productions/trunk/plugins/sfApplyPlugin/modules/sfApply/validate
+END
+settings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfApplyPlugin/modules/sfApply/validate/settings.yml
+END
+reset.yml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfApplyPlugin/modules/sfApply/validate/reset.yml
+END
+apply.yml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/50513/web/php/siga/branches/productions/trunk/plugins/sfApplyPlugin/modules/sfApply/validate/apply.yml
+END

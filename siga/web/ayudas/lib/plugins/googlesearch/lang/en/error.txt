@@ -1,0 +1,5 @@
+====== An error occured ======
+
+Google returned an error for your search. This may be a temporary problem and you can
+try your search again, by reloading the page. If the error persist try searching
+at Google's own site using the link below.

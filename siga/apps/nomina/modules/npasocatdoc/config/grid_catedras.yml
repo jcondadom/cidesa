@@ -1,0 +1,23 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   npdoccate
+  anchogrid:               750
+  ancho:                   600
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             codcate
+  html:                    ["size=15 maxlength=4"]
+  esgrabable:              true
+  ajaxgrid:                true
+  catalogo:                [npdefcate, sf_admin_edit_form, {Codcate: 1, Descate: 2}, Npasocatdoc_Npdefcate ]
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             descate
+  html:                    ["size=60 readonly=true"]
+  esgrabable:              true

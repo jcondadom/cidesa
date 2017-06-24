@@ -1,0 +1,22 @@
+methods:
+  post:
+   - "fcpreing{codpar}"
+   - "fcpreing{nompar}"
+
+names:
+  fcpreing{codpar}:
+    required:  Yes
+    required_msg: El CÃ³digo es un campo requerido
+    validators: Validator_codpar
+
+  fcpreing{nompar}:
+    required:  Yes
+    required_msg: El Nombre es un campo requerido
+
+Validator_codpar:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Fcpreing
+        column:       codpar
+        unique_error: El registro ya Existe intente con otro.
+

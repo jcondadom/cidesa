@@ -1,0 +1,27 @@
+====== Causar ======
+
+**Tabla:**  CPCAUSAD , CPIMPCAU
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite incluir las operaciones que Causan el monto comprometido durante la ejecución del Presupuesto, llevar un control de los Documentos emitidos que Causan el Presupuesto, así como el estado actual de cada uno de ellos a nivel global o por Código Presupuestario.&nbsp;&nbsp;Los causados tienen una relación directa con una orden de pago. Los tipos de causado más comunes son:<html><br><br></html>
+
+  * Ordenes de Pago Directas, son causados directos que precomprometen, causan y afectan la disponibilidad. <html><br><br></html>
+
+  * Causados que refieren a un compromiso, únicamente afectan la disponibilidad. <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se considera que el Presupuesto esta ejecutado cuando esta causado. Se puede causar varias veces un mismo compromiso y nunca se puede causar con una fecha menor a la fecha del compromiso.</html>  <html><br><br></html>
+
+**Para ello:**
+
+  * Seleccione la opción **Contabilidad Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpre.jpg|}}"></div><br></html>
+
+   * Seguidamente despliegue la opción **Ejecución Presupuestaria**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreejepre.jpg|}}"></div><br></html>
+
+  * Por último seleccione **Causar**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprecausar.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Causar** veamos la [[Descripcion_Campos_presupuesto_causar|Descripción de los Campos]]
+
+
+

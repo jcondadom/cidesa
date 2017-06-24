@@ -1,0 +1,34 @@
+opciones:                  # Opciones generales
+  name:                    d
+  eliminar:                true
+  tabla:                   npinfapo
+  anchogrid:               700
+  ancho:                   650
+  filas:                   1
+  titulo:                  'Aportes Contractuales'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Beneficio
+  tipo:                    c
+  nombrecampo:             tipben
+  html:                    [ ]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Año
+  tipo:                    t
+  nombrecampo:             anno
+  html:                    ["size=10 maxlength=4"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Monto Pagado Según Nómina
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monpag
+  esnumerico:              true
+  html:                    ["size=10"]
+4:       # Columna 4
+  titulo:                  Soportes Consignados
+  tipo:                    a
+  nombrecampo:             sopcon
+  html:                    ["size=40x1 maxlength=2000 onkeyup='return ismaxlength(this)'"]
+  esgrabable:              true

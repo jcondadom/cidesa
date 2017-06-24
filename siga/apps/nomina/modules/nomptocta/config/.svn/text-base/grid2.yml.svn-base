@@ -1,0 +1,35 @@
+opciones:                  # Opciones generales
+  name:                    b
+  eliminar:                false
+  tabla:                   npfuncarptocta
+  anchogrid:               800
+  ancho:                   500
+  filas:                   0
+  titulo:                  ' Funciones del Cargo '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Marque
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:        true
+  html:                    [ ]
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             desfun
+  html:                    ["size=40x1 readonly=true"]
+  esgrabable:              true   
+3:       # Columna 3
+  titulo:                  Código Cargo
+  tipo:                    t
+  nombrecampo:             codcar
+  html:                    ["size=10 maxlength=3"]
+  esgrabable:              true  
+  #oculta:              true  
+4:       # Columna 4
+  titulo:                  Unidad Administrativa
+  tipo:                    t
+  nombrecampo:             codniv
+  html:                    ["size=15 maxlength=3"]
+  esgrabable:              true  
+  #oculta:              true    

@@ -1,0 +1,48 @@
+====== Operación Incluir ======
+
+Para **Registrar** una determinada Solicitud de Vacaciones: <html><br><br></html>
+
+  * Seleccione el **Código del Trabajador** que realiza la solicitud de Vacaciones.<html><br><br></html>
+
+  * Una ves seleccionado el Código del trabajador automáticamente el sistema carga la **Fecha de Ingreso** del mismo a la empresa.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperregsolvacinc1.jpg|}}"></div><br></html>
+
+  * Seleccione del Calendario la **Fecha de la Solicitud** de Vacaciones.<html><br><br></html>
+
+  * Seleccionar del Calendario la **Fecha de Salida** de la institución por parte del trabajador.<html><br><br></html>
+
+  * Seleccionar del Calendario la **Fecha de Incorporación**  del trabajador a la institución.<html>&nbsp;&nbsp;</html>Esta fecha se actualiza automáticamente de acuerdo a los días que el trabajador haya solicitado y de acuerdo a la fecha de salida que se haya indicado.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperregsolvacinc2.jpg|}}"></div><br></html>
+
+  * Ingresar los **Días de vacaciones** solicitadas por el trabajador.<html><br><br></html>
+
+  * En **Dias Pendientes** el sistema muestra automáicamente los días de vacaciones que el trabajador posee pendientes por disfrutar.<html><br><br></html>
+
+  * En caso de ser necesario ingrese **Observaciones** acerca de la solicitud que se está registrando.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperregsolvacinc3.jpg|}}"></div><br></html>
+
+  * Seguidamente podrá observar una tabla que contiene la siguiente información:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Período Desde:</b>En dicha columna el sistema muestra el período inicial del rango de acuerdo a la antiguedad del trabajador.<br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Período Hasta:</b>En esta columna se muestra el periodo final del rango de acuerdo a la antiguedad del trabajador.<br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Días a Disfrutar:</b>En la presente columna el sistema muestra los días que debe distrutar el trabajador de acuerdo al tiempo de servicio.</html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Días Disfrutados:</b>En la presente columna se muestran los dìas que disfrutó el trabajador en un período específico.</html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperregsolvacinc4.jpg|}}"></div><br></html>
+
+  * Presione el Botón <html>&nbsp;&nbsp;</html>{{:btnguardar.jpg|}} para almacenar la información.
+
+
+
+
+
+
+
+
+

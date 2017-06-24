@@ -1,0 +1,60 @@
+opciones:                  # Opciones generales
+  eliminar:                true
+  name:                    a
+  tabla:                   bnregmue
+  anchogrid:               1000
+  ancho:                   950
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Cod. Catálogo Bien
+  tipo:                    t
+  nombrecampo:             codact
+  esgrabable:              true
+  ajaxgrid:                true
+  html:                    ["size=20"]
+2:       # Columna 2
+  titulo:                  Código Mueble
+  tipo:                    t
+  nombrecampo:             codmue
+  esgrabable:              true
+  ajaxgrid:                true
+  html:                    ["size=20"]
+3:       # Columna 3
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desmue
+  esgrabable:              true
+  html:                    ["size=30 readonly=true"]
+4:       # Columna 4
+  titulo:                  Monto
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             valini
+  esnumerico:              true
+  html:                    ["size=15 readonly=true"]
+5:      # Columna 5
+  titulo:                  Ubicación Actual
+  tipo:                    t
+  nombrecampo:             codubi
+  esgrabable:              true
+  html:                    ["size=25 readonly=true"]
+6:       # Columna 6
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nomubicac
+  esgrabable:              true
+  html:                    ["size=20 readonly=true"]
+7:      # Columna 7
+  titulo:                  Ubicación Destino
+  tipo:                    t
+  nombrecampo:             coddes
+  esgrabable:              true
+  html:                    ["size=25"]
+8:       # Columna 8
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nomubicac2
+  esgrabable:              true
+  html:                    ["size=20 readonly=true"]

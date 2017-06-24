@@ -1,0 +1,30 @@
+====== Definición Presupuestaria de Liquidación ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite liquidar las partidas presupuestarias de un determinado Tipo de Nómina y en una determinada fecha</html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Prestaciones** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperprest.jpg|}}"></div><br></html> 
+
+  * Seleccione la opción **Definición de Parámetros para las Prestaciones Sociales**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefparpresoc.jpg|}}"></div><br></html>
+
+  * Por último seleccione la opción **Definición Presupuestaria de Liquidación**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefpreliq.jpg|}}"></div><br></html>
+
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Definición Presupuestaria de Liquidación** solo podrá realizar las Operaciones Básicas de: 
+
+  * [[Incluir Definición Presupuestaria de Liquidación |Incluir]]
+
+  * [[Modificar Definición Presupuestaria de Liquidación|Modificar]]
+
+  * [[Eliminar Definición Presupuestaria de Liquidación|Eliminar]]
+
+  * [[Consultar Definición Presupuestaria de Liquidación|Consultar]]

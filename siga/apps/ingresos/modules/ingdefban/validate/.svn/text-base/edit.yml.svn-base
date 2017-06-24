@@ -1,0 +1,56 @@
+methods:
+  post:
+   - "cibanco{codban}"
+   - "cibanco{desban}"
+   - "cibanco{numcue}"
+   - "cibanco{codcta}"
+
+names:
+  cibanco{codban}:
+    required:  Yes
+    required_msg: El código no puede estar en Blanco
+    validators: Validator_codban
+
+  cibanco{desban}:
+    required:  Yes
+    required_msg: La descripción no puede estar en Blanco
+    validators: Validator_desban
+
+  cibanco{numcue}:
+    required:  Yes
+    required_msg: La Cuenta Bancaria no puede estar en Blanco
+    validators: Validator_numcue
+
+  cibanco{codcta}:
+    required:  No
+    validators: Validator_codcta    
+
+Validator_codban:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Cibanco
+        column:       codban
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_desban:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caracteres
+        max:       200
+        min_error: La descripción no puede tener mas de 200 caracteres
+
+Validator_numcue:
+    class: CidesaExistValidator
+    param:
+        class:    Tsdefban
+        column:   numcue
+        unique_error:   El Tipo de Transacción no existe.   
+
+
+Validator_codcta:
+    class: CidesaExistValidator
+    param:
+        class:    Contabb
+        column:   codcta
+        unique_error:  La Cuenta Contable de la Comisión no existe.                 

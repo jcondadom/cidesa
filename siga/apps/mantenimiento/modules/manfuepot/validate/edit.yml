@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "manfuepot{codfue}"
+   - "manfuepot{desfue}"
+
+names:
+  manfuepot{codfue}:
+    required:  Yes
+    required_msg: Introduzca el Código de la Fuente de Potencia
+    validators: Validator_codfue
+    
+  manfuepot{desfue}:
+    required:  Yes
+    required_msg: Introduzca la Descripción de la Fuente de Potencia
+    validators: Validator_desfue
+
+Validator_codfue:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Manfuepot
+        column:       codfue
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_desfue:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La Descripción no puede tener mas de 250 caracteres

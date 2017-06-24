@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "mantiptra{codtta}"
+   - "mantiptra{destta}"
+
+names:
+  mantiptra{codtta}:
+    required:  Yes
+    required_msg: Introduzca el Código del Tipo de Trasmisión
+    validators: Validator_codtta
+    
+  mantiptra{destta}:
+    required:  Yes
+    required_msg: Introduzca la Descripción del Tipo de Trasmisión
+    validators: Validator_destta
+
+Validator_codtta:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Mantiptra
+        column:       codtta
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_destta:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La Descripción no puede tener mas de 250 caracteres

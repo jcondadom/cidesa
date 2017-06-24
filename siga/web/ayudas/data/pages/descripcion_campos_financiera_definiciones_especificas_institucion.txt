@@ -1,0 +1,10 @@
+===== Descripción de Campos =====
+
+  * Definir el formato/estructura de la cuenta contable, donde como mínimo se debe definir el exigido por la ley (**ONCOP**). Es de aclarar que este al igual que todos los códigos que se estructuren en el Sistema son parametrizables, es decir, que la Empresa o Institución puede definir su propio formato para la cuenta contable que se ajuste a sus necesidades.
+<html><br></html> 
+
+  * Definir el inicio y cierre del ejercicio fiscal, con sus 12 periodos. Es practica común que en las instituciones del estado los ejercicios sean igual que los años calendarios pero de todas maneras esto también es parametrizable.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/cfindefespins2.jpg"></div><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Definiciones Específicas de Institución** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]] 

@@ -1,0 +1,56 @@
+Los campos que conforman la pantalla **Movimientos Según Bancos** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbancmovsegbaninc1.jpg|}}"></div><br></html>
+
+  * **Cuenta del Banco:** Indica Código y Descripción del banco al que pertence la cuenta bancaria. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[Lista|Lista]] con los bancos que fueron registrados previamente en la pantalla [[tesoreria_banco|Bancos]] de donde debe seleccionar el registro que desee. <html><br><br></html>
+
+  * **Referencia:** Indica el número de referencia correspondiente al movimiento según Banco. <html><br><br></html>
+
+  * **Fecha del Movimiento:** Seleccione del [[calendario|Calendario]] el día, mes y año en que se realiza la operación o transacción en el Banco. <html><br><br></html>
+
+  * **Tipo de Movimiento:** Indica los tipos de movimientos bancarios existentes. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[Lista|Lista]] con los movimientos bancarios que fueron definidos previamente en el sistema en la pantalla [[tesoreria_tipos_de_movimientos_bancarios|Tipos de Movimientos Bancarios]]. <html><br><br></html>
+
+  * **Descripción:** Se refiere a una breve explicación de la razón por la que se realiza una operación en el Banco. <html><br><br></html>
+
+  * **Monto:** Refiere al monto de la operación. <html><br><br><br></html>
+
+**Para Mostrar los Movimientos según Libros:**
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbancmovsegbaninc2.jpg|}}"></div><br></html>
+
+  * En primer lugar debe presionar el Botón {{:btnmostrarmovseglib.jpg|}}. <html><br><br></html>
+
+  * Seguidamente el sistema muestra la pantalla **Actualización en Lotes de los Bancos** donde podrá visualizar  las **Cuentas Bancarias** manejadas por la institución y los movimientos según libros que se generan de ella. Para visualizar los movimientos debe seguir los siguientes pasos: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** En la sección **Bancos** seleccione una de estas cuentas bancarias la cual será mostrada en los recuadros correspondientes a ella.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Luego en el campo **Mes** debe seleccionar el número del mes para el cual desea consultar los movimientos de dicha cuenta bancaria; en caso de que desee consultar todos los meses solo debe seleccionar la palabra "TODOS".
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** Para buscar los movimientos de la cuenta bancaria seleccionada y de acuerdo al mes seleccionado debe presionar el Botón {{:btnbuscar.jpg|}}. En caso de que dicha cuenta bancaria no posea Movimiento según Libros el sistema emitirá el siguiente mensaje:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:mnsjmovseglib.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** En caso de que la Cuenta Bancaria seleccionada tenga movimientos el sistema mostrará en la sección **Movimientos** todos los Movimientos segun Libros que tiene la Cuenta Bancaria seleccionada y a su vez le permite seleccionar aquellos movimientos que desee incluir haciendo click sobre la referencia del Movimiento que está ubicado en el recuadro Libro y luego presionando el Botón {{:btnagregar1.jpg|}} además de esto mostrará la información correspondiente al movimiento seleccionado: **Fecha**, **Banco**, **Código del Depósito** y el **Monto**. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanbancmovsegbaninc3.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>Por último podemos observar el Botón {{:btngenerarbanco.jpg|}} el cual al presionarlo le permitirá generar el Estado de Cuenta sobre las transacciones indicadas al Sistema. Una vez que el sistema ha generado los Estados de Cuenta emitirá el siguiente mensaje:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Tipos de Monedas** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

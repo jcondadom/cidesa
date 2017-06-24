@@ -1,0 +1,22 @@
+opciones:                  # Opciones generales
+  eliminar:                false
+  tabla:                   Tsdesmon
+  anchogrid:               700
+  ancho:                   500
+  filas:                   1
+  titulo:                  ' Valores de la Moneda'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Fecha
+  tipo:                    f
+  nombrecampo:             fecmon
+  esgrabable:              true
+  html:                    [ ]
+2:       # Columna 2
+  titulo:                  Valor
+  tipo:                    m
+  nombrecampo:             valmon
+  esnumerico:              true
+  esgrabable:              true
+  decimal:                 5
+  html:                    [size="10"]

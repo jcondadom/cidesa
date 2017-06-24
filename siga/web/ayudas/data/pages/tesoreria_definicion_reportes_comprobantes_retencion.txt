@@ -1,0 +1,16 @@
+======Definición de Reportes de Comprobantes de Retención======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite asociar las retenciónes a los tres comprobantes de retención comunmente usados (Impuesto sobre la Renta, Impuesto al Valor Agregado y Ley de Timbre Fiscal ), los cuales son entregados a los proveedores, contratistas y al personal de la institución como constancia de que la institución le retuvo parte del pago de los impuestos nombrados anteriormente. Asi el sistema sabrá que comprobante generar de acuerdo a la retención.
+
+**Para ello:**
+
+  * Seleccione la opción **Tesorería ó Banco** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesban.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbandefesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Definición de Reportes de Comprobantes de Retención**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbandefrepcompret.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Definición de Reportes de Comprobantes de Retención** veamos la [[Descripcion_Campos_definicion_comprobantes_retencion|Descripción de los Campos]]

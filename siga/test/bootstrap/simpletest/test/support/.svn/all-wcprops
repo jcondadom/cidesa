@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/35162/web/php/siga/branches/productions/trunk/test/bootstrap/simpletest/test/support
+END
+empty_test_file.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/35162/web/php/siga/branches/productions/trunk/test/bootstrap/simpletest/test/support/empty_test_file.php
+END
+spl_examples.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/35162/web/php/siga/branches/productions/trunk/test/bootstrap/simpletest/test/support/spl_examples.php
+END
+upload_sample.txt
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/35162/web/php/siga/branches/productions/trunk/test/bootstrap/simpletest/test/support/upload_sample.txt
+END
+test1.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/35162/web/php/siga/branches/productions/trunk/test/bootstrap/simpletest/test/support/test1.php
+END
+latin1_sample
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/test/bootstrap/simpletest/test/support/latin1_sample
+END
+supplementary_upload_sample.txt
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repositorio/!svn/ver/35162/web/php/siga/branches/productions/trunk/test/bootstrap/simpletest/test/support/supplementary_upload_sample.txt
+END

@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48014/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates
+END
+_funval.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45270/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/_funval.php
+END
+_tipcon.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/_tipcon.php
+END
+_totalformpag.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/45270/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/_totalformpag.php
+END
+_combocriterio.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/45642/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/_combocriterio.php
+END
+_grid_formpag.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/44651/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/_grid_formpag.php
+END
+_feccor.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/44651/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/_feccor.php
+END
+_naccon.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/_naccon.php
+END
+_gridformpag.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/44781/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/_gridformpag.php
+END
+_griddetalles.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/44651/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/_griddetalles.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/47044/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/_edit_actions.php
+END
+_botones.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45642/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/_botones.php
+END
+salvaractSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/44781/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/salvaractSuccess.php
+END
+_gridrecargdescto.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/44651/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/_gridrecargdescto.php
+END
+_totales.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/44781/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/_totales.php
+END
+anularSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/46749/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/anularSuccess.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/45642/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/ajaxSuccess.php
+END
+delete2Success.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/45926/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/delete2Success.php
+END
+_opciones.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/48014/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/_opciones.php
+END
+gridSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/44781/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/gridSuccess.php
+END
+_rifcon.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/44886/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/_rifcon.php
+END
+_fechahora.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/48014/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/_fechahora.php
+END
+_totalgeneral.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/44795/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/_totalgeneral.php
+END
+_mensaje.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/45270/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/_mensaje.php
+END
+_list_td_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/44940/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/_list_td_actions.php
+END
+ajaxgridSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/46953/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/ajaxgridSuccess.php
+END
+_totalrecargo.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/44651/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/_totalrecargo.php
+END
+salvaranuSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/45926/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/salvaranuSuccess.php
+END
+_numpag.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/44651/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/_numpag.php
+END
+eliminarregSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/44943/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/eliminarregSuccess.php
+END
+actualizarSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/44781/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facrecpag/templates/actualizarSuccess.php
+END

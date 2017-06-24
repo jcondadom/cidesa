@@ -1,0 +1,17 @@
+====== Operación Eliminar ======
+
+Para la operación de Eliminar:  <html><br><br></html>
+
+  * Seleccionar de la **Lista** la **Cédula del Empleado** al cual desea eliminar la Jornada Laboral.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/"></div><br></html>
+
+  * El sistema muestra la Jornada Laboral del empleado seleccionado asi como sus datos personales. <html><br><br></html> 
+
+  * Presionar  {{:btnborrar.jpg|}}   <html><br><br></html> 
+
+  * El sistema emite un **Mensaje de Confirmación** antes de eliminar.
+ <html><br><div> <align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br></html>
+
+  * Presionar **Aceptar**.   <html><br><br></html>
+
+ 

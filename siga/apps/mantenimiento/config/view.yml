@@ -1,0 +1,20 @@
+default:
+  http_metas:
+    content-type: text/html
+    X-XSS-Protection: 0
+
+  metas:
+    title:        Módulo de Mantenimiento
+    robots:       index, follow
+    description:  Módulo de Mantenimiento
+    keywords:     Módulo de Mantenimiento
+    language:     en
+
+  stylesheets:    [main, bootstrap]
+
+  javascripts:    [ %SF_PROTOTYPE_WEB_DIR%/js/prototype, %SF_PROTOTYPE_WEB_DIR%/js/scriptaculous , tools, ajax, observer, catalogov2, tools_jquery]
+#  javascripts:    [%SF_PROTOTYPE_WEB_DIR%/js/prototype, %SF_PROTOTYPE_WEB_DIR%/js/scriptaculous, ext/adapter/ext/ext-base, ext/adapter/prototype/ext-prototype-adapter, ext/ext-all, gridext.js]
+
+#ext/adapter/ext/ext-base, ext/adapter/prototype/ext-prototype-adapter, ext/ext-all
+  has_layout:     on
+  layout:         layout

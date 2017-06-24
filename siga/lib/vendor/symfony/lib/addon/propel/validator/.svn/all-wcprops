@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/49769/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/addon/propel/validator
+END
+sfPropelUniqueValidator.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/addon/propel/validator/sfPropelUniqueValidator.class.php
+END
+sfCustomUniqueValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/repositorio/!svn/ver/49769/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/addon/propel/validator/sfCustomUniqueValidator.php
+END

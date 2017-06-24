@@ -1,0 +1,16 @@
+======Asignación de Categorías por Empleado======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite asignar a los empleados asociados a un determinado Concepto las Categorías correspondientes.</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Asignaciones Generales para el Cálculo de Nómina** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasigenparacaldenom.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Asignación de Categorías por Empleado**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasigcatemp.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Asignación de Categorías por Empleado** de Recaudos veamos la [[Descripcion_Campos_Asignación_Categorías_Empleado|Descripción de los Campos]]

@@ -1,0 +1,35 @@
+seguridad:
+  opciones:
+    activo: false #true/false
+    descripcion: Módulo de Seguridad
+    imagen: seguridad.gif
+    nombre: Seguridad
+    urls:
+      default:
+        modulo: autenticacion.php
+        modulo_dev: autenticacion_dev.php
+      Reportes:
+        absoluta: reportes/reportes/seguridad
+    imagenes:
+      default: OperatorClass.png
+  menu:
+    Definiciones:
+      Grupos:                                               segdefgrup
+      Perfiles por Grupo:                                   segasigpergru
+      Usuarios:                                             usuarios
+    Procesos:
+      Permisologías por Usuario:                            apliuser
+      Definicion de Criterios para chequear BD:             bdcriterios
+      Chequear Base de Datos:                               bdchkbd
+      Permisologías Especiales por Usuario:                 segperesp
+      #Perfiles por Grupo de Usuarios
+      #Usuarios por Grupo
+      #Perfiles de Usuario
+    #Reportes:
+      #Bitácora de Transacciones:                            segrbitaco
+      #Bitácora de Aplicación:                               segrbitapl
+      #Bitácora de Usuarios:                                 segrbitusu
+      #Accesos por Modulos
+      #Accesos por Usuarios
+    Mantenimiento:
+      Cambiar Contraseña:                                     cambiopasswd

@@ -1,0 +1,87 @@
+Los campos que conforman la pantalla de **Cálculo de Conceptos - Formulación** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompercalnomcalconcepinc1.jpg|}}"></div><br></html>
+
+  * **Código de Concepto:** Refiere al número y Descripción del Concepto que va a ser asociado a la fórmula que se define. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra una [[Listas|Lista]] con los conceptos registrados previamente en el ssitema en la pantalla [[conceptos|Conceptos]]. <html><br><br></html>
+
+  * **Código de Nómina:** Refiere al Código y Descripción de la Nómina en la cual se aplicará el Concepto seleccionado anteriormente. Al presionar el Botón {{:btncuadrocatalogo.jpg|}} el sistema muestra igualmente una lista con solo los conceptos asociados a la nómina.<html><br><br></html>
+
+  * Luego en un [[Grid|Grid]] se presentan las siguientes columnas:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Campo:**  Aquí se puede indicar la función, la variable, el movimiento, dato del empleado o histórico que se vaya a utilizar para realizar el cálculo. Son fórmulas parciales que permiten definir otras más complejas.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Operador:** Indica el tipo de operación de comparación que se va a realizar entre el Campo y el Valor. Puede ser = (Igual que), > (Mayor que), < (Menor que), <> (Diferente), >= (Mayor o igual que), <= (Menor o igual que):
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Valor:** Se refiere a un valor que va a servir como punto de comparación con el campo seleccionado.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Definición Fórmula:** Refiere a si la formula está compuesta por un And, Ord ó Condición.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Condición/Fórmula:** Determina la condición necesaria para realizar el cálculo o la fórmula que se efectuará en caso que la comparación entre el Campo y el Valor, arroje un resultado verdadero.<html><br><br></html>
+
+  * El llenado de cada una de las columnas del Grid dependerá de las siguientes secciones:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompercalnomcalconcepinc2.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Funciones:** Aquí dispondrá de ciertas Funciones para el cálculo de la nómina las cuales fueron predefinidas en el Sub-Sistema. Estas Funciones se pueden utilizar en el factor Campo ó en la Condición/Fórmula. Los parámetros utilizados con dichas funciones pueden ser valores adquiridos en el cálculo de la nómina, una variable, un concepto o un histórico. Las funciones mencionadas se describen a continuación:<html><br><br></html>
+
+**AAP:** Antiguedad en la Administración Pública.<html><br></html> 
+**DV:** Días de Vacaciones. <html><br></html>
+**NL Nº:** Lunes laborados del trabajador en Mes.<html><br></html>
+**NLP Nº:** Lunes laborados del trabajador en periodo.<html><br></html>
+**NS Nº:** Lunes que tiene un mes determinado.<html><br></html>
+**SIC:** Salario. <html><br></html>
+**SIM:** Salario Integral por Movimientos.<html><br></html>
+**TAF:** Total Asignaciones Final.<html><br></html>
+**AC:** Años de Asignación del Cargo.<html><br></html>
+**DC:** Días de Asignación del Cargo.<html><br></html>
+**ADV:** Ant. del empleado en días con vacaciones. <html><br></html>
+**AD:** Antiguedad del Empleado en Días.<html><br></html>
+**ADF:** Antiguedad del Empleado en Días a Fin de Año.<html><br></html>
+**AM:** Antiguedad del Empleado en Meses.<html><br></html>
+**AA:** Antiguedad del Empleado en Años.<html><br></html>
+**ED:** Edad del Empleado en Días.<html><br></html>
+**EE:** Edad del Empleado en Meses.<html><br></html>
+**CC:** Cantidad de Cargos de un Empleado.<html><br></html>
+**FFRAC:** Retorna Parte Decimal de un Número.<html><br></html>
+**FINT:** Retorna Parte Entera de un Número.<html><br></html>
+**NHGR:** Número de Hijos Mayores de 5 años.<html><br></html>
+**FECN:** Fecha de la Nómina.<html><br></html>
+**DIAF:** Retorna el Día de una Fecha.<html><br></html>
+**MESF:** Retorna el Mes de una Fecha.<html><br></html>
+**ANOF:** Retorna el Año de una Fecha.<html><br></html>
+**CATRAF:** Cumpleaños del Trabajador.<html><br></html>
+**NHIJ:** Número de Hijos.<html><br></html>
+**SC:** Sueldo + Compensación.<html><br></html>
+**SCAR:** Sueldo del Cargo.<html><br></html>
+**DBV:** Días de Bono Vacacional.<html><br></html>
+**PV:** Períodos Vacacionales a Disfrutar.<html><br></html>
+**PHIJO:** Monto Prima Hijo.<html><br></html>
+**NHIJO:** Hijos Menores a Edad Suministrada.<html><br></html>
+**PPROF** Monto Prima Profesionalización.<html><br></html>
+**PROFE:** Profesión Activa del Empleado.<html><br></html>
+**PCARG** Monto Cargo Colateral.<html><br></html>
+**CGUAR:** Monto por Guardería.<html><br></html>
+**ACUC:** Acumulador de Conceptos por Empleado.<html><br></html>
+**STAB:** Sueldo Según Escala.<html><br></html>
+**CTAB:** Compensación según Escala.<html><br></html>
+**MCES:** Monto de Cesta Tickets.<html><br></html>
+**ADIC:** Días Adicionales Prestación Antiguedad. <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompercalnomcalconcepinc3.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Movimientos:** En las fórmulas parciales o campos y en la Condición/Fórmula se pueden utilizar ciertas variables especiales llamadas Movimientos. Los movimientos son los datos que van variando periódicamente por empleado y que fueron definidos en Definiciones Específicas - Movimientos Periódicos. Estos se forman con la concatenación de: La Letra M + Código del Tipo Nómina + Código del Concepto + Tipo (C-Cantidad o M-Monto). Un ejemplo de estos Movimientos son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompercalnomcalconcepinc4.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-Conceptos:**  En las fórmulas parciales o campos y en la Condición/Fórmula se pueden utilizar los conceptos calculados anteriormente en este módulo, que pueden ser seleccionados desde esta sección.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompercalnomcalconcepinc5.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-Datos del Empleado:** En las fórmulas parciales o campos y en la Condición/Fórmula se pueden utilizar los Datos del Empleado. Estos se forman con la concatenación de la letra E + Datos del Empleado. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompercalnomcalconcepinc6.jpg|}}"></div><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Histórico:** En las fórmulas parciales o campos y en la Condición/Fórmula se pueden utilizar los campos Históricos creados con anterioridad al cerrar la nómina. Estos se forman con la concatenación de: Código Nómina + Código Concepto. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Cálculo de Conceptos - Formulación** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+ 

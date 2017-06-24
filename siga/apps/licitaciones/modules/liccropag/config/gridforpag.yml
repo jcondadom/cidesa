@@ -1,0 +1,64 @@
+opciones:                  # Opciones generales
+  name:                    c
+  eliminar:                false
+  tabla:                   Liregforpagcont
+  anchogrid:               900
+  ancho:                   800
+  filas:                   0
+  titulo:                  '  '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Cancelado
+  tipo:                    t
+  nombrecampo:             cancelado
+  html:                    [ size=1  class=imagencancel readonly=true ]
+  esgrabable:              false
+2:       # Columna 4
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desant
+  esgrabable:              false
+  html:                    [ size=30 readonly=true ]
+3:       # Columna 4
+  titulo:                  Fecha
+  tipo:                    t
+  nombrecampo:             fecant
+  esgrabable:              false
+  comofecha:               true
+  html:                    [ size=10 readonly=true]
+4:       # Columna 5
+  titulo:                  Porcentaje (%) del Monto Total del Contrato
+  tipo:                    m
+  nombrecampo:             porant
+  esgrabable:              false
+  html:                    [ size=10  readonly=true]
+5:       # Columna 4
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             montot
+  esgrabable:              false
+  html:                    [ size=10 readonly=true]
+6:       # Columna 4
+  titulo:                  Recargo
+  tipo:                    m
+  nombrecampo:             monrec
+  esgrabable:              false
+  html:                    [ size=10 readonly=true]
+7:       # Columna 4
+  titulo:                  Porcentaje (%) de Amortización del Anticipo
+  tipo:                    m
+  nombrecampo:             poramoant
+  esgrabable:              false
+  html:                    [ size=10 readonly=true]
+8:       # Columna 4
+  titulo:                  Neto a Pagar
+  tipo:                    m
+  nombrecampo:             netpag
+  esgrabable:              false
+  html:                    [ size=10 readonly=true]
+9:       # Columna 4
+  titulo:                  Cancelado con Valuación
+  tipo:                    t
+  nombrecampo:             livaluaciones_id
+  esgrabable:              true
+  html:                    [ ]

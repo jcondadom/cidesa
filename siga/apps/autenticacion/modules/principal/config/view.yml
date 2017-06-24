@@ -1,0 +1,18 @@
+indexSuccess:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        FREERP - Menú Principal
+    robots:       index, follow
+    description:  Menú Principal FREERP
+    keywords:     FREERP, menu, principal
+    language:     es_VE
+
+  stylesheets:    [siga]
+
+  javascripts:    [ ]
+  
+  has_layout:     on
+  layout:         layout_cidesa
+

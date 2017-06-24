@@ -1,0 +1,76 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cpcausad
+    theme:            cidesaGenerator
+    fields:
+      mensaje: {name: .}
+      refcau: { name: Referencia, params: onblur=rellenar() maxlength=8 }
+      feccau: { name: Fecha, params: date_format='dd/MM/yy' }
+      descau: { name: Descripción, type: textarea_tag, params: size=80x5 }
+      moncau: { name: Monto Causado, params: size=10 }
+      salaju2: { name: Ajustado, params: size=10 readonly=true }
+      salpre: { name: Causado, params: size=10 readonly=true }
+      totpag: { name: total Pagado, params: size=10 readonly=true }
+      tipcau:
+        name: Código
+        catalogo:
+          catalogoweb: Precausar_Cpdoccau
+          clase: Cpdoccau
+          ajax: 2
+          parametros: getprincipal="getTipcau" getsecundario="getNomext" campoprincipal="tipcau" camposecundario="nomext" campobase = "id"
+          ajaxparams: +'."'".'&feccau='."'+$('cpcausad_feccau').value".'
+      cedrif:
+        name: Cedula/Rif
+        catalogo:
+          catalogoweb: Precausar_Opbenefi
+          clase: Opbenefi
+          ajax: 4
+          parametros: getprincipal="getCedrif" getsecundario="getNomben" campoprincipal="cedrif" camposecundario="nomben" campobase = "id"
+      refcom:
+        name: Referencia
+        catalogo:
+          catalogoweb: Precausar_Cpcausad
+          clase: Cpcompro
+          ajax: 3
+          parametros: getprincipal="getRefcom" getsecundario="getDescom" campoprincipal="refcom" camposecundario="descom" campobase = "id"
+          catalogoparams: param1/'."'+$('cpcausad_tipcau').value.replace('/','*')+'".'/param2/'."'+$('cpcausad_feccau').value.replace('/','*').replace('/','*')+'".'
+          ajaxparams: +'."'".'&tipcau='."'+$('cpcausad_tipcau').value".'+'."'".'&feccau='."'+$('cpcausad_feccau').value".'
+          divupdate: divgrid
+      grid:{name: . }
+      grid2: {name: . }
+      toteve: {name: Total Eventos, params: size=10 disabled=false readonly=true}
+      btn: {name: . }
+      btncom: {name: . }
+      coddirec:
+        name: Dirección
+        params: size=3 maxlength=15
+        catalogo:
+          catalogoweb: Cadefdirec_Almdefdiv
+          clase: cadefdirec
+          ajax: 5
+          parametros: getprincipal="getCoddirec" getsecundario="getDesdirec" campoprincipal="coddirec" camposecundario="desdirec" campobase = "id"
+    list:
+      fields:
+        refcau: { name: Referencia, params: key_method="getRefcau" }
+      title:  Causados
+      display:        [ =refcau, descau, feccau ]
+      filters:        [refcau, feccau, descau]
+    edit:
+      title:  Edición de Causados
+      display:
+        Datos del documento:   [ _mensaje, _btn, _refcau, feccau, descau, coddirec]
+        Tipo Causado:  [ tipcau, refcom]
+        Datos del Beneficiario: [cedrif, _btncom]
+        Imputaciones Presupuestarias: [_grid, _grid2]
+        Saldos:                [salaju2, _salpre, totpag, moncau, toteve]
+      hide:  [refer, stacau]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~
+        _anular:
+          name: Anular
+          only_for: edit
+          params: class="sf_admin_action_delete" onClick="anular()"

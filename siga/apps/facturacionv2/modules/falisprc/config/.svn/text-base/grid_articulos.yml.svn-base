@@ -1,0 +1,29 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   falisprc
+  anchogrid:               800
+  ancho:                   750
+  filas:                   1
+  titulo:                  ' Artículos '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             codart
+  html:                    ["size=30 maxlength=20"]
+  esgrabable:              true
+  ajaxgrid:                true
+  #catalogo:                [caregart, sf_admin_edit_form, {codart: 1, desart: 2}, Caregart_Falisprc]
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desart
+  html:                    ["size=50 maxlength=20"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Precio
+  tipo:                    m
+  nombrecampo:             precio
+  html:                    ["size=10"]
+  esgrabable:              true

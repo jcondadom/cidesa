@@ -1,0 +1,1 @@
+<?php echo select_tag('npptocta[tippto]', options_for_select(array('T' => 'Personal Contratado a Tiempo Determinado', 'A' => 'Personal Alto Nivel', 'H' => 'Honorarios Profesionales', 'C' => 'Comisión de Servicios', 'I' => 'Personal Contratado a Tiempo Indeterminado', 'R' => 'Renovación de Contrato'),$npptocta->getTippto(),'include_custom=Seleccione'),array()) ?>

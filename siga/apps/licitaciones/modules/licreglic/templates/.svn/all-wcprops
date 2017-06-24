@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/42572/web/php/siga/branches/productions/trunk/apps/licitaciones/modules/licreglic/templates
+END
+_liregsol_id.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/42572/web/php/siga/branches/productions/trunk/apps/licitaciones/modules/licreglic/templates/_liregsol_id.php
+END
+_codlic.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/licitaciones/modules/licreglic/templates/_codlic.php
+END
+_coduniste.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/licitaciones/modules/licreglic/templates/_coduniste.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/licitaciones/modules/licreglic/templates/ajaxSuccess.php
+END
+_codpairecep.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/licitaciones/modules/licreglic/templates/_codpairecep.php
+END
+_historial.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/licitaciones/modules/licreglic/templates/_historial.php
+END
+_codfin.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/licitaciones/modules/licreglic/templates/_codfin.php
+END
+_codpaiefec.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/licitaciones/modules/licreglic/templates/_codpaiefec.php
+END
+_codclacomp.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/licitaciones/modules/licreglic/templates/_codclacomp.php
+END
+_mes.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/repositorio/!svn/ver/25568/web/php/siga/branches/productions/trunk/apps/licitaciones/modules/licreglic/templates/_mes.php
+END

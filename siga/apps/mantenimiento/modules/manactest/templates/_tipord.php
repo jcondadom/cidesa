@@ -1,0 +1,1 @@
+<?php echo select_tag('manactest[tipord]', options_for_select(array('I' => 'Imprevista', 'P' => 'Programda'),$manactest->getTipord(),'include_custom=Seleccione Uno'),array()); ?>

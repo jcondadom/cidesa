@@ -1,0 +1,19 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cpcompro
+    theme:            cidesaGenerator
+
+    fields:
+      refcomd:   { name: Referencia Desde }
+      refcomh:   { name: Referencia Hasta }
+      grip:   { name: .}
+
+    edit:
+      title:          Aprobación del Compromiso para su Causado por Lotes
+      display:
+        "Filtros":   [_refcomd, _refcomh]
+        "Compromisos":   [_grip ]
+      #display:        [stacon, abrstacon, stagob, abrstagob, stapre, abrstapre]
+      actions:
+        _save:        ~

@@ -1,0 +1,310 @@
+---
+propel: 
+  _attributes: 
+    package: lib.model  
+  ruta: 
+    _attributes: 
+      idMethod: native    
+    descripcion:
+      type: VARCHAR
+      size: 100
+      required: true 
+    atestados_id: 
+      type: INTEGER
+      required: true
+      foreignTable: atestados
+      foreignReference: id
+      onDelete: 
+      onUpdate: 
+    atmunicipios_id: 
+      type: INTEGER
+      required: true
+      foreignTable: atmunicipios
+      foreignReference: id
+      onDelete: 
+      onUpdate: 
+    atparroquias_id: 
+      type: INTEGER
+      required: true
+      foreignTable: atparroquias
+      foreignReference: id
+      onDelete: 
+      onUpdate:
+    zona_limi_desde:
+      type: VARCHAR
+      size: 100
+      required: true  
+    zona_limi_hasta:
+      type: VARCHAR
+      size: 100
+      required: true           
+    dia_visita:
+      type: INTEGER
+      required: true
+    dia_despacho:
+      type: INTEGER
+      required: true
+    status:
+      type: VARCHAR
+      size: 1
+      required: true   
+    id: 
+      type: INTEGER
+      required: true
+      autoIncrement: true
+      primaryKey: true 
+  metas: 
+    _attributes: 
+      idMethod: native    
+    vendedores_id:
+      type: INTEGER
+      required: true 
+      foreignTable: vendedores
+      foreignReference: id 
+    catproductos_id: 
+      type: INTEGER
+      required: true
+      foreignTable: catproductos
+      foreignReference: id 
+    cantidad: 
+      type: INTEGER
+      required: true
+    mes_asignacion:
+      type: INTEGER
+      required: true  
+    anio_asignacion:
+      type: INTEGER
+      required: true           
+    status:
+      type: VARCHAR
+      size: 1
+      required: true   
+    id: 
+      type: INTEGER
+      required: true
+      autoIncrement: true
+      primaryKey: true 
+  rutavendedor: 
+    _attributes: 
+      idMethod: native    
+    atestados_id: 
+      type: INTEGER
+      required: true
+      foreignTable: atestados
+      foreignReference: id
+      onDelete: 
+      onUpdate: 
+    atmunicipios_id: 
+      type: INTEGER
+      required: true
+      foreignTable: atmunicipios
+      foreignReference: id
+      onDelete: 
+      onUpdate: 
+    atparroquias_id: 
+      type: INTEGER
+      required: true
+      foreignTable: atparroquias
+      foreignReference: id
+      onDelete: 
+      onUpdate:     
+    facliente_id:
+      type: INTEGER
+      required: true
+      foreignTable: facliente
+      foreignReference: id
+    vendedores_id:
+      type: INTEGER
+      required: true 
+      foreignTable: vendedores
+      foreignReference: id    
+    fecha_visita:
+      type: DATE
+      required: true
+    fecha_despacho:
+      type: DATE
+      required: true
+    status:
+      type: VARCHAR
+      size: 1
+      required: true   
+    id: 
+      type: INTEGER
+      required: true
+      autoIncrement: true
+      primaryKey: true  
+  vendedores: 
+    _attributes: 
+      idMethod: native    
+    codcon: 
+      type: VARCHAR
+      size: 16
+      required: false 
+    nomcon: 
+      type: VARCHAR
+      size: 510
+      required: false
+    dircon: 
+      type: VARCHAR
+      size: 1000
+      required: false
+    telcon: 
+      type: VARCHAR
+      size: 20
+      required: false
+    faxcon: 
+      type: VARCHAR
+      size: 20
+      required: false
+    email: 
+      type: VARCHAR
+      size: 40
+      required: false
+    percon: 
+      type: VARCHAR
+      size: 510
+      required: false
+    id: 
+      type: INTEGER
+      required: true
+      autoIncrement: true
+      primaryKey: true  
+  radarventas: 
+    _attributes: 
+      idMethod: native 
+    ruta_id: 
+      type: INTEGER
+      required: true
+      foreignTable: ruta
+      foreignReference: id 
+    facliente_id:
+      type: INTEGER
+      required: true
+      foreignTable: facliente
+      foreignReference: id   
+    vendedores_id:
+      type: INTEGER
+      required: true 
+      foreignTable: vendedores
+      foreignReference: id 
+    fafactur_id: 
+      type: INTEGER
+      required: false
+      foreignTable: fafactur
+      foreignReference: id 
+    fecha: 
+      type: DATE
+      required: true
+    status:
+      type: VARCHAR
+      size: 1
+      required: true
+    id: 
+      type: INTEGER
+      required: true
+      autoIncrement: true
+      primaryKey: true 
+  rutacliente: 
+    _attributes: 
+      idMethod: native 
+    ruta_id: 
+      type: INTEGER
+      required: true
+      foreignTable: ruta
+      foreignReference: id 
+    facliente_id:
+      type: INTEGER
+      required: true
+      foreignTable: facliente
+      foreignReference: id   
+    status:
+      type: VARCHAR
+      size: 1
+      required: true       
+    id: 
+      type: INTEGER
+      required: true
+      autoIncrement: true
+      primaryKey: true 
+  rutavendedores: 
+    _attributes: 
+      idMethod: native 
+    ruta_id: 
+      type: INTEGER
+      required: true
+      foreignTable: ruta
+      foreignReference: id 
+    vendedores_id:
+      type: INTEGER
+      required: true
+      foreignTable: vendedores
+      foreignReference: id   
+    status:
+      type: VARCHAR
+      size: 1
+      required: true       
+    id: 
+      type: INTEGER
+      required: true
+      autoIncrement: true
+      primaryKey: true 
+  catproductos: 
+    _attributes: 
+      idMethod: native 
+    codart:
+      type: VARCHAR
+      size: 20
+      required: false
+    desart:
+      type: VARCHAR
+      size: 1500
+      required: false
+    id: 
+      type: INTEGER
+      required: true
+      autoIncrement: true
+      primaryKey: true 
+  cuentaxcobrar_clientes: 
+    _attributes: 
+      idMethod: native 
+    codcliente:
+      type: VARCHAR
+      size: 15
+      required: true
+    cliente:
+      type: VARCHAR
+      size: 1500
+      required: true
+    cuentaxcobrar: 
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    id: 
+      type: INTEGER
+      required: true
+      autoIncrement: true
+      primaryKey: true 
+  detradarventas: 
+    _attributes: 
+      idMethod: native 
+    radarventas_id:
+      type: INTEGER
+      required: true
+      foreignTable: radarventas
+      foreignReference: id  
+    codart:
+      type: VARCHAR
+      size: 20
+      required: true
+    cantot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    id: 
+      type: INTEGER
+      required: true
+      autoIncrement: true
+      primaryKey: true 
+

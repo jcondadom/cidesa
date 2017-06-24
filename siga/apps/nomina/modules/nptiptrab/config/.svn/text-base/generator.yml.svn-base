@@ -1,0 +1,29 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npdefttrab
+    theme:            cidesaGenerator
+    fields:
+      codttrab: { name: Código, params : size=5 maxlength=4  onFocus=readonly(this.id) onBlur="this.value=this.value.pad(4, '0',0);"}
+      desttrab: { name: Descripción, params : size=80 maxlength=250}
+    list:
+      title:          Tipos de Trabajador
+      filters:        [codttrab, desttrab]
+      fields:      
+        codttrab: { name: Código, params : size=5 maxlength=4}
+        desttrab: { name: Descripción, params : size=20 maxlength=250}
+      display:        [=codttrab, desttrab]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codttrab      
+    edit:
+      title:          Edición  de Tipo de Trabajador
+      display:
+        "NONE":   [codttrab, desttrab]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

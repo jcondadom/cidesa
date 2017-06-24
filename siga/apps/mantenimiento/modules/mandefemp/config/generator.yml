@@ -1,0 +1,18 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Mandefemp
+    theme:            cidesaGenerator
+    fields:
+      codemp:    { name: Código, params: size=15 readOnly=true}
+      nomemp:    { name: Nombre, params: size=80 readOnly=true}
+      diremp:    { name: Dirección, params: size=80 readOnly=true}
+      telemp:    { name: Telefono, params: size=20 readOnly=true}      
+      corord:    { name: Orden de Trabajo }
+    edit:
+      title:          Definiciones Generales
+      display:
+        "Datos de la Empresa":   [nomemp, diremp, telemp]
+        "Correlativos": [corord]
+      actions:
+        _save:        ~

@@ -1,0 +1,57 @@
+methods:
+  post:
+   - "fcotring{nrocon}"
+   - "fcotring{fecreg}"
+   - "fcotring{rifcon}"
+   - "fcotring{fecrec}"
+
+names:
+  fcotring{nrocon}:
+    required:  Yes
+    required_msg: El Número de Control no puede estar en Blanco
+    validators: NroconUnique1Validator, NroconUnique2Validator, NroconUnique3Validator
+
+  fcotring{fecreg}:
+    required:  Yes
+    required_msg: La Fecha de Registro no puede estar en Blanco
+    validators: Fecha2Validator
+
+  fcotring{rifcon}:
+    required:  Yes
+    required_msg: La C.I/RIF del Contribuyente no puede estar en Blanco
+
+  fcotring{fecrec}:
+    required:  Yes
+    required_msg: La Fecha de Recepción no puede estar en Blanco
+    validators: Fecha2Validator
+
+NroconUnique1Validator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Fcotring
+        column:   nrocon
+        unique_error:   EL Número de Control ya existe. Por Favor, Cambiélo por otro.
+
+NroconUnique2Validator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Fcdeclar
+        column:   numdec
+        unique_error:   EL Número de Control ya pertenece a una Declaración. Por Favor, Cambiélo por otro.
+
+NroconUnique3Validator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Fcpagos
+        column:   numpag
+        unique_error:   EL Número de Control ya pertenece a un Pago. Por Favor, Cambiélo por otro.
+
+Fecha2Validator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es inválida
+
+
+

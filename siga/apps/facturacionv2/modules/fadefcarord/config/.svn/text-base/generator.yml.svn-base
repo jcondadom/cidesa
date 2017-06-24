@@ -1,0 +1,19 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fadefcarord
+    theme:            cidesaGenerator
+    fields:
+      nivfam:       {name: Formato de la Familia}
+      codprg:       {name: Programa por Defecto}
+      conpagpre_id: {name: Condición de Pago para Lista de Precio}
+      conpagped_id: {name: Condición de Pago para el Pedido}
+      
+    edit:
+      title:          Definiciones Especiales de Carta Orden
+      display:
+        "NONE": [_nivfam, codprg, _conpagpre_id, _conpagped_id]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      NONE

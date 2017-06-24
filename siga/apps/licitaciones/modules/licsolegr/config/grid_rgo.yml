@@ -1,0 +1,47 @@
+opciones:                  # Opciones generales
+  name:                    d
+  eliminar:                false
+  tabla:                   Lisolegrrgofac
+  anchogrid:               900
+  ancho:                   850
+  filas:                   0
+  titulo:                  ' Otros Recargos Generales '
+  htmltotalfilas:          ' '
+1:       # Columna 4
+  titulo:                  Recargo
+  tipo:                    t
+  nombrecampo:             codrgo
+  esgrabable:              true
+  html:                    [ size=10 readonly=true onBlur="CalculaRecargo(this.id)"]
+2:       # Columna 5
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nomrgo
+  esgrabable:              false
+  html:                    [ size=50 readonly=true ]
+3:       # Columna 4
+  titulo:                  Monto Calculado
+  tipo:                    m
+  nombrecampo:             monrgo
+  esgrabable:              true
+  html:                    [ readonly=true size=10]
+4:       # Columna 4
+  titulo:                  Tipo
+  tipo:                    t
+  nombrecampo:             tiprgo
+  oculta:                  true
+  esgrabable:              false
+  html:                    [ readonly=true size=5 ]
+5:       # Columna 4
+  titulo:                  Monto Recargo
+  tipo:                    m
+  nombrecampo:             monto
+  oculta:                  true
+  esgrabable:              false
+  html:                    [ readonly=true size=10 ]
+6:       # Columna 4
+  titulo:                  Monto Calculado Moneda Extranjera
+  tipo:                    m
+  nombrecampo:             monrgoe
+  esgrabable:              true
+  html:                    [ readonly=true size=10]

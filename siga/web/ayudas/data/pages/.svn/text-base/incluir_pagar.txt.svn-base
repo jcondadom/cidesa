@@ -1,0 +1,32 @@
+====== Operación Incluir ======
+
+Para **registrar** un Pagado debe: <html><br><br></html>
+
+  * Ingresar la **Referencia** del Pagado. <html><br><br></html>
+
+  * Ingresar la **Fecha** en la que se registra el Pagado.  <html><br><br></html>
+
+  * Seleccionar el **Tipo de Pagado**.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprepagarinc1.jpg|}}"></div><br></html>
+
+  * En la sección **Tipo de Pagado** seleccionamos el **Código del Tipo de Pago** al cual se refiere el movimiento. <html><br><br></html>
+
+  * En la sección Saldos encontramos **Ajustado** que indica el monto ajustado al Pagado, en caso de que exista. Una vez que se realiza un ajuste, el Sistema lo actualiza automáticamente y **Pagar** que indica el monto pendiente por Pagar con respecto al monto total pagado.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprepagarinc2.jpg|}}"></div><br></html>
+
+  * En **Código del Beneficiario** seleccionamos a la persona natural ó jurídica con quien se ha adquirido un compromiso.<html><br><br></html>
+
+  * En **Referencia** se selecciona el número del Causado, en caso que el Pagado refiera a un causado.<html><br><br></html>
+
+  * En **Monto Pagado** se hace referencia al monto por el cual se esta realizando el pagado.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contprepagarinc3.jpg|}}"></div><br></html>
+
+  * Si se está Pagando un Causado; al momento de seleccionar dicho Causado automáticamente se cargan las Imputaciones Presupuestarias. <html><br><br></html>
+
+  * El sistema calcula y muestra el Monto Total Pagado, el Monto Disponible por cada Código Presupuestario, los saldos y el monto de los ajustes en caso de existir.
+
+
+

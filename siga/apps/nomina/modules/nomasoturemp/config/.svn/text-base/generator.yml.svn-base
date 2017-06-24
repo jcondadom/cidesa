@@ -1,0 +1,34 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npturemp
+    theme:            cidesaGenerator
+    fields:
+      codtur:
+        name: Turno
+        params: maxlength=3
+        catalogo:
+          catalogoweb: Npturnos_Nomasoturemp
+          clase: Npturnos
+          ajax: 1
+          parametros: getprincipal="getCodtur" getsecundario="getDestur" campoprincipal="codtur" camposecundario="destur" campobase = "id"
+      fecini: { name: Fecha de Inicio, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      fecfin: { name: Fecha de Fin, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      codnom:
+        name: Nómina
+        params: maxlength=3
+        catalogo:
+          catalogoweb: Npnomina_nomdefespvar
+          clase: Npnomina
+          ajax: 2
+          parametros: getprincipal="getCodnom" getsecundario="getNomnom" campoprincipal="codnom" camposecundario="nomnom" campobase = "id"
+          divupdate: divgrid
+          ajaxparams: +'."'".'&turno='."'+$('npturemp_codtur').value+'".'&fecini='."'+$('npturemp_fecini').value+'".'&fecfin='."'+$('npturemp_fecfin').value".'
+      grid: { name: .}
+    edit:
+      title:          Asociación de Turnos a Empleados
+      display:
+        "Datos":  [codtur, fecini, fecfin, codnom]
+        "Empleados": [_grid]
+      actions:
+        _save:        ~

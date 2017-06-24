@@ -1,0 +1,20 @@
+====== Operación Incluir ======
+
+Para **Registrar** la Definición Presupuestaria de Liquidación: <html><br><br></html>
+
+  * Presione el Botón {{:btnnuevo.jpg|}} 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefpreliqinc1.jpg|}}"></div><br></html>
+
+  * Seleccione el **Código del Tipo de Nómina** para la cual vas a realizar la Liquidación Presupuestaria.<html><br><br></html>
+
+  * Seguidamente seleccione el Concepto bajo el cual realizará la liquidación presupuestaria,aqui se cargan aquellos conceptos que solo se utilizan específicamente para la liquidación de las partidas prsupuestarias.<html><br><br></html>
+
+  * Por último en la tabla defina los siguientes datos:
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** En la columna **Código de la Partida** presione el Botón {{:btnconsultagrid.jpg|}} para que el,sistema muestre un catálogo de partidas donde debe seleccionar aquellas partidas presupuestarias a liquidar bajo el Tipo de Nómina y Concepto seleccionado.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** En la columna **Fecha Desde** y **Fecha Hasta** seleccione del calendario las respectivas fechas entre las cuales serán imputadas las partidas. <html><br><br></html>
+
+  * Presione el Botón{{:btnguardar.jpg|}} para registrar la información.
+

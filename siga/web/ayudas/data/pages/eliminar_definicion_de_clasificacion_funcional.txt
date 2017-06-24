@@ -1,0 +1,19 @@
+====== Operación Eliminar ======
+
+Para **Eliminar** una determinada Clasificación Funcional:<html><br><br></html>
+
+  * Presione el Botón  {{:btnlista.jpg|}}   <html><br><br></html>
+
+  * Seleccionar de la **Lista** el **Código** de la **Clasificación Funcional** a eliminar. 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedefclafunmod.jpg|}}"></div><br></html>
+
+  * El sistema muestra la información de la Clasificación Funcional seleccionada.
+
+  * Presione el Botón   {{:btnborrar.jpg|}}    <html><br><br></html>
+
+  * El sistema emite un mensaje de confirmación antes de eliminar
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br></html>
+
+  * Presione **Aceptar**     <html><br><br></html>
+
+  * El sistema automáticamente muestra la **Lista** con las **Clasificaciones Funcionales** registradas, donde podrá verificar que el registro fué eliminado con éxito.

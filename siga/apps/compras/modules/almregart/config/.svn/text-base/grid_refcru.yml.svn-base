@@ -1,0 +1,21 @@
+opciones:                  # Opciones generales
+  name:                    h
+  eliminar:                true
+  tabla:                   carefcruart
+  anchogrid:               600
+  ancho:                   550
+  filas:                   1
+  titulo:                  ' Referencia Cruzada '
+  htmltotalfilas:          ' '
+1:
+  titulo:                  Stock Code
+  tipo:                    t
+  nombrecampo:             stccod
+  esgrabable:              true
+  html:                    ["size=10 maxlength=32"]
+2:
+  titulo:                  Referencia
+  tipo:                    c
+  nombrecampo:             refere
+  esgrabable:              true
+  html:                    [ ]

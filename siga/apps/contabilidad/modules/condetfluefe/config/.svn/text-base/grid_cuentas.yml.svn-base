@@ -1,0 +1,23 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   contacuetit
+  anchogrid:               680
+  ancho:                   680
+  filas:                   1
+  titulo:                  ' Detalle de Cuentas '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             codcta
+  html:                    ["size=20 readonly=false"]
+  esgrabable:              true
+  ajaxgrid:                true
+  catalogo:                [contabb, sf_admin_edit_form, { codcta: 1, descta: 2 }, Contabb_Condetfluefe]
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             descta
+  html:                    ["size=60 readonly=true"]
+  esgrabable:              true

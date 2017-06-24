@@ -1,0 +1,1469 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repositorio/!svn/ver/61952/web/php/siga/branches/productions/trunk/lib/model/compras/om
+END
+BaseCatipsal.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCatipsal.php
+END
+BaseCaalmpda.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaalmpda.php
+END
+BaseCaordcomPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/59119/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaordcomPeer.php
+END
+BaseCadetentPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/58513/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadetentPeer.php
+END
+BaseCaconmerPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaconmerPeer.php
+END
+BaseCaordconPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/58497/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaordconPeer.php
+END
+BaseCaconpro.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaconpro.php
+END
+BaseCadefcenPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadefcenPeer.php
+END
+BaseCarampro.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCarampro.php
+END
+BaseCatipempsnc.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCatipempsnc.php
+END
+BaseCaunifor.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaunifor.php
+END
+BaseCadisrgoPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/49715/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadisrgoPeer.php
+END
+BaseCaranrot.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/61387/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaranrot.php
+END
+BaseCaartdphserPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartdphserPeer.php
+END
+BaseCacotdisrgoPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCacotdisrgoPeer.php
+END
+BaseCainvfisubiPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCainvfisubiPeer.php
+END
+BaseCainvfisPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCainvfisPeer.php
+END
+BaseCagrucla.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCagrucla.php
+END
+BaseCasolcotPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/51897/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCasolcotPeer.php
+END
+BaseCadetpagPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadetpagPeer.php
+END
+BaseCadphart.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/55585/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadphart.php
+END
+BaseCaordcom.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/59119/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaordcom.php
+END
+BaseCadetent.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/58513/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadetent.php
+END
+BaseCaconmer.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaconmer.php
+END
+BaseCadetordc.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadetordc.php
+END
+BaseCareqartserPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCareqartserPeer.php
+END
+BaseCasalalmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/60878/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCasalalmPeer.php
+END
+BaseCasolrazPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCasolrazPeer.php
+END
+BaseCadisrgo.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49715/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadisrgo.php
+END
+BaseCadefgar.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/57023/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadefgar.php
+END
+BaseCafirdocprePeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/55208/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCafirdocprePeer.php
+END
+BaseCaunialartPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/59850/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaunialartPeer.php
+END
+BaseCatraalmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/58470/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCatraalmPeer.php
+END
+BaseCaartalmubiPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartalmubiPeer.php
+END
+BaseCacotdisrgo.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCacotdisrgo.php
+END
+BaseCadefunimed.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/53241/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadefunimed.php
+END
+BaseCarancotPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCarancotPeer.php
+END
+BaseCasolcot.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/51897/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCasolcot.php
+END
+BaseCausuuniPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCausuuniPeer.php
+END
+BaseCadepreg.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/59729/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadepreg.php
+END
+BaseCaprelevadesPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/59729/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaprelevadesPeer.php
+END
+BaseCaentordPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaentordPeer.php
+END
+BaseCasalalm.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/60878/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCasalalm.php
+END
+BaseCaequiart.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaequiart.php
+END
+BaseCadefubiPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadefubiPeer.php
+END
+BaseCareqartPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/59411/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCareqartPeer.php
+END
+BaseCafirdocpre.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/55208/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCafirdocpre.php
+END
+BaseCaordforentPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaordforentPeer.php
+END
+BaseCaparfabartPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/60896/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaparfabartPeer.php
+END
+BaseCapretevadesPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/59729/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCapretevadesPeer.php
+END
+BaseCarecaudPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCarecaudPeer.php
+END
+BaseCaunialart.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/59850/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaunialart.php
+END
+BaseCamedcomPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCamedcomPeer.php
+END
+BaseCaretserPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaretserPeer.php
+END
+BaseCatiptransPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCatiptransPeer.php
+END
+BaseCadefartPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/60616/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadefartPeer.php
+END
+BaseCadetcot.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/61886/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadetcot.php
+END
+BaseCaartdph.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartdph.php
+END
+BaseCaprocomartPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaprocomartPeer.php
+END
+BaseCaconpagPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaconpagPeer.php
+END
+BaseCaramart.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaramart.php
+END
+BaseCatiprec.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCatiprec.php
+END
+BaseCadetfirdocprePeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/55208/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadetfirdocprePeer.php
+END
+BaseCaregionesPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaregionesPeer.php
+END
+BaseCaartnosadaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/61021/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartnosadaPeer.php
+END
+BaseCarecpro.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCarecpro.php
+END
+BaseCaentord.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaentord.php
+END
+BaseCatipalmpv.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCatipalmpv.php
+END
+BaseCamotfalPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCamotfalPeer.php
+END
+BaseCadettraPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/59639/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadettraPeer.php
+END
+BaseCatipalmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCatipalmPeer.php
+END
+BaseCarecaud.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCarecaud.php
+END
+BaseCaartfec.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartfec.php
+END
+BaseCadefart.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/60616/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadefart.php
+END
+BaseCaconpag.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaconpag.php
+END
+BaseCaartreqser.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/49636/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartreqser.php
+END
+BaseCaconclaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaconclaPeer.php
+END
+BaseCaregiones.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaregiones.php
+END
+BaseCaproveePeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/61952/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaproveePeer.php
+END
+BaseCadetsolcotPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/51897/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadetsolcotPeer.php
+END
+BaseCaartsolPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/61886/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartsolPeer.php
+END
+BaseCadettra.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/59639/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadettra.php
+END
+BaseCadefcenacoPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadefcenacoPeer.php
+END
+BaseCadefdiviPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/50261/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadefdiviPeer.php
+END
+BaseCapdaoc.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCapdaoc.php
+END
+BaseCacorrel.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/51897/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCacorrel.php
+END
+BaseCaproretPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaproretPeer.php
+END
+BaseCaevadespro.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/60468/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaevadespro.php
+END
+BaseCaartalmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartalmPeer.php
+END
+BaseCaunicenPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaunicenPeer.php
+END
+BaseCaartreq.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartreq.php
+END
+BaseCabancoPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCabancoPeer.php
+END
+BaseCaconcla.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaconcla.php
+END
+BaseCaregartPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/61387/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaregartPeer.php
+END
+BaseCaartaltPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/57250/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartaltPeer.php
+END
+BaseCadefalmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48690/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadefalmPeer.php
+END
+BaseCausualm.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCausualm.php
+END
+BaseCadefcenaco.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadefcenaco.php
+END
+BaseCatipsalPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCatipsalPeer.php
+END
+BaseCaalmpdaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaalmpdaPeer.php
+END
+BaseCaproret.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaproret.php
+END
+BaseCaordconpag.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaordconpag.php
+END
+BaseCadetsal.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/58513/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadetsal.php
+END
+BaseCaconproPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaconproPeer.php
+END
+BaseCaramproPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaramproPeer.php
+END
+BaseCadetpdaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadetpdaPeer.php
+END
+BaseCadefcla.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadefcla.php
+END
+BaseCatipempsncPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCatipempsncPeer.php
+END
+BaseCauniforPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCauniforPeer.php
+END
+BaseCaentalm.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/60878/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaentalm.php
+END
+BaseCadefdirecPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/59326/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadefdirecPeer.php
+END
+BaseCaunicen.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaunicen.php
+END
+BaseCaunitridirPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/55231/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaunitridirPeer.php
+END
+BaseCaalmubiPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaalmubiPeer.php
+END
+BaseCaartalt.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/57250/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartalt.php
+END
+BaseCadphartser.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadphartser.php
+END
+BaseCadphartPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/55585/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadphartPeer.php
+END
+BaseCadetordcPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadetordcPeer.php
+END
+BaseCanivconsnc.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/61952/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCanivconsnc.php
+END
+BaseCadetpda.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadetpda.php
+END
+BaseCasolpagPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCasolpagPeer.php
+END
+BaseCadefgarPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/57023/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadefgarPeer.php
+END
+BaseCasolart.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/61952/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCasolart.php
+END
+BaseCadefdirec.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/59326/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadefdirec.php
+END
+BaseCaregestPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaregestPeer.php
+END
+BaseCaartrcpPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartrcpPeer.php
+END
+BaseCaunitridir.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/55231/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaunitridir.php
+END
+BaseCaforentPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaforentPeer.php
+END
+BaseCaalmubi.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaalmubi.php
+END
+BaseCaresordcomPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaresordcomPeer.php
+END
+BaseCarefcruartPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/61527/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCarefcruartPeer.php
+END
+BaseCadefunimedPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/53241/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadefunimedPeer.php
+END
+BaseCaajuocPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaajuocPeer.php
+END
+BaseCatipentPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCatipentPeer.php
+END
+BaseCargosolPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCargosolPeer.php
+END
+BaseCadepregPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/59729/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadepregPeer.php
+END
+BaseCadefcen.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadefcen.php
+END
+BaseCaordcon.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/58497/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaordcon.php
+END
+BaseCasolpag.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCasolpag.php
+END
+BaseCaequiartPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaequiartPeer.php
+END
+BaseCaentpdaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/49767/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaentpdaPeer.php
+END
+BaseCaregest.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaregest.php
+END
+BaseCaartrcp.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartrcp.php
+END
+BaseCaporressocPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/55634/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaporressocPeer.php
+END
+BaseCaartdphser.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartdphser.php
+END
+BaseCaforent.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaforent.php
+END
+BaseCaresordcom.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaresordcom.php
+END
+BaseCarefcruart.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/61527/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCarefcruart.php
+END
+BaseCaartdphPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartdphPeer.php
+END
+BaseCadetcotPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/61886/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadetcotPeer.php
+END
+BaseCainvfis.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCainvfis.php
+END
+BaseCainvfisubi.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCainvfisubi.php
+END
+BaseCacroconPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCacroconPeer.php
+END
+BaseCaajuoc.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaajuoc.php
+END
+BaseCatalogoPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCatalogoPeer.php
+END
+BaseCaramartPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaramartPeer.php
+END
+BaseCatiprecPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCatiprecPeer.php
+END
+BaseCatipent.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCatipent.php
+END
+BaseCadetpag.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadetpag.php
+END
+BaseCargosol.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCargosol.php
+END
+BaseCarecproPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCarecproPeer.php
+END
+BaseCaartordPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartordPeer.php
+END
+BaseCarazcomPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCarazcomPeer.php
+END
+BaseCareqartser.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCareqartser.php
+END
+BaseCatipalmpvPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCatipalmpvPeer.php
+END
+BaseCarelartsigaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCarelartsigaPeer.php
+END
+BaseCasolraz.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCasolraz.php
+END
+BaseCafiaconPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCafiaconPeer.php
+END
+BaseCaentpda.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49767/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaentpda.php
+END
+BaseCaporressoc.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/55634/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaporressoc.php
+END
+BaseCaartfecPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartfecPeer.php
+END
+BaseCaartalmubi.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartalmubi.php
+END
+BaseCatraalm.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/58470/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCatraalm.php
+END
+BaseCacrocon.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCacrocon.php
+END
+BaseCaartreqserPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/49637/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartreqserPeer.php
+END
+BaseCaartaocPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/56268/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartaocPeer.php
+END
+BaseCatalogo.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCatalogo.php
+END
+BaseCarancot.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCarancot.php
+END
+BaseCausuuni.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCausuuni.php
+END
+BaseCaclagruPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaclagruPeer.php
+END
+BaseCaprelevades.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/59729/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaprelevades.php
+END
+BaseCaartord.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartord.php
+END
+BaseCarazcom.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCarazcom.php
+END
+BaseCarelartsiga.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCarelartsiga.php
+END
+BaseCadefubi.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadefubi.php
+END
+BaseCareqart.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/59411/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCareqart.php
+END
+BaseCafiacon.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCafiacon.php
+END
+BaseCamigtxtvenPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCamigtxtvenPeer.php
+END
+BaseCapdaocPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCapdaocPeer.php
+END
+BaseCaordforent.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaordforent.php
+END
+BaseCacorrelPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/51897/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCacorrelPeer.php
+END
+BaseCaparfabart.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/60896/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaparfabart.php
+END
+BaseCapretevades.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/59729/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCapretevades.php
+END
+BaseCamedcom.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCamedcom.php
+END
+BaseCaretser.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaretser.php
+END
+BaseCatiptrans.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCatiptrans.php
+END
+BaseCaevadesproPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/60468/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaevadesproPeer.php
+END
+BaseCaartparPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartparPeer.php
+END
+BaseCaprocomart.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaprocomart.php
+END
+BaseCarcpartPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/58340/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCarcpartPeer.php
+END
+BaseCaartaoc.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/56268/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartaoc.php
+END
+BaseCaaplmonartPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/61527/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaaplmonartPeer.php
+END
+BaseCaartreqPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartreqPeer.php
+END
+BaseCadetfirdocpre.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/55208/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadetfirdocpre.php
+END
+BaseCaprocomPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaprocomPeer.php
+END
+BaseCaartnosada.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/61021/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartnosada.php
+END
+BaseCaclagru.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaclagru.php
+END
+BaseCarecargPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCarecargPeer.php
+END
+BaseCamotfal.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCamotfal.php
+END
+BaseCausualmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48799/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCausualmPeer.php
+END
+BaseCamigtxtven.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCamigtxtven.php
+END
+BaseCacontxtalmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCacontxtalmPeer.php
+END
+BaseCatipalm.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCatipalm.php
+END
+BaseCacatsncPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCacatsncPeer.php
+END
+BaseCaordconpagPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaordconpagPeer.php
+END
+BaseCadetsalPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/58513/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadetsalPeer.php
+END
+BaseCaartpar.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartpar.php
+END
+BaseCatipproPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCatipproPeer.php
+END
+BaseCadefclaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadefclaPeer.php
+END
+BaseCarcpart.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/58340/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCarcpart.php
+END
+BaseCaentalmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/60878/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaentalmPeer.php
+END
+BaseCadesctoPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadesctoPeer.php
+END
+BaseCaaplmonart.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/61527/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaaplmonart.php
+END
+BaseCaprocom.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaprocom.php
+END
+BaseCaprovee.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/61952/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaprovee.php
+END
+BaseCadetsolcot.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/51897/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadetsolcot.php
+END
+BaseCarecarg.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCarecarg.php
+END
+BaseCaartsol.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/61886/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartsol.php
+END
+BaseCacotizaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/60271/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCacotizaPeer.php
+END
+BaseCadphartserPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadphartserPeer.php
+END
+BaseCacontxtalm.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCacontxtalm.php
+END
+BaseCadefdivi.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/50261/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadefdivi.php
+END
+BaseCacatsnc.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCacatsnc.php
+END
+BaseCanivconsncPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/61952/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCanivconsncPeer.php
+END
+BaseCatippro.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCatippro.php
+END
+BaseCaartalm.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaartalm.php
+END
+BaseCasolartPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/61952/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCasolartPeer.php
+END
+BaseCadescto.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadescto.php
+END
+BaseCaranrotPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/61387/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaranrotPeer.php
+END
+BaseCabanco.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repositorio/!svn/ver/49076/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCabanco.php
+END
+BaseCaregart.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/61387/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCaregart.php
+END
+BaseCadefalm.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/50410/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCadefalm.php
+END
+BaseCagruclaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/48609/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCagruclaPeer.php
+END
+BaseCacotiza.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repositorio/!svn/ver/60271/web/php/siga/branches/productions/trunk/lib/model/compras/om/BaseCacotiza.php
+END

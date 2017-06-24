@@ -1,0 +1,51 @@
+methods:
+  post:
+   - "ciliqing{refliq}"
+   - "ciliqing{fecliq}"
+   - "ciliqing{desliq}"
+names:
+  ciliqing{refliq}:
+    required:  Yes
+    required_msg: La Referencia de la LiquidaciÃ³n no puede estar en Blanco.
+    validators: UniqueValidator
+
+  ciliqing{fecliq}:
+    required:  Yes
+    required_msg: La Fecha no puede estar en Blanco
+    validators: FechaValidator2, FechaValidator
+
+  ciliqing{desliq}:
+    required:  Yes
+    required_msg: La DescripciÃ³n no puede estar en Blanco.
+    validators: Validator_desliq
+
+Validator_desliq:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripciÃ³n no puede tener menos de 2 caracteres
+        max:       500
+        min_error: La descripciÃ³n no puede tener mas de 500 caracteres
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Ciliqing
+        column:       refliq
+        unique_error: La Referencia de la LiquidaciÃ³n ya existe. Por Favor, CambiÃ©lo por otro.
+
+
+FechaValidator:
+    class:         CidesaDateNow
+    param:
+        compare: 'now'
+        compare_error: La Fecha no puede ser mayor a la Fecha Actual
+        operator: '<='
+        date_error:  Fecha InvÃ¡lida
+
+FechaValidator2:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invÃ¡lida

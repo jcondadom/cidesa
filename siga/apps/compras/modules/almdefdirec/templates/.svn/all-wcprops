@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/55176/web/php/siga/branches/productions/trunk/apps/compras/modules/almdefdirec/templates
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/50274/web/php/siga/branches/productions/trunk/apps/compras/modules/almdefdirec/templates/ajaxSuccess.php
+END
+editSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/55176/web/php/siga/branches/productions/trunk/apps/compras/modules/almdefdirec/templates/editSuccess.php
+END
+listSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/55176/web/php/siga/branches/productions/trunk/apps/compras/modules/almdefdirec/templates/listSuccess.php
+END

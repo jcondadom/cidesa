@@ -1,0 +1,16 @@
+====== Ordenes de Compra y/o Servicio ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite registrar todas las ordenes de Compra de artículos y todas las contrataciones de servicios que requieran y se vayan a prestar a alguna unidad de la Organización, de acuerdo al tipo de Orden seleccionado</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Compras** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcomp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Orden de Compra y/o Servicio**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmcompordcomser.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Orden de Compra y/o Servicio** veamos la [[Descripcion_Campos_Orden_Compra_Servicio|Descripción de los Campos]]

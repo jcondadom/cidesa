@@ -1,0 +1,27 @@
+opciones:                  # Opciones generales
+  name:                    d
+  eliminar:                true
+  tabla:                   viasolviatran
+  anchogrid:               550
+  ancho:                   500
+  filas:                   1
+  titulo:                  ' Transporte Terrestre'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Fecha
+  tipo:                    f
+  nombrecampo:             fecha
+  esgrabable:              true
+  html:                    [size="15" maxlength=20]
+2:       # Columna 2
+  titulo:                  Hora
+  tipo:                    t
+  nombrecampo:             hora
+  esgrabable:              true
+  html:                    [size="15" maxlength=20]
+3:       # Columna 3
+  titulo:                  Ruta
+  tipo:                    t
+  nombrecampo:             ruta
+  html:                    ["size=30x1 maxlength=200" ]
+  esgrabable:              true  

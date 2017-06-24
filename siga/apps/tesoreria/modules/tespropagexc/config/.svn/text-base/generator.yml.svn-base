@@ -1,0 +1,19 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Opordpag
+    theme:            cidesaGenerator
+    fields:
+      grid: { name: . }
+      numord: { name: . }
+      btnbuscar: { name: . }
+    edit:
+      title:          Generar Propuesta de Pago (Excel)
+      display:
+        "Filtros":  [_numord, _btnbuscar]
+        "Órdenes de Pago": [_grid]
+      hide:  [filasord]
+      actions:
+        _generar:
+          name: Generar
+          params: class="sf_admin_action_list" onClick="generar()"

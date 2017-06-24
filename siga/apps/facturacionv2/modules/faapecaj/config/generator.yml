@@ -1,0 +1,38 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Faapecaj
+    theme:            cidesaGenerator
+    
+    fields:
+      codalm:     { name: Código de Almacen}
+      codcaj:     { name: Código de Caja}
+      codusu:     { name: Usuario, params : size=50 maxlength=50  disabled=true}
+      fechorape:  { name: Fecha de Apertura}
+      monape:     { name: Monto de Apertura, params : size=35 maxlength=32 }
+      observ:     { name: Observaciones, type: textarea_tag, params: size=100x5 maxlength=500 onkeyup=" return ismaxlength(this)" }
+      stacaj:     { name: Estatus}
+
+    list:
+      codalm:     { name: Código de Almacen}
+      codcaj:     { name: Código de Caja }
+      codusu:     { name: Usuario, params : size=25 maxlength=50  disabled=false}
+      fechorape:  { name: Fecha de Apertura}
+      title:          Apertura de Caja
+      display:        [codalm, codcaj, codusu, fechorape, stacaj]
+      object_actions:
+        _edit:        NONE
+        _delete:      NONE
+      filters:        [codalm, codcaj, codusu, fechorape]
+      max_per_page:   10
+      sort:           codalm
+
+    edit:
+      title:          Apertura de Caja
+      display:
+        "NONE":       [_codalm, _codcaj, codusu, monape, observ]
+      hide: [stacaj]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:     NONE

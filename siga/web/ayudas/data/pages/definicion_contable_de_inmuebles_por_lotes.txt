@@ -1,0 +1,23 @@
+====== Definición Contable de Inmuebles por Lotes ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Proceso que permite definir, mantener el control y manejo de todos los activos inmuebles, que serán afectados en su contabilidad si así se especifica en el módulo de disposición.</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Bienes Nacionales** ubicada en el Menú Principal de **SIGA**
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:bienac.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Contabilidad de Activos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biecontact.jpg|}}"></div><br></html>
+ 
+  * Por último seleccione **Definición Contable**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedefcont.jpg|}}"></div><br></html>
+
+  * Por último seleccione **Definición Contable de Inmuebles por Lotes**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biedefcontinmenlotes.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Definición Contable de Inmuebles por Lote** veamos la [[Descripcion_Campos_bienes_definicion_contable_inmuebles_lote|Descripción de los Campos]]
+
+
+

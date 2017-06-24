@@ -1,0 +1,83 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cobtransa
+    theme:            cidesaGenerator
+    fields:
+      codcli: { name: Código Cliente }
+      nompro: { name: Nombre }
+      rifpro: { name: C.I. o R.I.F. , params: size=20 disabled=false readOnly=true}
+      numtra: { name: Nro. Transacción, params: size=12 maxlength=10 onFocus=readonly(this.id) onBlur="event.keyCode=13; enter(event,this.value)" }
+      fectra: { name: Fecha Emisión, params:  size=10 maxlength=10 onkeyup= "mascara(this,'/',patron,true)" }
+      fatipmov_id: { name: Tipo de Movimiento }
+      destra: { name: Descripción, type: textarea_tag, params: size=80x5 maxlength=1000 onkeyup="ismaxlength(this)"}
+      documentos: { name: .}
+      formasdepago: { name: .}
+      grid_recargos: { name: Recargos}
+      grid_descuentos: { name: Descuentos}
+      tottra: { name: Monto a Pagar, params: size=20 readOnly=true }
+      totret: { name: Total Retencion- Descuentos, params: size=20 disabled=false readOnly=true }
+      totant: { name: Total Anticipos, params: size=20 disabled=false readOnly=true }
+      botones: { name: .}
+      comprobante: { name: .}
+      codtip: { name: Tipo de Movimiento}
+      destip: { name: Descripción}
+      desanu: { name: Descripción}
+      fecanu: { name: Fecha Anulación}
+      estado: { name: Estado CA}
+      fecdes: { name: Fecha Desde, params:  size=10 maxlength=10 disabled=false onkeyup= "mascara(this,'/',patron,true)" }
+      fechas: { name: Fecha Hasta, params:  size=10 maxlength=10 disabled=false onkeyup= "mascara(this,'/',patron,true)" }
+      btnrec: { name: Aplicar Recargos a Todos los Documentos}
+      btndes: { name: Aplicar Descuentos a Todos los Documentos}
+      codcenaco:
+        name: Centro de Acopio
+        params: maxlength=20
+        catalogo:
+          catalogoweb: Cadefcenaco_Almsolegr
+          clase: Cadefcenaco
+          ajax: 7
+          parametros: getprincipal="getCodcenaco" getsecundario="getDescenaco" campoprincipal="codcenaco" camposecundario="descenaco" campobase = "id"
+      eti: { name: .}
+      grid_notcre: { name: .}
+      grid_detche: { name: .}
+      coddirec:
+        name: Dirección
+        params: maxlength=4
+        catalogo:
+          catalogoweb: Cadefdirec_Almdefdiv
+          clase: Cadefdirec
+          ajax: 13
+          parametros: getprincipal="getCoddirec" getsecundario="getDesdirec" campoprincipal="coddirec" camposecundario="desdirec" campobase = "id"
+      fecreg: { name: Fecha de Registro, params:  size=10 maxlength=10 }
+    list:
+      title:   Transacciones
+      display: [=numtra, destra, fectra, codcli, nompro ]
+      filters: [numtra, fectra, fecreg, codcli, nompro, codedo, nomedo, destra]
+      fields:
+        fectra:
+          params: date_format='dd/MM/yyyy'
+        destra:
+          params: size= 20 maxlength=1000
+      object_actions:
+       _edit:        ~
+       _delete:      ~
+      max_per_page:	  10
+      sort:    numtra
+
+    edit:
+      title:  Edición de Transacciones
+      display:
+        "Datos Generales": [_eti, numtra, fecreg, fectra, _fecdes, _fechas, _estado, codcenaco, _codcli, rifpro, _fatipmov_id, destra, coddirec, tottra, totret, totant, _comprobante]
+        "NONE": [_grid_recargos, _grid_descuentos, _botones]
+        "Documentos": [_btnrec, _btndes, _documentos]
+        "Formas de Pago": [_codtip, _grid_notcre, _grid_detche, _formasdepago]
+      hide:  [filasdet, totmonpag, totmonrec, totmondes, totmonnet, monpagado, filasfor, hayingreso, docfil, orifil, recvie, desvie, fildet, numcom, filgenmov, totalcomprobantes, idrefer, intercamfil, pagmaytra, filgennotcre, filasnot]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~
+        _anular:
+          name: Anular
+          only_for: edit
+          params: class="sf_admin_action_delete" onClick="anular()"

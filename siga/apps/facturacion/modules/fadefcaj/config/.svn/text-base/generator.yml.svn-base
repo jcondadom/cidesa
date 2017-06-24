@@ -1,0 +1,48 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fadefcaj
+    theme:            cidesaGenerator
+
+    fields:
+      impfishost: { name: Nombre de Host o IP }
+      impfisname: { name: Espacio de Trabajo }
+
+      descaj: { name: Descripción, validate: Vstring_1_100, msj_error: Debe insertar la descripción de la caja }
+      codalm:
+        name: Código del Almacen
+        params: maxlength=20
+        catalogo:
+          catalogoweb: Cadefalm_Almtraspaso
+          clase: Cadefalm
+          ajax: 1
+          parametros: getprincipal="getCodalm" getsecundario="getNomalm" campoprincipal="codalm" camposecundario="nomalm" campobase = "id"
+      conpag:
+        name: Forma de Pago
+        params: maxlength=4
+        catalogo:
+          catalogoweb: Codconpag_Fadefcaj
+          clase: Faconpag
+          ajax: 2
+          parametros: getprincipal="getConpag" getsecundario="getDesconpag" campoprincipal="conpag" camposecundario="desconpag" campobase = "id"          
+      grid: {name: .}
+      impfis: {name: .}
+    list:
+      title:          Cajas
+      display:        [=descaj]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [descaj, codalm]
+      max_per_page:   10
+
+    edit:
+      title:          Edición de Caja
+      display:        [descaj, codalm, conpag, _grid, _impfis]
+      fields:
+        descaj: { params: size=40}
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

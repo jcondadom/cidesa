@@ -1,0 +1,9 @@
+====== Filtros ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Permiten realizar una búsquedad más rápida ya que hace posible agrupar los registros en base a un determinado campo del mismo, los filtros pueden realizarse por ejemplo por **Código**, **Número**,** Descripción** ó **Grupo** entre otros. Para conocer el funcionamiento de los filtros tomamos la siguiente figura como ejemplo:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:filtro.jpg|}}"></div><br><br></html>
+
+  * En la figura anterior podemos observar que puede realizar un filtro de los registros existentes ya sea por **Código**, **Descripción** ó **Grupo**. Solo debe ingresar para cualquiera que sea el caso el campo por el cual desea filtrar y seguidamente presionar el Botón {{:btnfiltrar.jpg|}} y automáticamente la Lista solo mostrará aquellos registros que coincidan con el campo ingresado. <html><br><br></html>
+
+  * Si desea volver a la lista original sin filtros solo debe presionar el **Botón** {{:btnlimpiar.jpg|}} <html><br><br></html>

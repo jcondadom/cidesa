@@ -1,0 +1,33 @@
+opciones:                  # Opciones generales
+  name:                    f
+  eliminar:                true
+  tabla:                   npinfreg
+  anchogrid:               700
+  ancho:                   650
+  filas:                   1
+  titulo:                  'Régimen Disciplinario'
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Fecha
+  tipo:                    f
+  nombrecampo:             fecreg
+  esgrabable:              true
+  html:                    [size="15" maxlength=10]
+2:       # Columna 2
+  titulo:                  Tipo de Sanción
+  tipo:                    c
+  nombrecampo:             tipsan
+  html:                    [ ]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Motivo
+  tipo:                    a
+  nombrecampo:             motsan
+  html:                    ["size=40x1 maxlength=2000 onkeyup='return ismaxlength(this)'"]
+  esgrabable:              true
+4:       # Columna 4
+  titulo:                  Observación
+  tipo:                    a
+  nombrecampo:             observ
+  html:                    ["size=40x1 maxlength=2000 onkeyup='return ismaxlength(this)'"]
+  esgrabable:              true

@@ -1,0 +1,43 @@
+methods:
+  post:
+   - "mangrutra{codgru}"
+   - "mangrutra{desgru}"
+   - "mangrutra{codniv}"
+
+names:
+  mangrutra{codgru}:
+    required:  Yes
+    required_msg: Introduzca el Código del Grupo de Trabajo
+    validators: Validator_codgru
+    
+  mangrutra{desgru}:
+    required:  Yes
+    required_msg: Introduzca la Descripción del Grupo de Trabajo
+    validators: Validator_desgru
+
+  mangrutra{codniv}:
+    required:  Yes
+    required_msg: Introduzca la Ubicación Administrativa asociada al Grupo de Trabajo
+    validators: Validator_codniv    
+
+Validator_codgru:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Mangrutra
+        column:       codgru
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_desgru:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La Descripción no puede tener mas de 250 caracteres
+
+Validator_codniv:
+    class: CidesaExistValidator
+    param:
+        class:        Npestorg
+        column:       codniv
+        unique_error: La Unidad Administrativa debe Existir.        

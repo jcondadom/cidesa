@@ -1,0 +1,16 @@
+======Ramos de Artículos======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso en el que se incluyen los posibles ramos que pueda abastecer un artículo ó servicio..</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Artículos** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmart.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Ramos de Artículos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmartramosart.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Ramos de Artículos** veamos la [[Descripcion_Campos_Ramos_Artículos|Descripción de los Campos]]

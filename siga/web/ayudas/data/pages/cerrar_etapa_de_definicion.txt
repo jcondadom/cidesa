@@ -1,0 +1,21 @@
+====== Cerrar Etapa de Definición ======
+
+
+Tabla: CONTABA
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Este proceso es utilizado para no alterar los saldos iniciales de las cuentas contables, es necesario para poder generar o elaborar los comprobantes contables, una vez cerrada la etapa de definición los saldos no podrán ser modificados.</html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Una vez cerrado el período ya no se podrá generar ni actualizar comprobantes contables en la fecha de un periodo determinado, esto con el fin de preservar la información que ya ha sido revisada y garantizar la calidad de la misma.</html>
+
+Para ello:
+
+  * Seleccione la opción **Contabilidad Financiera** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/cfindefespins.jpg"></div><br></html>
+
+  * Despliegue la opción de **Definiciones Específicas** <html><br><br></html>
+
+  * Seleccione la opción **Cerrar Etapa de Definición**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/"></div><br></html>
+
+  * Automáticamente el sistema mostrará la pantalla correspondiente, donde debe presionar el **Botón Cerrar** para finalizar la **Etapa de Definición**.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:cfinceretadef1.jpg|}}"></div><br></html>

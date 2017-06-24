@@ -1,0 +1,14 @@
+====== Operación Modificar ======
+
+Para la operación de **Modificar** solo debe:  <html><br><br></html>
+
+  * Seleccionar la opción **Tabla para los Dias Feriados** .  <html><br><br></html>
+
+  * Automáticamente el sistema muestra la Tabla<html><br><br></html> 
+
+  * Las modificaciones que podrá realizar es "Agregar" elementos a la tabla. En caso contrario si desea "Quitar" elementos de la tabla que ya esten asociados debe realizarlo a través del Botón {{:btnquitar.jpg|}}.<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/"></div><br></html>
+
+  * Presionar {{:btnguardar.jpg|}} para actualizar la información.  <html><br><br></html> 
+
+  * El sistema emite un **Mensaje de Éxito**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjexito.jpg|}}"></div><br></html>

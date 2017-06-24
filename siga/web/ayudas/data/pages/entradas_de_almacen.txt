@@ -1,0 +1,16 @@
+====== Entradas de Almacén ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Proceso que permite registrar las entradas de los Artículos en un determinado Almacén. </html>
+
+**Para ello:**
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Almacén** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalm.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Entradas de Almacén**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmalmentalm.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Entradas de Almacén** veamos la [[Descripcion_Campos_Entradas_Almacén|Descripción de los Campos]]

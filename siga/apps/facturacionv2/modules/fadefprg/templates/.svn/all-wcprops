@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/48561/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fadefprg/templates
+END
+_diafin.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48561/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fadefprg/templates/_diafin.php
+END
+_diaini.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48561/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fadefprg/templates/_diaini.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fadefprg/templates/ajaxSuccess.php
+END
+_staprg.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48515/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fadefprg/templates/_staprg.php
+END
+_mesfin.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48561/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fadefprg/templates/_mesfin.php
+END
+_mesini.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/48561/web/php/siga/branches/productions/trunk/apps/facturacionv2/modules/fadefprg/templates/_mesini.php
+END

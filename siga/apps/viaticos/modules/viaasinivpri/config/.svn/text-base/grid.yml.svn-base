@@ -1,0 +1,29 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   vianivpri
+  anchogrid:               600
+  ancho:                   500
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Cód. Nivel
+  tipo:                    t
+  nombrecampo:             codniv
+  html:                    ["size=5 maxlength=2 "]
+  esgrabable:              true
+  ajaxgrid:                true
+  catalogo:                [Viadefniv, sf_admin_edit_form, {Codniv: 1, Desniv: 2}, viadefniv_codniv ]
+2:       # Columna 2  
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desniv
+  html:                    ["size=50 readOnly=true "]
+3:       # Columna 3
+  titulo:                  Monto %
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monpor
+  esnumerico:              true
+  html:                    ["size=10"]  

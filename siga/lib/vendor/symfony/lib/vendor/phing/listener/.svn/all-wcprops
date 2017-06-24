@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/listener
+END
+AnsiColorLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/listener/AnsiColorLogger.php
+END
+defaults.properties
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/listener/defaults.properties
+END
+BuildLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/listener/BuildLogger.php
+END
+XmlLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/listener/XmlLogger.php
+END
+NoBannerLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/listener/NoBannerLogger.php
+END
+DefaultLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/listener/DefaultLogger.php
+END
+PearLogger.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/vendor/phing/listener/PearLogger.php
+END

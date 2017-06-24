@@ -1,0 +1,136 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npconftxtcestic
+    theme:            cidesaGenerator
+    fields:
+      tiptxt: { name: Tipo de TXT}
+      initipre1: { name: Tipo de Registro (Posición)}
+      lontipre1: { name: Tipo de Registro (Longitud)}
+      initipdo1: { name: Tipo de Documento (Posición)}
+      lontipdo1: { name: Tipo de Documento (Longitud)}
+      iniideemp: { name: N° de Identificación (Posición)}
+      lonideemp: { name: N° de Identificación (Longitud)}
+      ininumlo1: { name: N° de Lote (Posición)}
+      finnumlo1: { name: N° de Lote (Longitud)}
+      ininomemp: { name: Nombre de la Empresa (Posición)}
+      finnomemp: { name: Nombre de la Empresa (Longitud)}
+      inicanreg: { name: Cantidad de registros (Posición)}
+      fincanreg: { name: Cantidad de registros (Longitud)}
+      inicodpla: { name: Cód. del Plan (Posición)}
+      fincodpla: { name: Cód. del Plan (Longitud)}
+      inifecgen: { name: Fecha Gen. Archivo DD/MM/AA(Posición)}
+      finfecgen: { name: Fecha Gen. Archivo DD/MM/AA(Longitud)}
+      inihorgen: { name: Hora de Gen. Archivo HH:MM:SS (Posición)} 
+      finhorgen: { name: Hora de Gen. Archivo HH:MM:SS (Longitud)}
+      inicodre1: { name: Cód. de Respuesta (Posición)} 
+      fincodre1: { name: Cód. de Respuesta (Longitud)}
+      ininomarc: { name: Nombre del archivo (Posición)} 
+      finnomarc: { name: Nombre del archivo (Longitud)}
+      inifille1: { name: Filler (Posición)} 
+      finfille1: { name: Filler (Longitud)}    
+      iniidere1: { name: Identificación de Registro (Posición)} 
+      lonidere1: { name: Identificación de Registro (Longitud)} 
+      ininrocon: { name: N° consecutivo de control para el archivo (Posición)} 
+      finnrocon: { name: N° consecutivo de control para el archivo (Longitud)}
+      inifecefe: { name: Fecha Efectiva del Pago DD/MM/AA (Posición)} 
+      finfecefe: { name: Fecha Efectiva del Pago DD/MM/AA (Longitud)}
+      inimontot: { name: Monto total de la nomina  (Posición)} 
+      finmontot: { name: Monto total de la nomina  (Longitud)}
+      inicentr1: { name: Central (Posición)} 
+      loncentr1: { name: Central (Longitud)}
+      iniespbla: { name: Espacios en Blanco (Posición)} 
+      lonespbla: { name: Espacios en Blanco (Longitud)}
+      inicodba1: { name: Cód. del banco (Posición)} 
+      loncodba1: { name: Cód. del banco (Longitud)}
+      inirifem1: { name: N° de Rif de la Empresa (Posición)} 
+      lonrifem1: { name: N° de Rif de la Empresa (Longitud)}
+      initipnom: { name: Tipo de Nómina (Posición)} 
+      lontipnom: { name: Tipo de Nómina (Longitud)}
+
+      initipre2: { name: Tipo de Registro (Posición)} 
+      lontipre2: { name: Tipo de Registro (Longitud)}
+      initipdo2: { name: Tipo de Documento (Posición)}
+      lontipdo2: { name: Tipo de Documento (Longitud)}
+      ininroced: { name: N° de Cédula o Pasaporte (Posición)}
+      lonnroced: { name: N° de Cédula o Pasaporte (Longitud)}
+      inipriape: { name: Primer Apellido (Posición)}
+      lonpriape: { name: Primer Apellido (Longitud)}
+      inifille2: { name: Filler (Posición)}
+      lonfille2: { name: Filler (Longitud)}
+      inisegape: { name: Inicial del Segundo Apellido (Posición)}
+      lonsegape: { name: Inicial del Segundo Apellido (Longitud)}
+      inifille3: { name: Filler (Posición)}
+      lonfille3: { name: Filler (Longitud)}
+      iniprinom: { name: Primer Nombre (Posición)}
+      lonprinom: { name: Primer Nombre (Longitud)}
+      inifille4: { name: Filler (Posición)}
+      lonfille4: { name: Filler (Longitud)}
+      iniciudad: { name: Ciudad (Posición)}
+      lonciudad: { name: Ciudad (Longitud)}
+      iniestado: { name: Estado (Posición)}
+      lonestado: { name: Estado (Longitud)}
+      inicodofi: { name: Cód. de Oficina (Posición)}
+      loncodofi: { name: Cód. de Oficina (Longitud)}
+      inisexo: { name: Sexo (Posición)}
+      lonsexo: { name: Sexo (Longitud)}
+      inicodare: { name: Código del área (Posición)}
+      loncodare: { name: Código del área (Longitud)}
+      ininumtel: { name: N° Telefónico (Posición)}
+      lonnumtel: { name: N° Telefónico (Longitud)}
+      inidestel: { name: Descripción del Telefónico (Posición)}
+      londestel: { name: Descripción del Telefónico (Longitud)}
+      inifecnac: { name: Fecha de nacimiento DD/MM/AA (Posición)}
+      lonfecnac: { name: Fecha de nacimiento DD/MM/AA (Longitud)}
+      inicodre2: { name: Cód. de Respuesta (Posición)}
+      fincodre2: { name: Cód. de Respuesta (Longitud)}
+      inifille5: { name: Filler (Posición)}
+      lonfille5: { name: Filler (Longitud)}
+      inipan: { name: PAN (Posición)}
+      lonpan: { name: PAN (Longitud)}
+      inimotivo: { name: Motivo de Baja (Posición)}
+      lonmotivo: { name: Motivo de Baja (Longitud)}
+      inilibre: { name: Libre (Posición)}
+      lonlibre: { name: Libre (Longitud)}
+      inipannue: { name: PAN Nuevo (Posición)}
+      lonpannue: { name: PAN Nuevo (Longitud)}
+      iniotrdat: { name: . (Posición)}
+      lonotrdat: { name: . (Longitud)}
+      iniidere2: { name: Identificación de Registro  (Posición)}
+      lonidere2: { name: Identificación de Registro  (Longitud)}
+      ininumtar: { name: N° de tarjeta del empleado (Posición)}
+      lonnumtar: { name: N° de tarjeta del empleado (Longitud)}
+      inimontra: { name: Monto de la Transacción (Posición)}
+      lonmontra: { name: Monto de la Transacción (Longitud)}
+      ininomben: { name: Nombre del Beneficiario (Posición)}
+      lonnomben: { name: Nombre del Beneficiario (Longitud)}
+      inicentr2: { name: Central (Posición)}
+      loncentr2: { name: Central(Longitud)}
+      inicodba2: { name: Cód. del Banco (Posición)}
+      loncodba2: { name: Cód. del Banco(Longitud)}
+      ininumlo2: { name: N° de Lote (Posición)}
+      finnumlo2: { name: N° de Lote(Longitud)}
+      inirifem2: { name: N° de Rif de la Empresa (Posición)}
+      lonrifem2: { name: N° de Rif de la Empresa(Longitud)}
+      inifille6: { name: Filler (Posición)}
+      lonfille6: { name: Filler (Longitud)}
+    list:
+      title: Configuración de TXT de Cestatickets
+      display: [=tiptxt]
+      filters: [tiptxt]
+      object_actions:
+       _edit:        ~
+       _delete:      ~
+      max_per_page:	  5
+      sort:    tiptxt
+    edit:
+      title:          Configuración de TXT de Cestatickets
+      display:
+        "NONE":  [_tiptxt]
+        "Maestro": [initipre1, lontipre1, initipdo1, lontipdo1, iniideemp, lonideemp, ininumlo1, finnumlo1, ininomemp, finnomemp, inicanreg, fincanreg, inicodpla, fincodpla, inifecgen, finfecgen, inihorgen, finhorgen, inicodre1, fincodre1, ininomarc, finnomarc, inifille1, finfille1, iniidere1, lonidere1, ininrocon, finnrocon, inifecefe, finfecefe, inimontot, finmontot, inicentr1, loncentr1, iniespbla, lonespbla, inicodba1, loncodba1, inirifem1, lonrifem1, initipnom, lontipnom]
+        "Detalle": [initipre2, lontipre2, initipdo2, lontipdo2, ininroced, lonnroced, inipriape, lonpriape, inifille2, lonfille2, inisegape, lonsegape, inifille3, lonfille3, iniprinom, lonprinom, inifille4, lonfille4, iniciudad, lonciudad, iniestado, lonestado, inicodofi, loncodofi, inisexo, lonsexo, inicodare, loncodare, ininumtel, lonnumtel, inidestel, londestel, inifecnac, lonfecnac, inicodre2, fincodre2, inifille5, lonfille5, inipan, lonpan, inimotivo, lonmotivo, inilibre, lonlibre, inipannue, lonpannue, iniotrdat, lonotrdat, iniidere2, lonidere2, ininumtar, lonnumtar, inimontra, lonmontra, ininomben, lonnomben, inicentr2, loncentr2, inicodba2, loncodba2, ininumlo2, finnumlo2, inirifem2, lonrifem2, inifille6, lonfille6]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

@@ -1,0 +1,22 @@
+====== Operación Consultar ======
+
+**Para Consultar la Solicitud de Anticipo de Prestaciones de un determinado trbajador utilizando el Botón Lista:**   <html><br><br></html>
+
+  * Presione el **Botón**   {{:btnlista.jpg|}}  <html><br><br></html>
+
+  * Seleccione de la **Lista** el **Código del Trabajador** para el cual desea consultar el Anticipo sobre Prestaciones .
+
+  * El sistema automáticamente muestra la **Solicitud** del **Trabajador** seleccionado.
+
+  * Si desea consultar la Solicitud de Anticipo  sobre Prestaciones de un nuevo trabajador debe presionar nuevamente el** Botón** {{:btnlista.jpg|}}  y repita los pasos anteriores.
+ 
+<html><br><br></html>
+
+
+**Para consultar datos desde el Inicio de la pantalla de Solicitud de Anticipos sobre Prestaciones:**  <html><br><br></html>
+
+  * El sistema muestra la **Lista** de los **Trabajadores** que poseen registrado una Solicitud de Anticipo sobre Prestaciones.
+
+  * Seleccione de la lista el **Código del Trabajador** para el cual desea consultar el Anticipo sobre Prestaciones.  <html><br><br></html>
+
+  * El sistema automáticamente muestra la **Solicitud** del trabajador seleccionado.

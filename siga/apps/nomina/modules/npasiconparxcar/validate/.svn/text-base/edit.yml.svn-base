@@ -1,0 +1,17 @@
+methods:
+  post:
+   - "npasiconparcar{codcar}"
+
+names:
+  npasiconparcar{codcar}:
+    required:  Yes
+    required_msg: El Código del Cargo no puedo estar en Blanco
+    validators: CargoValidator
+
+CargoValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Npcargos
+        column:   codcar
+        unique_error:   El Código del Cargo no existe.
+

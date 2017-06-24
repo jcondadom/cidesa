@@ -1,0 +1,30 @@
+opciones:                  
+  name:                    a
+  eliminar:                true
+  tabla:                   npdetptocta
+  anchogrid:               850
+  ancho:                   800
+  filas:                   1
+  titulo:                  'Conceptos'
+  htmltotalfilas:          ' '
+
+1:       # Columna 1
+  titulo:                  Código Concepto
+  tipo:                    t
+  nombrecampo:             codcon
+  html:                    ["size=5 maxlength=3"]
+  esgrabable:              true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: npptocta_codnom}
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nomcon
+  html:                    ["size=40 readOnly=true"]
+  esgrabable:              false
+3:       # Columna 3
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             moncon
+  html:                    ["size=10"]
+  esgrabable:              true

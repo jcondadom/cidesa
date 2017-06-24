@@ -1,0 +1,40 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   cadphart
+  anchogrid:               900
+  ancho:                   870
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Aprobar
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:              true  
+  html:                    [ size=4 ]
+2:       # Columna 2
+  titulo:                  Nro. Despacho
+  tipo:                    t
+  nombrecampo:             dphart
+  esgrabable:              true
+  html:                    [ readonly=true size=15]
+3:       # Columna 3
+  titulo:                  Fecha Despacho
+  tipo:                    t
+  nombrecampo:             fecdph
+  esgrabable:              true
+  html:                    [ readonly=true size=10]
+4:       # Columna 4
+  titulo:                  Monto Despacho
+  tipo:                    m
+  nombrecampo:             mondph
+  esgrabable:              true
+  html:                    [ readonly=true size=20]    
+5:       # Columna 5
+  titulo:                  Requisición
+  tipo:                    t
+  nombrecampo:             reqart
+  esgrabable:              true
+  html:                    [ readonly=true size=35]
+

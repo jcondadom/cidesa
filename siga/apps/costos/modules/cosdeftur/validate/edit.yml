@@ -1,0 +1,47 @@
+methods:
+  post:
+    - "cosdeftur{codtur}"
+    - "cosdeftur{destur}"
+    - "cosdeftur{initur}"
+    - "cosdeftur{fintur}"
+    - "cosdeftur{cappro}"
+
+names:
+  cosdeftur{codtur}:
+    required:  Yes
+    required_msg: Introduzca valor
+    validators: Validator_codtur
+
+  cosdeftur{destur}:
+    required:  Yes
+    required_msg: Introduzca valor
+
+  cosdeftur{initur}:
+    required:  Yes
+    required_msg: Introduzca valor
+
+  cosdeftur{fintur}:
+    required:  Yes
+    required_msg: Introduzca valor
+
+  cosdeftur{cappro}:
+    required:  Yes
+    required_msg: Introduzca valor
+    validators: MyNumberValidator
+
+MyNumberValidator:
+    class: sfNumberValidator
+    param:
+        type:         decimal
+        type_error:   Por favor, Introduzca Números Decimales
+        nan_error:    Por Favor, introduzca un Número Decimal
+        min:          000000000001,00
+        min_error:    El valor tiene que ser mayor que cero
+        max:          999999999999,99
+
+Validator_codtur:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Cosdeftur
+        column:       codtur
+        unique_error: El Código ya Existe intente con otro.

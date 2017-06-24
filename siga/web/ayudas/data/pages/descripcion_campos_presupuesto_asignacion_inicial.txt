@@ -1,0 +1,15 @@
+===== Descripción de Campos =====
+
+  * Definir los Datos del Código Presupuestario como lo son el **Código** y la **Descripción**. 
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreasiiniinc1.jpg|}}"></div><br></html>
+
+  * Definir los Datos de la Asignación como lo son **Año** y **Monto a Asignar**. <html><br><br></html>
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreasiiniinc2.jpg|}}"></div><br></html>
+ 
+  * Definir la **Asignación Periódica**.<html>&nbsp;&nbsp;</html>Si la **Asignación es Periódica** se debe seleccionar la Partida, indicar el Año y Monto, y automáticamente este es distribuido por el Sistema en los doce meses. Por el contrario si es **No Periódica** se debe seleccionar la Partida, indicar el Año y se debe dar el monto de la asignación en el mes o en los meses que se desee.
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreasiiniinc3.jpg|}}"></div><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Asignación Inicial** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

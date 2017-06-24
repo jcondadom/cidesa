@@ -1,0 +1,36 @@
+opciones:                  # Opciones generales
+  eliminar:                false
+  tabla:                   Npturemp
+  anchogrid:               1050
+  ancho:                   1050
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Asociar
+  tipo:                    k
+  nombrecampo:             check
+  esgrabable:			   true
+  html:                    []
+2:       # Columna 2
+  titulo:                  Empleado
+  tipo:                    t
+  nombrecampo:             codemp
+  esgrabable:			         true
+  html:                    [size="10" readonly=true]
+3:       # Columna 3
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nomemp
+  html:                    [size="50" readonly=true]
+4:       # Columna 4
+  titulo:                  Cargo
+  tipo:                    t
+  nombrecampo:             codcar
+  esgrabable:			         true
+  html:                    [size="10" readonly=true]
+5:       # Columna 5
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nomcar
+  html:                    [size="50" readonly=true]

@@ -1,0 +1,18 @@
+====== Niveles Presupuestarios ======
+**Tablas:** CPDEFNIV, CPNIVELES, CPPEREJE
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que tiene como función Definir la estructura presupuestaria, el ejercicio presupuestario y el nivel de disponibilidad.</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Contabilidad Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpre.jpg|}}"></div><br></html>
+
+   * Seguidamente despliegue la opción **Definiciones Específicas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpredefesp.jpg|}}"></div><br></html>
+
+  * Por último seleccione la opción **Niveles Presupuestarios**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:conprenivpre.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Niveles Presupuestarios** veamos la [[Descripcion_Campos_presupuesto_niveles_presupuestarios|Descripción de los Campos]]
+

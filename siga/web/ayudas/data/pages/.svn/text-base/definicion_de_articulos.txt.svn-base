@@ -1,0 +1,16 @@
+======Definición de Artículos======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso en el cual define el formato que van a tener los códigos de los Artículos, además de los códigos de ubicación de estos en el Almacén. También se establecen las acciones contables que se van a llevar a cabo al momento de realizarse el movimiento de los artículos. </html>
+
+**Para ello:**
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Artículos** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmart.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Definición de Artículos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmartdefart.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Definición de Artículo** veamos la [[Descripcion_Campos_Definicion_Artículos|Descripción de los Campos]]

@@ -1,0 +1,71 @@
+Cuando la **Orden de Pago** refiere a un **Compromiso**:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanordpagordpagoinc1.jpg|}}"></div><br></html>
+
+  * **Referencia:** Código Ó correlativo del Documento al que se asocia la Orden de Pago. <html><br><br></html>
+
+  * **Fecha** en la que se está realizando la Orden. <html><br><br></html>
+ 
+  * **Tipo:** En este campo el tipo de orden de pago a seleccionar es la OP Orden de Pago (Refiere a Compromiso) <html><br><br></html>
+ 
+  * **Concepto:** Refiere a el Concepto por el cual se está realizando dicha orden de pago. <html><br><br></html>
+ 
+  * **C.I / RIF:** Se coloca la C.I / R.I.F de la persona o empresa que se le va realizar el pago. <html><br><br></html>
+
+  * **Beneficiario:**
+
+  * **Código Contable:**  Representa el identificador de la cuenta contable según el formato establecido en la Definición Contable, que se asocia a la operación o documento que se esta emitiendo. <html><br><br></html>
+ 
+  * **Unidad Origen:** Se refiere a la Codificación del Departamento que emite la Orden de Pago. <html><br><br></html>
+
+  * **Financiamiento:** Refiere a la fuente de financiamiento. <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanordpagordpagoinc7.jpg|}}"></div><br></html>
+
+  * Presione el Botón {{:btnr.jpg|}} que le permitirá registrar cada una de las imputaciones presupuestarias correspondientes a aquellos compromisos que pueden estar asociados a una Orden de Pago.<html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanordpagordpagoinc6.jpg|}}"></div><br></html>
+
+  * Seguidamente el sistema muestra la sección **Referencia** donde encontramos los siguientes campos: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-Referencia:** Código del documento (Compromiso) asociada a la Orden de Pago.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Al seleccionar el Compromiso al que refiere la orden de pago automáticamente el sistema muestra la **Fecha** en la que se generó el compromiso, la **Descripción**, el **Código** y **Descripción** del Compromiso, el **Total Causado**, la información relacionada con las Imputaciones Presupuestarias asociadas al compromiso (**Código presupuestario**, el **Monto Comprometido**, **Monto Causado** y el **Monto por Causar**) y por último los **Totales por Monto a Causar, Retenciones y Amortización** (resultado de la suma de cada una de las columnas correspondientes) y el **Neto a Pagar**.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Luego debe presionar el Botón {{:btnguardar2.jpg|}} el cual le permitirá guardar la información correspondiente a las Imputaciones Presupuestarias del documento seleccionado.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Por último debe presionar el Botón {{:btnvolver.jpg|}} para que dicha información sea agregada al Grid donde se contemplan cada una de las Imputaciones Presupuestarias correspondientes a la Orden de Pago. <html><br><br></html>
+
+  * Para agregar otro Compromiso al [[Grid|Grid]] de Imputaciones Presupuestarias pertenecientes a la Orden de Pago debe repetir los pasos anteriores.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:tesbanordpagordpagoinc8.jpg|}}"></div><br></html>
+
+  * Una vez que ha agregado al Grid aquellas imputaciones pertenecientes a cada uno de los documentos asociados a la Orden de Pago es necesario que ahora ingrese las Retenciones correspondientes en caso de ser aplicables. Para ello: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** En primer lugar debe seleccionar en la columna Marque aquellas Imputaciones a las cuales deses aplicar retención.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Presione el **Botón** {{:btnretenciones.jpg|}} 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** El sistema muestra un [[Grid|Grid]] llamado Datos de las Retenciones
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Seleccione en el grid cada uno de los **Tipos de Retenciones** a aplicar y por cada una de ellas el sistema muestra la **Descripción** y la **Base para el Cálculo**.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Por último ingrese el **Monto de la Retención**. 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**-** Presione el Botón {{:btnvolver.jpg|}} el cual le permitirá ocultar el Grid llamado Datos de las Retenciones y a su vez agregar el Monto de la Retención en el Grid Imputaciones Presupuestarias.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

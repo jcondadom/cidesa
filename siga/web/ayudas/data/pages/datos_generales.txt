@@ -1,0 +1,52 @@
+====== Descripción de Campos ======
+
+Los campos que conforman la pantalla **Datos Generales** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefespproyacccentinc3.jpg|}}"></div><br></html>
+
+  * **Estatus del Proyecto:** Debe seleccionar el estatus actual del proyecto. Al presionar el Botón {{:btncuadrocatalogo.jpg}} el sistema muestra una [[Listas|lista]] con los diferentes estatus que fueron definidos previamente en la pantalla [[formulacion_definiciones_estatus|Definiciones de Estatus]].  <html><br><br></html>
+
+  * **Situación Presupuestaria:** Debe seleccionar la situación presupuestaria del proyecto. Al presionar el Botón {{:btncuadrocatalogo.jpg}} el sistema muestra una [[Listas|lista]] con las diferentes situaciones presupuestarias que fueron definidos previamente en la pantalla [[formulacion_definicion_situacion_presupuestaria|Definición de Situaciones Presupuestarias]].  <html><br><br></html>
+
+  * **Fecha Inicio:** Seleccionar del [[calendario|Calendario]] el día, mes y año en que se comienza a ejecutar el proyecto. <html><br><br></html>
+
+  * **Fecha Culminación:** Seleccionar del [[calendario|Calendario]] el día, mes y año en que finaliza la ejecución del proyecto. <html><br><br></html>
+
+  * **Tiempo de Ejecución del Proyecto Año(s):** Período en años en la cual se ejecuta el proyecto. <html><br><br></html>
+
+  * **Mes(es):** Período en meses en la cual se ejecuta el proyecto. <html><br><br></html>
+
+  * **Estado** Indica el estado donde se va a ejecutar el proyecto, solo debe hacer click en el icono {{:btnflecha.jpg|}} y el sistema muestra un listado con los estados que fueron definidos previamente en el sistema en la pantalla [[formulacion_estados|Estados]]. <html><br><br></html>
+
+  * **Municipios** Indica el municipio donde se va a ejecutar el proyecto, solo debe hacer click en el icono {{:btnflecha.jpg|}} y el sistema muestra un listado con los municipios que fueron definidos previamente en el sistema en la pantalla [[formulacion_municipios|Municipios]]. <html><br><br></html>
+
+  * **Parroquias** Indica la parroquia donde se va a ejecutar el proyecto, solo debe hacer click en el icono {{:btnflecha.jpg|}} y el sistema muestra un listado con las parroquias que fueron definidos previamente en el sistema en la pantalla [[formulacion_parroquias|Parroquias]]. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrdefespproyacccentinc4.jpg|}}"></div><br></html>
+
+  * Por último encontramos un grid llamado **Localización de Proyectos** donde se contemplan en las columnas correspondientes los siguientes campos:
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Estado, Municipio, Parroquia:** Solo debe presionar el Botón {{:btnpositivo.jpg|}} y automáticamente el sistema agrega la información de estados, municipios y parroquias en el grid.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Especificación Adicional:** Se indica alguna información adicional.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

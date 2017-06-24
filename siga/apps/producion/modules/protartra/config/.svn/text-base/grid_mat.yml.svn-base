@@ -1,0 +1,34 @@
+opciones:                  # Opciones generales
+  name:                    b
+  eliminar:                true
+  tabla:                   famattartra
+  anchogrid:               850
+  ancho:                   700
+  filas:                   1
+  titulo:                  ' Materiales Requeridos '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             codmat
+  html:                    ["size=10 maxlength=20"]
+  esgrabable:              true
+  ajaxgrid:                true  
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    a
+  nombrecampo:             desmat
+  html:                    ["size=40x1 readOnly=true"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Número de Plano
+  tipo:                    t
+  nombrecampo:             numpla
+  esgrabable:              true
+  html:                    ["size=15 maxlength=50" ]  
+4:      # Columna 4
+  titulo:                  Documento de Referencia
+  tipo:                    t
+  nombrecampo:             docref
+  esgrabable:              true
+  html:                    ["size=15 maxlength=8" ]

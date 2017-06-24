@@ -1,0 +1,29 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   Npempnuc
+  ancho:				           800
+  anchogrid:               900
+  filas:                   0
+  titulo:                  ' Núcleos '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Ubicación
+  tipo:                    t
+  nombrecampo:             codniv
+  html:                    ["size=30 readonly=true"]
+  esgrabable:              true
+  #ajaxgrid:                true
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desniv
+  html:                    ["size=50 readonly=true"]
+3:       # Columna 3
+  titulo:                  Cantidad de Horas
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canhor
+  esnumerico:              true
+  html:                    ["size=10"]
+  estotal:                 [true, npemphor_tothor]

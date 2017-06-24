@@ -1,0 +1,16 @@
+methods:
+  post:
+   - "npdoccate{codemp}"
+
+names: 
+  npdoccate{codemp}:
+    required:  Yes
+    required_msg: El código del Docente no puede estar en Blanco
+    validators: Validator_codemp
+
+Validator_codemp:
+    class: CidesaExistValidator
+    param:
+        class:    Nphojint
+        column:   codemp
+        unique_error:   El Docente no esta registrado.

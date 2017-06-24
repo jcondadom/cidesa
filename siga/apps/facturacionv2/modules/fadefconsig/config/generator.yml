@@ -1,0 +1,31 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Faconsignatario
+    theme:            cidesaGenerator
+    fields:
+      codcon: { name: Código, params : size=15 maxlength=15  onFocus=readonly(this.id) }
+      nomcon: { name: Nombre, params : size=80 maxlength=250 }
+      dircon: { name: Dirección, params : size=80 maxlength=500 }
+      telcon: { name: Teléfono, params : size=30 maxlength=30 }
+      faxcon: { name: Fax, params : size=30 maxlength=30 }
+      email: { name: Email, params : size=80 maxlength=100 }
+      percon: { name: Persona Contacto, params : size=80 maxlength=500 }      
+    list:
+      title:          Consignatarios
+      filters:        [codcon, nomcon]
+      display:        [=codcon, nomcon, telcon]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codcon
+    edit:
+      title:          Edición  de Consignatario
+      display:
+        "Datos Personales":   [codcon, nomcon, dircon, telcon, faxcon, email, percon]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

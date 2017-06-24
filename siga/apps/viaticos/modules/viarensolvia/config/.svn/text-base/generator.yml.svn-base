@@ -1,0 +1,45 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Viarensolvia
+    theme:            cidesaGenerator
+    fields:
+      numren: { name: N° Rendición, params: size=10 maxlength=10 onBlur="event.keyCode=13; enter(event,this.value);"}
+      fecren: { name: Fecha, params: date_format='dd/MM/yyyy' maxlength=10}
+      numsol:
+        name: N° de Solicitud
+        catalogo:
+          catalogoweb: Viarensolvia_numsol
+          clase: Viasolviatra
+          ajax: 1
+          parametros: getprincipal="getNumsol" getsecundario="getDessol" campoprincipal="numsol" camposecundario="dessol" campobase = "id"
+      fecsol:           { name: Fecha Solicitud, params: style="border:none" }
+      fecdes:           { name: Fecha Salida, params: style="border:none" }
+      fechas:           { name: Fecha Llegada, params: style="border:none" }  
+      empleado:         { name: Funcionario, params: style="border:none" size=80}   
+      cargo:         { name: Cargo, params: style="border:none" size=80}
+      dependencia:         { name: Dependencia, params: style="border:none" size=80}
+      lugvis: { name: Lugares Visitados, type: textarea_tag, params: size=80x3 maxlength=1000 onkeyup="javascript:return ismaxlength(this)"}
+      actrea: { name: Actividades Realizadas, type: textarea_tag, params: size=80x3 maxlength=1000 onkeyup="javascript:return ismaxlength(this)"}
+      resobt: { name: Resultados Obtenidos, type: textarea_tag, params: size=80x3 maxlength=1000 onkeyup="javascript:return ismaxlength(this)"}
+      benins: { name: Beneficios para la Institución, type: textarea_tag, params: size=80x3 maxlength=1000 onkeyup="javascript:return ismaxlength(this)"}
+      conrec: { name: Conclusiones y Recomendaciones, type: textarea_tag, params: size=80x3 maxlength=1000 onkeyup="javascript:return ismaxlength(this)"}
+      js: {name: .}
+    list:
+      title:          Rendición de Viáticos
+      filters:        [numren, fecren, numsol]
+      display:        [=numren, fecren, numsol]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           numren
+    edit:
+      title:          Edición de Rendición de Viáticos
+      display:
+        "Datos": [numren, fecren, numsol, fecsol, fecdes, fechas, empleado, cargo, dependencia, lugvis, actrea, resobt, benins, conrec, _js]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

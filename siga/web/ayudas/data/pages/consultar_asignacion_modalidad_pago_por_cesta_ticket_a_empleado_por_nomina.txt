@@ -1,0 +1,23 @@
+====== Operación Consultar ======
+
+**Para consultar la Asignación Modalidad Pago por Cesta Ticket a Empleado por Nómina:**   <html><br><br></html>
+
+  * Presione el **Botón**  {{:btnlista.jpg|}}    <html><br><br></html>
+
+  * Seleccione de la **Lista** el **Código de la Nómina**.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasimodpagcesticmod1.jpg|}}"></div><br></html>
+
+  * El sistema automáticamente muestra la asignación de modalidad de pago de cesta ticket de los empleados pertenecientes a la nómina seleccionada.<html><br><br></html>
+
+  * Si desea consultar la asignación modalidad pago de cesta ticket por cada tipo de nómina debe presionar nuevamente el** Botón** {{:btnlista.jpg|}}  y repetir los pasos anteriores. <html><br><br></html>
+
+**Para consultar datos desde el Inicio de la pantalla de Asignación Modalidad Pago de Cesta Ticket por Nómina y Empleado:**  <html><br><br></html>
+
+  * El sistema muestra la **Lista** con las Nóminas que poseen asignadas la modalidad de pago de los cesta tickets.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasimodpagcesticmod1.jpg|}}"></div><br><br></html>
+
+  * Seleccione de la **Lista** el **Código de la Nómina** . <html><br><br></html>
+
+  * El sistema automáticamente muestra la asignación de modalidad de pago de cesta ticket de la nómina seleccionada.<html><br><br></html>

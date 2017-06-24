@@ -1,0 +1,18 @@
+====== Operación Incluir ======
+
+Para **Registrar** la **Asignación de Trabajadores para Prestaciones por Contrato Colectivo** debe:<html><br><br></html>
+
+  * Presionamos el **Botón** {{:btnnuevo.jpg|}} <html><br><br></html>
+
+  * Seleccione el **Tipo de Contrato Colectivo** al cual se le asociarán los empleados.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasidetraparapreporconcolinc1.jpg|}}"></div><br><br></html>
+
+  * Seguidamente nos ubicamos en la tabla específicamente en la columna **Código de Nómina** y presionamos el **Botón de Consulta** <html>&nbsp;&nbsp;</html>{{:btnconsultagrid.jpg|}} donde el sistema nos muestra un catálogo con las Tipos de Nóminas registradas en donde debe seleccionar la que desee incluir en la tabla. <html><br><br></html> 
+
+  * Por Último nos ubicamos en la columna **Código del Empleado**, presionamos el **Botón de Consulta** <html>&nbsp;&nbsp;</html>{{:btnconsultagrid.jpg|}} donde el sistema nos muestra un catálogo con los empleados registrados en donde debe seleccionar el empleado que desee incluir en la tabla.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperasidetraparapreporconcolinc2.jpg|}}"></div><br><br></html>
+
+  * Presionamos el Botón {{:btnguardar.jpg|}} para almacenar la información
+

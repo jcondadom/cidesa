@@ -1,0 +1,39 @@
+Los campos que conforman la pantalla de Institución: <html><br><br></html>
+
+
+  * **Código de la Empresa:** Número que identifica a la empresa <html><br><br></html>
+
+  * **Nombre de la Empresa:** Nombre que identifique a la empresa.
+
+<html><br><div align="center" with><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefinsinc.jpg|}}"></div><br></html>
+
+  * **Cargo:** Se define el Número de Rupturas que conforman el **Código del Cargo** <html><br><br></html>
+
+  * **Empleado:** Se define como estará conformado el **Código del Empleado** <html><br><br></html>
+
+  * **Nivel Organizacional** Se establece el Número de Rupturas que conforman el **Código del Nivel Organizacional** <html><br><br></html>
+
+  * **Unidad Ejecutora** Se define el Número de Rupturas que conformaría la **Unidad Administrativa** que ejecuta el gasto. <html><br><br></html>
+
+  * **Escuelas:** El formato a seguir para las escuelas y guarderías a asociar a la institución. <html><br><br></html> 
+
+  * **Número de Recibo** para los reportes de recibos de pago.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefinsinc1.jpg|}}"></div><br></html>
+
+  * **Valor de la Unidad Tributaria** correspondiente para el calculo de los cesta tickets.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefinsinc2.jpg|}}"></div><br></html>
+
+  * **Redondeo para los calculos:** Indicar si los cálculos realizados para la nómina utilizarán cifras redondeadas o no. <html><br><br></html>
+
+  * **Presupuestar Cargos:** Indicar si los cargos establecidos en la empresa forman parte del presupuesto o no. <html><br><br></html>
+
+  * **Asignar Conceptos a la Nómina:** Indicar si se le asigna o no automáticamente los conceptos. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefinsinc3.jpg|}}"></div><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Definición de Grupos de Recaudos** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+ 
+
+

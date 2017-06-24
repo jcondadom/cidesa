@@ -1,0 +1,31 @@
+methods:
+  post:
+   - "fatippue{codpue}"
+   - "fatippue{nompue}"
+   
+names:
+  fatippue{codpue}:
+    required:  Yes
+    required_msg: El Código del Puerto no puedo estar en Blanco
+    validators: Validator_codpue
+
+  fatippue{nompue}:
+    required:  Yes
+    required_msg: El Nombre del Puerto no puedo estar en Blanco
+    validators: Validator_Nompue
+
+
+Validator_codpue:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Fatippue
+        column:       codpue
+        unique_error: El registro ya Existe intente con otro.
+
+Validator_Nompue:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: El Nombre del Puerto no puede tener menos de 2 caracteres
+        max:       100
+        max_error: El Nombre del Puerto no puede pasar mas de 100 caracteres

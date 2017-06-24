@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repositorio/!svn/ver/48654/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config
+END
+sfAutoloadConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config/sfAutoloadConfigHandler.class.php
+END
+sfViewConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config/sfViewConfigHandler.class.php
+END
+sfSimpleYamlConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config/sfSimpleYamlConfigHandler.class.php
+END
+sfConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config/sfConfigHandler.class.php
+END
+sfDefineEnvironmentConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config/sfDefineEnvironmentConfigHandler.class.php
+END
+sfConfig.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config/sfConfig.class.php
+END
+sfLoader.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config/sfLoader.class.php
+END
+sfRootConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config/sfRootConfigHandler.class.php
+END
+sfValidatorConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config/sfValidatorConfigHandler.class.php
+END
+sfFilterConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config/sfFilterConfigHandler.class.php
+END
+sfGeneratorConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config/sfGeneratorConfigHandler.class.php
+END
+sfLoggingConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config/sfLoggingConfigHandler.class.php
+END
+sfPhpConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/48654/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config/sfPhpConfigHandler.class.php
+END
+sfRoutingConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config/sfRoutingConfigHandler.class.php
+END
+sfCompileConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config/sfCompileConfigHandler.class.php
+END
+sfYamlConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config/sfYamlConfigHandler.class.php
+END
+sfCacheConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config/sfCacheConfigHandler.class.php
+END
+sfDatabaseConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config/sfDatabaseConfigHandler.class.php
+END
+sfConfigCache.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config/sfConfigCache.class.php
+END
+sfFactoryConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config/sfFactoryConfigHandler.class.php
+END
+sfSecurityConfigHandler.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/repositorio/!svn/ver/47565/web/php/siga/branches/productions/trunk/lib/vendor/symfony/lib/config/sfSecurityConfigHandler.class.php
+END

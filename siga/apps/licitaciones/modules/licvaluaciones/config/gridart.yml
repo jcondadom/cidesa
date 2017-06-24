@@ -1,0 +1,73 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   lidetparval
+  anchogrid:               900
+  ancho:                   850
+  filas:                   0
+  titulo:                  ' Partidas de Obras '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Partida de Obra
+  tipo:                    t
+  nombrecampo:             codart
+  html:                    [ readonly=true size=6 ]
+  esgrabable:              true
+2:
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desart
+  html:                    [ readonly=true size=10 ]
+  esgrabable:              true
+3:
+  titulo:                  Unidad Medida
+  tipo:                    t
+  nombrecampo:             unimed
+  html:                    [ readonly=true size=6 ]
+  esgrabable:              true
+4:
+  titulo:                  Cantidad Partida
+  tipo:                    m
+  nombrecampo:             cantid
+  html:                    [ readonly=true size=6 ]
+  esgrabable:              true
+5:
+  titulo:                  Precio Unitario
+  tipo:                    m
+  nombrecampo:             preuni
+  html:                    [ readonly=true size=6 ]
+  esgrabable:              true
+6:
+  titulo:                  Total Partida
+  tipo:                    m
+  nombrecampo:             subtot
+  html:                    [ readonly=true size=6 ]
+  esgrabable:              true
+7:
+  titulo:                  Cantidad Por Valuar
+  tipo:                    m
+  nombrecampo:             cantidporvalu
+  html:                    [ size=6 ]
+  esgrabable:              true
+  ajaxfila:                true
+8:
+  titulo:                  Cantidad Valuación
+  tipo:                    m
+  nombrecampo:             cantidvalu
+  html:                    [ size=6 ]
+  esgrabable:              true
+  ajaxfila:                true
+9:
+  titulo:                  Total Valuación
+  tipo:                    m
+  nombrecampo:             subtotvalu
+  html:                    [ readonly=true size=6 ]
+  esgrabable:              true
+  estotal:                 [true, livaluaciones_totval]
+10:
+  titulo:                  liregofedet
+  tipo:                    t
+  nombrecampo:             Liregofedet_id
+  esgrabable:              true
+  oculta:                  true
+  html:                    [size=2 readonly=true ]

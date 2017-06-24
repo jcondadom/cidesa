@@ -1,0 +1,15 @@
+====== Operación Eliminar ======
+
+Para eliminar los Conceptos asociados a una determinada Nómina:  <html><br><br></html>
+
+  * Seleccionar de la **Lista** la **Nómina** para la cual desea eliminar los Conceptos para el ISLR.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconimpislrmod.jpg|}}"></div><br></html>
+
+  * Presionar  {{:btnborrar.jpg|}}  <html><br><br></html>
+
+  * El sistema emite un mensaje de confirmación antes de eliminar.  
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br></html>
+ 
+  * Presionar **Aceptar**.   <html><br><br></html>
+ 
+  * El sistema nos lleva automáticamente a la **lista** con los **Conceptos para el ISLR** asociados a cada Tipo de Nómina donde podemos observar que el registro se eliminó con éxito.

@@ -1,0 +1,69 @@
+methods:
+  post:
+   - "cpsoladidis{refadi}"
+   - "cpsoladidis{fecadi}"
+   - "cpsoladidis{desadi}"
+
+names:
+  cpsoladidis{refadi}:
+    required:  Yes
+    required_msg: La Referencia no puede estar en Blanco
+    validators: Validator_existencia, Validator_MyString
+
+  cpsoladidis{fecadi}:
+    required:  Yes
+    required_msg: La Fecha no puede estar en Blanco
+    validators: FechaValidator
+
+  cpsoladidis{desadi}:
+    required:  Yes
+    required_msg: La Descripción no puede estar en Blanco
+    validators: Validator_desing
+
+
+Validator_desing:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caracteres
+        max:       1000
+        min_error: La descripción no puede tener mas de 1000 caracteres
+
+FechaValidator:
+    class: CidesaDateValidator
+    param:
+        class:        Cpdefniv
+        columnmin:    fecini
+        columnmax:    feccie
+        min_error:    La Fecha Especificada no puede ser Menor a la Fecha de Inicio del Período
+        max_error:    La Fecha Especificada no puede ser Mayor a la Fecha de Fin del Período
+        date_error:   Fecha Inválida
+
+Validator_existencia:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Cpsoladidis
+        column:       refadi
+        unique_error: La referencia ya Existe intente con otra.
+
+Validator_MyString:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La referencia no puede tener menos de 2 caracteres
+        max:       8
+        max_error: La referencia no puede tener mas de 8 caracteres
+
+FinanciamientoValidator:
+    class: CidesaExistValidator
+    param:
+        class:    Fortipfin
+        column:   codfin
+        unique_error:   El Financiamiento no existe.
+
+Fecha2Validator:
+    class: sfRegexValidator
+    param:
+        match:      yes
+        pattern:    /^(3[01]|2?[0-9]|1?[0-9]|0?[1-9]|[12]d)\/(0?[1-9]|1[012])\/(\d{4})$/
+        match_error: La Fecha  introducida es invalida

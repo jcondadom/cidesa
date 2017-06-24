@@ -1,0 +1,12 @@
+
+Los campos que conforman la pantalla de **Cierre de Nóminas Especiales** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompercalnomespcierrenomespinc1.jpg|}}"></div><br></html>
+
+  * **Código Especial:** Refiere al Código y Descripción de la Nómina Especial que se va a cerrar.<html><br><br></html>
+
+  * **Código Nómina:** Refiere al Código y Descripción del Tipo de Nómina que se va a cerrar.<html><br><br></html>
+
+  * **Última Fecha de Procesamiento:** Refiere a la **Fecha Desde** y **Hasta** correspondiente al último procesamiento de la misma. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Cierre de Nóminas Especiales** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

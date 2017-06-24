@@ -1,0 +1,26 @@
+====== Jornadas Laborales por Empleado ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite asociar a cada empleado la jornada laboral que cumple dentro de la institución. Para la operación de Registrar:.</html>
+
+Para ello:
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el **Menú Principal** de **SIGA**.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones Específicas** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefesp.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Jornadas Laborales por Empleado**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperjorlabemp.jpg|}}"></div><br></html>
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Jornadas Laborales por Empleado** podrá realizar las Operaciones Básicas de:
+
+  * [[Incluir Jornadas Laborales por Empleado|Incluir]]
+
+  * [[Modificar Jornadas Laborales por Empleado|Modificar]] 
+
+  * [[Eliminar Jornadas Laborales por Empleado|Eliminar]]
+
+  * [[Consultar Jornadas Laborales por Empleado|Consultar]]

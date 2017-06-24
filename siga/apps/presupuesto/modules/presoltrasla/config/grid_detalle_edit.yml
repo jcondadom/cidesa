@@ -1,0 +1,38 @@
+opciones:                  # Opciones generales
+  name:                    c
+  eliminar:                false
+  tabla:                   cpsolmovtra
+  anchogrid:               850
+  ancho:                   1000
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Origen
+  tipo:                    t
+  nombrecampo:             codori
+  html:                    [size="50" readonly="true"]
+  oculta:                  false
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Código Destino
+  tipo:                    t
+  nombrecampo:             coddes
+  html:                    [size="50" readonly="true"]
+  oculta:                  false
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monmov
+  html:                    [size="8" readonly="true"]
+  oculta:                  false
+  esgrabable:              true
+  ajaxfila:                true
+  estotal:                 [true, cpsoltrasla_totalhasta]
+#3:       # Columna 3
+#  titulo:                  Disponibilidad
+#  tipo:                    m
+#  nombrecampo:             mondis
+#  html:                    [size="8" readonly="true"]
+#  esgrabable:              false

@@ -1,0 +1,14 @@
+====== Operación Incluir ======
+
+Para **Registrar** un determinado País: <html><br><br></html>
+
+  * Presione el Botón {{:btnnuevo.jpg|}} 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontpaisinc1.jpg|}}"></div><br></html>
+
+  * Ingrese el **Código** que identifique al País. <html><br><br></html>
+
+  * Ingrese la **Descripción** que haga referencia al País que se está definiendo.
+
+
+

@@ -1,0 +1,16 @@
+methods:
+  post:
+   - "catconinm{desconinm}"
+
+names:
+  catconinm{desconinm}:
+    required:  Yes
+    required_msg: La descripción es un campo requerido
+    validators: Validator_desconinm
+
+Validator_desconinm:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Catconinm
+        column:       desconinm
+        unique_error: El registro ya Existe intente con otro.

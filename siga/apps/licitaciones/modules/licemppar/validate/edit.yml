@@ -1,0 +1,16 @@
+methods:
+  post:
+   - "liemppar{numexp}"
+
+names:
+  liemppar{numexp}:
+    required:  Yes
+    required_msg: Este campo no puede estar en Blanco
+    validators: Validator_numexp
+
+Validator_numexp:
+    class: CidesaExistValidator
+    param:
+        class:        Liplieesp
+        column:       numexp
+        unique_error: El Expediente no existe

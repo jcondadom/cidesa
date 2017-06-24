@@ -1,0 +1,14 @@
+====== Descripción de Campos ======
+
+En caso de haber Comprobantes para actualizar:
+
+  * El sistema automáticamente muestra los **Comprobantes** definidios con anterioridad. <html><br><br></html>
+
+  * Marque los **Comprobantes** que desea actualizar. 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:cfinactcomconact.jpg|}}"></div><br></html>
+
+  * Presione el **Botón Guardar**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:btnguardar1.jpg|}}"></div><br></html>
+
+En el caso de no haber comprobantes que actualizar el sistema automáticamente muestra un **Mensaje de Atención**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjatencionactcomcon.jpg|}}"></div><br></html>

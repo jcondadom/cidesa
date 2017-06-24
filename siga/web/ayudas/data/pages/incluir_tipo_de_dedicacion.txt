@@ -1,0 +1,12 @@
+====== Operación Incluir ======
+
+Si desea **Registrar** un determinado Tipo de Dedicación debe: <html><br><br></html>
+
+  * Presionar el Botón  {{:btnnuevo.jpg|}} <html><br><br></html>
+
+  * Ingresar el **Código** que identifique al **Tipo de Dedicación**.  <html><br><br></html>
+
+  * Ingresar la **Descripción** que haga referencia al **Tipo de Dedicación** que se está definiendo 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nompertipdedinc.jpg|}}"></div><br></html>
+
+  * Presionar {{:btnguardar.jpg|}} para almacenar el registro. <html><br><br></html>

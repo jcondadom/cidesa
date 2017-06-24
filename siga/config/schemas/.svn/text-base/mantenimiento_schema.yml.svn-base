@@ -1,0 +1,1700 @@
+propel:
+  _attributes: { noXsd: false, defaultIdMethod: native, package: lib.model.mantenimiento }
+  mandeffab:
+    _attributes:
+      description: Contiene los Registros de los Fabricantes
+    codfab:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código del Fabricante
+    desfab:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción del Fabricante
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mantipequ:
+    _attributes:
+      description: Contiene los Registros de los Tipos de Equipo
+    codteq:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código del Tipo de Equipo
+    desteq:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción del Tipo de Equipo
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mantipali:
+    _attributes:
+      description: Contiene los Registros de los Tipos de Alimentación
+    codtal:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código del Tipo de Alimentación
+    destal:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción del Tipo de Alimentación
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mandefger:
+    _attributes:
+      description: Contiene los Registros de las Gerencias
+    codger:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código de la Gerencia
+    desger:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción de la Gerencia
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  manunipro:
+    _attributes:
+      description: Contiene los Registros de las Unidades Productivas
+    coduni:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código de la Unidad
+    desuni:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción de la Unidad
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  manidegru:
+    _attributes:
+      description: Contiene los Registros de los Identificadores del Grupo
+    codide:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código del Identificador
+    deside:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción del Identificador
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mantipgar:
+    _attributes:
+      description: Contiene los Registros de los Tipos de Garantía
+    codtga:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código del Tipo de Garantía
+    destga:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción del Tipo de Garantía
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  manclaequ:
+    _attributes:
+      description: Contiene los Registros de la Clasificación del Equipo
+    codcla:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código de la Clasificación
+    descla:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción de la Clasificación
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  manfuepot:
+    _attributes:
+      description: Contiene los Registros de las Fuentes de Potencia
+    codfue:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código de la Fuente
+    desfue:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción de la Fuente
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mantiptra:
+    _attributes:
+      description: Contiene los Registros de los Tipos de Trasmisión
+    codtta:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código del Tipo de Trasmisión
+    destta:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción del Tipo de Trasmisión
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mansisope:
+    _attributes:
+      description: Contiene los Registros de los Sistemas de Operación
+    codsis:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código del Sistema
+    dessis:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción del Sistema
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mangrutra:
+    _attributes:
+      description: Contiene los Registros de los Grupos de Trabajo
+    codgru:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código del Grupo
+    desgru:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción del Grupo
+    codniv:
+      type: VARCHAR
+      size: 32
+      required: true
+      description: Ubicación Administrativa
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mantipcom:
+    _attributes:
+      description: Contiene los Registros de los Tipos de Componentes
+    codtco:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código del Tipo de Componente
+    destco:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción del Tipo de Componente
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  manunimed:
+    _attributes:
+      description: Contiene los Registros de las Unidades de Medida
+    codume:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código de la Unidad de Medida
+    desume:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción de la Unidad de Medida
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  manestequ:
+    _attributes:
+      description: Contiene los Registros de los Estatus del Equipo
+    codest:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código del Estatus
+    desest:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción del Estatus
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  manregequ:
+    _attributes:
+      description: Contiene los Registros de los Equipos
+    numequ:
+      type: VARCHAR
+      size: 10
+      required: true
+      index: unique
+      description: Número del Equipo
+    nomequ:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Nombre del Equipo
+    serequ:
+      type: VARCHAR
+      size: 50
+      description: Serial del Equipo
+    codteq:
+      type: VARCHAR
+      size: 4
+      description: Código del Tipo de Equipo
+    codide:
+      type: VARCHAR
+      size: 4
+      description: Código del Identificador de grupo
+    codcla:
+      type: VARCHAR
+      size: 4
+      description: Código de la Clasificación del Equipo
+    codtal:
+      type: VARCHAR
+      size: 4
+      description: Código del Tipo de Alimentación
+    codtta:
+      type: VARCHAR
+      size: 4
+      description: Código del Tipo de Trasmisión
+    codfab:
+      type: VARCHAR
+      size: 4
+      description: Código del Fabricante
+    fecfab:
+      type: DATE
+      description: Fecha de Fabricación
+    coddis:
+      type: VARCHAR
+      size: 10
+      description: Código del Tipo de Incorporación
+    codmon:
+      type: VARCHAR
+      size: 3
+      description:  Código de la Moneda
+    valmon:
+      type: NUMERIC
+      size: 14
+      scale: 6
+      description:  Valor de la Moneda
+    cosequ:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description:  Costo del Equipo
+    codtga:
+      type: VARCHAR
+      size: 4
+      description: Código del Tipo de Garantía
+    valgar:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  valor de la Garantía
+    fecgar:
+      type: DATE
+      description: Fecha de la Garantía
+    codume:
+      type: VARCHAR
+      size: 4
+      description: Código de la Unidad de Medida
+    combus:
+      type: VARCHAR
+      size: 1
+      description: Combustible S/N
+    codest:
+      type: VARCHAR
+      size: 4
+      description: Código del Estatus
+    codubi:
+      type: VARCHAR
+      size: 30
+      description: Código de la Ubicación Física
+    codniv:
+      type: VARCHAR
+      size: 32
+      description: Ubicación Administrativa
+    coduni:
+      type: VARCHAR
+      size: 4
+      description: Código de la Unidad Productiva
+    codcencos:
+      type: VARCHAR
+      size: 32
+      description: Código del Centro de Costo
+    carcos:
+      type: VARCHAR
+      size: 1
+      description: Carga Costo A-ctivo D-esincorporado
+    codcar:
+      type: VARCHAR
+      size: 16
+      description: Cargo del Custodio
+    loguse:
+      type: VARCHAR
+      size: 50
+      description: Usuario que registra el equipo
+    peso:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Peso
+    longit:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Longitud
+    altura:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Altura
+    ancho:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Ancho
+    balde:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Balde
+    tolba:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Tolba
+    llenad:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Llenado
+    lubric:
+      type: VARCHAR
+      size: 1
+      description: A-CEITE G-RASA A-M-BOS
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mannomequ:
+    _attributes:
+      description: Contiene los Registros de los Nombres Alternos del Equipo
+    numequ:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Número del Equipo
+    nomalt:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Nombre Alterno del Equipo      
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mancomequ:
+    _attributes:
+      description: Contiene los Registros de los Componentes del Equipo
+    numequ:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Número del Equipo
+    codcom:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Código del Componente
+    descom:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Descripción del Componente
+    codtco:
+      type: VARCHAR
+      size: 4
+      description: Código del Tipo de Componente
+    numpar:
+      type: VARCHAR
+      size: 30
+      description: Número de Partes
+    numser:
+      type: VARCHAR
+      size: 50
+      description: Número de Serial
+    posici:
+      type: VARCHAR
+      size: 500
+      description: Posición
+    tieacu:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Tiempo acumulado en otro equipo
+    inspor:
+      type: VARCHAR
+      size: 1
+      description: Instalado Por C-ARBOZULIA V-ENEQUIT O-TRO
+    fecins:
+      type: DATE
+      description: Fecha de Instalación
+    videst:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Vida Estimada en años
+    vidact:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Vida Actual en años
+    fecree:
+      type: DATE
+      description: Fecha proyectada de Reemplazo
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  manesttra:
+    _attributes:
+      description: Contiene los Registros de los Estándares de Trabajo
+    codest:
+      type: VARCHAR
+      size: 8
+      required: true
+      description: Código del Estándar
+    desest:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción del Estándar
+    codgru:
+      type: VARCHAR
+      size: 4
+      description: Código del Grupo de Trabajo
+    numsec:
+      type: NUMERIC
+      size: 4
+      scale: 0
+      description: Número de Secuencia
+    codsis:
+      type: VARCHAR
+      size: 4
+      description: Código del Sistema
+    feccre:
+      type: DATE
+      description: Fecha de Creación
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mandetesttra:
+    _attributes:
+      description: Contiene los Registros del Detalle de Estándares de Trabajo
+    codest:
+      type: VARCHAR
+      size: 8
+      required: true
+      description: Código del Estándar
+    codart:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: Código del Artículo
+    canins:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Cantidad Instalada
+    canreq:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Cantidad Requerida
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mantipman:
+    _attributes:
+      description: Contiene los Registros de los Tipos de Mantenimiento
+    codtma:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código del Tipo de Mantenimiento
+    destma:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción del Tipo de Mantenimiento
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  maninsseg:
+    _attributes:
+      description: Contiene los Registros de las Instrucciones de Seguridad
+    codins:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código de la Instrucción
+    desins:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Descripción de la Instrucción
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  manactest:
+    _attributes:
+      description: Contiene los Registros de los  Estándar de Trabajo
+    codact:
+      type: VARCHAR
+      size: 8
+      index: unique
+      required: true
+      description: Código de la Actividad
+    desact:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Descripción de la Actividad
+    cedemp:
+      type: VARCHAR
+      size: 10
+      description: Cédula del Empleado que lo creó
+    codgru:
+      type: VARCHAR
+      size: 4
+      description: Código del Grupo
+    priori:
+      type: VARCHAR
+      size: 1
+      description: Prioridad
+    cedres:
+      type: VARCHAR
+      size: 10
+      description: Cédula del Empleado Responsable
+    codtma:
+      type: VARCHAR
+      size: 4
+      description: Código del Tipo de Mantenimiento
+    tipord:
+      type: VARCHAR
+      size: 1
+      description: Tipo de Orden
+    feccre:
+      type: DATE
+      description: Fecha de Creación
+    codgrr:
+      type: VARCHAR
+      size: 4
+      description: Código del Grupo Responsable
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mantaract:
+    _attributes:
+      description: Contiene los Registros de las Tareas de las Actividades
+    codact:
+      type: VARCHAR
+      size: 8    
+      required: true
+      description: Código de la Actividad
+    numtar:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: Número de la Tarea
+    destar:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Descripción de la Tarea
+    codins:
+      type: VARCHAR
+      size: 4
+      description: Código de la Instrucción de Seguridad
+    codest:
+      type: VARCHAR
+      size: 8
+      description: Código del Estándar
+    rutina:
+      type: VARCHAR
+      size: 5000
+      description: Rutina
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  manrehact:
+    _attributes:
+      description: Contiene los Registros de las Recursos Humanos de las Actividades
+    codact:
+      type: VARCHAR
+      size: 8    
+      required: true
+      description: Código de la Actividad
+    codcar:
+      type: VARCHAR
+      size: 16
+      required: true
+      description: Código del cargo
+    canrec:
+      type: INTEGER
+      description: Cantidad de Recursos
+    canhor:
+      type: INTEGER
+      description: Cantidad de Horas
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mancaudem:
+    _attributes:
+      description: Contiene los Registros de las Causas de Demora
+    codcau:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código de la Causa
+    descau:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción de la Causa
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mantiplub:
+    _attributes:
+      description: Contiene los Registros de los Tipos de Lubricante o Combustible
+    codtlu:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código del tipo de Lubricante
+    destlu:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción del tipo de Lubricante
+    lubric:
+      type: VARCHAR
+      size: 1
+      description: C-ombustible L-ubricante
+    codume:
+      type: VARCHAR
+      size: 4
+      description: Código de la Unidad de Medida
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mansinfal:
+    _attributes:
+      description: Contiene los Registros de los Sintomas de Fallas
+    codsfa:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código del Sintoma de Fallas
+    dessfa:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción del Sintoma de Fallas
+    codsis:
+      type: VARCHAR
+      size: 4
+      description: Código del Sistema de Operación
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mandeffal:
+    _attributes:
+      description: Contiene los Registros de los Defectos de Fallas
+    coddfa:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código del Defecto de la Falla
+    desdfa:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción del Defecto de la Falla
+    codsfa:
+      type: VARCHAR
+      size: 4
+      description: Código del Sintoma de la Falla
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mancaufal:
+    _attributes:
+      description: Contiene los Registros de las Causas de las Fallas
+    codcfa:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código de la Causa de la Falla
+    descfa:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción de la Causa de la Falla
+    coddfa:
+      type: VARCHAR
+      size: 4
+      description: Código del Sistema de Fallas
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mangrutre:
+    _attributes:
+      description: Contiene los Registros de los Grupos Responsable del Trabajo 
+    codgrr:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código del Grupo
+    desgrr:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción del Grupo
+    tipo:
+      type: VARCHAR
+      size: 1
+      description: Tipo I-nterno E-xterno
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  manreghor:
+    _attributes:
+      description: Contiene los Registros de Horómetros
+    numequ:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Número del Equipo
+    fecreg:
+      type: DATE
+      description: Fecha de Registro
+    tiping:
+      type: VARCHAR
+      size: 1
+      description: Tipo de Ingreso N-ormal C-ambio
+    valhor:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Valor del Horómetro HH
+    codume:
+      type: VARCHAR
+      size: 4
+      description: Código de la Unidad de Medida
+    valacu:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Valor Acumulado del Horómetro
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mancarlub:
+    _attributes:
+      description: Contiene los Registros de la Carga de Lubricantes o Combustible
+    numequ:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Número del Equipo
+    fecreg:
+      type: DATE
+      description: Fecha de Carga
+    codtlu:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: Código del tipo de Lubricante
+    cancar:
+      type: INTEGER
+      description: Cantidad    
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  manprogru:
+    _attributes:
+      description: Contiene los Registros de las Programación por Grupo de Trabajo
+    codgru:
+      type: VARCHAR
+      size: 4
+      description: Código del Grupo
+    fecini:
+      type: DATE
+      description: Fecha de Inicio
+    candia:
+      type: INTEGER
+      description: Cantidad de Días
+    fecult:
+      type: DATE
+      description: Fecha Última de Programación
+    fecprx:
+      type: DATE
+      description: Fecha Próxima de Programación
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mandispro:
+    _attributes:
+      description: Contiene los Registros de la Distribución de la Programación Estimada
+    codgru:
+      type: VARCHAR
+      size: 4
+      description: Código del Grupo
+    fecini:
+      type: DATE
+      description: Fecha de Inicio
+    status:
+      type: VARCHAR
+      size: 1
+      default: 'N'
+      description: Programación generada S-N
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mantarpro:
+    _attributes:
+      description: Contiene los Registros de las Tareas Programadas
+    codtar:
+      type: VARCHAR
+      size: 8
+      index: unique
+      required: true
+      description: Código de la Tarea
+    destar:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Descripción de la Tarea
+    numequ:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Número del Equipo
+    codact:
+      type: VARCHAR
+      size: 8    
+      required: true
+      description: Código del Estandar
+    codgru:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: Código del Grupo
+    genreq:
+      type: VARCHAR
+      size: 1
+      description: Genera Requisición Automática S-N
+    taract:
+      type: VARCHAR
+      size: 1
+      description: Indicador Activo S-N
+    codcar:
+      type: VARCHAR
+      size: 16
+      required: true
+      description: Código del cargo Responsable
+    codtma:
+      type: VARCHAR
+      size: 4
+      description: Código del Tipo de Mantenimiento
+    tipfre:
+      type: VARCHAR
+      size: 1
+      description: Tipo de Frecuencia
+    interv:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Intervalo de la Frecuencia
+    fecupm:
+      type: DATE
+      description: Fecha de Último PM
+    horupm:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Valor del Horómetro Último PM
+    repppm:
+      type: VARCHAR
+      size: 1
+      description: Reprogramar Proyección PM S-N
+    fecppm:
+      type: DATE
+      description: Fecha Proyección PM
+    horppm:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Valor del Horómetro Proyección PM
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mangenpla:
+    _attributes:
+      description: Contiene los Registros de la Generación de Planificación
+    codgru:
+      type: VARCHAR
+      size: 4
+      description: Código del Grupo
+    fecgen:
+      type: DATE
+      description: Fecha de generación
+    imprep:
+      type: VARCHAR
+      size: 1
+      default: 'N'
+      description: Imprime Reporte al Aprobar S-N
+    staapr:
+      type: VARCHAR
+      size: 1
+      default: 'N'
+      description: Estatus de Aprobación de la Planificación S-N
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mandetpla:
+    _attributes:
+      description: Contiene los Registros del Detalle de la Generación de Planificación
+    codgru:
+      type: VARCHAR
+      size: 4
+      description: Código del Grupo
+    fecgen:
+      type: DATE
+      description: Fecha de generación
+    numequ:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Número del Equipo
+    destar:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Descripción de la Tarea
+    feceje:
+      type: DATE
+      description: Fecha de Ejecución
+    horequ:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Valor del Horómetro
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mandefemp:    
+    _attributes:
+      description: Tabla que contiene información referente a la definición de empresa
+    codemp:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: Código de la Empresa      
+    corord:
+      type: VARCHAR
+      size: 8
+      required: true
+      description: Correlativo de Orden de Trabajo      
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mannumart:
+    _attributes:
+      description: Contiene los Registros de los Números ART
+    codart:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código del Número ART
+    desart:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción del Número ART
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  manestord:
+    _attributes:
+      description: Contiene los Registros de los Estatus de la Orden
+    codsor:
+      type: VARCHAR
+      size: 4
+      required: true
+      index: unique
+      description: Código del Estatus
+    dessor:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripción del Estatus
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro      
+  manordtra:
+    _attributes:
+      description: Contiene los Registros de las Ordenes de Trabajo
+    numord:
+      type: VARCHAR
+      size: 8
+      index: unique
+      required: true
+      description: Número de la Orden
+    numequ:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Número del Equipo
+    refest:
+      type: VARCHAR
+      size: 1
+      description: Refiere a Estándar de Trabajo S-N
+    fecemi:
+      type: DATE
+      required: true
+      description: Fecha de Emisión
+    codact:
+      type: VARCHAR
+      size: 8    
+      description: Código del Estandar de Trabajo
+    priori:
+      type: VARCHAR
+      size: 1
+      description: Prioridad
+    cedemp:
+      type: VARCHAR
+      size: 10
+      description: Cédula del Empleado que lo creó
+    cedres:
+      type: VARCHAR
+      size: 10
+      description: Cédula del Empleado Responsable
+    codtma:
+      type: VARCHAR
+      size: 4
+      description: Código del Tipo de Mantenimiento
+    desord:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Descripción de la Orden
+    tipord:
+      type: VARCHAR
+      size: 1
+      description: Tipo de Orden    
+    codart:
+      type: VARCHAR
+      size: 4
+      description: Código del Número ART
+    incree:
+      type: VARCHAR
+      size: 1
+      description: Incluye Reemplazo S-N
+    codsor:
+      type: VARCHAR
+      size: 4
+      description: Código del Estatus
+    codgrr:
+      type: VARCHAR
+      size: 4
+      description: Código del Grupo Responsable
+    codsis:
+      type: VARCHAR
+      size: 4
+      description: Código del Sistema
+    codsfa:
+      type: VARCHAR
+      size: 4
+      description: Código del Sintoma de la Falla
+    coddfa:
+      type: VARCHAR
+      size: 4
+      description: Código del Defecto de la Falla
+    codcfa:
+      type: VARCHAR
+      size: 4
+      description: Código de la Causa de la Falla
+    parfal:
+      type: VARCHAR
+      size: 1000
+      description: Parte del Fallo
+    fecici:
+      type: TIMESTAMP
+      description: Fecha de Inicio del Cierre
+    feccci:
+      type: TIMESTAMP
+      description: Fecha de Culminación del Cierre
+    cedrec:
+      type: VARCHAR
+      size: 10
+      description: Cédula del Empleado Responsable del Cierre
+    valhci:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Valor del Horómetro    
+    demcie:
+      type: VARCHAR
+      size: 1
+      description: Demora S-N
+    codcfc:
+      type: VARCHAR
+      size: 4
+      description: Código de la Causa de la Falla Cierre
+    obscie:
+      type: VARCHAR
+      size: 1000
+      description: Observaciones del Cierre
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mantarord:
+    _attributes:
+      description: Contiene los Registros de las Tareas de la Orden de Trabajo
+    numord:
+      type: VARCHAR
+      size: 8
+      required: true
+      description: Número de la Orden
+    numtar:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: Número de la Tarea
+    destar:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Descripción de la Tarea
+    codins:
+      type: VARCHAR
+      size: 4
+      description: Código de la Instrucción de Seguridad
+    codest:
+      type: VARCHAR
+      size: 8
+      description: Código del Estándar
+    rutina:
+      type: VARCHAR
+      size: 5000
+      description: Rutina
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  manrehord:
+    _attributes:
+      description: Contiene los Registros de las Recursos Humanos de la Orden de Trabajo
+    numord:
+      type: VARCHAR
+      size: 8
+      required: true
+      description: Número de la Orden
+    codcar:
+      type: VARCHAR
+      size: 16
+      required: true
+      description: Código del cargo
+    canrec:
+      type: INTEGER
+      description: Cantidad de Recursos
+    canhor:
+      type: INTEGER
+      description: Cantidad de Horas
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mandetreq:
+    _attributes:
+      description: Contiene los Registros del Detalle de Requisiciones de la Orden de Trabajo
+    numord:
+      type: VARCHAR
+      size: 8
+      required: true
+      description: Número de la Orden
+    reqart:
+      type: VARCHAR
+      size: 8
+      required: true
+      description: Número de la Requisición
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  manavaord:
+    _attributes:
+      description: Contiene los Registros del Avance de la Orden de Trabajo
+    numord:
+      type: VARCHAR
+      size: 8
+      required: true
+      description: Número de la Orden
+    fecava:
+      type: DATE
+      required: true
+      description: Fecha de Avance
+    obsava:
+      type: VARCHAR
+      size: 2000
+      required: true
+      description: Observación del Avance
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  manrhcord:
+    _attributes:
+      description: Contiene los Registros de las Recursos Humanos del Cierre Orden de Trabajo
+    numord:
+      type: VARCHAR
+      size: 8
+      required: true
+      description: Número de la Orden
+    cedrec:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Cédula del Empleado del Cierre
+    canhor:
+      type: INTEGER
+      description: Cantidad de Horas
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mancomord:
+    _attributes:
+      description: Contiene los Registros de los Componentes de la Orden
+    numord:
+      type: VARCHAR
+      size: 8
+      required: true
+      description: Número de la Orden
+    numequ:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Número del Equipo
+    codcom:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Código del Componente
+    descom:
+      type: VARCHAR
+      size: 500
+      required: true
+      description: Descripción del Componente
+    codtco:
+      type: VARCHAR
+      size: 4
+      description: Código del Tipo de Componente
+    numpar:
+      type: VARCHAR
+      size: 30
+      description: Número de Partes
+    numser:
+      type: VARCHAR
+      size: 50
+      description: Número de Serial
+    posici:
+      type: VARCHAR
+      size: 500
+      description: Posición
+    tieacu:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Tiempo acumulado en otro equipo
+    inspor:
+      type: VARCHAR
+      size: 1
+      description: Instalado Por C-ARBOZULIA V-ENEQUIT O-TRO
+    fecins:
+      type: DATE
+      description: Fecha de Instalación
+    videst:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Vida Estimada en años
+    vidact:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:  Vida Actual en años
+    fecree:
+      type: DATE
+      description: Fecha proyectada de Reemplazo
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  mancatmat:
+    _attributes:
+      description: Tabla para guardar la Catalogación de Material
+    numsol:
+      type: VARCHAR
+      size: 8
+      required: true
+      description: Número de Solicitud
+    fecsol:
+      type: DATE
+      required: true
+      description: Fecha de Solicitud
+    unisol:
+      type: VARCHAR
+      size: 32
+      required: true
+      description: Unidad Solicitante
+    jussol:
+      type: VARCHAR
+      size: 2000
+      description: Justificación de la Solicitud
+    nomite:
+      type: VARCHAR
+      size: 1000
+      description: Nombre del ITEM
+    desite:
+      type: VARCHAR
+      size: 1000
+      description: Descripción del ITEM
+    unimed:
+      type: VARCHAR
+      size: 15
+      description: Unidad de Medida
+    peso:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Peso Kg
+    volume:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Volumen M3
+    obssol:
+      type: VARCHAR
+      size: 5000
+      description: Observaciones
+    loguse:
+      type: VARCHAR
+      size: 50
+      description: Persona que elaboró la Catalogación
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  manparfabcat:
+    _attributes:
+      description: Tabla para guardar el Número de partes y Fabricante de una Catalogación
+    numsol:
+      type: VARCHAR
+      size: 8
+      required: true
+      description: Número de Solicitud
+    numpar:
+      type: VARCHAR
+      size: 30
+      required: true
+      description: Número de Partes
+    codfab:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: Código del Fabricante
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  manaplmon:
+    _attributes:
+      description: Contiene los Registros del APL Montaje de la Catalogación
+    numsol:
+      type: VARCHAR
+      size: 8
+      required: true
+      description: Número de Solicitud
+    numequ:
+      type: VARCHAR
+      size: 10
+      required: true
+      description: Número del Equipo
+    canins:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Cantidad Instalada
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  manrefcru:
+    _attributes:
+      description: Tabla para guardar las Referencias Cruzadas
+    numsol:
+      type: VARCHAR
+      size: 8
+      required: true
+      description: Número de Solicitud    
+    stccod:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: Stock Code
+    refere:
+      type: VARCHAR
+      size: 1
+      required: true
+      description: Refencia
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  manexicat:
+    _attributes:
+      description: Tabla para guardar el Inventario de Almacén de cada Catalogación
+    numsol:
+      type: VARCHAR
+      size: 8
+      required: true
+      description: Número de Solicitud    
+    stccla:
+      type: VARCHAR
+      size: 1
+      required: true
+      description: Stock Class      
+    codalm:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: Código del Almacén    
+    eximin:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Mínimo en Inventario
+    eximax:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Máxima en Inventario
+    ptoreo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Seguridad en Inventario
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro

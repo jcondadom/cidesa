@@ -1,0 +1,39 @@
+opciones:                  # Opciones generales
+  name:                    b
+  eliminar:                true
+  tabla:                   manrehact
+  anchogrid:               800
+  ancho:                   550
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:
+  titulo:                  Cargo
+  tipo:                    t
+  nombrecampo:             codcar
+  esgrabable:              true
+  html:                    ["size=15 maxlength=16"]
+  ajaxgrid:                true
+  catalogo:                [npcargos, sf_admin_edit_form, {Codcar: 1, Nomcar: 2}, Viadettabcar_Npcargos ]
+2:
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nomcar
+  esgrabable:              true
+  html:                    ["size=30 readonly=true"]  
+3:
+  titulo:                  Cantidad de Recursos
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canrec
+  esnumerico:              true
+  default:                 '0,00'  
+  html:                    ["size=10"]
+4:
+  titulo:                  Cantidad de Horas
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             canhor
+  esnumerico:              true
+  default:                 '0,00'  
+  html:                    ["size=10"]

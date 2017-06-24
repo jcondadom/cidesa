@@ -1,0 +1,23 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   forasouniobj
+  anchogrid:               750
+  ancho:                   600
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código
+  tipo:                    t
+  nombrecampo:             codobj
+  html:                    ["size=15 maxlength=5"]
+  esgrabable:              true
+  ajaxgrid:                true
+  catalogo:                [fordefobj, sf_admin_edit_form, {Codobj: 1, Desobj: 2}, Fordefobj_Forasoproobj ]
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             desobj
+  html:                    ["size=60 readonly=true"]
+  esgrabable:              true

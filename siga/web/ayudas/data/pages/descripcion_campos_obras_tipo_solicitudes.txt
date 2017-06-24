@@ -1,0 +1,15 @@
+====== Descripción de Campos ======
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontsolicitudestipoinc1.jpg|}}"></div><br></html>
+
+  * Ingrese el **Código** que identificará al Tipo de Solicitud. <html><br><br></html>
+
+  * Ingrese el **Nombre** de la Solicitud.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontsolicitudestipoinc2.jpg|}}"></div><br><br></html>
+
+  * Indique en **Tipo** si la solicitud es de tipo **Servicio** u **Obra**. <html><br><br></html>
+
+  * Indicar el **Número de Días** en la que debe ser respondida el Tipo de Solicitud.<html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Tipo** ahora podrá realizar determinadas [[operaciones_basicas|Operaciones Básicas]]

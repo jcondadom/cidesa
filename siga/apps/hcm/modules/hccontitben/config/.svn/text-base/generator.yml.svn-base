@@ -1,0 +1,35 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Nphojint
+    theme:            cidesaGenerator
+    fields:
+      codemp: { name: Código Empleado, params: size=10 readonly=true}
+      nomemp: { name: Nombre, params: size=60 readonly=true}
+      nomcar: { name: Cargo, params: size=50 readonly=true}
+      cedemp: { name: Cédula, params: size=25 readonly=true}
+      codtipemp:   { name: Tipo de Trabajador}
+      seghcm2:   { name: Seguro HCM}
+      fecing:   { name: Fecha de Ingreso, params: size=10 date_format=dd/MM/yyyy}
+      grid:   { name: .}
+    list:
+      title:          Titulares de HCM
+      fields:
+        codemp: { name: Código Empleado, params: size=15 }
+        nomemp: { name: Nombre, params: size=15 }
+      filters:        [codemp, nomemp]
+      display:        [=codemp, nomemp, cedemp, fecing, codtipemp, seghcm2]
+      object_actions:
+        _edit:        ~
+      actions:
+        _create:  NONE
+      max_per_page:   5
+      sort:    codemp
+    edit:
+      title:          Consulta de Titulares de HCM
+      display:
+        "Datos del Empleado":  [codemp, nomemp, cedemp, nomcar]
+        "Información Familiar":  [_grid]
+      actions:
+        _list:        ~
+

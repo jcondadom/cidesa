@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repositorio/!svn/ver/59181/web/php/siga/branches/productions/trunk/apps/hcm/modules/hcaprliq/templates
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/repositorio/!svn/ver/49324/web/php/siga/branches/productions/trunk/apps/hcm/modules/hcaprliq/templates/ajaxSuccess.php
+END
+_edit_actions.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/59181/web/php/siga/branches/productions/trunk/apps/hcm/modules/hcaprliq/templates/_edit_actions.php
+END
+_gridr.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/49324/web/php/siga/branches/productions/trunk/apps/hcm/modules/hcaprliq/templates/_gridr.php
+END
+_fecdes.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/49519/web/php/siga/branches/productions/trunk/apps/hcm/modules/hcaprliq/templates/_fecdes.php
+END
+_fechas.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/59181/web/php/siga/branches/productions/trunk/apps/hcm/modules/hcaprliq/templates/_fechas.php
+END

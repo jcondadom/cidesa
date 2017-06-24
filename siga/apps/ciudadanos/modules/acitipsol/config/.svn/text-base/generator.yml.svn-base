@@ -1,0 +1,21 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Attipsol
+    theme:            cidesaGenerator
+
+    fields:
+      codtipsol:     {name: Código }
+      destipsol:     {name: Descripción }
+
+    list:
+      title:         Tipos de Solicitudes
+      display:        [codtipsol, destipsol]
+      filters:       [codtipsol, destipsol]
+
+    edit:
+      title:         Tipos de Solicitudes
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~

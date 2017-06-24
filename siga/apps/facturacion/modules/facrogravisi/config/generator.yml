@@ -1,0 +1,47 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Facrovis
+    theme:            cidesaGenerator
+    fields:
+      fecvis: { name: Fecha de la Visita, params : date_format='dd/MM/yyyy' size=15 maxlength=10  onFocus=readonly(this.id) }
+      rifven:
+        name: Vendedor
+        params: size=15 maxlength=15
+        catalogo:
+          catalogoweb: Faregvend_Facrogravisi
+          clase: Faregvend
+          ajax: 1
+          parametros: getprincipal="getRifven" getsecundario="getNomven" campoprincipal="rifven" camposecundario="nomven" campobase = "id"
+      rifpro:
+        name: Cliente
+        params: size=15 maxlength=15
+        catalogo:
+          catalogoweb: Rifcli_Fapedido
+          clase: Facliente
+          ajax: 2
+          parametros: getprincipal="getRifpro" getsecundario="getNompro" campoprincipal="rifpro" camposecundario="nompro" campobase = "id"
+      resvis: { name: Resultado de Visita, type: textarea_tag, params: size=80x5 maxlength=2000 onkeyup=" return ismaxlength(this)"}
+      estvis: { name: Estrategia, params : size=80 maxlength=50 }
+      obsvis: { name: Observación, type: textarea_tag, params: size=80x5 maxlength=2000 onkeyup=" return ismaxlength(this)"}
+    list:
+      title:          Cronogramas de Visitas
+      fields:
+        rifven: { name: Vendedor, params : size=15 maxlength=15}
+        rifpro: { name: Cliente, params : size=15 maxlength=15 }
+      filters:        [fecvis, rifven, rifpro]
+      display:        [=fecvis, nomven, nompro]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      fecvis
+    edit:
+      title:          Edición  del Cronograma de Visita
+      display:
+        "Datos":   [fecvis, rifven, rifpro, resvis, _estvis, obsvis]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

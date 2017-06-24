@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "npgrucon{codgrucpt}"
+   - "npgrucon{desgrucpt}"
+
+names:
+  npgrucon{codgrucpt}:
+    required:  Yes
+    required_msg: El Código del Grupo para Concepto no puedo estar en Blanco
+    validators: UniqueValidator
+
+  npgrucon{desgrucpt}:
+    required:  Yes
+    required_msg: La Descripción del Grupo para Concepto no puedo estar en Blanco
+    validators: DescripcionValidator    
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Npgrucon
+        column:   codgrucpt
+        unique_error:   El Código del grupo para concepto ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción del Grupo no puede tener menos de 5 caracteres
+        max:       250
+        max_error: La Descripción del Grupo no puede tener más de 250 caracteres

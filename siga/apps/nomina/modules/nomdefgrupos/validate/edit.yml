@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "npgrupos{codgru}"
+   - "npgrupos{desgru}"
+
+names:
+  npgrupos{codgru}:
+    required:  Yes
+    required_msg: El Código del Grupo no puedo estar en Blanco
+    validators: UniqueValidator
+
+  npgrupos{desgru}:
+    required:  Yes
+    required_msg: La Descripción del Grupo no puedo estar en Blanco
+    validators: DescripcionValidator    
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Npgrupos
+        column:   codgru
+        unique_error:   El Código del grupo ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       5
+        min_error: La Descripción del Grupo no puede tener menos de 5 caracteres
+        max:       500
+        max_error: La Descripción del Grupo no puede tener más de 500 caracteres

@@ -1,0 +1,4978 @@
+propel:
+  _attributes: { noXsd: false, defaultIdMethod: native, package: lib.model }
+  opasiordapr:  
+    _attributes:
+      description:
+    ctagas:
+      type: VARCHAR
+      size: 32
+      description:
+    ctapag:
+      type: VARCHAR
+      size: 32
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Únic odel registro
+  opautpag:    
+    _attributes:
+      description:
+    numord:
+      type: VARCHAR
+      size: 8
+      description:
+      required: true
+    tipcau:
+      type: VARCHAR
+      size: 4
+      description:
+      required: true
+    fecemi:
+      type: DATE
+      description:
+      required: true
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description:
+      required: true
+    nomben:
+      type: VARCHAR
+      size: 250
+      description:
+      required: true
+    monord:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+      required: true
+    desord:
+      type: VARCHAR
+      size: 1000
+      description:
+      required: true
+    mondes:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    monret:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    numche:
+      type: VARCHAR
+      size: 20
+      description:
+    ctaban:
+      type: VARCHAR
+      size: 20
+      description:
+    ctapag:
+      type: VARCHAR
+      size: 32
+      description:
+    numcom:
+      type: VARCHAR
+      size: 8
+      description:
+    status:
+      type: VARCHAR
+      size: 1
+      description:
+      required: true
+    coduni:
+      type: VARCHAR
+      size: 30
+      description:
+    fecenvcon:
+      type: DATE
+      description:
+    fecenvfin:
+      type: DATE
+      description:
+    ctapagfin:
+      type: VARCHAR
+      size: 32
+      description:
+    nombensus:
+      type: VARCHAR
+      size: 250
+      description:
+    fecanu:
+      type: DATE
+      description:
+    fecrecfin:
+      type: DATE
+      description:
+    anopre:
+      type: VARCHAR
+      size: 4
+      description:
+    fecpag:
+      type: DATE
+      description:
+    monpag:
+      type: NUMERIC
+      size: 16
+      scale: 2
+      description:
+    obsord:
+      type: VARCHAR
+      size: 1000
+      description:
+    numtiq:
+      type: VARCHAR
+      size: 8
+      description:
+    peraut:
+      type: VARCHAR
+      size: 500
+      description:
+    desanu:
+      type: VARCHAR
+      size: 250
+      description:
+    cedaut:
+      type: VARCHAR
+      size: 100
+      description:
+    nomper1:
+      type: VARCHAR
+      size: 50
+      description:
+    nomper2:
+      type: VARCHAR
+      size: 50
+      description:
+    horcon:
+      type: VARCHAR
+      size: 10
+      description:
+    feccon:
+      type: DATE
+      description:
+    nomcat:
+      type: VARCHAR
+      size: 250
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opbenefi:    
+    _attributes:
+      description: Tabla que contiene información referente a los beneficiarios
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description: Cédula o RIF del beneficiario
+      required: true
+    nomben:
+      type: VARCHAR
+      size: 250
+      description: Nombre del Beneficiario
+      required: true
+    dirben:
+      type: VARCHAR
+      size: 100
+      description: Dirección del Beneficiario
+    telben:
+      type: VARCHAR
+      size: 30
+      description: Teléfono del beneficiario
+    codcta:
+      type: VARCHAR
+      size: 32
+      description: Cuenta Contable asociada al Beneficiario
+    nitben:
+      type: VARCHAR
+      size: 15
+      description: NIT del Beneficiario
+    codtipben:
+      type: VARCHAR
+      size: 3
+      description: Código del Tipo de Beneficiario
+      required: true
+      foreignTable: optipben
+      foreignReference: codtipben
+    tipper:
+      type: VARCHAR
+      size: 1
+      description: Tipo de Persona (Natural o Jurídica)
+    nacionalidad:
+      type: VARCHAR
+      size: 1
+      description: Indica si es de Nacionalidad Venezolana o Extranjera
+    residente:
+      type: VARCHAR
+      size: 1
+      description: Indica si reside o no en el país
+    constituida:
+      type: VARCHAR
+      size: 1
+      description: Indica si la empresa fue constituida o no en el país
+    codord:
+      type: VARCHAR
+      size: 32
+      description: Cuenta Contable de Orden
+    codpercon:
+      type: VARCHAR
+      size: 32
+      description: Cuenta Contable de Percontra
+    codordadi:
+      type: VARCHAR
+      size: 32
+      description: Cuenta Contable de Orden Adicional para Caso de Servicios
+    codperconadi:
+      type: VARCHAR
+      size: 32
+      description: Cuenta Contable de Percontra Adicional para Caso de Servicios
+    codordcontra:
+      type: VARCHAR
+      size: 32
+      description: Cuenta Contable de Orden Asociada
+    codpercontra:
+      type: VARCHAR
+      size: 32
+      description: Cuenta Contable PerContra Asociada
+    temcedrif:
+      type: VARCHAR
+      size: 15
+      description:
+    codctasec:
+      type: VARCHAR
+      size: 32
+      description: Cuenta Contable de la Actividad Secundaria del Beneficiario
+    codctacajchi:
+      type: VARCHAR
+      size: 32
+      description: Cuenta Contable de Manejo de Caja Chica
+    numcue:
+      type: VARCHAR
+      size: 20
+      description: Número de la Cuenta Bancaria    
+    codctaant:
+      type: VARCHAR
+      size: 32
+      description: Cuenta Contable de Anticipos
+    codban:
+      type: VARCHAR
+      size: 4
+    numcueb:
+      type: VARCHAR
+      size: 20
+    banint:
+      type: VARCHAR
+      size: 100  
+      description: Banco Intermediario
+    numcueint:
+      type: VARCHAR
+      size: 20  
+      description: Número de Cuenta del Intermediario
+    dirbanint:
+      type: VARCHAR
+      size: 200  
+      description: Dirección del Banco Intermediario      
+    codswiint:
+      type: VARCHAR
+      size: 20  
+      description: CODIGO SWIFT del Intermediario 
+    numabaint:
+      type: VARCHAR
+      size: 40  
+      description: NUMERO ABA del Intermediario 
+    numibaint:
+      type: VARCHAR
+      size: 40  
+      description: NUMERO IBAN del Intermediario 
+    numrouint:
+      type: VARCHAR
+      size: 40  
+      description: NUMERO ROUTING del Intermediario 
+    banben:
+      type: VARCHAR
+      size: 100  
+      description: Banco del Beneficiario
+    numcueben:
+      type: VARCHAR
+      size: 20  
+      description: Número de Cuenta del Beneficiario
+    dirbanben:
+      type: VARCHAR
+      size: 200  
+      description: Dirección del Banco del Beneficiario
+    codswiben:
+      type: VARCHAR
+      size: 20  
+      description: CODIGO SWIFT del Beneficiario
+    numababen:
+      type: VARCHAR
+      size: 40  
+      description: NUMERO ABA del Beneficiario
+    numibaben:
+      type: VARCHAR
+      size: 40  
+      description: NUMERO IBAN del Beneficiario
+    numrouben:
+      type: VARCHAR
+      size: 40  
+      description: NUMERO ROUTING del Beneficiario
+    codcopant:
+      type: VARCHAR
+      size: 32
+      description: Cuenta Contable de Orden de Pago de Anticipos
+    cedben:
+      type: VARCHAR
+      size: 10
+      description: Cédula del Beneficiario
+    codtipban:
+      type: VARCHAR
+      size: 3
+      description: Tipo de Cuenta del Beneficiario
+    email:
+      type: VARCHAR
+      size: 100
+      description: Correo del Beneficiario
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+    _uniques:
+      unique_opbenefi_cedrif:
+        - cedrif
+  opbenefi2:    
+    _attributes:
+      description:
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description:
+      required: true
+    nomben:
+      type: VARCHAR
+      size: 250
+      description:
+      required: true
+    dirben:
+      type: VARCHAR
+      size: 100
+      description:
+    telben:
+      type: VARCHAR
+      size: 20
+      description:
+    codcta:
+      type: VARCHAR
+      size: 32
+      description:
+    nitben:
+      type: VARCHAR
+      size: 15
+      description:
+    codtipben:
+      type: VARCHAR
+      size: 3
+      description:
+    tipper:
+      type: VARCHAR
+      size: 1
+      description:
+    nacionalidad:
+      type: VARCHAR
+      size: 1
+      description:
+    residente:
+      type: VARCHAR
+      size: 1
+      description:
+    constituida:
+      type: VARCHAR
+      size: 1
+      description:
+    codord:
+      type: VARCHAR
+      size: 32
+      description:
+    codpercon:
+      type: VARCHAR
+      size: 32
+      description:
+    codordadi:
+      type: VARCHAR
+      size: 32
+      description:
+    codperconadi:
+      type: VARCHAR
+      size: 32
+      description:
+    codordcontra:
+      type: VARCHAR
+      size: 32
+      description:
+    codpercontra:
+      type: VARCHAR
+      size: 32
+      description:
+    temcedrif:
+      type: VARCHAR
+      size: 15
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opbenfonava:    
+    _attributes:
+      description:
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description:
+    codcta:
+      type: VARCHAR
+      size: 32
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opcheper:    
+    _attributes:
+      description:
+    refopp:
+      type: VARCHAR
+      size: 8
+      description:
+    refcuo:
+      type: VARCHAR
+      size: 8
+      description:
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    fecpag:
+      type: DATE
+      description:
+    numord:
+      type: VARCHAR
+      size: 8
+      description:
+    ctaban:
+      type: VARCHAR
+      size: 20
+      description:
+    numche:
+      type: VARCHAR
+      size: 20
+      description:
+    tipmov:
+      type: VARCHAR
+      size: 4
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opcominc:    
+    _attributes:
+      description:
+    refaju:
+      type: VARCHAR
+      size: 8
+      description:
+    numcom:
+      type: VARCHAR
+      size: 8
+      description:
+    fecaju:
+      type: DATE
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opconinc:    
+    _attributes:
+      description:
+    refaju:
+      type: VARCHAR
+      size: 8
+      description:
+    numcom:
+      type: VARCHAR
+      size: 8
+      description:
+    fecaju:
+      type: DATE
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opconnom:    
+    _attributes:
+      description:
+    codcat:
+      type: VARCHAR
+      size: 32
+      description:
+      required: true
+    codnom:
+      type: VARCHAR
+      size: 3
+      description:
+    refprc:
+      type: VARCHAR
+      size: 8
+      description:
+    refcom:
+      type: VARCHAR
+      size: 8
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opdefemp:    
+    _attributes:
+      description: Tabla que contiene información referente a la definición de empresa
+    codemp:
+      type: VARCHAR
+      size: 3
+      description: Código de la Empresa
+      required: true
+    ctapag:
+      type: VARCHAR
+      size: 32
+      description: Cuenta por Pagar
+      required: true
+    ctades:
+      type: VARCHAR
+      size: 32
+      description: Cuenta de Descuento
+      required: true
+    numini:
+      type: VARCHAR
+      size: 8
+      description: Número Inicial para la Orden de Pago
+      required: true
+    ordnom:
+      type: VARCHAR
+      size: 4
+      description: Orden de pago para Cancelar Nomina
+      required: true
+    ordobr:
+      type: VARCHAR
+      size: 4
+      description: Orden de pago para Cancelar Obras
+      required: true
+    unitri:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Valor de la Unidad Tributaria
+    vercomret:
+      type: VARCHAR
+      size: 1
+      description: Indica si se permite ver Comprobantes y Retenciones
+    genctaord:
+      type: VARCHAR
+      size: 1
+      description: Indica si genera Comprobantes de Orden
+    forubi:
+      type: VARCHAR
+      size: 32
+      description: Formato de las Unidades de Origen
+    tipaju:
+      type: VARCHAR
+      size: 4
+      description:
+    tipeje:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Ejecución Presupuestaria
+    numaut:
+      type: VARCHAR
+      size: 8
+      description: Número inicial para la identificación de las Autorizaciones de Pago
+    tipmov:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Movimiento según Libro para la Autorización de Pago
+    coriva:
+      type: NUMERIC
+      size: 14
+      scale: 0
+      description: Correlativo para Comprobante de Retención de IVA
+    ctabono:
+      type: VARCHAR
+      size: 32
+      description:
+    ctavaca:
+      type: VARCHAR
+      size: 32
+      description:
+    gencaubon:
+      type: VARCHAR
+      size: 1
+      description:
+    gencomadi:
+      type: VARCHAR
+      size: 1
+      description: Indica si Genera Comprobante Contable Adicional al hacer una OP
+    unidad:
+      type: VARCHAR
+      size: 100
+      description:
+    ordliq:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Causado para Generar Ordenes de Pago de Liquidación
+    ordfid:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Causado para Generar Ordenes de Pago de Fideicomiso
+    ordval:
+      type: VARCHAR
+      size: 4
+      description:
+    genordret:
+      type: VARCHAR
+      size: 1
+      description:
+    emichepag:
+      type: VARCHAR
+      size: 1
+      description:
+    cuecajchi:
+      type: VARCHAR
+      size: 20
+      description:
+    tipcajchi:
+      type: VARCHAR
+      size: 4
+      description:
+    monapecajchi:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    porrepcajchi:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    tiprencajchi:
+      type: VARCHAR
+      size: 4
+      description:
+    numinicajchi:
+      type: VARCHAR
+      size: 8
+      description:
+    cedrifcajchi:
+      type: VARCHAR
+      size: 15
+      description:
+    codcatcajchi:
+      type: VARCHAR
+      size: 32
+      description:
+    gencomalc:
+      type: VARCHAR
+      size: 1
+      description:
+    reqaprord:
+      type: VARCHAR
+      size: 1
+      description:
+    ordcomptot:
+      type: VARCHAR
+      size: 1
+      description:
+    ordmotanu:
+      type: VARCHAR
+      size: 1
+      description:
+    manbloqban:
+      type: VARCHAR
+      size: 1
+      description:
+    ordret:
+      type: VARCHAR
+      size: 4
+      description:
+      required: true
+    ordconpre:
+      type: BOOLEAN
+      description:
+      default: false
+    ordtna:
+      type: VARCHAR
+      size: 4
+      description:
+    ordtba:
+      type: VARCHAR
+      size: 4
+      description:
+    ordcre:
+      type: VARCHAR
+      size: 4
+      description:
+    ordsolpag:
+      type: VARCHAR
+      size: 4
+      description:
+    monche:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    codmon:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    tippag:
+      type: VARCHAR
+      size: 4
+      description: Código del Tipo de Documento   
+    corpagele:
+      type: VARCHAR
+      size: 8
+      description: Correlativo para los Pagos Electronicos
+    tipagele:
+      type: VARCHAR
+      size: 1
+      description: Tipo de Pago electronico      
+    cormovele:
+      type: VARCHAR
+      size: 8
+      description: Correlativo para los mov electronicos 
+    rifemp:
+      type: VARCHAR
+      size: 15
+      description: RIF de la Empresa    
+    numneg:
+      type: VARCHAR
+      size: 8
+      description: Número de Negociación de la Empresa   
+    ordamo:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Orden de Amortización
+    ordant:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Orden de Pago de Deudas Anteriores
+    ordantcom:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Orden de Pago de Deudas Anteriores que refieren a Compromiso         
+    reppreimpop:
+      type: VARCHAR
+      size: 50         
+    corciecaj:
+      type: VARCHAR
+      size: 8
+      description: Correlativo para Cierre de Caja Chica
+    ordhcm:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Orden de Pago HCM
+    comiva:
+      type: VARCHAR
+      size: 50
+      description: nombre del reporte de comprobante de retencion de IVA
+    comislr:
+      type: VARCHAR
+      size: 50
+      description: nombre del reporte de comprobante de retencion de ISLR
+    comltf:
+      type: VARCHAR
+      size: 50
+      description: nombre del reporte de comprobante de retencion de LTF
+    comrs:
+      type: VARCHAR
+      size: 50
+      description: nombre del reporte de comprobante de retencion de RS
+    ordcarava:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Causado para Generar Ordenes de Pago de Carta Aval    
+    ordciecaj:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Causado para Generar Ordenes de Pago de Cierre Caja Chica
+    nomfirrep:
+      type: VARCHAR
+      size: 200
+      description: Nombre del que Firma el Reporte
+    ranfirrep:
+      type: VARCHAR
+      size: 100
+      description: Rango del que Firma el Reporte
+    carfirrep:
+      type: VARCHAR
+      size: 100
+      description: Cargo del que Firma el Reporte
+    agropnomesp:
+      type: VARCHAR
+      size: 1
+      description: Agrupar por Banco en OP de nomina especiales (S-N)
+    nomreptras:
+      type: VARCHAR
+      size: 50
+      description: Nombre del Reporte de Trasferencias Bancarias
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opdetaut:    
+    _attributes:
+      description:
+    numord:
+      type: VARCHAR
+      size: 8
+      description:
+      required: true
+    refcom:
+      type: VARCHAR
+      size: 8
+      description:
+    codpre:
+      type: VARCHAR
+      size: 50
+      description:
+      required: true
+    moncau:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+      required: true
+    mondes:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    monret:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opdetfac:    
+    _attributes:
+      description:
+    numord:
+      type: VARCHAR
+      size: 8
+      description:
+    desdet:
+      type: VARCHAR
+      size: 255
+      description:
+    mondet:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opdetord:    
+    _attributes:
+      description: Tabla que contiene información referente al detalle de la orden de pago
+    numord:
+      type: VARCHAR
+      size: 8
+      description: Número de la Orden de Pago
+      required: true
+    refcom:
+      type: VARCHAR
+      size: 8
+      description: Referencia del Comprobante
+    codpre:
+      type: VARCHAR
+      size: 50
+      description: Código Presupuestario
+      required: true
+    moncau:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto a Causar
+      required: true
+    mondes:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Descuento
+    monret:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Descuento
+    refsal:
+      type: VARCHAR
+      size: 2000
+      description:
+    reffon:
+      type: VARCHAR
+      size: 1000
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+    _indexes:
+      i01opdetord:
+        - numord
+        - codpre
+      i02opdetord:
+        - codpre
+  opdetper:    
+    _attributes:
+      description: Tabla que contiene información referente al detalle de la Orden de Pago Permanente.
+    refopp:
+      type: VARCHAR
+      size: 8
+      description: Número de Referencia de la Orden de Pago Permanente
+      required: true
+    refcuo:
+      type: VARCHAR
+      size: 8
+      description: Número de Referencia de    la Cuota.
+      required: true
+    fecinicuo:
+      type: DATE
+      description: Fecha de Inicio de la Cuota
+      required: true
+    fecfincuo:
+      type: DATE
+      description: Fecha de Fin de la Cuota
+      required: true
+    moncuo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto de la Cuota
+      required: true
+    fecpag:
+      type: DATE
+      description: Fecha de Pago
+    numord:
+      type: VARCHAR
+      size: 8
+      description: Número de la Orden de Pago
+    ctaban:
+      type: VARCHAR
+      size: 20
+      description: Código de la Cuenta Bancaria
+    numche:
+      type: VARCHAR
+      size: 20
+      description: Número del Cheque con que se pago la Orden de Pago
+    tipmov:
+      type: VARCHAR
+      size: 4
+      description: Código del Tipo de Movimiento
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Pago
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opdisfue:    
+    _attributes:
+      description:
+    numord:
+      type: VARCHAR
+      size: 8
+      description:
+      required: true
+    codpre:
+      type: VARCHAR
+      size: 50
+      description:
+      required: true
+    fuefin:
+      type: VARCHAR
+      size: 4
+      description:
+    monfue:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    correl:
+      type: VARCHAR
+      size: 10
+      description:
+    origen:
+      type: VARCHAR
+      size: 10
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opfactur:    
+    _attributes:
+      description: Tabla que contiene información referente a la factura canceladas por órdenes de pago.
+    numord:
+      type: VARCHAR
+      size: 8
+      description: Número de la Orden
+    fecfac:
+      type: DATE
+      description: Fecha de la Factura
+    numfac:
+      type: VARCHAR
+      size: 50
+      description: Número de la Factura
+    numctr:
+      type: VARCHAR
+      size: 50
+      description: Numero de Control de la Factura
+    tiptra:
+      type: VARCHAR
+      size: 10
+      description: Tipo de Transacción
+    totfac:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description: Total de de la Factura
+    exeiva:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description: Monto exento de IVA
+    basimp:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description: Base Imponible
+    poriva:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description: Porcentaje del IVA
+    moniva:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description:
+    monret:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description: Monto de Retención del IVA
+    basltf:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description: Base Imponible para el Calculo
+    porltf:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description: Porcentaje de Retención
+    monltf:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description: Monto Retenido en la Factura
+    basislr:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description: Base Imponible para el ISLR
+    porislr:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description: Porcentaje del ISLR
+    monislr:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description: Monto del ISLR
+    codislr:
+      type: VARCHAR
+      size: 50
+      description: Código del ISLR
+    rifalt:
+      type: VARCHAR
+      size: 20
+      description: RIF Alterno para Caso de Sucursales
+    facafe:
+      type: VARCHAR
+      size: 50
+      description:
+    observacion:
+      type: VARCHAR
+      size: 250
+      description:
+    basirs:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description:
+    porirs:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description:
+    monirs:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description:
+    codirs:
+      type: VARCHAR
+      size: 50
+      description:
+    basimn:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description:
+    porimn:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description:
+    monimn:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description:
+    codimn:
+      type: VARCHAR
+      size: 50
+      description:
+    fecrecfac:
+      type: DATE
+      description: Fecha Recepción de la Factura
+    mnosuj:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description: Monto No Sujeto
+    mdecre:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description: Monto Sin Derecho a Crédito
+    monexo:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description: Monto Exonerado
+    codiva:
+      type: VARCHAR
+      size: 50
+      description:  Código de Retención IVA
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opordche:    
+    _attributes:
+      description: Tabla que contiene información referente a los cheques usados para cancelar una determinada orden de pago
+    numord:
+      type: VARCHAR
+      size: 8
+      description: Número de la Orden
+      required: true
+    numche:
+      type: VARCHAR
+      size: 20
+      description: Número del Cheque
+      required: true
+    codcta:
+      type: VARCHAR
+      size: 32
+      description: Numero de Cuenta Bancaria
+      required: true
+    monpag:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description: Monto del pago
+    tipmov:
+      type: VARCHAR
+      size: 4
+      description:
+      required: true
+    compret:
+      type: VARCHAR
+      size: 1
+      description: Si tiene el comprobante de Retención     
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opordpag:    
+    _attributes:
+      description: Tabla que contiene información referente a la orden pago
+    numord:
+      type: VARCHAR
+      size: 8
+      description: Número de la Orden
+      required: true
+    tipcau:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Causado
+      required: true
+    fecemi:
+      type: DATE
+      description: Fecha de Emisión
+      required: true
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description: Cédula o RIF del Beneficiario
+      required: true
+      foreignTable: opbenefi
+      foreignReference: cedrif
+    nomben:
+      type: VARCHAR
+      size: 250
+      description: Nombre del Beneficiario
+      required: true
+    monord:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto de la Orden
+      required: true
+    desord:
+      type: VARCHAR
+      size: 1000
+      description: Descripción de la Orden
+      required: true
+    mondes:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto de Descuento
+    monret:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto de Retención
+    numche:
+      type: VARCHAR
+      size: 20
+      description: Número del Cheque
+    ctaban:
+      type: VARCHAR
+      size: 20
+      description: Cuenta Bancaria
+    ctapag:
+      type: VARCHAR
+      size: 32
+      description: Código de la Cuenta por Pagar
+    numcom:
+      type: VARCHAR
+      size: 8
+      description: Número de Comprobante Contable
+    status:
+      type: VARCHAR
+      size: 1
+      description: Etatus de la Orden
+      required: true
+    coduni:
+      type: VARCHAR
+      size: 30
+      description: Código de la Unidad de Origen
+    fecenvcon:
+      type: DATE
+      description: Fecha de Envió a Contraloría
+    fecenvfin:
+      type: DATE
+      description: Fecha de Envió a  Finanzas
+    ctapagfin:
+      type: VARCHAR
+      size: 32
+      description: Cuenta Contable de Finanzas
+    obsord:
+      type: VARCHAR
+      size: 250
+      description: Observaciones
+    fecven:
+      type: DATE
+      description: Fecha de Vencimiento de la Orden
+    fecanu:
+      type: DATE
+      description: Fecha de Anulación
+    desanu:
+      type: VARCHAR
+      size: 250
+      description: Descripción de la anulación
+    monpag:
+      type: NUMERIC
+      size: 16
+      scale: 2
+      description: Monto del Cheque
+    aproba:
+      type: VARCHAR
+      size: 1
+      description: Estatus de aprobación de la orden
+    nombensus:
+      type: VARCHAR
+      size: 250
+      description: Beneficiario Sustituto
+    fecrecfin:
+      type: DATE
+      description: Fecha de Recepción de Finanzas
+    anopre:
+      type: VARCHAR
+      size: 4
+      description: Año Presupuestario
+    fecpag:
+      type: DATE
+      description: Fecha del Pago
+    numtiq:
+      type: VARCHAR
+      size: 8
+      description: Número de Ticket
+    peraut:
+      type: VARCHAR
+      size: 500
+      description: Persona Autorizada por el Ticket
+    cedaut:
+      type: VARCHAR
+      size: 100
+      description: Cédula de la Persona Autorizada por el Ticket
+    nomper2:
+      type: VARCHAR
+      size: 50
+      description: Nombre de la Persona que recibió la Llamada de Gestión
+    nomper1:
+      type: VARCHAR
+      size: 50
+      description: Nombre de la Persona que recibió la Llamada de Gestión
+    horcon:
+      type: VARCHAR
+      size: 10
+      description: Hora de Conformación
+    feccon:
+      type: DATE
+      description: Fecha de Conformación
+    nomcat:
+      type: VARCHAR
+      size: 250
+      description:
+    numfac:
+      type: VARCHAR
+      size: 20
+      description:
+    numconfac:
+      type: VARCHAR
+      size: 20
+      description: Numero de Control de Factura
+    numcorfac:
+      type: VARCHAR
+      size: 20
+      description: Numero de Correlativo de Factura
+    fechafac:
+      type: DATE
+      description: Fecha de la Factura
+    fecfac:
+      type: DATE
+      description: Fecha de la Factura
+    tipfin:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Financiamiento
+    comret:
+      type: VARCHAR
+      size: 20
+      description: Numero de Comprobante de Retención de IVA
+    feccomret:
+      type: DATE
+      description: Fecha de Comprobante de Retención de IVA
+    comretislr:
+      type: VARCHAR
+      size: 20
+      description: Número de Comprobante de Retención de ISLR
+    feccomretislr:
+      type: DATE
+      description: Fecha de Comprobante de Retención de ISLR
+    comretltf:
+      type: VARCHAR
+      size: 20
+      description: Número de Comprobante de Retención de Ley de Timbre Fiscal
+    feccomretltf:
+      type: DATE
+      description: Fecha de Comprobante de Retención de Ley de Timbre Fiscal
+    comretfiel:
+      type: VARCHAR
+      size: 20
+      description: Número de Comprobante de Retención de Garantía de Fiel Cumplimiento
+    feccomretfiel:
+      type: DATE
+      description: Fecha de Comprobante de Retención de Garantía de Fiel Cumplimiento
+    comretlab:
+      type: VARCHAR
+      size: 20
+      description: Número de Comprobante de Retención Laboral
+    feccomretlab:
+      type: DATE
+      description: Fecha de Comprobante de Retención Laboral
+    numsigecof:
+      type: VARCHAR
+      size: 8
+      description:
+    fecsigecof:
+      type: DATE
+      description:
+    expsigecof:
+      type: VARCHAR
+      size: 8
+      description:
+    aprobadoord:
+      type: VARCHAR
+      size: 1
+      description: Estatus de Aprobación en Ordenamiento de Pago
+    codmotanu:
+      type: VARCHAR
+      size: 4
+      description: Código de Motivo de anulación
+    usuanu:
+      type: VARCHAR
+      size: 250
+      description: Usuario que realizó la Anulación
+    aprobadotes:
+      type: VARCHAR
+      size: 1
+      description: Estatus de Aprobación en Tesoreria
+    fecret:
+      type: DATE
+      description:
+      required: true
+    numcue:
+      type: VARCHAR
+      size: 20
+      description:
+    numcomapr:
+      type: VARCHAR
+      size: 8
+      description:
+    codconcepto:
+      type: VARCHAR
+      size: 4
+      description:
+    numforpre:
+      type: VARCHAR
+      size: 15
+      description:
+    motrecord:
+      type: VARCHAR
+      size: 500
+      description:
+    motrectes:
+      type: VARCHAR
+      size: 500
+      description:
+    aprorddir:
+      type: VARCHAR
+      size: 1
+      description: Estatus de Aprobación de Ordenes de Pago Directas
+    codcajchi:
+      type: VARCHAR
+      size: 3
+      description:
+    numcta:
+      type: VARCHAR
+      size: 20
+      description:
+    tipdoc:
+      type: VARCHAR
+      size: 4
+      description:
+    loguse:
+      type: VARCHAR
+      size: 50
+      description:
+    codfonant:
+      type: VARCHAR
+      size: 3
+      description:
+    amortiza:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    codmon:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: Código de la Moneda
+      foreignTable: tsdefmon
+      foreignReference: codmon
+    valmon:
+      type: NUMERIC
+      size: 14      
+      scale: 6
+      description: Valor de la Moneda
+    ordsnc:
+      type: VARCHAR
+      size: 1
+      description:
+    codsnc:
+      type: VARCHAR
+      size: 20
+      description:
+    fecini:
+      type: DATE
+      description:
+    fecfin:
+      type: DATE
+      description:
+    medcom:
+      type: VARCHAR
+      size: 1
+      description:
+    modcon:
+      type: VARCHAR
+      size: 1
+      description:
+    lugeje:
+      type: VARCHAR
+      size: 16
+      description:
+    numcon:
+      type: VARCHAR
+      size: 20
+      description:
+    mescon:
+      type: VARCHAR
+      size: 2
+      description:
+    staele:
+      type: VARCHAR
+      size: 1
+      description: Estatus creado para indicar las OP que se haran por Pagos Electronicos 
+    codtde:
+      type: VARCHAR
+      size: 3
+      description: codigo del tipo de descuento   
+    codadi:
+      type: VARCHAR
+      size: 2
+      description: Código adicional del banco  
+    numordamo:
+      type: VARCHAR
+      size: 8
+      description: Número de la Orden de Amortización
+    codrgo:
+      type: VARCHAR
+      size: 4
+      description: Código recargo
+    monrgo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto del Recargo
+    codpro:
+      type: VARCHAR
+      size: 20
+      description: Código del Proyecto
+    coddirec:
+      type: VARCHAR
+      size: 32      
+      description:   Código de la Dirección
+    refava:
+      type: VARCHAR
+      size: 20      
+      description:  Referencia de la Carta Aval
+    fecava:
+      type: DATE   
+      description:  Fecha de la Carta Aval
+    nompacava:
+      type: VARCHAR
+      size: 200      
+      description:  Nombre del Paciente de la Carta Aval
+    cedpacava:
+      type: VARCHAR
+      size: 10      
+      description:  Cédula del Paciente de la Carta Aval 
+    motsolava:
+      type: VARCHAR
+      size: 500      
+      description:  Motivo de Solicitud de la Carta Aval
+    moncarava:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto de la Carta Aval  
+    usuaprord:
+      type: VARCHAR
+      size: 50
+      description:  usuario que realizo la aprobación en Ordenamiento de Pago
+    fecaprord:
+      type: DATE      
+      description:  fecha en que realizo la aprobación en Ordenamiento de Pago                         
+    usuaprdir:
+      type: VARCHAR
+      size: 50
+      description:  usuario que realizo la aprobación de la Orden Directa
+    fecaprdir:
+      type: DATE      
+      description:  fecha en que realizo la aprobación de la Orden Directa
+    usuaprtes:
+      type: VARCHAR
+      size: 50
+      description:  usuario que realizo la aprobación en Tesoreria
+    fecaprtes:
+      type: DATE      
+      description:  fecha en que realizo la aprobación en Tesoreria
+    aprproord:
+      type: VARCHAR
+      size: 1
+      description: Estatus de Aprobación de Propuesta de Pago
+    usuaprpro:
+      type: VARCHAR
+      size: 50
+      description:  usuario que realizo la Aprobación de Propuesta de Pago
+    fecaprpro:
+      type: DATE      
+      description:  fecha en que realizo la Aprobación de Propuesta de Pago
+    obspropag:
+      type: VARCHAR
+      size: 1000
+      description: Observación de Propuesta de Pago
+    numval:
+      type: VARCHAR
+      size: 20
+      description: Número de Valuación
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opordper:    
+    _attributes:
+      description:
+    refopp:
+      type: VARCHAR
+      size: 8
+      description:
+      required: true
+    desopp:
+      type: VARCHAR
+      size: 250
+      description:
+      required: true
+    fecemi:
+      type: DATE
+      description:
+      required: true
+    numcuo:
+      type: NUMERIC
+      description:
+      size: 6
+      scale: 0
+      required: true
+    freopp:
+      type: VARCHAR
+      size: 1
+      description:
+      required: true
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description:
+      required: true
+    monopp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+      required: true
+    staord:
+      type: VARCHAR
+      size: 1
+      required: true
+    numcue:
+      type: VARCHAR
+      size: 20
+      description:
+    ctaban:
+      type: VARCHAR
+      size: 20
+      description:
+    tipdoc:
+      type: VARCHAR
+      size: 4
+      description:
+    refere:
+      type: VARCHAR
+      size: 8
+      description:
+    coduni:
+      type: VARCHAR
+      size: 30
+      description:
+    tippag:
+      type: VARCHAR
+      size: 1
+      description:
+    numtiq:
+      type: VARCHAR
+      size: 8
+      description:
+    peraut:
+      type: VARCHAR
+      size: 40
+      description:
+    cedaut:
+      type: VARCHAR
+      size: 15
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opretcon:    
+    _attributes:
+      description: Tabla que contiene información referente a concepto de retenciones de nomina
+    codcon:
+      type: VARCHAR
+      size: 3
+      description: Código del Concepto
+      required: true
+    codtip:
+      type: VARCHAR
+      size: 3
+      description: Código del Tipo de la Retención
+      required: true
+      foreignTable: optipret
+      foreignReference: codtip
+    codnom:
+      type: VARCHAR
+      size: 3
+      description: Código de la Nomina
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opretord:    
+    _attributes:
+      description: Tabla que contiene información referente a la orden de pago de retención
+    numord:
+      type: VARCHAR
+      size: 8
+      description: Número de Orden
+      required: true
+    codtip:
+      type: VARCHAR
+      size: 3
+      description: Tipo de Retención
+      required: true
+      foreignTable: optipret
+      foreignReference: codtip
+    monret:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto de Retención
+      required: true
+    codpre:
+      type: VARCHAR
+      size: 50
+      description: Código Presupuestario
+      required: true
+    numret:
+      type: VARCHAR
+      size: 8
+      description: Numero de la Orden de Pago de la Retención
+    refere:
+      type: VARCHAR
+      size: 8
+      description: Referencia del Compromiso
+    correl:
+      type: NUMERIC
+      size: 3
+      scale: 0
+      description: Referencia del Compromiso
+    monbas:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+    _indexes:
+      i01opretord:
+        - numord
+        - codtip
+  optipben:    
+    _attributes:
+      description: Tabla que contiene información referente al tipo de beneficiario
+    codtipben:
+      type: VARCHAR
+      size: 3
+      description: Código del Tipo de Beneficiario
+      required: true
+    destipben:
+      type: VARCHAR
+      size: 50
+      description: Descripción del Tipo de Beneficiario
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+    _uniques:
+      unique_optipben_codtipben:
+        - codtipben
+  optipret:    
+    _attributes:
+      description: Tabla que contiene información referente al tipo de retención
+    codtip:
+      type: VARCHAR
+      size: 3
+      description: Código del Tipo de Beneficiario
+      required: true
+    destip:
+      type: VARCHAR
+      size: 250
+      description: Descripción del Tipo de Beneficiario
+      required: true
+    codcon:
+      type: VARCHAR
+      size: 32
+      description: Código Contable
+      required: true
+    basimp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Base Imponible
+    porret:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Porcentaje de Retención
+    unitri:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Unidades Tributarias
+    porsus:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Porcentaje usado para el Calculo del Sustraendo
+    factor:
+      type: NUMERIC
+      size: 16
+      scale: 6
+      description:
+    codtipsen:
+      type: VARCHAR
+      size: 3
+      description:
+    mbasmi:
+      type: NUMERIC
+      size: 16
+      scale: 6
+      description:
+    mbasma:
+      type: NUMERIC
+      size: 16
+      scale: 6
+      description:        
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+    _uniques:
+      unique_optipret_codtip:
+        - codtip
+  tsantici:    
+    _attributes:
+      description:
+    refant:
+      type: VARCHAR
+      size: 20
+      description:
+      required: true
+    desant:
+      type: VARCHAR
+      size: 250
+      description:
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description:
+      required: true
+    refcom:
+      type: VARCHAR
+      size: 8
+      description:
+      required: true
+    fecant:
+      type: DATE
+      description:
+      required: true
+    monto:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    saldo:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    numcom:
+      type: VARCHAR
+      size: 8
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsantord:    
+    _attributes:
+      description:
+    numord:
+      type: VARCHAR
+      size: 8
+      description:
+      required: true
+    numche:
+      type: VARCHAR
+      size: 20
+      description:
+      required: true
+    monto:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    refant:
+      type: VARCHAR
+      size: 20
+      description:
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsasifte:    
+    _attributes:
+      description:
+    numche:
+      type: VARCHAR
+      size: 20
+      description:
+      required: true
+    codtipfte:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tscheemi:    
+    _attributes:
+      description: Tabla que contiene información referente a los cheques emitidos.
+    numche:
+      type: VARCHAR
+      size: 20
+      description: Número del cheque.
+      required: true
+    numcue:
+      type: VARCHAR
+      size: 20
+      description: Número del cheque.
+      required: true
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description: Cédula o RIF del Beneficiario.
+      required: true
+    fecemi:
+      type: DATE
+      description: Fecha de Emisión.
+      required: true
+    monche:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Total del Cheque.
+      required: true
+    status:
+      type: VARCHAR
+      size: 1
+      description: Estatus del Cheque.
+    codemi:
+      type: VARCHAR
+      size: 50
+      description: Código del Usuario que emite el Cheque.
+    fecent:
+      type: DATE
+      description: Fecha en la cual se Entregó el Cheque.
+    codent:
+      type: VARCHAR
+      size: 50
+      description: Código de Usuario que Entrega.
+    obsent:
+      type: VARCHAR
+      size: 100
+      description: Observación del Cheque.
+    fecanu:
+      type: DATE
+      description: Fecha de Anulación.
+    cedrec:
+      type: VARCHAR
+      size: 15
+      description: Cedula de la Persona q Recibe el Cheque
+    nomrec:
+      type: VARCHAR
+      size: 250
+      description: Nombre de la persona q recibe el chq
+    tipdoc:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Documento
+    fecing:
+      type: DATE
+      description:
+    temporal:
+      type: VARCHAR
+      size: 100
+      description: Campos para almacenar Observaciones de la Entrega del cheque
+    temporal2:
+      type: VARCHAR
+      size: 100
+      description: Campos para almacenar Observaciones de la Entrega del cheque
+    nombensus:
+      type: VARCHAR
+      size: 250
+      description: Nombre del beneficiario sustituto
+    anopre:
+      type: VARCHAR
+      size: 4
+      description: Año Presupuestario
+    numtiq:
+      type: VARCHAR
+      size: 8
+      description: Número del Ticket de Pago
+    cedaut:
+      type: VARCHAR
+      size: 15
+      description: Cédula del Autorizado por el Ticket
+    peraut:
+      type: VARCHAR
+      size: 40
+      description: Nombre de la Persona Autorizada por el Ticket
+    numcomegr:
+      type: VARCHAR
+      size: 8
+      description: Número de Comprobante de Egreso
+    motdev:
+      type: VARCHAR
+      size: 100
+      description:
+    fecdev:
+      type: DATE
+      description:
+    codmon:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+      foreignTable: tsdefmon
+      foreignReference: codmon
+    valmon:
+      type: NUMERIC
+      size: 14
+      scale: 6
+      description:
+    codconcepto:
+      type: VARCHAR
+      size: 4
+      description:  Concepto de Pago      
+    loguse:
+      type: VARCHAR
+      size: 50
+      description: Usuario que hizo el cheque.
+    conformado:
+      type: VARCHAR
+      size: 1
+      description: (S-N) Si esta conformado
+    nomfuncon:
+      type: VARCHAR
+      size: 500
+      description: Nombre del Funcionario que hizo la conformación
+    agenban:
+      type: VARCHAR
+      size: 500
+      description: Nombre de la agencia del banco.
+    fecconfor:
+      type: DATE
+      description: Fecha de la Conformación
+    horconfor:
+      type: VARCHAR
+      size: 50
+      description: Hora  de la Conformación
+    fotper:
+      type: VARCHAR
+      size: 250   
+      description: Foto de la Persona que retira el cheque
+    fotced:
+      type: VARCHAR
+      size: 250    
+      description: Foto de la Cedula de la Persona que retira el cheque 
+    fotche:
+      type: VARCHAR
+      size: 250       
+      description: Foto del Cheque a retirar
+    comentcon:
+      type: VARCHAR
+      size: 1
+      description: (S-N) Si fue o No entregado el comprobante en Contabilidad
+    coddirec:
+      type: VARCHAR
+      size: 32
+      description:   Código de la Dirección 
+    fecreg:
+      type: TIMESTAMP
+      description: Fecha de registro
+    cheimp:
+      type: VARCHAR
+      size: 1
+      description: (S-N) Si fue o No Impreso el Cheque
+    fecimp:
+      type: DATE
+      description: Fecha de Impresión del Cheque
+    fecentcon:
+      type: DATE
+      description: Fecha de Entregado a Contabilidad
+    codpro:
+      type: VARCHAR
+      size: 20
+      description: Código del Proyecto
+    codseg:
+      type: VARCHAR
+      size: 32
+      description: Código de seguridad
+    codcon:
+      type: VARCHAR
+      size: 32
+      description: Código de Conformación
+    cedrifsus:
+      type: VARCHAR
+      size: 15
+      description: Cédula o RIF del Beneficiario Sustituto
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+    _indexes:
+      itscheemi2:
+        - numcue
+        - cedrif
+      itscheemi3:
+        - cedrif
+      itscheemi4:
+        - fecemi
+  tscomprobantes:    
+    _attributes:
+      description:
+    tipo:
+      type: VARCHAR
+      size: 4
+      description:
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description:
+    ano:
+      type: VARCHAR
+      size: 4
+      description:
+    mes:
+      type: VARCHAR
+      size: 2
+      description:
+    comprobante:
+      type: VARCHAR
+      size: 6
+      description:
+    numord:
+      type: VARCHAR
+      size: 8
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro 
+  tsconcil:    
+    _attributes:
+      description: Tabla que contiene información referente a las conciliaciones bancarias realizadas.
+    numcue:
+      type: VARCHAR
+      size: 20
+      description: Número de la Cuenta.
+      required: true
+    mescon:
+      type: VARCHAR
+      size: 2
+      description: Número del Mes de la Conciliación.
+      required: true
+    anocon:
+      type: VARCHAR
+      size: 4
+      description: Año de la Conciliación.
+      required: true
+    refere:
+      type: VARCHAR
+      size: 20
+      description: Referencia del Movimiento.
+      required: true
+    movlib:
+      type: VARCHAR
+      size: 4
+      description: Tipo del Movimiento Libro
+    movban:
+      type: VARCHAR
+      size: 4
+      description: Tipo del Movimiento Banco.
+    feclib:
+      type: DATE
+      description: Fecha del Movimiento Libro.
+    fecban:
+      type: DATE
+      description: Fecha del Movimiento Banco.
+    desref:
+      type: VARCHAR
+      size: 1000
+      description: Descripción del Movimiento.
+    monlib:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Total en  Libro.
+    monban:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Total en  Banco.
+    result:
+      type: VARCHAR
+      size: 50
+      description: Indica el Resultado de la Conciliación
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsconcilhis:    
+    _attributes:
+      description: Tabla que contiene información referente al Histórico de las conciliaciones bancarias realizadas.
+    numcue:
+      type: VARCHAR
+      size: 20
+      description: Número de la Cuenta.
+      required: true
+    mescon:
+      type: VARCHAR
+      size: 2
+      description: Número del Mes de la Conciliación.
+      required: true
+    anocon:
+      type: VARCHAR
+      size: 4
+      description: Año de la Conciliación.
+      required: true
+    refere:
+      type: VARCHAR
+      size: 20
+      description: Referencia del Movimiento.
+      required: true
+    movlib:
+      type: VARCHAR
+      size: 4
+      description: Tipo del Movimiento Libro
+    movban:
+      type: VARCHAR
+      size: 4
+      description: Tipo del Movimiento Banco.
+    feclib:
+      type: DATE
+      description: Fecha del Movimiento Libro.
+    fecban:
+      type: DATE
+      description: Fecha del Movimiento Banco.
+    desref:
+      type: VARCHAR
+      size: 1000
+      description: Descripción del Movimiento.
+    monlib:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Total en  Libro.
+    monban:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Total en  Banco.
+    result:
+      type: VARCHAR
+      size: 50
+      description: Indica el Resultado de la Conciliación
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsconuni:    
+    _attributes:
+      description:
+    codcta:
+      type: VARCHAR
+      size: 32
+      description:
+    codsus:
+      type: VARCHAR
+      size: 32
+      description:
+    nomsus:
+      type: VARCHAR
+      size: 255
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsdefban:    
+    _attributes:
+      description: Tabla que contiene información referente a la definición de las Cuentas Bancarias.
+    numcue:
+      type: VARCHAR
+      size: 20
+      description: Número de la Cuenta Bancaria
+      required: true
+    nomcue:
+      type: VARCHAR
+      size: 40
+      description: Nombre de la Cuenta Bancaria.
+      required: true
+    tipcue:
+      type: VARCHAR
+      size: 3
+      description: Tipo de Cuenta.
+      required: true
+      foreignTable: tstipcue
+      foreignReference: codtip
+    codcta:
+      type: VARCHAR
+      size: 32
+      description: Código de la Cuenta Contable.
+    fecreg:
+      type: DATE
+      description: Fecha de Registro.
+      required: true
+    fecven:
+      type: DATE
+      description: Fecha de Vencimiento.
+    fecper:
+      type: DATE
+      description: Fecha Período Bancos.
+    renaut:
+      type: VARCHAR
+      size: 1
+      description: Indica si la Renovación es  Automática.
+    porint:
+      type: NUMERIC
+      size: 5
+      scale: 2
+      description: Porcentaje de Interés.
+    tipint:
+      type: VARCHAR
+      size: 1
+      description: Tipo de Interés.
+    numche:
+      type: VARCHAR
+      size: 20
+      description: Número del Cheque.
+    antban:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Saldo anterior en bancos.
+    debban:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto de débitos en bancos.
+    creban:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto de créditos en bancos.
+    antlib:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Saldo Anterior en Libros.
+    deblib:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto de Débitos en Libros.
+    crelib:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto de Créditos en Libros.
+    valche:
+      type: NUMERIC
+      size: 3
+      scale: 0
+      description: Validez en días del cheque.
+    concil:
+      type: VARCHAR
+      size: 1
+      description: Indica si es ó no Conciliable.
+    plazo:
+      type: NUMERIC
+      size: 3
+      scale: 0
+      description: Plazo de Interés.
+    fecape:
+      type: DATE
+      description: Fecha de Apertura
+    usocue:
+      type: VARCHAR
+      size: 20
+      description: Uso que se le da a la Cuenta
+    tipren:
+      type: VARCHAR
+      size: 20
+      description: Tipo de Rendimiento que da la Cuenta
+      required: true
+      foreignTable: tstipren
+      foreignReference: codtip
+    desenl:
+      type: VARCHAR
+      size: 250
+      description: Nombre del Banco (SIGRE)
+    porsalmin:
+      type: NUMERIC
+      size: 5
+      scale: 2
+      description: Porcentaje Saldo Minimo
+    monsalmin:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Saldo Minimo
+    codctaprecoo:
+      type: VARCHAR
+      size: 32
+      description: Cuenta Contable del Banco por Tipo de Presupuesto Ordinario
+    codctapreord:
+      type: VARCHAR
+      size: 32
+      description: Cuenta Contable del Banco por Tipo de Presupuesto Coordinado
+    trasitoria:
+      type: VARCHAR
+      size: 1
+      description: Cantidad de Dígitos Significativos de la Chequera
+    salact:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description:
+    fecaper:
+      type: DATE
+      description: Fecha de Apertura de Cuenta
+    temnumcue:
+      type: VARCHAR
+      size: 20
+      description:
+    cantdig:
+      type: NUMERIC
+      size: 2
+      scale: 0
+      description: Cantidad de Dígitos Significativos de la Chequera
+    endosable:
+      type: VARCHAR
+      size: 1
+      description:
+    salmin:
+      type: NUMERIC
+      size: 20
+      scale: 2
+      description:
+    nomrep:
+      type: VARCHAR
+      size: 50
+      description:
+    codmon:
+      type: VARCHAR
+      size: 3
+      description:
+    codcom:
+      type: VARCHAR
+      size: 3
+      description:
+    codtiptra:
+      type: VARCHAR
+      size: 3
+      description: Tipo de Transacción.    
+    codadi:
+      type: VARCHAR
+      size: 2
+      description: Código adicional del banco
+    codubi:
+      type: VARCHAR
+      size: 30
+      description: Código Ubuicación Administrativa
+    coddirec:
+      type: VARCHAR
+      size: 32
+      description:   Código de la Dirección      
+    conformable:
+      type: VARCHAR
+      size: 1
+      description: (S-N) Si los cheques son conformables
+    monconfor:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto de Conformación
+    agenban:
+      type: VARCHAR
+      size: 500
+      description: Nombre de la agencia del banco.
+    corchetran:
+      type: INTEGER
+      description: Correlativo para Cheques por transferencias
+    nomciu:
+      type: VARCHAR
+      size: 1000
+      description: Nombre del Ciudadano(a) para el reporte
+    arerep:
+      type: VARCHAR
+      size: 1000
+      description: Área para el reporte
+    aterep:
+      type: VARCHAR
+      size: 1000
+      description: Atención para el reporte
+    cuebcv:
+      type: VARCHAR
+      size: 20
+      description: Cuenta BCV
+    escajchi:
+      type: VARCHAR
+      size: 1
+      default: 'N'
+      description: Es Cuenta Caja Chica(S-N)
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+    _uniques:
+      unique_tsdefban_numcue:
+        - numcue
+  tsdefchequera:    
+    _attributes:
+      description:
+    codchq:
+      type: VARCHAR
+      size: 8
+      description: Código de la Chequera
+      required: true
+    numche:
+      type: VARCHAR
+      size: 20
+      description: Número de Chequera
+    numcue:
+      type: VARCHAR
+      size: 20
+      description: Número de la Cuenta Bancaria
+    numchedes:
+      type: VARCHAR
+      size: 20
+      description: Numero de Cheque que Inicia la Chequera
+    numchehas:
+      type: VARCHAR
+      size: 20
+      description:
+    activa:
+      type: VARCHAR
+      size: 2
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsdefemp:    
+    _attributes:
+      description:
+    codemp:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    feccon:
+      type: DATE
+      description:
+      required: true
+    fecban:
+      type: DATE
+      description:
+      required: true
+    tipmon:
+      type: VARCHAR
+      size: 20
+      description:
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsdefrengas:    
+    _attributes:
+      description: Tabla que contiene información referente a las cuentas contables para rendición de gastos
+    pagrepcaj:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Movimiento Causado para la OP de Apertura o Reposición de Caja Chica
+    ctarepcaj:
+      type: VARCHAR
+      size: 32
+      description: Cuenta Contable para la  Apertura o Reposición de Caja Chica
+    pagcheant:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Causado para la OP de Rendición de Caja Chica
+    ctacheant:
+      type: VARCHAR
+      size: 32
+      description:
+    movreicaj:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Movimiento Según Libro para el Reintegro de Caja Chica
+    ctareicaj:
+      type: VARCHAR
+      size: 32
+      description: Cuenta Contable para el Reintegro de Caja Chica
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsdepfonpre:
+    numdep:
+      type: VARCHAR
+      size: 20
+      description:
+      required: true
+    tipemp:
+      type: VARCHAR
+      size: 1
+      description:
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsdesmon:    
+    _attributes:
+      description: Tabla que contiene información referente a la definición de la moneda.
+    codmon:
+      type: VARCHAR
+      size: 3
+      description: Código de la Moneda.
+      required: true
+    nommon:
+      type: VARCHAR
+      size: 40
+      description: Denominación de la Moneda.
+      required: true
+    valmon:
+      type: NUMERIC
+      size: 12
+      scale: 6
+      description: Valor de la Moneda.
+      required: true
+    fecmon:
+      type: DATE
+      description: Fecha de Cambio de la Moneda.
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tscammon:    
+    _attributes:
+      description:
+    codmon:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    valmon:
+      type: NUMERIC
+      size: 12
+      scale: 6
+      description:
+      required: true
+    fecmon:
+      type: TIMESTAMP
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsdettra:    
+    _attributes:
+      description:
+    reftra:
+      type: VARCHAR
+      size: 10
+      description:
+      required: true
+    ctaori:
+      type: VARCHAR
+      size: 18
+      description:
+      required: true
+    ctades:
+      type: VARCHAR
+      size: 18
+      description:
+      required: true
+    aumdis:
+      type: VARCHAR
+      size: 1
+      description:
+      required: true
+    montra:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsentislr:    
+    _attributes:
+      description: Tabla que contiene información referente a los pagos de retenciones de ISLR
+    numdep:
+      type: VARCHAR
+      size: 20
+      description: Número del Deposito
+      required: true
+    fecha:
+      type: DATE
+      description: Fecha del Depósito
+    banco:
+      type: VARCHAR
+      size: 100
+      description: Nombre del Banco
+    numord:
+      type: VARCHAR
+      size: 8
+      description: Numero de la Orden de Pago de Retenciones
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsfonpre:    
+    _attributes:
+      description:
+    numche:
+      type: VARCHAR
+      size: 20
+      description:
+      required: true
+    tipemp:
+      type: VARCHAR
+      size: 1
+      description:
+      required: true
+    tippre:
+      type: VARCHAR
+      size: 1
+      description:
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tslibcom:    
+    _attributes:
+      description:
+    numlin:
+      type: NUMERIC
+      size: 10
+      scale: 0
+      description:
+    deslin:
+      type: VARCHAR
+      size: 1000
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsmaetra:    
+    _attributes:
+      description:
+    reftra:
+      type: VARCHAR
+      size: 10
+      description:
+      required: true
+    fectra:
+      type: DATE
+      description:
+      required: true
+    destra:
+      type: VARCHAR
+      size: 100
+      description:
+      required: true
+    tottra:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsmovban:    
+    _attributes:
+      description: Tabla que contiene información referente a los movimientos en bancos.
+    numcue:
+      type: VARCHAR
+      size: 20
+      description: Número de la Cuenta Bancaria.
+      required: true
+      foreignTable: tsdefban
+      foreignReference: numcue
+    codcta:
+      type: VARCHAR
+      size: 32
+      description: Código de la Cuenta.
+    refban:
+      type: VARCHAR
+      size: 20
+      description: Referencia del Movimiento Bancario.
+      required: true
+    fecban:
+      type: DATE
+      description: Fecha del Movimiento Bancario
+      required: true
+    tipmov:
+      type: VARCHAR
+      size: 4
+      description: Código de Tipo de Movimiento.
+      required: true
+      foreignTable: tstipmov
+      foreignReference: codtip
+    desban:
+      type: VARCHAR
+      size: 4000
+      description: Descripción del Movimiento Bancario.
+      required: true
+    monmov:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Total del Movimiento.
+      required: true
+    status:
+      type: VARCHAR
+      size: 1
+      description: Estatus del Movimiento.
+      required: true
+    stacon:
+      type: VARCHAR
+      size: 1
+      description: Estatus de Conciliado.
+      required: true
+    transito:
+      type: VARCHAR
+      size: 1
+      description: Indica si el Movimiento  esta en Transito
+    stacon1:
+      type: VARCHAR
+      size: 1
+      description: Indica si el campo está Conciliado Manualmente
+    codmon:
+      type: VARCHAR
+      size: 3
+      description: Código de la Moneda
+      required: true
+      foreignTable: tsdefmon
+      foreignReference: codmon
+    valmon:
+      type: NUMERIC
+      size: 14
+      scale: 6
+      description:  Valor de Moneda
+    coddirec:
+      type: VARCHAR
+      size: 32      
+      description:   Código de la Dirección   
+    loguse:
+      type: VARCHAR
+      size: 50
+      description: Usuario que registra el movimiento
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+    _indexes:
+      itsmovban2:
+        - numcue
+        - tipmov
+        - fecban
+  tsmovlib:    
+    _attributes:
+      description: Tabla que contiene información referente a los Movimientos en Libros.
+    numcue:
+      type: VARCHAR
+      size: 20
+      description: Número de la Cuenta Bancaria.
+      required: true
+      foreignTable: tsdefban
+      foreignReference: numcue
+    reflib:
+      type: VARCHAR
+      size: 20
+      description: Número del Movimiento en Libro.
+      required: true
+    feclib:
+      type: DATE
+      description: Fecha del Movimiento en Libro.
+      required: true
+    tipmov:
+      type: VARCHAR
+      size: 4
+      description: Descripción del Código de Tipo de Movimiento.
+      required: true
+      foreignTable: tstipmov
+      foreignReference: codtip
+    deslib:
+      type: VARCHAR
+      size: 4000
+      description: Descripción del Movimiento en Libro.
+      required: true
+    monmov:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Total del Movimiento.
+      required: true
+    codcta:
+      type: VARCHAR
+      size: 32
+      description: Código de la Cuenta Contable.
+    numcom:
+      type: VARCHAR
+      size: 8
+      description: Número del Comprobante Contable.
+    feccom:
+      type: DATE
+      description: Fecha del Comprobante Contable.
+    status:
+      type: VARCHAR
+      size: 1
+      description: Estatus del Movimiento en Libro.
+      required: true
+    stacon:
+      type: VARCHAR
+      size: 1
+      description: Estatus del Comprobante.
+      required: true
+    fecing:
+      type: DATE
+      description: Fecha de Ingreso del Movimiento en Libro.
+    fecanu:
+      type: DATE
+      description: Fecha de Anulación
+    tipmovpad:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Movimiento Padre
+    reflibpad:
+      type: VARCHAR
+      size: 20
+      description: Referencia de Libro Padre
+    transito:
+      type: VARCHAR
+      size: 1
+      description:
+    numcomadi:
+      type: VARCHAR
+      size: 8
+      description: Numero de Comprobante de Adición
+    feccomadi:
+      type: DATE
+      description: Fecha de Comprobante de la Adición
+    nombensus:
+      type: VARCHAR
+      size: 250
+      description:
+    orden:
+      type: NUMERIC
+      size: 14
+      scale: 0
+      description:
+    horing:
+      type: VARCHAR
+      size: 12
+      description:
+    stacon1:
+      type: VARCHAR
+      size: 1
+      description:
+    motanu:
+      type: VARCHAR
+      size: 250
+      description:
+    refpag:
+      type: VARCHAR
+      size: 8
+      description:
+    loguse:
+      type: VARCHAR
+      size: 50
+      description:
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description:
+    codmon:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+      foreignTable: tsdefmon
+      foreignReference: codmon
+    valmon:
+      type: NUMERIC
+      size: 14
+      scale: 6
+      description:
+    codconcepto:
+      type: VARCHAR
+      size: 4
+      description:  Concepto de Pago     
+    stadif:
+      type: VARCHAR
+      size: 1
+      description: Estatus del Ajuste Diferencial
+    codpro:
+      type: VARCHAR
+      size: 20
+      description: Código del Proyecto
+    tipmovaju:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Movimiento Padre Ajustes Diferencial
+    reflibaju:
+      type: VARCHAR
+      size: 20
+      description: Referencia de Libro Padre Ajustes Diferencial
+    coddirec:
+      type: VARCHAR
+      size: 32      
+      description:   Código de la Dirección
+    refrei:
+      type: VARCHAR
+      size: 8
+      description: Referencia del Reintegro
+    rifcon:                   
+      type: VARCHAR
+      size: 15
+      description: rif del Contribuyente-Reintegro
+    codtipgas:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Gasto-Reintegro
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+    _indexes:
+      i01tsmovlib:
+        - numcue
+      i02tsmovlib:
+        - tipmov
+        - numcue
+      i03tsmovlib:
+        - tipmov
+      i04tsmovlib:
+        - numcue
+        - feclib
+      i06movlib:
+        - reflib
+      i07movlib:
+        - feclib
+      itsmovlib2:
+        - numcue
+        - tipmov
+        - feclib
+  tsmovtra:    
+    _attributes:
+      description: Tabla que contiene información referente a los movimientos de transferencias bancarias.
+    reftra:
+      type: VARCHAR
+      size: 20
+      description: Número de Referencia del transferencia
+      required: true
+    fectra:
+      type: DATE
+      description: Fecha del Transferencia
+      required: true
+    destra:
+      type: VARCHAR
+      size: 250
+      description: Descripción de la Transferencia
+      required: true
+    ctaori:
+      type: VARCHAR
+      size: 20
+      description: Cuenta Contable Origen
+      required: true
+    ctades:
+      type: VARCHAR
+      size: 20
+      description: Cuenta Contable Destino
+      required: true
+    montra:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto de la Transferencia
+      required: true
+    numcom:
+      type: VARCHAR
+      size: 8
+      description: Número del Comprobante Contable
+    status:
+      type: VARCHAR
+      size: 1
+      description: Estatus del Movimiento
+      required: true
+    fecing:
+      type: DATE
+      description: Fecha de Ingreso del Movimiento en Libro
+    fecanu:
+      type: DATE
+      description: Fecha de Anulación del Movimiento
+    codmon:
+      type: VARCHAR
+      size: 3
+      description:
+    valmon:
+      type: NUMERIC
+      size: 12
+      scale: 6          
+      description:
+    tipmovdesd:
+      type: VARCHAR
+      size: 4
+      description: Código del Tipo de Movimiento Origen.
+      required: true  
+    tipmovhast:
+      type: VARCHAR
+      size: 4
+      description: Código del Tipo de Movimiento Origen.
+      required: true          
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tspararc:    
+    _attributes:
+      description:
+    numcue:
+      type: VARCHAR
+      size: 20
+      description:
+      required: true
+    inicue:
+      type: NUMERIC
+      size: 3
+      scale: 0
+      description:
+      required: true
+    fincue:
+      type: NUMERIC
+      size: 3
+      scale: 0
+      description:
+      required: true
+    iniref:
+      type: NUMERIC
+      size: 3
+      scale: 0
+      description:
+      required: true
+    finref:
+      type: NUMERIC
+      size: 3
+      scale: 0
+      description:
+      required: true
+    digsigp:
+      type: INTEGER
+      description:
+    digsign:
+      type: INTEGER
+      description:
+    inifec:
+      type: NUMERIC
+      size: 3
+      scale: 0
+      description:
+      required: true
+    finfec:
+      type: NUMERIC
+      size: 3
+      scale: 0
+      description:
+      required: true
+    forfec:
+      type: VARCHAR
+      size: 10
+      description:
+    initip:
+      type: NUMERIC
+      size: 3
+      scale: 0
+      description:
+      required: true
+    fintip:
+      type: NUMERIC
+      size: 3
+      scale: 0
+      description:
+      required: true
+    valdefp:
+      type: VARCHAR
+      size: 4
+      description:
+    valdefn:
+      type: VARCHAR
+      size: 4
+      description:
+    inides:
+      type: NUMERIC
+      size: 3
+      scale: 0
+      description:
+      required: true
+    findes:
+      type: NUMERIC
+      size: 3
+      scale: 0
+      description:
+      required: true
+    valdefd:
+      type: VARCHAR
+      size: 250
+      description:
+    inimon:
+      type: NUMERIC
+      size: 3
+      scale: 0
+      description:
+      required: true
+    finmon:
+      type: NUMERIC
+      size: 3
+      scale: 0
+      description:
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsrelfonvia:    
+    _attributes:
+      description:
+    numsol:
+      type: VARCHAR
+      size: 10
+      description:
+      required: true
+    numche:
+      type: VARCHAR
+      size: 20
+      description:
+      required: true
+    numcue:
+      type: VARCHAR
+      size: 20
+      description:
+      required: true
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description:
+    nomben:
+      type: VARCHAR
+      size: 100
+      description:
+    monche:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    codcat:
+      type: VARCHAR
+      size: 32
+      description:
+    fecemi:
+      type: DATE
+      description:
+    codpre:
+      type: VARCHAR
+      size: 50
+      description:
+    numdep:
+      type: VARCHAR
+      size: 20
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsrepret:    
+    _attributes:
+      description: Tabla que contiene información referente a los reportes de comprobantes de retención
+    codrep:
+      type: VARCHAR
+      size: 50
+      description: Código del Tipo de Comprobante
+      required: true
+    codret:
+      type: VARCHAR
+      size: 4
+      description: Código de la Retención
+      required: true
+      foreignTable: optipret
+      foreignReference: codtip
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsretiva:    
+    _attributes:
+      description: Tabla que contiene información referente a la retención del IVA
+    codret:
+      type: VARCHAR
+      size: 3
+      description: Código de la Retención
+      required: true
+      foreignTable: optipret
+      foreignReference: codtip
+    codrec:
+      type: VARCHAR
+      size: 4
+      description: Código del Recargo
+      required: true
+    codpar:
+      type: VARCHAR
+      size: 32
+      description: Código de la Partida
+      required: true
+    anoant:
+      type: VARCHAR
+      size: 1
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tssecofi:    
+    _attributes:
+      description:
+    codsecofi:
+      type: VARCHAR
+      size: 10
+      description:
+    dessecofi:
+      type: VARCHAR
+      size: 100
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tssolpag:    
+    _attributes:
+      description:
+    numsol:
+      type: VARCHAR
+      size: 8
+      description:
+      required: true
+    fecsol:
+      type: DATE
+      description:
+      required: true
+    numaep:
+      type: VARCHAR
+      size: 8
+      description:
+    numopp:
+      type: VARCHAR
+      size: 8
+      description:
+    monsol:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    dessol:
+      type: VARCHAR
+      size: 255
+      description:
+    numfac:
+      type: VARCHAR
+      size: 255
+      description:
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description:
+    cedsol:
+      type: VARCHAR
+      size: 15
+      description:
+    nomsol:
+      type: VARCHAR
+      size: 100
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tstipcue:    
+    _attributes:
+      description: Tabla que contiene información referente a la definición de tipos de cuentas bancarias.
+    codtip:
+      type: VARCHAR
+      size: 3
+      description: Código del Tipo de Cuenta.
+      required: true
+    destip:
+      type: VARCHAR
+      size: 40
+      description: Descripción del Tipo de Cuenta.
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+    _uniques:
+      unique_tstipcue_codtip:
+        - codtip
+  tstipfte:    
+    _attributes:
+      description:
+    codtipfte:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    nomtipfte:
+      type: VARCHAR
+      size: 100
+      description:
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tstipmov:    
+    _attributes:
+      description: Tabla que contiene información referente a la definición de Tipos de Movimientos Bancarios.
+    codtip:
+      type: VARCHAR
+      size: 4
+      description: Código del Tipo de Movimiento.
+      required: true
+    destip:
+      type: VARCHAR
+      size: 40
+      description: Descripción del Tipo de Movimiento.
+      required: true
+    debcre:
+      type: VARCHAR
+      size: 1
+      description: Indica si el Movimiento afecta los Débitos ó Créditos de las cuentas bancarias.
+      required: true
+    orden:
+      type: VARCHAR
+      size: 2
+      description: Orden del Movimiento
+    escheque:
+      type: BOOLEAN
+      description:
+    codcon:
+      type: VARCHAR
+      size: 32
+      description:
+    tipo:
+      type: VARCHAR
+      size: 1
+      description:
+    pagnom:
+      type: BOOLEAN
+      description:
+    codtiptra:
+      type: VARCHAR
+      size: 3
+      description: Tipo de Transacción. 
+    estran:
+      type: VARCHAR
+      size: 1
+      description:  Indica si es para Transferencia
+    genmov:
+      type: VARCHAR
+      size: 1
+      description:  Indica Si Genera Mov segun Libro
+    carban:
+      type: VARCHAR
+      size: 1
+      default: 'N'
+      description:  Indica si es para Carta Banco S-N
+    esrein:
+      type: VARCHAR
+      size: 1
+      description:  Indica si es un Reintegro      
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+    _uniques:
+      unique_tstipmov_codtip:
+        - codtip
+  tstipren:    
+    _attributes:
+      description:
+    codtip:
+      type: VARCHAR
+      size: 3
+      description: Código del Tipo de Rendimiento
+      required: true
+    destip:
+      type: VARCHAR
+      size: 50
+      description: Descripción del Tipo de Rendimiento
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+    _uniques:
+      unique_tstipren_codtip:
+        - codtip
+  tssalcaj:
+    _attributes:
+      description:
+    refsal:
+      type: VARCHAR
+      size: 20
+      description:
+      required: true
+    fecsal:
+      type: DATE
+      description:
+      required: true
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description:
+    dessal:
+      type: VARCHAR
+      size: 1000
+      description:
+    monsal:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    stasal:
+      type: VARCHAR
+      size: 1
+      description:
+    codcaj:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    coddirec:
+      type: VARCHAR
+      size: 32      
+      description:   Código de la Dirección     
+    codeve:
+      type: VARCHAR
+      size: 6
+      description: Codigo del Evento
+    numfac:
+      type: VARCHAR
+      size: 50
+      description: Número de Factura
+    fecfac:
+      type: DATE
+      description: Fecha de Factura
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsdetsal:
+    _attributes:
+      description:
+    refsal:
+      type: VARCHAR
+      size: 20
+      description:
+      required: true
+    codart:
+      type: VARCHAR
+      size: 20
+      description:
+      required: true
+    codcat:
+      type: VARCHAR
+      size: 50
+      description:
+      required: true
+    monsal:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    monrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    totsal:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    stasal:
+      type: VARCHAR
+      size: 1
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsrelasiord:
+    _attributes:
+      description:
+    ctagasxpag:
+      type: VARCHAR
+      size: 32
+      description:
+    ctaordxpag:
+      type: VARCHAR
+      size: 32
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsmotanu:
+    _attributes:
+      description:
+    codmotanu:
+      type: VARCHAR
+      size: 4
+      description:
+    desmotanu:
+      type: VARCHAR
+      size: 250
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsbloqban:
+    _attributes:
+      description:
+    numcue:
+      type: VARCHAR
+      size: 20
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opconpag:
+    _attributes:
+      description:
+    codconcepto:
+      type: VARCHAR
+      size: 4
+      description:
+    nomconcepto:
+      type: VARCHAR
+      size: 250
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tscomegrmes:
+    _attributes:
+      description:
+    mes1:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes1:
+      type: INTEGER
+    mes2:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes2:
+      type: INTEGER
+    mes3:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes3:
+      type: INTEGER
+      description:
+    mes4:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes4:
+      type: INTEGER
+      description:
+    mes5:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes5:
+      type: INTEGER
+      description:
+    mes6:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes6:
+      type: INTEGER
+      description:
+    mes7:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes7:
+      type: INTEGER
+      description:
+    mes8:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes8:
+      type: INTEGER
+      description:
+    mes9:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes9:
+      type: INTEGER
+      description:
+    mes10:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes10:
+      type: INTEGER
+      description:
+    mes11:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes11:
+      type: INTEGER
+      description:
+    mes12:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes12:
+      type: INTEGER
+      description:
+    id:
+      type: INTEGER
+      required: true
+      autoIncrement: true
+  tsdefcajchi:
+    _attributes:
+      description:
+    codcaj:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    descaj:
+      type: VARCHAR
+      size: 250
+      description:
+      required: true
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description:
+      required: true
+    codcat:
+      type: VARCHAR
+      size: 32
+      description:
+      required: true
+    numcue:
+      type: VARCHAR
+      size: 20
+      description:
+      #required: true
+    codtip:
+      type: VARCHAR
+      size: 4
+      description:
+      required: true
+    tipcau:
+      type: VARCHAR
+      size: 4
+      description:
+      required: true
+    monape:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    porrep:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    numini:
+      type: VARCHAR
+      size: 8
+      description:
+    tipcom:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Compromiso para el Cierre
+      required: true      
+    ctapag:
+      type: VARCHAR
+      size: 32
+      description: Código de la Cuenta por Pagar  
+    sujren:
+      type: VARCHAR
+      size: 1
+      description: Sujeta Rendición (SI/NO)
+    tippag:
+      type: VARCHAR
+      size: 4
+      description: Código del Tipo de Documento     
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+    _uniques:
+      unique_tsdefcajchi_codcaj:
+        - codcaj
+  tscormestxt:
+    _attributes:
+      description:
+    numcue:
+      type: VARCHAR
+      size: 20
+      description:
+      required: true
+    mes1:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes1:
+      type: INTEGER
+    mes2:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes2:
+      type: INTEGER
+      description:
+    mes3:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes3:
+      type: INTEGER
+      description:
+    mes4:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes4:
+      type: INTEGER
+      description:
+    mes5:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes5:
+      type: INTEGER
+      description:
+    mes6:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes6:
+      type: INTEGER
+      description:
+    mes7:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes7:
+      type: INTEGER
+      description:
+    mes8:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes8:
+      type: INTEGER
+      description:
+    mes9:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes9:
+      type: INTEGER
+      description:
+    mes10:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes10:
+      type: INTEGER
+      description:
+    mes11:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes11:
+      type: INTEGER
+      description:
+    mes12:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    cormes12:
+      type: INTEGER
+      description:
+    id:
+      type: INTEGER
+      required: true
+      autoIncrement: true
+      description:
+  tsuniadm:
+    _attributes:
+      description:
+    coduniadm:
+      type: VARCHAR
+      size: 30
+      description:
+      description: Código Unidad Administradora
+    desuniadm:
+      type: VARCHAR
+      size: 250
+      description:
+      description: Descripcion Unidad Administradora
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsdeffonant:
+    _attributes:
+      description:
+    codfon:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: Código del fondo de anticipo
+    desfon:
+      type: VARCHAR
+      size: 250
+      required: true
+      description: Descripcion del fondo de anticipo
+    unieje:
+      type: VARCHAR
+      size: 15
+      required: true
+      foreignTable: bnubica
+      foreignReference: codubi
+      description: Unidad Ejecutora del fondo de anticipo
+    coduniadm:
+      type: VARCHAR
+      size: 30
+      required: true
+      foreignTable: tsuniadm
+      foreignReference: coduniadm
+      description: Código de la unidad Administradora
+    cedrif:
+      type: VARCHAR
+      size: 15
+      required: true
+      foreignTable: opbenefi
+      foreignReference: cedrif
+      description: Responsable de fonde de anticipo
+    codcat:
+      type: VARCHAR
+      size: 32
+      required: true
+      foreignTable: npcatpre
+      foreignReference: codcat
+      description: Código de la categoria programatica
+    numcue:
+      type: VARCHAR
+      size: 20
+      required: true
+      foreignTable: tsdefban
+      foreignReference: numcue
+      description: Numero de la cuenta de Bancaria
+    tipmovsal:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: Tipo de Movimiento de Salida
+    tipmovren:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: Tipo de movimiento de Rendición
+    monmincon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto mínimo de Constitución (en U.T.)
+    monmaxcon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto máximo de Constitución (en U.T.)
+    porrep:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Porcentaje de Reposición
+    numini:
+      type: VARCHAR
+      size: 8
+      description: Numero Incial
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+    _uniques:
+      unique_tsdeffonant_codfon:
+        - codfon
+  tsfonant:
+    _attributes:
+      description:
+    reffon:
+      type: VARCHAR
+      size: 8
+      description:
+      required: true
+    fecfon:
+      type: DATE
+      description:
+      required: true
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description:
+    desfon:
+      type: VARCHAR
+      size: 1000
+      description:
+    monfon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    stafon:
+      type: VARCHAR
+      size: 1
+      description:
+    codfon:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsdetfon:
+    _attributes:
+      description:
+    reffon:
+      type: VARCHAR
+      size: 8
+      description:
+      required: true
+    codart:
+      type: VARCHAR
+      size: 20
+      description:
+      required: true
+    codcat:
+      type: VARCHAR
+      size: 50
+      description:
+      required: true
+    monfon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    monrec:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    totfon:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    stafon:
+      type: VARCHAR
+      size: 1
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsccilnmov:
+    _attributes:
+      description:
+    numcue:
+      type: VARCHAR
+      size: 20
+      description:
+      required: true
+    mescon:
+      type: VARCHAR
+      size: 2
+      description:
+      required: true
+    anocon:
+      type: VARCHAR
+      size: 4
+      description:
+      required: true
+    status:
+      type: VARCHAR
+      size: 1
+      description:
+      default: A
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opordemp:
+    _attributes:
+      description:
+    numord:
+      type: VARCHAR
+      size: 8
+      description:
+      required: true
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description:
+      required: true
+    montot:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description:
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro      
+  tsdefmon:
+    _attributes:
+      description:
+    codmon:
+      type: VARCHAR
+      size: 3
+      description:
+      required: true
+    nommon:
+      type: VARCHAR
+      size: 40
+      description:
+      required: true
+    aumdis:
+      type: VARCHAR
+      size: 1
+      description: 
+      required: true      
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+    _uniques:
+      unique_tsdefmon_codmon:
+        - codmon      
+  tscomban:
+    codcom:
+      type: VARCHAR
+      size: 3
+      required: true
+    descom:
+      type: VARCHAR
+      size: 100
+      required: true  
+    moncom:
+      type: NUMERIC
+      size: 14
+      scale: 2      
+    codcta:
+      type: VARCHAR
+      size: 32      
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro 
+  tspagele:    
+    _attributes:
+      description: Tabla que contiene información referente a los Pagos Electronicos.
+    refpag:
+      type: VARCHAR
+      size: 8
+      description: Número de Referencia del Pago.      
+      required: true
+    numcue:
+      type: VARCHAR
+      size: 20
+      description: Número de la Cuenta Bancaria.
+      required: true
+    fecpag:
+      type: DATE
+      description: Fecha de Emisión del Pago.
+      required: true
+    monpag:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      description: Monto Total del Pago.
+      required: true
+    estpag:
+      type: VARCHAR
+      size: 1
+      description: Estatus del pagado.
+    loguse:
+      type: VARCHAR
+      size: 50
+      description: logon del usuario que realizo el pago
+    tipdoc:
+      type: VARCHAR
+      size: 4
+      description: Tipo de Documento    
+    despag:
+      type: VARCHAR
+      size: 1000
+      description: Descripción del Pagado.
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description: Cédula o RIF del Beneficiario.
+    tiptxt:
+      type: VARCHAR
+      size: 1
+      description: Tipo de TXT  a generar
+    fecanu:
+      type: DATE
+      description: Fecha de Anulación.
+    desanu:
+      type: VARCHAR
+      size: 100
+      description: Descripcion de la anulacion
+    fecpagado:
+      type: DATE
+      description: Fecha de Aprobación del Pago.
+    fecefepag:
+      type: DATE
+      description: Fecha Efectiva del Pago.
+    codmon:
+      type: VARCHAR
+      size: 3
+      description: Código de la Moneda
+      required: true
+      foreignTable: tsdefmon
+      foreignReference: codmon
+    valmon:
+      type: NUMERIC
+      size: 14
+      scale: 6
+      description:  Valor de Moneda  
+    coddirec:
+      type: VARCHAR
+      size: 32      
+      description:   Código de la Dirección          
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro 
+  tsdetpagele:    
+    _attributes:
+      description: Tabla que contiene información referente al detalle de los Pagos Electronicos.
+    refpag:
+      type: VARCHAR
+      size: 8
+      description: Número de Referencia del Pago.      
+      required: true
+    numord:
+      type: VARCHAR
+      size: 8
+      description: Número de la Orden
+      required: true
+    fecval:
+      type: DATE
+      description: Fecha de valor.
+      required: true
+    estord:
+      type: VARCHAR
+      size: 1
+      description: Estatus de la Orden.
+    numcom:
+      type: VARCHAR
+      size: 8
+      description: Numero de Comprobante.      
+    refmovlib:
+      type: VARCHAR
+      size: 8
+      description: Referencia Mov segun Libros
+    refpagpre:
+      type: VARCHAR
+      size: 8
+      description: Referencia pagado presupuestario 
+    monord:
+      type: NUMERIC
+      size: 14
+      scale: 2      
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro      
+  opsolpag:
+    refsol:
+      type: VARCHAR
+      size: 8
+      required: true
+    fecsol:
+      type: DATE
+    refcom:
+      type: VARCHAR
+      size: 8
+      foreignTable: cpcompro
+      foreignReference: refcom
+    dessol:
+      type: VARCHAR
+      size: 1000
+    monsol:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    stasol:
+      type: VARCHAR
+      size: 1
+    cedrif:
+      type: VARCHAR
+      size: 15
+    nomben:
+      type: VARCHAR
+      size: 1000
+    numsolcre:
+      type: VARCHAR
+      size: 15
+    numcre:
+      type: VARCHAR
+      size: 15
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opdetsolpag:
+    refsol:
+      type: VARCHAR
+      size: 8
+      required: true
+      foreignTable: opsolpag
+      foreignReference: refsol
+    codpre:
+      type: VARCHAR
+      size: 50
+      required: true
+    monimp:
+      type: NUMERIC
+      size: 14
+      scale: 2
+    staimp:
+      type: VARCHAR
+      size: 1
+    reford:
+      type: VARCHAR
+      size: 8
+      foreignTable: opordpag
+      foreignReference: numord
+    refere:
+      type: VARCHAR
+      size: 8
+    refprc:
+      type: VARCHAR
+      size: 8
+    refcom:
+      type: VARCHAR
+      size: 8
+      foreignTable: cpcompro
+      foreignReference: refcom
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opctaben:    
+    _attributes:
+      description: Tabla que contiene información referente a cuentas contables de los beneficiarios
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description: Cédula o RIF del beneficiario
+      required: true
+    codcta:
+      type: VARCHAR
+      size: 32
+      description: Cuenta Contable asociada al Beneficiario
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  optipdes:
+    _attributes:
+      description: Tabla que contiene información referente a tipos de descuentos
+    codtde:
+      type: VARCHAR
+      size: 3
+      required: true
+      description: codigo del tipo de descuento
+    destde:
+      type: VARCHAR
+      size: 250
+      required: true
+      description:  Descripción del tipo de descuento
+    codcta:
+      type: VARCHAR
+      size: 32
+      required: true
+      description: Cuenta Contable asociada al tipo de descuento      
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro   
+  opvenfacmen:
+    _attributes:
+      description: Tabla que contiene información referente al Registro de Ventas por Facturación Mensual
+    mes:
+      type: VARCHAR
+      size: 2
+      required: true
+      description: Mes
+    mongra:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      required: true
+      description:  Monto de Venta Gravadas
+    mosgra:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      required: true
+      description:  Monto de Venta sin Gravadas
+    totmes:
+      type: NUMERIC
+      size: 14
+      scale: 2
+      required: true
+      description:  Total     
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opciecaj:    
+    _attributes:
+      description: Tabla que contiene información referente al cierre de caja chica
+    numref:
+      type: VARCHAR
+      size: 8
+      required: true
+      description: Referencia      
+    feccie:
+      type: DATE      
+      required: true
+      description: Fecha de Cierre
+    descon:
+      type: VARCHAR
+      size: 1000      
+      required: true      
+      description: Descripción del Concepto
+    codubi:
+      type: VARCHAR
+      size: 30
+      description: Código de la Unidad de Origen
+    codfin:
+      type: VARCHAR
+      size: 4
+      description: Código del Tipo de Financiamiento
+    codcajchi:
+      type: VARCHAR
+      size: 3
+      description:  Código de la Caja Chica
+    loguse:
+      type: VARCHAR
+      size: 50
+      description: Usuario que realizo el cierre
+    moncie:
+      type: NUMERIC
+      size: 14
+      scale: 2      
+      required: true
+      description: Monto Total del Cierre
+    refcom:
+      type: VARCHAR
+      size: 8
+      description: Referencia del Compromiso      
+    refpag:
+      type: VARCHAR
+      size: 8
+      description: Número de Referencia del Pagado.  
+    numcom:
+      type: VARCHAR
+      size: 8
+      description: Número de Comprobante.
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro 
+  opdetciecaj:    
+    _attributes:
+      description: Tabla que contiene información referente al detalle del Cierre de Caja Chica
+    numref:
+      type: VARCHAR
+      size: 8      
+      required: true
+      description: Referencia
+    codpre:
+      type: VARCHAR
+      size: 50      
+      required: true
+      description: Código Presupuestario
+    moncom:
+      type: NUMERIC
+      size: 14
+      scale: 2      
+      required: true
+      description: Monto a Comprometer
+    refsal:
+      type: VARCHAR
+      size: 2000
+      description: Referencia de la Salida de Caja Chica
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  opdetbenop:    
+    _attributes:
+      description: Tabla que contiene información referente al detalle del Beneficiarios de una OP
+    numord:
+      type: VARCHAR
+      size: 8      
+      required: true
+      description: Número de la Orden
+    cedrif:
+      type: VARCHAR
+      size: 15
+      required: true
+      description: Cédula o RIF del Beneficiario      
+    monben:
+      type: NUMERIC
+      size: 14
+      scale: 2      
+      required: true
+      description: Monto Corresponde al beneficiario
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsciebanfec:
+    _attributes:
+      description: Tabla que contiene información referente al cierre de las cuentas bancariasen rango de fechas
+    numcue:
+      type: VARCHAR
+      size: 20      
+      required: true
+      description: Código de la Cuenta Bancaria 
+    fecdes:
+      type: DATE
+      required: true
+      description: Fecha Desde
+    fechas:
+      type: DATE
+      required: true
+      description: Fecha Hasta
+    status:
+      type: VARCHAR
+      size: 1
+      default: 'A'
+      description: Estatus - Abierto (A) o Cerrado(C)
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true      
+      autoIncrement: true
+  opregfac:    
+    _attributes:
+      description: Tabla que contiene información referente a la factura sin expediente
+    cedrif:
+      type: VARCHAR
+      size: 15
+      description: Cédula o RIF del Beneficiario
+      required: true
+      foreignTable: opbenefi
+      foreignReference: cedrif    
+    numfac:
+      type: VARCHAR
+      size: 50
+      required: true
+      description: Número de la Factura      
+    fecfac:
+      type: DATE
+      required: true
+      description: Fecha de la Factura
+    basimp:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description: Base Imponible
+    moniva:
+      type: NUMERIC
+      size: 18
+      scale: 2
+      description: Monto IVA    
+    fecrec:
+      type: DATE
+      description: Fecha Recepción
+    obsfac:
+      type: VARCHAR
+      size: 1000
+      description:  Observaciones
+    record:
+      type: VARCHAR
+      size: 1
+      default: 'N'
+      description:  Recibido en Ordenamiento de Pago S-N
+    fecrecord:
+      type: DATE
+      description: Fecha Recepción Ordenamiento de Pago
+    codubi:
+      type: VARCHAR
+      size: 30
+      description: Código de Ubicación (Bnubica)
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro
+  tsdetrei:    
+    _attributes:
+      description: Tabla que contiene información referente al detalle del reintegro en los Movimientos en Libros.
+    numcue:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: Número de la Cuenta Bancaria.      
+    reflib:
+      type: VARCHAR
+      size: 20
+      required: true
+      description: Referencia del Movimiento en Libro.      
+    tipmov:
+      type: VARCHAR
+      size: 4
+      required: true
+      description: Código del Tipo de Movimiento.                                  
+    refrei:
+      type: VARCHAR
+      size: 8
+      required: true
+      description: Referencia del Reintegro
+    codpre:
+      type: VARCHAR
+      size: 50      
+      required: true
+      description: Código Presupuestario
+    monto:
+      type: NUMERIC
+      size: 14
+      scale: 2      
+      required: true
+      description: Monto a Comprometer
+    refere:
+      type: VARCHAR
+      size: 8
+      description: Referencia del Reintegro
+    id:
+      type: INTEGER
+      required: true
+      primaryKey: true
+      autoIncrement: true
+      description: Identificador Único del registro

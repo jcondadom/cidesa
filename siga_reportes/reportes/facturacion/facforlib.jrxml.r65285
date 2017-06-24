@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="595" pageHeight="420" whenNoDataType="AllSectionsNoDetail" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="20" bottomMargin="0" uuid="24c12c80-8ccc-4d9c-b09d-9b77115a4abd">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="codfacdes" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="codfachas" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="codmin" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="codmax" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="p_dirbase" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="p_schema" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[select distinct (a.reffac) as reffac, a.desfac, to_char(a.fecfac,'dd/mm/yyyy') as fecha,
+	   coalesce(to_char(a.fecfac+CAST((CAST(b.valdoc||' days' AS text))AS interval),'dd/mm/yyyy'),to_char(a.fecfac+30,'dd/mm/yyyy')) as fechaven,
+	   b.nompercon, a.codcli as codcli,
+           b.nompro as cliente,b.dirpro as direccion, b.telpro as telefono, b.rifpro as rif,
+           b.nitpro as nit,
+          ( h.desconpag) as forma, a.numcontrol as numcontrol,
+	   a.tipref as tipref,
+           a.status,
+           a.desfac as observacion,i.nomedo as estado,j.descenaco as centroacopio,
+           e.codart as codart, f.desart as articulo, e.unimed as present,
+           case when (f.monrgo=0 or f.monrgo isnull) then '(E)' else '' end as exento,
+           f.cantot as cantidad,
+           f.precio as precio,
+           f.monrgo as recargo,
+           f.mondes as modes,
+           (f.totart-f.monrgo) as totart,
+           f.orddespacho,f.nronot,f.guia,f.contenedores,f.billleading,
+	a.monfac as totalfactura,w.refpre,w.fecpre, e.unimed, $P!{p_schema}.montoletras(a.monfac,'BOLIVARES'),
+	   $P!{p_schema}.mesescrito(to_char(a.fecfac,'MM'))||' '||to_char(a.fecfac,'yyyy') as perdes,
+	   $P!{p_schema}.mesescrito(coalesce(to_char(a.fecfac+CAST((CAST(b.valdoc||' days' AS text))AS interval),'dd/mm/yyyy'),to_char(a.fecfac+30,'MM')))||' '||to_char(a.fecfac,'yyyy') as perhas,
+           (select     SUM(m.monrgo)
+           from
+           $P!{p_schema}.faartfac m
+           where
+           m.reffac = a.reffac) as totrgo,
+
+           (select   coalesce(SUM(coalesce(m.cantot*m.precio,0)),0)
+           from
+          $P!{p_schema}.faartfac m
+           where
+           m.reffac = a.reffac and m.monrgo<>0) as basimp,
+
+           (select     SUM(m.cantot*m.precio)
+           from
+          $P!{p_schema}.faartfac m
+           where
+           m.reffac = a.reffac) as subtot
+           from $P!{p_schema}.fafactur a
+           left outer join $P!{p_schema}.faconpag h on (a.codconpag=h.id)
+           left outer join $P!{p_schema}.cadefcenaco j on a.codcenaco=j.codcenaco,
+           $P!{p_schema}.facliente b left outer join $P!{p_schema}.ocestado i on b.codedo=i.codedo,
+           $P!{p_schema}.caregart e,
+           $P!{p_schema}.faartfac f left outer join $P!{p_schema}.fapresup w on (w.refpre=f.codref)
+           where
+	   e.codart=f.codart and
+           f.reffac = a.reffac and
+           a.codcli=b.codpro and
+           a.reffac >= $P{codmin} and
+           a.reffac <= $P{codmax}
+           
+           order by a.reffac]]>
+	</queryString>
+	<field name="reffac" class="java.lang.String"/>
+	<field name="desfac" class="java.lang.String"/>
+	<field name="fecha" class="java.lang.String"/>
+	<field name="fechaven" class="java.lang.String"/>
+	<field name="nompercon" class="java.lang.String"/>
+	<field name="codcli" class="java.lang.String"/>
+	<field name="cliente" class="java.lang.String"/>
+	<field name="direccion" class="java.lang.String"/>
+	<field name="telefono" class="java.lang.String"/>
+	<field name="rif" class="java.lang.String"/>
+	<field name="nit" class="java.lang.String"/>
+	<field name="forma" class="java.lang.String"/>
+	<field name="numcontrol" class="java.lang.String"/>
+	<field name="tipref" class="java.lang.String"/>
+	<field name="status" class="java.lang.String"/>
+	<field name="observacion" class="java.lang.String"/>
+	<field name="estado" class="java.lang.String"/>
+	<field name="centroacopio" class="java.lang.String"/>
+	<field name="codart" class="java.lang.String"/>
+	<field name="articulo" class="java.lang.String"/>
+	<field name="present" class="java.lang.String"/>
+	<field name="exento" class="java.lang.String"/>
+	<field name="cantidad" class="java.math.BigDecimal"/>
+	<field name="precio" class="java.math.BigDecimal"/>
+	<field name="recargo" class="java.math.BigDecimal"/>
+	<field name="modes" class="java.math.BigDecimal"/>
+	<field name="totart" class="java.math.BigDecimal"/>
+	<field name="orddespacho" class="java.lang.String"/>
+	<field name="nronot" class="java.lang.String"/>
+	<field name="guia" class="java.lang.String"/>
+	<field name="contenedores" class="java.lang.String"/>
+	<field name="billleading" class="java.lang.String"/>
+	<field name="totalfactura" class="java.math.BigDecimal"/>
+	<field name="refpre" class="java.lang.String"/>
+	<field name="fecpre" class="java.sql.Date"/>
+	<field name="unimed" class="java.lang.String"/>
+	<field name="montoletras" class="java.lang.String"/>
+	<field name="perdes" class="java.lang.String"/>
+	<field name="perhas" class="java.lang.String"/>
+	<field name="totrgo" class="java.math.BigDecimal"/>
+	<field name="basimp" class="java.math.BigDecimal"/>
+	<field name="subtot" class="java.math.BigDecimal"/>
+	<group name="articulos" isResetPageNumber="true">
+		<groupExpression><![CDATA[$F{reffac}]]></groupExpression>
+		<groupHeader>
+			<band height="15">
+				<staticText>
+					<reportElement uuid="c0165ce2-7bff-4339-b9b1-7609fae06466" x="15" y="0" width="67" height="15"/>
+					<box>
+						<topPen lineWidth="0.5"/>
+						<bottomPen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[CÓDIGO]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="9af5d14e-ab75-4e64-a611-de1c975675c4" x="82" y="0" width="197" height="15"/>
+					<box>
+						<topPen lineWidth="0.5"/>
+						<bottomPen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[DESCRIPCIÓN DEL ÁRTICULO]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="dd7a2b43-5d33-4de8-91c0-c2b618e97bec" x="360" y="0" width="65" height="15"/>
+					<box>
+						<topPen lineWidth="0.5"/>
+						<bottomPen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[CANTIDAD]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="99b878a0-daa1-49d9-8311-fbc8fda590c0" x="427" y="0" width="68" height="15"/>
+					<box>
+						<topPen lineWidth="0.5"/>
+						<bottomPen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[PRECIO]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="aafc4823-8373-45b9-b320-48af503cc458" x="495" y="0" width="82" height="15"/>
+					<box>
+						<topPen lineWidth="0.5"/>
+						<bottomPen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[MONTO BsF]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="9af5d14e-ab75-4e64-a611-de1c975675c4" x="279" y="0" width="81" height="15"/>
+					<box>
+						<topPen lineWidth="0.5"/>
+						<bottomPen lineWidth="0.5"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="8" isBold="true"/>
+					</textElement>
+					<text><![CDATA[UNIDAD]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="73">
+				<textField>
+					<reportElement uuid="75298c1b-b0eb-4609-a238-78fa7bb5a781" x="477" y="26" width="100" height="10"/>
+					<textElement textAlignment="Right">
+						<font size="8" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format($F{totrgo}.doubleValue()).replace(",", "x").replace(".", ",").replace("x", ".")]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement uuid="0139bd65-2768-4b20-b1a3-5cfca3f14233" x="477" y="6" width="100" height="10"/>
+					<textElement textAlignment="Right">
+						<font size="8" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format($F{subtot}.doubleValue()).replace(",", "x").replace(".", ",").replace("x", ".")]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement uuid="488cf6fe-9767-40ac-9b47-7eff93d634bf" x="17" y="6" width="393" height="10"/>
+					<textElement>
+						<font size="8" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["SUBTOTAL"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement uuid="488cf6fe-9767-40ac-9b47-7eff93d634bf" x="17" y="26" width="393" height="10"/>
+					<textElement>
+						<font size="8" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["I.V.A. 12%"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement uuid="488cf6fe-9767-40ac-9b47-7eff93d634bf" x="17" y="36" width="393" height="10"/>
+					<textElement>
+						<font size="8" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["TOTAL GENERAL"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement uuid="488cf6fe-9767-40ac-9b47-7eff93d634bf" x="17" y="16" width="393" height="10"/>
+					<textElement>
+						<font size="8" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["TOTAL BASE IMPONIBLE"]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement uuid="75298c1b-b0eb-4609-a238-78fa7bb5a781" x="477" y="16" width="100" height="10"/>
+					<textElement textAlignment="Right">
+						<font size="8" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format($F{basimp}.doubleValue()).replace(",", "x").replace(".", ",").replace("x", ".")]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement uuid="32da84bb-3a4a-4510-80d4-f21840d9e5ea" x="477" y="36" width="101" height="10"/>
+					<textElement textAlignment="Right">
+						<font size="8" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format($F{totalfactura}.doubleValue()).replace(",", "x").replace(".", ",").replace("x", ".")]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement uuid="488cf6fe-9767-40ac-9b47-7eff93d634bf" x="18" y="46" width="559" height="10"/>
+					<textElement>
+						<font size="8" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["SON "+$F{montoletras}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement uuid="488cf6fe-9767-40ac-9b47-7eff93d634bf" x="17" y="63" width="560" height="10"/>
+					<textElement textAlignment="Right">
+						<font size="8" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["POR: "+$F{cliente}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupFooter>
+	</group>
+	<title>
+		<band splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="90" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="67" splitType="Stretch">
+			<textField>
+				<reportElement uuid="488cf6fe-9767-40ac-9b47-7eff93d634bf" x="11" y="14" width="555" height="10"/>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cliente}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="90d903f4-ca85-46fb-8ded-914f592c0f77" x="11" y="24" width="566" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Dirección Fiscal: "+$F{direccion}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="7c8f8851-428f-4729-9961-d76c0af61147" x="11" y="34" width="142" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["RIF: "+$F{rif}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="04ef78d8-b204-4f64-9057-16b4c021c544" x="11" y="44" width="142" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["TELF: "+$F{telefono}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="f3d9240c-3d48-48e1-b834-ba08038141d7" x="211" y="44" width="167" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["FECHA: "+$F{fecha}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="d4de3597-d84b-4ac1-9829-25911dbb166a" x="410" y="44" width="167" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["VENCE: "+$F{fechaven}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="f3d9240c-3d48-48e1-b834-ba08038141d7" x="211" y="34" width="167" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["CONDICIÓN: "+$F{forma}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="f3d9240c-3d48-48e1-b834-ba08038141d7" x="11" y="54" width="566" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["PERÍODO: "+$F{desfac}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="76b60fa9-b17f-4484-92a6-b65d93484787" x="356" y="0" width="221" height="15" forecolor="#494949"/>
+				<textElement textAlignment="Right" markup="html">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["FACTURA SERIE: "+$F{reffac}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="c48b784f-3a36-4096-bdb4-640fa0c4f881" x="410" y="34" width="167" height="10"/>
+				<textElement textAlignment="Left">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["PÁGINA: "+$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="11" splitType="Stretch">
+			<textField>
+				<reportElement uuid="aba8db47-7842-475c-86c8-21438d554579" x="15" y="0" width="67" height="11"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{codart}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="7ffa3b42-fd23-4ed1-9d6a-9cc016fdc028" x="82" y="0" width="197" height="11"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{articulo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="f9c7abf8-a90d-48fa-96b3-ddbaaf1ccda8" x="360" y="0" width="65" height="11"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cantidad}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="e8ec76bb-9ee5-44df-8dc8-783d6a29fe78" x="427" y="0" width="68" height="11"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format($F{precio}.doubleValue()).replace(",", "x").replace(".", ",").replace("x", ".")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="957f86d9-deab-4e31-aaf7-1f3508e0a1db" x="495" y="0" width="82" height="11"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new DecimalFormat("#,##0.00").format($F{totart}.doubleValue()).replace(",", "x").replace(".", ",").replace("x", ".")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="aba8db47-7842-475c-86c8-21438d554579" x="279" y="0" width="81" height="11"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{unimed}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="86" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+</jasperReport>

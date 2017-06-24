@@ -1,0 +1,15 @@
+====== Descripción de Campos ======
+
+  * Seleccionar la **Categoría Origen** a la que cada una de las partidas que pertenecen a ella se le asociará una Categoría Destino
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreasiparinc1.jpg|}}"></div><br></html>
+
+  * Al seleccionar la Categoría Presupuestaria Orígen automáticamente se carga en el Grig las Partidas correspondientas a la Categoría seleccionada.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpreasiparinc2.jpg|}}"></div><br></html>
+
+  * Seleccionar la **Categoría Destino** que se le asociará a cada una de las partidas.<html><br><br></html>
+
+  * Por último debe marcar aquellas partidas que desea se le asocie la Categoría destino.<html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Asignar Partidas** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

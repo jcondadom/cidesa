@@ -1,0 +1,24 @@
+====== Operación Consultar ======
+
+**Para consultar una Condición Contractual registrada utilizando el Botón Lista:**   <html><br><br></html>
+
+  * Presione el **Botón**  {{:btnlista.jpg|}}    <html><br><br></html>
+
+  * Seleccione de la **Lista** la **Condición** que desea consultar.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefconcontmod.jpg|}}"></div><br></html>
+
+  * El sistema automáticamente muestra los datos de la **Condición** seleccionada.
+
+  * Si desea consultar una nueva Situación debe presionar nuevamente el** Botón** {{:btnlista.jpg|}}  y repetir los pasos anteriores.
+ 
+<html><br><br></html>
+
+
+**Para consultar datos desde el Inicio de la pantalla Definición de la Condición Contractual:**  <html><br><br></html>
+
+  * El sistema muestra la **Lista** de la **Condición** registrada
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefconcontmod.jpg|}}"></div><br></html>
+
+  * Seleccione de la Lista la **Condición** que desea consultar.  <html><br><br></html>
+
+  * El sistema automáticamente muestra los datos de la Condición seleccionada.

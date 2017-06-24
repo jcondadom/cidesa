@@ -1,0 +1,30 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npdefsitent
+    theme:            cidesaGenerator
+    fields:
+      codsitent: { name: Código, params : size=15 maxlength=20  onFocus=readonly(this.id)"}
+      dessitent: { name: Descripción, params : size=80 maxlength=250}
+      dirent: { name: Dirección de Entrega, params : size=80 maxlength=500}
+    list:
+      title:          Sitios de Entrega del Bono Alimentación
+      filters:        [codsitent, dessitent]
+      fields:      
+        codsitent: { name: Código, params : size=5 maxlength=20}
+        dessitent: { name: Descripción, params : size=20 maxlength=250}
+      display:        [=codsitent, dessitent]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codsitent      
+    edit:
+      title:          Edición  de Sitio de Entrega del Bono Alimentación
+      display:
+        "NONE":   [codsitent, dessitent, dirent]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

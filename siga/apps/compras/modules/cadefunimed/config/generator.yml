@@ -1,0 +1,32 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cadefunimed
+    theme:            cidesaGenerator
+    fields:
+      codunimed: { name: Código, params: size=5 maxlength=2 onFocus=readonly(this.id) }
+      desunimed: { name: Descripción, params: size=80 maxlength=50}
+      abrunimed: { name: Símbolo, params: size=5 maxlength=50}
+      tipunimed: { name: Tipo, params: size=5 maxlength=1}
+      js:       {name: .}
+    list:
+      title:          Unidades de Medidas
+      filters:      [codunimed, desunimed, abrunimed]
+      fields:
+        codunimed:  {  name: Código, params: size=5 maxlength=32}
+        desunimed:  {  name: Descripción, params: size=20 maxlength=50}
+      display:      [=codunimed, desunimed]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:           codunimed
+    edit:
+      title:          Unidades de Medidas
+      display:		  
+        "NONE":  [codunimed, desunimed, abrunimed, tipunimed, _js]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

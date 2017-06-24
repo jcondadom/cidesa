@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/Tests/_files
+END
+SomeClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/Tests/_files/SomeClass.php
+END
+PartialMockTestClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/Tests/_files/PartialMockTestClass.php
+END
+MethodCallback.php
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/Tests/_files/MethodCallback.php
+END
+Mockable.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/Tests/_files/Mockable.php
+END
+AnInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/Tests/_files/AnInterface.php
+END
+FunctionCallback.php
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/Tests/_files/FunctionCallback.php
+END
+AbstractMockTestClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/Tests/_files/AbstractMockTestClass.php
+END
+GoogleSearch.wsdl
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/Tests/_files/GoogleSearch.wsdl
+END
+MethodCallbackByReference.php
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/Tests/_files/MethodCallbackByReference.php
+END
+StaticMockTestClass.php
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/repositorio/!svn/ver/58947/web/php/siga/branches/productions/trunk/plugins/sidekiq-job-pusher/phpunit/phpunit-mock-objects/Tests/_files/StaticMockTestClass.php
+END

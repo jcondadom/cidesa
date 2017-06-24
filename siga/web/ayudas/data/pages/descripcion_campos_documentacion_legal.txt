@@ -1,0 +1,15 @@
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontdocleginc1.jpg|}}"></div><br></html>
+
+  * **Código** y **Descripción** que identificará la Documentación Legal.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontdocleginc2.jpg|}}"></div><br></html>
+
+  * En el campo **Grupo** al presionar el **Botón** {{:btncuadrocatalogo.jpg|}} el sistema muestra la [[listas|Lista]] de grupos que fueron definidos previamente donde debe seleccionar el Grupo al cual se le está asignando la documentación Legal que debe consignar.<html><br><br></html>
+
+  * Indicar **Sí ó No** dicha documentación Legal es **Limitante** para el Grupo solicitante.<html><br><br></html>
+
+  * Indicar **A partir de** cuantas Unidades Tributarias el Grupo solicitante encargado de la obra deberá consignar dicha documentación Legal. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de Documentación Legal ahora podrá realizar determinadas [[operaciones_basicas|Operaciones Básicas]]
+ 

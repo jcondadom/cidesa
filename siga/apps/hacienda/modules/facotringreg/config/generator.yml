@@ -1,0 +1,71 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fcotring
+    theme:            cidesaGenerator
+    fields:
+        nrocon:  { name: Número de Control, params: size=10 maxlength=10 }
+        fecreg:  { name: Fecha de Registro, params: size=10 maxlength=10 date_format='dd/mm/yyyy' }
+        valor:    { name: . }
+        etiqueta:    { name: . }
+        codfue:    { name: Fuente de Ingresos }
+        rifcon:  { name: C.I. / RIF., params: size=20 maxlength=20 }
+        nomcon:  { name: Nombre, params: size=60 maxlength=255 }
+        rifcon:  { name: C.I. / RIF., params: size=20 maxlength=20 }
+        nomcon:  { name: Nombre, params: size=60 maxlength=255 }
+        dircon:  { name: Dirección, params: size=80 maxlength=255 }
+        nacconcon:  { name: Nacionalidad,  params: size=80 maxlength=255 readonly=false }
+        tipconcon:  { name: Tipo de Persona, params: size=80 maxlength=255 readonly=false }
+        rifrep:  { name: C.I. / RIF. Representante, params: size=22 maxlength=20 }
+        nomconrep:  { name: Nombre, params: size=80 maxlength=255 readonly=false }
+        dirconrep:  { name: Dirección, params: size=80 maxlength=255 readonly=false disabled=false }
+        nacconrep:  { name: Nacionalidad,  params: size=80 maxlength=255 readonly=false }
+        tipconrep:  { name: Tipo de Persona,  params: size=80 maxlength=255 readonly=false }
+        desing:  { name: Descripción , type: textarea_tag, params: maxlength=200 cols=58 row=2 }
+        monimp:  { name: Monto del Impuesto a Pagar, params: size=10   }
+        doctos:  { name: Tipo de Documentos  }
+        numref:  { name: .}
+        funrec:  { name: Funcionario Receptor, params: size=40 maxlength=60 readonly=true}
+        fecrec:  { name: Fecha de Recepción, params: size=10 maxlength=10 date_format='dd/mm/yyyy'}
+        griddeuda:  { name: . }
+        totmondec:  { name: Total, params: size=10  readonly=true }
+        nombrecont : {name: .}
+        dircont  : {name: .}
+
+    list:
+      title:          Otros Ingresos
+      filters:        [nrocon, rifcon, nomcon, fecreg]
+      display:        [ =nrocon, =rifcon, nomcon ]
+      fields:
+        nrocon:
+          params: size=10
+        nomcon:
+          params: size=10
+        feccon:
+          params: size=10
+        rifcon:
+          params: size=10
+      max_per_page: 10
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      sort:  nrocon
+
+
+    edit:
+      title:         Edición Otros Ingresos
+      display:
+        "NONE":  [ _nrocon, _fecreg, _codfue, _etiqueta]
+        "Datos Contribuyentes":  [ _rifcon, dircon, _nacconcon, _tipconcon ]
+        "Datos del Representante Legal":  [ _rifrep, dirconrep, _nacconrep, _tipconrep ]
+        "Datos del Registro":  [ desing, _monimp ]
+        "Datos de Referencias":  [ _doctos, _numref ]
+        "Recepción ":  [ funrec, _fecrec ]
+        "Distribución de la Deuda":  [ _griddeuda, totmondec]
+
+      hide: [ licnegada, licmodificada, valor]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

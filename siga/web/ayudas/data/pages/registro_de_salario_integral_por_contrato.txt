@@ -1,0 +1,26 @@
+======Registro de Salario Integarl por Contrato  ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite efectuar el Registro del Salario Integral de cada Empleado asignado a un Contrato Colectivo y una Nómina específica, tomando en cuenta los valores de las Asignaciones que han sido calculados por el Sistema y almacenados en los archivos históricos; de acuerdo con el rango de fechas que se introduzca..</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Nómina y Personal** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomper.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Prestaciones** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperprest.jpg|}}"></div><br></html> 
+
+  * Seleccione la opción **Registros Útiles para el Cálculo de Prestaciones Sociales**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperregutiparacalpresoc.jpg|}}"></div><br></html>
+
+  * Por último seleccione la opción **Registro de Salario Integral por Contrato**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperregdesalintporcont.jpg|}}"></div><br></html>
+
+
+===== Operaciones Básicas =====
+
+Una ves ubicado en la pantalla de **Registro de Salario Integral por Contrato** solo podrá realizar las Operaciones Básicas de: 
+
+  * [[Incluir Registro de Salario Integral por Contrato|Incluir]]
+
+  * [[Consultar Registro de Salario Integral por Contrato|Consultar]]

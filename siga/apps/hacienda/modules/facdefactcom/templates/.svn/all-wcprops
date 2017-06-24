@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/47684/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdefactcom/templates
+END
+_minofac.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdefactcom/templates/_minofac.php
+END
+_codact.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdefactcom/templates/_codact.php
+END
+ajaxSuccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdefactcom/templates/ajaxSuccess.php
+END
+_afoact.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/47039/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdefactcom/templates/_afoact.php
+END
+_exoner.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdefactcom/templates/_exoner.php
+END
+_exento.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdefactcom/templates/_exento.php
+END
+_rebaja.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdefactcom/templates/_rebaja.php
+END
+_bascan.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/47684/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facdefactcom/templates/_bascan.php
+END

@@ -1,0 +1,57 @@
+methods:
+  post:
+   - "manesttra{codest}"
+   - "manesttra{desest}"
+   - "manesttra{codgru}"
+   - "manesttra{codsis}"
+
+
+names:
+  manesttra{codest}:
+    required:  Yes
+    required_msg: Introduzca el Código del Estándar
+    validators: Validator_codest
+    
+  manesttra{desest}:
+    required:  Yes
+    required_msg: Introduzca la Descripción del Estándar
+    validators: Validator_desest
+
+  manesttra{codgru}:
+    required:  No
+    validators: Validator_codgru
+
+  manesttra{codsis}:
+    required:  No
+    validators: Validator_codsis    
+
+Validator_codest:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Manesttra
+        column:       codest
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_desest:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La Descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La Descripción no puede tener más de 250 caracteres
+
+Validator_codgru:
+    class: CidesaExistValidator
+    param:
+        class:        Mangrutra
+        column:       codgru
+        unique_error: El Modelo de Equipo debe Existir.
+
+Validator_codsis:
+    class: CidesaExistValidator
+    param:
+        class:        Mansisope
+        column:       codsis
+        unique_error: El Sistema de Operación debe Existir.        
+
+                                  

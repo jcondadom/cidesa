@@ -1,0 +1,360 @@
+opciones:                  # Opciones generales
+  name:                    c
+  eliminar:                true
+  tabla:                   opfactur
+  anchogrid:               1100
+  ancho:                   1200
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:
+  titulo:                  Fecha Factura
+  tipo:                    f
+  esgrabable:              true
+  nombrecampo:             fecfac
+  vacia:                   true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: opordpag_monord, 1: opordpag_monret, 2: opordpag_comaso, 3: opordpag_retenapli}
+  html:                    ["size=10"]
+2:
+  titulo:                  Nro. Factura
+  tipo:                    t
+  nombrecampo:             numfac
+  esgrabable:              true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: opordpag_cedrif}
+  html:                    ["size=15 maxlength=50"]
+3:
+  titulo:                  Nro. Control
+  tipo:                    t
+  nombrecampo:             numctr
+  esgrabable:              true
+  html:                    ["size=15 maxlength=50"]
+4:
+  titulo:                  Nota Débito
+  tipo:                    t
+  nombrecampo:             notdeb
+  esgrabable:              true
+  ajaxgrid:                true
+  html:                    ["size=15 maxlength=50"]
+5:
+  titulo:                  Nota Crédito
+  tipo:                    t
+  nombrecampo:             notcrd
+  esgrabable:              true
+  ajaxgrid:                true
+  html:                    ["size=15 maxlength=50"]
+6:
+  titulo:                  Tipo Transacción
+  tipo:                    t
+  nombrecampo:             tiptra
+  esgrabable:              true
+  html:                    ["size=5 readonly=true"]
+7:
+  titulo:                  Factura afectada
+  tipo:                    t
+  nombrecampo:             facafe
+  esgrabable:              true
+  html:                    ["size=15 maxlength=50"]
+8:
+  titulo:                  % de Alícuota
+  tipo:                    c
+  nombrecampo:             poriva2
+  html:                    [ ]
+  esgrabable:              true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: opordpag_comaso, 1: opordpag_retenapli, 2: opordpag_unidad, 3: opordpag_modbasimpiva}
+9:
+  titulo:                  Total Factura
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             totfac
+  esnumerico:              true
+  default:                 '0,00'
+  ajaxgrid:                true
+  ajaxadicionales:         {0: opordpag_comaso, 1: opordpag_retenapli, 2: opordpag_unidad, 3: opordpag_modbasimpiva}
+  html:                    ["size=15"]
+  estotal:                 [true, opordpag_totfac]
+10:
+  titulo:                  Exento IVA
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             exeiva
+  esnumerico:              true
+  default:                 '0,00'
+  ajaxgrid:                true
+  ajaxadicionales:         {0: opordpag_comaso, 1: opordpag_retenapli, 2: opordpag_unidad, 3: opordpag_modbasimpiva}
+  html:                    ["size=15"]
+  estotal:                 [true, opordpag_totexe]
+11:
+  titulo:                  Base Imponible
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             basimp
+  esnumerico:              true
+  default:                 '0,00'
+  ajaxgrid:                true
+  ajaxadicionales:         {0: opordpag_comaso, 1: opordpag_retenapli, 2: opordpag_unidad, 3: opordpag_modbasimpiva}
+  html:                    ["size=15"]
+12:
+  titulo:                  Impuesto
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             moniva
+  esnumerico:              true
+  default:                 '0,00'
+  ajaxgrid:                true
+  ajaxadicionales:         {0: opordpag_comaso, 1: opordpag_retenapli, 2: opordpag_unidad, 3: opordpag_modbasimpiva}
+  html:                    ["size=15"]
+13:
+  titulo:                  Iva Retenido
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monret
+  esnumerico:              true
+  default:                 '0,00'
+  ajaxgrid:                true
+  ajaxadicionales:         {0: opordpag_comaso, 1: opordpag_retenapli, 2: opordpag_unidad, 3: opordpag_modbasimpiva}
+  html:                    ["size=15"]
+  estotal:                 [true, opordpag_totiva]
+14:
+  titulo:                  1 x 1000
+  tipo:                    k
+  nombrecampo:             unocien
+  esgrabable:              true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: opordpag_retenapli}
+  html:                    []
+15:
+  titulo:                  Base Imponible 1 x 1000
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             basltf
+  esnumerico:              true
+  default:                 '0,00'
+  ajaxgrid:                true
+  ajaxadicionales:         {0: opordpag_retenapli}
+  html:                    ["size=15"]
+16:
+  titulo:                  % 1 x 1000
+  tipo:                    m
+  nombrecampo:             porltf
+  esgrabable:              true
+  esnumerico:              true
+  html:                    ["size=15 readonly=true"]
+17:
+  titulo:                  Monto 1 x 1000
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monltf
+  esnumerico:              true  
+  default:                 '0,00'
+  html:                    ["size=15"]
+  estotal:                 [true, opordpag_totmontmil]
+18:
+  titulo:                  I.S.L.R
+  tipo:                    k
+  nombrecampo:             impusob
+  esgrabable:              true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: opordpag_retenapli}
+  html:                    []
+19:
+  titulo:                  Base Imponible I.S.L.R
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             basislr
+  esnumerico:              true
+  default:                 '0,00'
+  ajaxgrid:                true
+  ajaxadicionales:         {0: opordpag_retenapli}
+  html:                    ["size=15"]
+20:
+  titulo:                  % I.S.L.R
+  tipo:                    c
+  nombrecampo:             porislr2
+  esgrabable:              true
+  ajaxgrid:                true
+  html:                    [ ]
+21:
+  titulo:                  Monto I.S.L.R
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monislr
+  esnumerico:              true  
+  default:                 '0,00'
+  html:                    ["size=15"]
+  estotal:                 [true, opordpag_totmontislr]
+22:
+  titulo:                  Código I.S.L.R
+  tipo:                    t
+  nombrecampo:             codislr
+  esgrabable:              true
+  oculta:                  true
+  html:                    ["size=15 maxlength=50"]
+23:
+  titulo:                  C.I / R.I.F
+  tipo:                    t
+  nombrecampo:             rifalt
+  esgrabable:              true
+  html:                    ["size=20 maxlength=15"]
+  ajaxgrid:                true
+  catalogo:                [opbenefi, sf_admin_edit_form, {Cedrif: 23, Nomben: 24}, Opbenefi_Pagemiord ]
+24:
+  titulo:                  Nombre
+  tipo:                    t
+  nombrecampo:             nomben
+  esgrabable:              true
+  html:                    ["size=50 readonly=true"]
+25:
+  titulo:                  I.R.S
+  tipo:                    k
+  nombrecampo:             imprs
+  esgrabable:              true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: opordpag_retenapli}
+  html:                    []
+26:
+  titulo:                  Base Imponible I.R.S
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             basirs
+  esnumerico:              true
+  default:                 '0,00'
+  ajaxgrid:                true
+  ajaxadicionales:         {0: opordpag_retenapli}
+  html:                    ["size=15"]
+27:
+  titulo:                  % I.R.S
+  tipo:                    c
+  nombrecampo:             porirs2
+  esgrabable:              true  
+  ajaxgrid:                true
+  html:                    [ ]
+28:
+  titulo:                  Monto I.R.S
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monirs
+  esnumerico:              true  
+  default:                 '0,00'
+  html:                    ["size=15"]
+  estotal:                 [true, opordpag_totmontirs]
+29:
+  titulo:                  Código I.R.S
+  tipo:                    t
+  nombrecampo:             codirs
+  esgrabable:              true
+  oculta:                  true
+  html:                    ["size=15 maxlength=50"]
+30:
+  titulo:                  % Iva
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             poriva
+  esnumerico:              true  
+  oculta:                  true
+  html:                    ["size=15"]
+31:
+  titulo:                  Impuesto Municipal
+  tipo:                    k
+  nombrecampo:             impmn
+  esgrabable:              true
+  ajaxgrid:                true
+  ajaxadicionales:         {0: opordpag_retenapli}
+  html:                    []
+32:
+  titulo:                  Base Imponible Impuesto Municipal
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             basimn
+  esnumerico:              true
+  default:                 '0,00'
+  ajaxgrid:                true
+  ajaxadicionales:         {0: opordpag_retenapli}
+  html:                    ["size=15"]
+33:
+  titulo:                  % Impuesto Municipal
+  tipo:                    c
+  nombrecampo:             porimn2
+  esgrabable:              true
+  ajaxgrid:                true  
+  html:                    [ ]
+34:
+  titulo:                  Monto Impuesto Municipal
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monimn
+  esnumerico:              true  
+  default:                 '0,00'
+  html:                    ["size=15"]
+  estotal:                 [true, opordpag_totmontimn]
+35:
+  titulo:                  Código Impuesto Municipal
+  tipo:                    t
+  nombrecampo:             codimn
+  esgrabable:              true
+  oculta:                  true
+  html:                    ["size=15 maxlength=50"]
+36:
+  titulo:                  Fecha de Recepción
+  tipo:                    f
+  esgrabable:              true
+  nombrecampo:             fecrecfac
+  vacia:                   true
+  html:                    ["size=10"]
+37:
+  titulo:                  Monto No Sujeto
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             mnosuj
+  esnumerico:              true  
+  default:                 '0,00'
+  html:                    ["size=15"]
+38:
+  titulo:                  Monto Sin Derecho a Crédito
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             mdecre
+  esnumerico:              true 
+  default:                 '0,00' 
+  html:                    ["size=15"]
+39:
+  titulo:                  Monto Exonerado
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             monexo
+  esnumerico:              true  
+  default:                 '0,00'
+  html:                    ["size=15"]
+40:
+  titulo:                  % I.S.L.R
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             porislr
+  esnumerico:              true  
+  oculta:                  true
+  html:                    ["size=15"]
+41:
+  titulo:                  % I.R.S
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             porirs
+  esnumerico:              true  
+  oculta:                  true
+  html:                    ["size=15"]
+42:
+  titulo:                  % Impuesto Municipal
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             porimn
+  esnumerico:              true  
+  oculta:                  true
+  html:                    ["size=15"]
+43:
+  titulo:                  Código Iva
+  tipo:                    t
+  nombrecampo:             codiva
+  esgrabable:              true
+  oculta:                  true
+  html:                    ["size=15 maxlength=50"]

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/41720/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomforcargosesp/config
+END
+grid_conceptos.yml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/41720/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomforcargosesp/config/grid_conceptos.yml
+END
+generator.yml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/repositorio/!svn/ver/41720/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomforcargosesp/config/generator.yml
+END
+grid_empleados.yml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/41720/web/php/siga/branches/productions/trunk/apps/nomina/modules/nomforcargosesp/config/grid_empleados.yml
+END

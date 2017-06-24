@@ -1,0 +1,27 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   caranrot
+  ancho:                   700
+  anchogrid:               750
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Tipo de Rotación
+  tipo:                    c
+  esgrabable:              true
+  nombrecampo:             tiprot
+  html:                    [ ]
+2:      # Columna 2
+  titulo:                  Desde
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             desde
+  html:                    ["size=15"]
+3:       # Columna 3
+  titulo:                  Hasta
+  tipo:                    m
+  nombrecampo:             hasta
+  esgrabable:              true
+  html:                    ["size=15"]

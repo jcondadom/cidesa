@@ -1,0 +1,93 @@
+methods:
+  post:
+   - "mantarpro{codtar}"
+   - "mantarpro{destar}"
+   - "mantarpro{numequ}"
+   - "mantarpro{codact}"
+   - "mantarpro{codgru}"
+   - "mantarpro{codtma}"
+   - "mantarpro{codcar}"
+
+names:
+  mantarpro{codtar}:
+    required:  Yes
+    required_msg: El Código de la Tarea no puede estar en Blanco
+    validators: Validator_codtar
+    
+  mantarpro{destar}:
+    required:  Yes
+    required_msg: La Descripción de la Tarea no puede estar en Blanco
+    validators: Validator_destar
+
+  mantarpro{numequ}:
+    required:  Yes
+    required_msg: El equipo no puede estar en Blanco
+    validators: Validator_numequ
+
+  mantarpro{codact}:
+    required:  Yes
+    required_msg: El Estándar de Trabajo no puede estar en Blanco
+    validators: Validator_codact
+      
+  mantarpro{codgru}:
+    required:  Yes
+    required_msg: El Grupo de Trabajo no puede estar en Blanco
+    validators: Validator_codgru 
+
+  mantarpro{codtma}:
+    required:  No
+    validators: Validator_codtma
+
+  mantarpro{codcar}:
+    required:  No
+    validators: Validator_codcar
+
+Validator_codtar:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Mantarpro
+        column:       codtar
+        unique_error: El Registro ya Existe intente con otro.
+
+Validator_destar:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caracteres
+        max:       500
+        min_error: La descripción no puede tener mas de 500 caracteres
+
+Validator_numequ:
+    class: CidesaExistValidator
+    param:
+        class:        Manregequ
+        column:       numequ
+        unique_error: El Equipo debe Existir.
+
+Validator_codact:
+    class: CidesaExistValidator
+    param:
+        class:        Manactest
+        column:       codact
+        unique_error: El Estándar de Trabajo debe Existir.
+
+Validator_codgru:
+    class: CidesaExistValidator
+    param:
+        class:        Mangrutra
+        column:       codgru
+        unique_error: El Grupo de Trabajo debe Existir. 
+
+Validator_codtma:
+    class: CidesaExistValidator
+    param:
+        class:        Mantipman
+        column:       codtma
+        unique_error: El Tipo de Mantenimiento debe Existir.
+
+Validator_codcar:
+    class: CidesaExistValidator
+    param:
+        class:        Npcargos
+        column:       codcar
+        unique_error: El Responsable debe Existir.

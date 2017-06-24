@@ -1,0 +1,28 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npuniads
+    theme:            cidesaGenerator
+    fields:
+      coduniads:  { name: Código, params: maxlength=20 size=20 onFocus="if($('id').value!='')$(this.id).readOnly=true" }
+      desuniads:  { name: Descripción, readonly : true, params: maxlength=500 size=80 }
+    list:
+      title:              Unidades de Adscripción
+      display:            [=coduniads, desuniads]
+      filters:            [coduniads, desuniads]
+      max_pers:           10
+      sort:               coduniads
+      objects_actions:
+        _edit:            ~
+        _delete:          ~
+      actions:
+        _create:          ~         
+    edit:
+      title:              Edición de Unidad de Adscripción
+      display:
+        Datos:   [coduniads, desuniads]        
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

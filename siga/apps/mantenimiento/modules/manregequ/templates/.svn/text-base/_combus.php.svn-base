@@ -1,0 +1,1 @@
+<?php echo select_tag('manregequ[combus]', options_for_select(array('S' => 'SI', 'N' => 'NO'),$manregequ->getCombus()),array()); ?>

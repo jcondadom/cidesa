@@ -1,0 +1,30 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Rhgruadi
+    theme:            cidesaGenerator
+    fields:
+      codgru: { name: Código, params : size=5 readonly=true }
+      desgru: { name: Descripción, params : size=80 readonly=true} 
+      grid: {name: .}     
+    list:
+      title:          Grupos de Adiestramiento
+      filters:        [codgru, desgru]
+      display:        [=codgru, desgru]
+      fields:
+        codgru: { name: Código, params : size=5 maxlength=4}
+        desgru: { name: Descripción, params : size=10 maxlength=250}       
+      object_actions:
+        _edit:        ~
+      max_per_page:   10
+      sort:      codgru
+    edit:
+      title:          Asociacipon de Personal a Grupos de Adiestramientos
+      display:
+        "Datos del Grupo":   [codgru, desgru]
+        "Personal":  [_grid]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      NONE
+        _create:      NONE

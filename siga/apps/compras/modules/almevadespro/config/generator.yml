@@ -1,0 +1,62 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Caevadespro
+    theme:            cidesaGenerator
+    fields:
+      codeva: { name: Código, params: maxlength=8 onFocus=readonly(this.id) onBlur="this.value=this.value.pad(8, '0',0);"}
+      feceva: { name: Fecha, params: date_format='dd/MM/yyyy' maxlength=10}
+      rifpro:
+        name: Rif del Proveedor
+        params: maxlength=15
+        catalogo:
+          catalogoweb: Cotizaciones
+          clase: Caprovee
+          ajax: 1
+          parametros: getprincipal="getRifpro" getsecundario="getNompro" campoprincipal="rifpro" camposecundario="nompro" campobase = "id"
+      codpro: { name: Código del Proveedor}
+      nompro: { name: Nombre}
+      dirpro: { name: Dirección, params: size=80 readonly=true}
+      telpro: { name: Teléfono, params: size=20 readonly=true}
+      email: { name: Correo Electrónico, params: size=40 readonly=true}
+      clapro: { name: Clasificación del Proveedor}
+      clapro2: { name: Clasificación del Proveedor}
+      gridt: { name: .}
+      gridl: { name: .}
+      tocuat: { name: Subtotal Cuantitativo}
+      tocual: { name: Subtotal Cualitativo}
+      totpun: { name: .}
+      observ:  { name: Observación, type: textarea_tag, params: size=80x5 maxlength=500 onkeyup=" return ismaxlength(this)"}
+      codniv:
+        name: Unidad Origen
+        params: size=20  maxlength=16
+        catalogo:
+          catalogoweb: Npestorg_Nomhojint
+          clase: Npestorg
+          ajax: 4
+          parametros: getprincipal="getCodniv" getsecundario="getDesniv" campoprincipal="codniv" camposecundario="desniv" campobase = "id"
+          catalogoparams: /param1/'."'+$('caevadespro_longitud').value+'".'
+          ajaxparams: +'."'".'&longitud='."'+$('caevadespro_longitud').value".' 
+    list:
+      title:          Evaluación y Desempeño del Proveedor
+      filters:        [codeva, codpro, clapro]
+      display:        [=codeva, rifpro, nompro, clapro2]
+      max_per_page:   10
+      sort:  codeva
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+    edit:
+      title:          Edición de Evaluación y Desempeño del Proveedor
+      display:        
+        "NONE":   [codeva, feceva]
+        "Información del Proveedor":    [rifpro, dirpro, telpro, email, _clapro, codniv, observ]
+        "Aspectos Cuantitativos a Evaluar":   [_gridt, tocuat]
+        "Aspectos Cualitativos a Evaluar":   [_gridl, tocual]
+        "Puntuación Total":  [totpun]
+      hide:  [codpro, longitud]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

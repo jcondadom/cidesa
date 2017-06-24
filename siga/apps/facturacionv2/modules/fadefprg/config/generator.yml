@@ -1,0 +1,36 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fadefprg
+    theme:            cidesaGenerator
+    fields:
+      codprg: { name: Código, params : size=5 maxlength=4  onFocus=readonly(this.id) onBlur=mask_numeral(this)}
+      desprg: { name: Descripción }
+      diaini: {name: Día Inicio}
+      mesini: {name: Mes Inicio}
+      diafin: {name: Día Fin}
+      mesfin: {name: Mes Fin}
+      staprg: {name: Estatus del Programa}
+    list:
+      title:          Definiciones de Programas de Abastecimiento
+      fields:
+        codprg: { name: Código, params : size=5 maxlength=4  onFocus=readonly(this.id)}
+        desprg: { name: Descripción, params: size=30 maxlength=30 }
+        staprg: {name: Estatus del Programa (A->Activos o I->Inactivos, params: size=1}
+      filters:        [codprg, desprg, staprg]
+      display:        [=codprg, desprg]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codprg
+    edit:
+      title:          Edición de Programas de Abastecimiento
+      fields:
+        desprg: { name: Descripción, params: size=80 maxlength=80 }      
+      display:        [codprg, desprg, _diaini, _mesini, _diafin, _mesfin, _staprg]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

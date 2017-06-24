@@ -1,0 +1,22 @@
+====== Operación Incluir ======
+
+Para **Incluir** un Tipo de Equipo Técnico. <html><br><br></html>
+
+  * Presione el **Botón** {{:btnnuevo.jpg|}} 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontequiptecinc1.jpg|}}"></div><br></html> 
+
+  * Ingrese el **Código** que identifique al Tipo de Equipo. <html><br><br></html>
+
+  * Ingrese la **Descripción** del Tipo de Equipo Ténico. <html><br><br></html>
+
+  * Presione el **Botón** {{:btnguardar.jpg|}} para registrar la información.
+
+ 
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+======Definición de Condiciones de Pago======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Proceso que permite registrar y llevar un control de todos los tipos de formas de pago que pueda establecer un proveedor (contado, crédito, etc.).</html>
+
+**Para ello:**
+
+  * Seleccione la opción **Compras y Almacén** ubicada en el Menú Principal de SIGA.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalm.jpg|}}"></div><br></html>
+
+  * Despliegue la opción de **Proveedores** 
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmprov.jpg|}}"></div><br></html> 
+
+  * Por último seleccione la opción **Definición de Condiciones de Pago**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmprovcondpag.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Definición de Condiciones de Pago** veamos la [[Descripcion_Campos_Definicion_Condiciones_Pago|Descripción de los Campos]]

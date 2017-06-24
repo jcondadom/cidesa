@@ -1,0 +1,17 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Faestven
+    theme:            cidesaGenerator
+    fields:
+      anoest:  { name: Año}
+      grid: {name: .}
+    edit:
+      title: Edición de Estimación de Ventas
+      display:
+        "Datos de Estimación": [_anoest, _grid]
+      actions:
+        _list:          NONE
+        _save:          ~
+        _delete:        NONE
+        _create:        NONE

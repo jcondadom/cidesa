@@ -1,0 +1,12 @@
+all:
+   sfApplyPlugin:
+     from:
+       email: ""
+       fullname: "Mercadeo Cidesa"
+   .apps:
+     portal:    portal
+     max_per_page:     15
+     contabilidadpresupuesto: /home/rafa/www/portal/siga_cp
+     reportes:         /home/rafa/www/portal/siga_reportes
+     reportes_web:                     reportes/reportes
+     this: portal

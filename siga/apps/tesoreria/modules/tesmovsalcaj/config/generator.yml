@@ -1,0 +1,62 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Tssalcaj
+    theme:            cidesaGenerator
+    fields:
+      refsal: { name: Número de Recibo, params: size=25 maxlength=20 onBlur="javascript:event.keyCode=13; enter(event,this.value);"}
+      fecsal: { name: Fecha de Emisión, params: date_format='dd/MM/yyyy' maxlength=10}
+      cedrif: { name: C.I/R.I.F del Beneficiario, params: maxlength=15}
+      nomben: { name: Nombre del Beneficiario, params: maxlength=250}
+      dessal: { name: Concepto, type: textarea_tag, params: size=80x5 maxlength=250 onkeyup="javascript:return ismaxlength(this)"}
+      monsal: { name: Neto a Pagar, params: readOnly=true size=15}
+      grid: { name: . }
+      stasal: { name: Estatus }
+      codcaj:
+        name: Caja Chica
+        catalogo:
+          catalogoweb: Tsdefcajchi_Tesmovsalcaj
+          clase: Tsdefcajchi
+          ajax: 5
+          parametros: getprincipal="getCodcaj" getsecundario="getDescaj" campoprincipal="codcaj" camposecundario="descaj" campobase = "id"
+      coddirec:
+        name: Dirección
+        params: size=3 maxlength=15
+        catalogo:
+          catalogoweb: Cadefdirec_Almdefdiv
+          clase: cadefdirec
+          ajax: 6
+          parametros: getprincipal="getCoddirec" getsecundario="getDesdirec" campoprincipal="coddirec" camposecundario="desdirec" campobase = "id"
+      codeve:
+        name: Evento
+        params: size=10 maxlength=6 
+        catalogo:
+          catalogoweb: Preprecom_Cpevepre
+          clase: Cpevepre
+          ajax: 7
+          parametros: getprincipal="getCodeve" getsecundario="getDeseve" campoprincipal="codeve" camposecundario="deseve" campobase = "id"
+      numfac: { name: Número, params: size=20 maxlength=50}
+      fecfac: { name: Fecha, params: size=10 date_format='dd/MM/yyyy' maxlength=10}
+    list:
+      title:          Salidas de Caja
+      fields:
+        monsal: { name: Monto Salida}
+      display:        [=refsal, fecsal, cedrif, monsal]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      filters:        [refsal, fecsal, cedrif, codcaj, monsal, stasal]
+      max_per_page:   10
+      sort:           refsal
+    edit:
+      title:          Edición de Salidas de Caja
+      display:
+        "Datos del Recibo": [refsal, _fecsal, _cedrif, codcaj, coddirec, codeve]
+        "Detalle del Pago": [dessal, _grid, monsal]
+        "Factura": [numfac, fecfac]
+      hide: [ctapag, agregabenefi, numcue, tipdoc]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

@@ -1,0 +1,18 @@
+====== Registro ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite llevar un registro y control de los distrintos contratistas que maneja la institución para elaborar las obras
+
+**Para ello:**
+
+  * Seleccione la opción **Obras y Contratos** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascont.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Contratistas**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontcontrat.jpg|}}"></div><br></html>
+ 
+  * Por último seleccione la opción **Registro**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontcontratreg.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Registro** ahora veamos la [[Descripcion_Campos_obras_registro_contratistas|Descripción de los Campos]]
+
+

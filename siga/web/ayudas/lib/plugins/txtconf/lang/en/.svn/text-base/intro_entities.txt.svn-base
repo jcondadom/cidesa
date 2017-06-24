@@ -1,0 +1,11 @@
+====== Text Config Manager: Entities ======
+
+Use this page to Manage the Entities List of your Dokuwiki installation.\\
+What are Entities? refer to [[doku>wiki:entities]].\\
+You can alos refer to the [[wp>List_of_XML_and_HTML_character_entity_references|Wikipedia list of entities]]
+
+For more details about this plugin see [[doku>plugin:txtconf]].
+
+Remember to press the **SAVE** button before leaving this page otherwise your changes will be lost.
+
+

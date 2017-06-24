@@ -1,0 +1,101 @@
+10
+
+dir
+50624
+https://repositorio.cidesa.com.ve/repositorio/web/php/reportes/branches/cmchacao/trunk/reportes
+https://repositorio.cidesa.com.ve/repositorio
+
+
+
+2010-10-08T15:15:00.326385Z
+40969
+cmchacao
+
+
+
+
+
+
+
+
+
+
+
+
+
+incomplete
+bd7ca8a6-7b2b-0410-91d3-d9bcf4a077a3
+
+documentos
+dir
+
+nomina
+dir
+
+acentos.php
+file
+40985
+
+
+
+2009-08-18T19:04:58.000000Z
+e35952414646b01d353c228ae882a4df
+2009-08-18T19:22:51.641131Z
+31788
+dmarquez
+
+nominaSIGA
+dir
+
+ingresos
+dir
+
+tesoreria
+dir
+
+presupuesto
+dir
+
+reportebase.php
+file
+40985
+
+
+
+2009-01-28T16:31:26.000000Z
+2cb426cbbed15acfaaad714ab233ead3
+2009-01-28T13:58:16.859673Z
+23141
+gespinoza
+has-props
+
+reportes.yml
+file
+41482
+
+
+
+2010-11-22T15:59:49.000000Z
+db407eca6b0d323a1d17298d9d493e0e
+2010-11-22T16:17:36.627860Z
+41482
+cmchacao
+
+compras
+dir
+
+bienes
+dir
+
+seguridad
+dir
+
+instructivos
+dir
+
+contabilidad
+dir
+
+formulacion
+dir
+

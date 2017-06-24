@@ -1,0 +1,12 @@
+===== Descripción de Campos =====
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:biemotdisinc1.jpg|}}"></div><br></html>
+
+  * Ingresar el **Código** que haga referencia al Motivo. <html><br><br></html>
+
+  * Ingresar el **Nombre del Motivo**. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Definición de Motivos de Disposición** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+
+
+  

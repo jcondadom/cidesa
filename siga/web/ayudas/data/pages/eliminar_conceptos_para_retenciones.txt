@@ -1,0 +1,15 @@
+====== Operación Eliminar ======
+
+Si desea eliminar un determinado **Concepto para Retención**:  <html><br><br></html>
+
+  * Seleccionar de la **Lista** el **Código del Concepto para Retención-** que desea eliminar.
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconretmod.jpg|}}"></div><br></html>
+
+  * El sistema muestra los **Conceptos para Retenciones** por cada Nómina correspondiente a la Retención seleccionada. <html><br><br></html> 
+
+  * Presionar  {{:btnborrar.jpg|}}   <html><br><br></html> 
+
+  * El sistema emite un **Mensaje de Confirmación** antes de eliminar.
+ <html><br><div> <align="center"><img src="/ayudas/lib/exe/fetch.php/{{:msjconfirmacion.jpg|}}"></div><br></html>
+
+  * Presionar **Aceptar**.   <html><br><br></html>

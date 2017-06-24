@@ -1,0 +1,69 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   viasolbolaer
+  anchogrid:               900
+  ancho:                   870
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 2
+  titulo:                  Aprobar
+  tipo:                    k
+  nombrecampo:             check2
+  esgrabable:              true  
+  html:                    [ size=4 onClick=verificar(this.id) ]
+2:       # Columna 2
+  titulo:                  DesAprobar
+  tipo:                    k
+  nombrecampo:             check3
+  esgrabable:              true  
+  html:                    [ size=4 onClick=verificar(this.id)]  
+3:       # Columna 3
+  titulo:                  Nro. Solicitud
+  tipo:                    t
+  nombrecampo:             numsol
+  esgrabable:              true
+  html:                    [ readonly=true size=15]
+4:       # Columna 4
+  titulo:                  Fecha Solicitud
+  tipo:                    t
+  nombrecampo:             fecsol2
+  esgrabable:              true
+  html:                    [ readonly=true size=10]
+5:       # Columna 5
+  titulo:                  Dirección
+  tipo:                    t
+  nombrecampo:             desdirec
+  esgrabable:              true
+  html:                    [ readonly=true size=35]
+6:       # Columna 6
+  titulo:                  Evento
+  tipo:                    t
+  nombrecampo:             deseve
+  esgrabable:              true
+  html:                    [ readonly=true size=15]
+7:       # Columna 7
+  titulo:                  Unidad Solicitante
+  tipo:                    t
+  nombrecampo:             desniv
+  esgrabable:              true
+  html:                    [ readonly=true size=20]
+8:       # Columna 8
+  titulo:                  Fecha salida
+  tipo:                    t
+  nombrecampo:             fecsal2
+  esgrabable:              true
+  html:                    [ readonly=true size=10]
+9:       # Columna 9
+  titulo:                  Fecha Regreso
+  tipo:                    t
+  nombrecampo:             fecreg2
+  esgrabable:              true
+  html:                    [ readonly=true size=10]
+10:       # Columna 10
+  titulo:                  Ruta
+  tipo:                    a
+  nombrecampo:             rutbolaer
+  esgrabable:              true
+  html:                    [ readonly=true size=20x2]

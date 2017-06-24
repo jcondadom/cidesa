@@ -1,0 +1,28 @@
+opciones:                  # Opciones generales
+  name:                    f
+  eliminar:                false
+  tabla:                   caartord
+  anchogrid:               750
+  ancho:                   600
+  filas:                   0
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Partida
+  tipo:                    t
+  nombrecampo:             codpar
+  esgrabable:              true
+  html:                    ["size=25 readOnly=true"]
+2:       # Columna 2
+  titulo:                  Descripción
+  tipo:                    t
+  nombrecampo:             nompar
+  html:                    ["size=50 readOnly=true"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Monto
+  tipo:                    m
+  esgrabable:              true
+  nombrecampo:             totart
+  esnumerico:              true
+  html:                    ["size=10 readOnly=true"]

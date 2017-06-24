@@ -1,0 +1,31 @@
+methods:
+  post:
+   - "cadefgar{codgar}"
+   - "cadefgar{desgar}"
+
+names:
+  cadefgar{codgar}:
+    required:  Yes
+    required_msg: El Código de la Garantía no puedo estar en Blanco
+    validators: UniqueValidator
+
+  cadefgar{desgar}:
+    required:  Yes
+    required_msg: La Descripción de la Garantía no puedo estar en Blanco
+    validators: DescripcionValidator
+
+
+UniqueValidator:
+    class: sfPropelUniqueValidator
+    param:
+        class:    Cadefgar
+        column:   codgar
+        unique_error:   El Código de la Garantía ya existe. Por Favor, Cambiélo por otro.
+
+DescripcionValidator:
+    class: sfStringValidator
+    param:
+        min:       3
+        min_error: La Descripción de la Garantía no puede tener menos de 5 caracteres
+        max:       100
+        max_error: La Descripción de la Garantía no puede tener más de 100 caracteres

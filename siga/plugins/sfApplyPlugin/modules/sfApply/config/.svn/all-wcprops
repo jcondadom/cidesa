@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/50729/web/php/siga/branches/productions/trunk/plugins/sfApplyPlugin/modules/sfApply/config
+END
+security.yml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repositorio/!svn/ver/50460/web/php/siga/branches/productions/trunk/plugins/sfApplyPlugin/modules/sfApply/config/security.yml
+END
+mailer.yml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repositorio/!svn/ver/50729/web/php/siga/branches/productions/trunk/plugins/sfApplyPlugin/modules/sfApply/config/mailer.yml
+END

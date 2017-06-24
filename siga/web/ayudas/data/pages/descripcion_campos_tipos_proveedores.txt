@@ -1,0 +1,9 @@
+Los campos que conforman la pantalla de **Medios de Comunicación** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:compalmsncmedcominc1.jpg|}}"></div><br></html>
+
+  * **Código** que identifica al Medio de Comunicación. <html><br><br></html>
+
+  * **Descripción** del Medio de Comunicación. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Medios de Comunicación** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

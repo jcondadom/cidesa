@@ -1,0 +1,15 @@
+propel:
+  _attributes: { noXsd: false, defaultIdMethod: native, package: lib.model.papiro }
+  papiro:
+    coddoc:
+      type: VARCHAR
+      size: 32
+    documento:
+      type: INTEGER
+    download:
+      type: VARCHAR
+      size: 32
+    view:
+      type: VARCHAR
+      size: 32
+    id:

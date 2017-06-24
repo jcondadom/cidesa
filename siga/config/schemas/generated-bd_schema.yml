@@ -1,0 +1,90 @@
+---
+propel: 
+  _attributes: 
+    noXsd: false
+    defaultIdMethod: native
+    package: lib.model
+  bdcampos: 
+    nomcamp1: 
+      type: VARCHAR
+      size: 50
+    nomcamp2: 
+      type: VARCHAR
+      size: 50
+    nomcamp3: 
+      type: VARCHAR
+      size: 50
+    nomcamp4: 
+      type: VARCHAR
+      size: 50
+    nomcamp5: 
+      type: VARCHAR
+      size: 50
+    nomcamp6: 
+      type: VARCHAR
+      size: 50
+    nomcamp7: 
+      type: VARCHAR
+      size: 50
+    nomcamp8: 
+      type: VARCHAR
+      size: 50
+    criterio: 
+      type: VARCHAR
+      size: 1000
+    id: 
+      type: integer
+      required: true
+      primaryKey: true
+      autoincrement: true
+  bdcriterio: 
+    criterio: 
+      type: VARCHAR
+      size: 1000
+    sql: 
+      type: VARCHAR
+      size: 1000
+    temporal: 
+      type: VARCHAR
+      size: 20
+    observacion: 
+      type: VARCHAR
+      size: 250
+    numero: 
+      type: VARCHAR
+      size: 2
+    id: 
+      type: integer
+      required: true
+      primaryKey: true
+      autoincrement: true
+  bdreporte: 
+    campo1: 
+      type: VARCHAR
+      size: 1000
+    campo2: 
+      type: VARCHAR
+      size: 1000
+    campo3: 
+      type: VARCHAR
+      size: 1000
+    campo4: 
+      type: VARCHAR
+      size: 1000
+    campo5: 
+      type: VARCHAR
+      size: 1000
+    campo6: 
+      type: VARCHAR
+      size: 1000
+    campo7: 
+      type: VARCHAR
+      size: 1000
+    campo8: 
+      type: VARCHAR
+      size: 1000
+    id: 
+      type: integer
+      required: true
+      primaryKey: true
+      autoincrement: true

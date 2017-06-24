@@ -1,0 +1,30 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Catproter
+    theme:            cidesaGenerator
+
+    fields:
+      descatproter:    { name: Descripción, params: size=40}
+      esmunicipal:     { name: Municipal}
+
+    list:
+      title:     Definición de Propiedad de Terreno
+      display:   [ =descatproter]
+      fields:
+        descatproter:    { name: Descripción, params: size=15}
+      sort:      descatproter
+      filters:   [ descatproter]
+      max_per_page: 10
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+
+    edit:
+      title: Edición de Propiedad de Terreno
+      display:    [ descatproter, _esmunicipal]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

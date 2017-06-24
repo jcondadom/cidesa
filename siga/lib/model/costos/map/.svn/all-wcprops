@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repositorio/!svn/ver/49466/web/php/siga/branches/productions/trunk/lib/model/costos/map
+END
+CostipcosMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/49459/web/php/siga/branches/productions/trunk/lib/model/costos/map/CostipcosMapBuilder.php
+END
+CosforproMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/49466/web/php/siga/branches/productions/trunk/lib/model/costos/map/CosforproMapBuilder.php
+END
+CosdefturMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/49457/web/php/siga/branches/productions/trunk/lib/model/costos/map/CosdefturMapBuilder.php
+END
+CostipcalMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/49459/web/php/siga/branches/productions/trunk/lib/model/costos/map/CostipcalMapBuilder.php
+END
+CostipinsmedMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/49466/web/php/siga/branches/productions/trunk/lib/model/costos/map/CostipinsmedMapBuilder.php
+END
+CostipproMapBuilder.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/49466/web/php/siga/branches/productions/trunk/lib/model/costos/map/CostipproMapBuilder.php
+END

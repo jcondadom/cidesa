@@ -1,0 +1,31 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Fadefbil
+    theme:            cidesaGenerator
+    fields:
+      codbil: { name: Código, params : size=5 maxlength=3  onFocus=readonly(this.id) onBlur="this.value=this.value.pad(3, '0',0);"}
+      desbil: { name: Descripción, params : size=80 maxlength=100}
+      denbil: { name: Denominación, params : size=15}
+      tipo: { name: Tipo}
+    list:
+      title:          Definición de Billetes o Moneda
+      filters:        [codbil, desbil, tipo]
+      fields:      
+        codbil: { name: Código, params : size=5 maxlength=3}
+        desbil: { name: Descripción, params : size=20 maxlength=100}
+      display:        [=codbil, desbil]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      codbil      
+    edit:
+      title:          Edición  de Billetes o Moneda
+      display:
+        "NONE":   [codbil, desbil, denbil, _tipo]        
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

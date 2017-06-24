@@ -1,0 +1,20 @@
+====== Descripciòn de Campos ======
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpremantcambcontinc1.jpg|}}"></div><br></html>
+
+  * **Usuario:** El sistema muestra el usuario que desea cambiar la contraseña. <html><br><br></html>
+
+  * **Nombre Usuario:** El sistema muestra el nombre del usuario que desea cambiar la contraseña. <html><br><br></html>
+
+  * **Contraseña Actual:** En este campo debe ingresar la contraseña actual del usuario. 
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpremantcambcontinc2.jpg|}}"></div><br></html>
+
+  * **Nueva Contraseña:** En este campo debe ingresar la nueva contraseña por la cual desea cambiar la actual. <html><br><br></html>
+
+  * **Validar Contraseña:** En este campo debe ingresar nuevamente la nueva contraseña. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Cambiar Contraseña** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]
+
+
+

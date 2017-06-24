@@ -1,0 +1,19 @@
+======Seguimientos Metas Formuladas en el POA ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite realizar el seguimiento a todas aquellas metas formuladas en el Plan Operativo Anual
+
+**Para ello:**
+
+  * Seleccione la opción **Formulación Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpre.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Egresos**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegr.jpg}}"></div><br></html>
+ 
+  * Por último seleccione **Formulación**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpreegrfor.jpg|}}"></div><br></html>
+
+  * Por último seleccione **Seguimiento Metas Formuladas en la POA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpremantsegmetforpoa.jpg|}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Seguimientos Metas Formuladas en la POA** veamos la [[Descripcion_Campos_formulacion_formulacion_seguimientos_metas_formuladas_poa|Descripción de los Campos]]

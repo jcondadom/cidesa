@@ -1,0 +1,23 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Bnregmue
+    theme:            cidesaGenerator
+    fields:
+      codact: { name: Código Activo, params: size=35 maxlength=30}
+      coddes: { name: Código Mueble Desde, params: size=25 maxlength=20}
+      codhas: { name: Código Mueble Hasta, params: size=25 maxlength=20}
+      marmue: { name: Marca, params: size=55 maxlength=50}
+      modmue: { name: Modelo, params: size=25 maxlength=20}
+      desmue: { name: Descripción, params: size=80 maxlength=250}
+      valini: { name: Monto Inicial, params: size=20}
+      valini: { name: Monto Inicial, params: size=20}
+      codubi: { name: Ubicación Física}
+      codubiadm: { name: Ubicación Administrativa}
+    edit:
+      title:          Ajuste de Características de Muebles en Lote
+      display:       [_codact, _coddes, _codhas, marmue, modmue, desmue, valini, _codubi, _codubiadm]
+      actions:
+        _list:        NONE
+        _save:        ~
+        _delete:      NONE

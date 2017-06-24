@@ -1,0 +1,14 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Caporressoc
+    theme:            cidesaGenerator
+    fields:
+      grid:   { name: .}
+      nota:   { name: .}
+
+    edit:
+      title:          Definición de Porcentaje de Responsabilidad Social
+      display:        [_grid, _nota]
+      actions:
+        _save:        ~

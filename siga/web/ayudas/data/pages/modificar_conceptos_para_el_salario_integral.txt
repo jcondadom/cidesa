@@ -1,0 +1,14 @@
+====== Operación Modificar ======
+
+Para Modificar un Concepto para el Salario Integral: <html><br><br></html>
+
+  * Seleccionar de la ** Lista** el **Tipo de Nómina** a la cual desea realizar cambios en cuanto a los Conceptos asignados para el Salario Integral.
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperconsalintmod.jpg|}}"></div><br></html>
+
+  * Realice las modificaciones en el **Tipo de Nómina** seleccionado. La única modificación que podrá realizar es "agregar" ó "quitar" Conceptos asignados para el Salario Integral. <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Si desea <b> "Quitar" Conceptos para el Salario Integral </b>, solo debe seleccionar de los <b>Conceptos Asignados por Nómina</b> aquellos que ya no desee incluir; si por el contrario desea <b>"Agregar" Conceptos para el Salario Integral </b>, debe seleccionar de <b>Conceptos por Asignar</b> aquellos que desea sean agregados a <b>Conceptos Asignados por Nómina</b>.</html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/"></div><br></html>
+
+  * Una vez realizadas las modificaciones presionar  {{:btnguardar.jpg|}} para actualizar la información. 

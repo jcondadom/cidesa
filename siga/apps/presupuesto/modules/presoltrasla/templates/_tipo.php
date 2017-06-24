@@ -1,0 +1,1 @@
+<?php echo select_tag('cpsoltrasla[tipo]', options_for_select(Array('TRASLADO' => 'TRASLADO', 'INSUBSISTENCIA' => 'INSUBSISTENCIA', 'REDUCCION' => 'REDUCCION','RECURSOS ADICIONALES' => 'RECURSOS ADICIONALES'), $cpsoltrasla->getTipo())) ?>

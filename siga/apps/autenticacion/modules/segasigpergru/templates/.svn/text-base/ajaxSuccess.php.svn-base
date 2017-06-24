@@ -1,0 +1,1 @@
+<?php $value = get_partial('grid', array('type' => 'edit', 'seggruapl' => $seggruapl,'labels' => $labels,'params' => $params)); echo $value ? $value : '&nbsp;' ?>

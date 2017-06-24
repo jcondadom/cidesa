@@ -1,0 +1,128 @@
+/* http://yui.yahooapis.com/2.6.0/build/reset/reset-min.css
+Copyright (c) 2008, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.6.0
+*/
+html{color:#000;background:#FFF;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,
+td{margin:0;padding:0;font-family: Arial, Lucida, Verdana, sans-serif;}
+table{width: 760px; border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+li{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{font-size:100%;}
+/*select{width:25%;}*/
+legend{color:#000; padding: 0.5em;}
+del,ins{text-decoration:none;}
+
+/* http://yui.yahooapis.com/2.6.0/build/fonts/fonts-min.css
+Copyright (c) 2008, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.6.0
+*/
+body{font-family: Arial, Lucida, Verdana, sans-serif;font-size: 11px;}
+select,input,textarea{font:99% arial,helvetica,clean,sans-serif;
+background: #F9FBFD;
+border-color: #1d699e;
+border-left-style: outset;
+border-top-style: outset;
+border-radius: 0px; /*w3c border radius*/
+box-shadow: 2px 2px 3px rgba(0,0,0,.4); /* w3c box shadow */
+-moz-border-radius: 5px;  mozilla border radius
+-moz-box-shadow: 2px 2px 3px rgba(0,0,0,.4);  mozilla box shadow
+-webkit-border-radius: 7px;  webkit border radius
+-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,.4);  webkit box shadow
+}
+select:hover,input:hover,textarea:hover{ margin: 0;
+  background: #fff;
+  border-color: #f33;}
+select:focus,input:focus,textarea:focus { border-color: #ec0b0b;}
+select:focus:hover,input:focus:hover,textarea:focus:hover { border-color: #ec0b0b;}
+
+
+table{font-size:inherit;font:100%;}
+input[type=submit] {
+list-style-type: none;
+text-align: center; /*set to left, center, or right to align the menu as desired*/
+display: inline;
+margin: 0;
+padding: 4px 5px 4px 14px;
+margin-right: 4px;
+border: 1px solid #778;
+color: #ffffff;
+border:1px solid gray;
+background: #1d699e;
+border-radius: 7px; /*w3c border radius*/
+box-shadow: 2px 2px 3px rgba(0,0,0,.4); /* w3c box shadow */
+-moz-border-radius: 7px; /* mozilla border radius */
+-moz-box-shadow: 2px 2px 3px rgba(0,0,0,.4); /* mozilla box shadow */
+-webkit-border-radius: 7px; /* webkit border radius */
+-webkit-box-shadow: 2px 2px 3px rgba(0,0,0,.4); /* webkit box shadow */
+font-family: Verdana,Arial;
+font-size: 11px;
+font-weight: bold;
+cursor: pointer;
+}
+input[type=submit]:hover{
+background: #F9FBFD;
+color: #1d699e;
+}
+.sf_admin_action_save input[type=submit] {
+    background-image:url(../images/guardar.png);
+    background-repeat:no-repeat;
+    background-position:left;
+}
+.sf_admin_action_save_and_add input[type=submit] {
+    background-image:url(../images/guardarmas.png);
+    background-repeat:no-repeat;
+    background-position:left;
+}
+.sf_admin_filter input[type=submit] {
+    background-image:url(../images/mail_find.png);
+    background-repeat:no-repeat;
+    background-position:left;
+}
+pre,code,kbd,samp,tt{font-family:monospace;*font-size:108%;line-height:100%;}
+
+/* http://yui.yahooapis.com/2.6.0/build/base/base-min.css
+Copyright (c) 2008, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.6.0
+*/
+h1{font-size:138.5%;}h2{font-size:123.1%;}h3{font-size:108%;}h1,h2,h3{margin:1em 0;}
+h1,h2,h3,h4,h5,h6,strong{font-weight:bold;}abbr,acronym{border-bottom:1px dotted #000;cursor:help;}
+em{font-style:italic;}blockquote,ul,ol,dl{margin:1em;}ol,ul,dl{margin-left:2em;}
+ol li{list-style:none;}ul li a{list-style:none;color: #000}dl dd{margin-left:1em}
+th,
+td{border:0px solid #000;padding:.5em;}th{font-weight:bold;text-align:center;}
+caption{margin-bottom:.5em;text-align:center;}p,fieldset,table,pre{margin-bottom:1em;}
+input[type=text],input[type=password],textarea{width:12.25em;*width:11.9em;}
+
+html
+{
+  background-color: #fff;
+}
+
+body
+{
+  padding: 30px;
+  text-align: left;
+}
+
+input[type=text]
+{
+    text-transform: uppercase;
+}
+textarea
+{
+    text-transform: uppercase;
+}

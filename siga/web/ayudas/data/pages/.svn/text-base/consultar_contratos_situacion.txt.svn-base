@@ -1,0 +1,29 @@
+====== Operación Consultar ======
+ 
+Una ves registrado el **Contrato** en la pantalla Situación podrá consultar los siguientes datos:<html><br><br></html>
+
+En primer lugar visualizará una lista con los Contratos, donde debe 
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontcontratositinc1.jpg|}}"></div><br></html>
+
+  * En primer lugar en la parte superior de la pantalla observará el estado de la obra en color rojo la cual puede ser: En ejecución, <html><br><br></html>
+
+  * Seguidamente en la sección **Datos del Contrato** el sistema muestra:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** **Código** y **Descripción** del Contrato.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** El nombre de la **Obra** a ejecutar.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-** El **Contratista** encargado de la Obra.<html><br><br></html>
+
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontcontratositinc2.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Financiera Global** se muestran los **Montos** correspondientes a: **Contratado, Contratado Variado, Aumento de Obra, Disminución de Obra, Obras Extras, Variación, Anticipo, Retenciones, Ejecutado y Por Ejecutar.**
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontcontratositinc3.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Financiera Detallada** se muestran las Partidas involucradas en el contrato y por cada una de ellas el **Monto**:** Programada, Ejecutada, Diferencia**(es el resultado de la resta entre la Programada y la Ejecutada), **Porcentaje Ejecutada, el Subtotal, el Adicional y el Total Obra Ejecutada.** <html><br><br></html>
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontcontratositinc4.jpg|}}"></div><br></html>
+
+  * En la **Pestaña Financiera Física** 

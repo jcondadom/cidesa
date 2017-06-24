@@ -1,0 +1,39 @@
+====== Descripción de Campos ======
+
+  * Ingresar la **Referencia** de la Adición o Disminución que se esta registrando.<html><br><br></html>
+
+  * Ingresar la **Fecha** en la cual se esta realizando la Disminución o la Adición.<html><br><br></html>
+
+  * Ingresar la **Descripción** de la Adición / Disminución.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpresolcreadidisinc1.jpg|}}"></div><br></html>
+
+  * Indicar el **Tipo de Movimiento** a registrar (Adición ó Disminución).<html><br><br></html>
+
+  * Seleccionar el **Artículo de Ley** en el cual se basa el usuario para llevar a cabo la Adición / Disminución.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpresolcreadidisinc2.jpg|}}"></div><br></html>
+
+  * En la Pestaña Movimientos encontramos:
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Código Presupuestario:</b>Se selecciona del Catálogo el Código Presupuestario al cual se le va a realizar una Adición o una Disminución.<br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Período:</b>Se refiere a cual perìodo de ese Código Presupuestario se le va a realizar la Adición ó Disminución.<br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Monto:</b>Se refiere al monto por el cual se está realizando la Adición ó Disminución.<br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Disponible:</b>Se refiere a lo disponible que tiene ese código presupuestario al momento que se esta realizando la Adición o disminución.<br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Total:</b>refiere a la suma de cada uno de los montos de las Adiciones o Disminuciones realizadas<br></html>
+ 
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpresolcreadidisinc3.jpg|}}"></div><br></html>
+
+  * En la Pestaña **Enunciado** ingresa una determinada observación de ser necesario.
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpresolcreadidisinc4.jpg|}}"></div><br></html>
+
+  * En la pestaña **Justificación** debe indicar el motivo por el cual se está realizando la Adición / Disminución.
+
+ <html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:contpresolcreadidisinc5.jpg|}}"></div><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Solicitud de Créditos Adicionales / Disminuciones** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]

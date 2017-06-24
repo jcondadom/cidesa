@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/61792/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/config
+END
+grid_detalle_edit.yml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/repositorio/!svn/ver/52730/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/config/grid_detalle_edit.yml
+END
+grid_hasta.yml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/58920/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/config/grid_hasta.yml
+END
+generator.yml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/repositorio/!svn/ver/61792/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/config/generator.yml
+END
+grid_perdes.yml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/58920/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/config/grid_perdes.yml
+END
+grid_perhas.yml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repositorio/!svn/ver/58920/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/config/grid_perhas.yml
+END
+grid_detalle_new.yml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repositorio/!svn/ver/58920/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/config/grid_detalle_new.yml
+END
+grid_eventos.yml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repositorio/!svn/ver/50175/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/config/grid_eventos.yml
+END
+grid_desde.yml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repositorio/!svn/ver/61360/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/config/grid_desde.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/repositorio/!svn/ver/45478/web/php/siga/branches/productions/trunk/apps/presupuesto/modules/presoltrasla/config/view.yml
+END

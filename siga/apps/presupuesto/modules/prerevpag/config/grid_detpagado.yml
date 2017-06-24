@@ -1,0 +1,49 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                false
+  tabla:                   cpimppag
+  anchogrid:               850
+  ancho:                   800
+  filas:                   0
+  titulo:                  ' Detalle Presupuestario '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Código Presupuestario
+  tipo:                    t
+  nombrecampo:             codpre
+  html:                    ["size=30  readonly=true"]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Monto
+  tipo:                    m
+  nombrecampo:             monimp
+  html:                    ["size=10 readonly=true"]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  Nuevo Código Presupuestario
+  tipo:                    t
+  nombrecampo:             codpre2
+  html:                    ["size=30"]
+  esgrabable:              true  
+  ajaxgrid:                true
+4:       # Columna 4
+  titulo:                  Referencia Causado
+  tipo:                    t
+  nombrecampo:             refere
+  html:                    ["size=8 readonly=true"]
+  esgrabable:              true
+  oculta:                  true
+5:       # Columna 5
+  titulo:                  Referencia Compromiso
+  tipo:                    t
+  nombrecampo:             refcom
+  html:                    ["size=8 readonly=true"]
+  esgrabable:              true
+  oculta:                  true
+6:       # Columna 6
+  titulo:                  Referencia Precompromiso
+  tipo:                    t
+  nombrecampo:             refprc
+  html:                    ["size=8 readonly=true"]
+  esgrabable:              true  
+  oculta:                  true

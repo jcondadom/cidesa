@@ -1,0 +1,25 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Cpdefparpre
+    theme:            cidesaGenerator
+    fields:
+      codparpre:      { name : Codigo, params: maxlength=32 }
+      nomparpre:      { name : Nombre }
+    list:
+      title:          Clasificador Presupuestario
+      display:        [=codparpre, nomparpre]
+      filters:        [codparpre, nomparpre]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:  codparpre
+    edit:
+      title:          Clasificador Presupuestario
+      display:        [_codparpre, nomparpre]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

@@ -1,0 +1,1 @@
+<?php echo select_tag('bndismue[tipdismue]', options_for_select(BndisbiePeer::CargarTipos(),$bndismue->getTipdismue()), array()); ?>

@@ -1,0 +1,43 @@
+====== Operación Incluir ======
+
+Para **Incluir** una determinada Adjudicación:<html><br><br></html>
+
+  * Presione el **Botón** {{:btnnuevo.jpg|}}
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:obrascontofertadjinc1.jpg|}}"></div><br></html>
+
+  * Ingrese el **Código** de la Obra. <html><br><br></html>
+
+  * Seleccione el **Tipo** de Adjudicación que está registrando. <html><br><br></html>
+
+  * Seleccione del calendario {{:btncalendario.jpg|}} la **Fecha** de la Adjudicación. <html><br><br></html>
+
+  * Indicar si la Adjudicación está **Aprobada** <html><br><br></html>
+
+  * Una ves ingresados los datos anteriores el registro de Adjudicación de divide en las siguientes secciones: <html><br><br></html>
+
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>[[Datos de la Obra]] 
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>[[Publicación]]
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>[[Retiro de Base]]
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>[[Presentación de Ofertas]]
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>[[Análisis de Ofertas]]
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>[[Empresa Ganadora del Proceso]] <html><br><br></html>
+
+  * Una ves ingresados los datos solicitados en cada una de las secciones anteriores presione el Botón {{:btnguardar.jpg|}}
+
+
+
+
+
+
+
+
+
+
+

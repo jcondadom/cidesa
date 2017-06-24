@@ -1,0 +1,27 @@
+opciones:                  # Opciones generales
+  name:                    a
+  eliminar:                true
+  tabla:                   caporressoc
+  anchogrid:               600
+  ancho:                   500
+  filas:                   1
+  titulo:                  ' '
+  htmltotalfilas:          ' '
+1:       # Columna 1
+  titulo:                  Monto Orden Desde
+  tipo:                    m
+  nombrecampo:             mondes
+  html:                    [size=10]
+  esgrabable:              true
+2:       # Columna 2
+  titulo:                  Monto Orden Hasta
+  tipo:                    m
+  nombrecampo:             monhas
+  html:                    [size=10]
+  esgrabable:              true
+3:       # Columna 3
+  titulo:                  % Responsabilidad Social
+  tipo:                    m
+  nombrecampo:             porres
+  html:                    [size=10]
+  esgrabable:              true

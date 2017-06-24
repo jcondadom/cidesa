@@ -1,0 +1,30 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Npdefinsext
+    theme:            cidesaGenerator
+    fields:
+      cedins: { name: Cédula, params : size=15 maxlength=10  onFocus=readonly(this.id)"}
+      nomins: { name: Nombre, params : size=80 maxlength=100}
+      carins: { name: Cargo, params : size=80 maxlength=100}
+    list:
+      title:          Instructores Externos
+      filters:        [cedins, nomins]
+      fields:      
+        cedins: { name: Código, params : size=5 maxlength=10}
+        nomins: { name: Descripción, params : size=20 maxlength=100}
+      display:        [=cedins, nomins]
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+      max_per_page:   10
+      sort:      cedins      
+    edit:
+      title:          Edición  de Instructor Externo
+      display:
+        "NONE":   [cedins, nomins, carins]
+      actions:
+        _list:        ~
+        _save:        ~
+        _delete:      ~
+        _create:      ~

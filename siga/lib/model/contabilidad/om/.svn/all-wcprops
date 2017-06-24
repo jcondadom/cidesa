@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repositorio/!svn/ver/61600/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om
+END
+BaseContabcmPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/43317/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContabcmPeer.php
+END
+BaseContaba1Peer.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/35160/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContaba1Peer.php
+END
+BaseCodetcencosPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/39141/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseCodetcencosPeer.php
+END
+BaseContabc1Peer.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/55527/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContabc1Peer.php
+END
+BaseContaba.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/54580/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContaba.php
+END
+BaseContabc1m.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repositorio/!svn/ver/54580/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContabc1m.php
+END
+BaseContabb.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/54580/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContabb.php
+END
+BaseContabc.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repositorio/!svn/ver/61600/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContabc.php
+END
+BaseCodefcencos.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/54580/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseCodefcencos.php
+END
+BaseCodeftiplot.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/54580/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseCodeftiplot.php
+END
+BaseContabcm.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/54580/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContabcm.php
+END
+BaseContabbhisPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repositorio/!svn/ver/49800/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContabbhisPeer.php
+END
+BaseContaba1.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/54580/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContaba1.php
+END
+BaseCodetcencos.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/54580/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseCodetcencos.php
+END
+BaseContabc1.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/55527/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContabc1.php
+END
+BaseContacuetitPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/53889/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContacuetitPeer.php
+END
+BaseContadettitPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/53889/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContadettitPeer.php
+END
+BaseCotiptraPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/48499/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseCotiptraPeer.php
+END
+BaseContatitPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/53889/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContatitPeer.php
+END
+BaseContabb1Peer.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/repositorio/!svn/ver/35160/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContabb1Peer.php
+END
+BaseContabb1hisPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/49800/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContabb1hisPeer.php
+END
+BaseContabbhis.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repositorio/!svn/ver/49800/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContabbhis.php
+END
+BaseContadettit.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/53889/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContadettit.php
+END
+BaseContacuetit.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/53889/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContacuetit.php
+END
+BaseContabaPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/35160/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContabaPeer.php
+END
+BaseContabc1mPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/43317/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContabc1mPeer.php
+END
+BaseContabbPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/35160/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContabbPeer.php
+END
+BaseContatit.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/53889/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContatit.php
+END
+BaseContabcPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/61600/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContabcPeer.php
+END
+BaseCotiptra.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/54580/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseCotiptra.php
+END
+BaseCodefcencosPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/39141/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseCodefcencosPeer.php
+END
+BaseCodeftiplotPeer.php
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/repositorio/!svn/ver/46874/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseCodeftiplotPeer.php
+END
+BaseContabb1.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repositorio/!svn/ver/54580/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContabb1.php
+END
+BaseContabb1his.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repositorio/!svn/ver/49800/web/php/siga/branches/productions/trunk/lib/model/contabilidad/om/BaseContabb1his.php
+END

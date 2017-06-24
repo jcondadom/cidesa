@@ -1,0 +1,30 @@
+methods:
+  post:
+   - "contabb{codcta}"
+   - "contabb{descta}"
+
+names:
+  contabb{codcta}:
+    required:  Yes
+    required_msg: El Código de la Cuenta no puede estar en Blanco
+    validators: Validator_codcta
+
+  contabb{descta}:
+    required:  Yes
+    required_msg: La Descripción de la Cuenta no puede estar en Blanco
+    validators: Validator_descta    
+
+Validator_codcta:
+    class: sfPropelUniqueValidator
+    param:
+        class:        Contabb
+        column:       codcta
+        unique_error: La Cuenta ya ha sido Registrada, intente con otra.
+
+Validator_descta:
+    class: sfStringValidator
+    param:
+        min:       2
+        min_error: La descripción no puede tener menos de 2 caracteres
+        max:       250
+        min_error: La descripción no puede tener mas de 250 caracteres        

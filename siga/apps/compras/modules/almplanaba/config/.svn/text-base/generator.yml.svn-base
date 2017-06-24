@@ -1,0 +1,39 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Capdaoc
+    theme:            cidesaGenerator
+    fields:
+      refpda: { name: Referencia, params: maxlength=15 onFocus=readonly(this.id)}
+      fecpda: { name: Fecha, params: date_format='dd/MM/yyyy' size=10 maxlength=10}
+      despda:  { name: Descripción, type: textarea_tag, params: size=80x5 maxlength=2000 onkeyup=" return ismaxlength(this)"}
+      fecdes:  { name: Fec. Desde}
+      fechas:  { name: Fec. Hasta}
+      btn:  { name: .}
+      btn2:  { name: .}
+      grid:  { name: .}
+      grid2:  { name: .}
+      grid3:  { name: .}
+      btn3:  { name: .}
+      js:  { name: .}
+    list:
+      title:          Plan de Abastecimiento
+      filters:        [refpda, fecpda]
+      display:        [=refpda, fecpda, despda]
+      max_per_page:   10
+      sort:  refpda
+      object_actions:
+        _edit:        ~
+        _delete:      ~
+    edit:
+      title:          Edición de Plan de Abastecimiento
+      display:        
+        "Datos del Plan":  [refpda, fecpda, despda]
+        "Filtros":  [_fecdes, _fechas, _btn, _grid2, _btn2]
+        "Detalle de Ordenés de Compra":    [_grid3, _btn3, _grid, _js]
+      hide:    [actfil, codartact, canartact]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

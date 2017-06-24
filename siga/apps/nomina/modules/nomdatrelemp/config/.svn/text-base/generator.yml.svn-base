@@ -1,0 +1,51 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Nphojint
+    theme:            cidesaGenerator
+    fields:
+      codemp: { name: Código Empleado, params: size=10 readonly=true}
+      nomemp: { name: Nombre, params: size=60 readonly=true}
+      nomcar: { name: Cargo, params: size=50 readonly=true}
+      cedemp: { name: Cédula, params: size=25 readonly=true}
+      gridjug:   { name: .}
+      griduti:   { name: .}
+      gridbec:   { name: .}
+      gridapo:   { name: .}
+      gridrem:   { name: .}
+      gridreg:   { name: .}
+      gridemb:   { name: .}
+      grideva:   { name: .}
+      gridvia:   { name: .}
+      gridcap:   { name: .}
+      gridrec:   { name: .}
+      gridact:   { name: .}
+      gridret:   { name: .}
+      gridlab:   { name: .}
+      gridded:   { name: .}
+      gridant:   { name: .}
+      gridint:   { name: .}
+    list:
+      title:          Otros Datos Relacionados al Empleado
+      filters:        [codemp, nomemp]
+      display:        [=codemp, nomemp, cedemp]
+      fields:
+        nomemp: { name: Nombre, params: size=20}
+      object_actions:
+        _edit:        ~
+        _delete:      NONE
+      actions:
+       _create:      NONE
+      max_per_page:   5
+      sort:    codemp
+    edit:
+      title:          Edición de Otros Datos Relacionados al Empleado
+      display:
+        "Datos del Empleado":  [codemp, nomemp, cedemp, nomcar]
+        "Beneficios Socio-Económicos":  [_gridjug, _griduti, _gridbec]
+        "NONE":    [_gridapo, _gridrem, _gridreg, _gridemb, _grideva, _gridvia, _gridcap, _gridrec, _gridact, _gridret, _gridlab, _gridded, _gridant, _gridint]
+      actions:
+       _list:        ~
+       _save:        ~
+       _delete:      NONE
+       _create:      NONE

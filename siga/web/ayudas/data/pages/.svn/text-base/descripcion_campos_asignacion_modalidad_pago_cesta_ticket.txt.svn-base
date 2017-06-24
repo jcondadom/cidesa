@@ -1,0 +1,27 @@
+Los campos que conforman la pantalla de **Definición de Conceptos de Cesta Tickets** son los siguientes:
+
+<html><br><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:nomperdefconcesttickinc1.jpg|}}"></div><br></html>
+
+  * En la **sección Datos Generales**:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Código Nómina:** Refiere al Código y Descripción de la nómina a la cual se le asociará al concepto.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Código Concepto:** Refiere al Código y Descripción del Concepto a asociar.
+
+  * En la **sección Valor del Ticket**: <html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html>**- Monto Fijo:** Indica si el Monto es Fijo ó por Porcentaje de Unidad Tributaria.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> ** - Valor:** Va a depender del campo Monto Fijo, es decir puede ser en Monto ó en Porcentaje de Unidad Tributaria.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **Número de Tickets:** Indica el número de tickets correspondientes a ser cancelados por días laborados.
+
+  * En la **sección Datos de Cálculo**:<html><br><br></html>
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **-Tipo de Pago de Tickets.** Debe seleccionar si el pago de los tickets es **Por Días Fijos**, **Días Variables** ó **Por Jornadas del Trabajador**.
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Días Fijos del Mes:** Número de Días a tomar en cuenta del mes. (cuando es fijo).
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> **- Días a Tomar en Cuenta:** Se indica si los días a considerar para el cálculo de los cesta tickets son los **Días Hábiles**, **Sábados y Domingos** ó **Dias Feriados**. <html><br><br></html>
+
+  * Una vez que conoce cada uno de los campos de la pantalla de **Definición de Conceptos de Cesta Tickets** podrá realizar las siguientes [[operaciones_basicas|Operaciones Básicas]]** son los siguientes:

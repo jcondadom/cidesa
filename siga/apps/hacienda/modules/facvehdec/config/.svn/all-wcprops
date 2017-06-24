@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repositorio/!svn/ver/47044/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facvehdec/config
+END
+grid.yml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/44651/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facvehdec/config/grid.yml
+END
+generator.yml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/47044/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facvehdec/config/generator.yml
+END
+griddeuda.yml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/44651/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facvehdec/config/griddeuda.yml
+END
+gridmulta.yml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repositorio/!svn/ver/44784/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facvehdec/config/gridmulta.yml
+END
+view.yml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repositorio/!svn/ver/40715/web/php/siga/branches/productions/trunk/apps/hacienda/modules/facvehdec/config/view.yml
+END

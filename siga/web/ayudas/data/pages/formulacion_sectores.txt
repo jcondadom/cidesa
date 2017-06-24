@@ -1,0 +1,16 @@
+====== Sectores ======
+
+<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</html> Proceso que permite definir los distintos Sectores del proyecto, los cuales representan la actividad económica a la que corresponde los bienes y/o servicios que producirá el proyecto.
+
+**Para ello:**
+
+  * Seleccione la opción **Formulación Presupuestaria** ubicada en el Menú Principal de **SIGA**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpre.jpg|}}"></div><br></html>
+
+  * Seguidamente despliegue la opción de **Definiciones Generales**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpredefesp.jpg|}}"></div><br></html>
+ 
+  * Por último seleccione **Sectores**
+<html><div align="center"><img src="/ayudas/lib/exe/fetch.php/{{:formpresect.jpg}}"></div><br></html>
+
+  * Una vez ubicado en la pantalla de **Sectores** veamos la [[Descripcion_Campos_formulacion_sectores|Descripción de los Campos]]

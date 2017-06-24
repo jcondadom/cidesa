@@ -1,0 +1,36 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Mandeffal
+    theme:            cidesaGenerator
+    fields:
+      coddfa: { name:  Código, params : size=5 maxlength=4 onFocus=readonly(this.id)}
+      desdfa: { name:  Descripción, params : size=80 maxlength=250}
+      codsfa:
+        name: Síntoma de la Falla
+        catalogo:
+          catalogoweb: Mantenimiento_Mansinfal
+          clase: Mansinfal
+          ajax: 0
+          parametros: getprincipal="getCodsfa" getsecundario="getDessfa" campoprincipal="codsfa" camposecundario="dessfa" campobase = "id"     
+    list:
+      title:          Defectos de las Fallas
+      display:        [=coddfa, desdfa]
+      fields:
+        coddfa: { name:  Código, params : size=5 maxlength=4}
+        desdfa: { name:  Descripción, params : size=15 maxlength=250}
+      filters:        [coddfa, desdfa]
+      object_actions:
+        _edit:        ~
+        _delete:      ~      
+      max_per_page:   10
+      sort:           coddfa
+    edit:
+      title:          Edición de Defecto de la Falla
+      display:
+        "NONE": [coddfa, desdfa, codsfa]
+      actions:
+        _list:        ~
+        _save:        ~
+        _create:      ~
+        _delete:      ~

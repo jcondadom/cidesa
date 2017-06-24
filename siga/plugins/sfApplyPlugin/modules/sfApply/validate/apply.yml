@@ -1,0 +1,49 @@
+fillin:
+  enabled: true
+  param:
+    name: sf_apply_apply
+
+fields:
+  # username:
+  #   required: yes
+  #     msg: "Elija un nombre de usuario."
+  #   sfStringValidator:
+  #     min: 4
+  #     min_error: "El nombre de usuario debe tener al menos cuatro caracteres."
+  #     max:128j 
+  #     max_error: "El nombre de usuario debe tener 16 caracteres o menos."
+  email:
+    required: yes
+      msg: "Debe ingresar una direccion de correo electronico valida."
+    sfEmailValidator:
+      strict: true
+      email_error: "Debe ingresar una direccion de correo electronico valida."
+  password:
+    required: yes
+      msg: "Elija una contrasena."
+    sfStringValidator:
+      min: 6
+      min_error: "La contrasena debe tener al menos seis caracteres."
+      max: 128
+      max_error: "La contrasena debe ser de 128 caracteres o menos."
+  fullname:
+    required: yes
+      msg: "Debe proporcionar su nombre completo."
+    sfStringValidator:
+      min: 6
+      min_error: "El nombre completo debe ser de al menos seis caracteres."
+      max: 128
+      max_error: "El nombre completo debe ser de 128 caracteres o menos."
+  institution:
+    required: yes
+      msg: "Debe proporcionar el nombre de la institución de donde procede."
+    sfStringValidator:
+      min: 6
+      min_error: "El nombre de la institución debe ser de al menos seis caracteres."
+      max: 128
+      max_error: "El nombre de la institución debe ser de 128 caracteres o menos."
+validators:
+  emailValidator:
+    class: sfEmailValidator
+    strict: true
+

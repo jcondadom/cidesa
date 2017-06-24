@@ -1,0 +1,17 @@
+generator:
+  class:              cidesaPropelAdminGenerator
+  param:
+    model_class:      Viasoltraterre
+    theme:            cidesaGenerator
+    fields:
+      grid:           { name: .}
+      fecdes:           { name: Fecha Desde}
+      fechas:           { name: Fecha Hasta}
+      
+    edit:
+      title:          Aprobación de Solicitud de Transporte Terrestre
+      display:
+        Filtros:  [_fecdes, _fechas]
+        Lista de Solicitudes por Aprobar:  [_grid]
+      actions:
+        _save:        ~

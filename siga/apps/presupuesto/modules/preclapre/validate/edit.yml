@@ -1,0 +1,29 @@
+methods:
+  post:
+   - "cpdefparpre{codparpre}"
+   - "cpdefparpre{nomparpre}"
+names:
+  cpdefparpre{codparpre}:
+    required:  Yes
+    required_msg: El Código Presupuestario no puede estar en blanco
+    validators: Validator_codparpre
+
+  cpdefparpre{nomparpre}:
+    required:  Yes
+    required_msg: La Descripción no puede estar en blanco
+    validators: Validator_MyString2
+
+Validator_MyString2:
+    class: sfStringValidator
+    param:
+        min:       1
+        min_error: La Descripción debe tener al menos un caracter
+        max:       500
+        max_error: La Descripción no puede tener mas de 500 caracteres
+
+Validator_codparpre:
+  class: sfPropelUniqueValidator
+  param:
+    class:        Cpdefparpre
+    column:       codparpre
+    unique_error: El Código ya Existe intente con otro
